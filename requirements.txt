@@ -1,0 +1,4 @@
+requests
+jsonschema
+pandas
+numpy
