@@ -32,14 +32,14 @@
 
 ### Load Video (Upload)
 
-| 参数              | 类型  | 默认值     | A   | 功能说明                |
-| ----------------- | ----- | ---------- | --- | ----------------------- |
-| video             | FILE  | -          | 🟥   | 要加载的视频文件        |
-| force_rate        | FLOAT | 0.0        | 🟦   | 强制调整帧率，设为0禁用 |
-| force_size        | COMBO | "Disabled" | 🟦   | 快速调整尺寸选项        |
-| frame_load_cap    | INT   | 0          | 🟦   | 最大返回帧数(批次大小)  |
-| skip_first_frames | INT   | 0          | 🟦   | 跳过开头的帧数          |
-| select_every_nth  | INT   | 1          | 🟦   | 每N帧采样一帧           |
+| 参数              | 类型  | 默认值     | 参数性质 | 功能说明                |
+| ----------------- | ----- | ---------- | -------- | ----------------------- |
+| video             | FILE  | -          | 必选     | 要加载的视频文件        |
+| force_rate        | FLOAT | 0.0        | 可选     | 强制调整帧率，设为0禁用 |
+| force_size        | COMBO | "Disabled" | 可选     | 快速调整尺寸选项        |
+| frame_load_cap    | INT   | 0          | 可选     | 最大返回帧数(批次大小)  |
+| skip_first_frames | INT   | 0          | 可选     | 跳过开头的帧数          |
+| select_every_nth  | INT   | 1          | 可选     | 每N帧采样一帧           |
 
 **输出**: IMAGE[] (图像序列), VHS_VIDEOINFO (视频信息), AUDIO (可选音频)
 
@@ -50,14 +50,14 @@
 
 ### Load Video (Path)
 
-| 参数              | 类型   | 默认值     | A   | 功能说明                |
-| ----------------- | ------ | ---------- | --- | ----------------------- |
-| video_path        | STRING | "input/"   | 🟥   | 视频文件路径            |
-| force_rate        | FLOAT  | 0.0        | 🟦   | 强制调整帧率，设为0禁用 |
-| force_size        | COMBO  | "Disabled" | 🟦   | 快速调整尺寸选项        |
-| frame_load_cap    | INT    | 0          | 🟦   | 最大返回帧数(批次大小)  |
-| skip_first_frames | INT    | 0          | 🟦   | 跳过开头的帧数          |
-| select_every_nth  | INT    | 1          | 🟦   | 每N帧采样一帧           |
+| 参数              | 类型   | 默认值     | 参数性质 | 功能说明                |
+| ----------------- | ------ | ---------- | -------- | ----------------------- |
+| video_path        | STRING | "input/"   | 必选     | 视频文件路径            |
+| force_rate        | FLOAT  | 0.0        | 可选     | 强制调整帧率，设为0禁用 |
+| force_size        | COMBO  | "Disabled" | 可选     | 快速调整尺寸选项        |
+| frame_load_cap    | INT    | 0          | 可选     | 最大返回帧数(批次大小)  |
+| skip_first_frames | INT    | 0          | 可选     | 跳过开头的帧数          |
+| select_every_nth  | INT    | 1          | 可选     | 每N帧采样一帧           |
 
 **输出**: IMAGE[] (图像序列), VHS_VIDEOINFO (视频信息), AUDIO (可选音频)
 
@@ -68,16 +68,16 @@
 
 ### Video Combine
 
-| 参数            | 类型    | 默认值        | A   | 功能说明                 |
-| --------------- | ------- | ------------- | --- | ------------------------ |
-| images          | IMAGE[] | -             | 🟥   | 要合成的图像序列         |
-| frame_rate      | FLOAT   | 8.0           | 🟥   | 输出视频帧率             |
-| loop_count      | INT     | 0             | 🟦   | 视频重复次数(0=无限循环) |
-| filename_prefix | STRING  | "AnimateDiff" | 🟦   | 输出文件名前缀           |
-| format          | COMBO   | "h264-mp4"    | 🟥   | 视频格式选择             |
-| pingpong        | BOOLEAN | False         | 🟦   | 创建往返循环效果         |
-| save_output     | BOOLEAN | True          | 🟦   | 是否保存到输出目录       |
-| audio           | AUDIO   | -             | 🟨   | 可选音频轨道             |
+| 参数            | 类型    | 默认值        | 参数性质 | 功能说明                 |
+| --------------- | ------- | ------------- | -------- | ------------------------ |
+| images          | IMAGE[] | -             | 必选     | 要合成的图像序列         |
+| frame_rate      | FLOAT   | 8.0           | 必选     | 输出视频帧率             |
+| loop_count      | INT     | 0             | 可选     | 视频重复次数(0=无限循环) |
+| filename_prefix | STRING  | "AnimateDiff" | 可选     | 输出文件名前缀           |
+| format          | COMBO   | "h264-mp4"    | 必选     | 视频格式选择             |
+| pingpong        | BOOLEAN | False         | 可选     | 创建往返循环效果         |
+| save_output     | BOOLEAN | True          | 可选     | 是否保存到输出目录       |
+| audio           | AUDIO   | -             | 条件可选 | 可选音频轨道             |
 
 **输出**: VHS_FILENAMES (生成文件路径列表)
 
@@ -95,10 +95,10 @@
 
 ### Load Audio (Path)
 
-| 参数         | 类型   | 默认值   | A   | 功能说明               |
-| ------------ | ------ | -------- | --- | ---------------------- |
-| audio_file   | STRING | "input/" | 🟥   | 音频文件路径           |
-| seek_seconds | FLOAT  | 0        | 🟦   | 从指定时间开始加载(秒) |
+| 参数         | 类型   | 默认值   | 参数性质 | 功能说明               |
+| ------------ | ------ | -------- | -------- | ---------------------- |
+| audio_file   | STRING | "input/" | 必选     | 音频文件路径           |
+| seek_seconds | FLOAT  | 0        | 可选     | 从指定时间开始加载(秒) |
 
 **输出**: AUDIO (音频数据)
 
@@ -111,10 +111,10 @@
 
 ### Split Images
 
-| 参数        | 类型    | 默认值 | A   | 功能说明             |
-| ----------- | ------- | ------ | --- | -------------------- |
-| images      | IMAGE[] | -      | 🟥   | 要分割的图像序列     |
-| split_index | INT     | 1      | 🟥   | 分割点(前N个到输出A) |
+| 参数        | 类型    | 默认值 | 参数性质 | 功能说明             |
+| ----------- | ------- | ------ | -------- | -------------------- |
+| images      | IMAGE[] | -      | 必选     | 要分割的图像序列     |
+| split_index | INT     | 1      | 必选     | 分割点(前N个到输出A) |
 
 **输出**: IMAGE[] (前半部分), IMAGE[] (后半部分)
 
@@ -125,9 +125,9 @@
 
 ### Video Info
 
-| 参数       | 类型          | 默认值 | A   | 功能说明     |
-| ---------- | ------------- | ------ | --- | ------------ |
-| video_info | VHS_VIDEOINFO | -      | 🟥   | 视频信息对象 |
+| 参数       | 类型          | 默认值 | 参数性质 | 功能说明     |
+| ---------- | ------------- | ------ | -------- | ------------ |
+| video_info | VHS_VIDEOINFO | -      | 必选     | 视频信息对象 |
 
 **输出**: 
 - 源视频信息(fps, frame_count, duration, width, height)
@@ -140,9 +140,9 @@
 
 ### Meta Batch Manager
 
-| 参数             | 类型 | 默认值 | A   | 功能说明           |
-| ---------------- | ---- | ------ | --- | ------------------ |
-| frames_per_batch | INT  | 16     | 🟥   | 每批处理的最大帧数 |
+| 参数             | 类型 | 默认值 | 参数性质 | 功能说明           |
+| ---------------- | ---- | ------ | -------- | ------------------ |
+| frames_per_batch | INT  | 16     | 必选     | 每批处理的最大帧数 |
 
 **输出**: VHS_BatchManager (批处理管理器)
 
@@ -155,7 +155,6 @@
 
 | 工作流名称     | 节点组合                                                            | 用途                   |
 | -------------- | ------------------------------------------------------------------- | ---------------------- |
-| 基础视频处理   | Load Video → KSampler → Video Combine                               | 简单视频风格转换       |
 | 长视频分段处理 | Load Video → Meta Batch Manager → 处理 → Video Combine              | 处理超长视频           |
 | 视频加音频     | Load Video + Load Audio → 处理 → Video Combine                      | 保留或添加音轨         |
 | 循环动画创建   | Load Video → 处理 → Video Combine(pingpong=True)                    | 创建来回循环效果       |
