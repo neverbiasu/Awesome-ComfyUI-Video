@@ -26,9 +26,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # 添加所有在 src/data/ 目录下的更改
+
           git add src/data/filtered_sorted_custom_nodes.json
-          # 检查是否有更改需要提交
+
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
