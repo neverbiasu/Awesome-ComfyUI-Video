@@ -1,0 +1,37 @@
+name: Daily Update DB
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update_db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name: Run script to merge, filter, and sort nodes
+        run: |
+          python src/merge_sort_and_filter_nodes.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git add src/data/filtered_sorted_custom_nodes.json
+
+          if git diff --staged --quiet; then
+          # Check if there are no staged changes to commit
+          if git diff --staged --quiet; then
+            git commit -m "Update filtered and sorted nodes data"
+            git commit -m "update db"
+            git push origin ${{ github.ref_name }}
+          fi
