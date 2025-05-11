@@ -1,0 +1,37 @@
+name: Daily Update DB
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update_db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run script to merge, filter, and sort nodes
+        run: |
+          python src/merge_sort_and_filter_nodes.py
+        working-directory: ${{ github.workspace }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # 添加所有在 src/data/ 目录下的更改
+          git add src/data/filtered_sorted_custom_nodes.json
+          # 检查是否有更改需要提交
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "update db"
+            git push
+          fi
