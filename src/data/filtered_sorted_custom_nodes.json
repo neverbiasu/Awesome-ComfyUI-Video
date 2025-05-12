@@ -515,6 +515,19 @@
       "author_account_age_days": 376
     },
     {
+      "author": "ClownsharkBatwing",
+      "title": "RES4LYF",
+      "id": "res4lyf",
+      "reference": "https://github.com/ClownsharkBatwing/RES4LYF",
+      "files": [
+        "https://github.com/ClownsharkBatwing/RES4LYF"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced samplers with new noise scaling math to enable SDE sampling with all publicly available native models; new unsampling/noise inversion methods and other advanced img2img techniques for inpainting and/or guiding the sampling process with guide images, with results superior to FlowEdit, RF Inversion, and other SOTA implementations. Also new style transfer methods unique to this node pack; regional conditioning for HiDream, Flux, AuraFlow, and WAN; methods for eliminating Flux blur; and temporal conditioning (shift gradually from one prompt to the next with video). 115 sampler types, 24 noise types, 11 noise scaling modes, in a single node. Also includes a wide variety of QoF and other utility nodes for boosting detail, manipulating sigmas, latents, images, and more.",
+      "stars": 118,
+      "author_account_age_days": 348
+    },
+    {
       "author": "daxcay",
       "title": "ComfyUI-JDCN",
       "id": "jdcn",
