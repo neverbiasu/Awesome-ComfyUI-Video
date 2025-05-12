@@ -17,9 +17,15 @@ jobs:
         with:
           python-version: '3.8'
 
+      - name: Fetch custom node list
+        run: python src/fetch_custom_node_list.py
+
+      - name: Fetch GitHub stats
+        run: python src/fetch_github_stats.py
+
       - name: Run script to merge, filter, and sort nodes
         run: |
-          python src/merge_sort_and_filter_nodes.py
+          python src/merge_and_sort_nodes.py
 
       - name: Commit and push changes
         run: |
