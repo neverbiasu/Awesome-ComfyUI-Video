@@ -25063,9 +25063,9 @@
     {
       "author": "MijnSpam",
       "title": "ComfyUI_UploadToPushOver",
-      "reference": "https://github.com/MijnSpam/ComfyUI_UploadToWebhookPushOver",
+      "reference": "https://github.com/MijnSpam/UploadToPushOver",
       "files": [
-        "https://github.com/MijnSpam/ComfyUI_UploadToWebhookPushOver"
+        "https://github.com/MijnSpam/UploadToPushOver"
       ],
       "install_type": "git-clone",
       "description": "Send generated image to PushOver API webhook with optional parameters such as prompt-id and metadata payload."
@@ -25256,6 +25256,92 @@
       ],
       "install_type": "git-clone",
       "description": "This is a top-tier Snake game node developed for ComfyUI. It lets you play a mini Snake game within the ComfyUI workflow, so you won’t get bored while waiting for image generation (or slacking off at work). Playing is not allowed by Han Cheng."
+    },
+    {
+      "author": "pixible",
+      "title": "comfyui-customselector",
+      "reference": "https://github.com/gasparuff/CustomSelector",
+      "files": [
+        "https://github.com/gasparuff/CustomSelector"
+      ],
+      "install_type": "git-clone",
+      "description": "Helps deciding different settings depending on the input string"
+    },
+    {
+      "author": "AIWarper",
+      "title": "NormalCrafterWrapper",
+      "id": "normal-crafter-wrapper",
+      "reference": "https://github.com/AIWarper/ComfyUI-NormalCrafterWrapper",
+      "files": [
+        "https://github.com/AIWarper/ComfyUI-NormalCrafterWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI diffusers wrapper nodes for [a/NormalCrafter](https://github.com/Binyr/NormalCrafter)"
+    },
+    {
+      "author": "Goshe-nite",
+      "title": "GPS' Supplements for ComfyUI",
+      "id": "GPSupps",
+      "reference": "https://github.com/Goshe-nite/comfyui-gps-supplements",
+      "files": [
+        "https://github.com/Goshe-nite/comfyui-gps-supplements"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes to make ComfyUI-Image-Saver and rgthree-comfy more compatible. Allowing Power Lora Loader node to be used with Image Saver node. Also adding nodes to extract Image Saver compatible strings to simplify workflows."
+    },
+    {
+      "author": "fpgaminer",
+      "title": "JoyCaption Nodes",
+      "id": "comfyui-joycaption",
+      "reference": "https://github.com/fpgaminer/joycaption_comfyui",
+      "files": [
+        "https://github.com/fpgaminer/joycaption_comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for running the JoyCaption image captioner VLM."
+    },
+    {
+      "author": "1hew",
+      "title": "ComfyUI 1hewNodes",
+      "id": "ComfyUI-1hewNodes",
+      "reference": "https://github.com/1hew/ComfyUI-1hewNodes",
+      "files": [
+        "https://github.com/1hew/ComfyUI-1hewNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node collection for ComfyUI that provides some utility nodes."
+    },
+    {
+      "author": "cyberhirsch",
+      "title": "Seb Nodes",
+      "id": "seb_nodes",
+      "reference": "https://github.com/cyberhirsch/seb_nodes",
+      "files": [
+        "https://github.com/cyberhirsch/seb_nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Save image node with dynamic paths and an 'Open Folder' button."
+    },
+    {
+      "author": "Alastor 666 1933",
+      "title": "Caching to not Waste",
+      "id": "caching_to_not_waste",
+      "reference": "https://github.com/alastor-666-1933/caching_to_not_waste",
+      "files": [
+        "https://github.com/alastor-666-1933/caching_to_not_waste"
+      ],
+      "install_type": "git-clone",
+      "description": "This node allows you to cache/caching/store and reuse resized images, ControlNet images, masks, and texts. It avoids repeating heavy operations by loading previously saved files — saving time, memory, and processing power in future executions."
+    },
+    {
+      "author": "hayd-zju",
+      "title": "ICEdit-ComfyUI-official",
+      "reference": "https://github.com/hayd-zju/ICEdit-ComfyUI-official",
+      "files": [
+        "https://github.com/hayd-zju/ICEdit-ComfyUI-official"
+      ],
+      "install_type": "git-clone",
+      "description": "This node pack provides the official ComfyUI workflow for ICEdit."
     },
     {
       "author": "Ser-Hilary",
