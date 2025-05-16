@@ -15246,7 +15246,7 @@
         "https://github.com/Hellrunner2k/ComfyUI-HellrunnersMagicalNodes"
       ],
       "install_type": "git-clone",
-      "description": "Nodes:Magical Save Node, Thermal Latenator. This package contains a collection of neat nodes that are supposed to ease your comfy-flow."
+      "description": "Magical nodes that are meant for integration and science of course. ^^ Foundational Helpers and smart Containers that use automated functionalities to make room for creative use. A magical pack-synergy is at hand that does not require much extra clutter to make advanced techniques pop beautifully. The idea was to create universal artist's precision tools that do not care what you throw at them."
     },
     {
       "author": "caleboleary",
@@ -16734,6 +16734,16 @@
       "description": "LIST and BATCH utilities which support: create, convert, get or slice items"
     },
     {
+      "author": "godmt",
+      "title": "ComfyUI-IP-Composer",
+      "reference": "https://github.com/godmt/ComfyUI-IP-Composer",
+      "files": [
+        "https://github.com/godmt/ComfyUI-IP-Composer"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI wrapper of IP-Composer"
+    },
+    {
       "author": "pedrogengo",
       "title": "ComfyUI-LumaAI-API",
       "id": "lumaai-api",
@@ -17735,7 +17745,7 @@
         "https://github.com/taches-ai/comfyui-scene-composer"
       ],
       "install_type": "git-clone",
-      "description": "A collection of nodes to facilitate the creation of scenes in ComfyUI."
+      "description": "A collection of nodes to facilitate the creation of explicit NSFW scenes in ComfyUI."
     },
     {
       "author": "NguynHungNguyen",
@@ -19423,6 +19433,26 @@
       "description": "Make Multiverse avialbe in ComfyUI.\nMultiverse: The First AI Multiplayer World Model. Two human players driving cars in Multiverse."
     },
     {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-Matrix-Game",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-Matrix-Game",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-Matrix-Game"
+      ],
+      "install_type": "git-clone",
+      "description": "Make Matrix-Game avialbe in ComfyUI."
+    },
+    {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-Step1X-3D",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-Step1X-3D",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-Step1X-3D"
+      ],
+      "install_type": "git-clone",
+      "description": "Make Step1X-3D avialbe in ComfyUI."
+    },
+    {
       "author": "Starnodes2024",
       "title": "ComfyUI_StarNodes",
       "reference": "https://github.com/Starnodes2024/ComfyUI_StarNodes",
@@ -20783,6 +20813,16 @@
       "description": "IndexTTS Voice Cloning Nodes for ComfyUI. High-quality voice cloning, very fast, supports Chinese and English, and allows custom voice styles."
     },
     {
+      "author": "mw",
+      "title": "ComfyUI_ACE-Step",
+      "reference": "https://github.com/billwuhao/ComfyUI_ACE-Step",
+      "files": [
+        "https://github.com/billwuhao/ComfyUI_ACE-Step"
+      ],
+      "install_type": "git-clone",
+      "description": "ACE-Step: A Step Towards Music Generation Foundation Model"
+    },
+    {
       "author": "umiyuki",
       "title": "ComfyUI Pad To Eight",
       "reference": "https://github.com/umiyuki/comfyui-pad-to-eight",
@@ -22128,16 +22168,6 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI nodes that support video generation by start and end frames"
-    },
-    {
-      "author": "satche",
-      "title": "Prompt Factory",
-      "reference": "https://github.com/satche/comfyui-prompt-factory",
-      "files": [
-        "https://github.com/satche/comfyui-prompt-factory"
-      ],
-      "install_type": "git-clone",
-      "description": "A modular system that adds randomness to prompt generation"
     },
     {
       "author": "martin-rizzo",
@@ -24302,6 +24332,17 @@
       "description": "This node package contains automatic sampler setting according to model name in ComfyUI, adjusting image size according to specific constraints and some other nodes."
     },
     {
+      "author": "KERRY-YUAN",
+      "title": "NodeSparkTTS",
+      "id": "NodeSparkTTS",
+      "reference": "https://github.com/KERRY-YUAN/ComfyUI_Spark_TTS",
+      "files": [
+        "https://github.com/KERRY-YUAN/ComfyUI_Spark_TTS"
+      ],
+      "install_type": "git-clone",
+      "description": "This node package contains nodes for Spark-TTS controllable synthesis and voice cloning.."
+    },
+    {
       "author": "brantje",
       "title": "ComfyUI-api-tools",
       "id": "comfyui_api_tools",
@@ -25192,7 +25233,7 @@
     },
     {
       "author": "MijnSpam",
-      "title": "ComfyUI_UploadToPushOver",
+      "title": "Upload to PushOver",
       "reference": "https://github.com/MijnSpam/UploadToPushOver",
       "files": [
         "https://github.com/MijnSpam/UploadToPushOver"
@@ -25218,7 +25259,7 @@
       "files": [
         "https://github.com/Irsalistic/comfyui-dam-object-extractor"
       ],
-      "description": "Extract object names and descriptions from masked regions using NVIDIA's DAM model",
+      "description": "A ComfyUI node that uses NVIDIA's DAM model to identify objects in masked regions",
       "tags": [
         "object recognition",
         "vision",
@@ -25369,13 +25410,13 @@
     },
     {
       "author": "IIs-fanta",
-      "title": "ComfyUI-SnakeGameNode",
-      "reference": "https://github.com/IIs-fanta/ComfyUI-SnakeGameNode",
+      "title": "ComfyUI-FANTA-GameBox",
+      "reference": "https://github.com/IIs-fanta/ComfyUI-FANTA-GameBox",
       "files": [
-        "https://github.com/IIs-fanta/ComfyUI-SnakeGameNode"
+        "https://github.com/IIs-fanta/ComfyUI-FANTA-GameBox"
       ],
       "install_type": "git-clone",
-      "description": "This is a top-tier Snake game node developed for ComfyUI. It lets you play a mini Snake game within the ComfyUI workflow, so you won’t get bored while waiting for image generation (or slacking off at work). Playing is not allowed by Han Cheng."
+      "description": "Nodes for playing mini-games with ComfyUI."
     },
     {
       "author": "pixible",
@@ -25485,13 +25526,13 @@
     },
     {
       "author": "krmahil",
-      "title": "comfyui-hollow-preserve",
+      "title": "Hollow Preserve",
       "reference": "https://github.com/krmahil/comfyui-hollow-preserve",
       "files": [
         "https://github.com/krmahil/comfyui-hollow-preserve"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI node to remove enclosed areas from masks for better inpainting"
+      "description": "A ComfyUI node that breaks closed loops in masks to prevent inpainting models from modifying enclosed regions"
     },
     {
       "author": "lihaoyun6",
@@ -25632,6 +25673,89 @@
       ],
       "install_type": "git-clone",
       "description": "Allows making a mirror of options that are on a node, for use creating your own UI"
+    },
+    {
+      "author": "Dontdrunk",
+      "title": "ComfyUI-DD-Nodes",
+      "id": "comfyui-dd-nodes",
+      "reference": "https://github.com/Dontdrunk/ComfyUI-DD-Nodes",
+      "files": [
+        "https://github.com/Dontdrunk/ComfyUI-DD-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Provide powerful frontend and backend integration node packages for ComfyUI - this is an exceptionally robust integration extension."
+    },
+    {
+      "author": "Dontdrunk",
+      "title": "ComfyUI-DD-Translation",
+      "id": "comfyui-dd-translation",
+      "reference": "https://github.com/Dontdrunk/ComfyUI-DD-Translation",
+      "files": [
+        "https://github.com/Dontdrunk/ComfyUI-DD-Translation"
+      ],
+      "install_type": "git-clone",
+      "description": "A plugin offering supplementary Chinese translations for ComfyUI custom nodes."
+    },
+    {
+      "author": "TrophiHunter",
+      "title": "Photography Nodes",
+      "id": "comfyui-photography-nodes",
+      "reference": "https://www.trophihunter.com/software-plugins/comfyui_photography_nodes",
+      "files": [
+        "https://github.com/TrophiHunter/ComfyUI_Photography_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "I wanted a way to batch add effects to images inside Comfyui so I made these nodes. Some of the effects should be ordered specifically so they stack and are effecting the image emulating camera effectsI made some workflows to show you the correct order."
+    },
+    {
+      "author": "magic-eraser-org",
+      "title": "ComfyUI-Unwatermark",
+      "reference": "https://github.com/magic-eraser-org/ComfyUI-Unwatermark",
+      "files": [
+        "https://github.com/magic-eraser-org/ComfyUI-Unwatermark"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-Unwatermark: A ComfyUI custom node to intelligently remove watermarks from images using the unwatermark.ai API.\nThis custom node for ComfyUI allows you to easily remove watermarks from your images by leveraging the power of the unwatermark.ai API."
+    },
+    {
+      "author": "ratatule2",
+      "title": "ComfyUI-LBMWrapper",
+      "reference": "https://github.com/ratatule2/ComfyUI-LBMWrapper",
+      "files": [
+        "https://github.com/ratatule2/ComfyUI-LBMWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-LBMWrapper is a user-friendly interface designed to simplify the integration of lightweight models into your projects. It streamlines workflows by providing essential tools for managing and deploying models with ease."
+    },
+    {
+      "author": "Sayene",
+      "title": "comfyui-base64-to-image-size",
+      "reference": "https://github.com/Sayene/comfyui-base64-to-image-size",
+      "files": [
+        "https://github.com/Sayene/comfyui-base64-to-image-size"
+      ],
+      "install_type": "git-clone",
+      "description": "Loads an image and its transparency mask from a base64-encoded data URI. This is useful for API connections as you can transfer data directly rather than specify a file location."
+    },
+    {
+      "author": "xuhongming251",
+      "title": "ComfyUI-Jimeng",
+      "reference": "https://github.com/xuhongming251/ComfyUI-Jimeng",
+      "files": [
+        "https://github.com/xuhongming251/ComfyUI-Jimeng"
+      ],
+      "install_type": "git-clone",
+      "description": "for use jimeng ai in comfyui"
+    },
+    {
+      "author": "AEmotionStudio",
+      "title": "ComfyUI-MagnifyGlass",
+      "reference": "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass",
+      "files": [
+        "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-MagnifyGlass: A powerful & customizable magnifying glass for ComfyUI. Zoom into canvas details with smooth controls, configurable activation, custom styles (shape, size, border) & WebGL performance."
     },
     {
       "author": "Ser-Hilary",
