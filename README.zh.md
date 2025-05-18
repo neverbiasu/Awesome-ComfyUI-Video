@@ -4,9 +4,11 @@
 
 ## 目录
 
-- [官方视频节点](#官方视频节点)
-- [优秀社区自定义节点](#优秀社区自定义节点)
-- [示例视频工作流](#示例视频工作流)
+- [Awesome-ComfyUI-Video (精选ComfyUI视频节点集合)](#awesome-comfyui-video-精选comfyui视频节点集合)
+  - [目录](#目录)
+  - [官方视频节点](#官方视频节点)
+  - [优秀社区自定义节点](#优秀社区自定义节点)
+  - [示例视频工作流](#示例视频工作流)
 
 ## 官方视频节点
 
@@ -22,7 +24,7 @@
 | 名称                        | 作者         | 描述                                                                                                                                                                                                                                                                                | Stars | 最后更新时间        | 仓库                                                                  | 详细文档                                                     |
 | --------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------ |
 | ComfyUI-3D-Pack             | MrForExample | 使ComfyUI中的3D资产生成像生成图像/视频一样出色和便捷！这是一个广泛的节点套件，使ComfyUI能够使用尖端算法（3DGS、NeRF等）和模型（InstantMesh、CRM、TripoSR等）处理3D输入（网格和UV纹理等）。                                                                                             | 3007  | 2025-01-24 18:41:37 | [GitHub](https://github.com/MrForExample/ComfyUI-3D-Pack)         | ...                                                          |
-| ComfyUI-HunyuanVideoWrapper | kijai        | [混元DiT](https://github.com/Tencent/HunyuanVideo) 的ComfyUI Diffusers封装节点。                                                                                                                                                                                                        | 2350  | 2025-03-30 16:48:09 | [GitHub](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper)    | ...                                                          |
+| ComfyUI-HunyuanVideoWrapper | kijai        | [混元DiT](https://github.com/Tencent/HunyuanVideo) 的ComfyUI Diffusers封装节点。                                                                                                                                                                                                        | 2350  | 2025-03-30 16:48:09 | [GitHub](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper)    | [Details](docs/zh/custom_nodes/hunyuanvideowrapper.md)                                                          |
 | EasyAnimate                 | bubbliiiing  | EasyAnimate的视频生成节点，支持文本到视频、图像到视频、视频到视频以及不同的控制。                                                                                                                                                                                                             | 2130  | 2025-03-06 11:41:28 | [GitHub](https://github.com/aigc-apps/EasyAnimate)                | [Details](docs/zh/custom_nodes/easyanimate.md)                                                          |
 | comfyui-mixlab-nodes        | shadowcz007  | 3D、ScreenShareNode & FloatingVideoNode、语音识别与合成、GPT、从本地加载图像、图层、其他节点等...                                                                                                                                                                                             | 1574  | 2025-02-05 10:24:45 | [GitHub](https://github.com/shadowcz007/comfyui-mixlab-nodes)     | ...                                                          |
 | ComfyUI-CogVideoXWrapper    | kijai        | CogVideoX的Diffusers封装 - 模型：[CogVideo](https://github.com/THUDM/CogVideo)                                                                                                                                                                                                          | 1476  | 2025-02-17 00:48:16 | [GitHub](https://github.com/kijai/ComfyUI-CogVideoXWrapper)       | ...                                                          |
