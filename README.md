@@ -3,7 +3,6 @@
 > For the Chinese version of this document, please see [README.zh.md](README.zh.md).
 
 ## Table of Contents
-
 - [Awesome-ComfyUI-Video](#awesome-comfyui-video)
   - [Table of Contents](#table-of-contents)
   - [Official Video Nodes](#official-video-nodes)

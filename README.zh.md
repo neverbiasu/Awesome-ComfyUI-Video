@@ -3,7 +3,6 @@
 > 本文档的英文版本，请参阅 [README.md](README.md)。
 
 ## 目录
-
 - [Awesome-ComfyUI-Video (精选ComfyUI视频节点集合)](#awesome-comfyui-video-精选comfyui视频节点集合)
   - [目录](#目录)
   - [官方视频节点](#官方视频节点)

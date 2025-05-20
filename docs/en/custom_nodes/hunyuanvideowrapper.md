@@ -14,9 +14,6 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 
 ## 📊 Node List
 
-### 🔄 Common Workflow Combinations
-
-
 | Node Name                             | Main Function                                                          | Category                 | Frequency | Common Use Case                            | Recommendation | Role in Workflow                                        |
 | ------------------------------------- | ---------------------------------------------------------------------- | ------------------------ | --------- | ------------------------------------------ | -------------- | ------------------------------------------------------- |
 | **DownloadAndLoadHyVideoTextEncoder** | Download & load LLM or CLIP text encoders for conditioning             | I/O Loader               | 7         | Text embedding input for prompt pipelines  | ★★★★☆          | Supplies `HYVIDTEXTENCODER` to `TextEncode` nodes       |
@@ -51,6 +48,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | **HyVideoLoopArgs**                  | Create loop arguments for cyclic latent transformations                | Loop Utility             | 1         | Seamless looping or morphing effects       | ★★☆☆☆          | Provides `LOOPARGS` to sampler                          |
 | **HyVideoContextOptions**            | Manage context window size/stride for long sequence generation         | Context Management       | 1         | Long video with frame overlap              | ★★★☆☆          | Provides `CTXARGS` to sampler                           |
 
+## 📑 Core Node Details
 
 ### DownloadAndLoadHyVideoTextEncoder
 
@@ -65,12 +63,12 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `load_device`             | COMBO                           | "offload_device"                       | Optional    | Device to load the text encoder (GPU or CPU)                                    |
 
 **Output:** `HYVIDTEXTENCODER`  
+
 **Use Cases:**  
 - **Text-to-Video** workflows requiring advanced language understanding  
 - Multimodal encoding (text + image) when `clip_model` is enabled  
 - Low-resource environments via `quantization` and `offload_device`  
 ---
-
 
 **`llm_model` Options**  
    - `Kijai/llava-llama-3-8b-text-encoder-tokenizer`: General-purpose LLM for video descriptions  
@@ -92,10 +90,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 
 ---
 
-## HyVideoTextEncode
-
-
-
+### HyVideoTextEncode
 
 | **Parameter Name**      | **Type**              | **Default** | **Required?** | **Description**                                                         |
 | ----------------------- | --------------------- | ----------- | ------------- | ----------------------------------------------------------------------- |
@@ -106,23 +101,17 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 
 ---
 
-### Output
+**Output**:`HYVIDEMBEDS` – Encoded embeddings used as conditioning input
 
-* `HYVIDEMBEDS` – Encoded embeddings used as conditioning input
-
----
-
-### Use Cases
-
-* Standard prompt encoding for **text-to-video** workflows
-* Used in both positive and negative conditioning branches
-* Supports **custom prompt templates** via prompt formatting
+**Use Cases**:
+- Standard prompt encoding for **text-to-video** workflows
+- Used in both positive and negative conditioning branches
+- Supports **custom prompt templates** via prompt formatting
 **Free Software, Hell Yeah!**
 
 ---
+
 ### HyVideoModelLoader
-
-
 
 | Parameter Name       | Type              | Default            | Required? | Description                                                                 |
 |----------------------|-------------------|--------------------|-----------|-----------------------------------------------------------------------------|
@@ -139,23 +128,14 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 
 ---
 
-#### Output
+**Output**:**`HYVIDEOMODEL`**-The fully initialized model object required by `HyVideoSampler` and other generation nodes.
 
-- **`HYVIDEOMODEL`**  
-  The fully initialized model object required by `HyVideoSampler` and other generation nodes.
-
----
-
-#### Use Cases
-
+**Use Cases**:
 - Always the first node in any HunyuanVideo generation pipeline  
 - Swap different UNet checkpoints dynamically  
 - Integrate LoRA, quantization, and block offloading  
 - Switch attention backend for speed/quality trade-offs  
 - Activate `torch.compile` and memory optimization features  
-
----
-
 
 **`base_precision`options:**  
 - `fp32` – Full-precision (highest accuracy, highest VRAM usage)  
@@ -180,6 +160,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 - `offload_device` – Load model into secondary/offload context (e.g., CPU)  
 
 --- 
+
 ### HyVideoVAELoader
 
 | **Parameter**  | **Type**                  | **Default** | **Required?** | **Description**                                 |
@@ -192,25 +173,19 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 
 **Output:** `VAE`
 
----
-
 **Use Cases:**
-
 * Used for **encoding** input images into latent space
 * Used for **decoding** latent output back to video frames
 * Paired with encoder/sampler/decoder nodes
 
----
-
 **precision** options:
-
 * `fp32` – Full-precision (highest accuracy, highest VRAM usage)
 * `fp16` – Half precision (faster, slightly less accurate)
 * `bf16` – Balanced speed/precision (recommended default)
 
 ---
-## HyVideoSampler
 
+## HyVideoSampler
 
 | **Parameter Name**        | **Type**                     | **Default**                  | **Required?** | **Description**                                                   |
 | ------------------------- | ---------------------------- | ---------------------------- | ------------- | ----------------------------------------------------------------- |
@@ -240,31 +215,20 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `mask`                    | `MASK`                       | —                            | Optional      | Pixel/frame mask for partial or inpainting-style generation.      |
 
 ---
+**Output**: **`samples`** (`LATENT`) – The final latent video tensor, to be decoded using `HyVideoDecode`.
 
-### Output
-
-* **`samples`** (`LATENT`) – The final latent video tensor, to be decoded using `HyVideoDecode`.
-
----
-
-### Use Cases
-
+**Use Cases**:
 * Core engine for all **text-to-video**, **image-to-video**, and **video-to-video** workflows
 * Accepts external latents for **style transfer**, **remixing**, or **conditional continuation**
 * Works with optional modules: `STG`, `TeaCache`, `FETA`, `FreSca`, `LoopArgs`, `SLG`, `RIFLEX`
 * Ideal for long, high-resolution sequences with adaptive memory-saving options
 
----
-
-
-#### `scheduler`options：
-
+**scheduler**options：
 * `FlowMatchDiscreteScheduler` – Default scheduler using discrete diffusion
 * `FlowMatchContinuousScheduler` – Continuous variation (if supported)
 * `SDE-DPM`, `SA-Solver`, others – May be supported depending on model backend
 
-#### `i2v_mode`options：
-
+**i2v_mode**options：
 * `dynamic` – Prioritizes movement between frames
 * `stability` – Reduces motion variance; better for static subjects or looping
 
@@ -283,22 +247,14 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `skip_latents`                 | `INT`     | `0`         | Optional      | Skip frames from beginning of latent input                 |
 | `balance_brightness`           | `BOOLEAN` | `False`     | Optional      | Attempt to correct brightness between tiles                |
 
----
+**Output**: `IMAGE`
 
-**Output:** `IMAGE`
-
----
-
-**Use Cases:**
-
+**Use Cases**:
 * Required to convert final latent tensor into **visual frames**
 * Used after `HyVideoSampler` in most workflows
 * Useful for long videos with low memory via **tiling**
 
----
-
 **enable\_vae\_tiling** options:
-
 * `True` – Enable tile-based decoding (less VRAM, may cause seams)
 * `False` – Decode full frame at once (more VRAM)
 
@@ -313,12 +269,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | offload\_txt\_in         | BOOLEAN  | False       | Required      | Whether to offload the `txt_in` layer.     |
 | offload\_img\_in         | BOOLEAN  | False       | Required      | Whether to offload the `img_in` layer.     |
 
----
+**Output**: `BLOCKSWAPARGS`
 
-**Output:** `BLOCKSWAPARGS`
-
-**Use Cases:**
-
+**Use Cases**:
 * Use with `HyVideoModelLoader` to reduce VRAM usage by partial CPU offload.
 * Common in low-memory environments or with large batch sizes.
 
@@ -338,12 +291,13 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `compile_vector_in`          | BOOLEAN           | False       | Required    | Compile vector input layers                                                     |
 | `compile_final_layer`        | BOOLEAN           | False       | Required    | Compile final output layer                                                      |
 
-**Output:** `COMPILEARGS`  
-**Use Cases:**  
+**Output**: `COMPILEARGS`  
+
+**Use Cases**:  
 - Maximize inference speed (e.g., real-time generation)  
 - VRAM optimization for long video generation (>100 frames)  
 
-**`mode` Options:**  
+**mode** options: 
 1. `default`: Balanced optimization  
 2. `max-autotune`: Maximum performance (longer compilation time)  
 3. `reduce-overhead`: Minimize runtime overhead  
@@ -359,27 +313,18 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | start\_step     | INT                                 | 0                 | Required      | Start sampling step to apply TeaCache                                 |
 | end\_step       | INT                                 | -1                | Required      | Final step to apply TeaCache (`-1` = till end)                        |
 
----
-
 **Output:** `TEACACHEARGS`
 
 **Use Cases:**
-
 * Speeds up sampling by **caching transformer activations**
 * Useful for **long video generations** where recomputation is expensive
 * Can **reduce VRAM usage** when paired with offload device
 
----
-
-
-
-* `rel_l1_thresh`options：
-
+**rel_l1_thresh**options：
   * Controls the error tolerance in feature reuse
   * `0.0–1.0` scale; high values = more aggressive reuse
 
-* `cache_device`options：
-
+****cache_device**options：
   * `main_device`: typically GPU
   * `offload_device`: typically CPU or secondary GPU
 
@@ -399,6 +344,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `latent_dist`                | COMBO<sup>1</sup> | "sample"    | Optional    | Latent sampling mode (`sample`/`mode`)                                         |
 
 **Output:** `LATENT`  
+
 **Use Cases:**  
 - **Image-to-Video** workflows (e2v)  
 - Preprocessing reference images for **keyframe-based generation**  
@@ -421,7 +367,6 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 **Output:** `FETAARGS`
 
 **Use Cases:**
-
 * Used as input to the `HyVideoSampler` node to boost detail.
 * Effective for sharpening and denoising long sequences.
 
@@ -441,20 +386,17 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 **Output:** `HYVIDLORA`
 
 **Use Cases:**
-
 * Inject style/personality/character behavior into the UNet
 * Combine multiple LoRAs with custom strength
 
 ---
 
 **strength** options:
-
 * Any float value from `-10.0` to `+10.0`
 * `0.0` disables the LoRA patch
 * > 1.0 will strongly override the model's behavior
 
 **blocks** behavior:
-
 * Defined via `HyVideoLoraBlockEdit` to target specific UNet blocks
 * If omitted, LoRA applies globally
 
@@ -475,6 +417,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `model_to_offload`           | HYVIDEOMODEL       | None        | Optional    | Offload video model during encoding to save VRAM                               |
 
 **Output:** `HYVIDEMBEDS`  
+
 **Use Cases:**  
 - **Image-Prompted Video Generation** (IP2V)  
 - Combining **text and image embeddings** for hybrid conditioning  
@@ -483,7 +426,6 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 ---
 
 ## HyVideoEncodeKeyframes
-
 
 | **Parameter Name**             | **Type**               | **Default** | **Required?** | **Description**                                         |
 | ------------------------------ | ---------------------- | ----------- | ------------- | ------------------------------------------------------- |
@@ -501,31 +443,20 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 
 ---
 
-### Output
+**Output**:  `LATENT` – Interpolated latent tensor between keyframes
 
-* `LATENT` – Interpolated latent tensor between keyframes
-
----
-
-### Use Cases
-
+**Use Cases**:
 * Keyframe-to-video interpolation
 * Character pose-to-animation workflows
 * Long-frame transitions using minimal image input
 
----
-
-
-#### `latent_dist`options：
-
-
+**latent_dist**options：
 * `sample` – Introduces random variation between frames
 * `mode` – Deterministic encoding (stable output)
 
 ---
 
 ## HyVideoCFG
-
 
 | **Parameter Name**  | **Type**  | **Default** | **Required?** | **Description**                                                   |
 | ------------------- | --------- | ----------- | ------------- | ----------------------------------------------------------------- |
@@ -535,16 +466,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `end_step`          | `INT`     | `-1`        | Optional      | Index to stop applying CFG (-1 = end)                             |
 | `use_time_fraction` | `BOOLEAN` | `False`     | Optional      | Interpret start/end as fractions of total steps (e.g., 0.2 = 20%) |
 
----
+**Output**: * `CFGARGS` – Classifier-free guidance schedule
 
-### Output
-
-* `CFGARGS` – Classifier-free guidance schedule
-
----
-
-### Use Cases
-
+**Use Cases**:
 * Dynamically adjust prompt strength over time
 * Suppress prompt at early or late stages
 * Create more subtle or layered semantic influence
@@ -553,8 +477,6 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 
 ## HyVideoTextImageEncode
 
-
-
 | **Parameter Name**      | **Type**              | **Default** | **Required?** | **Description**                                     |
 | ----------------------- | --------------------- | ----------- | ------------- | --------------------------------------------------- |
 | `text`                  | `STRING`              | —           | Required      | Prompt text                                         |
@@ -566,23 +488,16 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `is_negative_prompt`    | `BOOLEAN`             | `False`     | Optional      | Whether this embedding is used as a negative prompt |
 | `custom_prompt_context` | `CustomPromptContext` | —           | Optional      | Optional text formatting for structured LLM prompts |
 
----
+**Output**:* `HYVIDEMBEDS` – Fused image-text latent embedding
 
-### Output
-
-* `HYVIDEMBEDS` – Fused image-text latent embedding
-
----
-
-### Use Cases
-
+**Use Cases**:
 * IP2V: **Image + Prompt → Video** workflows
 * Reference-guided animation
 * Combines appearance/style of two images with textual behavior/control
 
 ---
-## HyVideoTextImageEncode
 
+## HyVideoTextImageEncode
 
 | **Parameter Name**      | **Type**              | **Default** | **Required?** | **Description**                                     |
 | ----------------------- | --------------------- | ----------- | ------------- | --------------------------------------------------- |
@@ -595,16 +510,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `is_negative_prompt`    | `BOOLEAN`             | `False`     | Optional      | Whether this embedding is used as a negative prompt |
 | `custom_prompt_context` | `CustomPromptContext` | —           | Optional      | Optional text formatting for structured LLM prompts |
 
----
+**Output**: `HYVIDEMBEDS` – Fused image-text latent embedding
 
-### Output
-
-* `HYVIDEMBEDS` – Fused image-text latent embedding
-
----
-
-### Use Cases
-
+**Use Cases**:
 * IP2V: **Image + Prompt → Video** workflows
 * Reference-guided animation
 * Combines appearance/style of two images with textual behavior/control
@@ -623,6 +531,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `gamma_trend`              | COMBO              | "constant"  | Required    | Strength variation trend                                                        |
 
 **Output:** `LATENT` (inverted latents)  
+
 **Use Cases:**  
 - Latent space inversion for video editing  
 - Frame consistency repair with `HyVideoReSampler`  
@@ -643,6 +552,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `eta_trend`                | COMBO              | "constant"  | Required    | Temporal strength distribution curve                                           |
 
 **Output:** `LATENT` (optimized latents)  
+
 **Use Cases:**  
 - Fix flickering issues in generated videos  
 - Enhance temporal consistency for long videos  
@@ -658,6 +568,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `interpolation_curve`      | FLOAT[]           | —           | Optional    | Per-frame mixing weight curve                                                  |
 
 **Output:** `LATENT` (mixed latents)  
+
 **Use Cases:**  
 - Dynamic transitions between prompts (e.g., scene morphing)  
 - Multi-style fusion generation  
@@ -671,11 +582,8 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | double\_blocks.0–19 | BOOLEAN  | True        | Required      | Toggle injection for each of 20 double blocks. |
 | single\_blocks.0–39 | BOOLEAN  | True        | Required      | Toggle injection for each of 40 single blocks. |
 
----
-
 **Output:** `SELECTEDBLOCKS`
 
-**Use Cases:**
 ---
 
 ### HyVideoLoraBlockEdit
@@ -685,12 +593,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | double\_blocks.0–19 | BOOLEAN  | True        | Required      | Toggle injection for each of 20 double blocks. |
 | single\_blocks.0–39 | BOOLEAN  | True        | Required      | Toggle injection for each of 40 single blocks. |
 
----
+**Output**: `SELECTEDBLOCKS`
 
-**Output:** `SELECTEDBLOCKS`
-
-**Use Cases:**
-
+**Use Cases**:
 * Used with `HyVideoLoraSelect` to apply LoRA to specific blocks.
 * Enables fine-grained control for style/character injection.
 * Used with `HyVideoLoraSelect` to apply LoRA to specific blocks.
@@ -706,8 +611,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `start_percent`            | FLOAT             | 0.0         | Required    | Starting step percentage for enhancement                                        |
 | `end_percent`              | FLOAT             | 1.0         | Required    | Ending step percentage for enhancement                                          |
 
-**Output:** `FETAARGS`  
-**Use Cases:**  
+**Output**:`FETAARGS` 
+
+**Use Cases**:  
 - Repair low-quality generations  
 - Enhance video texture details  
 
@@ -723,23 +629,18 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | stg\_start\_percent | FLOAT    | 0.0         | Required      | When to start applying guidance (as percent of denoising steps). |
 | stg\_end\_percent   | FLOAT    | 1.0         | Required      | When to end applying guidance (as percent of denoising steps).   |
 
----
+**Output**: `STGARGS`
 
-**Output:** `STGARGS`
-
-**Use Cases:**
-
+**Use Cases**:
 * Applied to `HyVideoSampler` to preserve temporal consistency.
 * Works well with keyframes and long motion scenes.
 
-
-
 * **stg\_mode**options：
-
   * `STG-A` – Additive guidance
   * `STG-R` – Residual guidance
 
 ---
+
 ### HunyuanVideoFresca
 
 | **Parameter**        | **Type** | **Default** | **Required?** | **Description**                                               |
@@ -748,16 +649,11 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | fresca\_scale\_high  | FLOAT    | `1.25`      | Required      | Frequency modulation scaling for high-end bands               |
 | fresca\_freq\_cutoff | INT      | `20`        | Required      | Frequency cutoff threshold for separating low/high modulation |
 
----
+**Output**: `FRESCA_ARGS`
 
-**Output:** `FRESCA_ARGS`
-
-**Use Cases:**
-
+**Use Cases**:
 * Apply frequency-based style transfer
 * Animate textures or features using spectral modulation
-
----
 
 **fresca\_freq\_cutoff** behavior:
 * Cutoff between low and high frequency application
@@ -778,6 +674,7 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `rgb_bias`                 | FLOAT[3]          | [0,0,0]     | Required    | RGB channel bias adjustment                                                     |
 
 **Output:** `IMAGE` (preview), `STRING` (color mapping formula)  
+
 **Use Cases:**  
 - Latent space debugging and visualization  
 - Quick content check without full decoding  
@@ -792,8 +689,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `max_val`                  | FLOAT             | 0.15        | Required    | Maximum value mapping for latent visualization                                  |
 | `rgb_bias`                 | FLOAT[3]          | [0,0,0]     | Required    | RGB channel bias adjustment                                                     |
 
-**Output:** `IMAGE` (preview), `STRING` (color mapping formula)  
-**Use Cases:**  
+**Output**: `IMAGE` (preview), `STRING` (color mapping formula)  
+
+**Use Cases**:  
 - Latent space debugging and visualization  
 - Quick content check without full decoding  
 
@@ -806,8 +704,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `custom_prompt_template`  | STRING             | —           | Required    | Custom template (must include `{}` placeholder)                                |
 | `crop_start`               | INT                | 0           | Required    | System prompt truncation position                                              |
 
-**Output:** `PROMPT_TEMPLATE`  
-**Use Cases:**  
+**Output**: `PROMPT_TEMPLATE`  
+
+**Use Cases**:
 - Prompt engineering for non-standard language models  
 - Unified template management for multi-task workflows  
 
@@ -823,16 +722,13 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | stg\_start\_percent | FLOAT    | 0.0         | Required      | When to start applying guidance (as percent of denoising steps). |
 | stg\_end\_percent   | FLOAT    | 1.0         | Required      | When to end applying guidance (as percent of denoising steps).   |
 
----
+**Output**: `STGARGS`
 
-**Output:** `STGARGS`
-
-**Use Cases:**
-
+**Use Cases**:
 * Applied to `HyVideoSampler` to preserve temporal consistency.
 * Works well with keyframes and long motion scenes.
 
-* **stg\_mode**options:
+**stg\_mode**options:
   * `STG-A` – Additive guidance
   * `STG-R` – Residual guidance
 
@@ -846,24 +742,17 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | fresca\_scale\_high  | FLOAT    | `1.25`      | Required      | Frequency modulation scaling for high-end bands               |
 | fresca\_freq\_cutoff | INT      | `20`        | Required      | Frequency cutoff threshold for separating low/high modulation |
 
----
+**Output**: `FRESCA_ARGS`
 
-**Output:** `FRESCA_ARGS`
-
-**Use Cases:**
-
+**Use Cases**:
 * Apply frequency-based style transfer
 * Animate textures or features using spectral modulation
 
----
-
 **fresca\_freq\_cutoff** behavior:
-
 * Cutoff between low and high frequency application
 * Larger cutoff pushes more energy into high frequencies
 
 **fresca\_scale** options:
-
 * `scale_low < 1.0`: suppress low-frequency motion
 * `scale_high > 1.0`: enhance high-frequency textures
 
@@ -877,12 +766,14 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | `start_percent`            | FLOAT             | 0.4         | Required    | SLG activation start step percentage                                            |
 | `end_percent`              | FLOAT             | 0.8         | Required    | SLG activation end step percentage                                              |
 
-**Output:** `SLGARGS`  
-**Use Cases:**  
+**Output**: `SLGARGS`  
+
+**Use Cases**:  
 - Reduce motion blur in high-dynamic scenes  
 - Speed up generation (sacrifices some diversity)  
 
 ---
+
 ### HyVideoLoopArgs
 
 | **Parameter**  | **Type** | **Default** | **Required?** | **Description**                               |
@@ -891,12 +782,9 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | start\_percent | FLOAT    | `0.0`       | Required      | Percent of generation where loop starts       |
 | end\_percent   | FLOAT    | `1.0`       | Required      | Percent of generation where loop ends         |
 
----
+**Output**: `LOOPARGS`
 
-**Output:** `LOOPARGS`
-
-**Use Cases:**
-
+**Use Cases**:
 * Enable seamless video loop effect
 * Supports latent-shift interpolation inspired by Möbius method
 
@@ -912,21 +800,24 @@ The `HunyuanVideoWrapper` provides a comprehensive set of nodes for video genera
 | context\_overlap  | INT      | `4`                | Required      | Overlap between context windows                                |
 | freenoise         | BOOLEAN  | `True`             | Required      | Whether to shuffle noise between context chunks                |
 
----
+**Output**: `HYVIDCONTEXT`
 
-**Output:** `HYVIDCONTEXT`
-
-**Use Cases:**
-
+**Use Cases**:
 * Split long video sequences into context-aware chunks
 * Optimize memory use while maintaining coherence across segments
 
----
-
 **context\_schedule** options:
-
 * `uniform_standard` – evenly spaced non-overlapping windows
 * `uniform_looped` – wrap-around for loop effects
 * `static_standard` – single context block across whole video
 
 ---
+
+### 🔄 Common Workflow Combinations
+
+| Workflow Name             | Node Combination                                                            | Purpose                                  |
+| ------------------------- | --------------------------------------------------------------------------- | ---------------------------------------- |
+| hyvideo_dashtoon_keyframe_example_01(First and last frame video generation)  | HyVideoTorchCompileSettings → HyVideoVAELoader → Reroute → HyVideoEncodeKeyframes & HyVideoDecode → HyVideoSampler → HyVideoDecode → VHS_VideoCombine                   | Keyframe image-guided video generation                 |
+| hunhyuan_rf_inversion_testing_01(video-to-video generation)        | VHS_LoadVideo → ImageResizeKJ → Set_InputVideo → GetImageSizeAndCount → HyVideoEncode → HyVideoInverseSampler → HyVideoReSampler → HyVideoDecode → ImageConcatMulti → VHS_VideoCombine                          | reverse inference + resampling test           |
+| hyvideo_ip2v_experimental_dango(image-to-video generation)  | LoadImage → HyVideoGetClosestBucketSize → ImageScale → GetImageSizeAndCount → HyVideoEncode → HyVideoI2VEncode → HyVideoSampler → HyVideoDecode → GetImageSizeAndCount → ImageConcatMulti → VHS_VideoCombine                         | image-driven video generation    |
+| text-to-video generation(hyvideo_t2v_example_01)     | DownloadAndLoadHyVideoTextEncoder → HyVideoTextEncode → HyVideoSampler → HyVideoDecode → VHS_VideoCombine | text-driven video generation |
