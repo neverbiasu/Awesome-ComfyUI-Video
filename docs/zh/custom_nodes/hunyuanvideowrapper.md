@@ -68,7 +68,6 @@
 - 需要高级语言理解的**文本到视频**工作流
 - 当 `clip_model` 启用时的多模态编码 (文本 + 图像)
 - 通过 `quantization` 和 `offload_device` 实现低资源环境部署
----
 
 **`llm_model` 选项**
    - `Kijai/llava-llama-3-8b-text-encoder-tokenizer`: 用于视频描述的通用 LLM
@@ -99,15 +98,12 @@
 | `is_negative_prompt`    | `布尔值`                 | `False`     | 可选      | 将提示词标记为负向条件 (用于无分类器指导) |
 | `custom_prompt_context` | `CustomPromptContext`   | —           | 可选      | 为 LLM 使用提供结构化提示词模板支持                          |
 
----
-
 **输出**: `HYVIDEMBEDS` – 用作条件化输入的编码嵌入
 
 **使用场景**:
 - **文本到视频**工作流的标准提示词编码
 - 用于正向和负向条件化分支
 - 通过提示词格式化支持**自定义提示词模板**
-**自由软件，太棒了！**
 
 ---
 
@@ -125,8 +121,6 @@
 | `lora`               | `HYVIDLORA`            | `None`             | 可选  | 带有强度和模块掩码的 LoRA 权重文件                           |
 | `auto_cpu_offload`   | 布尔值                  | `False`            | 可选  | 自动将未使用的模块卸载到 CPU                                |
 | `upcast_rope`        | 布尔值                  | `True`             | 可选  | 对旋转位置嵌入使用 float32 以提高数值稳定性 |
-
----
 
 **输出**: **`HYVIDEOMODEL`** - `HyVideoSampler` 和其他生成节点所需的完全初始化的模型对象。
 
@@ -168,8 +162,6 @@
 | `model_name`   | `文件夹路径列表 (vae)`           | —           | 是        | 从 `ComfyUI/models/vae` 下的模型中选择   |
 | `precision`    | `fp16`, `fp32`, `bf16`          | `bf16`      | 可选      | 推理用浮点精度          |
 | `compile_args` | `COMPILEARGS`                   | —           | 可选      | 使用 `torch.compile` 的可选编译设置 |
-
----
 
 **输出**： `VAE`
 
@@ -214,7 +206,6 @@
 | `slg_args`                | `SLGARGS`                      | —                            | 可选      | 来自 `HunyuanVideoSLG` 的选择性潜变量指导参数。     |
 | `mask`                    | `MASK`                         | —                            | 可选      | 用于部分或修复式生成的像素/帧掩码。      |
 
----
 **输出**: **`samples`** (`LATENT`) – 最终的潜变量视频张量，将使用 `HyVideoDecode` 进行解码。
 
 **使用场景**:
@@ -329,6 +320,7 @@
   * `offload_device`: 通常是 CPU 或辅助 GPU
 
 ---
+
 ### HyVideoEncode
 
 | **参数名称**                   | **类型**                           | **默认值** | **必需?** | **描述**                                                                 |
@@ -362,8 +354,6 @@
 | `start_percent`| `浮点数`     | 0.0         | 是        | 应用增强的起始去噪步骤百分比。 |
 | `end_percent`  | `浮点数`     | 1.0         | 是        | 应用增强的结束去噪步骤百分比。   |
 
----
-
 **输出:** `FETAARGS`
 
 **使用场景:**
@@ -381,20 +371,16 @@
 | `prev_lora`   | `HYVIDLORA`          | `None`      | 可选      | 链接多个 LoRA                                               |
 | `blocks`      | `SELECTEDBLOCKS`     | `None`      | 可选      | 通过 `HyVideoLoraBlockEdit` 进行选择性模块注入               |
 
----
-
 **输出:** `HYVIDLORA`
 
 **使用场景:**
 * 向 UNet 注入风格/个性/角色行为
 * 以自定义强度组合多个 LoRA
 
----
-
-**`strength` 选项:**
+**strength 选项:**
 * 任意 -10.0 到 +10.0 之间的浮点值
-* `0.0` 禁用 LoRA 补丁
-* > 1.0 将强烈覆盖模型的行为
+* 禁用 LoRA 补丁
+* 将强烈覆盖模型的行为
 
 **`blocks` 行为:**
 * 通过 `HyVideoLoraBlockEdit` 定义以针对特定的 UNet 模块
@@ -441,8 +427,6 @@
 | `latent_strength`              | `浮点数`                  | `1.0`       | 可选      | 缩放潜变量转换的强度             |
 | `latent_dist`                  | `"sample"` 或 `"mode"`   | `sample`    | 可选      | 是采样潜变量分布还是使用众数       |
 
----
-
 **输出**:  `LATENT` – 关键帧之间的插值潜变量张量
 
 **使用场景**:
@@ -466,7 +450,7 @@
 | `end_step`          | `整数`       | `-1`        | 可选      | 停止应用 CFG 的索引 (-1 = 结束)                             |
 | `use_time_fraction` | `布尔值`   | `False`     | 可选      | 将开始/结束解释为总步骤的百分比 (例如 0.2 = 20%) |
 
-**输出**: * `CFGARGS` – 无分类器指导调度
+**输出**:  `CFGARGS` – 无分类器指导调度
 
 **使用场景**:
 * 随时间动态调整提示词强度
@@ -488,7 +472,7 @@
 | `is_negative_prompt`    | `布尔值`               | `False`     | 可选      | 此嵌入是否用作负向提示词 |
 | `custom_prompt_context` | `CustomPromptContext`   | —           | 可选      | 用于结构化 LLM 提示词的可选文本格式化 |
 
-**输出**: * `HYVIDEMBEDS` – 融合的图像-文本潜变量嵌入
+**输出**:  `HYVIDEMBEDS` – 融合的图像-文本潜变量嵌入
 
 **使用场景**:
 * IP2V: **图像 + 提示词 → 视频**工作流
@@ -536,7 +520,7 @@
 - 用于视频编辑的潜空间反演
 - 使用 `HyVideoReSampler` 进行帧一致性修复
 
-**`gamma_trend` 选项:**
+**gamma_trend 选项:**
 - `constant`: 固定强度
 - `linear_increase`: 线性增加
 - `linear_decrease`: 线性减少
@@ -635,8 +619,7 @@
 * 应用于 `HyVideoSampler` 以保持时间一致性。
 * 与关键帧和长运动场景配合良好。
 
-* **`stg_mode` 选项：**
-
+**`stg_mode` 选项：**
   * `STG-A` – 加性指导
   * `STG-R` – 残差指导
 
@@ -675,6 +658,7 @@
 | `rgb_bias`                | `浮点数[3]`         | [0,0,0]     | 是        | RGB 通道偏置调整                                                     |
 
 **输出:** `IMAGE` (预览), `STRING` (颜色映射公式)
+
 **使用场景:**
 - 潜空间调试和可视化
 - 无需完全解码即可快速检查内容
@@ -728,7 +712,7 @@
 * 应用于 `HyVideoSampler` 以保持时间一致性。
 * 与关键帧和长运动场景配合良好。
 
-**`stg_mode` 选项:**
+**`stg_mode` 选项**:
   * `STG-A` – 加性指导
   * `STG-R` – 残差指导
 
@@ -773,6 +757,7 @@
 - 加快生成速度 (牺牲一些多样性)
 
 ---
+
 ### HyVideoLoopArgs
 
 | **参数**       | **类型** | **默认值** | **必需?** | **描述**                               |
@@ -816,7 +801,7 @@
 
 | 工作流名称             | 节点组合                                                            | 目的                                  |
 | ------------------------- | --------------------------------------------------------------------------- | ---------------------------------------- |
-| hyvideo_dashtoon_keyframe_example_01 (首尾帧视频生成)  | HyVideoTorchCompileSettings → HyVideoVAELoader → Reroute → HyVideoEncodeKeyframes & HyVideoDecode → HyVideoSampler → HyVideoDecode → VHS_VideoCombine                   | 关键帧图像引导的视频生成                 |
-| hunhyuan_rf_inversion_testing_01 (视频到视频生成)        | VHS_LoadVideo → ImageResizeKJ → Set_InputVideo → GetImageSizeAndCount → HyVideoEncode → HyVideoInverseSampler → HyVideoReSampler → HyVideoDecode → ImageConcatMulti → VHS_VideoCombine                          | 反向推理 + 重采样测试           |
-| hyvideo_ip2v_experimental_dango (图像到视频生成)  | LoadImage → HyVideoGetClosestBucketSize → ImageScale → GetImageSizeAndCount → HyVideoEncode → HyVideoI2VEncode → HyVideoSampler → HyVideoDecode → GetImageSizeAndCount → ImageConcatMulti → VHS_VideoCombine                         | 图像驱动的视频生成    |
+| 首尾帧视频生成(hyvideo_dashtoon_keyframe_example_01)  | HyVideoTorchCompileSettings → HyVideoVAELoader → Reroute → HyVideoEncodeKeyframes & HyVideoDecode → HyVideoSampler → HyVideoDecode → VHS_VideoCombine                   | 关键帧图像引导的视频生成                 |
+| 视频到视频生成(hunhyuan_rf_inversion_testing_01 )        | VHS_LoadVideo → ImageResizeKJ → Set_InputVideo → GetImageSizeAndCount → HyVideoEncode → HyVideoInverseSampler → HyVideoReSampler → HyVideoDecode → ImageConcatMulti → VHS_VideoCombine                          | 反向推理 + 重采样测试           |
+| 图像到视频生成(hyvideo_ip2v_experimental_dango )  | LoadImage → HyVideoGetClosestBucketSize → ImageScale → GetImageSizeAndCount → HyVideoEncode → HyVideoI2VEncode → HyVideoSampler → HyVideoDecode → GetImageSizeAndCount → ImageConcatMulti → VHS_VideoCombine                         | 图像驱动的视频生成    |
 | 文本到视频生成 (hyvideo_t2v_example_01)     | DownloadAndLoadHyVideoTextEncoder → HyVideoTextEncode → HyVideoSampler → HyVideoDecode → VHS_VideoCombine | 文本驱动的视频生成 |
