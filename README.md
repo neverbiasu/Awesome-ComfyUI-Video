@@ -4,9 +4,9 @@
 
 ## Table of Contents
 
-  - [Official Video Nodes](#official-video-nodes)
-  - [Outstanding Community Custom Nodes](#outstanding-community-custom-nodes)
-  - [Example Video Workflows](#example-video-workflows)
+ - [Official Video Nodes](#official-video-nodes)
+ - [Outstanding Community Custom Nodes](#outstanding-community-custom-nodes)
+ - [Example Video Workflows](#example-video-workflows)
 
 ## Official Video Nodes
 
