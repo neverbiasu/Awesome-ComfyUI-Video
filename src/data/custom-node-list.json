@@ -7967,6 +7967,16 @@
       "description": "ComfyUI-ReduxFineTune is a custom node for ComfyUI that enables advanced style fine-tuning using the Flux Redux approach. It offers multiple unified fusion modes for precise and consistent control over style transfer, allowing users to fine-tune image styles with high flexibility and detail."
     },
     {
+      "author": "1038lab",
+      "title": "ComfyUI-LBM",
+      "reference": "https://github.com/1038lab/ComfyUI-LBM",
+      "files": [
+        "https://github.com/1038lab/ComfyUI-LBM"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI implementation of Latent Bridge Matching (LBM) for efficient image relighting. This node utilizes the LBM algorithm to perform single-step image-to-image translation specifically for relighting tasks."
+    },
+    {
       "author": "Klinter",
       "title": "Klinter_nodes",
       "id": "klinter",
@@ -17173,16 +17183,6 @@
       "description": "A node that can use Nai in Comfyui"
     },
     {
-      "author": "syaofox",
-      "title": "ComfyUI_fnodes",
-      "reference": "https://github.com/syaofox/ComfyUI_fnodes",
-      "files": [
-        "https://github.com/syaofox/ComfyUI_fnodes"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI_fnodes is a collection of custom nodes designed for ComfyUI. These nodes provide additional functionality that can enhance your ComfyUI workflows.\nFile manipulation tools, Image resizing tools, IPAdapter tools, Image processing tools, Mask tools, Face analysis tools, Sampler tools, Miscellaneous tools"
-    },
-    {
       "author": "guyaton",
       "title": "guy-nodes-comfyui",
       "reference": "https://github.com/guyaton/guy-nodes-comfyui",
@@ -19443,6 +19443,16 @@
       "description": "ComfyUI-Step1X-3D is now available in ComfyUI, delivering high-fidelity 3D asset generation with consistent geometry-texture alignment. It supports multi-style outputs: cartoon, sketch, and photorealistic."
     },
     {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-MoviiGen",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-MoviiGen",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-MoviiGen"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-MoviiGen is now available in ComfyUI, MoviiGen 1.1 is a cutting-edge video generation model that excels in cinematic aesthetics and visual quality."
+    },
+    {
       "author": "Starnodes2024",
       "title": "ComfyUI_StarNodes",
       "reference": "https://github.com/Starnodes2024/ComfyUI_StarNodes",
@@ -20811,6 +20821,16 @@
       ],
       "install_type": "git-clone",
       "description": "ACE-Step: A Step Towards Music Generation Foundation Model"
+    },
+    {
+      "author": "mw",
+      "title": "ComfyUI_parakeet-tdt",
+      "reference": "https://github.com/billwuhao/ComfyUI_parakeet-tdt",
+      "files": [
+        "https://github.com/billwuhao/ComfyUI_parakeet-tdt"
+      ],
+      "install_type": "git-clone",
+      "description": "parakeet-tdt-0.6b-v2: Automatic speech recognition (ASR) model designed for high-quality English transcription, featuring support for punctuation, capitalization, and accurate timestamp prediction."
     },
     {
       "author": "umiyuki",
@@ -22414,6 +22434,17 @@
       ],
       "install_type": "copy",
       "description": "A custom ComfyUI node for generating images using the HiDream AI model. Uses quantization for lower memory usage."
+    },
+    {
+      "author": "lum3on",
+      "title": "ComfyUI Model Quantizer",
+      "id": "ModelQuantizer",
+      "reference": "https://github.com/lum3on/ComfyUI-ModelQuantizer",
+      "files": [
+        "https://github.com/lum3on/ComfyUI-ModelQuantizer"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a node to converts models into Fp8, bf16, fp16."
     },
     {
       "author": "austinbrown34",
@@ -25817,6 +25848,78 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of custom nodes for ComfyUI that enable the creation of various ASCII art effects, from static images to complex, colorized typing animations and video conversions."
+    },
+    {
+      "author": "jqy-yo",
+      "title": "BBoxLowerMask2",
+      "reference": "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2",
+      "files": [
+        "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2"
+      ],
+      "install_type": "git-clone",
+      "description": "Create a mask to slice the image at specific coordinates"
+    },
+    {
+      "author": "ICAI Icelandic Center for Artificial Intelligence",
+      "title": "Sampler Scheduler Metrics Tester for ComfyUI",
+      "id": "SamplerSchedulerMetricsTester",
+      "reference": "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester",
+      "files": [
+        "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI allows you to test combinations of samplers and schedulers. It generates a batch of generated images(latents), as well as RGB images, each one annotated with the specific combination used, performance timing, and several image quality metrics (Laplacian Variance, Gradient Mean, FFT-based sharpness) for our internal usage, but kept as they could may be useful for others to."
+    },
+    {
+      "author": "2frames.app",
+      "title": "AQnodes for ComfyUI",
+      "id": "AQnodes",
+      "reference": "https://github.com/2frames/ComfyUI-AQnodes",
+      "files": [
+        "https://github.com/2frames/ComfyUI-AQnodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for ComfyUI, mostly for llm calling and automatizing pulid multiface."
+    },
+    {
+      "author": "BigWhiteFly",
+      "title": "ComfyUI-ImageConcat",
+      "reference": "https://github.com/BigWhiteFly/ComfyUI-ImageConcat",
+      "files": [
+        "https://github.com/BigWhiteFly/ComfyUI-ImageConcat"
+      ],
+      "install_type": "git-clone",
+      "description": "concatenate all images in floders, concatenate caption txt files for trainning loras."
+    },
+    {
+      "author": "Jannled",
+      "title": "OWL-ViT ComfyUI",
+      "reference": "https://github.com/Jannled/owl-vit-comfyui",
+      "files": [
+        "https://github.com/Jannled/owl-vit-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Nodes for OWL-ViT / OWLv2 using the HuggingFace Transformers implementation"
+    },
+    {
+      "author": "thedivergentai",
+      "title": "Divergent Nodes",
+      "reference": "https://github.com/thedivergentai/divergent_nodes",
+      "files": [
+        "https://github.com/thedivergentai/divergent_nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository contains a collection of custom nodes for ComfyUI designed to integrate external AI models, provide utilities, and enable advanced workflows."
+    },
+    {
+      "author": "skycoder",
+      "title": "Filename Tools",
+      "reference": "https://github.com/skycoder182/comfyui-filename-tools",
+      "files": [
+        "https://github.com/skycoder182/comfyui-filename-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "A utility node for extracting and trimming filenames from file paths"
     },
     {
       "author": "Ser-Hilary",
