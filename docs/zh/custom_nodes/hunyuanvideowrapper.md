@@ -52,750 +52,633 @@
 
 ### DownloadAndLoadHyVideoTextEncoder
 
-| **参数名称**                | **类型**                          | **默认值**                                 | **必需?** | **描述**                                                                 |
-|-----------------------------|---------------------------------|------------------------------------------|-----------|---------------------------------------------------------------------------------|
-| `llm_model`                 | 下拉框<sup>1</sup>               | "Kijai/llava-llama-3-8b-text-encoder-tokenizer" | 是        | 用于文本编码的大型语言模型 (LLM)                                     |
-| `clip_model`                | 下拉框<sup>2</sup>               | "disabled"                               | 可选      | CLIP 视觉模型 (可选，用于多模态编码)                            |
-| `precision`                 | 下拉框<sup>3</sup>               | "bf16"                                   | 可选      | 浮点精度模式                                                   |
-| `apply_final_norm`          | 布尔值                           | False                                    | 可选      | 对文本嵌入应用最终归一化层                              |
-| `hidden_state_skip_layer`   | 整数                             | 2                                        | 可选      | 从指定层跳过隐藏状态 (减少计算量)               |
-| `quantization`              | 下拉框<sup>4</sup>               | "disabled"                               | 可选      | 用于内存优化的量化方法                                     |
-| `load_device`               | 下拉框                           | "offload_device"                         | 可选      | 加载文本编码器的设备 (GPU 或 CPU)                                    |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------------------|------------------------------------------|----------|---------------------------------------------------------------------------------|
+| `llm_model`               | 下拉选项<sup>1</sup>            | "Kijai/llava-llama-3-8b-text-encoder-tokenizer" | 必需     | 用于文本编码的大型语言模型 (LLM)                                     |
+| `clip_model`              | 下拉选项<sup>2</sup>            | "disabled"                               | 可选     | CLIP视觉模型 (可选，用于多模态编码)                                       |
+| `precision`               | 下拉选项<sup>3</sup>            | "bf16"                                   | 可选     | 浮点精度模式                                                              |
+| `apply_final_norm`        | 布尔值                          | False                                    | 可选     | 对文本嵌入向量应用最终归一化层                                               |
+| `hidden_state_skip_layer` | 整数                            | 2                                        | 可选     | 从指定层跳过隐藏状态 (减少计算量)                                       |
+| `quantization`            | 下拉选项<sup>4</sup>            | "disabled"                               | 可选     | 用于内存优化的量化方法                                                       |
+| `load_device`             | 下拉选项                        | "offload_device"                         | 可选     | 加载文本编码器的设备 (GPU 或 CPU)                                        |
 
-**输出:** `HYVIDTEXTENCODER`
+**输出：** `HYVIDTEXTENCODER`
 
-**使用场景:**
-- 需要高级语言理解的**文本到视频**工作流
-- 当 `clip_model` 启用时的多模态编码 (文本 + 图像)
-- 通过 `quantization` 和 `offload_device` 实现低资源环境部署
-
-**`llm_model` 选项**
-   - `Kijai/llava-llama-3-8b-text-encoder-tokenizer`: 用于视频描述的通用 LLM
-   - `xtuner/llava-llama-3-8b-v1_1-transformers`: 针对视觉语言任务优化
-
-**`clip_model` 选项**
-   - `disabled`: 纯文本编码
-   - `openai/clip-vit-large-patch14`: 启用 CLIP 图像嵌入 (需要单独下载)
-
-**`precision` 选项**
-   - `bf16`: 平衡速度/准确性 (推荐)
-   - `fp16`: 更快但有溢出风险
-   - `fp32`: 最高稳定性 (高 VRAM 占用)
-
- **`quantization` 选项**
-   - `disabled`: 无量化
-   - `bnb_nf4`: 通过 BitsAndBytes 进行 4 位量化
-   - `fp8_e4m3fn`: 8 位浮点量化
+**使用场景：**
+- **文本到视频**工作流，需要高级语言理解
+- 当 `clip_model` 启用时进行多模态编码 (文本 + 图像)
+- 通过 `quantization` 和 `offload_device` 在低资源环境中使用
 
 ---
 
-### HyVideoTextEncode
+### HyVideoTextEncode (HyVideo文本编码)
 
-| **参数名称**            | **类型**                | **默认值** | **必需?** | **描述**                                                         |
-| ----------------------- | ----------------------- | ----------- | --------- | ----------------------------------------------------------------------- |
-| `text`                  | `字符串`                | —           | 是        | 要嵌入的文本提示词                                              |
-| `text_encoder`          | `HYVIDTEXTENCODER`      | —           | 是        | 从 `DownloadAndLoadHyVideoTextEncoder` 加载的文本编码器对象     |
-| `is_negative_prompt`    | `布尔值`                 | `False`     | 可选      | 将提示词标记为负向条件 (用于无分类器指导) |
-| `custom_prompt_context` | `CustomPromptContext`   | —           | 可选      | 为 LLM 使用提供结构化提示词模板支持                          |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ----------------------- | --------------------- | ----------- | ---------- | ----------------------------------------------------------------------- |
+| `text`                  | `字符串`              | —           | 必需       | 要嵌入的文本提示                                                           |
+| `text_encoder`          | `HYVIDTEXTENCODER`    | —           | 必需       | 从 `DownloadAndLoadHyVideoTextEncoder` 加载的文本编码器对象             |
+| `is_negative_prompt`    | `布尔值`              | `False`     | 可选       | 将提示标记为负向条件 (用于分类器自由引导)                                   |
+| `custom_prompt_context` | `CustomPromptContext` | —           | 可选       | 对LLM使用的结构化提示模板支持                                                |
 
-**输出**: `HYVIDEMBEDS` – 用作条件化输入的编码嵌入
+**输出**:`HYVIDEMBEDS` – 用作条件输入的编码嵌入向量
 
-**使用场景**:
-- **文本到视频**工作流的标准提示词编码
-- 用于正向和负向条件化分支
-- 通过提示词格式化支持**自定义提示词模板**
+**使用场景**：
+- **文本到视频**工作流的标准提示编码
+- 用于正向和负向条件分支
+- 通过提示格式化支持**自定义提示模板**
 
 ---
 
-### HyVideoModelLoader
+### HyVideoModelLoader (HyVideo模型加载器)
 
-| 参数名称            | 类型                   | 默认值             | 必需? | 描述                                                                 |
-|----------------------|------------------------|--------------------|-------|-----------------------------------------------------------------------------|
-| `model`              | `文件夹路径列表`          | —                  | 是    | `ComfyUI/models/diffusion_models` 下的路径                             |
-| `base_precision`     | 下拉框                  | `bf16`             | 是    | 用于基础权重的精度类型                                        |
-| `quantization`       | 下拉框                  | `disabled`         | 是    | 对权重应用 8 位量化或保持完整精度              |
-| `load_device`        | 下拉框                  | `main_device`      | 是    | 加载目标设备：GPU 或 CPU                                       |
-| `attention_mode`     | 下拉框                  | `flash_attn_varlen`| 可选  | 使用的注意力实现类型                                    |
-| `compile_args`       | `COMPILEARGS`          | —                  | 可选  | 可选的 Torch compile 加速设置                               |
-| `block_swap_args`    | `BLOCKSWAPARGS`        | —                  | 可选  | 用于卸载或替换模块 (参见 `HyVideoBlockSwap`)                |
-| `lora`               | `HYVIDLORA`            | `None`             | 可选  | 带有强度和模块掩码的 LoRA 权重文件                           |
-| `auto_cpu_offload`   | 布尔值                  | `False`            | 可选  | 自动将未使用的模块卸载到 CPU                                |
-| `upcast_rope`        | 布尔值                  | `True`             | 可选  | 对旋转位置嵌入使用 float32 以提高数值稳定性 |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|----------------------|-------------------|--------------------|-----------|-----------------------------------------------------------------------------|
+| `model`              | `文件夹路径列表`      | —                  | 必需      | `ComfyUI/models/diffusion_models` 目录下的路径                              |
+| `base_precision`     | 下拉选项            | `bf16`             | 必需      | 用于基础权重的精度类型                                                       |
+| `quantization`       | 下拉选项            | `disabled`         | 必需      | 对权重应用8位量化或保持完整精度                                                |
+| `load_device`        | 下拉选项            | `main_device`      | 必需      | 加载目标设备：GPU或CPU                                                      |
+| `attention_mode`     | 下拉选项            | `flash_attn_varlen`| 可选      | 使用的注意力实现类型                                                         |
+| `compile_args`       | `COMPILEARGS`     | —                  | 可选      | 可选的Torch编译加速设置                                                    |
+| `block_swap_args`    | `BLOCKSWAPARGS`   | —                  | 可选      | 用于卸载或替换模块 (参见 `HyVideoBlockSwap`)                               |
+| `lora`               | `HYVIDLORA`       | `None`             | 可选      | LoRA权重文件，包含强度和模块掩码                                               |
+| `auto_cpu_offload`   | 布尔值              | `False`            | 可选      | 自动将未使用的模块卸载到CPU                                                  |
+| `upcast_rope`        | 布尔值              | `True`             | 可选      | 对旋转位置嵌入使用float32以提高数值稳定性                                    |
 
-**输出**: **`HYVIDEOMODEL`** - `HyVideoSampler` 和其他生成节点所需的完全初始化的模型对象。
+**输出**：**`HYVIDEOMODEL`** - `HyVideoSampler` 和其他生成节点所需的完全初始化的模型对象。
 
-**使用场景**:
-- 任何 HunyuanVideo 生成管线中的第一个节点
-- 动态交换不同的 UNet 检查点
-- 集成 LoRA、量化和模块卸载
+**使用场景**：
+- 总是任何HunyuanVideo生成管线中的第一个节点
+- 动态切换不同的UNet检查点
+- 集成LoRA、量化和模块卸载
 - 切换注意力后端以权衡速度/质量
 - 激活 `torch.compile` 和内存优化功能
 
-**`base_precision` 选项:**
-- `fp32` – 全精度 (最高准确性，最高 VRAM 占用)
-- `bf16` – Brain-float 16 (平衡性能和内存)
+---
 
-**`quantization` 选项:**
-- `disabled` – 无量化
-- `fp8_e4m3fn` – Float8，4 位指数和 3 位尾数格式
-- `fp8_e4m3fn_fast` – `fp8_e4m3fn` 的更快变体，准确性稍低
-- `fp8_e5m2` – 另一种 8 位浮点布局，指数位数更多
-- `fp8_scaled` – 使用 8 位格式的缩放量化
+### HyVideoVAELoader (HyVideo VAE加载器)
 
-**`attention_mode` 选项:**
-- `sdpa` – 标准缩放点积注意力
-- `flash_attn_varlen` – 支持可变长度上下文的优化 FlashAttention
-- `sageattn` – 实验性的 SAGE 注意力核心
-- `sageattn_varlen` – 支持可变长度的 SAGE 核心
-- `comfy` – 默认 ComfyUI 多头注意力实现
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| -------------- | ------------------------- | ----------- | ---------- | ----------------------------------------------- |
+| `model_name`   | `文件夹路径列表 (vae)`  | —           | 必需       | 从 `ComfyUI/models/vae` 目录下的模型中选择      |
+| `precision`    | `fp16`, `fp32`, `bf16`    | `bf16`      | 可选       | 推理用浮点精度                                    |
+| `compile_args` | `COMPILEARGS`             | —           | 可选       | 使用 `torch.compile` 的可选编译设置             |
 
-**`load_device` 选项:**
-- `main_device` – 在主 CUDA 设备上加载
-- `offload_device` – 将模型加载到辅助/卸载上下文 (例如 CPU)
+**输出：** `VAE`
+
+**使用场景：**
+* 用于将输入图像**编码**到潜变量空间
+* 用于将潜变量输出**解码**回视频帧
+* 与编码器/采样器/解码器节点配对使用
 
 ---
 
-### HyVideoVAELoader
+## HyVideoSampler (HyVideo采样器)
 
-| **参数**       | **类型**                        | **默认值** | **必需?** | **描述**                                 |
-| -------------- | ------------------------------- | ----------- | --------- | ----------------------------------------------- |
-| `model_name`   | `文件夹路径列表 (vae)`           | —           | 是        | 从 `ComfyUI/models/vae` 下的模型中选择   |
-| `precision`    | `fp16`, `fp32`, `bf16`          | `bf16`      | 可选      | 推理用浮点精度          |
-| `compile_args` | `COMPILEARGS`                   | —           | 可选      | 使用 `torch.compile` 的可选编译设置 |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------------- | ---------------------------- | ---------------------------- | ---------- | ----------------------------------------------------------------- |
+| `model`                   | `HYVIDEOMODEL`               | —                            | 必需       | 通过 `HyVideoModelLoader` 加载的核心模型。                       |
+| `hyvid_embeds`            | `HYVIDEMBEDS`                | —                            | 必需       | 从提示编码器生成的条件嵌入向量。                                     |
+| `width`                   | `整数`                       | `512`                        | 必需       | 输出视频帧宽度 (必须是16的倍数)。                                   |
+| `height`                  | `整数`                       | `512`                        | 必需       | 输出视频帧高度 (必须是16的倍数)。                                   |
+| `num_frames`              | `整数`                       | `49`                         | 必需       | 视频帧数。必须满足 `(num_frames - 1) % 4 == 0`。                     |
+| `steps`                   | `整数`                       | `30`                         | 必需       | 采样循环中使用的去噪步数。                                           |
+| `embedded_guidance_scale` | `浮点数`                     | `6.0`                        | 必需       | 提示嵌入向量的CFG强度。                                            |
+| `flow_shift`              | `浮点数`                     | `9.0`                        | 必需       | 控制时间流强度 (运动引导)。                                         |
+| `seed`                    | `整数`                       | `0`                          | 必需       | 用于可复现性的随机种子。                                               |
+| `force_offload`           | `布尔值`                     | `True`                       | 必需       | 采样后是否卸载模型以释放GPU显存。                                    |
+| `samples`                 | `LATENT`                     | `None`                       | 可选       | 用于视频到视频或重新生成的输入潜变量。                                   |
+| `image_cond_latents`      | `LATENT`                     | `None`                       | 可选       | 从图像编码派生的初始潜变量 (用于I2V)。                                |
+| `denoise_strength`        | `浮点数`                     | `1.0`                        | 可选       | 用于控制I2V工作流期间插值强度。                                      |
+| `stg_args`                | `STGARGS`                    | —                            | 可选       | 来自 `HyVideoSTG` 的时空引导参数。                                 |
+| `context_options`         | `HYVIDCONTEXT`               | —                            | 可选       | Transformer上下文窗口配置。                                        |
+| `feta_args`               | `FETAARGS`                   | —                            | 可选       | 来自 `HyVideoEnhanceAVideo` 的特征增强设置。                       |
+| `teacache_args`           | `TEACACHEARGS`               | —                            | 可选       | Transformer激活缓存配置。                                          |
+| `scheduler`               | `枚举`                       | `FlowMatchDiscreteScheduler` | 可选       | 去噪期间使用的采样算法调度器。                                         |
+| `riflex_freq_index`       | `整数`                       | `0`                          | 可选       | 控制RIFLEX插值频率 (0表示禁用RIFLEX)。                             |
+| `i2v_mode`                | `"stability"` 或 `"dynamic"` | `dynamic`                    | 可选       | I2V模式：`dynamic`适应运动，`stability`减少方差。                   |
+| `loop_args`               | `LOOPARGS`                   | —                            | 可选       | 循环一致性配置 (用于循环生成)。                                     |
+| `fresca_args`             | `FRESCA_ARGS`                | —                            | 可选       | 基于频率的运动控制参数 (FreSca)。                                  |
+| `slg_args`                | `SLGARGS`                    | —                            | 可选       | 来自 `HunyuanVideoSLG` 的选择性潜变量引导参数。                        |
+| `mask`                    | `MASK`                       | —                            | 可选       | 用于部分或修复式生成的像素/帧掩码。                                    |
 
-**输出**： `VAE`
+**输出**：**`samples`** (`LATENT`) – 最终的潜变量视频张量，将使用 `HyVideoDecode` 解码。
 
 **使用场景**：
-* 用于将输入图像**编码**到潜空间
-* 用于将潜变量输出**解码**回视频帧
-* 与编码器/采样器/解码器节点配合使用
-
-**`precision` 选项:**
-* `fp32` – 全精度 (最高准确性，最高 VRAM 占用)
-* `fp16` – 半精度 (更快，准确性稍低)
-* `bf16` – 平衡速度/精度 (推荐默认值)
-
----
-
-## HyVideoSampler
-
-| **参数名称**              | **类型**                       | **默认值**                    | **必需?** | **描述**                                                   |
-| ------------------------- | ------------------------------ | ---------------------------- | --------- | ----------------------------------------------------------------- |
-| `model`                   | `HYVIDEOMODEL`                 | —                            | 是        | 通过 `HyVideoModelLoader` 加载的核心模型。                   |
-| `hyvid_embeds`            | `HYVIDEMBEDS`                  | —                            | 是        | 从提示词编码器生成的条件化嵌入。           |
-| `width`                   | `整数`                          | `512`                        | 是        | 输出视频帧宽度 (必须是 16 的倍数)。               |
-| `height`                  | `整数`                          | `512`                        | 是        | 输出视频帧高度 (必须是 16 的倍数)。              |
-| `num_frames`              | `整数`                          | `49`                         | 是        | 视频帧数。必须满足 `(num_frames - 1) % 4 == 0`。 |
-| `steps`                   | `整数`                          | `30`                         | 是        | 采样循环中使用的去噪步数。                            |
-| `embedded_guidance_scale` | `浮点数`                        | `6.0`                        | 是        | 提示词嵌入的 CFG 强度。                           |
-| `flow_shift`              | `浮点数`                        | `9.0`                        | 是        | 控制时间流强度 (运动指导)。            |
-| `seed`                    | `整数`                          | `0`                          | 是        | 用于可复现性的随机种子。                                  |
-| `force_offload`           | `布尔值`                        | `True`                       | 是        | 采样后是否卸载模型以释放 GPU 内存。   |
-| `samples`                 | `LATENT`                       | `None`                       | 可选      | 用于视频到视频或重新生成的输入潜变量。                 |
-| `image_cond_latents`      | `LATENT`                       | `None`                       | 可选      | 从图像编码派生的初始潜变量 (用于 I2V)。             |
-| `denoise_strength`        | `浮点数`                        | `1.0`                        | 可选      | 用于控制 I2V 工作流中插值强度。 |
-| `stg_args`                | `STGARGS`                      | —                            | 可选      | 来自 `HyVideoSTG` 的时空指导参数。             |
-| `context_options`         | `HYVIDCONTEXT`                 | —                            | 可选      | Transformer 上下文窗口的配置。                     |
-| `feta_args`               | `FETAARGS`                     | —                            | 可选      | 来自 `HyVideoEnhanceAVideo` 的特征增强设置。         |
-| `teacache_args`           | `TEACACHEARGS`                 | —                            | 可选      | Transformer 激活缓存配置。                       |
-| `scheduler`               | `枚举`                          | `FlowMatchDiscreteScheduler` | 可选      | 去噪过程中使用的采样算法调度器。               |
-| `riflex_freq_index`       | `整数`                          | `0`                          | 可选      | 控制 RIFLEX 插值频率 (0 禁用 RIFLEX)。      |
-| `i2v_mode`                | `"stability"` 或 `"dynamic"`   | `dynamic`                    | 可选      | I2V 模式: `dynamic` 适应运动, `stability` 减少方差。  |
-| `loop_args`               | `LOOPARGS`                     | —                            | 可选      | 循环一致性配置 (用于循环生成)。           |
-| `fresca_args`             | `FRESCA_ARGS`                  | —                            | 可选      | 基于频率的运动控制参数 (FreSca)。               |
-| `slg_args`                | `SLGARGS`                      | —                            | 可选      | 来自 `HunyuanVideoSLG` 的选择性潜变量指导参数。     |
-| `mask`                    | `MASK`                         | —                            | 可选      | 用于部分或修复式生成的像素/帧掩码。      |
-
-**输出**: **`samples`** (`LATENT`) – 最终的潜变量视频张量，将使用 `HyVideoDecode` 进行解码。
-
-**使用场景**:
 * 所有**文本到视频**、**图像到视频**和**视频到视频**工作流的核心引擎
-* 接受外部潜变量用于**风格迁移**、**混音**或**条件化续写**
-* 可与可选模块配合使用: `STG`, `TeaCache`, `FETA`, `FreSca`, `LoopArgs`, `SLG`, `RIFLEX`
+* 接受外部潜变量用于**风格迁移**、**混音**或**条件延续**
+* 与可选模块配合使用：`STG`、`TeaCache`、`FETA`、`FreSca`、`LoopArgs`、`SLG`、`RIFLEX`
 * 适用于具有自适应内存节省选项的长、高分辨率序列
 
-**`scheduler` 选项：**
-* `FlowMatchDiscreteScheduler` – 使用离散扩散的默认调度器
-* `FlowMatchContinuousScheduler` – 连续变化 (如果支持)
-* `SDE-DPM`, `SA-Solver`, 其他 – 可能因模型后端而异
-
-**`i2v_mode` 选项：**
-* `dynamic` – 优先考虑帧之间的运动
-* `stability` – 减少运动方差；更适合静态主体或循环
-
 ---
 
-### HyVideoDecode
+### HyVideoDecode (HyVideo解码)
 
-| **参数**                       | **类型**   | **默认值** | **必需?** | **描述**                                            |
-| ------------------------------ | ---------- | ----------- | --------- | ---------------------------------------------------------- |
-| `vae`                          | `VAE`      | —           | 是        | 从 `HyVideoVAELoader` 加载的 VAE 模型               |
-| `samples`                      | `LATENT`   | —           | 是        | 要解码的潜变量视频张量                              |
-| `enable_vae_tiling`            | `布尔值`    | `True`      | 是        | 启用分块以减少 VRAM 占用                         |
-| `temporal_tiling_sample_size`  | `整数`      | `64`        | 是        | 潜变量帧分块大小 (越小 VRAM 越少，接缝越多) |
-| `spatial_tile_sample_min_size` | `整数`      | `256`       | 是        | 最小空间分块大小 (像素)                        |
-| `auto_tile_size`               | `布尔值`    | `True`      | 是        | 忽略以上设置并使用默认分块                        |
-| `skip_latents`                 | `整数`      | `0`         | 可选      | 从潜变量输入开头跳过帧                 |
-| `balance_brightness`           | `布尔值`    | `False`     | 可选      | 尝试校正分块间的亮度                |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------------------ | --------- | ----------- | ---------- | ---------------------------------------------------------- |
+| `vae`                          | `VAE`     | —           | 必需       | 从 `HyVideoVAELoader` 加载的VAE模型。                         |
+| `samples`                      | `LATENT`  | —           | 必需       | 要解码的潜变量视频张量。                                       |
+| `enable_vae_tiling`            | `布尔值`    | `True`      | 必需       | 启用分块以减少显存占用。                                         |
+| `temporal_tiling_sample_size`  | `整数`    | `64`        | 必需       | 潜变量帧分块大小 (越小显存占用越少，接缝越多)。                           |
+| `spatial_tile_sample_min_size` | `整数`    | `256`       | 必需       | 最小空间分块大小 (像素)。                                       |
+| `auto_tile_size`               | `布尔值`    | `True`      | 必需       | 忽略以上设置并使用默认分块大小。                                   |
+| `skip_latents`                 | `整数`    | `0`         | 可选       | 从潜变量输入开头跳过的帧数。                                     |
+| `balance_brightness`           | `布尔值`    | `False`     | 可选       | 尝试校正分块间的亮度。                                         |
 
-**输出**: `IMAGE`
+**输出**：`IMAGE`
 
-**使用场景**:
+**使用场景**：
 * 将最终潜变量张量转换为**可见帧**所必需
-* 在大多数工作流中用于 `HyVideoSampler` 之后
-* 通过**分块**适用于内存低的长视频
-
-**`enable_vae_tiling` 选项:**
-* `True` – 启用基于分块的解码 (VRAM 较少，可能产生接缝)
-* `False` – 一次解码完整帧 (VRAM 较多)
+* 在大多数工作流中于 `HyVideoSampler` 之后使用
+* 通过**分块**技术适用于低内存环境下的长视频处理
 
 ---
 
-### HyVideoBlockSwap
+### HyVideoBlockSwap (HyVideo模块交换)
 
-| **参数**                 | **类型** | **默认值** | **必需?** | **描述**                            |
-| ------------------------ | -------- | ----------- | --------- | ------------------------------------------ |
-| `double_blocks_to_swap`  | 整数    | 20          | 是        | 要卸载到 CPU 的双模块数量。 |
-| `single_blocks_to_swap`  | 整数    | 0           | 是        | 要卸载到 CPU 的单模块数量。 |
-| `offload_txt_in`         | 布尔值   | False       | 是        | 是否卸载 `txt_in` 层。     |
-| `offload_img_in`         | 布尔值   | False       | 是        | 是否卸载 `img_in` 层。     |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性**   | **描述**                                       |
+| ------------------------ | -------- | ----------- | -------- | ---------------------------------------------- |
+| `double_blocks_to_swap`  | 整数     | 20          | 必需     | 要卸载到CPU的双模块数量。                           |
+| `single_blocks_to_swap`  | 整数     | 0           | 必需     | 要卸载到CPU的单模块数量。                           |
+| `offload_txt_in`         | 布尔值   | False       | 必需     | 是否卸载 `txt_in` 层。                             |
+| `offload_img_in`         | 布尔值   | False       | 必需     | 是否卸载 `img_in` 层。                             |
 
-**输出**: `BLOCKSWAPARGS`
+**输出**：`BLOCKSWAPARGS`
 
-**使用场景**:
-* 与 `HyVideoModelLoader` 配合使用，通过部分 CPU 卸载减少 VRAM 占用。
-* 常用于低内存环境或大批量处理。
+**使用场景**：
+* 与 `HyVideoModelLoader` 配合使用，通过部分CPU卸载来减少显存占用。
+* 常见于低内存环境或大批量处理。
 
 ---
-### HyVideoTorchCompileSettings
 
-| **参数名称**                 | **类型**            | **默认值** | **必需?** | **描述**                                                                 |
-|--------------------------------|---------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `backend`                      | 下拉框              | "inductor"  | 是        | Torch 编译后端 (`inductor` 或 `cudagraphs`)                          |
-| `fullgraph`                    | 布尔值              | False       | 是        | 强制全图编译 (优化更好但兼容性较低)     |
-| `mode`                         | 下拉框<sup>1</sup> | "default"   | 是        | 编译优化模式                                                   |
-| `dynamic`                      | 布尔值              | False       | 是        | 启用动态形状支持 (针对长序列优化)                      |
-| `dynamo_cache_size_limit`      | 整数                | 64          | 是        | 动态编译缓存大小 (MB)                                          |
-| `compile_single_blocks`        | 布尔值              | True        | 是        | 编译单模块                                                    |
-| `compile_double_blocks`        | 布尔值              | True        | 是        | 编译双模块                                                    |
-| `compile_txt_in`               | 布尔值              | False       | 是        | 编译文本输入层                                                       |
-| `compile_vector_in`            | 布尔值              | False       | 是        | 编译向量输入层                                                     |
-| `compile_final_layer`          | 布尔值              | False       | 是        | 编译最终输出层                                                      |
+### HyVideoTorchCompileSettings (HyVideo Torch编译设置)
 
-**输出**: `COMPILEARGS`
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性**   | **描述**                                                                          |
+|--------------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `backend`                    | 下拉选项              | "inductor"  | 必需     | Torch编译后端 (`inductor` 或 `cudagraphs`)                               |
+| `fullgraph`                  | 布尔值              | False       | 必需     | 强制全图编译 (更好的优化但兼容性较低)                                          |
+| `mode`                       | 下拉选项<sup>1</sup>  | "default"   | 必需     | 编译优化模式                                                               |
+| `dynamic`                    | 布尔值              | False       | 必需     | 启用动态形状支持 (针对长序列优化)                                              |
+| `dynamo_cache_size_limit`    | 整数                | 64          | 必需     | 动态编译缓存大小 (MB)                                                       |
+| `compile_single_blocks`      | 布尔值              | True        | 必需     | 编译单模块                                                                |
+| `compile_double_blocks`      | 布尔值              | True        | 必需     | 编译双模块                                                                |
+| `compile_txt_in`             | 布尔值              | False       | 必需     | 编译文本输入层                                                              |
+| `compile_vector_in`          | 布尔值              | False       | 必需     | 编译向量输入层                                                              |
+| `compile_final_layer`        | 布尔值              | False       | 必需     | 编译最终输出层                                                              |
 
-**使用场景**:
+**输出**：`COMPILEARGS`
+
+**使用场景**：
 - 最大化推理速度 (例如实时生成)
-- 长视频生成 (>100 帧) 的 VRAM 优化
-
-**`mode` 选项**:
-1. `default`: 平衡优化
-2. `max-autotune`: 最大性能 (编译时间更长)
-3. `reduce-overhead`: 最小化运行时开销
+- 针对长视频生成 (>100帧) 的显存优化
 
 ---
 
-### HyVideoTeaCache
+### HyVideoTeaCache (HyVideo TeaCache)
 
-| **参数**          | **类型**                               | **默认值**         | **必需?** | **描述**                                                       |
-| --------------- | ------------------------------------ | ----------------- | --------- | --------------------------------------------------------------------- |
-| `rel_l1_thresh` | 浮点数                                | 0.15              | 是        | 缓存的激进程度；越高越快，但产生伪影的风险也越大 |
-| `cache_device`  | `["main_device", "offload_device"]`  | "offload_device"  | 是        | 缓存 Transformer 激活的设备                               |
-| `start_step`    | 整数                                  | 0                 | 是        | 应用 TeaCache 的起始采样步骤                                 |
-| `end_step`      | 整数                                  | -1                | 是        | 应用 TeaCache 的最终步骤 (`-1` = 直到结束)                        |
+| **参数名称**                | **类型**                              | **默认值**          | **属性**   | **描述**                                                                        |
+| --------------- | ----------------------------------- | ----------------- | -------- | --------------------------------------------------------------------- |
+| `rel_l1_thresh` | 浮点数                                | 0.15              | 必需     | 缓存的积极程度；越高速度越快但伪影风险越大                                    |
+| `cache_device`  | `["main_device", "offload_device"]` | "offload_device"  | 必需     | 缓存Transformer激活值的设备                                            |
+| `start_step`    | 整数                                  | 0                 | 必需     | 应用TeaCache的起始采样步骤                                               |
+| `end_step`      | 整数                                  | -1                | 必需     | 应用TeaCache的结束步骤 (`-1` = 直到结束)                                |
 
-**输出:** `TEACACHEARGS`
+**输出：** `TEACACHEARGS`
 
-**使用场景:**
-* 通过**缓存 Transformer 激活**来加速采样
-* 对于重新计算成本高昂的**长视频生成**非常有用
-* 与卸载设备配合使用时可以**减少 VRAM 占用**
-
-**`rel_l1_thresh` 选项：**
-  * 控制特征重用中的容错率
-  * `0.0–1.0` 范围；值越高 = 重用越激进
-
-**`cache_device` 选项：**
-  * `main_device`: 通常是 GPU
-  * `offload_device`: 通常是 CPU 或辅助 GPU
+**使用场景：**
+* 通过**缓存Transformer激活值**来加速采样
+* 适用于重新计算开销大的**长视频生成**
+* 与卸载设备配合使用时可以**减少显存占用**
 
 ---
 
-### HyVideoEncode
+### HyVideoEncode (HyVideo编码)
 
-| **参数名称**                   | **类型**                           | **默认值** | **必需?** | **描述**                                                                 |
-|--------------------------------|----------------------------------|-----------|-----------|---------------------------------------------------------------------------------|
-| `vae`                          | `VAE`                              | —         | 是        | 通过 `HyVideoVAELoader` 加载的 VAE 模型                                        |
-| `image`                        | `IMAGE`                            | —         | 是        | 输入图像张量 (B x H x W x C)                                              |
-| `enable_vae_tiling`            | `布尔值`                            | True      | 是        | 启用分块以减少 VRAM 占用 (可能引入轻微接缝)                  |
-| `temporal_tiling_sample_size`  | `整数`                              | 64        | 是        | 时间分块大小 (为保证平滑操作必须为 64)                            |
-| `spatial_tile_sample_min_size` | `整数`                              | 256       | 是        | 最小空间分块大小 (像素) (值越小越节省 VRAM)                  |
-| `auto_tile_size`               | `布尔值`                            | True      | 是        | 根据默认值自动配置分块大小                                     |
-| `noise_aug_strength`           | `浮点数`                            | 0.0       | 可选      | 向输入图像添加噪声 (增强运动，范围：0.0-10.0)                     |
-| `latent_strength`              | `浮点数`                            | 1.0       | 可选      | 潜变量输出的缩放因子 (值越小允许更多运动)                 |
-| `latent_dist`                  | 下拉框<sup>1</sup>                   | "sample"  | 可选      | 潜变量采样模式 (`sample`/`mode`)                                         |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|--------------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `vae`                        | VAE               | —           | 必需     | 通过 `HyVideoVAELoader` 加载的VAE模型                                        |
+| `image`                      | IMAGE             | —           | 必需     | 输入图像张量 (B x H x W x C)                                              |
+| `enable_vae_tiling`          | 布尔值              | True        | 必需     | 启用分块以减少显存占用 (可能引入轻微接缝)                                      |
+| `temporal_tiling_sample_size`| 整数                | 64          | 必需     | 时间分块大小 (为保证平滑操作必须为64)                                        |
+| `spatial_tile_sample_min_size`| 整数                | 256         | 必需     | 最小空间分块大小 (像素，较小值节省显存)                                        |
+| `auto_tile_size`             | 布尔值              | True        | 必需     | 根据默认值自动配置分块大小                                                     |
+| `noise_aug_strength`         | 浮点数              | 0.0         | 可选     | 向输入图像添加噪声 (增强运动，范围：0.0-10.0)                                  |
+| `latent_strength`            | 浮点数              | 1.0         | 可选     | 潜变量输出的缩放因子 (较低值允许更多运动)                                      |
+| `latent_dist`                | 下拉选项<sup>1</sup>  | "sample"    | 可选     | 潜变量采样模式 (`sample`/`mode`)                                           |
 
-**输出:** `LATENT`
+**输出：** `LATENT`
 
-**使用场景:**
+**使用场景：**
 - **图像到视频**工作流 (e2v)
 - 为**基于关键帧的生成**预处理参考图像
 - 添加噪声增强以引导运动
 
 ---
 
-### HyVideoEnhanceAVideo
+### HyVideoEnhanceAVideo (HyVideo增强视频)
 
-| **参数**         | **类型**    | **默认值** | **必需?** | **描述**                                        |
-| -------------- | ----------- | ----------- | --------- | ------------------------------------------------------ |
-| `weight`       | `浮点数`     | 2.0         | 是        | FETA 权重，用于控制增强强度。           |
-| `single_blocks`| `布尔值`   | True        | 是        | 是否为单模块启用 Enhance-A-Video。   |
-| `double_blocks`| `布尔值`   | True        | 是        | 是否为双模块启用 Enhance-A-Video。   |
-| `start_percent`| `浮点数`     | 0.0         | 是        | 应用增强的起始去噪步骤百分比。 |
-| `end_percent`  | `浮点数`     | 1.0         | 是        | 应用增强的结束去噪步骤百分比。   |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| -------------- | -------- | ----------- | ---------- | ------------------------------------------------------ |
+| `weight`         | 浮点数   | 2.0         | 必需       | FETA权重，控制增强强度。                                   |
+| `single_blocks`  | 布尔值   | True        | 必需       | 是否为单模块启用Enhance-A-Video。                         |
+| `double_blocks`  | 布尔值   | True        | 必需       | 是否为双模块启用Enhance-A-Video。                         |
+| `start_percent`  | 浮点数   | 0.0         | 必需       | 应用增强的去噪步骤起始百分比。                                   |
+| `end_percent`    | 浮点数   | 1.0         | 必需       | 应用增强的去噪步骤结束百分比。                                   |
 
-**输出:** `FETAARGS`
+**输出：** `FETAARGS`
 
-**使用场景:**
+**使用场景：**
 * 作为 `HyVideoSampler` 节点的输入以增强细节。
 * 对长序列进行锐化和去噪效果显著。
 
 ---
 
-### HyVideoLoraSelect
+### HyVideoLoraSelect (HyVideo LoRA选择)
 
-| **参数**      | **类型**             | **默认值** | **必需?** | **描述**                                                    |
-| ------------- | -------------------- | ----------- | --------- | ------------------------------------------------------------------ |
-| `lora`        | `文件名列表`          | —           | 是        | `models/loras` 文件夹中 LoRA 权重文件 (`.safetensors`) 的路径 |
-| `strength`    | `浮点数`              | `1.0`       | 是        | LoRA 注入强度 (设置为 0.0 则不合并)                 |
-| `prev_lora`   | `HYVIDLORA`          | `None`      | 可选      | 链接多个 LoRA                                               |
-| `blocks`      | `SELECTEDBLOCKS`     | `None`      | 可选      | 通过 `HyVideoLoraBlockEdit` 进行选择性模块注入               |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------- | -------------- | ----------- | ---------- | ------------------------------------------------------------------ |
+| `lora`          | 文件名列表       | —           | 必需       | `models/loras` 文件夹中LoRA权重文件 (`.safetensors`) 的路径       |
+| `strength`      | 浮点数         | `1.0`       | 必需       | LoRA注入强度 (设为0.0以取消合并)                                    |
+| `prev_lora`     | HYVIDLORA      | `None`      | 可选       | 链接多个LoRA                                                         |
+| `blocks`        | SELECTEDBLOCKS | `None`      | 可选       | 通过 `HyVideoLoraBlockEdit` 进行选择性模块注入                        |
 
-**输出:** `HYVIDLORA`
+**输出：** `HYVIDLORA`
 
-**使用场景:**
-* 向 UNet 注入风格/个性/角色行为
-* 以自定义强度组合多个 LoRA
-
-**strength 选项:**
-* 任意 -10.0 到 +10.0 之间的浮点值
-* 禁用 LoRA 补丁
-* 将强烈覆盖模型的行为
-
-**`blocks` 行为:**
-* 通过 `HyVideoLoraBlockEdit` 定义以针对特定的 UNet 模块
-* 如果省略，LoRA 将全局应用
+**使用场景：**
+* 向UNet注入风格/个性/角色行为
+* 结合多个具有自定义强度的LoRA
 
 ---
 
-### HyVideoI2VEncode
+### HyVideoI2VEncode (HyVideo 图像到视频编码)
 
-| **参数名称**                 | **类型**               | **默认值** | **必需?** | **描述**                                                                 |
-|--------------------------------|----------------------|-----------|-----------|---------------------------------------------------------------------------------|
-| `text_encoders`              | `HYVIDTEXTENCODER`   | —         | 是        | 来自 `DownloadAndLoadHyVideoTextEncoder` 的文本编码器                          |
-| `prompt`                     | `字符串`              | ""        | 是        | 描述视频的文本提示词                                               |
-| `force_offload`              | `布尔值`            | True      | 可选      | 编码后卸载文本编码器以节省 VRAM                               |
-| `prompt_template`            | 下拉框<sup>2</sup>    | "video"   | 可选      | 用于 LLM 文本编码的预定义模板                                      |
-| `custom_prompt_template`     | `PROMPT_TEMPLATE`    | —         | 可选      | 自定义模板 (当 `prompt_template` 为 "custom" 时使用)                      |
-| `image`                      | `IMAGE`              | None      | 可选      | 用于图像条件化生成的参考图像                               |
-| `hyvid_cfg`                  | `HYVID_CFG`          | —         | 可选      | 来自 `HyVideoCFG` 节点的 CFG 设置                                            |
-| `image_embed_interleave`     | `整数`                | 2         | 可选      | 图像嵌入在文本标记中的交错频率                       |
-| `model_to_offload`           | `HYVIDEOMODEL`       | None      | 可选      | 在编码期间卸载视频模型以节省 VRAM                               |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|--------------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `text_encoders`              | HYVIDTEXTENCODER   | —           | 必需     | 来自 `DownloadAndLoadHyVideoTextEncoder` 的文本编码器                       |
+| `prompt`                      | 字符串             | ""          | 必需     | 描述视频的文本提示                                                           |
+| `force_offload`              | 布尔值              | True        | 可选     | 编码后卸载文本编码器以节省显存                                                 |
+| `prompt_template`            | 下拉选项<sup>2</sup>  | "video"     | 可选     | 用于LLM文本编码的预定义模板                                                  |
+| `custom_prompt_template`     | PROMPT_TEMPLATE    | —           | 可选     | 自定义模板 (当 `prompt_template` 为 "custom" 时使用)                       |
+| `image`                       | IMAGE              | None        | 可选     | 用于图像条件生成的参考图像                                                     |
+| `hyvid_cfg`                  | HYVID_CFG          | —           | 可选     | 来自 `HyVideoCFG` 节点的CFG设置                                            |
+| `image_embed_interleave`     | 整数                | 2           | 可选     | 文本token中图像嵌入的交错频率                                                |
+| `model_to_offload`           | HYVIDEOMODEL       | None        | 可选     | 编码期间卸载视频模型以节省显存                                                 |
 
-**输出:** `HYVIDEMBEDS`
+**输出：** `HYVIDEMBEDS`
 
-**使用场景:**
-- **图像提示词视频生成** (IP2V)
-- 结合**文本和图像嵌入**进行混合条件化
-- 使用自定义提示词模板的高级工作流
+**使用场景：**
+- **图像提示视频生成** (IP2V)
+- 结合**文本和图像嵌入**进行混合条件控制
+- 使用自定义提示模板的高级工作流
 
 ---
 
-## HyVideoEncodeKeyframes
+## HyVideoEncodeKeyframes (HyVideo编码关键帧)
 
-| **参数名称**                   | **类型**                 | **默认值** | **必需?** | **描述**                                         |
-| ------------------------------ | ------------------------ | ----------- | --------- | ------------------------------------------------------- |
-| `vae`                          | `VAE`                    | —           | 是        | 用于编码图像的 VAE 模型                              |
-| `start_image`                  | `IMAGE`                  | —           | 是        | 第一个关键帧                                          |
-| `end_image`                    | `IMAGE`                  | —           | 是        | 最后一个关键帧                                           |
-| `num_frames`                   | `整数`                    | `49`        | 是        | 开始和结束之间的总帧数            |
-| `enable_vae_tiling`            | `布尔值`                | `True`      | 是        | 是否使用分块 VAE 编码 (内存优化) |
-| `temporal_tiling_sample_size`  | `整数`                    | `64`        | 是        | 每个时间块的采样大小                          |
-| `spatial_tile_sample_min_size` | `整数`                    | `256`       | 是        | 最小图像分块大小                                 |
-| `auto_tile_size`               | `布尔值`                | `True`      | 是        | 自动选择分块参数                  |
-| `noise_aug_strength`           | `浮点数`                  | `0.0`       | 可选      | 添加噪声以增加变化 (支持 LeapFusion)    |
-| `latent_strength`              | `浮点数`                  | `1.0`       | 可选      | 缩放潜变量转换的强度             |
-| `latent_dist`                  | `"sample"` 或 `"mode"`   | `sample`    | 可选      | 是采样潜变量分布还是使用众数       |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------------------ | ---------------------- | ----------- | ---------- | ------------------------------------------------------- |
+| `vae`                          | `VAE`                  | —           | 必需       | 用于编码图像的VAE模型                                       |
+| `start_image`                  | `IMAGE`                | —           | 必需       | 第一个关键帧                                                |
+| `end_image`                    | `IMAGE`                | —           | 必需       | 最后一个关键帧                                                |
+| `num_frames`                   | `整数`                 | `49`        | 必需       | 起始和结束帧之间的总帧数                                      |
+| `enable_vae_tiling`            | `布尔值`               | `True`      | 必需       | 是否使用分块VAE编码 (内存优化)                                 |
+| `temporal_tiling_sample_size`  | `整数`                 | `64`        | 必需       | 每个时间块的样本大小                                          |
+| `spatial_tile_sample_min_size` | `整数`                 | `256`       | 必需       | 最小图像分块大小                                            |
+| `auto_tile_size`               | `布尔值`               | `True`      | 必需       | 自动选择分块参数                                            |
+| `noise_aug_strength`           | `浮点数`               | `0.0`       | 可选       | 添加噪声以增加变化 (支持LeapFusion)                             |
+| `latent_strength`              | `浮点数`               | `1.0`       | 可选       | 缩放潜变量转换的强度                                        |
+| `latent_dist`                  | `"sample"` 或 `"mode"` | `sample`    | 可选       | 是采样潜变量分布还是使用众数                                    |
 
-**输出**:  `LATENT` – 关键帧之间的插值潜变量张量
+**输出**：`LATENT` – 关键帧之间的插值潜变量张量
 
-**使用场景**:
+**使用场景**：
 * 关键帧到视频插值
 * 角色姿势到动画工作流
 * 使用最少图像输入的长帧过渡
 
-**`latent_dist` 选项：**
-* `sample` – 在帧之间引入随机变化
-* `mode` – 确定性编码 (稳定输出)
+---
+
+## HyVideoCFG (HyVideo CFG)
+
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------- | --------- | ----------- | ---------- | ----------------------------------------------------------------- |
+| `cfg`               | `浮点数`  | `6.0`       | 必需       | 分类器自由引导的基础强度                                             |
+| `curve`             | `字符串`  | `linear`    | 可选       | 插值函数：线性、缓入/缓出、sigmoid等                                 |
+| `start_step`        | `整数`    | `0`         | 可选       | 开始应用CFG的索引                                                   |
+| `end_step`          | `整数`    | `-1`        | 可选       | 停止应用CFG的索引 (-1 = 结束)                                       |
+| `use_time_fraction` | `布尔值`  | `False`     | 可选       | 将起始/结束解释为总步数的比例 (例如，0.2 = 20%)                          |
+
+**输出**：`CFGARGS` – 分类器自由引导调度
+
+**使用场景**：
+* 随时间动态调整提示强度
+* 在早期或晚期抑制提示
+* 创建更细微或分层的语义影响
 
 ---
 
-## HyVideoCFG
+## HyVideoTextImageEncode (HyVideo图文编码)
 
-| **参数名称**        | **类型**    | **默认值** | **必需?** | **描述**                                                   |
-| ------------------- | ----------- | ----------- | --------- | ----------------------------------------------------------------- |
-| `cfg`               | `浮点数`     | `6.0`       | 是        | 无分类器指导的基础强度                         |
-| `curve`             | `字符串`    | `linear`    | 可选      | 插值函数：线性、缓入/缓出、Sigmoid 等        |
-| `start_step`        | `整数`       | `0`         | 可选      | 开始应用 CFG 的索引                                       |
-| `end_step`          | `整数`       | `-1`        | 可选      | 停止应用 CFG 的索引 (-1 = 结束)                             |
-| `use_time_fraction` | `布尔值`   | `False`     | 可选      | 将开始/结束解释为总步骤的百分比 (例如 0.2 = 20%) |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ----------------------- | --------------------- | ----------- | ---------- | --------------------------------------------------- |
+| `text`                  | `字符串`              | —           | 必需       | 提示文本                                              |
+| `text_encoder`          | `HYVIDTEXTENCODER`    | —           | 必需       | 用于处理文本的已加载编码器                                   |
+| `image1`                | `IMAGE`               | —           | 必需       | 第一个输入图像                                          |
+| `image2`                | `IMAGE`               | —           | 必需       | 第二个输入图像                                          |
+| `vae`                   | `VAE`                 | —           | 必需       | 用于编码图像的VAE模型                                   |
+| `resolution`            | `整数`                | `512`       | 可选       | 调整图像大小以进行编码                                    |
+| `is_negative_prompt`    | `布尔值`              | `False`     | 可选       | 此嵌入是否用作负向提示                                    |
+| `custom_prompt_context` | `CustomPromptContext` | —           | 可选       | 用于结构化LLM提示的可选文本格式化                           |
 
-**输出**:  `CFGARGS` – 无分类器指导调度
+**输出**：`HYVIDEMBEDS` – 融合的图像-文本潜变量嵌入
 
-**使用场景**:
-* 随时间动态调整提示词强度
-* 在早期或晚期抑制提示词
-* 创建更微妙或分层的语义影响
-
----
-
-## HyVideoTextImageEncode
-
-| **参数名称**            | **类型**                | **默认值** | **必需?** | **描述**                                     |
-| ----------------------- | ----------------------- | ----------- | --------- | --------------------------------------------------- |
-| `text`                  | `字符串`                | —           | 是        | 提示词文本                                         |
-| `text_encoder`          | `HYVIDTEXTENCODER`      | —           | 是        | 用于处理文本的已加载编码器                  |
-| `image1`                | `IMAGE`                 | —           | 是        | 第一个输入图像                                   |
-| `image2`                | `IMAGE`                 | —           | 是        | 第二个输入图像                                  |
-| `vae`                   | `VAE`                   | —           | 是        | 用于编码图像的 VAE 模型                          |
-| `resolution`            | `整数`                   | `512`       | 可选      | 调整图像大小以进行编码                           |
-| `is_negative_prompt`    | `布尔值`               | `False`     | 可选      | 此嵌入是否用作负向提示词 |
-| `custom_prompt_context` | `CustomPromptContext`   | —           | 可选      | 用于结构化 LLM 提示词的可选文本格式化 |
-
-**输出**:  `HYVIDEMBEDS` – 融合的图像-文本潜变量嵌入
-
-**使用场景**:
-* IP2V: **图像 + 提示词 → 视频**工作流
+**使用场景**：
+* IP2V: **图像 + 提示 → 视频** 工作流
 * 参考引导的动画
-* 将两个图像的外观/风格与文本行为/控制相结合
+* 结合两个图像的外观/风格与文本行为/控制
 
 ---
 
-## HyVideoTextImageEncode
+## HyVideoTextImageEncode (HyVideo图文编码)
 
-| **参数名称**            | **类型**                | **默认值** | **必需?** | **描述**                                     |
-| ----------------------- | ----------------------- | ----------- | --------- | --------------------------------------------------- |
-| `text`                  | `字符串`                | —           | 是        | 提示词文本                                         |
-| `text_encoder`          | `HYVIDTEXTENCODER`      | —           | 是        | 用于处理文本的已加载编码器                  |
-| `image1`                | `IMAGE`                 | —           | 是        | 第一个输入图像                                   |
-| `image2`                | `IMAGE`                 | —           | 是        | 第二个输入图像                                  |
-| `vae`                   | `VAE`                   | —           | 是        | 用于编码图像的 VAE 模型                          |
-| `resolution`            | `整数`                   | `512`       | 可选      | 调整图像大小以进行编码                           |
-| `is_negative_prompt`    | `布尔值`               | `False`     | 可选      | 此嵌入是否用作负向提示词 |
-| `custom_prompt_context` | `CustomPromptContext`   | —           | 可选      | 用于结构化 LLM 提示词的可选文本格式化 |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ----------------------- | --------------------- | ----------- | ---------- | --------------------------------------------------- |
+| `text`                  | `字符串`              | —           | 必需       | 提示文本                                              |
+| `text_encoder`          | `HYVIDTEXTENCODER`    | —           | 必需       | 用于处理文本的已加载编码器                                   |
+| `image1`                | `IMAGE`               | —           | 必需       | 第一个输入图像                                          |
+| `image2`                | `IMAGE`               | —           | 必需       | 第二个输入图像                                          |
+| `vae`                   | `VAE`                 | —           | 必需       | 用于编码图像的VAE模型                                   |
+| `resolution`            | `整数`                | `512`       | 可选       | 调整图像大小以进行编码                                    |
+| `is_negative_prompt`    | `布尔值`              | `False`     | 可选       | 此嵌入是否用作负向提示                                    |
+| `custom_prompt_context` | `CustomPromptContext` | —           | 可选       | 用于结构化LLM提示的可选文本格式化                           |
 
-**输出**: `HYVIDEMBEDS` – 融合的图像-文本潜变量嵌入
+**输出**：`HYVIDEMBEDS` – 融合的图像-文本潜变量嵌入
 
-**使用场景**:
-* IP2V: **图像 + 提示词 → 视频**工作流
+**使用场景**：
+* IP2V: **图像 + 提示 → 视频** 工作流
 * 参考引导的动画
-* 将两个图像的外观/风格与文本行为/控制相结合
+* 结合两个图像的外观/风格与文本行为/控制
 
 ---
 
-### HyVideoInverseSampler
+### HyVideoInverseSampler (HyVideo逆向采样器)
 
-| **参数名称**       | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `model`                     | `HYVIDEOMODEL`     | —           | 是        | 预加载的混元模型                                                         |
-| `hyvid_embeds`              | `HYVIDEMBEDS`      | —           | 是        | 空文本嵌入 (与 `HyVideoEmptyTextEmbeds` 配合使用)                       |
-| `samples`                   | `LATENT`           | —           | 是        | 目标潜变量 (要反演的视频)                                       |
-| `steps`                     | `整数`              | 30          | 是        | 反向采样步骤                                                          |
-| `gamma`                     | `浮点数`            | 0.5         | 是        | 噪声插值强度 (0=完全反演, 1=完全正向)                 |
-| `gamma_trend`               | `下拉框`            | "constant"  | 是        | 强度变化趋势                                                        |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `model`                    | HYVIDEOMODEL      | —           | 必需     | 预加载的Hunyuan模型                                                        |
+| `hyvid_embeds`             | HYVIDEMBEDS       | —           | 必需     | 空文本嵌入 (与 `HyVideoEmptyTextEmbeds` 一起使用)                          |
+| `samples`                  | LATENT            | —           | 必需     | 目标潜变量 (要反演的视频)                                                    |
+| `steps`                    | 整数                | 30          | 必需     | 逆向采样步骤                                                               |
+| `gamma`                    | 浮点数              | 0.5         | 必需     | 噪声插值强度 (0=完全反演, 1=完全正向)                                       |
+| `gamma_trend`              | 下拉选项            | "constant"  | 必需     | 强度变化趋势                                                               |
 
-**输出:** `LATENT` (反演后的潜变量)
+**输出：** `LATENT` (反演后的潜变量)
 
-**使用场景:**
-- 用于视频编辑的潜空间反演
+**使用场景：**
+- 用于视频编辑的潜变量空间反演
 - 使用 `HyVideoReSampler` 进行帧一致性修复
 
-**gamma_trend 选项:**
-- `constant`: 固定强度
-- `linear_increase`: 线性增加
-- `linear_decrease`: 线性减少
-
 ---
 
-### HyVideoReSampler
+### HyVideoReSampler (HyVideo重采样器)
 
-| **参数名称**         | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `inversed_latents`        | `LATENT`           | —           | 是        | 反演后的潜变量 (来自 `HyVideoInverseSampler`)                                |
-| `eta_base`                | `浮点数`            | 0.5         | 是        | 基础重采样强度                                                       |
-| `eta_trend`               | `下拉框`            | "constant"  | 是        | 时间强度分布曲线                                           |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `inversed_latents`         | LATENT            | —           | 必需     | 反演后的潜变量 (来自 `HyVideoInverseSampler`)                               |
+| `eta_base`                 | 浮点数              | 0.5         | 必需     | 基础重采样强度                                                             |
+| `eta_trend`                | 下拉选项            | "constant"  | 必需     | 时间强度分布曲线                                                           |
 
-**输出:** `LATENT` (优化后的潜变量)
+**输出：** `LATENT` (优化后的潜变量)
 
-**使用场景:**
+**使用场景：**
 - 修复生成视频中的闪烁问题
 - 增强长视频的时间一致性
 
 ---
 
-### HyVideoPromptMixSampler
+### HyVideoPromptMixSampler (HyVideo提示混合采样器)
 
-| **参数名称**            | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `hyvid_embeds_2`          | `HYVIDEMBEDS`      | —           | 是        | 第二个提示词嵌入                                                       |
-| `alpha`                   | `浮点数`            | 0.5         | 是        | 提示词混合锐度 (0-1, 越高过渡越突然)                     |
-| `interpolation_curve`     | `浮点数[]`          | —           | 可选      | 每帧混合权重曲线                                                  |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `hyvid_embeds_2`          | HYVIDEMBEDS       | —           | 必需     | 第二个提示嵌入向量                                                           |
+| `alpha`                    | 浮点数              | 0.5         | 必需     | 提示混合锐度 (0-1, 越高过渡越突然)                                          |
+| `interpolation_curve`      | 浮点数数组          | —           | 可选     | 每帧混合权重曲线                                                             |
 
-**输出:** `LATENT` (混合后的潜变量)
+**输出：** `LATENT` (混合后的潜变量)
 
-**使用场景:**
-- 提示词之间的动态过渡 (例如场景变形)
+**使用场景：**
+- 提示之间的动态过渡 (例如场景变形)
 - 多风格融合生成
 
 ---
 
-### HyVideoLoraBlockEdit
+### HyVideoLoraBlockEdit (HyVideo LoRA模块编辑)
 
-| **参数**            | **类型** | **默认值** | **必需?** | **描述**                                |
-| ------------------- | -------- | ----------- | --------- | ---------------------------------------------- |
-| `double_blocks.0–19`| 布尔值   | True        | 是        | 切换 20 个双模块中每个模块的注入。 |
-| `single_blocks.0–39`| 布尔值   | True        | 是        | 切换 40 个单模块中每个模块的注入。 |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------- | -------- | ----------- | ---------- | ---------------------------------------------- |
+| `double_blocks.0–19` | 布尔值   | True        | 必需       | 切换20个双模块中每个模块的注入状态。                      |
+| `single_blocks.0–39` | 布尔值   | True        | 必需       | 切换40个单模块中每个模块的注入状态。                      |
 
-**输出:** `SELECTEDBLOCKS`
-
----
-
-### HyVideoLoraBlockEdit
-
-| **参数**            | **类型** | **默认值** | **必需?** | **描述**                                |
-| ------------------- | -------- | ----------- | --------- | ---------------------------------------------- |
-| `double_blocks.0–19`| 布尔值   | True        | 是        | 切换 20 个双模块中每个模块的注入。 |
-| `single_blocks.0–39`| 布尔值   | True        | 是        | 切换 40 个单模块中每个模块的注入。 |
-
-**输出**: `SELECTEDBLOCKS`
-
-**使用场景**:
-* 与 `HyVideoLoraSelect` 配合使用，将 LoRA 应用于特定模块。
-* 实现风格/角色注入的细粒度控制。
-* 与 `HyVideoLoraSelect` 配合使用，将 LoRA 应用于特定模块。
-* 实现风格/角色注入的细粒度控制。
+**输出：** `SELECTEDBLOCKS`
 
 ---
 
-### HyVideoEnableAVideo (HyVideoEnhanceAVideo)
+### HyVideoLoraBlockEdit (HyVideo LoRA模块编辑)
 
-| **参数名称**       | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `weight`                  | `浮点数`            | 2.0         | 是        | 增强强度 (>1.0 增强细节, <1.0 平滑输出)                |
-| `start_percent`           | `浮点数`            | 0.0         | 是        | 增强的起始步骤百分比                                        |
-| `end_percent`             | `浮点数`            | 1.0         | 是        | 增强的结束步骤百分比                                          |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------- | -------- | ----------- | ---------- | ---------------------------------------------- |
+| `double_blocks.0–19` | 布尔值   | True        | 必需       | 切换20个双模块中每个模块的注入状态。                      |
+| `single_blocks.0–39` | 布尔值   | True        | 必需       | 切换40个单模块中每个模块的注入状态。                      |
 
-**输出**: `FETAARGS`
+**输出**：`SELECTEDBLOCKS`
 
-**使用场景**:
-- 修复低质量的生成结果
+**使用场景**：
+* 与 `HyVideoLoraSelect` 配合使用，将LoRA应用于特定模块。
+* 实现风格/角色注入的细粒度控制。
+* 与 `HyVideoLoraSelect` 配合使用，将LoRA应用于特定模块。
+* 实现风格/角色注入的细粒度控制。
+
+---
+
+### HyVideoEnableAVideo (HyVideoEnhanceAVideo) (HyVideo启用视频增强)
+
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `weight`                   | 浮点数              | 2.0         | 必需     | 增强强度 (>1.0 增强细节, <1.0 平滑输出)                                  |
+| `start_percent`            | 浮点数              | 0.0         | 必需     | 增强的起始步骤百分比                                                         |
+| `end_percent`              | 浮点数              | 1.0         | 必需     | 增强的结束步骤百分比                                                         |
+
+**输出**：`FETAARGS`
+
+**使用场景**：
+- 修复低质量生成结果
 - 增强视频纹理细节
 
 ---
 
-### HyVideoSTG
+### HyVideoSTG (HyVideo时空引导)
 
-| **参数**            | **类型** | **默认值** | **必需?** | **描述**                                                  |
-| ------------------- | -------- | ----------- | --------- | ---------------------------------------------------------------- |
-| `stg_mode`          | 下拉框    | STG-A       | 是        | 时空指导模式：`STG-A` 或 `STG-R`。            |
-| `stg_block_idx`     | 整数      | 0           | 是        | 应用指导的模块索引 (-1 到 39)。                |
-| `stg_scale`         | 浮点数    | 1.0         | 是        | STG 效果强度 (推荐 ≤ 2.0)。                      |
-| `stg_start_percent` | 浮点数    | 0.0         | 是        | 何时开始应用指导 (占去噪步骤的百分比)。 |
-| `stg_end_percent`   | 浮点数    | 1.0         | 是        | 何时结束应用指导 (占去噪步骤的百分比)。   |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------- | -------- | ----------- | ---------- | ---------------------------------------------------------------- |
+| `stg_mode`           | 下拉选项   | STG-A       | 必需       | 时空引导模式：`STG-A` 或 `STG-R`。                               |
+| `stg_block_idx`     | 整数       | 0           | 必需       | 应用引导的模块索引 (-1 到 39)。                                     |
+| `stg_scale`          | 浮点数   | 1.0         | 必需       | STG效果强度 (推荐 ≤ 2.0)。                                      |
+| `stg_start_percent` | 浮点数   | 0.0         | 必需       | 何时开始应用引导 (占去噪步骤的百分比)。                                |
+| `stg_end_percent`   | 浮点数   | 1.0         | 必需       | 何时结束应用引导 (占去噪步骤的百分比)。                                |
 
-**输出**: `STGARGS`
+**输出**：`STGARGS`
 
-**使用场景**:
+**使用场景**：
 * 应用于 `HyVideoSampler` 以保持时间一致性。
-* 与关键帧和长运动场景配合良好。
-
-**`stg_mode` 选项：**
-  * `STG-A` – 加性指导
-  * `STG-R` – 残差指导
+* 适用于关键帧和长运动场景。
 
 ---
 
-### HunyuanVideoFresca
+### HunyuanVideoFresca (混元视频FreSca)
 
-| **参数**             | **类型** | **默认值** | **必需?** | **描述**                                               |
-| -------------------- | -------- | ----------- | --------- | ------------------------------------------------------------- |
-| `fresca_scale_low`   | 浮点数    | `1.0`       | 是        | 低频段的频率调制缩放      |
-| `fresca_scale_high`  | 浮点数    | `1.25`      | 是        | 高频段的频率调制缩放               |
-| `fresca_freq_cutoff` | 整数      | `20`        | 是        | 分离低/高调制的频率截止阈值 |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| -------------------- | -------- | ----------- | ---------- | ------------------------------------------------------------- |
+| `fresca_scale_low`   | 浮点数   | `1.0`       | 必需       | 低频段的频率调制缩放                                             |
+| `fresca_scale_high`  | 浮点数   | `1.25`      | 必需       | 高频段的频率调制缩放                                             |
+| `fresca_freq_cutoff` | 整数     | `20`        | 必需       | 用于区分低/高调制的频率截止阈值                                    |
 
-**输出**: `FRESCA_ARGS`
+**输出**：`FRESCA_ARGS`
 
-**使用场景**:
+**使用场景**：
 * 应用基于频率的风格迁移
-* 使用频谱调制为纹理或特征制作动画
-
-**`fresca_freq_cutoff` 行为:**
-* 低频和高频应用的截止点
-* 更大的截止值会将更多能量推向高频
-
-**`fresca_scale` 选项:**
-* `scale_low < 1.0`: 抑制低频运动
-* `scale_high > 1.0`: 增强高频纹理
+* 使用频谱调制动画化纹理或特征
 
 ---
 
-### HyVideoLatentPreview
+### HyVideoLatentPreview (HyVideo潜变量预览)
 
-| **参数名称**       | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `min_val`                 | `浮点数`            | -0.15       | 是        | 潜变量可视化的最小值映射                                  |
-| `max_val`                 | `浮点数`            | 0.15        | 是        | 潜变量可视化的最大值映射                                  |
-| `rgb_bias`                | `浮点数[3]`         | [0,0,0]     | 是        | RGB 通道偏置调整                                                     |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `min_val`                  | 浮点数              | -0.15       | 必需     | 潜变量可视化的最小值映射                                                       |
+| `max_val`                  | 浮点数              | 0.15        | 必需     | 潜变量可视化的最大值映射                                                       |
+| `rgb_bias`                 | 浮点数数组[3]       | [0,0,0]     | 必需     | RGB通道偏置调整                                                            |
 
-**输出:** `IMAGE` (预览), `STRING` (颜色映射公式)
+**输出：** `IMAGE` (预览), `字符串` (颜色映射公式)
 
-**使用场景:**
-- 潜空间调试和可视化
-- 无需完全解码即可快速检查内容
-
----
-
-### HyVideoLatentPreview
-
-| **参数名称**       | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `min_val`                 | `浮点数`            | -0.15       | 是        | 潜变量可视化的最小值映射                                  |
-| `max_val`                 | `浮点数`            | 0.15        | 是        | 潜变量可视化的最大值映射                                  |
-| `rgb_bias`                | `浮点数[3]`         | [0,0,0]     | 是        | RGB 通道偏置调整                                                     |
-
-**输出**: `IMAGE` (预览), `STRING` (颜色映射公式)
-
-**使用场景**:
-- 潜空间调试和可视化
-- 无需完全解码即可快速检查内容
+**使用场景：**
+- 潜变量空间调试和可视化
+- 无需完整解码的快速内容检查
 
 ---
 
-### HyVideoCustomPromptTemplate
+### HyVideoLatentPreview (HyVideo潜变量预览)
 
-| **参数名称**               | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `custom_prompt_template`  | `字符串`            | —           | 是        | 自定义模板 (必须包含 `{}` 占位符)                                |
-| `crop_start`              | `整数`              | 0           | 是        | 系统提示词截断位置                                              |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `min_val`                  | 浮点数              | -0.15       | 必需     | 潜变量可视化的最小值映射                                                       |
+| `max_val`                  | 浮点数              | 0.15        | 必需     | 潜变量可视化的最大值映射                                                       |
+| `rgb_bias`                 | 浮点数数组[3]       | [0,0,0]     | 必需     | RGB通道偏置调整                                                            |
 
-**输出**: `PROMPT_TEMPLATE`
+**输出**：`IMAGE` (预览), `字符串` (颜色映射公式)
 
-**使用场景**:
-- 针对非标准语言模型的提示词工程
+**使用场景**：
+- 潜变量空间调试和可视化
+- 无需完整解码的快速内容检查
+
+---
+
+### HyVideoCustomPromptTemplate (HyVideo自定义提示模板)
+
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `custom_prompt_template`  | 字符串              | —           | 必需     | 自定义模板 (必须包含 `{}` 占位符)                                           |
+| `crop_start`               | 整数                | 0           | 必需     | 系统提示截断位置                                                             |
+
+**输出**：`PROMPT_TEMPLATE`
+
+**使用场景**：
+- 针对非标准语言模型的提示工程
 - 多任务工作流的统一模板管理
 
 ---
 
-### HyVideoSTG
+### HyVideoSTG (HyVideo时空引导)
 
-| **参数**            | **类型** | **默认值** | **必需?** | **描述**                                                  |
-| ------------------- | -------- | ----------- | --------- | ---------------------------------------------------------------- |
-| `stg_mode`          | 下拉框    | STG-A       | 是        | 时空指导模式：`STG-A` 或 `STG-R`。            |
-| `stg_block_idx`     | 整数      | 0           | 是        | 应用指导的模块索引 (-1 到 39)。                |
-| `stg_scale`         | 浮点数    | 1.0         | 是        | STG 效果强度 (推荐 ≤ 2.0)。                      |
-| `stg_start_percent` | 浮点数    | 0.0         | 是        | 何时开始应用指导 (占去噪步骤的百分比)。 |
-| `stg_end_percent`   | 浮点数    | 1.0         | 是        | 何时结束应用指导 (占去噪步骤的百分比)。   |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ------------------- | -------- | ----------- | ---------- | ---------------------------------------------------------------- |
+| `stg_mode`           | 下拉选项   | STG-A       | 必需       | 时空引导模式：`STG-A` 或 `STG-R`。                               |
+| `stg_block_idx`     | 整数       | 0           | 必需       | 应用引导的模块索引 (-1 到 39)。                                     |
+| `stg_scale`          | 浮点数   | 1.0         | 必需       | STG效果强度 (推荐 ≤ 2.0)。                                      |
+| `stg_start_percent` | 浮点数   | 0.0         | 必需       | 何时开始应用引导 (占去噪步骤的百分比)。                                |
+| `stg_end_percent`   | 浮点数   | 1.0         | 必需       | 何时结束应用引导 (占去噪步骤的百分比)。                                |
 
-**输出**: `STGARGS`
+**输出**：`STGARGS`
 
-**使用场景**:
+**使用场景**：
 * 应用于 `HyVideoSampler` 以保持时间一致性。
-* 与关键帧和长运动场景配合良好。
-
-**`stg_mode` 选项**:
-  * `STG-A` – 加性指导
-  * `STG-R` – 残差指导
+* 适用于关键帧和长运动场景。
 
 ---
 
-### HunyuanVideoFresca
+### HunyuanVideoFresca (混元视频FreSca)
 
-| **参数**             | **类型** | **默认值** | **必需?** | **描述**                                               |
-| -------------------- | -------- | ----------- | --------- | ------------------------------------------------------------- |
-| `fresca_scale_low`   | 浮点数    | `1.0`       | 是        | 低频段的频率调制缩放      |
-| `fresca_scale_high`  | 浮点数    | `1.25`      | 是        | 高频段的频率调制缩放               |
-| `fresca_freq_cutoff` | 整数      | `20`        | 是        | 分离低/高调制的频率截止阈值 |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| -------------------- | -------- | ----------- | ---------- | ------------------------------------------------------------- |
+| `fresca_scale_low`   | 浮点数   | `1.0`       | 必需       | 低频段的频率调制缩放                                             |
+| `fresca_scale_high`  | 浮点数   | `1.25`      | 必需       | 高频段的频率调制缩放                                             |
+| `fresca_freq_cutoff` | 整数     | `20`        | 必需       | 用于区分低/高调制的频率截止阈值                                    |
 
-**输出**: `FRESCA_ARGS`
+**输出**：`FRESCA_ARGS`
 
-**使用场景**:
+**使用场景**：
 * 应用基于频率的风格迁移
-* 使用频谱调制为纹理或特征制作动画
-
-**`fresca_freq_cutoff` 行为:**
-* 低频和高频应用的截止点
-* 更大的截止值会将更多能量推向高频
-
-**`fresca_scale` 选项:**
-* `scale_low < 1.0`: 抑制低频运动
-* `scale_high > 1.0`: 增强高频纹理
+* 使用频谱调制动画化纹理或特征
 
 ---
 
-### HunyuanVideoSLG
+### HunyuanVideoSLG (混元视频SLG)
 
-| **参数名称**       | **类型**           | **默认值** | **必需?** | **描述**                                                                 |
-|-----------------------------|--------------------|-------------|-----------|---------------------------------------------------------------------------------|
-| `single_blocks`           | `字符串`            | "20"        | 是        | 要跳过无条件计算的单模块索引 (逗号分隔)              |
-| `start_percent`           | `浮点数`            | 0.4         | 是        | SLG 激活起始步骤百分比                                            |
-| `end_percent`             | `浮点数`            | 0.8         | 是        | SLG 激活结束步骤百分比                                              |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+|-----------------------------|---------------------|-------------|----------|---------------------------------------------------------------------------------|
+| `single_blocks`            | 字符串              | "20"        | 必需     | 要跳过无条件计算的单模块索引 (逗号分隔)                                      |
+| `start_percent`            | 浮点数              | 0.4         | 必需     | SLG激活起始步骤百分比                                                      |
+| `end_percent`              | 浮点数              | 0.8         | 必需     | SLG激活结束步骤百分比                                                      |
 
-**输出**: `SLGARGS`
+**输出**：`SLGARGS`
 
-**使用场景**:
+**使用场景**：
 - 减少高动态场景中的运动模糊
-- 加快生成速度 (牺牲一些多样性)
+- 加速生成 (牺牲部分多样性)
 
 ---
 
-### HyVideoLoopArgs
+### HyVideoLoopArgs (HyVideo循环参数)
 
-| **参数**       | **类型** | **默认值** | **必需?** | **描述**                               |
-| -------------- | -------- | ----------- | --------- | --------------------------------------------- |
-| `shift_skip`   | 整数      | `6`         | 是        | 每个循环要跳过的潜变量移位步数 |
-| `start_percent`| 浮点数    | `0.0`       | 是        | 循环开始的生成百分比       |
-| `end_percent`  | 浮点数    | `1.0`       | 是        | 循环结束的生成百分比         |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| -------------- | -------- | ----------- | ---------- | --------------------------------------------- |
+| `shift_skip`    | 整数     | `6`         | 必需       | 每个循环要跳过的潜变量移位步数                                  |
+| `start_percent` | 浮点数   | `0.0`       | 必需       | 循环开始的生成百分比                                        |
+| `end_percent`   | 浮点数   | `1.0`       | 必需       | 循环结束的生成百分比                                        |
 
-**输出:** `LOOPARGS`
+**输出**：`LOOPARGS`
 
-**使用场景:**
+**使用场景**：
 * 实现无缝视频循环效果
-* 支持受 Möbius 方法启发的潜变量移位插值
+* 支持受莫比乌斯方法启发的潜变量移位插值
 
 ---
 
-### HyVideoContextOptions
+### HyVideoContextOptions (HyVideo上下文选项)
 
-| **参数**          | **类型** | **默认值**          | **必需?** | **描述**                                                |
-| ----------------- | -------- | ------------------ | --------- | -------------------------------------------------------------- |
-| `context_schedule`| 下拉框    | `uniform_standard` | 是        | 上下文窗口调度策略                         |
-| `context_frames`  | 整数      | `65`               | 是        | 每个上下文窗口的像素帧数 (4 潜变量 = 1 像素) |
-| `context_stride`  | 整数      | `4`                | 是        | 每个上下文窗口之间的步幅                               |
-| `context_overlap` | 整数      | `4`                | 是        | 上下文窗口之间的重叠                                |
-| `freenoise`       | 布尔值    | `True`             | 是        | 是否在上下文块之间打乱噪声                |
+| **参数名称**                | **类型**                        | **默认值**                                     | **属性** | **描述**                                                                        |
+| ----------------- | -------- | ------------------ | ---------- | -------------------------------------------------------------- |
+| `context_schedule` | 下拉选项   | `uniform_standard` | 必需       | 上下文窗口调度策略                                                 |
+| `context_frames`   | 整数     | `65`               | 必需       | 每个上下文窗口的像素帧数 (4个潜变量 = 1像素帧)                          |
+| `context_stride`   | 整数     | `4`                | 必需       | 每个上下文窗口之间的步长                                           |
+| `context_overlap`  | 整数     | `4`                | 必需       | 上下文窗口之间的重叠                                               |
+| `freenoise`        | 布尔值   | `True`             | 必需       | 是否在上下文块之间打乱噪声                                           |
 
-**输出:** `HYVIDCONTEXT`
+**输出**：`HYVIDCONTEXT`
 
-**使用场景:**
-* 将长视频序列分割成具有上下文感知的块
-* 优化内存使用，同时保持片段间的连贯性
+**使用场景**：
+* 将长视频序列分割成具有上下文感知的分块
+* 优化内存使用，同时保持片段间的一致性
 
-**`context_schedule` 选项:**
-* `uniform_standard` – 均匀间隔的非重叠窗口
-* `uniform_looped` – 循环效果的环绕处理
-* `static_standard` – 整个视频使用单个上下文块
-
----
+----
 
 ### 🔄 常见工作流组合
 
