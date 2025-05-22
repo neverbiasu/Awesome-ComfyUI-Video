@@ -10856,6 +10856,16 @@
       "description": "Use DICE-Talk in ComfyUI，which is a method about Correlation-Aware Emotional Talking Portrait Generation."
     },
     {
+      "author": "smthemex",
+      "title": "ComfyUI_VisualCloze",
+      "reference": "https://github.com/smthemex/ComfyUI_VisualCloze",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_VisualCloze"
+      ],
+      "install_type": "git-clone",
+      "description": "VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning,you can use it in ComfyUI"
+    },
+    {
       "author": "choey",
       "title": "Comfy-Topaz",
       "id": "topaz",
@@ -14062,6 +14072,16 @@
       ],
       "install_type": "git-clone",
       "description": "Remove content inside 'think' tag from reasoning llm"
+    },
+    {
+      "author": "lrzjason",
+      "title": "ComfyUI Watermark Detection Node",
+      "reference": "https://github.com/lrzjason/ComfyUI-Watermark-Detection",
+      "files": [
+        "https://github.com/lrzjason/ComfyUI-Watermark-Detection"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI provides watermark detection capabilities using a YOLO model trained by [a/fancyfeast](https://huggingface.co/fancyfeast), the creator of JoyCaption. The model is originally hosted at [a/Hugging Face Space](https://huggingface.co/spaces/fancyfeast/joycaption-watermark-detection)."
     },
     {
       "author": "cozy_comm",
@@ -19453,6 +19473,16 @@
       "description": "ComfyUI-MoviiGen is now available in ComfyUI, MoviiGen 1.1 is a cutting-edge video generation model that excels in cinematic aesthetics and visual quality."
     },
     {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-AniSora",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-AniSora",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-AniSora"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-AniSora is now available in ComfyUI, Index-AniSora is the most powerful open-source animated video generation model. It enables one-click creation of video shots across diverse anime styles including series episodes, Chinese original animations, manga adaptations, VTuber content, anime PVs, mad-style parodies(鬼畜动画), and more!"
+    },
+    {
       "author": "Starnodes2024",
       "title": "ComfyUI_StarNodes",
       "reference": "https://github.com/Starnodes2024/ComfyUI_StarNodes",
@@ -20307,16 +20337,6 @@
       ],
       "install_type": "git-clone",
       "description": "Use an online large language model to describe images."
-    },
-    {
-      "author": "solution9th",
-      "title": "Comfyui_mobilesam",
-      "reference": "https://github.com/solution9th/Comfyui_mobilesam",
-      "files": [
-        "https://github.com/solution9th/Comfyui_mobilesam"
-      ],
-      "install_type": "git-clone",
-      "description": "NODES: Mobile SAM Model Loader, Mobile SAM Detector, Mobile SAM Predictor"
     },
     {
       "author": "ronsantash",
@@ -25731,7 +25751,7 @@
       "author": "TrophiHunter",
       "title": "Photography Nodes",
       "id": "comfyui-photography-nodes",
-      "reference": "https://www.trophihunter.com/software-plugins/comfyui_photography_nodes",
+      "reference": "https://github.com/TrophiHunter/ComfyUI_Photography_Nodes",
       "files": [
         "https://github.com/TrophiHunter/ComfyUI_Photography_Nodes"
       ],
@@ -25920,6 +25940,16 @@
       ],
       "install_type": "git-clone",
       "description": "A utility node for extracting and trimming filenames from file paths"
+    },
+    {
+      "author": "craig-tanaka",
+      "title": "ComfyUI Anime Segmentation Nodes v1.1.0",
+      "reference": "https://github.com/craig-tanaka/comfyui_animeseg",
+      "files": [
+        "https://github.com/craig-tanaka/comfyui_animeseg"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a set of custom nodes for ComfyUI that provide anime-style image segmentation using efficient pre-trained models."
     },
     {
       "author": "Ser-Hilary",
