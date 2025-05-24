@@ -2463,6 +2463,30 @@
       "description": "A custom node for ComfyUI to save image sequences as video files using FFmpeg. Supports various codecs, audio muxing, and in-node previews.",
       "stars": 0,
       "author_account_age_days": 1912
+    },
+    {
+      "author": "wildminder",
+      "title": "ComfyUI-KEEP",
+      "reference": "https://github.com/wildminder/ComfyUI-KEEP",
+      "files": [
+        "https://github.com/wildminder/ComfyUI-KEEP"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-KEEP: Kalman-Inspired Feature Propagation for Video Face Super-Resolution in ComfyUI",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "kevin314",
+      "title": "ComfyUI-FastVideo",
+      "reference": "https://github.com/kevin314/ComfyUI-FastVideo",
+      "files": [
+        "https://github.com/kevin314/ComfyUI-FastVideo"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node suite for ComfyUI that provides accelerated video generation using [a/FastVideo](https://github.com/hao-ai-labs/FastVideo). See the [a/blog post](https://hao-ai-lab.github.io/blogs/fastvideo/) about FastVideo V1 to learn more.",
+      "stars": 0,
+      "author_account_age_days": 0
     }
   ]
 }

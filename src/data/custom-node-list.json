@@ -1370,12 +1370,12 @@
     {
       "author": "ArtVentureX",
       "title": "AnimateDiff",
-      "reference": "https://github.com/ArtVentureX/comfyui-animatediff",
+      "reference": "https://github.com/SipherAGI/comfyui-animatediff",
       "pip": [
         "flash_attn"
       ],
       "files": [
-        "https://github.com/ArtVentureX/comfyui-animatediff"
+        "https://github.com/SipherAGI/comfyui-animatediff"
       ],
       "install_type": "git-clone",
       "description": "AnimateDiff integration for ComfyUI, adapts from sd-webui-animatediff.\n[w/You only need to download one of [a/mm_sd_v14.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt) | [a/mm_sd_v15.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt). Put the model weights under %%ComfyUI/custom_nodes/comfyui-animatediff/models%%. DO NOT change model filename.]"
@@ -9402,14 +9402,13 @@
     },
     {
       "author": "shinich39",
-      "title": "comfyui-random-node",
-      "id": "random-node",
-      "reference": "https://github.com/shinich39/comfyui-ramdom-node",
+      "title": "comfyui-dynamic-routes",
+      "reference": "https://github.com/shinich39/comfyui-dynamic-routes",
       "files": [
-        "https://github.com/shinich39/comfyui-ramdom-node"
+        "https://github.com/shinich39/comfyui-dynamic-routes"
       ],
       "install_type": "git-clone",
-      "description": "Shuffle nodes after queue added. [w/Repository name has been changed from comfyui-random-node-39 to comfyui-random-node. Please remove and reinstall it.]"
+      "description": "Shuffle nodes after queue added. [w/Repository name has been changed from comfyui-random-node to comfyui-dynamic-routes. Please remove and reinstall it.]"
     },
     {
       "author": "shinich39",
@@ -15573,7 +15572,7 @@
         "https://github.com/gseth/ControlAltAI-Nodes"
       ],
       "install_type": "git-clone",
-      "description": "Quality of Life ComfyUI nodes starting with Flux Resolution Calculator and Flux Sampler."
+      "description": "Quality of Life Nodes from ControlAltAI. Flux Resolution Calculator, Flux Sampler, Flux Union ControlNet Apply, Noise Plus Blend, Boolean Logic, and Flux Region Nodes."
     },
     {
       "author": "OliverCrosby",
@@ -20186,6 +20185,26 @@
       "description": "A visually stunning extension for ComfyUI that adds beautiful, customizable animations to both links and nodes in your workflow, with a focus on performance and customization. Includes an end-of-render animation and a text visibility tool for nodes. No extra packages are required, works with the latest version of ComfyUI, and should be compatible with most workflows. Larger workflows may experience performance issues, especially if you have a lot of nodes and are using a lower end system."
     },
     {
+      "author": "AEmotionStudio",
+      "title": "ComfyUI-MagnifyGlass",
+      "reference": "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass",
+      "files": [
+        "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-MagnifyGlass: A powerful & customizable magnifying glass for ComfyUI. Zoom into canvas details with smooth controls, configurable activation, custom styles (shape, size, border) & WebGL performance."
+    },
+    {
+      "author": "AEmotionStudio",
+      "title": "ComfyUI-ShaderNoiseKSampler",
+      "reference": "https://github.com/AEmotionStudio/ComfyUI-ShaderNoiseKSampler",
+      "files": [
+        "https://github.com/AEmotionStudio/ComfyUI-ShaderNoiseKSampler"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-ShaderNoiseKSampler is an advanced custom KSampler node that replaces standard noise generation with a multi-stage shader-based system. Unlike traditional sampling that teleports randomly between different seeds, this tool provides a structured vehicle for exploring the neighborhood around a chosen seed, using mathematical patterns to navigate along coherent paths through latent space."
+    },
+    {
       "author": "xfgexo",
       "title": "EXO Custom ComfyUI Nodes",
       "id": "exo-custom-nodes",
@@ -20851,6 +20870,16 @@
       ],
       "install_type": "git-clone",
       "description": "parakeet-tdt-0.6b-v2: Automatic speech recognition (ASR) model designed for high-quality English transcription, featuring support for punctuation, capitalization, and accurate timestamp prediction."
+    },
+    {
+      "author": "mw",
+      "title": "Comfyui_HeyGem",
+      "reference": "https://github.com/billwuhao/Comfyui_HeyGem",
+      "files": [
+        "https://github.com/billwuhao/Comfyui_HeyGem"
+      ],
+      "install_type": "git-clone",
+      "description": "HeyGem AI avatar."
     },
     {
       "author": "umiyuki",
@@ -25799,16 +25828,6 @@
       "description": "for use jimeng ai in comfyui"
     },
     {
-      "author": "AEmotionStudio",
-      "title": "ComfyUI-MagnifyGlass",
-      "reference": "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass",
-      "files": [
-        "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI-MagnifyGlass: A powerful & customizable magnifying glass for ComfyUI. Zoom into canvas details with smooth controls, configurable activation, custom styles (shape, size, border) & WebGL performance."
-    },
-    {
       "author": "Kyron Mahan",
       "title": "ComfyUI Smart Scaler",
       "id": "smart-scaler",
@@ -25950,6 +25969,76 @@
       ],
       "install_type": "git-clone",
       "description": "This is a set of custom nodes for ComfyUI that provide anime-style image segmentation using efficient pre-trained models."
+    },
+    {
+      "author": "lepiai",
+      "title": "ComfyUI-Minitools",
+      "reference": "https://github.com/lepiai/ComfyUI-Minitools",
+      "files": [
+        "https://github.com/lepiai/ComfyUI-Minitools"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Mini Toolkit – Helps reduce node redundancy. Let’s see if there’s time to keep it updated regularly."
+    },
+    {
+      "author": "wildminder",
+      "title": "ComfyUI-KEEP",
+      "reference": "https://github.com/wildminder/ComfyUI-KEEP",
+      "files": [
+        "https://github.com/wildminder/ComfyUI-KEEP"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-KEEP: Kalman-Inspired Feature Propagation for Video Face Super-Resolution in ComfyUI"
+    },
+    {
+      "author": "cloudkoala",
+      "title": "comfyui-koala",
+      "reference": "https://github.com/cloudkoala/comfyui-koala",
+      "files": [
+        "https://github.com/cloudkoala/comfyui-koala"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI focused on aspect ratio management and other utilities."
+    },
+    {
+      "author": "Limbicnation",
+      "title": "ComfyUIDepthEstimation",
+      "reference": "https://github.com/Limbicnation/ComfyUIDepthEstimation",
+      "files": [
+        "https://github.com/Limbicnation/ComfyUIDepthEstimation"
+      ],
+      "install_type": "git-clone",
+      "description": "A robust custom depth estimation node for ComfyUI using Depth-Anything models. It integrates depth estimation with configurable post-processing options including blur, median filtering, contrast enhancement, and gamma correction."
+    },
+    {
+      "author": "Limbicnation",
+      "title": "Depth Estimation Node",
+      "reference": "https://github.com/Limbicnation/ComfyUIDepthEstimation",
+      "files": [
+        "https://github.com/Limbicnation/ComfyUIDepthEstimation"
+      ],
+      "install_type": "git-clone",
+      "description": "A robust custom depth estimation node for ComfyUI using Depth-Anything models. It integrates depth estimation with configurable post-processing options including blur, median filtering, contrast enhancement, and gamma correction."
+    },
+    {
+      "author": "Limbicnation",
+      "title": "Transparency Background Remover",
+      "reference": "https://github.com/Limbicnation/ComfyUI-TransparencyBackgroundRemover",
+      "files": [
+        "https://github.com/Limbicnation/ComfyUI-TransparencyBackgroundRemover"
+      ],
+      "install_type": "git-clone",
+      "description": "Automatic background removal and transparency generation for ComfyUI"
+    },
+    {
+      "author": "kevin314",
+      "title": "ComfyUI-FastVideo",
+      "reference": "https://github.com/kevin314/ComfyUI-FastVideo",
+      "files": [
+        "https://github.com/kevin314/ComfyUI-FastVideo"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node suite for ComfyUI that provides accelerated video generation using [a/FastVideo](https://github.com/hao-ai-labs/FastVideo). See the [a/blog post](https://hao-ai-lab.github.io/blogs/fastvideo/) about FastVideo V1 to learn more."
     },
     {
       "author": "Ser-Hilary",
@@ -26230,19 +26319,6 @@
       ],
       "install_type": "copy",
       "description": "Nodes:TextToSpeech, phy_3_conditioning, SaveAudioToDaVinci, SaveImageToDaVinci.\nNOTE:In order to use DaVinci node you must have DaVinci Resolve Studio connected to the API. For more information check the help seciton in DaVinci Resolve Studio HELP>DOCUMENTATION>DEVELOPER. It will open a folder, search for scripting and the for README.txt file, the API documentation."
-    },
-    {
-      "author": "Limbicnation",
-      "title": "ComfyUIDepthEstimation",
-      "reference": "https://github.com/Limbicnation/ComfyUIDepthEstimation",
-      "files": [
-        "https://raw.githubusercontent.com/Limbicnation/ComfyUIDepthEstimation/main/depth_estimation_node.py"
-      ],
-      "pip": [
-        "transformers"
-      ],
-      "install_type": "copy",
-      "description": "A robust custom depth estimation node for ComfyUI using Depth-Anything models. It integrates depth estimation with configurable post-processing options including blur, median filtering, contrast enhancement, and gamma correction."
     },
     {
       "author": "seghier",
