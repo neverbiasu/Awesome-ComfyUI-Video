@@ -1,4 +1,4 @@
-# 📹 ComfyUI-VideoHelperSuite
+# 📹 ComfyUI-CogvideoXWrapper
 
 ## 🔍 集合概览
 
@@ -24,7 +24,6 @@
 | **(Down)load CogVideo ControlNet** | I/O       | 下载并加载 CogVideo ControlNet 条件引导模块                             | ★☆☆☆☆      | 对视频生成加入 ControlNet 引导；姿态／结构驱动生成         |
 | **CogVideo ControlNet**            | I/O       | 应用 ControlNet 条件网络，将特定引导（如姿态、深度、边界框）注入生成流程 | ★★☆☆☆      | 姿态驱动、结构驱动、风格匹配等外部条件引导                  |
 | **CogVideo TextEncode**            | Process   | 对单条文本提示进行编码，输出文本隐向量                                 | ★★☆☆☆      | 文本到视频流水线的前置编码                                  |
-| **CogVideo DualTextEncode**        | Process   | 同时对正向／负向提示进行编码，输出两组文本隐向量                       | ★★☆☆☆      | 需要同时传入正负提示并行控制时                             |
 | **CogVideo TextEncode Combine**    | Process   | 将多路文本隐向量合并，为后续采样提供统一输入                            | ★★☆☆☆      | 混合多种提示语生成复杂情节                                  |
 | **CogVideo ImageEncode**           | I/O       | 将静态图片编码为视频可用的时空潜在向量                                 | ★★★☆☆      | I2V 流程中的图像编码                                        |
 | **CogVideo ImageEncode FunInP**    | I/O       | 为 Fun-InP （非官方 I2V）模型编码图像                                  | ★★★☆☆      | 使用 CogVideoX-Fun 图像到视频                              |
@@ -41,425 +40,437 @@
 | **CogVideo TransformerEdit**    | Advanced  | 裁剪指定的 Transformer Block，移除不必要层以降低显存占用并提升推理效率      | ★★★★☆      | 模型轻量化；实验性层数对比；资源受限环境下的加速生成     |
 | **Tora Encode Trajectory**      | Process   | 使用 Tora 的轨迹编码器，将用户绘制的运动路径转换为时空运动补丁隐向量     | ★★★★☆      | I2V 中精准控制运动轨迹；动画制作                            |
 
-
+---
 
 ## 📑 核心节点详解
 
 ### (Down)load CogVideo Model
 
-| 参数名        | 类型     | 默认值         | 参数性质 | 功能说明                                      |
-| ------------- | -------- | -------------- | -------- | --------------------------------------------- |
-| model_name    | STRING   | "cogvideo-1.1" | 可选     | 模型在 HuggingFace 上的名称                    |
-| load_to_vram  | BOOLEAN  | True           | 可选     | 是否直接加载到显存                            |
+| 参数名                          | 类型                  | 默认值        | 参数性质 | 功能说明                                                                                  |
+| ------------------------------- | --------------------- | ------------- | -------- | ----------------------------------------------------------------------------------------- |
+| `model`                         | STRING                | —             | 必选     | 要下载并加载的 CogVideoX 模型标识，支持如 `THUDM/CogVideoX-2b`、`kijai/CogVideoX-5b-Tora` 等 |
+| `block_edit`                    | TRANSFORMERBLOCKS     | —             | 可选     | 逗号分隔的 Transformer Block 索引列表，加载时会裁剪或替换指定层以调整模型容量与性能 |
+| `lora`                          | COGLORA               | —             | 可选     | 指定要在加载时自动应用的 LoRA 权重（路径或名称），可用于风格微调或效果增强 |
+| `compile_args`                  | COMPILEARGS           | —             | 可选     | 传递给 `torch.compile` 或 `diffusers` 编译接口的额外参数，用于控制后端优化行为 |
+| `model.precision`               | ENUM (`fp16`,`fp32`,`bf16`) | `fp16`  | 可选     | 指定模型加载时的权重精度，较低精度可节省显存但可能略损质量               |
+| `quantization`                  | ENUM                  | `disabled`    | 可选     | 量化后端选项，如 `fp8_e4m3fn`、`torchao_int8dq` 等，帮助在大模型上节省内存   |
+| `enable_sequential_cpu_offload` | BOOLEAN               | `False`       | 可选     | 启用后分片地将模型子模块在 CPU/GPU 之间切换加载，以极大降低峰值显存占用    |
+| `attention_mode`                | ENUM                  | `sdpa`        | 可选     | 选择注意力实现方式，如 `fused_sdpa`、`sageattn_qk_int8_pv_fp16_cuda`、`comfy` 等以优化速度/内存 |
+| `load_device`                   | ENUM (`main_device`,`offload_device`) | `main_device` | 可选 | 控制模型组件的初始加载位置：`main_device`（GPU）或 `offload_device`（CPU）|
 
 **输出**  
-- CogVideo 标准格式模型对象  
+- `COGVIDEOMODEL`：加载完成并按上述参数配置的 `CogVideoXPipeline` 对象  
+- `VAE`：与模型配套的 VAE 解码器模块  
 
 **使用场景**  
-- 第一次运行或模型丢失时，从 HuggingFace 下载并加载标准 CogVideo 模型  
+- 在不同硬件环境（多 GPU / CPU + GPU）中自动优化模型加载方式  
+- 结合 LoRA、量化、裁剪等手段平衡速度、显存与生成质量  
+- 快速切换多种 CogVideoX 系列模型和版本以进行对比测试  
 
 ---
 
 ### (Down)load CogVideo GGUF Model
 
-| 参数名        | 类型     | 默认值        | 参数性质 | 功能说明                                    |
-| ------------- | -------- | ------------- | -------- | ------------------------------------------- |
-| model_path    | STRING   | —             | 必选     | GGUF 格式模型本地路径或链接                 |
-| quantized     | BOOLEAN  | True          | 可选     | 是否加载量化版本                            |
+| 参数名                          | 类型         | 默认值   | 参数性质 | 功能说明                                                                                 |
+| ------------------------------- | ------------ | -------- | -------- | ---------------------------------------------------------------------------------------- |
+| `model`                         | STRING       | —        | 必选     | 要下载并加载的 CogVideo GGUF 模型名称                                                     |
+| `vae_precision`                 | STRING       | `fp16`   | 可选     | VAE 组件的精度，可选 `bf16`、`fp16`、`fp32`                                               |
+| `fp8_fastmode`                  | BOOLEAN      | `False`  | 可选     | 是否启用 FP8 快速模式，提升性能但可能略降精度                                             |
+| `load_device`                   | STRING       | `cuda`   | 可选     | 模型加载设备，可选 `cpu` 或 `cuda`                                                       |
+| `enable_sequential_cpu_offload` | BOOLEAN      | `False`  | 可选     | 是否启用顺序 CPU 溢出，按需将模型组件卸载到 CPU 以节省 GPU 显存                            |
+| `attention_model`               | STRING       | `sdpa`   | 可选     | 注意力实现方式，可选 `sdpa`（标准）或 `sageattn`（SageAttention 加速，仅限 Linux）         |
+| `block_edit`                    | LIST[int]    | —        | 可选     | 指定要修改或移除的 Transformer Block 索引列表，用于模型结构微调                           |
 
 **输出**  
-- GGUF 格式兼容模型，可用于低内存环境推理  
+- `model`：加载并配置好的 CogVideo GGUF 模型对象  
+- `vae`：相应精度的 VAE 解码器模块  
 
 **使用场景**  
-- 在支持 GGUF 的轻量化推理环境中加载模型，如 webUI 插件部署  
+- 在低显存或移动端环境中，加载量化后的 GGUF 模型与匹配精度的 VAE，以平衡性能与资源占用。  
 
 ---
 
 ### (Down)load Tora Model
 
-| 参数名        | 类型     | 默认值              | 参数性质 | 功能说明                                        |
-| ------------- | -------- | ------------------- | -------- | ----------------------------------------------- |
-| model_name    | STRING   | "cogvideox-tora"    | 可选     | Tora 格式优化模型在 HuggingFace 上的名称       |
-| load_to_vram  | BOOLEAN  | True                | 可选     | 是否直接加载到显存                              |
+| 参数名         | 类型     | 默认值                      | 参数性质 | 功能说明                                                      |
+| -------------- | -------- | --------------------------- | -------- | ------------------------------------------------------------- |
+| `model_name`   | STRING   | `"kijai/CogVideoX-5b-Tora"` | 可选     | 要下载的 Tora 优化模型在 HuggingFace 上的仓库名称              |
 
 **输出**  
-- CogVideoX-Tora 加速模型对象  
+- `TORAMODEL`：下载并实例化的 Tora 优化模型对象，可直接用于后续采样与解码节点  
 
 **使用场景**  
-- 使用阿里巴巴发布的 Tora 优化模型以获得推理性能提升  
+- 在需要部署或测试 Tora‐优化的 CogVideoX 模型时，通过该节点一键下载并加载到显存，支持普通 T2V 或专用 I2V 版本。  
 
 ---
 
 ### CogVideoX Model Loader
 
-| 参数名        | 类型     | 默认值 | 参数性质 | 功能说明                                  |
-| ------------- | -------- | ------ | -------- | ----------------------------------------- |
-| path_or_name  | STRING   | —      | 必选     | 模型的本地路径或已缓存名称               |
-| load_to_vram  | BOOLEAN  | True   | 可选     | 是否加载至 GPU                            |
+| 参数名                          | 类型                    | 默认值          | 参数性质 | 功能说明                                                                                   |
+| ------------------------------- | ----------------------- | --------------- | -------- | ------------------------------------------------------------------------------------------ |
+| `model`                         | MODEL                   | —               | 必选     | 要加载的 CogVideoX 模型对象或标识（本地路径或缓存名称）                                      |
+| `base_precision`                | ENUM(`fp16`,`fp32`,`bf16`) | `fp16`       | 可选     | 模型权重的基础精度，影响显存占用和数值范围                                                   |
+| `quantization`                  | ENUM(...)               | `disabled`      | 可选     | 量化模式，支持多种 FP8/INT8/FP6 方案，用于进一步降低显存和加速推理                           |
+| `enable_sequential_cpu_offload` | BOOLEAN                 | `False`         | 可选     | 是否启用顺序 CPU 卸载，将部分子模块权重从 GPU 转移到 CPU，以节省显存                         |
+| `block_edit`                    | TRANSFORMERBLOCKS       | —               | 可选     | 指定要裁剪或重排的 Transformer Block 列表（由 `CogVideo TransformerEdit` 生成）             |
+| `lora`                          | COGLORA                 | —               | 可选     | 要应用的 LoRA 权重配置（由 `CogVideo LoraSelect`/`Comfy` 节点提供）                         |
+| `compile_args`                  | COMPILEARGS             | —               | 可选     | 传递给 `torch.compile` 的参数集，用于模型编译优化（如模式、后端、自动调优等）               |
+| `attention_mode`                | ENUM(...)               | `sdpa`          | 可选     | 注意力计算模式，多种 SDPA/Sage/Fused 及 Comfy 自定义方案，影响速度与精度                     |
 
 **输出**  
-- CogVideoX 模型对象，可用于 ComfyUI 后续流程  
+- `COGVIDEOMODEL`：加载并可进一步操作的 CogVideoX 模型实例  
 
 **使用场景**  
-- 管理与加载多个本地模型或实验版本  
+- 在 ComfyUI 流水线开始阶段灵活加载不同格式或精度的 CogVideoX 模型  
+- 配合 LoRA、Transformer 裁剪、torch.compile 等节点，按需定制模型性能与资源占用  
 
 ---
 
 ### CogVideoX VAE Loader
 
-| 参数名        | 类型     | 默认值     | 参数性质 | 功能说明                                  |
-| ------------- | -------- | ---------- | -------- | ----------------------------------------- |
-| vae_path      | STRING   | —          | 必选     | 指定的 VAE 权重路径                       |
-| precision     | STRING   | "fp16"     | 可选     | 精度设置，支持 "fp16"、"bf16"、"fp32" 等  |
+| 参数名       | 类型    | 默认值   | 参数性质 | 功能说明                                                    |
+| ------------ | ------- | -------- | -------- | ----------------------------------------------------------- |
+| `model_name` | STRING  | `"THUDM/CogVideoX-2b"` | 可选     | 要加载的 CogVideoX 模型名称或本地路径，支持 Diffusers 仓库格式    |
+| `precision`  | STRING  | `"fp16"` | 可选     | 指定加载的 VAE 数据类型，可选 `"fp16"`、`"fp32"` 或 `"bf16"`      |
 
 **输出**  
-- VAE 解码器模块，用于与 CogVideoX 模型配套使用  
+- `VAE`：加载后的 3D VAE 实例（`AutoencoderKLCogVideoX`），用于在解码时将潜在向量还原为视频帧。
 
 **使用场景**  
-- 切换精度或实验不同图像解码器效果  
+- 在不同显存与性能需求下切换 VAE 精度（如低显存场景用 `fp16`，高保真场景用 `fp32` 或 `bf16`）。  
+- 与主模型分离加载，便于复用或替换 VAE 解码器以测试不同解码效果。 
 
 ---
 
 ### (Down)load CogVideo ControlNet
 
-| 参数名        | 类型     | 默认值           | 参数性质 | 功能说明                                         |
-| ------------- | -------- | ---------------- | -------- | ------------------------------------------------ |
-| control_type  | STRING   | "pose"           | 可选     | 控制类型，如 "pose"、"depth"、"canny" 等         |
-| download_url  | STRING   | —                | 可选     | 自定义下载链接（如非默认模型源）                |
+| 参数名   | 类型       | 默认值 | 参数性质 | 功能说明                                                                                       |
+| -------- | ---------- | ------ | -------- | ---------------------------------------------------------------------------------------------- |
+| `model`  | COMBO[STRING] | —      | 必选     | 从下拉列表中选择要下载并加载的 CogVideoX ControlNet 模型名称|
 
 **输出**  
-- ControlNet 模块，可作为条件引导器连接至采样器节点  
+- `COGVIDECONTROLNETMODEL`：已下载并加载的 ControlNet 模型对象，可作为后续 Apply ControlNet 节点的输入。  
 
 **使用场景**  
-- 在视频生成中引入姿态、轮廓、深度图等结构约束，实现精细控制  
+- 在视频生成流程中注入姿态（HED）、边缘（Canny）等条件引导，实现对生成内容的精细控制。 
+
+---
 
 ### CogVideo TextEncode
 
 | 参数名        | 类型      | 默认值 | 参数性质 | 功能说明                                            |
 | ------------- | --------- | ------ | -------- | --------------------------------------------------- |
-| clip          | CLIP      | —      | 必选     | 提供 CLIP 模型实例用于文本编码，将提示文本转换为嵌入向量。  |
-| prompt        | STRING    | “”     | 必选     | 输入的文本提示，用于指导视频生成的语义内容。  |
-| strength      | FLOAT     | 1.0    | 可选     | 控制文本嵌入的强度，值越大提示影响越明显。  |
-| force_offload | BOOLEAN   | False  | 可选     | 是否在 CPU 上加载模型以节省 GPU 显存。  |
+| `clip`        | CLIP      | —      | 必选     | 提供 CLIP 模型实例用于文本编码，将提示文本转换为嵌入向量。  |
+| `prompt`      | STRING    | `""`   | 必选     | 输入的文本提示，用于指导视频生成的语义内容。              |
+| `strength`    | FLOAT     | `1.0`  | 可选     | 控制文本嵌入的强度，值越大提示影响越明显。                |
+| `force_offload` | BOOLEAN | `False`| 可选     | 是否在 CPU 上加载模型以节省 GPU 显存。                    |
 
 **输出**  
 - `CONDITIONING`：用于后续采样的文本条件嵌入。  
-- `CLIP`：回传 CLIP 模型实例以便复用。   
+- `CLIP`：回传 CLIP 模型实例以便复用。  
 
 **使用场景**  
-- 将自然语言提示转换为模型可识别的条件向量，用于文本→视频或文本→图像流程。   
+- 将自然语言提示转换为模型可识别的条件向量，用于文本→视频或文本→图像流程。  
+
+---
+
+### CogVideo Decode
+
+| 参数名                   | 类型       | 默认值 | 参数性质 | 功能说明                                                   |
+| ------------------------ | ---------- | ------ | -------- | ---------------------------------------------------------- |
+| `vae`                    | VAE        | —      | 必选     | 用于解码的 VAE 模型                                        |
+| `samples`                | LATENT     | —      | 必选     | 输入的潜在向量，来自采样节点的输出                          |
+| `enable_vae_tiling`      | BOOLEAN    | —      | 可选     | 是否启用 VAE 平铺（tiling）解码，分块处理以降低显存压力      |
+| `tile_sample_min_height` | INT        | —      | 可选     | 平铺解码时每块 tile 的最小高度，小于此值的 tile 将合并        |
+| `tile_sample_min_width`  | INT        | —      | 可选     | 平铺解码时每块 tile 的最小宽度                              |
+| `tile_overlap_factor_height` | FLOAT  | —      | 可选     | tile 在高度方向重叠比例，用于平滑边界                       |
+| `tile_overlap_factor_width`  | FLOAT  | —      | 可选     | tile 在宽度方向重叠比例，用于平滑边界                       |
+| `auto_tile_size`         | BOOLEAN    | —      | 可选     | 是否自动根据输入尺寸计算最优 tile 参数                      |
+
+**输出**  
+- `IMAGE`：解码后的图像序列，可直接用于视频合成或后续处理。  
+
+**使用场景**  
+- 将 CogVideoX Sampler 输出的潜在表示通过 VAE 解码为可视化视频帧，  
+  同时可使用平铺模式处理大分辨率或长时序视频以节省显存并减少解码异常。 
 
 ---
 
 ### CogVideo TextEncode Combine
 
-| 参数名     | 类型     | 默认值 | 参数性质 | 功能说明                                             |
-| ---------- | -------- | ------ | -------- | ---------------------------------------------------- |
-| inputs     | LIST     | —      | 必选     | 多个来自 `CogVideo TextEncode` 或 `DualTextEncode` 的文本隐向量 |
+| 参数名                  | 类型       | 默认值             | 参数性质 | 功能说明                                                                                   |
+| ----------------------- | ---------- | ------------------ | -------- | ------------------------------------------------------------------------------------------ |
+| `conditioning_1`        | TENSOR     | —                  | 必选     | 第一个文本隐向量输入，通常来自 `CogVideo TextEncode` 或 `DualTextEncode` 节点的输出。      |
+| `conditioning_2`        | TENSOR     | —                  | 必选     | 第二个文本隐向量输入，与 `conditioning_1` 形状相同，用于合并。                              |
+| `combination_mode`      | STRING     | `"weighted_average"` | 可选   | 合并模式，可选：<br>• `"average"`：简单平均<br>• `"weighted_average"`：加权平均<br>• `"concatenate"`：沿最后维度拼接 |
+| `weighted_average_ratio`| FLOAT      | `0.5`              | 可选     | 当 `combination_mode="weighted_average"` 时生效，取值范围 0.0–1.0，控制两个输入的权重比例。    |
 
 **输出**  
-- 合并后的文本 latent 表示，可用于统一传入 Sampler 节点中生成视频  
+- `conditioning`：合并后的文本隐向量（TENSOR），可直接传入采样器节点（如 `CogVideo Sampler`）进行视频生成。
 
 **使用场景**  
-- 多重提示融合生成复杂场景内容，控制不同文本影响力
-
----
-
-### CogVideo DualTextEncode
-
-| 参数名        | 类型     | 默认值    | 参数性质 | 功能说明                                                         |
-| ------------- | -------- | --------- | -------- | ---------------------------------------------------------------- |
-| text          | STRING   | —         | 必选     | 主提示词，用于控制视频的主要生成内容                             |
-| negative_text | STRING   | ""        | 可选     | 反向提示词，用于降低或排除某些不希望出现在生成视频中的内容        |
-| model         | MODEL    | —         | 必选     | 已加载的 `CogVideo` 或兼容文本编码模型                            |
-| return_dict   | BOOLEAN  | True      | 可选     | 是否以字典结构返回编码结果，False 则返回单一张量                 |
-
-**输出**  
-- TextEncoderOutput（当 return_dict=True）: 包含正向与负向文本的编码表示  
-- torch.Tensor（当 return_dict=False）: 编码后文本张量，默认为正向文本 latent  
-
-**使用场景**  
-- 同时输入正向与反向提示词，实现更精细的生成控制，如“一个没有水印的动画风格场景”
-- 搭配 Sampler 节点进行视频生成时的文本引导
-
-
-### CogVideo Decode
-
-| 参数名      | 类型     | 默认值 | 参数性质 | 功能说明                                              |
-| ----------- | -------- | ------ | -------- | ----------------------------------------------------- |
-| z           | LATENT   | —      | 必选     | 输入的潜在视频张量或嵌入，来自采样节点的输出。  |
-| return_dict | BOOLEAN  | True   | 可选     | 是否以字典结构返回 `DecoderOutput`；否则仅返回 `torch.Tensor`。  |
-
-**输出**  
-- `DecoderOutput`（当 `return_dict=True`）: 包含解码后的视频张量及元数据。  
-- `torch.Tensor`（当 `return_dict=False`）: 仅包含视频帧的张量表示。   
-
-**使用场景**  
-- 将模型推理得到的潜在表示解码为可视化的视频帧，用于保存或再次编码。   
+- 将多个提示（如正向提示与反向提示，或不同主题提示）合并成一个统一的指导向量，灵活控制生成内容的风格与细节。  
+- 通过 `"concatenate"` 模式保留各输入的完整特征，通过加权平均实现平滑过渡与平衡。  
 
 ---
 
 ### CogVideo Sampler
 
-| 参数名             | 类型                | 默认值 | 参数性质 | 功能说明                                                |
-| ------------------ | ------------------- | ------ | -------- | ------------------------------------------------------- |
-| model              | COGVIDEOMODEL       | —      | 必选     | 要使用的 CogVideoX 模型实例，用于执行采样推理。  |
-| positive           | CONDITIONING        | —      | 必选     | 正向条件嵌入，通常来自 `CogVideoTextEncode`。  |
-| negative           | CONDITIONING        | —      | 可选     | 负向条件嵌入，用以去噪和对比控制。  |
-| num_frames         | INT                 | —      | 必选     | 要生成的视频帧数。  |
-| steps              | INT                 | —      | 可选     | 采样步数，影响质量与速度。  |
-| cfg                | FLOAT               | —      | 可选     | 指导尺度，值越高对提示依赖越强。  |
-| seed               | INT                 | —      | 可选     | 随机种子，用于结果复现。 : |
-| scheduler          | ENUM                | —      | 可选     | 选择调度器算法，如 DDIM、DPM++、UniPC 等。  |
-| samples            | LATENT              | —      | 可选     | 初始潜在张量，用于图像→视频或视频→视频流程。  |
-| image_cond_latents | LATENT              | —      | 可选     | 图像编码后的潜在表示，用于图像到视频条件。  |
-| denoise_strength   | FLOAT               | —      | 可选     | 去噪强度，用于视频→视频任务。  |
-| controlnet         | COGVIDECONTROLNET   | —      | 可选     | ControlNet 分支输入，用于特定控制。  |
-| tora_trajectory    | TORAFEATURES        | —      | 可选     | Tora 模型轨迹特征，用于高质量运动。  |
-| fastercache        | FASTERCACHEARGS     | —      | 可选     | FasterCache 配置，用于内存/速度平衡。  |
-| feta_args          | FETAARGS            | —      | 可选     | FreeNoise 噪声混洗参数。  |
-| teacache_args      | TEACACHEARGS        | —      | 可选     | TeaCache 参数，用于重复推理优化。  |
+| 参数名                  | 类型               | 默认值            | 参数性质 | 功能说明                                                                                   |
+| ----------------------- | ------------------ | ----------------- | -------- | ------------------------------------------------------------------------------------------ |
+| `model`                 | MODEL              | —                 | 必选     | 已加载的 CogVideoX 模型实例，用于实际采样                                                   |
+| `positive`              | TENSOR             | —                 | 必选     | 正向（positive）提示隐向量，用于指导采样                                                   |
+| `negative`              | TENSOR             | —                 | 可选     | 负向（negative）提示隐向量，用于执行 classifier-free guidance                              |
+| `samples`               | INT                | 1                 | 可选     | 每次调用生成的视频样本数量                                                                  |
+| `images_cond_latent`    | LATENT             | —                 | 可选     | 图像条件编码隐向量（I2V 模式下），从 `CogVideo ImageEncode` 节点输出                         |
+| `context_options`       | DICT               | —                 | 可选     | 由 `CogVideo Context Options` 节点生成的上下文配置                                          |
+| `controlnet`            | LIST[MODULE, FLOAT]| []                | 可选     | 多路 ControlNet 模块及其强度（由 `(Down)load CogVideo ControlNet` 节点加载）                  |
+| `tora_trajectory`       | TENSOR             | —                 | 可选     | `Tora Encode Trajectory` 节点输出的时空运动补丁隐向量                                       |
+| `fastercache`           | DICT               | —                 | 可选     | `CogVideo FasterCache` 节点生成的缓存优化配置                                              |
+| `feta_args`             | DICT               | —                 | 可选     | 传递给底层采样器的额外参数（如 fp8 模式等）                                                 |
+| `num_frames`            | INT                | 16                | 可选     | 要生成的视频帧总数                                                                          |
+| `steps`                 | INT                | 50                | 可选     | 扩散采样步数                                                                                |
+| `cfg`                   | FLOAT              | 7.5               | 可选     | classifier-free guidance 强度                                                               |
+| `seed`                  | INT                | 0                 | 可选     | 随机种子                                                                                   |
+| `control_after_generate`| BOOLEAN            | False             | 可选     | 是否在完成潜在采样后再应用 ControlNet 条件                                                    |
+| `scheduler`             | SCHEDULER          | PNDMScheduler     | 可选     | 噪声调度器实例                                                                              |
+| `denoise_strength`      | FLOAT              | 1.0               | 可选     | 在 Vid2Vid/风格迁移等流程中控制去噪强度                                                      |
 
 **输出**  
-- `LATENT`：包含生成的视频潜在表示，需通过 `CogVideo Decode` 解码。   
+- `samples`：包含生成的视频潜在张量或解码后的视频帧，具体取决于后续解码节点配置
 
 **使用场景**  
-- 在图谱中执行基于文本、图像或已有视频的采样推理，生成视频潜在张量，用于文本→视频、图像→视频或视频样式迁移等。  
+- 核心的 Text-to-Video、Image-to-Video、Video-to-Video 扩散采样节点，通过丰富的条件、上下文和优化选项生成高质量的视频样本  
 
 ---
 
 ### CogVideo ImageEncode
 
-| 参数名         | 类型     | 默认值   | 参数性质 | 功能说明                                                         |
-| -------------- | -------- | -------- | -------- | ---------------------------------------------------------------- |
-| image          | IMAGE    | —        | 必选     | 要编码的静态图像输入，可为单张或多张图像。  |
-| processor      | VAE      | "auto"   | 可选     | 使用的 VAE 编码器类型，"auto" 则根据模型自动选择最佳 VAE。        |
-| interpolation  | INT      | 1        | 可选     | 图像帧插值倍数，用于生成平滑过渡效果。                            |
-| batch_size     | INT      | 1        | 可选     | 同时编码的图像数量，用于批量处理以提升效率。                      |
+| 参数名              | 类型      | 默认值 | 参数性质 | 功能说明                                                                                  |
+| ------------------- | --------- | ------ | -------- | ----------------------------------------------------------------------------------------- |
+| `vae`               | VAE       | —      | 必选     | 指定用于编码的 Variational Autoencoder，用于将图像映射到时空潜在空间。                        |
+| `start_image`       | IMAGE     | —      | 必选     | 起始帧图像，作为视频生成的第一个关键帧输入。                                                  |
+| `end_image`         | IMAGE     | —      | 可选     | 结束帧图像，用于在 `start_image` 与 `end_image` 之间插值生成中间帧。                         |
+| `enable_tiling`     | BOOLEAN   | False  | 可选     | 是否启用切片（tiling）编码，将图像分块处理以降低显存占用，适用于超大分辨率图像。              |
+| `noise_aug_strength`| FLOAT     | 0.0    | 可选     | 对输入图像潜在向量添加噪声的强度，数值越高扰动越明显，可用于增加动态效果或抖动感。            |
+| `strength`          | FLOAT     | 1.0    | 可选     | 控制原始图像特征在潜在表示中的保留比例，值越小越偏向随机噪声，值越大越保留原图细节。          |
+| `start_percent`     | FLOAT     | 0.0    | 可选     | 插值时起始图像在混合中的占比（0.0–1.0），用于控制从 `start_image` 向 `end_image` 过渡的起始权重。 |
+| `end_percent`       | FLOAT     | 1.0    | 可选     | 插值时结束图像在混合中的占比（0.0–1.0），用于控制过渡终点的权重。                            |
 
 **输出**  
-- `LATENT`：图像对应的潜在张量序列，可直接用于视频采样。   
+- `LATENT`：形状为 `[batch, num_frames, channels, height, width]` 的时空潜在表示，可直接输入到 `CogVideo Sampler` 或其他下游节点。
 
 **使用场景**  
-- 将静态图片转换为视频管道中的潜在表示，支撑图像→视频或图像风格迁移流程。   
+- **图像到视频（I2V）**：将静态图像或两张图像之间进行插帧，生成连贯的视频序列。  
+- **动画制作**：结合 `start_image` 与 `end_image`，通过调整 `start_percent`/`end_percent` 实现帧间过渡动画。  
+- **大尺寸编码**：在处理高分辨率图像时启用 `enable_tiling`，以降低显存峰值。    
 
 ---
 
 ### CogVideo ImageEncode FunInP
 
-| 参数名         | 类型       | 默认值   | 参数性质 | 功能说明                                                           |
-| -------------- | ---------- | -------- | -------- | ------------------------------------------------------------------ |
-| image          | IMAGE      | —        | 必选     | 要编码的静态图像输入，用于 Fun-In-P 模型流程。  |
-| fun_model      | STRING     | "Fun-InP" | 必选     | 指定使用的 Fun-In-P 专用模型名称。                                  |
-| interp_steps   | INT        | 1        | 可选     | 插值帧数，用于在 Fun-InP 编码时生成更多中间帧。                      |
-| normalize      | BOOLEAN    | True     | 可选     | 是否对输入图像进行标准化处理，以提升编码稳定性。                      |
+| 参数名               | 类型       | 默认值  | 参数性质 | 功能说明                                                                                       |
+| -------------------- | ---------- | ------- | -------- | ---------------------------------------------------------------------------------------------- |
+| `vae`                | VAE        | —       | 必选     | 用于编码的 VAE 解码器实例                                                                      |
+| `start_image`        | IMAGE      | —       | 必选     | 起始帧图像，用作时空编码的首帧输入                                                              |
+| `end_image`          | IMAGE      | —       | 必选     | 结束帧图像，用作时空编码的末帧输入                                                              |
+| `num_frames`         | INT        | 16      | 可选     | 要生成的中间帧数量                                                                              |
+| `enable_tiling`      | BOOLEAN    | False   | 可选     | 是否对输入图像进行平铺分块编码，以支持超高分辨率图像                                           |
+| `noise_aug_strength` | FLOAT      | 0.0     | 可选     | 在编码过程中对图像添加噪声增强的强度，用于增加随机性或掩盖瑕疵                                 |
 
 **输出**  
-- `LATENT_FUN`：Fun-In-P 模型专用的潜在表示，优化了基于姿势或动画的编码质量。   
+- `LATENT`：形状 `[batch, num_frames, ...]` 的时空潜在向量，可直接送入 Sampler 节点进行扩散采样。  
 
 **使用场景**  
-- 在 Fun-In-P（姿势驱动）视频生成或编辑流程中，将静态图像转换为具有动画潜力的潜在特征。   
-
-
-| 参数名             | 类型   | 默认值     | 参数性质 | 功能说明                |
-| ----------------- | ------ | ---------- | -------- | ----------------------- |
-| video_path        | STRING | "input/"   | 必选     | 视频文件路径            |
-| force_rate        | FLOAT  | 0.0        | 可选     | 强制调整帧率，设为0禁用 |
-| force_size        | COMBO  | "Disabled" | 可选     | 快速调整尺寸选项        |
-| frame_load_cap    | INT    | 0          | 可选     | 最大返回帧数(批次大小)  |
-| skip_first_frames | INT    | 0          | 可选     | 跳过开头的帧数          |
-| select_every_nth  | INT    | 1          | 可选     | 每N帧采样一帧           |
-
-**输出**: IMAGE[] (图像序列), VHS_VIDEOINFO (视频信息), AUDIO (可选音频)
-
-**使用场景**:
-- 从服务器路径批量处理视频
-- 处理网络URL视频
-- 自动化工作流中使用
-
-
-
-### Tora Encode Trajectory
-
-| 参数名         | 类型      | 默认值 | 参数性质 | 功能说明                                             |
-| -------------- | --------- | ------ | -------- | ---------------------------------------------------- |
-| model          | TORA_MODEL| —      | 必选     | 传入已加载的 Tora 模型实例。                         |
-| frames         | IMAGE[]   | —      | 必选     | 待处理的视频帧序列，用于提取运动轨迹特征。            |
-| downsample     | INT       | 1      | 可选     | 对帧率或分辨率的下采样倍数，以加速特征提取。          |
-| normalize      | BOOLEAN   | True   | 可选     | 是否对输入帧进行归一化处理，提升轨迹特征稳定性。      |
-
-**输出**  
-- `TORA_TRAJECTORY`：提取到的轨迹特征，用于后续采样或控制模块。  
-
-**使用场景**  
-- 在视频→视频或文本→视频生成管道中，为 CogVideoSampler 提供运动轨迹条件，使动画更连贯。  
+- Image-to-Video（I2V）流程：在文本引导或无文本场景下，将两帧静态图像及中间帧自动编码为视频潜在表示，适用于人物走动、物体平移等动画效果生成 。  
+- 超高分辨率图像：启用平铺 (`enable_tiling=True`) 后可对大图分块编码，避免显存溢出，同时通过 `noise_aug_strength` 控制每块噪声一致性。  
 
 ---
 
-### CogVideo LoraSelect
+### Tora Encode Trajectory
 
-| 参数名         | 类型      | 默认值 | 参数性质 | 功能说明                                           |
-| -------------- | --------- | ------ | -------- | -------------------------------------------------- |
-| model          | COGVIDEOMODEL | —  | 必选     | 当前使用的基础 CogVideoX 模型实例。               |
-| lora_name      | STRING    | —      | 必选     | 要加载的 LoRA 权重名称（如 “lora-style”）。       |
-| lora_scale     | FLOAT     | 1.0    | 可选     | 应用于主模型的 LoRA 权重强度比例。                |
-| merge          | BOOLEAN   | False  | 可选     | 是否将 LoRA 权重永久合并入基础模型。               |
+| 参数名           | 类型         | 默认值 | 参数性质 | 功能说明                                                         |
+| ---------------- | ------------ | ------ | -------- | ---------------------------------------------------------------- |
+| `tora_model`     | TORAMODEL    | —      | 必选     | 已加载的 Tora 模型，用于生成时空运动特征                         |
+| `vae`            | VAE          | —      | 必选     | VAE 解码器模块，用于将运动补丁映射到潜在空间                      |
+| `coordinates`    | STRING       | —      | 必选     | 用户定义的运动轨迹坐标（JSON/CSV 字符串），描述运动路径          |
+| `width`          | INT          | —      | 可选     | 轨迹补丁的空间宽度（像素），应与原始图像宽度保持一致             |
+| `height`         | INT          | —      | 可选     | 轨迹补丁的空间高度（像素），应与原始图像高度保持一致             |
+| `num_frames`     | INT          | —      | 可选     | 要生成的轨迹补丁帧数                                             |
+| `strength`       | FLOAT        | —      | 可选     | 轨迹编码强度，控制运动特征的影响比例                             |
+| `start_percent`  | FLOAT        | —      | 可选     | 在采样过程中的开始注入百分比（0.0–1.0），决定何时开始叠加轨迹     |
+| `end_percent`    | FLOAT        | —      | 可选     | 在采样过程中的停止注入百分比（0.0–1.0），决定何时停止叠加轨迹     |
+| `enable_tiling`  | BOOLEAN      | —      | 可选     | 是否启用平铺分块处理，分批生成运动补丁以减少显存占用             |
 
 **输出**  
-- `MODIFIED_MODEL`：应用了 LoRA 权重的模型实例，可直接用于采样。  
+- `TORAFEATURES`：编码后的时空运动特征张量，可直接输入至采样节点  
+- `IMAGE`：运动轨迹可视化图，用于调试和预览轨迹分布  
 
 **使用场景**  
-- 在生成特定风格或细节强化的视频时，动态选择并应用 LoRA 权重而无需重启或重载主模型。  
+- 在 I2V 流程中，将用户绘制的路径转换为 Tora 模型理解的运动补丁，精确控制生成视频中的主体运动轨迹。  
 
+---
 
 ### CogVideo ControlNet
 
-| 参数名      | 类型                | 默认值 | 参数性质 | 功能说明                                               |
-| ----------- | ------------------- | ------ | -------- | ------------------------------------------------------ |
-| model       | COGVIDEOCONTROLNET  | —      | 必选     | 输入的 ControlNet 模型实例。  |
-| conditioning| CONDITIONING        | —      | 必选     | 要施加的条件嵌入（如从 `CogVideoTextEncode` 或 `CogVideoImageEncode` 提供）。  |
-| weight      | FLOAT               | 1.0    | 可选     | 控制 ControlNet 影响程度的权重比例。  |
-| start_step  | INT                 | 0      | 可选     | 在采样步数中的起始应用步数。  |
-| end_step    | INT                 | —      | 可选     | 结束应用的采样步数（默认到最后一步）。  |
+| 参数名                | 类型      | 默认值 | 参数性质 | 功能说明                                                                 |
+| --------------------- | --------- | ------ | -------- | ------------------------------------------------------------------------ |
+| `control_image`       | IMAGE     | —      | 必选     | 用于控制的视频帧条件图，如边缘（Canny）、HED、骨骼（Pose）、深度图等       |
+| `controlnet_strength` | FLOAT     | 1.0    | 可选     | 控制信号强度，决定 ControlNet 条件对最终采样的影响比例（0.0–2.0）        |
+| `start_percent`       | FLOAT     | 0.0    | 可选     | 控制影响开始在采样总步数中的相对位置（0.0–1.0），如 0.2 表示在 20% 步骤后 |
+| `end_percent`         | FLOAT     | 1.0    | 可选     | 控制影响结束在采样总步数中的相对位置（0.0–1.0），如 0.8 表示在 80% 步骤前 |
 
 **输出**  
-- `MODIFIED_CONDITIONING`：应用 ControlNet 后的条件嵌入，可传入采样节点。  
+- `controlnet_states`：处理后的条件潜在向量序列，可直接传入 CogVideo Sampler 进行融合采样  
 
 **使用场景**  
-- 在需要对生成过程施加结构化或时序约束时，将 ControlNet 与主模型配合使用。 
+- 在 Text-to-Video、Image-to-Video 或 Video-to-Video 流程中，引入结构、姿态、深度或其他可视化信息，精细化视频内容的布局和动作走向。  
 
 ---
 
 ### CogVideoXFun ResizeToClosestBucket
 
-| 参数名             | 类型        | 默认值 | 参数性质 | 功能说明                                                                                     |
-| ------------------ | ----------- | ------ | -------- | -------------------------------------------------------------------------------------------- |
-| `latents`          | LATENT      | —      | 必选     | 输入的视频潜在向量，可能与模型要求的分辨率或帧数不完全匹配。                                   |
-| `bucket_heights`   | LIST[int]   | —      | 必选     | 支持的高度“bucket”列表，例如 `[256, 384, 512, 640]`。                                        |
-| `bucket_widths`    | LIST[int]   | —      | 必选     | 支持的宽度“bucket”列表，需与 `bucket_heights` 对应索引一一匹配。                               |
-| `num_frames`       | INT         | —      | 可选     | 可选提供帧数桶列表（与模型兼容的帧数），否则只调整空间维度。                                  |
-| `mode`             | STRING      | `pad`  | 可选     | 空间调整模式：`pad`（零填充至桶大小），或 `crop`（中心裁剪至桶大小）。                         |
-| `align_to_bucket`  | BOOLEAN     | True   | 可选     | 是否严格对齐到最近桶尺寸；若设置为 `False`，则取最接近但不超过当前尺寸的桶。                   |
+| 参数名             | 类型      | 默认值           | 参数性质 | 功能说明                                                                                           |
+| ------------------ | --------- | ---------------- | -------- | -------------------------------------------------------------------------------------------------- |
+| `images`           | IMAGE     | —                | 必选     | 输入的图像或潜在向量序列（帧），待调整分辨率以符合模型“桶”要求。                                      |
+| `base_resolution`  | INT       | —                | 必选     | 与模型兼容的最小分辨率桶，例如 256、384、512；输出会对齐到此及其倍数。                                 |
+| `upscale_method`   | STRING    | `nearest-exact`  | 可选     | 分辨率调整时使用的上采样方法：`nearest-exact`、`bilinear`、`area`、`bicubic` 或 `lanczos`。           |
+| `crop`             | STRING    | `center`         | 可选     | 当原始分辨率高于目标桶时，裁剪模式：`disabled`（不裁剪）或 `center`（中心裁剪）。                     |
 
 **输出**  
-- 返回 `ResizedLatents`：调整后与指定“bucket”尺寸对齐的视频潜在张量，形状为  
-  `[batch, num_frames, channels, target_height, target_width]`。
+- `IMAGE`：按最近桶大小调整后的图像/潜在向量序列。  
+- `INT`：调整后图像的宽度（像素）。  
+- `INT`：调整后图像的高度（像素）。  
 
 **使用场景**  
-- 在使用 Fun-InP 或其他对分辨率／帧数有严格“bucket”要求的模型前，对潜在向量进行预处理。  
-- 配合 `CogVideoXFun Sampler`，确保输入尺寸合法且可被调度器正确处理，提高兼容性并避免报错。  
+- 在使用 CogVideoX-Fun 或其他严格要求输入分辨率的模型前，自动将图像或潜在序列对齐至最近“桶”分辨率，避免尺寸不匹配错误，并可根据需求选择裁剪或上采样方法。 
 
 ---
 
-### CogVideo FasterCache
+### CogVideoX FasterCache
 
-| 参数名            | 类型      | 默认值 | 参数性质 | 功能说明                                                             |
-| ----------------- | --------- | ------ | -------- | -------------------------------------------------------------------- |
-| `enable_cache`    | BOOLEAN   | True   | 可选     | 是否启用缓存机制，复用中间计算结果，减少反复计算。                     |
-| `cache_size_mb`   | INT       | 512    | 可选     | 最大缓存大小（MB），超出后采用 LRU 策略清理最旧缓存。                 |
-| `cache_dtype`     | STRING    | `"fp16"` | 可选   | 缓存张量的数据类型，可选 `"fp16"`、`"fp32"`，兼顾速度与精度。         |
+| 参数名                | 类型    | 默认值          | 参数性质 | 功能说明                                                                                     |
+| --------------------- | ------- | --------------- | -------- | -------------------------------------------------------------------------------------------- |
+| `start_step`          | INT     | 15              | 可选     | 从第几步开始启用缓存重用，跳过前面若干步的计算以节省显存和加速后续推理                          |
+| `hf_step`             | INT     | —               | 可选     | 高频（high-frequency）特征缓存间隔：每隔多少步重用一次高频特征                                |
+| `lf_step`             | INT     | —               | 可选     | 低频（low-frequency）特征缓存间隔：每隔多少步重用一次低频特征                                |
+| `cache_device`        | STRING  | `"main_device"` | 可选     | 缓存存放设备，可选 `"main_device"`、`"offload_device"` 或 如 `"cuda:1"`                        |
+| `num_blocks_to_cache` | INT     | —               | 可选     | 要缓存的 Transformer Block 数量，控制缓存粒度                                               |
 
 **输出**  
-- `cached`：布尔值，表示本次调用是否命中缓存。  
-- `cache_info`：字典，包含当前缓存使用量与命中率等统计数据。  
+- `FASTERCACHEARGS`：封装了所有缓存参数的配置对象，可直接传入采样器或模型推理函数中使用。
 
 **使用场景**  
-- 对于反复调用相同条件下的较大模型推理，可通过缓存中间激活或权重编译结果，显著提升整体流水线速度。  
+- 对长序列视频生成任务，通过跳过初始若干步并在中后期重用高/低频特征，显著降低重复计算，从而减少显存占用并提升整体推理速度。  
 
 ---
 
 ### CogVideo TorchCompileSettings
 
-| 参数名               | 类型      | 默认值   | 参数性质 | 功能说明                                                             |
-| -------------------- | --------- | -------- | -------- | -------------------------------------------------------------------- |
-| `compile_mode`       | STRING    | `"default"` | 可选  | `torch.compile` 模式，可选 `"default"`、`"reduce-overhead"`、`"max-autotune"`，影响编译优化强度。 |
-| `backend`            | STRING    | `"inductor"` | 可选 | 编译后端，可选 `"inductor"`、`"nvfuser"`，决定底层代码生成方式。       |
-| `autotune`           | BOOLEAN   | False    | 可选     | 是否启用自动调优，尝试多种编译策略并选择最佳方案，启动时会额外耗时。     |
+| 参数名                    | 类型      | 默认值        | 参数性质 | 功能说明                                                                                                     |
+| ------------------------- | --------- | ------------- | -------- | ------------------------------------------------------------------------------------------------------------ |
+| `backend`                | STRING    | `"inductor"`  | 可选     | 指定 `torch.compile` 使用的后端，可选包括 `"inductor"`（默认）、`"nvfuser"` 等自定义后端。                       |
+| `mode`                   | STRING    | `"default"`   | 可选     | 编译模式，可选 `"default"`、`"reduce-overhead"`、`"max-autotune"` 等，控制优化强度与策略。                         |
+| `fullgraph`              | BOOLEAN   | `False`       | 可选     | 是否启用 full-graph 模式；`True` 时捕获整个模型为单个图，否则在图破裂时可能报错。                              |
+| `dynamic`                | BOOLEAN   | `False`       | 可选     | 是否开启动态形状支持，生成更通用的内核以减少因输入尺寸变化导致的二次编译。                                      |
+| `dynamo_cache_size_limit`| INT       | `8`           | 可选     | 设置 `torch._dynamo.config.cache_size_limit`（默认 8），控制单个函数可生成的最大编译缓存版本数，防止无限编译。      |
 
 **输出**  
-- `compile_settings`：字典，返回实际生效的编译模式、后端和自动调优状态。  
+- `torch_compile_args`：封装了实际生效的编译参数，包括 `backend`、`mode`、`fullgraph`、`dynamic` 及 `dynamo_cache_size_limit`。
 
 **使用场景**  
-- 在 GPU 资源充足、对推理速度有极限需求的场景下，通过 PyTorch 2.0 编译加速模型执行；也可针对不同硬件切换不同后端。  
+- 在 GPU 资源充足且对推理速度有苛刻要求的场景下，通过 PyTorch 2.0+ 的 `torch.compile` 显著加速模型执行。  
+- 根据不同硬件特性和模型结构，灵活切换后端与模式以获得最佳性能–稳定性平衡。  
+- 调试时可通过调整 `dynamic` 与 `fullgraph` 参数，定位和解决编译失败或性能瓶颈。  
 
 ---
 
 ### CogVideo Context Options
 
-| 参数名               | 类型       | 默认值       | 参数性质 | 功能说明                                                          |
-| -------------------- | ---------- | ------------ | -------- | ----------------------------------------------------------------- |
-| `context_window`     | INT        | 32           | 可选     | 最大时序上下文长度（帧数），超过则丢弃最早帧。                    |
-| `free_noise_stride`  | INT        | 4            | 可选     | 在执行 free_noise 机制时，跳过多少帧作为扰动，控制噪声打乱颗粒度。 |
-| `enable_pos_embed`   | BOOLEAN    | True         | 可选     | 是否为时序帧添加位置嵌入，改善顺序信息表示。                      |
+| 参数名              | 类型       | 默认值                 | 参数性质 | 功能说明                                                                 |
+| ------------------- | ---------- | ---------------------- | -------- | ------------------------------------------------------------------------ |
+| `context_schedule`  | STRING     | `"uniform_standard"`   | 可选     | 上下文调度策略，可选：<br>• `uniform_standard`（均匀标准）<br>• `uniform_looped`（循环均匀）<br>• `static_standard`（静态标准） |
+| `context_frames`    | INT        | `32`                   | 可选     | 最大保留上下文帧数，当输入帧数超过该值时，最早帧会被丢弃                  |
+| `context_stride`    | INT        | `1`                    | 可选     | 从原始序列抽取上下文帧的步长，控制帧间隔                                   |
+| `context_overlap`   | INT        | `0`                    | 可选     | 相邻上下文窗口之间的重叠帧数，用于平滑过渡                                 |
+| `freenoise`         | BOOLEAN    | `False`                | 可选     | 是否启用 FreeNoise 噪声打乱机制，在上下文帧中定期加入随机扰动               |
 
 **输出**  
-- `context_config`：字典，包含最终上下文窗口、跳帧步长和位置嵌入状态。  
+- `COGCONTEXT`：字典，包含以上所有生效的上下文配置参数。
 
 **使用场景**  
-- 在长视频（Vid2Vid、Pose2Vid）生成中，需限制上下文长度以节省显存，同时在关键帧间加入扰动提升连贯性。  
+- 在 Vid2Vid、Pose2Vid 等长序列视频生成中，通过限制保留帧数、设置步长与重叠，以及可选的噪声扰动，平衡显存占用与生成连贯性。  
+- 针对不同场景灵活调整调度策略（如循环 vs 静态）和噪声机制，优化动作连贯度或增加画面多样性。  
 
 ---
 
 ### CogVideo LatentPreview
 
-| 参数名             | 类型    | 默认值 | 参数性质 | 功能说明                                                         |
-| ------------------ | ------- | ------ | -------- | ---------------------------------------------------------------- |
-| `preview_frame`    | INT     | 0      | 可选     | 要可视化的帧索引（0 到 num_frames-1），在节点面板中展示该帧潜在图。 |
-| `scale_factor`     | FLOAT   | 2.0    | 可选     | 将潜在图上采样以便在面板中更清晰预览。                            |
+| 参数名      | 类型     | 默认值 | 参数性质 | 功能说明                                                    |
+| ----------- | -------- | ------ | -------- | ----------------------------------------------------------- |
+| `samples`   | LATENT   | —      | 必选     | 输入的视频潜在张量，形状 `[batch, num_frames, channels, H, W]` |
+| `seed`      | INT      | —      | 可选     | 用于生成预览的随机种子，保证可重复性                         |
+| `min_val`   | FLOAT    | —      | 可选     | 可视化时映射的最小潜在值，低于此值的部分会被裁剪             |
+| `max_val`   | FLOAT    | —      | 可选     | 可视化时映射的最大潜在值，高于此值的部分会被裁剪             |
+| `r_bias`    | FLOAT    | —      | 可选     | 红色通道偏移，用于调节预览图中的红色分量                     |
+| `g_bias`    | FLOAT    | —      | 可选     | 绿色通道偏移，用于调节预览图中的绿色分量                     |
+| `b_bias`    | FLOAT    | —      | 可选     | 蓝色通道偏移，用于调节预览图中的蓝色分量                     |
 
 **输出**  
-- `preview_image`：PIL Image 对象，在 UI 面板中显示对应帧的可视潜在图。  
+- `IMAGE`：预览图像，展示指定潜在帧的可视化效果。  
+- `STRING`：文本信息，包含当前 `seed`、`min_val`/`max_val` 范围及各通道偏移量等参数详情。
 
 **使用场景**  
-- 调试中途生成阶段，可快速检查单帧潜在向量效果，帮助调整采样或模型参数。  
+- 在视频生成流程中实时可视化中间潜在表示，帮助调试、校准映射范围及颜色偏移参数，以便快速定位和优化生成效果。
+
 
 ---
 
 ### CogVideo Enhance-A-Video
 
-| 参数名             | 类型      | 默认值 | 参数性质 | 功能说明                                                                 |
-| ------------------ | --------- | ------ | -------- | ------------------------------------------------------------------------ |
-| `denoise_strength` | FLOAT     | 0.5    | 可选     | 后处理去噪强度（0.0–1.0），数值越高去噪越强但易损失细节。                  |
-| `color_boost`      | FLOAT     | 1.2    | 可选     | 颜色增强倍数，用于对输出视频色彩进行微调，提高饱和度与对比度。             |
-| `apply_style`      | STRING    | `None` | 可选     | 可选风格预设名称（如 `"cinematic"`、`"soft"`），对视频进行风格化处理。     |
+| 参数名         | 类型    | 默认值 | 参数性质 | 功能说明                                                          |
+| -------------- | ------- | ------ | -------- | ----------------------------------------------------------------- |
+| `weight`       | FLOAT   | 1.0    | 可选     | 增强温度因子，乘以跨帧注意力强度，用于提高视频连贯性和细节表现。    |
+| `start_percent`| FLOAT   | 0.0    | 可选     | 从视频起始位置开始应用增强的百分比（0.0–1.0）。                   |
+| `end_percent`  | FLOAT   | 1.0    | 可选     | 到视频结束位置停止增强的百分比（0.0–1.0）。                       |
 
 **输出**  
-- `enhanced_video`：后处理后的视频张量或文件路径，可直接保存或继续编码。  
+- `FETAARGS`：包含增强后跨帧注意力调整参数的数据结构，可在后续解码或渲染环节使用。 
 
 **使用场景**  
-- 在生成流程结束后，对视频进行去噪、调色或统一风格处理，以达到更具观赏性的最终效果。  
-
----
+- 在生成流程结束后，对视频的时序注意力输出进行无训练微调，提升视频细节和画面连贯性，尤其适合人物运动或场景切换频繁的视频。  
 
 ### CogVideo LoraSelect
 
-| 参数名      | 类型    | 默认值 | 参数性质 | 功能说明                                     |
-| ----------- | ------- | ------ | -------- | -------------------------------------------- |
-| `model`     | MODEL   | —      | 必选     | 输入的 CogVideo 模型对象                     |
-| `lora_path` | STRING  | —      | 必选     | 要加载的 LoRA 权重文件路径                   |
-| `strength`  | FLOAT   | 1.0    | 可选     | LoRA 权重应用强度（0.0–1.0），控制效果强弱    |
+| 参数名       | 类型    | 默认值 | 参数性质 | 功能说明                                         |
+| ------------ | ------- | ------ | -------- | ------------------------------------------------ |
+| `model`      | MODEL   | —      | 必选     | 输入的 CogVideo 模型或流水线对象                 |
+| `lora_path`  | STRING  | —      | 必选     | 本地文件系统或远程 URL 上的 LoRA 权重文件路径     |
+| `lora_scale` | FLOAT   | 1.0    | 可选     | LoRA 权重应用强度（0.0–1.0），控制效果强弱        |
+| `unet_only`  | BOOLEAN | False  | 可选     | 是否仅将 LoRA 应用于 UNet 子模块                  |
 
 **输出**  
-- 应用了指定 LoRA 权重的 CogVideo 模型对象  
+- `model`：已加载并应用了指定 LoRA 权重的模型对象  
 
 **使用场景**  
-- 在视频生成中动态替换或叠加 LoRA 权重，实现风格微调或特效增强  
+- 在视频生成过程中动态引入自定义 LoRA 权重，实现风格微调或特殊效果增强。
 
 ---
 
 ### CogVideo LoraSelect Comfy
 
-| 参数名      | 类型    | 默认值 | 参数性质 | 功能说明                                          |
-| ----------- | ------- | ------ | -------- | ------------------------------------------------- |
-| `model`     | MODEL   | —      | 必选     | 输入的 CogVideo 模型对象                          |
-| `lora_name` | STRING  | —      | 必选     | 预置 LoRA 名称（仓库或 ComfyUI 目录中已有权重）    |
-| `strength`  | FLOAT   | 1.0    | 可选     | LoRA 权重应用强度（0.0–1.0），控制渲染效果比重     |
+| 参数名       | 类型    | 默认值 | 参数性质 | 功能说明                                                    |
+| ------------ | ------- | ------ | -------- | ----------------------------------------------------------- |
+| `model`      | MODEL   | —      | 必选     | 输入的 CogVideo 模型或流水线对象                            |
+| `lora_name`  | STRING  | —      | 必选     | 存放在 ComfyUI 默认 LoRA 目录中的预置 LoRA 权重名称         |
+| `strength`   | FLOAT   | 1.0    | 可选     | LoRA 权重应用强度（0.0–1.0），控制渲染效果比重              |
+| `overwrite`  | BOOLEAN | False  | 可选     | 是否覆盖模型中已有所有 LoRA delta（`True` 覆盖，`False` 叠加） |
 
 **输出**  
-- 与 ComfyUI 原生系统兼容的、已加载 LoRA 权重的模型对象  
+- `model`：已加载并应用 ComfyUI 预置 LoRA 权重的模型对象  
 
 **使用场景**  
-- 无缝调用 ComfyUI 的 LoRA 管理资源，快速切换不同预设权重  
+- 利用 ComfyUI 原生 LoRA 管理系统，无需手动指定路径即可快速切换并应用预设权重。
 
 ---
 
