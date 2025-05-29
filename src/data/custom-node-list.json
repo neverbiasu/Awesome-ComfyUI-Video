@@ -15923,6 +15923,16 @@
       "description": "ComfyUI custom_node for ByteDance's InfiniteYou"
     },
     {
+      "author": "niknah",
+      "title": "Audio General",
+      "reference": "https://github.com/niknah/audio-general-ComfyUI",
+      "files": [
+        "https://github.com/niknah/audio-general-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "General audio nodes.  Mix, Bass/Treble, Concatenate, Pitch, Add/remove silence, Speed"
+    },
+    {
       "author": "daryltucker",
       "title": "ComfyUI-LoadFiles",
       "id": "LoadFiles",
@@ -17568,6 +17578,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI extension for controlling and managing node group execution flow. Features include single/multiple group execution, delay control, signal chaining, and execution list repetition processing."
+    },
+    {
+      "author": "LAOGOU-666",
+      "title": "Comfyui_LG_Tools",
+      "reference": "https://github.com/LAOGOU-666/Comfyui_LG_Tools",
+      "files": [
+        "https://github.com/LAOGOU-666/Comfyui_LG_Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a toolset designed for ComfyUI by LAOGOU-666, providing a series of practical image processing and operation nodes, making our operation more intuitive and convenient"
     },
     {
       "author": "VertexStudio",
@@ -19552,6 +19572,16 @@
       "description": "ComfyUI-Bagel is now available in ComfyUI, BAGEL is an open‑source multimodal foundation model with 7B active parameters (14B total) trained on large‑scale interleaved multimodal data. [w/Don't install together with neverbiasu/ComfyUI-BAGEL simultaneously.]"
     },
     {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-HunyuanPortrait",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-HunyuanPortrait",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-HunyuanPortrait"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-HunyuanPortrait is now available in ComfyUI, HunyuanPortrait is a diffusion-based condition control method that employs implicit representations for highly controllable and lifelike portrait animation."
+    },
+    {
       "author": "Starnodes2024",
       "title": "ComfyUI_StarNodes",
       "reference": "https://github.com/Starnodes2024/ComfyUI_StarNodes",
@@ -19652,17 +19682,6 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI-CatvtonFluxWrapper provides ComfyUI nodes for diffusers implementation of Catvton-Flux."
-    },
-    {
-      "author": "Stable Diffusion VN",
-      "title": "SDVN Comfy node",
-      "id": "SDVN",
-      "reference": "https://github.com/StableDiffusionVN/SDVN_Comfy_node",
-      "files": [
-        "https://github.com/StableDiffusionVN/SDVN_Comfy_node"
-      ],
-      "install_type": "git-clone",
-      "description": "Update IC Lora Layout Support Node"
     },
     {
       "author": "Eugene (JEONG-JIWOO)",
@@ -23693,16 +23712,6 @@
       "description": "A collection of custom nodes for ComfyUI, focusing on improving workflow efficiency and adding new functionality.(work in progress!!!)"
     },
     {
-      "author": "abuzreq",
-      "title": "ComfyUI Model Bending",
-      "reference": "https://github.com/abuzreq/ComfyUI-Model-Bending",
-      "files": [
-        "https://github.com/abuzreq/ComfyUI-Model-Bending"
-      ],
-      "install_type": "git-clone",
-      "description": "Use model bending to push your model beyond its visuals' limits. These nodes allow you to apply transformations to the intemediate densoising steps during sampling, e.g. add, multiplty, scale, rotate, dilate, erode ..etc."
-    },
-    {
       "author": "blovett80",
       "title": "ComfyUI-PixelDojo",
       "reference": "https://github.com/blovett80/ComfyUI-PixelDojo",
@@ -24533,6 +24542,17 @@
       "description": "This node package contains nodes for Spark-TTS controllable synthesis and voice cloning.."
     },
     {
+      "author": "KERRY-YUAN",
+      "title": "ComfyUI_Float_Animator",
+      "id": "ComfyUI_Float_Animator",
+      "reference": "https://github.com/KERRY-YUAN/ComfyUI_Float_Animator",
+      "files": [
+        "https://github.com/KERRY-YUAN/ComfyUI_Float_Animator"
+      ],
+      "install_type": "git-clone",
+      "description": "Float project applicable to ComfyUI.Generates speaking portrait video frames from an image and audio."
+    },
+    {
       "author": "brantje",
       "title": "ComfyUI-api-tools",
       "id": "comfyui_api_tools",
@@ -24788,6 +24808,16 @@
       ],
       "install_type": "git-clone",
       "description": "🎧Ultra High-Quality Voice Cloning, Chinese and English."
+    },
+    {
+      "author": "avenstack",
+      "title": "ComfyUI-AV-LatentSync",
+      "reference": "https://github.com/avenstack/ComfyUI-AV-LatentSync",
+      "files": [
+        "https://github.com/avenstack/ComfyUI-AV-LatentSync"
+      ],
+      "install_type": "git-clone",
+      "description": "LatentSync 1.5 wrapper for ComfyUI"
     },
     {
       "author": "WarpedAnimation",
@@ -25640,6 +25670,16 @@
       "description": "ComfyUI diffusers wrapper nodes for [a/NormalCrafter](https://github.com/Binyr/NormalCrafter)"
     },
     {
+      "author": "AIWarper",
+      "title": "ComfyUI-WarperNodes",
+      "reference": "https://github.com/AIWarper/ComfyUI-WarperNodes",
+      "files": [
+        "https://github.com/AIWarper/ComfyUI-WarperNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: DWPose Scaler (Warper)"
+    },
+    {
       "author": "Goshe-nite",
       "title": "GPS' Supplements for ComfyUI",
       "id": "GPSupps",
@@ -26091,6 +26131,16 @@
       "description": "A utility node for extracting and trimming filenames from file paths"
     },
     {
+      "author": "skycoder",
+      "title": "Skycoder Tools",
+      "reference": "https://github.com/skycoder182/comfyui-skycoder-tools",
+      "files": [
+        "https://github.com/skycoder182/comfyui-skycoder-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of useful custom nodes for ComfyUI workflows"
+    },
+    {
       "author": "craig-tanaka",
       "title": "ComfyUI Anime Segmentation Nodes v1.1.0",
       "reference": "https://github.com/craig-tanaka/comfyui_animeseg",
@@ -26422,6 +26472,36 @@
       ],
       "install_type": "git-clone",
       "description": "Chat GPT Image Generation Chat Node for Comfy UI"
+    },
+    {
+      "author": "orion4d",
+      "title": "ComfyUI-Image-Effects",
+      "reference": "https://github.com/orion4d/ComfyUI-Image-Effects",
+      "files": [
+        "https://github.com/orion4d/ComfyUI-Image-Effects"
+      ],
+      "install_type": "git-clone",
+      "description": "Complete collection of image effects for ComfyUI - 32 nodes across 6 categories"
+    },
+    {
+      "author": "aiaiaikkk",
+      "title": "ComfyUI-Curve",
+      "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
+      "files": [
+        "https://github.com/aiaiaikkk/ComfyUI-Curve"
+      ],
+      "install_type": "git-clone",
+      "description": "A professional ComfyUI curve adjustment node that offers Photoshop-like curve functionality, over 70 preset styles, advanced mask support, and histogram analysis."
+    },
+    {
+      "author": "lxe",
+      "title": "ComfyUI OpenAI Compatible LLM Node",
+      "reference": "https://github.com/lxe/ComfyUI-OpenAI-Compat-LLM-Node",
+      "files": [
+        "https://github.com/lxe/ComfyUI-OpenAI-Compat-LLM-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that provides integration with OpenAI-compatible Large Language Model APIs, including OpenAI, local models, and other compatible endpoints. Supports both text-only and multimodal (text + image) interactions."
     },
     {
       "author": "Ser-Hilary",
