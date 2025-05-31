@@ -19582,6 +19582,16 @@
       "description": "ComfyUI-HunyuanPortrait is now available in ComfyUI, HunyuanPortrait is a diffusion-based condition control method that employs implicit representations for highly controllable and lifelike portrait animation."
     },
     {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-HunyuanVideo-Avatar",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-HunyuanVideo-Avatar is now available in ComfyUI, HunyuanVideo-Avatar is a multimodal diffusion transformer (MM-DiT)-based model capable of simultaneously generating dynamic, emotion-controllable, and multi-character dialogue videos."
+    },
+    {
       "author": "Starnodes2024",
       "title": "ComfyUI_StarNodes",
       "reference": "https://github.com/Starnodes2024/ComfyUI_StarNodes",
