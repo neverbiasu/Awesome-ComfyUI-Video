@@ -26451,7 +26451,7 @@
         "https://github.com/openvino-dev-samples/comfyui_openvino"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI nodes for OpenVINO."
+      "description": "OpenVINO node is designed for optimizing the performance of model inference in ComfyUI by leveraging Intel OpenVINO toolkits. It can support running model on Intel CPU, GPU and NPU device."
     },
     {
       "author": "coiichan",
@@ -26695,6 +26695,27 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI open nodes by juntaosun."
+    },
+    {
+      "author": "vivi-gomez",
+      "title": "ComfyUI Fix Node Translate",
+      "reference": "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate",
+      "files": [
+        "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate"
+      ],
+      "install_type": "git-clone",
+      "description": "Addon for ComfyUI that adds 'Fix node (recreate + keep inputs)' context menu option"
+    },
+    {
+      "author": "aimingfail",
+      "title": "ComfyUI-LikeSpiderAI-SaveMP3",
+      "id": "img2halftone",
+      "reference": "https://github.com/Pigidiy/ComfyUI-LikeSpiderAI-SaveMP3",
+      "files": [
+        "https://github.com/Pigidiy/ComfyUI-LikeSpiderAI-SaveMP3"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that saves input AUDIO as .mp3 using ffmpeg."
     },
     {
       "author": "Ser-Hilary",
@@ -27103,6 +27124,17 @@
       ],
       "install_type": "unzip",
       "description": "This is a node to convert an image into a CMYK Halftone dot image."
+    },
+    {
+      "author": "violet0927",
+      "title": "Hugging Face LoRA Uploader",
+      "reference": "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader",
+      "id": "comfyui_huggingfacelorauploader",
+      "files": [
+        "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
     }
   ]
 }
