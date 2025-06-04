@@ -61,6 +61,17 @@
       "description": "This is a helper extension for ComfyUI that assists with node connections."
     },
     {
+      "author": "Dr.Lt.Data",
+      "title": "WAS Node Suite (Revised)",
+      "id": "was-ns",
+      "reference": "https://github.com/ltdrdata/was-node-suite-comfyui",
+      "files": [
+        "https://github.com/ltdrdata/was-node-suite-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A massive node pack consisting of over 200 nodes, including image processing, masking, text handling, and arithmetic operations.\nNOTE: A replacement node pack provided for existing users following the retirement of the original author of the widely used WAS Node Suite."
+    },
+    {
       "author": "comfyanonymous",
       "title": "ComfyUI_experiments",
       "id": "comfy-exp",
@@ -335,20 +346,6 @@
         "cargo"
       ],
       "description": "CLIPTextEncodeBLIP: This custom node provides a CLIP Encoder that is capable of receiving images as input."
-    },
-    {
-      "author": "WASasquatch",
-      "title": "WAS Node Suite",
-      "id": "was",
-      "reference": "https://github.com/WASasquatch/was-node-suite-comfyui",
-      "pip": [
-        "numba"
-      ],
-      "files": [
-        "https://github.com/WASasquatch/was-node-suite-comfyui"
-      ],
-      "install_type": "git-clone",
-      "description": "A node suite for ComfyUI with many new nodes, such as image processing, text processing, and more."
     },
     {
       "author": "WASasquatch",
@@ -7840,6 +7837,16 @@
       "description": "A powerful ComfyUI custom node that brings Google's Gemini TTS capabilities directly to your workflow. Generate high-quality speech with 30+ voices supporting both free and paid tiers."
     },
     {
+      "author": "ShmuelRonen",
+      "title": "ComfyUI_ChatterBox",
+      "reference": "https://github.com/ShmuelRonen/ComfyUI_ChatterBox",
+      "files": [
+        "https://github.com/ShmuelRonen/ComfyUI_ChatterBox"
+      ],
+      "install_type": "git-clone",
+      "description": "An unofficial ComfyUI custom node integration for [a/Resemble AI's ChatterBox](https://github.com/resemble-ai/chatterbox) - a state-of-the-art open-source Text-to-Speech (TTS) model with voice cloning capabilities."
+    },
+    {
       "author": "redhottensors",
       "title": "ComfyUI-Prediction",
       "id": "prediction",
@@ -11802,6 +11809,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for loading images sequentially from a directory. Loops back to the first image when reaching the end"
+    },
+    {
+      "author": "alessandrozonta",
+      "title": "ComfyUI-PoseDirection",
+      "reference": "https://github.com/alessandrozonta/ComfyUI-PoseDirection",
+      "files": [
+        "https://github.com/alessandrozonta/ComfyUI-PoseDirection"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI analyzes OpenPose keypoints to determine if a person in an image is facing forward, showing their left side, or their right side."
     },
     {
       "author": "curiousjp",
@@ -16048,9 +16065,9 @@
     {
       "author": "Assistant",
       "title": "ComfyUI-PromptList",
-      "reference": "https://github.com/NakamuraShippo/ComfyUI-PromptList",
+      "reference": "https://github.com/NakamuraShippo/ComfyUI-NS-PromptList",
       "files": [
-        "https://github.com/NakamuraShippo/ComfyUI-PromptList"
+        "https://github.com/NakamuraShippo/ComfyUI-NS-PromptList"
       ],
       "install_type": "git-clone",
       "description": "Custom node to manage prompts in YAML format."
@@ -22655,14 +22672,14 @@
     },
     {
       "author": "lum3on",
-      "title": "ComfyUI Model Quantizer",
+      "title": "ComfyUI-ModelQuantizer",
       "id": "ModelQuantizer",
       "reference": "https://github.com/lum3on/ComfyUI-ModelQuantizer",
       "files": [
         "https://github.com/lum3on/ComfyUI-ModelQuantizer"
       ],
       "install_type": "git-clone",
-      "description": "A comprehensive custom node pack for ComfyUI that provides advanced tools for quantizing model weights to lower precision formats like FP16, BF16, and true FP8 types, with specialized support for ControlNet models."
+      "description": "This is a node to converts models into Fp8, bf16, fp16."
     },
     {
       "author": "austinbrown34",
@@ -26261,6 +26278,16 @@
       "description": "ComfyUI Chatterbox TTS & Voice Conversion Node"
     },
     {
+      "author": "wildminder",
+      "title": "ComfyUI-Optim",
+      "reference": "https://github.com/wildminder/000_ComfyUI-Optim",
+      "files": [
+        "https://github.com/wildminder/000_ComfyUI-Optim"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI startup optimizer and patcher"
+    },
+    {
       "author": "cloudkoala",
       "title": "comfyui-koala",
       "reference": "https://github.com/cloudkoala/comfyui-koala",
@@ -26718,6 +26745,87 @@
       "description": "A custom ComfyUI node that saves input AUDIO as .mp3 using ffmpeg."
     },
     {
+      "author": "violet0927",
+      "title": "Hugging Face LoRA Uploader",
+      "reference": "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader",
+      "id": "comfyui_huggingfacelorauploader",
+      "files": [
+        "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
+    },
+    {
+      "author": "violet0927",
+      "title": "ComfyUI OmniConsistency Nodes",
+      "reference": "https://github.com/lc03lc/Comfyui_OmniConsistency",
+      "files": [
+        "https://github.com/lc03lc/Comfyui_OmniConsistency"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI OmniConsistency Nodes is a collection of nodes for ComfyUI that allows you to load and use OmniConsistency models."
+    },
+    {
+      "author": "bikiam",
+      "title": "ComfyUI_WhisperSRT",
+      "reference": "https://github.com/bikiam/ComfyUI_WhisperSRT",
+      "files": [
+        "https://github.com/bikiam/ComfyUI_WhisperSRT"
+      ],
+      "install_type": "git-clone",
+      "description": "This is custom node for audio transcribe with SRT."
+    },
+    {
+      "author": "thalismind",
+      "title": "ComfyUI Blend Image Nodes",
+      "reference": "https://github.com/thalismind/ComfyUI-Blend-Nodes",
+      "files": [
+        "https://github.com/thalismind/ComfyUI-Blend-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository contains a ComfyUI node for blending images using various blending modes. Can be used to watermark images, create overlays, or apply effects to images in a ComfyUI workflow."
+    },
+    {
+      "author": "boricuapab",
+      "title": "ComfyUI-Bori-JsonSetGetConverter",
+      "reference": "https://github.com/boricuapab/ComfyUI-Bori-JsonSetGetConverter",
+      "files": [
+        "https://github.com/boricuapab/ComfyUI-Bori-JsonSetGetConverter"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI that takes in a file path full of json's and finds the mape variable nodes in them and converts them to the kjnode set and get nodes."
+    },
+    {
+      "author": "avocadori",
+      "title": "ComfyUI-load-image-prompt-lora",
+      "reference": "https://github.com/avocadori/ComfyUI-load-image-prompt-lora",
+      "files": [
+        "https://github.com/avocadori/ComfyUI-load-image-prompt-lora"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: YAML Image Cycler (Full), YAML Image Cycler (Simple), YAML LoRA Extractor, YAML LoRA Loader, YAML LoRA Selector"
+    },
+    {
+      "author": "Chrisvenator",
+      "title": "painting-by-colors-generator",
+      "reference": "https://github.com/Chrisvenator/ComfyUI-Painting-by-colors-generator",
+      "files": [
+        "https://github.com/Chrisvenator/ComfyUI-Painting-by-colors-generator"
+      ],
+      "install_type": "git-clone",
+      "description": "Create a painting by colors image from an image"
+    },
+    {
+      "author": "tetsuoo-online",
+      "title": "comfyui-too-xmp-metadata",
+      "reference": "https://github.com/tetsuoo-online/comfyui-too-xmp-metadata",
+      "files": [
+        "https://github.com/tetsuoo-online/comfyui-too-xmp-metadata"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI that allow you to read and write XMP metadata to images"
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
@@ -27124,17 +27232,6 @@
       ],
       "install_type": "unzip",
       "description": "This is a node to convert an image into a CMYK Halftone dot image."
-    },
-    {
-      "author": "violet0927",
-      "title": "Hugging Face LoRA Uploader",
-      "reference": "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader",
-      "id": "comfyui_huggingfacelorauploader",
-      "files": [
-        "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
     }
   ]
 }

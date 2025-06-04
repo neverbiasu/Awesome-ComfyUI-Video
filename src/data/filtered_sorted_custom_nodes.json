@@ -1665,6 +1665,18 @@
       "author_account_age_days": 1783
     },
     {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-HunyuanVideo-Avatar",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-HunyuanVideo-Avatar is now available in ComfyUI, HunyuanVideo-Avatar is a multimodal diffusion transformer (MM-DiT)-based model capable of simultaneously generating dynamic, emotion-controllable, and multi-character dialogue videos.",
+      "stars": 8,
+      "author_account_age_days": 1783
+    },
+    {
       "author": "livepeer",
       "title": "ComfyUI-Stream-Pack",
       "reference": "https://github.com/livepeer/ComfyUI-Stream-Pack",
@@ -1851,18 +1863,6 @@
       "author_account_age_days": 622
     },
     {
-      "author": "Yuan-ManX",
-      "title": "ComfyUI-HunyuanVideo-Avatar",
-      "reference": "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar",
-      "files": [
-        "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI-HunyuanVideo-Avatar is now available in ComfyUI, HunyuanVideo-Avatar is a multimodal diffusion transformer (MM-DiT)-based model capable of simultaneously generating dynamic, emotion-controllable, and multi-character dialogue videos.",
-      "stars": 5,
-      "author_account_age_days": 1781
-    },
-    {
       "author": "DarioFT",
       "title": "ComfyUI-VideoDirCombiner",
       "reference": "https://github.com/DarioFT/ComfyUI-VideoDirCombiner",
@@ -1873,6 +1873,18 @@
       "description": "A custom node for ComfyUI that combines multiple videos from a directory with optional transitions and background music. Perfect for batch processing and creating seamless video compilations.",
       "stars": 5,
       "author_account_age_days": 3820
+    },
+    {
+      "author": "smthemex",
+      "title": "ComfyUI_HunyuanAvatar_Sm",
+      "reference": "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm"
+      ],
+      "install_type": "git-clone",
+      "description": "HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters,try it in comfyUI ,if your VRAM >24G.",
+      "stars": 4,
+      "author_account_age_days": 698
     },
     {
       "author": "christian-byrne",
@@ -2133,18 +2145,6 @@
       "author_account_age_days": 1548
     },
     {
-      "author": "smthemex",
-      "title": "ComfyUI_HunyuanAvatar_Sm",
-      "reference": "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm",
-      "files": [
-        "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm"
-      ],
-      "install_type": "git-clone",
-      "description": "HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters,try it in comfyUI ,if your VRAM >24G.",
-      "stars": 2,
-      "author_account_age_days": 695
-    },
-    {
       "author": "l20richo",
       "title": "ComfyUI-Azure-Blob-Storage",
       "id": "azure-blob-storage",
@@ -2218,7 +2218,7 @@
       "install_type": "git-clone",
       "description": "Float project applicable to ComfyUI.Generates speaking portrait video frames from an image and audio.",
       "stars": 2,
-      "author_account_age_days": 1595
+      "author_account_age_days": 1597
     },
     {
       "author": "WarpedAnimation",
@@ -2499,7 +2499,7 @@
       "install_type": "git-clone",
       "description": "A professional video camera parameter estimation toolkit based on the VGGT model.",
       "stars": 0,
-      "author_account_age_days": 1702
+      "author_account_age_days": 1704
     },
     {
       "author": "bombax-xiaoice",
