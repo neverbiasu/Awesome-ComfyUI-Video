@@ -8029,7 +8029,7 @@
         "https://github.com/1038lab/ComfyUI-JoyCaption"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI custom node powered by LLaVA VLM for advanced image captioning with customizable styles and memory-efficient inference."
+      "description": "Joy Caption is a ComfyUI custom node powered by the LLaVA model for efficient, stylized image captioning. Caption Tools nodes handle batch image processing and automatic separation of caption text."
     },
     {
       "author": "Klinter",
@@ -25814,7 +25814,7 @@
         "https://github.com/AIWarper/ComfyUI-WarperNodes"
       ],
       "install_type": "git-clone",
-      "description": "NODES: DWPose Scaler (Warper)"
+      "description": "NODES: DWPose Scaler (Warper), Mouth Mask from Pose (Warper), Facial Part Mask from Pose (Warper)"
     },
     {
       "author": "Goshe-nite",
@@ -27096,6 +27096,36 @@
       ],
       "install_type": "git-clone",
       "description": "A smart, customizable resolution selector node with live aspect ratio preview, image overlays, and checkerboard support — cleanly parsed from a human-readable text file."
+    },
+    {
+      "author": "xiaogui8dangjia",
+      "title": "Comfyui-imagetoSTL",
+      "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
+      "files": [
+        "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL"
+      ],
+      "install_type": "git-clone",
+      "description": "comfyui_imagetostl is a simple node for ComfyUI that converts grayscale images to STL."
+    },
+    {
+      "author": "NeonLightning",
+      "title": "neonllama",
+      "reference": "https://github.com/NeonLightning/neonllama",
+      "files": [
+        "https://github.com/NeonLightning/neonllama"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom ComfyUI node transforms a core idea into a richly detailed positive prompt using a local [a/Ollama](https://ollama.com) LLM."
+    },
+    {
+      "author": "xmarre",
+      "title": "LoRA-Safe TorchCompile",
+      "reference": "https://github.com/xmarre/TorchCompileModel_LoRASafe",
+      "files": [
+        "https://github.com/xmarre/TorchCompileModel_LoRASafe"
+      ],
+      "install_type": "git-clone",
+      "description": "Drop-in TorchCompile node that preserves LoRA patches."
     },
     {
       "author": "Ser-Hilary",
