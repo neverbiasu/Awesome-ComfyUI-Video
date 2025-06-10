@@ -8618,6 +8618,17 @@
     },
     {
       "author": "11dogzi",
+      "title": "CYBERPUNK-STYLE-DIY",
+      "id": "CYBERPUNK-STYLE-DIY",
+      "reference": "https://github.com/11dogzi/CYBERPUNK-STYLE-DIY",
+      "files": [
+        "https://github.com/11dogzi/CYBERPUNK-STYLE-DIY"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive ComfyUI theme plugin with stunning cyberpunk aesthetics and powerful customization features"
+    },
+    {
+      "author": "11dogzi",
       "title": "ComfUI-EGAdapterMadAssistant",
       "id": "madassistant",
       "reference": "https://github.com/11dogzi/ComfUI-EGAdapterMadAssistant",
@@ -27248,6 +27259,47 @@
       ],
       "install_type": "git-clone",
       "description": " Powerful Flux-Kontext image generation custom node for ComfyUI, using the official RabbitAI API. Supports text-to-image, image-to-image, and multi-image-to-image generation. Supports concurrent generation."
+    },
+    {
+      "author": "INuBq8",
+      "title": "Notification Bridge",
+      "reference": "https://github.com/INuBq8/ComfyUI-NotificationBridge",
+      "files": [
+        "https://github.com/INuBq8/ComfyUI-NotificationBridge"
+      ],
+      "install_type": "git_clone",
+      "description": "Bridge nodes for ComfyUI that send messages through WhatsApp (Twilio) and Discord when a workflow completes."
+    },
+    {
+      "author": "Erehr",
+      "title": "ComfyUI-EreNodes",
+      "reference": "https://github.com/Erehr/ComfyUI-EreNodes",
+      "files": [
+        "https://github.com/Erehr/ComfyUI-EreNodes"
+      ],
+      "install_type": "copy",
+      "description": "A collection of personal nodes mainly for prompt management."
+    },
+    {
+      "author": "xiaowc",
+      "title": "Comfyui-Dynamic-Params",
+      "reference": "https://github.com/xiaowc-lib/comfyui-dynamic-params",
+      "files": [
+        "https://github.com/xiaowc-lib/comfyui-dynamic-params"
+      ],
+      "install_type": "git-clone",
+      "description": "Comfyui custom nodes that support dynamic parameter addition and deletion."
+    },
+    {
+      "author": "keit",
+      "title": "ComfyUI-keitNodes",
+      "id": "comfyui-image-toolkit",
+      "reference": "https://github.com/keit0728/ComfyUI-keitNodes",
+      "files": [
+        "https://github.com/keit0728/ComfyUI-keitNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This is keit's utility nodes."
     },
     {
       "author": "Ser-Hilary",
