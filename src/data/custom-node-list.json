@@ -3441,6 +3441,16 @@
     },
     {
       "author": "YMC",
+      "title": "ymc_node_joy",
+      "reference": "https://github.com/YMC-GitHub/ymc_node_joy",
+      "files": [
+        "https://github.com/YMC-GitHub/ymc_node_joy"
+      ],
+      "install_type": "git-clone",
+      "description": "comfyui custom nodes to caption image with joy"
+    },
+    {
+      "author": "YMC",
       "title": "ymc-node-as-x-type",
       "reference": "https://github.com/YMC-GitHub/ymc-node-as-x-type",
       "files": [
@@ -11341,6 +11351,16 @@
       "description": "A ComfyUI custom node that calculates width and height while maintaining aspect ratio, making it easier to determine image resolutions with specified aspect ratios and longer side values."
     },
     {
+      "author": "sugarkwork",
+      "title": "comfyui-trtupscaler",
+      "reference": "https://github.com/sugarkwork/comfyui-trtupscaler",
+      "files": [
+        "https://github.com/sugarkwork/comfyui-trtupscaler"
+      ],
+      "install_type": "git-clone",
+      "description": "TensorRT Upscaler for ComfyUI"
+    },
+    {
       "author": "Intersection98",
       "title": "ComfyUI-MX-post-processing-nodes",
       "reference": "https://github.com/Intersection98/ComfyUI_MX_post_processing-nodes",
@@ -15520,14 +15540,24 @@
     },
     {
       "author": "Isi-dev",
-      "title": "UniAnimate Nodes for ComfyUI",
+      "title": "ComfyUI-UniAnimate-W",
       "id": "comfyuiunianimatenodes",
       "reference": "https://github.com/Isi-dev/ComfyUI-UniAnimate-W",
       "files": [
         "https://github.com/Isi-dev/ComfyUI-UniAnimate-W"
       ],
       "install_type": "git-clone",
-      "description": "These are nodes to animate an image with a reference video using UniAnimate. [w/Name conflict with AIFSH/ComfyUI-UniAnimate. Cannot install simulatenously.]"
+      "description": "These are nodes to animate an image with a reference video using UniAnimate."
+    },
+    {
+      "author": "Isi-dev",
+      "title": "ComfyUI-Animation_Nodes_and_Workflows",
+      "reference": "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows",
+      "files": [
+        "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows"
+      ],
+      "install_type": "git-clone",
+      "description": "These are nodes and workflows that can facilitate the creation of animations and video compilations."
     },
     {
       "author": "XLabs-AI",
@@ -26763,6 +26793,16 @@
       "description": "This repository contains a set of custom nodes for ComfyUI that allow you to load, manipulate, extract information from, and preview PDF files directly within your workflows."
     },
     {
+      "author": "orion4d",
+      "title": "ComfyUI_extract_imag",
+      "reference": "https://github.com/orion4d/ComfyUI_extract_imag",
+      "files": [
+        "https://github.com/orion4d/ComfyUI_extract_imag"
+      ],
+      "install_type": "git-clone",
+      "description": "This ComfyUI node allows you to extract all images found in various types of documents and save them to disk. It also provides a preview of the first extracted image."
+    },
+    {
       "author": "aiaiaikkk",
       "title": "ComfyUI-Curve",
       "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
@@ -27432,6 +27472,37 @@
       "description": "A set of custom nodes designed for experiments with video diffusion models."
     },
     {
+      "author": "xuhuan2048",
+      "title": "ExtractStoryboards",
+      "id": "xuhuan2048_ExtractStoryboards",
+      "reference": "https://github.com/gitadmini/comfyui_extractstoryboards",
+      "files": [
+        "https://github.com/gitadmini/comfyui_extractstoryboards"
+      ],
+      "install_type": "git-clone",
+      "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes"
+    },
+    {
+      "author": "pawelmal0101",
+      "title": "ComfyUI Webhook Notifier",
+      "reference": "https://github.com/pawelmal0101/ComfyUI-Webhook",
+      "files": [
+        "https://github.com/pawelmal0101/ComfyUI-Webhook"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple ComfyUI custom node that sends webhook notifications when images are generated. Perfect for integrating your image generation workflow with external services or your own backend."
+    },
+    {
+      "author": "NeoDroleDeGueule",
+      "title": "comfyui-image-mixer",
+      "reference": "https://github.com/NeoDroleDeGueule/comfyui-image-mixer",
+      "files": [
+        "https://github.com/NeoDroleDeGueule/comfyui-image-mixer"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that blends two images in latent space using a mix factor slider."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
@@ -27771,16 +27842,6 @@
       ],
       "install_type": "copy",
       "description": "Extremely inspired and forked from: [a/https://github.com/klimaleksus/stable-diffusion-webui-embedding-merge](https://github.com/klimaleksus/stable-diffusion-webui-embedding-merge)"
-    },
-    {
-      "author": "vladpro3",
-      "title": "ComfyUI_BishaNodes",
-      "reference": "https://github.com/vladpro3/ComfyUI_BishaNodes",
-      "files": [
-        "https://github.com/vladpro3/ComfyUI_BishaNodes"
-      ],
-      "install_type": "copy",
-      "description": "Custom Nodes for ComfyUI to Simplify Multi-Resolution and Prompt Workflows"
     },
     {
       "author": "Kayarte",
