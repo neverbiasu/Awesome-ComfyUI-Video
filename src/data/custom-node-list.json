@@ -19214,7 +19214,7 @@
     {
       "author": "lth",
       "title": "Comfyui_three_js",
-      "id": "lth",
+      "id": "comfyui_three_js",
       "reference": "https://github.com/lo-th/Comfyui_three_js",
       "files": [
         "https://github.com/lo-th/Comfyui_three_js"
@@ -19792,6 +19792,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI-Direct3D‑S2 is now available in ComfyUI, Direct3D‑S2 - Gigascale 3D Generation Made Easy with Spatial Sparse Attention. Direct3D‑S2 is a scalable 3D generation framework based on sparse volumes that achieves superior output quality with dramatically reduced training costs."
+    },
+    {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-Vui",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-Vui",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-Vui"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-Vui is now available in ComfyUI, Vui is a llama based transformer that predicts audio tokens."
     },
     {
       "author": "Starnodes2024",
@@ -27442,6 +27452,16 @@
       "description": "Professional video animation nodes for ComfyUI based on Deforum-X-Flux research"
     },
     {
+      "author": "A043-studios",
+      "title": "ComfyUI ASDF Pixel Sort Nodes",
+      "reference": "https://github.com/A043-studios/ComfyUI-ASDF-Pixel-Sort-Nodes",
+      "files": [
+        "https://github.com/A043-studios/ComfyUI-ASDF-Pixel-Sort-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI integration of Kim Asendorf's iconic ASDFPixelSort algorithm, bringing classic pixel sorting effects directly into your ComfyUI workflows"
+    },
+    {
       "author": "Zachary116699",
       "title": "ComfyUI_LoadImageWithMetaDataEx",
       "reference": "https://github.com/Zachary116699/ComfyUI-LoadImageWithMetaDataEx",
@@ -27501,6 +27521,37 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that blends two images in latent space using a mix factor slider."
+    },
+    {
+      "author": "hassan-sd",
+      "title": "ComfyUI Image & Prompt Loader",
+      "id": "hassanprompt",
+      "reference": "https://github.com/hassan-sd/comfyui-image-prompt-loader",
+      "files": [
+        "https://github.com/hassan-sd/comfyui-image-prompt-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Load images with automatic prompt extraction from Civitai URLs, caption files, or EXIF metadata. Features smart dataset detection and dynamic preview updates."
+    },
+    {
+      "author": "LargeModGames",
+      "title": "ComfyUI LoRA Auto Downloader",
+      "reference": "https://github.com/LargeModGames/comfyui-smart-lora-downloader",
+      "files": [
+        "https://github.com/LargeModGames/comfyui-smart-lora-downloader"
+      ],
+      "install_type": "git-clone",
+      "description": "Automatically download missing LoRAs from CivitAI and detect missing LoRAs in workflows. Features smart directory detection and easy installation."
+    },
+    {
+      "author": "benjamin-bertram",
+      "title": "ComfyUI OIDN Denoiser",
+      "reference": "https://github.com/benjamin-bertram/Comfyui_OIDN_Denoiser",
+      "files": [
+        "https://github.com/benjamin-bertram/Comfyui_OIDN_Denoiser"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI provides a wrapper for Intel's Open Image Denoise (OIDN) library, allowing you to denoise images directly within your ComfyUI workflow."
     },
     {
       "author": "Ser-Hilary",
