@@ -1708,17 +1708,6 @@
       "description": "This extension allows users to load styles from a CSV file, primarily for migration purposes from the automatic1111 Stable Diffusion web UI."
     },
     {
-      "author": "theUpsider",
-      "title": "ComfyUI-Logic",
-      "id": "comfy-logic",
-      "reference": "https://github.com/theUpsider/ComfyUI-Logic",
-      "files": [
-        "https://github.com/theUpsider/ComfyUI-Logic"
-      ],
-      "install_type": "git-clone",
-      "description": "An extension to ComfyUI that introduces logic nodes and conditional rendering capabilities."
-    },
-    {
       "author": "M1kep",
       "title": "Comfy_KepListStuff",
       "id": "keplist",
@@ -3274,6 +3263,16 @@
       ],
       "install_type": "git-clone",
       "description": "This node allows using Hugginface remote server for latent decoding. Currently supported models: SD, SDXL, Flux, HunyuanVideo"
+    },
+    {
+      "author": "kijai",
+      "title": "ComfyUI-LBMWrapper",
+      "reference": "https://github.com/kijai/ComfyUI-LBMWrapper",
+      "files": [
+        "https://github.com/kijai/ComfyUI-LBMWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI wrapper nodes for [a/Latent Bridge Matching (LBM)](https://github.com/gojasper/LBM)"
     },
     {
       "author": "hhhzzyang",
@@ -26257,16 +26256,6 @@
       "description": "ComfyUI-Unwatermark: A ComfyUI custom node to intelligently remove watermarks from images using the unwatermark.ai API.\nThis custom node for ComfyUI allows you to easily remove watermarks from your images by leveraging the power of the unwatermark.ai API."
     },
     {
-      "author": "ratatule2",
-      "title": "ComfyUI-LBMWrapper",
-      "reference": "https://github.com/ratatule2/ComfyUI-LBMWrapper",
-      "files": [
-        "https://github.com/ratatule2/ComfyUI-LBMWrapper"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI-LBMWrapper is a user-friendly interface designed to simplify the integration of lightweight models into your projects. It streamlines workflows by providing essential tools for managing and deploying models with ease."
-    },
-    {
       "author": "Sayene",
       "title": "comfyui-base64-to-image-size",
       "reference": "https://github.com/Sayene/comfyui-base64-to-image-size",
@@ -26609,6 +26598,16 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node that extends the standard text encoder with persistent prompt storage, advanced search capabilities, and an automatic image gallery system using SQLite."
+    },
+    {
+      "author": "kiko9",
+      "title": "ComfyUI_Selectors",
+      "reference": "https://github.com/ComfyAssets/ComfyUI_Selectors",
+      "files": [
+        "https://github.com/ComfyAssets/ComfyUI_Selectors"
+      ],
+      "install_type": "git-clone",
+      "description": "A modern ComfyUI custom node package that provides essential UI controls for image generation workflows. These nodes allow you to centralize commonly shared parameters (scheduler, sampler, dimensions, seeds) and link them to multiple nodes in your workflow, eliminating redundancy while maintaining JSON metadata compatibility."
     },
     {
       "author": "TFL-TFL",
@@ -27552,6 +27551,36 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node for ComfyUI provides a wrapper for Intel's Open Image Denoise (OIDN) library, allowing you to denoise images directly within your ComfyUI workflow."
+    },
+    {
+      "author": "domenecmiralles",
+      "title": "obobo_nodes",
+      "reference": "https://github.com/domenecmiralles/obobo_nodes",
+      "files": [
+        "https://github.com/domenecmiralles/obobo_nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI that provide various input and output capabilities."
+    },
+    {
+      "author": "Zehong-Ma",
+      "title": "ComfyUI-MagCache",
+      "reference": "https://github.com/Zehong-Ma/ComfyUI-MagCache",
+      "files": [
+        "https://github.com/Zehong-Ma/ComfyUI-MagCache"
+      ],
+      "install_type": "git-clone",
+      "description": "official implementation of [zehong-ma/MagCache](https://github.com/zehong-ma/MagCache) for ComfyUI"
+    },
+    {
+      "author": "without-ordinary",
+      "title": "OpenOutpaint ComfyUI Interface",
+      "reference": "https://github.com/without-ordinary/openoutpaint_comfyui_interface",
+      "files": [
+        "https://github.com/without-ordinary/openoutpaint_comfyui_interface"
+      ],
+      "install_type": "git-clone",
+      "description": "An API interface for OpenOutpaint to work with ComfyUI workflow"
     },
     {
       "author": "Ser-Hilary",
