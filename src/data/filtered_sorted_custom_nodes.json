@@ -2438,7 +2438,7 @@
       "install_type": "git-clone",
       "description": "Professional-grade frame manipulation tools for ComfyUI, providing advanced video editing capabilities with native IMAGE tensor support.",
       "stars": 1,
-      "author_account_age_days": 128
+      "author_account_age_days": 129
     },
     {
       "author": "penposs",
@@ -2536,7 +2536,7 @@
       "install_type": "git-clone",
       "description": "A custom node suite for ComfyUI that provides accelerated video generation using [a/FastVideo](https://github.com/hao-ai-labs/FastVideo). See the [a/blog post](https://hao-ai-lab.github.io/blogs/fastvideo/) about FastVideo V1 to learn more.",
       "stars": 1,
-      "author_account_age_days": 2486
+      "author_account_age_days": 2487
     },
     {
       "author": "xuhuan2048",

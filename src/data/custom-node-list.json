@@ -27583,6 +27583,16 @@
       "description": "An API interface for OpenOutpaint to work with ComfyUI workflow"
     },
     {
+      "author": "adamreading",
+      "title": "ComfyUI-AjoNodes",
+      "reference": "https://github.com/AJO-reading/ComfyUI-AjoNodes",
+      "files": [
+        "https://github.com/AJO-reading/ComfyUI-AjoNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes designed for ComfyUI from the AJO-reading organization. This repository currently includes the Audio Collect & Concat node, which collects multiple audio segments and concatenates them into a single audio stream."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
