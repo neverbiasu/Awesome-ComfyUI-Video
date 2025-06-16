@@ -15969,6 +15969,16 @@
       "description": "Provide ComfyUI support for FramePack start-and-end image reference"
     },
     {
+      "author": "TTPlanetPig",
+      "title": "ComfyUI Qwen2.5-VL Object Detection Node",
+      "reference": "https://github.com/TTPlanetPig/Comfyui_Object_Detect_QWen_VL",
+      "files": [
+        "https://github.com/TTPlanetPig/Comfyui_Object_Detect_QWen_VL"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository provides a custom ComfyUI node for running object detection with the [a/Qwen 2.5 VL](https://github.com/QwenLM/Qwen2.5-VL) model. The node downloads the selected model on demand, runs a detection prompt and outputs bounding boxes that can be used with segmentation nodes such as [a/SAM2](https://github.com/kijai/ComfyUI-segment-anything-2)."
+    },
+    {
       "author": "camenduru",
       "title": "ComfyUI-TostAI",
       "reference": "https://github.com/camenduru/ComfyUI-TostAI",
@@ -26610,6 +26620,16 @@
       "description": "A modern ComfyUI custom node package that provides essential UI controls for image generation workflows. These nodes allow you to centralize commonly shared parameters (scheduler, sampler, dimensions, seeds) and link them to multiple nodes in your workflow, eliminating redundancy while maintaining JSON metadata compatibility."
     },
     {
+      "author": "kiko9",
+      "title": "ComfyUI-KikoTools",
+      "reference": "https://github.com/ComfyAssets/ComfyUI-KikoTools",
+      "files": [
+        "https://github.com/ComfyAssets/ComfyUI-KikoTools"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-KikoTools provides carefully crafted, production-ready nodes grouped under the 'ComfyAssets' category. Each tool is designed with clean interfaces, comprehensive testing, and optimized performance for SDXL and FLUX workflows."
+    },
+    {
       "author": "TFL-TFL",
       "title": "ComfyUI_Text_Translation",
       "reference": "https://github.com/TFL-TFL/ComfyUI_Text_Translation",
@@ -26680,6 +26700,16 @@
       ],
       "install_type": "git-clone",
       "description": "Works with any Depth Map and visualizes the applied version it inside ComfyUI."
+    },
+    {
+      "author": "coiichan",
+      "title": "comfyui-every-person-seg-coii",
+      "reference": "https://github.com/CoiiChan/comfyui-every-person-seg-coii",
+      "files": [
+        "https://github.com/CoiiChan/comfyui-every-person-seg-coii"
+      ],
+      "install_type": "git-clone",
+      "description": "A masking tool that provides the ability to break down the detailed contours of characters one by one for multi person use scenarios"
     },
     {
       "author": "coulterj",
@@ -27386,7 +27416,7 @@
       "files": [
         "https://github.com/INuBq8/ComfyUI-NotificationBridge"
       ],
-      "install_type": "git_clone",
+      "install_type": "git-clone",
       "description": "Bridge nodes for ComfyUI that send messages through WhatsApp (Twilio) and Discord when a workflow completes."
     },
     {
@@ -27396,8 +27426,8 @@
       "files": [
         "https://github.com/Erehr/ComfyUI-EreNodes"
       ],
-      "install_type": "copy",
-      "description": "A collection of personal nodes mainly for prompt management."
+      "install_type": "git-clone",
+      "description": "A collection of prompt managent nodes with advanced tag parsing. Prompt tag cloud, mutiselect, toggle list, randomizer, filter, autocompete."
     },
     {
       "author": "xiaowc",
@@ -27591,6 +27621,47 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of custom nodes designed for ComfyUI from the AJO-reading organization. This repository currently includes the Audio Collect & Concat node, which collects multiple audio segments and concatenates them into a single audio stream."
+    },
+    {
+      "author": "flamacore",
+      "title": "ComfyUI YouTube Uploader",
+      "id": "comfyui-youtubeuploader",
+      "reference": "https://github.com/flamacore/ComfyUI-YouTubeUploader",
+      "files": [
+        "https://github.com/flamacore/ComfyUI-YouTubeUploader"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node for uploading generated content to YouTube. [a/Buy me a coffee](https://buymeacoffee.com/chao.k)"
+    },
+    {
+      "author": "neocrz",
+      "title": "comfyui-usetaesd",
+      "reference": "https://github.com/neocrz/comfyui-usetaesd",
+      "files": [
+        "https://github.com/neocrz/comfyui-usetaesd"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node set for ComfyUI that provides nodes for encoding and decoding images using Tiny AutoEncoders for Stable Diffusion (TAESD) models."
+    },
+    {
+      "author": "havvk",
+      "title": "ComfyUI_AIIA",
+      "reference": "https://github.com/havvk/ComfyUI_AIIA",
+      "files": [
+        "https://github.com/havvk/ComfyUI_AIIA"
+      ],
+      "install_type": "git-clone",
+      "description": "AIIA Nodes for ComfyUI is a comprehensive suite of advanced nodes designed to streamline and supercharge your video and audio generation workflows. It centrally addresses the critical Out-Of-Memory (OOM) issues encountered when processing long sequences by intelligently handling frames on disk. The suite includes: a powerful Video Combiner with an extensible format system; memory-efficient FLOAT Talking Head Animator nodes with both in-memory (for speed) and on-disk (for stability) modes; and a sophisticated Speaker Diarization toolkit powered by NeMo for identifying who spoke when. Utility nodes like the OOM-safe Image Sequence Concatenator are also included to create comparison or multi-panel videos effortlessly."
+    },
+    {
+      "author": "dseditor",
+      "title": "ComfyUI-Thread",
+      "reference": "https://github.com/dseditor/ComfyUI-Thread",
+      "files": [
+        "https://github.com/dseditor/ComfyUI-Thread"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
     },
     {
       "author": "Ser-Hilary",
