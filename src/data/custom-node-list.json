@@ -2760,6 +2760,16 @@
       "description": "Nodes: SamplerCustomNoise, SamplerCustomNoiseDuo, SamplerCustomModelMixtureDuo, SamplerRES_Momentumized, SamplerDPMPP_DualSDE_Momentumized, SamplerCLYB_4M_SDE_Momentumized, SamplerTTM, SamplerLCMCustom\nThis extension provides various custom samplers not offered by the default nodes in ComfyUI."
     },
     {
+      "author": "Clybius",
+      "title": "ComfyUI-ClybsChromaNodes",
+      "reference": "https://github.com/Clybius/ComfyUI-ClybsChromaNodes",
+      "files": [
+        "https://github.com/Clybius/ComfyUI-ClybsChromaNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A small collection of nodes intended for use with Lodestone Rock's Chroma model, for ComfyUI."
+    },
+    {
       "author": "mcmonkeyprojects",
       "title": "Dynamic Thresholding",
       "id": "dynamic-thresholding",
@@ -12261,6 +12271,16 @@
       "description": "Download youtube videos/playlists"
     },
     {
+      "author": "christian-byrne",
+      "title": "Claude Code ComfyUI Nodes",
+      "reference": "https://github.com/christian-byrne/claude-code-comfyui-nodes",
+      "files": [
+        "https://github.com/christian-byrne/claude-code-comfyui-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for integrating Claude Code SDK - enables AI-powered code generation, analysis, and assistance within ComfyUI workflows"
+    },
+    {
       "author": "oztrkoguz",
       "title": "ComfyUI StoryCreater",
       "id": "storycreater",
@@ -16401,6 +16421,16 @@
       "description": "Huggingface Api Serverless request"
     },
     {
+      "author": "Alex Genovese",
+      "title": "ComfyUI UNO Nodes",
+      "reference": "https://github.com/alexgenovese/ComfyUI-UNO-Flux",
+      "files": [
+        "https://github.com/alexgenovese/ComfyUI-UNO-Flux"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI UNO Nodes is a collection of nodes for ComfyUI that allows you to load and use UNO models."
+    },
+    {
       "author": "freelifehacker",
       "title": "ComfyUI-ImgMask2PNG",
       "reference": "https://github.com/freelifehacker/ComfyUI-ImgMask2PNG",
@@ -19813,6 +19843,16 @@
       "description": "ComfyUI-Vui is now available in ComfyUI, Vui is a llama based transformer that predicts audio tokens."
     },
     {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-Hunyuan3D-2.1",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-Hunyuan3D-2.1",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-Hunyuan3D-2.1"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-Hunyuan3D-2.1 is now available in ComfyUI, Hunyuan3D-2.1 is a scalable 3D asset creation system that advances state-of-the-art 3D generation through two pivotal innovations: Fully Open-Source Framework and Physically-Based Rendering (PBR) Texture Synthesis."
+    },
+    {
       "author": "Starnodes2024",
       "title": "ComfyUI_StarNodes",
       "reference": "https://github.com/Starnodes2024/ComfyUI_StarNodes",
@@ -22871,6 +22911,16 @@
       "description": "Professional-grade frame manipulation tools for ComfyUI, providing advanced video editing capabilities with native IMAGE tensor support."
     },
     {
+      "author": "lum3on",
+      "title": "comfyui_EdgeTAM",
+      "reference": "https://github.com/lum3on/comfyui_EdgeTAM",
+      "files": [
+        "https://github.com/lum3on/comfyui_EdgeTAM"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node implementation of EdgeTAM (On-Device Track Anything Model) for efficient, interactive video object tracking."
+    },
+    {
       "author": "austinbrown34",
       "title": "ComfyUI-IO-Helpers",
       "reference": "https://github.com/austinbrown34/ComfyUI-IO-Helpers",
@@ -23356,7 +23406,7 @@
         "https://github.com/PanicTitan/ComfyUI-Gallery"
       ],
       "install_type": "git-clone",
-      "description": "Real-time Output Gallery for ComfyUI with image metadata inspection."
+      "description": "Real-time Gallery for ComfyUI with image metadata inspection. Support for images and video."
     },
     {
       "author": "maximclouser",
@@ -27461,6 +27511,16 @@
       "description": "This is a bunch of nodes for ComfyUI to help with sound work."
     },
     {
+      "author": "fredconex",
+      "title": "Sync Edit",
+      "reference": "https://github.com/fredconex/ComfyUI-SyncEdit",
+      "files": [
+        "https://github.com/fredconex/ComfyUI-SyncEdit"
+      ],
+      "install_type": "git-clone",
+      "description": "This node allow to intercept changes on the input string and choose between use the current one or sync with incoming new one."
+    },
+    {
       "author": "A043-studios",
       "title": "Pixel3DMM ComfyUI Nodes",
       "reference": "https://github.com/A043-studios/comfyui-pixel3dmm",
@@ -27623,17 +27683,6 @@
       "description": "A collection of custom nodes designed for ComfyUI from the AJO-reading organization. This repository currently includes the Audio Collect & Concat node, which collects multiple audio segments and concatenates them into a single audio stream."
     },
     {
-      "author": "flamacore",
-      "title": "ComfyUI YouTube Uploader",
-      "id": "comfyui-youtubeuploader",
-      "reference": "https://github.com/flamacore/ComfyUI-YouTubeUploader",
-      "files": [
-        "https://github.com/flamacore/ComfyUI-YouTubeUploader"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI node for uploading generated content to YouTube. [a/Buy me a coffee](https://buymeacoffee.com/chao.k)"
-    },
-    {
       "author": "neocrz",
       "title": "comfyui-usetaesd",
       "reference": "https://github.com/neocrz/comfyui-usetaesd",
@@ -27662,6 +27711,60 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
+    },
+    {
+      "author": "Leon",
+      "title": "Leon's Utility and API Integration Nodes",
+      "id": "leon",
+      "reference": "https://github.com/l3ony2k/comfyui-leon-nodes",
+      "files": [
+        "https://github.com/l3ony2k/comfyui-leon-nodes"
+      ],
+      "nodename_pattern": "^🤖 Leon",
+      "install_type": "git-clone",
+      "description": "A comprehensive collection of utility and API integration nodes for ComfyUI. Includes image manipulation (4-grid split), string utilities, and multiple API integrations: ImgBB upload, HyprLab upload, Google Image API, Luma AI, FLUX Image API, FLUX Kontext API, and Midjourney proxy integration. Features include image/video hosting, AI image generation, and image description capabilities.",
+      "pip": [
+        "Pillow",
+        "torch",
+        "numpy",
+        "requests",
+        "tenacity"
+      ],
+      "tags": [
+        "image",
+        "utility",
+        "api",
+        "upload",
+        "generation",
+        "split",
+        "string",
+        "imgbb",
+        "hypr",
+        "google",
+        "luma",
+        "flux",
+        "midjourney"
+      ]
+    },
+    {
+      "author": "jurdnf",
+      "title": "ComfyUI-JurdnsModelSculptor",
+      "reference": "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor",
+      "files": [
+        "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
+    },
+    {
+      "author": "DrStone71",
+      "title": "ComfyUI-Prompt-Translator",
+      "reference": "https://github.com/DrStone71/ComfyUI-Prompt-Translator",
+      "files": [
+        "https://github.com/DrStone71/ComfyUI-Prompt-Translator"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI allows you to translate your prompt directly into the language used by your LLM"
     },
     {
       "author": "Ser-Hilary",
