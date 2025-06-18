@@ -27767,6 +27767,58 @@
       "description": "This custom node for ComfyUI allows you to translate your prompt directly into the language used by your LLM"
     },
     {
+      "author": "Phospholipids",
+      "title": "PPWildCard",
+      "reference": "https://github.com/kohs100/comfyui-ppwc",
+      "files": [
+        "https://github.com/kohs100/comfyui-ppwc"
+      ],
+      "install_type": "git-clone",
+      "description": "This extension offers wildcard prompting works solely in workflow."
+    },
+    {
+      "author": "linjian-ufo",
+      "title": "DeepSeek Chat Node for ComfyUI",
+      "reference": "https://github.com/linjian-ufo/comfyui_deepseek_lj257_update",
+      "files": [
+        "https://github.com/linjian-ufo/comfyui_deepseek_lj257_update"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI that calls the DeepSeek Chat API to process text input and return text output."
+    },
+    {
+      "author": "jkhayiying",
+      "title": "ImageLoadFromLocalOrUrl Node for ComfyUI",
+      "id": "JkhaImageLoaderPathOrUrl",
+      "reference": "https://gitee.com/yyh915/jkha-load-img",
+      "files": [
+        "https://gitee.com/yyh915/jkha-load-img"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a node to load an image from local path or url."
+    },
+    {
+      "author": "jinchanz",
+      "title": "ComfyUI-ADIC",
+      "reference": "https://github.com/jinchanz/ComfyUI-ADIC",
+      "files": [
+        "https://github.com/jinchanz/ComfyUI-ADIC"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a set of custom nodes for calling an image translation API within ComfyUI."
+    },
+    {
+      "author": "Lord Lethris",
+      "title": "ComfyUI-RPG-Characters",
+      "id": "rpg-characters",
+      "reference": "https://github.com/lord-lethris/ComfyUI-RPG-Characters",
+      "files": [
+        "https://github.com/lord-lethris/ComfyUI-RPG-Characters"
+      ],
+      "install_type": "git-clone",
+      "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
