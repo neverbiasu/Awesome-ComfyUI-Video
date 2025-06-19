@@ -14910,6 +14910,16 @@
       "description": "Implementation of X-Portrait nodes for ComfyUI, animate portraits with an input video and a reference image."
     },
     {
+      "author": "akatz-ai",
+      "title": "ComfyUI-Basic-Math",
+      "reference": "https://github.com/akatz-ai/ComfyUI-Basic-Math",
+      "files": [
+        "https://github.com/akatz-ai/ComfyUI-Basic-Math"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for performing basic math operations"
+    },
+    {
       "author": "teward",
       "title": "Comfy-Sentry",
       "reference": "https://github.com/teward/Comfy-Sentry",
@@ -19211,16 +19221,6 @@
     },
     {
       "author": "yichengup",
-      "title": "ComfyUI-VideoBlender",
-      "reference": "https://github.com/yichengup/ComfyUI-VideoBlender",
-      "files": [
-        "https://github.com/yichengup/ComfyUI-VideoBlender"
-      ],
-      "install_type": "git-clone",
-      "description": "Video clip mixing"
-    },
-    {
-      "author": "yichengup",
       "title": "comfyui-face-liquify",
       "reference": "https://github.com/yichengup/comfyui-face-liquify",
       "files": [
@@ -22372,16 +22372,6 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI nodes for LLM Structured Outputs with integration for prompting"
-    },
-    {
-      "author": "Conor-Collins",
-      "title": "ComfyUI-CoCoTools",
-      "reference": "https://github.com/Conor-Collins/coco_tools",
-      "files": [
-        "https://github.com/Conor-Collins/coco_tools"
-      ],
-      "install_type": "git-clone",
-      "description": "A set of custom nodes for ComfyUI providing advanced image processing, file handling, and utility functions."
     },
     {
       "author": "Conor-Collins",
@@ -26700,6 +26690,16 @@
       "description": "This custom node is a ComfyUI node for generating speech from text using the Gemini 2.5 Flash Preview TTS API."
     },
     {
+      "author": "Charonartist",
+      "title": "ComfyUI Auto LoRA",
+      "reference": "https://github.com/Charonartist/comfyui-auto-lora-v2",
+      "files": [
+        "https://github.com/Charonartist/comfyui-auto-lora-v2"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI custom node that automatically detects trigger words from text prompts and applies the corresponding LoRA models."
+    },
+    {
       "author": "ptmaster",
       "title": "ComfyUI-Load-Diffusion-Model-to-Muti-GPUs",
       "reference": "https://github.com/ptmaster/ComfyUI-Load-Diffusion-Model-to-Muti-GPUs",
@@ -27319,16 +27319,6 @@
       "description": "ComfyUI extension for parsing Civitai PNG workflows and automatically downloading missing models"
     },
     {
-      "author": "xl0",
-      "title": "latent-tools",
-      "reference": "https://github.com/xl0/latent-tools",
-      "files": [
-        "https://github.com/xl0/latent-tools"
-      ],
-      "install_type": "git-clone",
-      "description": "Visualize and manipulate the latent space in ComfyUI"
-    },
-    {
       "author": "chaunceyyann",
       "title": "ComfyUI Image Processing Nodes",
       "reference": "https://github.com/chaunceyyann/comfyui-image-processing-nodes",
@@ -27713,6 +27703,16 @@
       "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
     },
     {
+      "author": "dseditor",
+      "title": "ComfyUI-ScheduledTask",
+      "reference": "https://github.com/dseditor/ComfyUI-ScheduledTask",
+      "files": [
+        "https://github.com/dseditor/ComfyUI-ScheduledTask"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful workflow scheduling extension for ComfyUI that enables automated daily execution of workflows with an intuitive web interface."
+    },
+    {
       "author": "Leon",
       "title": "Leon's Utility and API Integration Nodes",
       "id": "leon",
@@ -27817,6 +27817,48 @@
       ],
       "install_type": "git-clone",
       "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
+    },
+    {
+      "author": "ialhabbal",
+      "title": "OcclusionMask",
+      "reference": "https://github.com/ialhabbal/OcclusionMask",
+      "files": [
+        "https://github.com/ialhabbal/OcclusionMask"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI custom node for advanced face occlusion, segmentation, and masking, leveraging state-of-the-art face detection (insightface buffalo models) for robust and accurate results."
+    },
+    {
+      "author": "kael558",
+      "title": "ComfyUI-GGUF-FantasyTalking",
+      "reference": "https://github.com/kael558/ComfyUI-GGUF-FantasyTalking",
+      "files": [
+        "https://github.com/kael558/ComfyUI-GGUF-FantasyTalking"
+      ],
+      "install_type": "git-clone",
+      "description": "GGUF Quantization support for native ComfyUI models with FantasyTalking."
+    },
+    {
+      "author": "😈 CasterPollux",
+      "title": "MiniMax Video Object Remover Suite",
+      "reference": "https://github.com/casterpollux/MiniMax-bmo",
+      "files": [
+        "https://github.com/casterpollux/MiniMax-bmo"
+      ],
+      "nodename_pattern": "MiniMax.*BMO|BMO.*MiniMax",
+      "pip": [
+        "segment-anything"
+      ],
+      "tags": [
+        "video",
+        "inpainting",
+        "object-removal",
+        "suite",
+        "professional",
+        "BMO"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional video object removal suite using MiniMax optimization. Includes BMO-enhanced nodes with VAE normalization, temporal preservation, and 6-step inference. Complete video inpainting solution for ComfyUI."
     },
     {
       "author": "Ser-Hilary",
