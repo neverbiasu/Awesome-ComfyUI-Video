@@ -9165,6 +9165,16 @@
       "description": "Enjoy the latest GEMINI V2 API for ComfyUI - generate images, analyze content, and use multimodal capabilities with Google's Gemini models"
     },
     {
+      "author": "impactframes",
+      "title": "ComfyUI-WanResolutionSelector",
+      "reference": "https://github.com/if-ai/ComfyUI-WanResolutionSelector",
+      "files": [
+        "https://github.com/if-ai/ComfyUI-WanResolutionSelector"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that automatically selects appropriate video resolution dimensions based on generation mode, aspect ratio, and quality settings. Designed to work seamlessly with video generation models and KJNodes image resize nodes."
+    },
+    {
       "author": "dmMaze",
       "title": "Sketch2Manga",
       "id": "sketch2manga",
@@ -17443,13 +17453,12 @@
     {
       "author": "ez-af",
       "title": "ComfyUI-EZ-AF-Nodes",
-      "id": "ez-af",
       "reference": "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes",
       "files": [
         "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes"
       ],
       "install_type": "git-clone",
-      "description": "This pack helps to conveniently control text in complex prompt-builder type workflows. Load/Read Prompts from .CSV; Concatenate large amounts of text; Use string input as ANY type. Requires pythongosssss custom scripts"
+      "description": "Conveniently control parts of text prompts with custom UI. Pack includes loaders from txt and csv files, dynamic text concatenation tool and easy-to-use input node"
     },
     {
       "author": "danbochman",
@@ -26776,11 +26785,22 @@
       "author": "coiichan",
       "title": "comfyui-every-person-seg-coii",
       "reference": "https://github.com/CoiiChan/comfyui-every-person-seg-coii",
+      "reference2": "https://github.com/CoiiChan/ComfyUI-Every-Person-Seg-CoiiNode",
       "files": [
         "https://github.com/CoiiChan/comfyui-every-person-seg-coii"
       ],
       "install_type": "git-clone",
       "description": "A masking tool that provides the ability to break down the detailed contours of characters one by one for multi person use scenarios"
+    },
+    {
+      "author": "coiichan",
+      "title": "ComfyUI-FuncAsTexture-CoiiNode",
+      "reference": "https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode",
+      "files": [
+        "https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode"
+      ],
+      "install_type": "git-clone",
+      "description": "This allows for mathematical operations on input images and precise manipulation of channels through NumPy formulas, making it suitable for ComfyUI users with programming experience."
     },
     {
       "author": "coulterj",
@@ -27911,6 +27931,76 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI node for uploading generated content to YouTube. [a/Buy me a coffee](https://buymeacoffee.com/chao.k)"
+    },
+    {
+      "author": "robin-collins",
+      "title": "ComfyUI-TechsToolz",
+      "reference": "https://github.com/robin-collins/ComfyUI-TechsToolz",
+      "files": [
+        "https://github.com/robin-collins/ComfyUI-TechsToolz"
+      ],
+      "install_type": "git-clone",
+      "description": "A modular collection of ComfyUI custom nodes with advanced dependency management and ComfyUI Manager integration."
+    },
+    {
+      "author": "highdoping",
+      "title": "ComfyUI-ASSSSA",
+      "reference": "https://github.com/HighDoping/ComfyUI_ASSSSA",
+      "files": [
+        "https://github.com/HighDoping/ComfyUI_ASSSSA"
+      ],
+      "install_type": "git-clone",
+      "description": "Add ASS/SSA subtitle to video using ffmpeg."
+    },
+    {
+      "author": "highdoping",
+      "title": "lama_with_refiner",
+      "reference": "https://github.com/fplu/comfyui_lama_with_refiner",
+      "files": [
+        "https://github.com/fplu/comfyui_lama_with_refiner"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for lama+refiner inpainting with ComfyUI."
+    },
+    {
+      "author": "quasiblob",
+      "title": "ComfyUI-EsesImageAdjustments",
+      "reference": "https://github.com/quasiblob/ComfyUI-EsesImageAdjustments",
+      "files": [
+        "https://github.com/quasiblob/ComfyUI-EsesImageAdjustments"
+      ],
+      "install_type": "git-clone",
+      "description": "Image Adjustments node for ComfyUI with minimal requirements, uses PyTorch for image manipulation operations."
+    },
+    {
+      "author": "TheLustriVA",
+      "title": "ComfyUI Image Size Tool",
+      "reference": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tool",
+      "files": [
+        "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tool"
+      ],
+      "install_type": "git-clone",
+      "description": "Resolution calculator nodes for ComfyUI with model-specific constraints and optimal bucket resolutions"
+    },
+    {
+      "author": "Kartel-ai",
+      "title": "ComfyUI-8iPlayer",
+      "reference": "https://github.com/Kartel-ai/ComfyUI-8iPlayer",
+      "files": [
+        "https://github.com/Kartel-ai/ComfyUI-8iPlayer"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for interactive 8i volumetric video playback and frame capture."
+    },
+    {
+      "author": "834t",
+      "title": "Scene Composer for ComfyUI",
+      "reference": "https://github.com/834t/ComfyUI_834t_scene_composer",
+      "files": [
+        "https://github.com/834t/ComfyUI_834t_scene_composer"
+      ],
+      "install_type": "git-clone",
+      "description": "An intuitive, all-in-one node for ComfyUI that brings a powerful, layer-based regional prompting workflow directly into your graph. Say goodbye to managing countless Conditioning (Set Area) nodes and hello to drawing your creative vision."
     },
     {
       "author": "Ser-Hilary",
