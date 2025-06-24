@@ -17931,7 +17931,7 @@
         "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler"
       ],
       "install_type": "git-clone",
-      "description": "Upscale your videos with this SeedVR2"
+      "description": "Welcome to the ComfyUI-SeedVR2 Video Upscaler repository! This project offers a non-official video upscaling tool designed specifically for ComfyUI. With this tool, you can enhance your video quality, making your visual content more engaging and clearer."
     },
     {
       "author": "SozeInc",
@@ -26579,6 +26579,18 @@
     },
     {
       "author": "Limbicnation",
+      "title": "ComfyUI Face Detection Node",
+      "id": "comfyui-face-detection-node",
+      "reference": "https://github.com/Limbicnation/ComfyUI_FaceDetectionNode",
+      "files": [
+        "https://github.com/Limbicnation/ComfyUI_FaceDetectionNode"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for face detection and cropping using OpenCV Haar cascades, with full ComfyUI v3 schema support and backward compatibility. Features adjustable detection threshold, minimum face size, padding, and multiple classifier options.",
+      "nodename_pattern": "FaceDetectionNode"
+    },
+    {
+      "author": "Limbicnation",
       "title": "Transparency Background Remover",
       "reference": "https://github.com/Limbicnation/ComfyUI-TransparencyBackgroundRemover",
       "files": [
@@ -27571,6 +27583,16 @@
       "description": "This node allow to intercept changes on the input string and choose between use the current one or sync with incoming new one."
     },
     {
+      "author": "fredconex",
+      "title": "SongBloom",
+      "reference": "https://github.com/fredconex/ComfyUI-SongBloom",
+      "files": [
+        "https://github.com/fredconex/ComfyUI-SongBloom"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Nodes for SongBloom"
+    },
+    {
       "author": "A043-studios",
       "title": "Pixel3DMM ComfyUI Nodes",
       "reference": "https://github.com/A043-studios/comfyui-pixel3dmm",
@@ -27824,7 +27846,7 @@
         "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor"
       ],
       "install_type": "git-clone",
-      "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
+      "description": "A collection of ComfyUI nodes that sculpt diffusion models by applying gradient-based modifications to different layers and blocks."
     },
     {
       "author": "jurdnf",
@@ -28101,6 +28123,26 @@
       ],
       "install_type": "git-clone",
       "description": "Custom node to extract the colors in an image as a palette for use with ComfyUI-PixelArt-Detector"
+    },
+    {
+      "author": "cmdicely",
+      "title": "GrsAI api in ComfyUI",
+      "reference": "https://github.com/31702160136/ComfyUI-GrsAI",
+      "files": [
+        "https://github.com/31702160136/ComfyUI-GrsAI"
+      ],
+      "install_type": "git-clone",
+      "description": "GrsAI API node supports models: Flux-Pro-1.1 (¥ 0.03), Flux-Ultra-1.1 (¥ 0.04), Flux Kontext Pro (¥ 0.035), Flux Kontext Max (¥ 0.07), GPT Image (¥ 0.02). Support text generated images, image generated images, and multi image fusion."
+    },
+    {
+      "author": "AKharytonchyk",
+      "title": "ComfyUI-telegram-bot-node",
+      "reference": "https://github.com/AKharytonchyk/ComfyUI-telegram-bot-node",
+      "files": [
+        "https://github.com/AKharytonchyk/ComfyUI-telegram-bot-node"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for Telegram bot integration"
     },
     {
       "author": "Ser-Hilary",
