@@ -4443,17 +4443,6 @@
     },
     {
       "author": "ZHO-ZHO-ZHO",
-      "title": "ComfyUI-Gemini",
-      "id": "gemini",
-      "reference": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Gemini",
-      "files": [
-        "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Gemini"
-      ],
-      "install_type": "git-clone",
-      "description": "Using Gemini-pro & Gemini-pro-vision in ComfyUI."
-    },
-    {
-      "author": "ZHO-ZHO-ZHO",
       "title": "comfyui-portrait-master-zh-cn",
       "id": "portrait-master-zho",
       "reference": "https://github.com/ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn",
@@ -14780,6 +14769,16 @@
       "description": "ComfyUI Nodes for Remote VAE Decoding."
     },
     {
+      "author": "Visionatrix",
+      "title": "ComfyUI-Gemini",
+      "reference": "https://github.com/Visionatrix/ComfyUI-Gemini",
+      "files": [
+        "https://github.com/Visionatrix/ComfyUI-Gemini"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for Google Gemini API, focusing on backward compatibility and stability within ComfyUI."
+    },
+    {
       "author": "liangt",
       "title": "comfyui-loadimagewithsubfolder",
       "reference": "https://github.com/liangt/comfyui-loadimagewithsubfolder",
@@ -19871,6 +19870,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI-OmniGen2 is now available in ComfyUI, OmniGen2 is a powerful and efficient unified multimodal model. Its architecture is composed of two key components: a 3B Vision-Language Model (VLM) and a 4B diffusion model."
+    },
+    {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-PosterCraft",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-PosterCraft",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-PosterCraft"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-PosterCraft is now available in ComfyUI, PosterCraft is a unified framework for high-quality aesthetic poster generation that excels in precise text rendering, seamless integration of abstract art, striking layouts, and stylistic harmony."
     },
     {
       "author": "Starnodes2024",
@@ -26698,7 +26707,7 @@
         "https://github.com/jaimitoes/ComfyUI_Wan2_1_lora_trainer"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI interface adaptation of the musubi-tunner library to train Wan 2.1 loras."
+      "description": "Musubi Tuner by kohya_ss"
     },
     {
       "author": "karthikg-09",
@@ -27105,16 +27114,6 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of artistic glitch and image manipulation nodes for ComfyUI, featuring advanced noise effects, color manipulations, distortions, and more."
-    },
-    {
-      "author": "juntaosun",
-      "title": "ComfyUI_open_nodes",
-      "reference": "https://github.com/juntaosun/ComfyUI_open_nodes",
-      "files": [
-        "https://github.com/juntaosun/ComfyUI_open_nodes"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI open nodes by juntaosun."
     },
     {
       "author": "vivi-gomez",
@@ -28094,6 +28093,16 @@
       "description": "Non-destructive visual image composition helper tool node for ComfyUI with minimal requirements, works with larger images too."
     },
     {
+      "author": "quasiblob",
+      "title": "ComfyUI-EsesImageOffset",
+      "reference": "https://github.com/quasiblob/ComfyUI-EsesImageOffset",
+      "files": [
+        "https://github.com/quasiblob/ComfyUI-EsesImageOffset"
+      ],
+      "install_type": "git-clone",
+      "description": "The 'Eses Image Offset' node offers basic image offsetting capabilities within ComfyUI. It allows shifting image and mask content horizontally and/or vertically, with an option to wrap content around the canvas edges for a tiling effect."
+    },
+    {
       "author": "TheLustriVA",
       "title": "ComfyUI Image Size Tool",
       "reference": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tools",
@@ -28225,6 +28234,16 @@
       "description": "A powerful multi-model image captioning node that supports both local BLIP models and the cloud-based Google Gemini API, specifically designed for ComfyUI."
     },
     {
+      "author": "Gary-yeh",
+      "title": "ComfyUI-WebPrompter",
+      "reference": "https://github.com/Gary-yeh/ComfyUI-WebPrompter",
+      "files": [
+        "https://github.com/Gary-yeh/ComfyUI-WebPrompter"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node suite for ComfyUI that automates the conversion of web content into an AI-refined news script. This simplified version focuses on the core 'fetch-and-process' workflow for a fast and direct automation experience."
+    },
+    {
       "author": "fotobudka-team",
       "title": "ComfyUI AI Faces - Photo Verification Node",
       "reference": "https://github.com/fotobudka-team/comfyui-ai-faces",
@@ -28254,6 +28273,26 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface."
+    },
+    {
+      "author": "uinodes",
+      "title": "ComfyUI-uinodesDOC",
+      "reference": "https://github.com/uinodes/ComfyUI-uinodesDOC",
+      "files": [
+        "https://github.com/uinodes/ComfyUI-uinodesDOC"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node is designed to provide graphical documentation for ComfyUI custom nodes."
+    },
+    {
+      "author": "puke3615",
+      "title": "ComfyUI-OneAPI",
+      "reference": "https://github.com/puke3615/ComfyUI-OneAPI",
+      "files": [
+        "https://github.com/puke3615/ComfyUI-OneAPI"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple REST API interfaces for ComfyUI with dynamic parameter replacement and output management"
     },
     {
       "author": "Ser-Hilary",
