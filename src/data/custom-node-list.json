@@ -18684,8 +18684,8 @@
       "files": [
         "https://github.com/morino-kumasan/comfyui-toml-prompt"
       ],
-      "description": "Encode Prompt in TOML for ComfyUI.",
-      "install_type": "git-clone"
+      "install_type": "git-clone",
+      "description": "Encode Prompt in TOML for ComfyUI."
     },
     {
       "author": "wentao-uw",
@@ -25714,6 +25714,16 @@
       "description": "This project is the ComfyUI implementation of the TaylorSeer project [a/https://github.com/Shenyi-Z/TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer)."
     },
     {
+      "author": "philipy1219",
+      "title": "ComfyUI-CloudStorage",
+      "reference": "https://github.com/philipy1219/ComfyUI-CloudStorage",
+      "files": [
+        "https://github.com/philipy1219/ComfyUI-CloudStorage"
+      ],
+      "install_type": "git-clone",
+      "description": "This extension adds cloud storage support to ComfyUI, allowing you to save and load images, masks, and videos directly from cloud storage services. Currently supports Aliyun OSS and AWS S3."
+    },
+    {
       "author": "FaberVS",
       "title": "MultiModel",
       "reference": "https://github.com/FaberVS/MultiModel",
@@ -28110,6 +28120,16 @@
       "description": "'Eses Image Effect Bloom' image post processing effect for ComfyUI, it uses GPU and has optimized blur effect calculations. Minimal dependencies, simple and easy to use UI."
     },
     {
+      "author": "quasiblob",
+      "title": "EsesCompositionGoldenRatio",
+      "reference": "https://github.com/quasiblob/EsesCompositionGoldenRatio",
+      "files": [
+        "https://github.com/quasiblob/EsesCompositionGoldenRatio"
+      ],
+      "install_type": "git-clone",
+      "description": "'Real-time golden ratio pattern composition evaluation tool node for ComfyUI. This does nothing else - but you can move, rotate and scale then pattern to find new things and structures in your images."
+    },
+    {
       "author": "TheLustriVA",
       "title": "ComfyUI Image Size Tool",
       "reference": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tools",
@@ -28461,6 +28481,46 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
+    },
+    {
+      "author": "fchangjun",
+      "title": "MultiSaveImage Node",
+      "reference": "https://github.com/fchangjun/Comfyui_MultiSaveImage",
+      "files": [
+        "https://github.com/fchangjun/Comfyui_MultiSaveImage"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for saving multiple images simultaneously with batch processing and resizing capabilities."
+    },
+    {
+      "author": "Yo1up",
+      "title": "Diffusion-Model-Detailer",
+      "reference": "https://github.com/Yo1up/Diffusion-Model-Detailer",
+      "files": [
+        "https://github.com/Yo1up/Diffusion-Model-Detailer"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes that allow the user to control the generation of diffusion models to increase and decrease level of detail. The model patch has no trainable parameters and can be applied to theoretically any diffusion model in existence. whether or not the implementation currently works for every diffusion model in existence is unknown."
+    },
+    {
+      "author": "facefusion",
+      "title": "FaceFusion ComfyUI",
+      "reference": "https://github.com/facefusion/facefusion-comfyui",
+      "files": [
+        "https://github.com/facefusion/facefusion-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Industry leading face manipulation platform"
+    },
+    {
+      "author": "pmarmotte2",
+      "title": "ComfyUI-Speaker-Isolation",
+      "reference": "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation",
+      "files": [
+        "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that performs speaker diarization to isolate individual speaker audio tracks from a single audio source."
     },
     {
       "author": "Ser-Hilary",
