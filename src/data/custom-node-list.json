@@ -13135,6 +13135,16 @@
       "description": "NODES: Extract Displacement Map Node, Displace Logo"
     },
     {
+      "author": "risunobushi",
+      "title": "ComfyUI_sm4ll-Wrapper",
+      "reference": "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper",
+      "files": [
+        "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that integrates with the sm4ll-VTON API for virtual try-on functionality."
+    },
+    {
       "author": "zohac",
       "title": "ComfyUI_ZC_DrawShape",
       "id": "drawshape",
@@ -28521,6 +28531,108 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that performs speaker diarization to isolate individual speaker audio tracks from a single audio source."
+    },
+    {
+      "author": "IIEleven11",
+      "title": "ComfyUI-FairyTaler",
+      "reference": "https://github.com/IIEleven11/ComfyUI-FairyTaler",
+      "files": [
+        "https://github.com/IIEleven11/ComfyUI-FairyTaler"
+      ],
+      "install_type": "git-clone",
+      "description": "This package provides ComfyUI nodes for creating 3-scene storyboards from Ollama text output."
+    },
+    {
+      "author": "manifestations",
+      "title": "ComfyUI Ethnic Outfits Custom Nodes",
+      "reference": "https://github.com/manifestations/comfyui-outfits",
+      "files": [
+        "https://github.com/manifestations/comfyui-outfits"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for generating outfit prompts representing diverse ethnicities, cultures, and regions. Uses extensible JSON data for clothing, accessories, and poses, with “random/disabled” dropdowns for flexibility. Advanced prompt engineering is supported via Ollama LLM integration. Easily add new regions, ethnicities, or cultures by updating data files and creating lightweight node wrappers. Designed for artists, researchers, and developers seeking culturally rich, customizable prompt generation in ComfyUI workflows."
+    },
+    {
+      "author": "heheok",
+      "title": "comfyui_wan2.1_vace_infinite_helpers",
+      "reference": "https://github.com/heheok/comfyui_wan2.1_vace_infinite_helpers",
+      "files": [
+        "https://github.com/heheok/comfyui_wan2.1_vace_infinite_helpers"
+      ],
+      "install_type": "git-clone",
+      "description": "This collection of custom nodes for ComfyUI is specifically designed to automate and streamline the process of creating infinite videos with WAN2.1 VACE."
+    },
+    {
+      "author": "Ltamann",
+      "title": "TBG_Enhanced Tiled Upscaler & Refiner FLUX PRO",
+      "reference": "https://github.com/Ltamann/ComfyUI-TBG-ETUR",
+      "files": [
+        "https://github.com/Ltamann/ComfyUI-TBG-ETUR"
+      ],
+      "install_type": "git-clone",
+      "description": "About TBG Enhanced Tiled Upscaler and Refiner Pro! We at TBG Think. Build. Generate. Pro AI upscaling & image enrichment are excited to make our TBG Enhanced Tiled Upscaler and Refiner Pro available to you for free non-commercial use. We believe in empowering creators and innovators, which is why anything you create or generate using our software"
+    },
+    {
+      "author": "DavidPiazza",
+      "title": "Network Bending for ComfyUI",
+      "reference": "https://github.com/DavidPiazza/network_bending",
+      "files": [
+        "https://github.com/DavidPiazza/network_bending"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node pack for ComfyUI that enables creative manipulation and 'bending' of neural network models. Perform various operations on loaded model checkpoints to create unique and experimental effects."
+    },
+    {
+      "author": "DiffusionLight",
+      "title": "DiffusionLight-ComfyUI",
+      "reference": "https://github.com/DiffusionLight/DiffusionLight-ComfyUI",
+      "files": [
+        "https://github.com/DiffusionLight/DiffusionLight-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "DiffusionLight (Turbo) implemented in ComfyUI"
+    },
+    {
+      "author": "sunx.ai",
+      "title": "SunxAI Custom Nodes for ComfyUI",
+      "id": "comfyui_sun_nodes",
+      "reference": "https://github.com/upseem/comfyui_sun_nodes",
+      "files": [
+        "https://github.com/upseem/comfyui_sun_nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A set of custom nodes developed by SunxAI for ComfyUI, including image loop processing and more. "
+    },
+    {
+      "author": "set-soft",
+      "title": "Audio Separation",
+      "reference": "https://github.com/set-soft/AudioSeparation",
+      "files": [
+        "https://github.com/set-soft/AudioSeparation"
+      ],
+      "install_type": "git-clone",
+      "description": "Audio separation (demixing) using AI. Separating Voices, Instruments, Bass, Drums, etc. CLI and ComfyUI"
+    },
+    {
+      "author": "creepybits",
+      "title": "Save Image To Google Drive",
+      "id": "creepybits",
+      "reference": "https://github.com/Creepybits/ComfyUI-Save_To_GDrive",
+      "files": [
+        "https://github.com/Creepybits/ComfyUI-Save_To_GDrive"
+      ],
+      "install_type": "git-clone",
+      "description": "This ComfyUI node will save images directly to Google Drive by using Google's free API service."
+    },
+    {
+      "author": "Hazukiaoi",
+      "title": "LM Studio Tools for ComfyUI",
+      "reference": "https://github.com/Hazukiaoi/ComfyUI-LM_Studio_Tools",
+      "files": [
+        "https://github.com/Hazukiaoi/ComfyUI-LM_Studio_Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node pack designed for ComfyUI that seamlessly integrates the powerful LM Studio into your workflow, enabling you to perform a variety of tasks such as text generation and image understanding (Vision) using locally run LLMs."
     },
     {
       "author": "Ser-Hilary",
