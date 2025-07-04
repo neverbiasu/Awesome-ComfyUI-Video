@@ -5124,7 +5124,17 @@
         "https://github.com/MitoshiroPJ/comfyui_slothful_attention"
       ],
       "install_type": "git-clone",
-      "description": "This custom node allow controlling output without training. The reducing method is similar to [a/Spatial-Reduction Attention](https://paperswithcode.com/method/spatial-reduction-attention), but generating speed may not be increased on typical image sizes due to overheads. (In some cases, slightly slower)"
+      "description": "This custom node allow controlling output without training. The reducing method is similar to [a/Spatial-Reduction Attention](https://paperswithcode.com/method/spatial-reduction-attention)."
+    },
+    {
+      "author": "MitoshiroPJ",
+      "title": "comfyui_focal_sampler",
+      "reference": "https://github.com/MitoshiroPJ/comfyui_focal_sampler",
+      "files": [
+        "https://github.com/MitoshiroPJ/comfyui_focal_sampler"
+      ],
+      "install_type": "git-clone",
+      "description": "Apply additional sampling to specific area"
     },
     {
       "author": "brianfitzgerald",
@@ -20270,6 +20280,16 @@
       "description": "A collection of custom nodes for ComfyUI focused on animation, image processing, and workflow optimization."
     },
     {
+      "author": "DesertPixelAi",
+      "title": "ComfyUI DP Dynamic Random Styler",
+      "reference": "https://github.com/DesertPixelAi/comfyui-dp-them-styler",
+      "files": [
+        "https://github.com/DesertPixelAi/comfyui-dp-them-styler"
+      ],
+      "install_type": "git-clone",
+      "description": "A dynamic theme-based prompt generator for ComfyUI that creates versatile, random prompts optimized for face swap workflows."
+    },
+    {
       "author": "muhammederem",
       "title": "BLIP Vision-Language Model Integration",
       "reference": "https://github.com/muhammederem/blip-comfyui",
@@ -23083,6 +23103,16 @@
       ],
       "install_type": "git-clone",
       "description": "TTS with Zyphra Zonos"
+    },
+    {
+      "author": "BuffMcBigHuge",
+      "title": "ComfyUI-Google-AI-Studio",
+      "reference": "https://github.com/BuffMcBigHuge/ComfyUI-Google-AI-Studio",
+      "files": [
+        "https://github.com/BuffMcBigHuge/ComfyUI-Google-AI-Studio"
+      ],
+      "install_type": "git-clone",
+      "description": "Google AI Studio by BuffMcBigHuge"
     },
     {
       "author": "BahaC",
@@ -26551,7 +26581,7 @@
         "https://github.com/wildminder/ComfyUI-KEEP"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI-KEEP: Kalman-Inspired Feature Propagation for Video Face Super-Resolution in ComfyUI"
+      "description": "Kalman-Inspired Feature Propagation for Video Face Super-Resolution"
     },
     {
       "author": "wildminder",
@@ -28140,6 +28170,16 @@
       "description": "'Real-time golden ratio pattern composition evaluation tool node for ComfyUI. This does nothing else - but you can move, rotate and scale then pattern to find new things and structures in your images."
     },
     {
+      "author": "quasiblob",
+      "title": "EsesImageResize",
+      "reference": "https://github.com/quasiblob/ComfyUI-EsesImageResize",
+      "files": [
+        "https://github.com/quasiblob/ComfyUI-EsesImageResize"
+      ],
+      "install_type": "git-clone",
+      "description": "The 'Eses Image Resize' node offers comprehensive image resizing capabilities within ComfyUI. It supports various scaling modes including scaling by a specific ratio, target megapixels, or directly to fixed dimensions. The node provides framing options to handle aspect ratio changes, allowing users to 'Crop to Fit' (fill) the target frame or 'Fit to Frame' (letterbox) the image with a customizable fill color. It also generates and outputs a corresponding mask, with control over the letterbox area's color (black or white) within the mask."
+    },
+    {
       "author": "TheLustriVA",
       "title": "ComfyUI Image Size Tool",
       "reference": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tools",
@@ -28310,6 +28350,16 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface."
+    },
+    {
+      "author": "wasilone11",
+      "title": "ComfyUI Sync PVM Node",
+      "reference": "https://github.com/wasilone11/comfyui-pvm-node",
+      "files": [
+        "https://github.com/wasilone11/comfyui-pvm-node"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node allows you to generate personalized video messages (PVM) using audio, video, and multilingual text prompts inside ComfyUI."
     },
     {
       "author": "uinodes",
@@ -28633,6 +28683,36 @@
       ],
       "install_type": "git-clone",
       "description": "This is a custom node pack designed for ComfyUI that seamlessly integrates the powerful LM Studio into your workflow, enabling you to perform a variety of tasks such as text generation and image understanding (Vision) using locally run LLMs."
+    },
+    {
+      "author": "georgitsenov",
+      "title": "ComfyUI S3 Save Node",
+      "reference": "https://github.com/georgitsenov/ComfyUI-R2",
+      "files": [
+        "https://github.com/georgitsenov/ComfyUI-R2"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node for saving generated images directly to Cloudflare R2 (or S3-compatible) buckets using boto3, with secure random filename generation and public URL return."
+    },
+    {
+      "author": "HappyXY",
+      "title": "ComfyUI-AmazonBedrock",
+      "reference": "https://github.com/HappyXY/ComfyUI-AmazonBedrock",
+      "files": [
+        "https://github.com/HappyXY/ComfyUI-AmazonBedrock"
+      ],
+      "install_type": "git-clone",
+      "description": "use case of llm, image, video models on amazon bedrock"
+    },
+    {
+      "author": "manifestations",
+      "title": "ComfyUI Globetrotter Nodes",
+      "reference": "https://github.com/manifestations/comfyui-globetrotter",
+      "files": [
+        "https://github.com/manifestations/comfyui-globetrotter"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom ComfyUI nodes and utilities for generating AI image prompts representing the diverse attire, cultures, regions, and appearances of the world. This project is designed for easy extension to new countries, cultures, and body parts, using a modular JSON-based data structure and dynamic node generation."
     },
     {
       "author": "Ser-Hilary",
