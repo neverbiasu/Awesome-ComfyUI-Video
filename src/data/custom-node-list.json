@@ -5118,23 +5118,23 @@
     },
     {
       "author": "MitoshiroPJ",
-      "title": "ComfyUI Slothful Attention",
-      "reference": "https://github.com/MitoshiroPJ/comfyui_slothful_attention",
+      "title": "ComfyUI Nearsighted Attention",
+      "reference": "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention",
       "files": [
-        "https://github.com/MitoshiroPJ/comfyui_slothful_attention"
+        "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention"
       ],
       "install_type": "git-clone",
-      "description": "This custom node allow controlling output without training. The reducing method is similar to [a/Spatial-Reduction Attention](https://paperswithcode.com/method/spatial-reduction-attention)."
+      "description": "This node splits its self-attention Q to focus on nearby samples."
     },
     {
       "author": "MitoshiroPJ",
-      "title": "comfyui_focal_sampler",
-      "reference": "https://github.com/MitoshiroPJ/comfyui_focal_sampler",
+      "title": "ComfyUI SaveImage SDLI",
+      "reference": "https://github.com/MitoshiroPJ/ComfyUI_save_image_sdli",
       "files": [
-        "https://github.com/MitoshiroPJ/comfyui_focal_sampler"
+        "https://github.com/MitoshiroPJ/ComfyUI_save_image_sdli"
       ],
       "install_type": "git-clone",
-      "description": "Apply additional sampling to specific area"
+      "description": "SDLI (Stable Diffusion Latents in Imagefile) is file format, that contains latents and lossy (decoded) image. Detailed format is written at [a/SDLI Tools](https://github.com/MitoshiroPJ/sdli_tools)."
     },
     {
       "author": "brianfitzgerald",
@@ -25951,6 +25951,16 @@
       "description": "ReforgeCFG is a ComfyUI node designed to add details to your image. [a/While it already exists in Comfy Core](https://github.com/comfyanonymous/ComfyUI/blob/80a44b97f5cbcb890896e2b9e65d177f1ac6a588/comfy_extras/nodes_model_advanced.py#L258), it lacks timesteps for adjustment."
     },
     {
+      "author": "BigStationW",
+      "title": "ComfyUi-Load-Image-And-Display-Prompt-Metadata",
+      "reference": "https://github.com/BigStationW/ComfyUi-Load-Image-And-Display-Prompt-Metadata",
+      "files": [
+        "https://github.com/BigStationW/ComfyUi-Load-Image-And-Display-Prompt-Metadata"
+      ],
+      "install_type": "git-clone",
+      "description": "This node displays the positive and negative prompts of a loaded ComfyUi image."
+    },
+    {
       "author": "rakki194",
       "title": "ComfyUI-ImageCompare",
       "reference": "https://github.com/rakki194/ComfyUI-ImageCompare",
@@ -27545,7 +27555,7 @@
         "https://github.com/hexxacubic/ComfyUI-Prompt_Library"
       ],
       "install_type": "git-clone",
-      "description": "A ComfyUI Node to save and load prompts from a library."
+      "description": "A ComfyUI node pack for management of larger prompt amounts and prompt variations."
     },
     {
       "author": "MicheleGuidi",
@@ -28713,6 +28723,57 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of custom ComfyUI nodes and utilities for generating AI image prompts representing the diverse attire, cultures, regions, and appearances of the world. This project is designed for easy extension to new countries, cultures, and body parts, using a modular JSON-based data structure and dynamic node generation."
+    },
+    {
+      "author": "kaipard",
+      "title": "Auto Aspect Latent Generator",
+      "reference": "https://github.com/kaipard/comfyui-auto-latent-size",
+      "files": [
+        "https://github.com/kaipard/comfyui-auto-latent-size"
+      ],
+      "install_type": "git-clone",
+      "description": "Add presets for latent and adjust the image size."
+    },
+    {
+      "author": "pvlprk",
+      "title": "ComfyUI Assistant Node",
+      "reference": "https://github.com/pvlprk/comfyui-pvl-api-nodes",
+      "files": [
+        "https://github.com/pvlprk/comfyui-pvl-api-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that integrates with the OpenAI Assistants API."
+    },
+    {
+      "author": "danTheMonk",
+      "title": "ComfyUI Int and Float Conversion Nodes",
+      "reference": "https://github.com/danTheMonk/comfyui-int-and-float",
+      "files": [
+        "https://github.com/danTheMonk/comfyui-int-and-float"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple ComfyUI custom node extension that provides utility nodes for converting between integer and float values."
+    },
+    {
+      "author": "RamonGuthrie",
+      "title": "ComfyUI-RBG-ImageStitchPlus",
+      "reference": "https://github.com/RamonGuthrie/ComfyUI-RBG-ImageStitchPlus",
+      "files": [
+        "https://github.com/RamonGuthrie/ComfyUI-RBG-ImageStitchPlus"
+      ],
+      "install_type": "git-clone",
+      "description": "An advanced image stitching node for ComfyUI."
+    },
+    {
+      "author": "vrgamegirl19",
+      "title": "VRGameDevGirl Video Enhancement Nodes",
+      "id": "vrgamedev_video_nodes",
+      "reference": "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl",
+      "files": [
+        "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl"
+      ],
+      "install_type": "git-clone",
+      "description": "Film grain and color match nodes designed for high-quality frame-by-frame video enhancement in ComfyUI."
     },
     {
       "author": "Ser-Hilary",
