@@ -3304,7 +3304,7 @@
         "https://github.com/audioscavenger/save-image-extended-comfyui"
       ],
       "install_type": "git-clone",
-      "description": "Upgrade the Save File node: customize subfolders, file names with checkpoint names, or any sampler attribute your want! [w/NOTE: This node is a fork from @thedyze, since the [a/original repository](https://github.com/thedyze/save-image-extended-comfyui) is no longer maintained. Simply *uninstall* the original version and **REINSTALL** this one.]"
+      "description": "Save as AVIF, WebP, JPEG, customize the folder, sub-folders, and filenames of your images!"
     },
     {
       "author": "audioscavenger",
@@ -4379,14 +4379,13 @@
     },
     {
       "author": "42lux",
-      "title": "Just a bunch of QOL nodes by 42lux",
-      "id": "comfyui-42lux",
+      "title": "ComfyUI-42lux",
       "reference": "https://github.com/42lux/ComfyUI-42lux",
       "files": [
         "https://github.com/42lux/ComfyUI-42lux"
       ],
       "install_type": "git-clone",
-      "description": "Just a bunch of QOL nodes. Normalized Flux Sampling, High Res Latent Picker, Textbox with Token Counter."
+      "description": "A collection of custom nodes for ComfyUI focused on enhanced sampling, model optimization, and quality improvements."
     },
     {
       "author": "sergekatzmann",
@@ -8084,6 +8083,16 @@
       "description": "ComfyUI-MiniMax-Remover is a custom node for ComfyUI that enables fast and efficient object removal using minimax optimization. It works in two stages: first, it trains a remover with a simplified DiT model; then it distills a robust version using CFG guidance and fewer inference steps."
     },
     {
+      "author": "1038lab",
+      "title": "ComfyUI-Mosaic",
+      "reference": "https://github.com/1038lab/ComfyUI-Mosaic",
+      "files": [
+        "https://github.com/1038lab/ComfyUI-Mosaic"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for mosaic detection and creation."
+    },
+    {
       "author": "Klinter",
       "title": "Klinter_nodes",
       "id": "klinter",
@@ -9350,6 +9359,17 @@
       ],
       "install_type": "git-clone",
       "description": "Plays youtube videos in comfy. Use this node to share tutorials or renders. Youtube Playlists mode is also in Future Development in which you can add multiple youtube links and form a playlist which would be ideal for chained tutorials or lisitening and sharing songs playlists with others."
+    },
+    {
+      "author": "Seedsa",
+      "title": "ComfyUI Fooocus Nodes",
+      "id": "fooocus-nodes",
+      "reference": "https://github.com/Seedsa/Fooocus_Nodes",
+      "files": [
+        "https://github.com/Seedsa/Fooocus_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This extension provides image generation features based on Fooocus."
     },
     {
       "author": "zhangp365",
@@ -22196,6 +22216,26 @@
       "description": "experimental wanvideo comfyui node with a singular goal - visually seamless transitions between context windows"
     },
     {
+      "author": "fblissjr",
+      "title": "ComfyUI-WanActivationEditor",
+      "reference": "https://github.com/fblissjr/ComfyUI-WanActivationEditor",
+      "files": [
+        "https://github.com/fblissjr/ComfyUI-WanActivationEditor"
+      ],
+      "install_type": "git-clone",
+      "description": "editing activations in wanvideo"
+    },
+    {
+      "author": "fblissjr",
+      "title": "Shrug-Prompter: Unified VLM Integration for ComfyUI",
+      "reference": "https://github.com/fblissjr/shrug-prompter",
+      "files": [
+        "https://github.com/fblissjr/shrug-prompter"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive Vision-Language Model (VLM) integration system for ComfyUI with more intelligent prompt optimization, object detection, template support, and performance optimizations. Optimized for Wan2.1, Flux Kontext, and general purpose. Goes well with my other project, an MLX/llama.cpp server with hot swappable models and ollama api compatibility, (heylookitsanllm)[a/https://github.com/fblissjr/heylookitsanllm](https://github.com/fblissjr/heylookitsanllm)"
+    },
+    {
       "author": "vincentfs",
       "title": "ComfyUI-ArchiGraph",
       "id": "archigraph",
@@ -25473,6 +25513,16 @@
       "description": "A custom node suite to augment the capabilities of the [a/AP Workflows for ComfyUI](https://perilli.com/ai/comfyui/)"
     },
     {
+      "author": "alessandroperilli",
+      "title": "Open Creative Studio Nodes",
+      "reference": "https://github.com/alessandroperilli/OCS_Nodes",
+      "files": [
+        "https://github.com/alessandroperilli/OCS_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node suite to augment the capabilities of the [a/Open Creative Studio for ComfyUI](https://oc.studio/)."
+    },
+    {
       "author": "rkfg",
       "title": "Dia realistic TTS",
       "reference": "https://github.com/rkfg/ComfyUI-Dia_tts",
@@ -26826,6 +26876,16 @@
       "description": "This node pack is designed to adjust audio playback speed within ComfyUI, particularly to sync audio with models like FantasyTalking (WAN) that require specific frame rates. It can also be used for general-purpose audio speed control."
     },
     {
+      "author": "ptmaster",
+      "title": "Comfyui-PT-Keyframe-Camera",
+      "reference": "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera",
+      "files": [
+        "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera"
+      ],
+      "install_type": "git-clone",
+      "description": "PT Keyframe Camera"
+    },
+    {
       "author": "doubletwisted",
       "title": "ComfyUI Deadline Submission",
       "reference": "https://github.com/doubletwisted/ComfyUI-Deadline-Plugin",
@@ -27027,6 +27087,16 @@
       ],
       "install_type": "git-clone",
       "description": "utilitaires pour ComfyUI, conçue pour effectuer des calculs et des conversions"
+    },
+    {
+      "author": "orion4d",
+      "title": "ComfyUI Colormaster Nodes",
+      "reference": "https://github.com/orion4d/ComfyUI_colormaster",
+      "files": [
+        "https://github.com/orion4d/ComfyUI_colormaster"
+      ],
+      "install_type": "git-clone",
+      "description": "This project offers a collection of custom nodes for ComfyUI, dedicated to creating hexadecimal color palettes"
     },
     {
       "author": "aiaiaikkk",
@@ -27374,6 +27444,16 @@
       ],
       "install_type": "git-clone",
       "description": "This project is a custom node plugin for ComfyUI that provides a form node for configuring and saving parameters related to LLMs (such as OpenAI, Kimi, DeepSeek). Users can input information such as API Key, Base, Version, and Model through the node. The node will automatically save the configuration to a local file and set it as environment variables, making it convenient for subsequent use."
+    },
+    {
+      "author": "pictorialink",
+      "title": "ComfyUI-Qwen3-llama.cpp",
+      "reference": "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp",
+      "files": [
+        "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI QWen3 8b running based on llama.cpp, which only support the CUDA framework and do not support MPS."
     },
     {
       "author": "mo230761",
@@ -27857,7 +27937,7 @@
         "https://github.com/havvk/ComfyUI_AIIA"
       ],
       "install_type": "git-clone",
-      "description": "AIIA Nodes for ComfyUI is a comprehensive suite of advanced nodes designed to streamline and supercharge your video and audio generation workflows. It centrally addresses the critical Out-Of-Memory (OOM) issues encountered when processing long sequences by intelligently handling frames on disk. The suite includes: a powerful Video Combiner with an extensible format system; memory-efficient FLOAT Talking Head Animator nodes with both in-memory (for speed) and on-disk (for stability) modes; and a sophisticated Speaker Diarization toolkit powered by NeMo for identifying who spoke when. Utility nodes like the OOM-safe Image Sequence Concatenator are also included to create comparison or multi-panel videos effortlessly."
+      "description": "Tired of OOM errors and tedious file management? The AIIA Node Suite delivers the ultimate workflow overhaul, headlined by the AIIA Media Browser: a high-performance file hub fully integrated into ComfyUI. Instantly preview images, videos, and audio, and experience ultimate smoothness thanks to smart caching and virtual scrolling, even with tens of thousands of files. It also features a powerful fullscreen viewer, rich tooltip previews, and flexible sorting. Alongside the browser, our Video Combine node fundamentally solves memory bottlenecks in long video generation. By streaming frames from disk, you can create videos of virtually unlimited length, making OOM errors a thing of the past. The suite also includes OOM-safe FLOAT video generation, advanced audio processing, and other utilities, providing a complete end-to-end solution from content creation to asset management."
     },
     {
       "author": "dseditor",
@@ -28773,6 +28853,86 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node package for the OmniGen2 multimodal generation model."
+    },
+    {
+      "author": "lonelyowl13",
+      "title": "Artist tag randomizer for comfyui",
+      "reference": "https://github.com/lonelyowl13/artist_randomizer",
+      "files": [
+        "https://github.com/lonelyowl13/artist_randomizer"
+      ],
+      "install_type": "git-clone",
+      "description": "A node for including random artists usernames to a prompt."
+    },
+    {
+      "author": "Aryan185",
+      "title": "ComfyUI-ExternalAPI-Helpers",
+      "reference": "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers",
+      "files": [
+        "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node for Flux Kontext Pro and Max models from Replicate"
+    },
+    {
+      "author": "iacoposk8",
+      "title": "ComfyUI Fooocus Inpaint Wrapper",
+      "reference": "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper",
+      "files": [
+        "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple wrapper for Fooocus's inpainting code, designed to replicate its outstanding results. Future improvements for a more refined and lightweight version are planned."
+    },
+    {
+      "author": "FaraamFide",
+      "title": "ComfyUI-ParamNodes",
+      "reference": "https://github.com/FaraamFide/ComfyUI-ParamNodes",
+      "files": [
+        "https://github.com/FaraamFide/ComfyUI-ParamNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-ParamNodes is a lightweight, dependency-free collection of custom nodes for ComfyUI, designed to parameterize your workflows for API-driven generation. It provides a clean set of input nodes to control strings, numbers, booleans, and model/LoRA selections, along with a simple logic switch for conditional execution."
+    },
+    {
+      "author": "chuchu114514",
+      "title": "comfyui_proportion_solver",
+      "reference": "https://github.com/chuchu114514/comfyui_proportion_solver",
+      "files": [
+        "https://github.com/chuchu114514/comfyui_proportion_solver"
+      ],
+      "install_type": "git-clone",
+      "description": "This plugin includes two core nodes designed to handle proportion optimization tasks of varying complexity"
+    },
+    {
+      "author": "yamanacn",
+      "title": "ComfyUI Kontext Duo Image Analyzer",
+      "reference": "https://github.com/yamanacn/comfyui_kontext_Analyze",
+      "files": [
+        "https://github.com/yamanacn/comfyui_kontext_Analyze"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node designed for ComfyUI that leverages the multimodal large model Doubao from Volcengine Ark to intelligently compare two input images. You can provide two images and a custom text prompt. The node will send this information to the large model and return a detailed textual description of the similarities and differences between the two images."
+    },
+    {
+      "author": "weekii",
+      "title": "comfyui-save-image-pro",
+      "reference": "https://github.com/weekii/comfyui-save-image-pro",
+      "files": [
+        "https://github.com/weekii/comfyui-save-image-pro"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional-grade ComfyUI image saving plugin with support for multiple formats, custom naming, and advanced features."
+    },
+    {
+      "author": "bbaudio",
+      "title": "ComfyUI-SuperUltimateVaceTools",
+      "reference": "https://github.com/bbaudio-2025/ComfyUI-SuperUltimateVaceTools",
+      "files": [
+        "https://github.com/bbaudio-2025/ComfyUI-SuperUltimateVaceTools"
+      ],
+      "install_type": "git-clone",
+      "description": "powerful nodes for wan2.1 vace"
     },
     {
       "author": "Ser-Hilary",
