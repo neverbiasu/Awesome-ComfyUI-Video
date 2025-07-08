@@ -22418,7 +22418,7 @@
         "https://github.com/burnsbert/ComfyUI-EBU-LMStudio"
       ],
       "install_type": "git-clone",
-      "description": "Custom nodes for integrating LM Studio's LLM functionality into ComfyUI. Includes EBU-LMStudio-Load, EBU-LMStudio-Unload, and EBU-LMStudio-Request."
+      "description": "This ComfyUI extension provides custom nodes for integrating with LM Studio, allowing for loading, managing, and making requests of LLM models through the LMStudio local server and command-line interface."
     },
     {
       "author": "burnsbert",
@@ -23028,6 +23028,16 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful audio generation extension for ComfyUI that integrates AudioX models for high-quality audio synthesis from text and video inputs."
+    },
+    {
+      "author": "lum3on",
+      "title": "ComfyUI Midjourney Scraper Node",
+      "reference": "https://github.com/lum3on/ComfyUI_MJ-Scraper",
+      "files": [
+        "https://github.com/lum3on/ComfyUI_MJ-Scraper"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI allows you to scrape and download images and videos from the Midjourney showcase pages. It uses undetected_chromedriver to bypass anti-scraping measures, but requires session cookies from a logged-in browser session to function correctly."
     },
     {
       "author": "austinbrown34",
@@ -27099,6 +27109,16 @@
       "description": "This project offers a collection of custom nodes for ComfyUI, dedicated to creating hexadecimal color palettes"
     },
     {
+      "author": "orion4d",
+      "title": "Display Image with Mask for ComfyUI",
+      "reference": "https://github.com/orion4d/ComfyUI_image-display",
+      "files": [
+        "https://github.com/orion4d/ComfyUI_image-display"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository contains a versatile custom node for ComfyUI, Display Image with Mask, designed to offer advanced image viewing, masking, and saving capabilities directly within your workflow."
+    },
+    {
       "author": "aiaiaikkk",
       "title": "ComfyUI-Curve",
       "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
@@ -28259,6 +28279,16 @@
       "description": "The 'Eses Image Resize' node offers comprehensive image resizing capabilities within ComfyUI. It supports various scaling modes including scaling by a specific ratio, target megapixels, or directly to fixed dimensions. The node provides framing options to handle aspect ratio changes, allowing users to 'Crop to Fit' (fill) the target frame or 'Fit to Frame' (letterbox) the image with a customizable fill color. It also generates and outputs a corresponding mask, with control over the letterbox area's color (black or white) within the mask."
     },
     {
+      "author": "quasiblob",
+      "title": "ComfyUI-EsesImageEffectCurves",
+      "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves",
+      "files": [
+        "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves"
+      ],
+      "install_type": "git-clone",
+      "description": "Channel curves custom node for ComfyUI. RGB, R, G and B, luma and saturation curves adjustments. Save and load presets. Real-time curves adjustment tool directly within the user interface. Precise, interactive control over the tonal range of both image channels and masks, using a GPU-accelerated PyTorch backend for instant feedback."
+    },
+    {
       "author": "TheLustriVA",
       "title": "ComfyUI Image Size Tool",
       "reference": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tools",
@@ -28672,16 +28702,6 @@
       "description": "This package provides ComfyUI nodes for creating 3-scene storyboards from Ollama text output."
     },
     {
-      "author": "manifestations",
-      "title": "ComfyUI Ethnic Outfits Custom Nodes",
-      "reference": "https://github.com/manifestations/comfyui-outfits",
-      "files": [
-        "https://github.com/manifestations/comfyui-outfits"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI nodes for generating outfit prompts representing diverse ethnicities, cultures, and regions. Uses extensible JSON data for clothing, accessories, and poses, with “random/disabled” dropdowns for flexibility. Advanced prompt engineering is supported via Ollama LLM integration. Easily add new regions, ethnicities, or cultures by updating data files and creating lightweight node wrappers. Designed for artists, researchers, and developers seeking culturally rich, customizable prompt generation in ComfyUI workflows."
-    },
-    {
       "author": "heheok",
       "title": "comfyui_wan2.1_vace_infinite_helpers",
       "reference": "https://github.com/heheok/comfyui_wan2.1_vace_infinite_helpers",
@@ -28933,6 +28953,27 @@
       ],
       "install_type": "git-clone",
       "description": "powerful nodes for wan2.1 vace"
+    },
+    {
+      "author": "robertvoy",
+      "title": "ComfyUI-Distributed",
+      "reference": "https://github.com/robertvoy/ComfyUI-Distributed",
+      "files": [
+        "https://github.com/robertvoy/ComfyUI-Distributed"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node extension for ComfyUI that enables distributed image generation across multiple GPUs through a master-worker architecture."
+    },
+    {
+      "author": "FortunaCournot",
+      "title": "Stereoscopic",
+      "id": "stereoscopic",
+      "reference": "https://github.com/FortunaCournot/comfyui_stereoscopic",
+      "files": [
+        "https://github.com/FortunaCournot/comfyui_stereoscopic"
+      ],
+      "install_type": "git-clone",
+      "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
     },
     {
       "author": "Ser-Hilary",
