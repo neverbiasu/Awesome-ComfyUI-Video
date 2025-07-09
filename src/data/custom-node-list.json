@@ -14529,17 +14529,6 @@
       "description": "Batched Runge-Kutta Samplers for ComfyUI"
     },
     {
-      "author": "TechnoByteJS",
-      "title": "TechNodes",
-      "id": "technodes",
-      "reference": "https://github.com/TechnoByteJS/ComfyUI-TechNodes",
-      "files": [
-        "https://github.com/TechnoByteJS/ComfyUI-TechNodes"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI nodes for merging, testing and more.\nNOTE: SDNext Merge, VAE Merge, MBW Layers, Repeat VAE, Quantization."
-    },
-    {
       "author": "Fantasy AI Studio",
       "title": "FAI-Node",
       "id": "FAI-Node",
@@ -22533,6 +22522,16 @@
       "description": "ComfyUI-SendToDiscord is a custom node for ComfyUI that simplifies sending preview images to Discord via webhooks. It supports both single-image uploads and batch mode, making it an efficient tool for sharing your generated images directly with your Discord server."
     },
     {
+      "author": "gmorks",
+      "title": "ComfyUI-Animagine-Prompt",
+      "reference": "https://github.com/gmorks/ComfyUI-Animagine-Prompt",
+      "files": [
+        "https://github.com/gmorks/ComfyUI-Animagine-Prompt"
+      ],
+      "install_type": "git-clone",
+      "description": "Comfy UI node to prompt build for https://huggingface.co/cagliostrolab/animagine-xl-4.0 model"
+    },
+    {
       "author": "jinanlongen",
       "title": "ComfyUI Prompt Expander Node",
       "reference": "https://github.com/jinanlongen/ComfyUI-Prompt-Expander",
@@ -26893,7 +26892,7 @@
         "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera"
       ],
       "install_type": "git-clone",
-      "description": "PT Keyframe Camera"
+      "description": "The Comfyui-PT-Keyframe-Camera is a powerful tool designed to streamline the process of creating animations with keyframe cameras. It integrates seamlessly with existing workflows, allowing you to focus on your creativity without getting bogged down by technical details. This tool is perfect for animators, filmmakers, and anyone looking to add depth to their projects."
     },
     {
       "author": "doubletwisted",
@@ -27594,6 +27593,16 @@
       ],
       "install_type": "git-clone",
       "description": "An interactive sketching and drawing node for ComfyUI with stylus/pen support – built for fast, intuitive scribbling directly inside your workflows, geared towards ControlNet-style workflows which utilize scribbles and line art."
+    },
+    {
+      "author": "o-l-l-i",
+      "title": "Olm DragCrop for ComfyUI",
+      "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop",
+      "files": [
+        "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop"
+      ],
+      "install_type": "git-clone",
+      "description": "An interactive image cropping node for ComfyUI, allowing precise visual selection of crop areas directly within your workflow. This node is designed to streamline the process of preparing images for various tasks, ensuring immediate visual feedback and control over your image dimensions."
     },
     {
       "author": "xiaogui8dangjia",
@@ -28722,6 +28731,16 @@
       "description": "About TBG Enhanced Tiled Upscaler and Refiner Pro! We at TBG Think. Build. Generate. Pro AI upscaling & image enrichment are excited to make our TBG Enhanced Tiled Upscaler and Refiner Pro available to you for free non-commercial use. We believe in empowering creators and innovators, which is why anything you create or generate using our software"
     },
     {
+      "author": "Ltamann",
+      "title": "TBG’s ComfyUI Development Takeaways",
+      "reference": "https://github.com/Ltamann/ComfyUI-TBG-Takeaways",
+      "files": [
+        "https://github.com/Ltamann/ComfyUI-TBG-Takeaways"
+      ],
+      "install_type": "git-clone",
+      "description": "A curated collection of reusable ComfyUI nodes developed by TGB. These sidecodes encapsulate key breakthroughs in model sampling, noise scheduling, and image refinement for enhanced stable diffusion workflows."
+    },
+    {
       "author": "DavidPiazza",
       "title": "Network Bending for ComfyUI",
       "reference": "https://github.com/DavidPiazza/network_bending",
@@ -28974,6 +28993,66 @@
       ],
       "install_type": "git-clone",
       "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
+    },
+    {
+      "author": "negaga53",
+      "title": "ComfyUI Universal Image Loader",
+      "reference": "https://github.com/negaga53/comfyui-imgloader",
+      "files": [
+        "https://github.com/negaga53/comfyui-imgloader"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful and versatile custom node for ComfyUI that provides multiple ways to load images into your workflows."
+    },
+    {
+      "author": "sunra-ai",
+      "title": "ComfyUI Sunra.ai Plugin",
+      "reference": "https://github.com/sunra-ai/comfyui-sunra",
+      "files": [
+        "https://github.com/sunra-ai/comfyui-sunra"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional ComfyUI plugin for Sunra.ai's FLUX.1 Kontext and Seedance models with enhanced UI"
+    },
+    {
+      "author": "Ben Staniford",
+      "title": "ComfyUI Load Most Recent Image Node",
+      "reference": "https://github.com/benstaniford/comfy-load-last-image",
+      "files": [
+        "https://github.com/benstaniford/comfy-load-last-image"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node designed to load the most recent image in a folder"
+    },
+    {
+      "author": "Ben Staniford",
+      "title": "Comfy Contact Sheet Image Loader",
+      "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+      "files": [
+        "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for loading images from a contact sheet of recent files"
+    },
+    {
+      "author": "xxxxxxxxxxxc",
+      "title": "flux-kontext-diff-merge",
+      "reference": "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge",
+      "files": [
+        "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge"
+      ],
+      "install_type": "git-clone",
+      "description": "Preserve image quality with flux-kontext-diff-merge. This ComfyUI node merges only changed areas from AI edits, ensuring clarity and detail."
+    },
+    {
+      "author": "PD19 Anime",
+      "title": "ComfyUI-PD19Anime-Nodes",
+      "reference": "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes",
+      "files": [
+        "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on   batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and   Advanced Prompt & Image Loader (single)."
     },
     {
       "author": "Ser-Hilary",
