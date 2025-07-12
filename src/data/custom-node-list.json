@@ -2675,17 +2675,6 @@
     },
     {
       "author": "spacepxl",
-      "title": "ComfyUI-Florence-2",
-      "id": "florence2-spacepxl",
-      "reference": "https://github.com/spacepxl/ComfyUI-Florence-2",
-      "files": [
-        "https://github.com/spacepxl/ComfyUI-Florence-2"
-      ],
-      "install_type": "git-clone",
-      "description": "[a/https://huggingface.co/microsoft/Florence-2-large-ft](https://huggingface.co/microsoft/Florence-2-large-ft)\nLarge or base model, support for captioning and bbox task modes, more coming soon."
-    },
-    {
-      "author": "spacepxl",
       "title": "ComfyUI-Depth-Pro",
       "reference": "https://github.com/spacepxl/ComfyUI-Depth-Pro",
       "files": [
@@ -5053,7 +5042,7 @@
         "https://github.com/zcfrank1st/Comfyui-Toolbox"
       ],
       "install_type": "git-clone",
-      "description": "Nodes:Preview Json, Save Json, Test Json Preview, ... preview and save nodes"
+      "description": "A collection of utility nodes for ComfyUI, including audio/video processing, file uploads, and AI image generation."
     },
     {
       "author": "talesofai",
@@ -7471,6 +7460,16 @@
       ],
       "install_type": "git-clone",
       "description": "Official Deforum animation pipeline tools that provide a unique way to create frame-by-frame generative motion art."
+    },
+    {
+      "author": "XmYx",
+      "title": "ComfyUI-SmolLM3",
+      "reference": "https://github.com/XmYx/ComfyUI-SmolLM3",
+      "files": [
+        "https://github.com/XmYx/ComfyUI-SmolLM3"
+      ],
+      "install_type": "git-clone",
+      "description": "Welcome to ComfyUI-SmolLM3, where we bring the magic of Hugging Face's SmolLM3 language models into your ComfyUI workflow! Whether you're crafting stories, generating ideas, or building AI-powered creativity tools, this node pack makes it delightfully simple."
     },
     {
       "author": "adbrasi",
@@ -28873,6 +28872,16 @@
       "description": "A collection of custom ComfyUI nodes and utilities for generating AI image prompts representing the diverse attire, cultures, regions, and appearances of the world. This project is designed for easy extension to new countries, cultures, and body parts, using a modular JSON-based data structure and dynamic node generation."
     },
     {
+      "author": "manifestations",
+      "title": "ComfyUI Outfit Nodes",
+      "reference": "https://github.com/manifestations/comfyui-outfit",
+      "files": [
+        "https://github.com/manifestations/comfyui-outfit"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced, professional outfit and makeup generation nodes for ComfyUI, with dynamic UI and AI-powered prompt formatting."
+    },
+    {
       "author": "kaipard",
       "title": "Auto Aspect Latent Generator",
       "reference": "https://github.com/kaipard/comfyui-auto-latent-size",
@@ -29085,6 +29094,27 @@
       "description": "A ComfyUI custom node that provides a LoRa loader with persistent trigger word storage. Automatically saves and loads trigger words for each LoRa model, making your workflow more efficient."
     },
     {
+      "author": "Ben Staniford",
+      "title": "Comfy Contact Sheet Image Loader",
+      "id": "comfy-contact-sheet-image-loader",
+      "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+      "files": [
+        "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing"
+    },
+    {
+      "author": "Ben Staniford",
+      "title": "Prompt Database for ComfyUI",
+      "reference": "https://github.com/benstaniford/comfy-prompt-db",
+      "files": [
+        "https://github.com/benstaniford/comfy-prompt-db"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that provides a database-driven prompt management system. Store, organize, and edit prompts in categories with persistent JSON storage."
+    },
+    {
       "author": "PD19 Anime",
       "title": "ComfyUI-PD19Anime-Nodes",
       "reference": "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes",
@@ -29125,15 +29155,65 @@
       "description": "A comprehensive set of ComfyUI nodes for using Large Language Models (LLM) as text encoders for SDXL image generation through a trained adapter."
     },
     {
-      "author": "voltans-voice-coach",
-      "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing",
+      "author": "MovieLabs",
+      "title": "MovieLabs ComfyUI Nodes for Publishing Workflow",
+      "reference": "https://github.com/MovieLabs/comfyui-movielabs-util",
       "files": [
-        "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+        "https://github.com/MovieLabs/comfyui-movielabs-util"
       ],
-      "id": "comfy-contact-sheet-image-loader",
       "install_type": "git-clone",
-      "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
-      "title": "Comfy Contact Sheet Image Loader"
+      "description": "An extension set of validation checks, automatic versioning numbering, automatic directory creation, and naming conventions are implemented to ensure that the file system is kept in sync with ShotGrid."
+    },
+    {
+      "author": "reallusion",
+      "title": "Reallusion ComfyUI Custom Nodes",
+      "reference": "https://github.com/reallusion/ComfyUI-Reallusion",
+      "files": [
+        "https://github.com/reallusion/ComfyUI-Reallusion"
+      ],
+      "install_type": "git-clone",
+      "description": "This nodepack contains custom nodes for ComfyUI designed specifically for handling Reallusion-related assets such as Character Creator and iClone image and video files. These nodes are intended to be used as backend components that communicate and operate through the AI Render Plugin interface of iClone or Character Creator, enabling a seamless integration between ComfyUI's powerful image/video generation capabilities and Reallusion’s animation tools. By bridging ComfyUI with iClone/Character Creator’s AI Render Plugin, these nodes facilitate workflows where AI-assisted content generation can be controlled, customized, and rendered directly from within Reallusion software environments."
+    },
+    {
+      "author": "glitchinthemetrix16",
+      "title": "ComfyUI Roop Custom Nodes",
+      "reference": "https://github.com/glitchinthemetrix16/ComfyUI-Roop",
+      "files": [
+        "https://github.com/glitchinthemetrix16/ComfyUI-Roop"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI to enable face swapping using the Roop library."
+    },
+    {
+      "author": "IsItDanOrAi",
+      "title": "exLoadout: Excel-Based Model & Settings Loader",
+      "id": "comfyui-exloadout",
+      "reference": "https://github.com/IsItDanOrAi/ComfyUI-exLoadout",
+      "files": [
+        "https://github.com/IsItDanOrAi/ComfyUI-exLoadout.git"
+      ],
+      "install_type": "copy",
+      "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
+    },
+    {
+      "author": "silveroxides",
+      "title": "ComfyUI Power Shift Scheduler",
+      "reference": "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler",
+      "files": [
+        "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler"
+      ],
+      "install_type": "git-clone",
+      "description": "Highly customizable Scheduler for ComfyUI."
+    },
+    {
+      "author": "company8",
+      "title": "ComfyUI_LLM_Hub",
+      "reference": "https://github.com/company8/ComfyUI_LLM_Hub",
+      "files": [
+        "https://github.com/company8/ComfyUI_LLM_Hub"
+      ],
+      "install_type": "git-clone",
+      "description": "A prompt-generator for ComfyUI, utilizing the power of a language model to turn a provided text-to-image prompt into a more detailed and improved prompt."
     },
     {
       "author": "Ser-Hilary",
