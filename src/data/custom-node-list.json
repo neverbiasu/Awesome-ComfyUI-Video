@@ -3274,6 +3274,16 @@
       "description": "ComfyUI wrapper nodes for [a/Latent Bridge Matching (LBM)](https://github.com/gojasper/LBM)"
     },
     {
+      "author": "kijai",
+      "title": "ComfyUI-WanVideoWrapper",
+      "reference": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+      "files": [
+        "https://github.com/kijai/ComfyUI-WanVideoWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI wrapper nodes for [a/WanVideo](https://github.com/Wan-Video/Wan2.1) and related models."
+    },
+    {
       "author": "hhhzzyang",
       "title": "Comfyui-Lama",
       "id": "lama",
@@ -11032,6 +11042,16 @@
       "description": "[a/SongGeneration](https://github.com/tencent-ailab/SongGeneration):High-Quality Song Generation with Multi-Preference Alignment (SOTA),you can try VRAM>12G"
     },
     {
+      "author": "smthemex",
+      "title": "ComfyUI_AniCrafter",
+      "reference": "https://github.com/smthemex/ComfyUI_AniCrafter",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_AniCrafter"
+      ],
+      "install_type": "git-clone",
+      "description": "[a/AniCrafter](https://github.com/MyNiuuu/AniCrafter): Customizing Realistic Human-Centric Animation via Avatar-Background Conditioning in Video Diffusion Models, you can try this methods when use ComfyUI."
+    },
+    {
       "author": "choey",
       "title": "Comfy-Topaz",
       "id": "topaz",
@@ -13855,6 +13875,16 @@
       ],
       "install_type": "git-clone",
       "description": "Advanced Block LoRA merging node for ComfyUI (allows selective LoRA block merging)"
+    },
+    {
+      "author": "tritant",
+      "title": "ComfyUI-Advanced-Photo-Grain",
+      "reference": "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain",
+      "files": [
+        "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: Photo Film Grain"
     },
     {
       "author": "metncelik",
@@ -19897,6 +19927,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI-PosterCraft is now available in ComfyUI, PosterCraft is a unified framework for high-quality aesthetic poster generation that excels in precise text rendering, seamless integration of abstract art, striking layouts, and stylistic harmony."
+    },
+    {
+      "author": "Yuan-ManX",
+      "title": "ComfyUI-ThinkSound",
+      "reference": "https://github.com/Yuan-ManX/ComfyUI-ThinkSound",
+      "files": [
+        "https://github.com/Yuan-ManX/ComfyUI-ThinkSound"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-ThinkSound is now available in ComfyUI, ThinkSound is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning."
     },
     {
       "author": "Starnodes2024",
@@ -27725,6 +27765,16 @@
       "description": "A collection of prompt managent nodes with advanced tag parsing. Prompt tag cloud, mutiselect, toggle list, randomizer, filter, autocompete."
     },
     {
+      "author": "Erehr",
+      "title": "ComfyUI-Eagle-Autosend",
+      "reference": "https://github.com/Erehr/ComfyUI-Eagle-Autosend",
+      "files": [
+        "https://github.com/Erehr/ComfyUI-Eagle-Autosend"
+      ],
+      "install_type": "git-clone",
+      "description": "Tired of manually saving and organizing your generated images? This custom node for ComfyUI automates the entire process. Any image saved during your workflow is instantly sent to your Eagle library, intelligently tagged and annotated for effortless organization."
+    },
+    {
       "author": "xiaowc",
       "title": "Comfyui-Dynamic-Params",
       "reference": "https://github.com/xiaowc-lib/comfyui-dynamic-params",
@@ -28335,6 +28385,16 @@
       ],
       "install_type": "git-clone",
       "description": "Apply 2D transformations to images and masks within ComfyUI. Zoom, position, scale, flip, rotate, squash and stretch the input content. Tile images to create patterns (supports alpha channels). Fill options for managing canvas areas exposed by transformations. Apply masks to RGB images and invert mask inputs or outputs. No extra dependencies."
+    },
+    {
+      "author": "quasiblob",
+      "title": "ComfyUI-EsesImageCompare",
+      "reference": "https://github.com/quasiblob/ComfyUI-EsesImageCompare",
+      "files": [
+        "https://github.com/quasiblob/ComfyUI-EsesImageCompare"
+      ],
+      "install_type": "git-clone",
+      "description": "Interactive A/B image comparison node with a draggable slider to reveal one image over another. Includes difference and other blend modes for more detailed analysis, allowing one to spot changes in similar images. Node also outputs a passthrough image of input A, and a grayscale difference mask."
     },
     {
       "author": "TheLustriVA",
@@ -29190,9 +29250,9 @@
       "id": "comfyui-exloadout",
       "reference": "https://github.com/IsItDanOrAi/ComfyUI-exLoadout",
       "files": [
-        "https://github.com/IsItDanOrAi/ComfyUI-exLoadout.git"
+        "https://github.com/IsItDanOrAi/ComfyUI-exLoadout"
       ],
-      "install_type": "copy",
+      "install_type": "git-clone",
       "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
     },
     {
@@ -29206,14 +29266,56 @@
       "description": "Highly customizable Scheduler for ComfyUI."
     },
     {
-      "author": "company8",
+      "author": "claptrap0",
       "title": "ComfyUI_LLM_Hub",
-      "reference": "https://github.com/company8/ComfyUI_LLM_Hub",
+      "reference": "https://github.com/claptrap0/ComfyUI_LLM_Hub",
       "files": [
-        "https://github.com/company8/ComfyUI_LLM_Hub"
+        "https://github.com/claptrap0/ComfyUI_LLM_Hub"
       ],
       "install_type": "git-clone",
-      "description": "A prompt-generator for ComfyUI, utilizing the power of a language model to turn a provided text-to-image prompt into a more detailed and improved prompt."
+      "description": "Utilize the power of an LLM into ComfyUI to transform your text-to-image and text-to-video ideas into highly detailed prompts for generation while giving you full control."
+    },
+    {
+      "author": "xChenNing",
+      "title": "ComfyUI_Image_Pin",
+      "id": "comfyui-image-pin",
+      "reference": "https://github.com/CheNing233/ComfyUI_Image_Pin",
+      "files": [
+        "https://github.com/CheNing233/ComfyUI_Image_Pin"
+      ],
+      "install_type": "git-clone",
+      "description": "Allows you to pin images to the JSON of your workflow, migrate with JSON, or embed in image's metadata. supports image compression."
+    },
+    {
+      "author": "LaoMaoBoss",
+      "title": "ComfyUI-WBLESS",
+      "id": "LaoMaoBoss",
+      "reference": "https://github.com/LaoMaoBoss/ComfyUI-WBLESS",
+      "files": [
+        "https://github.com/LaoMaoBoss/ComfyUI-WBLESS"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI's custom node package. This custom node has many practical functions, including global variables and process flow control."
+    },
+    {
+      "author": "zeeoale",
+      "title": "PromptCreatorNodetraumakom Prompt Generator",
+      "reference": "https://github.com/zeeoale/PromptCreatorNode",
+      "files": [
+        "https://github.com/zeeoale/PromptCreatorNode"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful custom node for ComfyUI that generates rich, dynamic prompts based on modular JSON worlds — with color realm control (RGB / CMYK), LoRA triggers, and optional AI-based prompt enhancement."
+    },
+    {
+      "author": "zade23",
+      "title": "Comfyui-Distill-Any-Depth",
+      "reference": "https://github.com/zade23/Comfyui-Distill-Any-Depth",
+      "files": [
+        "https://github.com/zade23/Comfyui-Distill-Any-Depth"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes to use Distill-Any-Depth prediction."
     },
     {
       "author": "Ser-Hilary",
@@ -29565,6 +29667,16 @@
       ],
       "install_type": "copy",
       "description": "This is an extension script for Stable Diffusion WebUI, modified based on the original functionality. It now supports fixing FLUX panorama seams. It allows users to independently configure seamless image tiling for both the X and Y axes while also being capable of handling FLUX panorama seam issues."
+    },
+    {
+      "author": "Android zhang",
+      "title": "Comfyui-Distill-Any-Depth",
+      "reference": "https://github.com/zade23/Comfyui-Distill-Any-Depth",
+      "files": [
+        "https://github.com/zade23/Comfyui-Distill-Any-Depth"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes to use Distill-Any-Depth prediction."
     },
     {
       "author": "theally",
