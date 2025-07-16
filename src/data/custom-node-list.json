@@ -4857,16 +4857,6 @@
       "description": "Add a button that formats the workflow graph"
     },
     {
-      "author": "Haoming02",
-      "title": "ComfyUI ReSharpen",
-      "reference": "https://github.com/Haoming02/comfyui-resharpen",
-      "files": [
-        "https://github.com/Haoming02/comfyui-resharpen"
-      ],
-      "install_type": "git-clone",
-      "description": "Manipulate the details of generations."
-    },
-    {
       "author": "bedovyy",
       "title": "ComfyUI_NAIDGenerator",
       "reference": "https://github.com/bedovyy/ComfyUI_NAIDGenerator",
@@ -7904,6 +7894,16 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node for text-based image editing using Black Forest Labs' Flux Kontext API. Transform your images with simple text instructions while maintaining character consistency and quality."
+    },
+    {
+      "author": "ShmuelRonen",
+      "title": "ComfyUI-ThinkSound_Wrapper",
+      "reference": "https://github.com/ShmuelRonen/ComfyUI-ThinkSound_Wrapper",
+      "files": [
+        "https://github.com/ShmuelRonen/ComfyUI-ThinkSound_Wrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI wrapper implementation of ThinkSound - an advanced AI model for generating high-quality audio from text descriptions and video content using Chain-of-Thought (CoT) reasoning."
     },
     {
       "author": "redhottensors",
@@ -13878,13 +13878,23 @@
     },
     {
       "author": "tritant",
-      "title": "ComfyUI-Advanced-Photo-Grain",
+      "title": "Advanced Photo Grain",
       "reference": "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain",
       "files": [
         "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain"
       ],
       "install_type": "git-clone",
-      "description": "NODES: Photo Film Grain"
+      "description": "Adds realistic film grain, vignette and RGB aberration to photos"
+    },
+    {
+      "author": "tritant",
+      "title": "Remove Banding Artifacts",
+      "reference": "https://github.com/tritant/ComfyUI_Remove_Banding_Artifacts",
+      "files": [
+        "https://github.com/tritant/ComfyUI_Remove_Banding_Artifacts"
+      ],
+      "install_type": "git-clone",
+      "description": "Fix banding artifacts by re-sampling the latent with a low denoise strength."
     },
     {
       "author": "metncelik",
@@ -24475,6 +24485,16 @@
       "description": "A collection of switch nodes for ComfyUI"
     },
     {
+      "author": "Creepybits",
+      "title": "Comfyui-Save_To_OneDrive",
+      "reference": "https://github.com/Creepybits/ComfyUI-Save_To_OneDrive",
+      "files": [
+        "https://github.com/Creepybits/ComfyUI-Save_To_OneDrive"
+      ],
+      "install_type": "git-clone",
+      "description": "Saves images directly to OneDrive using Microsoft's free API service."
+    },
+    {
       "author": "ImagineerNL",
       "title": "ComfyUI-ToSVG-Potracer",
       "reference": "https://github.com/ImagineerNL/ComfyUI-ToSVG-Potracer",
@@ -27654,6 +27674,16 @@
       "description": "An interactive image cropping node for ComfyUI, allowing precise visual selection of crop areas directly within your workflow. This node is designed to streamline the process of preparing images for various tasks, ensuring immediate visual feedback and control over your image dimensions."
     },
     {
+      "author": "o-l-l-i",
+      "title": "Olm Image Adjust for ComfyUI",
+      "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-ImageAdjust",
+      "files": [
+        "https://github.com/o-l-l-i/ComfyUI-Olm-ImageAdjust"
+      ],
+      "install_type": "git-clone",
+      "description": "An interactive image adjustment node for ComfyUI, with an easy-to-use graphical interface and realtime preview."
+    },
+    {
       "author": "xiaogui8dangjia",
       "title": "Comfyui-imagetoSTL",
       "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
@@ -28045,7 +28075,7 @@
         "https://github.com/dseditor/ComfyUI-ScheduledTask"
       ],
       "install_type": "git-clone",
-      "description": "A powerful workflow scheduling extension for ComfyUI that enables automated daily execution of workflows with an intuitive web interface."
+      "description": "A powerful workflow scheduling extension for ComfyUI that enables automated daily execution of workflows with an intuitive web interface ,Adding shutdown computer after workflow node"
     },
     {
       "author": "dseditor",
@@ -29308,7 +29338,7 @@
       "description": "A powerful custom node for ComfyUI that generates rich, dynamic prompts based on modular JSON worlds — with color realm control (RGB / CMYK), LoRA triggers, and optional AI-based prompt enhancement."
     },
     {
-      "author": "zade23",
+      "author": "Android zhang",
       "title": "Comfyui-Distill-Any-Depth",
       "reference": "https://github.com/zade23/Comfyui-Distill-Any-Depth",
       "files": [
@@ -29316,6 +29346,86 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI nodes to use Distill-Any-Depth prediction."
+    },
+    {
+      "author": "swisscore-py",
+      "title": "ComfyUI Telegram Suite",
+      "reference": "https://github.com/SwissCore92/comfyui-telegram-suite",
+      "files": [
+        "https://github.com/SwissCore92/comfyui-telegram-suite"
+      ],
+      "install_type": "git-clone",
+      "description": "Implement Telegram into your ComfyUI workflows."
+    },
+    {
+      "author": "ZXL-Xinram",
+      "title": "ComfyUI-AutoFlow",
+      "reference": "https://github.com/ZXL-Xinram/ComfyUI-AutoFlow",
+      "files": [
+        "https://github.com/ZXL-Xinram/ComfyUI-AutoFlow"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of utility nodes for ComfyUI focused on path processing and string operations."
+    },
+    {
+      "author": "lex-drl",
+      "title": "Best Resolution",
+      "reference": "https://github.com/Lex-DRL/ComfyUI-BestResolution",
+      "files": [
+        "https://github.com/Lex-DRL/ComfyUI-BestResolution"
+      ],
+      "install_type": "git-clone",
+      "description": "QoL nodes for semi-automatic calculation of the best (most optimal) sampling resolution \n• compatible with ANY model (from now or the future), \n• accounting for upscale... \n• ...and pixel-step."
+    },
+    {
+      "author": "baikong",
+      "title": "blender-in-comfyui",
+      "reference": "https://github.com/JayLyu/blender-in-comfyui",
+      "files": [
+        "https://github.com/JayLyu/blender-in-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Combine multiple 3D models into a single Blender file and render in ComfyUI."
+    },
+    {
+      "author": "MithrilMan",
+      "title": "Mithril-Nodes for ComfyUI",
+      "reference": "https://github.com/MithrilMan/ComfyUI-MithrilNodes",
+      "files": [
+        "https://github.com/MithrilMan/ComfyUI-MithrilNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Mithril-Nodes is a collection of custom nodes for ComfyUI that enhance workflow modularity, data routing, and configuration management. These nodes help you build more dynamic, organized, and reusable pipelines for generative AI workflows."
+    },
+    {
+      "author": "1H-hobit",
+      "title": "ComfyUI_InternVL3",
+      "reference": "https://github.com/1H-hobit/ComfyUI_InternVL3",
+      "files": [
+        "https://github.com/1H-hobit/ComfyUI_InternVL3"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI for [a/InternVL](https://github.com/OpenGVLab/InternVL)"
+    },
+    {
+      "author": "Yukinoshita-Yukinoe",
+      "title": "ComfyUI-Qwen-Node",
+      "reference": "https://github.com/Yukinoshita-Yukinoe/ComfyUI-Qwen-Node",
+      "files": [
+        "https://github.com/Yukinoshita-Yukinoe/ComfyUI-Qwen-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "Qwen3 api node"
+    },
+    {
+      "author": "skayka",
+      "title": "ComfyUI-DreamFit",
+      "reference": "https://github.com/skayka/ComfyUI-DreamFit",
+      "files": [
+        "https://github.com/skayka/ComfyUI-DreamFit"
+      ],
+      "install_type": "git-clone",
+      "description": "Garment-centric human generation nodes for ComfyUI using DreamFit with Flux.\nDreamFit is a powerful adapter system that enhances Flux models with garment-aware generation capabilities, enabling high-quality fashion and clothing generation."
     },
     {
       "author": "Ser-Hilary",
@@ -29667,16 +29777,6 @@
       ],
       "install_type": "copy",
       "description": "This is an extension script for Stable Diffusion WebUI, modified based on the original functionality. It now supports fixing FLUX panorama seams. It allows users to independently configure seamless image tiling for both the X and Y axes while also being capable of handling FLUX panorama seam issues."
-    },
-    {
-      "author": "Android zhang",
-      "title": "Comfyui-Distill-Any-Depth",
-      "reference": "https://github.com/zade23/Comfyui-Distill-Any-Depth",
-      "files": [
-        "https://github.com/zade23/Comfyui-Distill-Any-Depth"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI nodes to use Distill-Any-Depth prediction."
     },
     {
       "author": "theally",
