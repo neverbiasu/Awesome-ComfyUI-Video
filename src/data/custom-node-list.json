@@ -4857,6 +4857,16 @@
       "description": "Add a button that formats the workflow graph"
     },
     {
+      "author": "Haoming02",
+      "title": "ComfyUI ReSharpen",
+      "reference": "https://github.com/Haoming02/comfyui-resharpen",
+      "files": [
+        "https://github.com/Haoming02/comfyui-resharpen"
+      ],
+      "install_type": "git-clone",
+      "description": "Manipulate the details of generations."
+    },
+    {
       "author": "bedovyy",
       "title": "ComfyUI_NAIDGenerator",
       "reference": "https://github.com/bedovyy/ComfyUI_NAIDGenerator",
@@ -29426,6 +29436,26 @@
       ],
       "install_type": "git-clone",
       "description": "Garment-centric human generation nodes for ComfyUI using DreamFit with Flux.\nDreamFit is a powerful adapter system that enhances Flux models with garment-aware generation capabilities, enabling high-quality fashion and clothing generation."
+    },
+    {
+      "author": "aiaiaikkk",
+      "title": "kontext-super-prompt",
+      "reference": "https://github.com/aiaiaikkk/kontext-super-prompt",
+      "files": [
+        "https://github.com/aiaiaikkk/kontext-super-prompt"
+      ],
+      "install_type": "git-clone",
+      "description": "Super Prompt System Powered by Flux Kontext Leveraging visual annotations and AI-enhanced control, this system enables precise, multimodal image editing. Users simply select a region and describe it—structured prompts are auto-generated to guide the Kontext model in smart local or global edits."
+    },
+    {
+      "author": "NyaFuP",
+      "title": "NF Preview Selector",
+      "reference": "https://github.com/NyaFuP/ComfyUI_Preview_Selector",
+      "files": [
+        "https://github.com/NyaFuP/ComfyUI_Preview_Selector"
+      ],
+      "install_type": "git-clone",
+      "description": "A floating dialog-based image preview and selection system for ComfyUI."
     },
     {
       "author": "Ser-Hilary",
