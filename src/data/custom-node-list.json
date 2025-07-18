@@ -16289,6 +16289,16 @@
       "description": "ComfyUI-NS-ManySliders is a custom node developed for ComfyUI that allows you to manipulate values using multiple sliders. With this node, you can easily adjust numerous numerical parameters intuitively, making it useful for various purposes."
     },
     {
+      "author": "Assistant",
+      "title": "ComfyUI-NS-ManySliders",
+      "reference": "https://github.com/NakamuraShippo/ComfyUI-NS-Util",
+      "files": [
+        "https://github.com/NakamuraShippo/ComfyUI-NS-Util"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of nodes for ComfyUI. ex:A node for batch managing int, float, and string parameters with presets"
+    },
+    {
       "author": "nux1111",
       "title": "ComfyUI_NetDist_Plus",
       "reference": "https://github.com/nux1111/ComfyUI_NetDist_Plus",
@@ -27047,6 +27057,16 @@
       "description": "A ComfyUI custom node that allows you to load images directly from URLs or local file paths. This node provides a convenient way to import images into your ComfyUI workflows without manually downloading them first."
     },
     {
+      "author": "papcorns",
+      "title": "Papcorns ComfyUI Custom Nodes",
+      "reference": "https://github.com/papcorns/Papcorns-Comfyui-Custom-Nodes",
+      "files": [
+        "https://github.com/papcorns/Papcorns-Comfyui-Custom-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI that enhances image processing and cloud storage capabilities."
+    },
+    {
       "author": "gabe-init",
       "title": "ComfyUI OpenRouter Node",
       "reference": "https://github.com/gabe-init/ComfyUI-Openrouter_node",
@@ -27812,7 +27832,7 @@
         "https://github.com/Erehr/ComfyUI-Eagle-Autosend"
       ],
       "install_type": "git-clone",
-      "description": "Tired of manually saving and organizing your generated images? This custom node for ComfyUI automates the entire process. Any image saved during your workflow is instantly sent to your Eagle library, intelligently tagged and annotated for effortless organization."
+      "description": "A seamless, node-independent way to automatically send your ComfyUI generations to Eagle, complete with full metadata annotation and tags."
     },
     {
       "author": "xiaowc",
@@ -29408,16 +29428,6 @@
       "description": "Mithril-Nodes is a collection of custom nodes for ComfyUI that enhance workflow modularity, data routing, and configuration management. These nodes help you build more dynamic, organized, and reusable pipelines for generative AI workflows."
     },
     {
-      "author": "1H-hobit",
-      "title": "ComfyUI_InternVL3",
-      "reference": "https://github.com/1H-hobit/ComfyUI_InternVL3",
-      "files": [
-        "https://github.com/1H-hobit/ComfyUI_InternVL3"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI for [a/InternVL](https://github.com/OpenGVLab/InternVL)"
-    },
-    {
       "author": "Yukinoshita-Yukinoe",
       "title": "ComfyUI-Qwen-Node",
       "reference": "https://github.com/Yukinoshita-Yukinoe/ComfyUI-Qwen-Node",
@@ -29448,14 +29458,44 @@
       "description": "Super Prompt System Powered by Flux Kontext Leveraging visual annotations and AI-enhanced control, this system enables precise, multimodal image editing. Users simply select a region and describe it—structured prompts are auto-generated to guide the Kontext model in smart local or global edits."
     },
     {
-      "author": "NyaFuP",
-      "title": "NF Preview Selector",
-      "reference": "https://github.com/NyaFuP/ComfyUI_Preview_Selector",
+      "author": "seanjang990",
+      "title": "ComfyUI Document Auto Crop Node",
+      "reference": "https://github.com/seanjang990/comfyui-document-auto-crop",
       "files": [
-        "https://github.com/NyaFuP/ComfyUI_Preview_Selector"
+        "https://github.com/seanjang990/comfyui-document-auto-crop"
       ],
       "install_type": "git-clone",
-      "description": "A floating dialog-based image preview and selection system for ComfyUI."
+      "description": "This custom node for ComfyUI automatically crops a document by detecting edges, rotates it based on face orientation using MediaPipe, and adjusts it to a target aspect ratio (default 11:14)."
+    },
+    {
+      "author": "cjj198909",
+      "title": "OpenAI/Azure OpenAI Image API",
+      "reference": "https://github.com/cjj198909/comfy_openai_image_api_azure",
+      "files": [
+        "https://github.com/cjj198909/comfy_openai_image_api_azure"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node that provides access to OpenAI's image generation and editing capabilities, including support for gpt-image-1 model with both OpenAI and Azure OpenAI providers."
+    },
+    {
+      "author": "paulh4x",
+      "title": "ComfyUI_PHRenderFormerWrapper",
+      "reference": "https://github.com/paulh4x/ComfyUI_PHRenderFormerWrapper",
+      "files": [
+        "https://github.com/paulh4x/ComfyUI_PHRenderFormerWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "A Wrapper and a set of Custom Nodes for using RenderFormer as a 3d Environment in ComfyUI."
+    },
+    {
+      "author": "Aero-Ex",
+      "title": "ComfyUI Vision LLM Analyzer Node",
+      "reference": "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer",
+      "files": [
+        "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository contains a powerful and versatile custom node for ComfyUI that seamlessly integrates with OpenAI-compatible Large Language Models (LLMs), including multimodal (vision-enabled) models like GPT-4o.\nThis single node allows you to perform both text generation and image analysis, making it an essential tool for advanced prompt engineering and creative automation."
     },
     {
       "author": "Ser-Hilary",
