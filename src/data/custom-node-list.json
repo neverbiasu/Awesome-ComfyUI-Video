@@ -29498,6 +29498,26 @@
       "description": "This repository contains a powerful and versatile custom node for ComfyUI that seamlessly integrates with OpenAI-compatible Large Language Models (LLMs), including multimodal (vision-enabled) models like GPT-4o.\nThis single node allows you to perform both text generation and image analysis, making it an essential tool for advanced prompt engineering and creative automation."
     },
     {
+      "author": "StrawberryFist",
+      "title": "StrawberryFist VRAM Optimizer",
+      "reference": "https://github.com/strawberryPunch/vram_optimizer",
+      "files": [
+        "https://github.com/strawberryPunch/vram_optimizer"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive VRAM management tool for ComfyUI. Includes automatic cleanup and GPU monitoring.",
+      "nodename_pattern": "StFist",
+      "pip": [
+        "GPUtil>=1.4.0"
+      ],
+      "tags": [
+        "vram",
+        "gpu",
+        "optimizer",
+        "monitoring"
+      ]
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
