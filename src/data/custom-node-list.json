@@ -403,6 +403,16 @@
       "description": "Nodes:Conditioning (Blend), Inpainting VAE Encode (WAS), VividSharpen. Experimental nodes, or other random extra helper nodes."
     },
     {
+      "author": "WASasquatch",
+      "title": "FUSE Face Enhancer",
+      "reference": "https://github.com/WASasquatch/face-upscaling-and-seamless-embedding",
+      "files": [
+        "https://github.com/WASasquatch/face-upscaling-and-seamless-embedding"
+      ],
+      "install_type": "git-clone",
+      "description": "All-in-One Face Fix KSampler for ComfyUI with YOLO detection and SAM segmentation"
+    },
+    {
       "author": "omar92",
       "title": "Quality of life Suit:V2",
       "id": "qol",
@@ -16851,6 +16861,16 @@
       "description": "Custom nodes to run microsoft/Phi models."
     },
     {
+      "author": "alexisrolland",
+      "title": "ComfyUI-Blender",
+      "reference": "https://github.com/alexisrolland/ComfyUI-Blender",
+      "files": [
+        "https://github.com/alexisrolland/ComfyUI-Blender"
+      ],
+      "install_type": "git-clone",
+      "description": "Blender plugin to send requests to a ComfyUI server."
+    },
+    {
       "author": "LatentRat",
       "title": "comfy_remote_run",
       "reference": "https://github.com/LatentRat/comfy_remote_run",
@@ -17258,6 +17278,16 @@
       ],
       "install_type": "git-clone",
       "description": "Toolkit for creating embeddings for various models in ComfyUI."
+    },
+    {
+      "author": "silveroxides",
+      "title": "ComfyUI_FDGuidance",
+      "reference": "https://github.com/silveroxides/ComfyUI_FDGuidance",
+      "files": [
+        "https://github.com/silveroxides/ComfyUI_FDGuidance"
+      ],
+      "install_type": "git-clone",
+      "description": "An implementation of Frequency-Decoupled Guidance (FDG) in pure Pytorch."
     },
     {
       "author": "turkyden",
@@ -22528,7 +22558,7 @@
         "https://github.com/willmiao/ComfyUI-Lora-Manager"
       ],
       "install_type": "git-clone",
-      "description": "LoRA Manager for ComfyUI - Access it at http://localhost:8188/loras for managing LoRA models with previews and metadata integration."
+      "description": "Revolutionize your workflow with the ultimate LoRA companion for ComfyUI!"
     },
     {
       "author": "tigeryy2",
@@ -29516,6 +29546,108 @@
         "optimizer",
         "monitoring"
       ]
+    },
+    {
+      "author": "blird",
+      "title": "ComfyUI-Wanify: Adaptive Image Resize Node",
+      "reference": "https://github.com/blird/ComfyUI-Wanify",
+      "files": [
+        "https://github.com/blird/ComfyUI-Wanify"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI provides adaptive image resizing based on target pixel counts, maintaining aspect ratio and supporting different quality levels. It is useful for workflows that require images to fit within specific pixel budgets (e.g., for video, AI models, or memory constraints)."
+    },
+    {
+      "author": "hiderminer",
+      "title": "ComfyUI-HM-Tools",
+      "reference": "https://github.com/hiderminer/ComfyUI-HM-Utilities",
+      "files": [
+        "https://github.com/hiderminer/ComfyUI-HM-Utilities"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI that provides useful image processing tools."
+    },
+    {
+      "author": "Dimona Patrick",
+      "title": "ComfyUI Mzikart Mixer",
+      "reference": "https://github.com/Dream-Pixels-Forge/ComfyUI-Mzikart-Mixer",
+      "files": [
+        "https://github.com/Dream-Pixels-Forge/ComfyUI-Mzikart-Mixer"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional audio processing nodes for ComfyUI"
+    },
+    {
+      "author": "Edoardo Carmignani",
+      "title": "ComfyUI-ExtraLinks",
+      "id": "extralinks",
+      "reference": "https://github.com/edoardocarmignani/extralinks",
+      "files": [
+        "https://github.com/edoardocarmignani/extralinks"
+      ],
+      "install_type": "git-clone",
+      "description": "A one-click collection of alternate connection styles for ComfyUI."
+    },
+    {
+      "author": "Edoardo Carmignani",
+      "title": "VAE Decode Switch for ComfyUI",
+      "reference": "https://github.com/MasterDenis/VAE-Decode-Switch",
+      "files": [
+        "https://github.com/MasterDenis/VAE-Decode-Switch"
+      ],
+      "install_type": "git-clone",
+      "description": "Node for ComfyUI designed for more neatly switching between tiled and default VAE Decode Nodes."
+    },
+    {
+      "author": "webuilder",
+      "title": "ComfyUI WB Utils",
+      "reference": "https://github.com/webuilder/WB-ComfyUI-Utils",
+      "files": [
+        "https://github.com/webuilder/WB-ComfyUI-Utils"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of utility nodes for ComfyUI, including useful functions such as audio processing and text manipulation."
+    },
+    {
+      "author": "MartinDeanMoriarty",
+      "title": "ComfyUI-DeanLogic",
+      "reference": "https://github.com/MartinDeanMoriarty/ComfyUI-DeanLogic",
+      "files": [
+        "https://github.com/MartinDeanMoriarty/ComfyUI-DeanLogic"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes to switch image input or output path with boolean conditions"
+    },
+    {
+      "author": "rdomunky",
+      "title": "comfyui-subfolderimageloader",
+      "reference": "https://github.com/rdomunky/comfyui-subfolderimageloader",
+      "files": [
+        "https://github.com/rdomunky/comfyui-subfolderimageloader"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that enhances image loading with subfolder organization and dynamic filtering"
+    },
+    {
+      "author": "NyaFuP",
+      "title": "NF Preview Selector",
+      "reference": "https://github.com/NyaFuP/ComfyUI_Preview_Selector",
+      "files": [
+        "https://github.com/NyaFuP/ComfyUI_Preview_Selector"
+      ],
+      "install_type": "git-clone",
+      "description": "A floating dialog-based image preview and selection system for ComfyUI."
+    },
+    {
+      "author": "brucew4yn3rp",
+      "title": "Save Image with Selective Metadata",
+      "id": "SaveImageSelectiveMetadata",
+      "reference": "https://github.com/brucew4yn3rp/ComfyUI_SelectiveMetadata",
+      "files": [
+        "https://github.com/brucew4yn3rp/ComfyUI_SelectiveMetadata"
+      ],
+      "install_type": "copy",
+      "description": "This custom node allows users to selectively choose what to add to the generated image's metadata."
     },
     {
       "author": "Ser-Hilary",
