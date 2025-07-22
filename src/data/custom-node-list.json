@@ -2640,6 +2640,16 @@
       "description": "A small set of nodes I created for myself. Features multiple simultaneous prompts in batches, an image saver with ability to have JSON saved to separate folder, image analysis nodes, switches for text and numbers, and more."
     },
     {
+      "author": "BiffMunky",
+      "title": "Endless 🌊✨ Buttons",
+      "reference": "https://github.com/tusharbhutt/Endless-Buttons",
+      "files": [
+        "https://github.com/tusharbhutt/Endless-Buttons"
+      ],
+      "install_type": "git-clone",
+      "description": "A small set of JavaScript files I created for myself. The scripts provide Quality of Life enhancements to the ComfyUI interface, such as changing fonts and font sizes."
+    },
+    {
       "author": "spacepxl",
       "title": "ComfyUI-HQ-Image-Save",
       "id": "hq-image-save",
@@ -13917,6 +13927,16 @@
       "description": "Fix banding artifacts by re-sampling the latent with a low denoise strength."
     },
     {
+      "author": "tritant",
+      "title": "Layers System",
+      "reference": "https://github.com/tritant/ComfyUI_Layers_Utility",
+      "files": [
+        "https://github.com/tritant/ComfyUI_Layers_Utility"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI provides a powerful and flexible dynamic layering system, similar to what you would find in image editing software like Photoshop."
+    },
+    {
       "author": "metncelik",
       "title": "comfyui_met_suite",
       "reference": "https://github.com/metncelik/comfyui_met_suite",
@@ -22520,6 +22540,17 @@
       "description": "Custom nodes for general workflow quality of life including resolutions sorted by aspect ratio, upscaling helps, and unique file names"
     },
     {
+      "author": "burnsbert",
+      "title": "EBU PromptHelper",
+      "id": "ebu-prompthelper",
+      "reference": "https://github.com/burnsbert/ComfyUI-EBU-PromptHelper",
+      "files": [
+        "https://github.com/burnsbert/ComfyUI-EBU-PromptHelper"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for enhancing and manipulating prompts in ComfyUI. Includes nodes for random color palette generation following different color theory methodologies, prompt text replacement and randomization, list sampling, loading files into strings, and season/weather/time-of-day generation."
+    },
+    {
       "author": "SykkoAtHome",
       "title": "Face Processor for ComfyUI",
       "reference": "https://github.com/SykkoAtHome/ComfyUI_FaceProcessor",
@@ -22984,17 +23015,6 @@
       "description": "This is a ComfyUI extension that provides additional API endpoints functionality, primarily designed to support Comfy Portal - a modern iOS client application for ComfyUI."
     },
     {
-      "author": "burnsbert",
-      "title": "EBU PromptHelper",
-      "id": "ebu-prompthelper",
-      "reference": "https://github.com/burnsbert/ComfyUI-EBU-PromptHelper",
-      "files": [
-        "https://github.com/burnsbert/ComfyUI-EBU-PromptHelper"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom nodes for enhancing and manipulating prompts in ComfyUI. Includes nodes for random color palette generation following different color theory methodologies, prompt text replacement and randomization, list sampling, loading files into strings, and season/weather/time-of-day generation."
-    },
-    {
       "author": "ShinChven",
       "title": "ShinChven's Custom Nodes Package",
       "reference": "https://github.com/ShinChven/sc-comfy-nodes",
@@ -23218,7 +23238,7 @@
         "https://github.com/BlueprintCoding/ComfyUI_AIDocsClinicalTools"
       ],
       "install_type": "git-clone",
-      "description": "Nodes: Multi Int and Multi Text; allows for the creation of multiple int and multiple string storage and output from a single node. Multi Float coming soon."
+      "description": "Nodes: Multi Int and Multi Text; allows for the creation of multiple int, floats and string storage and output from a single node."
     },
     {
       "author": "Mohammadreza Mohseni",
@@ -27422,6 +27442,16 @@
       "description": "This repository contains a ComfyUI node for blending images using various blending modes. Can be used to watermark images, create overlays, or apply effects to images in a ComfyUI workflow."
     },
     {
+      "author": "thalismind",
+      "title": "ComfyUI LoadImageWithFilename",
+      "reference": "https://github.com/thalismind/ComfyUI-LoadImageWithFilename",
+      "files": [
+        "https://github.com/thalismind/ComfyUI-LoadImageWithFilename"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node extends ComfyUI's image loading functionality with filename output and folder loading capabilities."
+    },
+    {
       "author": "boricuapab",
       "title": "ComfyUI-Bori-JsonSetGetConverter",
       "reference": "https://github.com/boricuapab/ComfyUI-Bori-JsonSetGetConverter",
@@ -27564,11 +27594,21 @@
       "description": "This is a node that outputs tracking results of a grid or specified points using CoTracker. It can be directly connected to the WanVideo ATI Tracks Node."
     },
     {
-      "author": "s9roll7",
+      "author": "set-soft",
       "title": "Audio Batch",
       "reference": "https://github.com/set-soft/ComfyUI-AudioBatch",
       "files": [
         "https://github.com/set-soft/ComfyUI-AudioBatch"
+      ],
+      "install_type": "git-clone",
+      "description": "Audio batch creation, extraction, information, resample, mono and stereo conversion.\nAlso cut, concatenate, blend (mix) and de/normalize. Join/split channels (stereo).\nSignal generator (`sine`, `square`, `sawtooth`, `triangle`, `sweep`, `noise`).\nMusical note to frequency.\nAudio downloader for quick workflows which downloads its example data."
+    },
+    {
+      "author": "set-soft",
+      "title": "Image Misc",
+      "reference": "https://github.com/set-soft/ComfyUI-ImageMisc",
+      "files": [
+        "https://github.com/set-soft/ComfyUI-ImageMisc"
       ],
       "install_type": "git-clone",
       "description": "Audio batch creation, extraction, resample, mono and stereo conversion."
@@ -29438,6 +29478,16 @@
       "description": "QoL nodes for semi-automatic calculation of the best (most optimal) sampling resolution \n• compatible with ANY model (from now or the future), \n• accounting for upscale... \n• ...and pixel-step."
     },
     {
+      "author": "lex-drl",
+      "title": "String Constructor (Text-Formatting)",
+      "reference": "https://github.com/Lex-DRL/ComfyUI-StringConstructor",
+      "files": [
+        "https://github.com/Lex-DRL/ComfyUI-StringConstructor"
+      ],
+      "install_type": "git-clone",
+      "description": "Composing prompt variants from the same text pieces with ease:\n• Build your \"library\" (dictionary) of named text chunks (sub-strings) to use it across the entire workflow.\n• Compile these snippets into different prompts in-place - with just one string formatting node.\n• Freely update the dictionary down the line - get different prompts.\n• Reference text chunks within each other to build dependent hierarchies of less/more detailed descriptions.\n• A real life-saver for regional prompting (aka area composition)."
+    },
+    {
       "author": "baikong",
       "title": "blender-in-comfyui",
       "reference": "https://github.com/JayLyu/blender-in-comfyui",
@@ -29646,8 +29696,49 @@
       "files": [
         "https://github.com/brucew4yn3rp/ComfyUI_SelectiveMetadata"
       ],
-      "install_type": "copy",
+      "install_type": "git-clone",
       "description": "This custom node allows users to selectively choose what to add to the generated image's metadata."
+    },
+    {
+      "author": "cedarconnor",
+      "title": "ComfyUI LatLong - Equirectangular Image Processing Nodes",
+      "reference": "https://github.com/cedarconnor/comfyui-LatLong",
+      "files": [
+        "https://github.com/cedarconnor/comfyui-LatLong"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced equirectangular (360°) image processing nodes for ComfyUI, enabling precise rotation, horizon adjustment, and specialized cropping operations for panoramic images."
+    },
+    {
+      "author": "vaishnav-vn",
+      "title": "va1",
+      "name": "Pad Image by Aspect",
+      "reference": "https://github.com/vaishnav-vn/va1",
+      "files": [
+        "https://github.com/vaishnav-vn/va1"
+      ],
+      "install_type": "git-clone",
+      "description": "repo has Custon node designed to expand, pad, and mask images to fixed or randomized aspect ratios with precise spatial and scale control — engineered for outpainting, compositional layout, and creative canvas expansion. "
+    },
+    {
+      "author": "wawahuy",
+      "title": "ComfyUI HTTP - REST API Nodes",
+      "reference": "https://github.com/wawahuy/ComfyUI-HTTP",
+      "files": [
+        "https://github.com/wawahuy/ComfyUI-HTTP"
+      ],
+      "install_type": "git-clone",
+      "description": "Powerful REST API nodes for ComfyUI that enable seamless HTTP/REST integration into your workflows."
+    },
+    {
+      "author": "watarika",
+      "title": "ComfyUI-SendToEagle-w-Metadata",
+      "reference": "https://github.com/watarika/ComfyUI-SendToEagle-w-Metadata",
+      "files": [
+        "https://github.com/watarika/ComfyUI-SendToEagle-w-Metadata"
+      ],
+      "install_type": "git-clone",
+      "description": "Sends images with metadata (PNGInfo) obtained from the input values of each node to Eagle. You can customize the tags to be registered in Eagle."
     },
     {
       "author": "Ser-Hilary",
