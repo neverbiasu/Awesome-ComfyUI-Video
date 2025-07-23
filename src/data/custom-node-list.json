@@ -26839,7 +26839,7 @@
         "https://github.com/Limbicnation/ComfyUI_FaceDetectionNode"
       ],
       "install_type": "git-clone",
-      "description": "A ComfyUI custom node for face detection and cropping using OpenCV Haar cascades, with full ComfyUI v3 schema support and backward compatibility. Features adjustable detection threshold, minimum face size, padding, and multiple classifier options.",
+      "description": "A ComfyUI custom node for face detection and cropping using OpenCV Haar cascades, with full ComfyUI v3 schema support and backward compatibility.",
       "nodename_pattern": "FaceDetectionNode"
     },
     {
@@ -28639,13 +28639,13 @@
     },
     {
       "author": "kpsss34",
-      "title": "ComfyUI Sana Custom Node",
-      "reference": "https://github.com/kpsss34/ComfyUI-kpsss34-Sana",
+      "title": "ComfyUI kpsss34 Custom Node",
+      "reference": "https://github.com/kpsss34/ComfyUI-kpsss34",
       "files": [
-        "https://github.com/kpsss34/ComfyUI-kpsss34-Sana"
+        "https://github.com/kpsss34/ComfyUI-kpsss34"
       ],
       "install_type": "git-clone",
-      "description": "A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B parameters) with advanced features including LoRA support, PAG (Perturbed-Attention Guidance), and optimized VRAM usage."
+      "description": "A kpsss34 node for all my custom model"
     },
     {
       "author": "Gary-yeh",
@@ -29710,6 +29710,16 @@
       "description": "Advanced equirectangular (360°) image processing nodes for ComfyUI, enabling precise rotation, horizon adjustment, and specialized cropping operations for panoramic images."
     },
     {
+      "author": "cedarconnor",
+      "title": "ComfyUI Upsampler Nodes",
+      "reference": "https://github.com/cedarconnor/upsampler",
+      "files": [
+        "https://github.com/cedarconnor/upsampler"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for integrating with the Upsampler API to enhance and upscale images using AI."
+    },
+    {
       "author": "vaishnav-vn",
       "title": "va1",
       "name": "Pad Image by Aspect",
@@ -29739,6 +29749,17 @@
       ],
       "install_type": "git-clone",
       "description": "Sends images with metadata (PNGInfo) obtained from the input values of each node to Eagle. You can customize the tags to be registered in Eagle."
+    },
+    {
+      "author": "Azornes",
+      "title": "Comfyui-LayerForge",
+      "id": "layerforge",
+      "reference": "https://github.com/Azornes/Comfyui-LayerForge",
+      "files": [
+        "https://github.com/Azornes/Comfyui-LayerForge"
+      ],
+      "install_type": "git-clone",
+      "description": "Photoshop-like layered canvas editor to your ComfyUI workflow. This node is perfect for complex compositing, inpainting, and outpainting, featuring multi-layer support, masking, blend modes, and precise transformations. Includes optional AI-powered background removal for streamlined image editing."
     },
     {
       "author": "Ser-Hilary",
