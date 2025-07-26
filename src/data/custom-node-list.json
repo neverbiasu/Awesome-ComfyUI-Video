@@ -27690,7 +27690,7 @@
         "https://github.com/set-soft/ComfyUI-ImageMisc"
       ],
       "install_type": "git-clone",
-      "description": "Audio batch creation, extraction, resample, mono and stereo conversion."
+      "description": "Miscellaneous nodes for image manipulation.\nCurrently just download image with bypass, so you can create workflows including image examples.\nNo extra dependencies, just an internal module."
     },
     {
       "author": "pictorialink",
@@ -28185,16 +28185,6 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node for ComfyUI provides a wrapper for Intel's Open Image Denoise (OIDN) library, allowing you to denoise images directly within your ComfyUI workflow."
-    },
-    {
-      "author": "domenecmiralles",
-      "title": "obobo_nodes",
-      "reference": "https://github.com/domenecmiralles/obobo_nodes",
-      "files": [
-        "https://github.com/domenecmiralles/obobo_nodes"
-      ],
-      "install_type": "git-clone",
-      "description": "A collection of custom nodes for ComfyUI that provide various input and output capabilities."
     },
     {
       "author": "Zehong-Ma",
@@ -29963,6 +29953,43 @@
       ],
       "install_type": "git-clone",
       "description": "A simple custom node for ComfyUI to load LoRAs and videos directly from a URL. Ideal for users hosting files on a server with publicly accessible URLs."
+    },
+    {
+      "author": "visualbruno",
+      "title": "ComfyUI-Hunyuan3d-2-1",
+      "reference": "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1",
+      "files": [
+        "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Wrapper for [a/Hunyuan3D v2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) - From Images to High-Fidelity 3D Assets with Production-Ready PBR Material"
+    },
+    {
+      "author": "AIWarper",
+      "title": "ComfyUI-DAViD",
+      "reference": "https://github.com/AIWarper/ComfyUI-DAViD",
+      "files": [
+        "https://github.com/AIWarper/ComfyUI-DAViD"
+      ],
+      "install_type": "git-clone",
+      "description": "An implementation of the DAViD tooling, a method for extracting depth, normals, and masks from an input image."
+    },
+    {
+      "author": "ComfyUI Studio",
+      "title": "ComfyUI-Studio-nodes",
+      "reference": "https://github.com/comfyuistudio/ComfyUI-Studio-nodes",
+      "files": [
+        "https://github.com/comfyuistudio/ComfyUI-Studio-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "🧩 Aspect Ratio Image Size Calculator, 🖼️ Aspect Ratio Resizer, and 📄 Markdown Link Generator for ComfyUI.",
+      "tags": [
+        "image",
+        "resize",
+        "aspect-ratio",
+        "markdown",
+        "utils"
+      ]
     },
     {
       "author": "Ser-Hilary",
