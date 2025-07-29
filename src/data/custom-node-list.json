@@ -23172,7 +23172,7 @@
       "files": [
         "https://github.com/lum3on/comfyui_HiDream-Sampler"
       ],
-      "install_type": "copy",
+      "install_type": "git-clone",
       "description": "A custom ComfyUI node for generating images using the HiDream AI model. Uses quantization for lower memory usage."
     },
     {
@@ -28742,7 +28742,7 @@
         "https://github.com/kpsss34/ComfyUI-kpsss34"
       ],
       "install_type": "git-clone",
-      "description": "A kpsss34 node for all my custom model"
+      "description": "Diffusers custom_node"
     },
     {
       "author": "Gary-yeh",
@@ -30048,6 +30048,76 @@
       ],
       "install_type": "git-clone",
       "description": "This is a set of custom nodes for ComfyUI, designed for the following application: [a/https://github.com/cnnmmd/cnnmmd](https://github.com/cnnmmd/cnnmmd)"
+    },
+    {
+      "author": "CallMe1101",
+      "title": "ComfyUI_OmniAvatar",
+      "reference": "https://github.com/CallMe1101/ComfyUI_OmniAvatar",
+      "files": [
+        "https://github.com/CallMe1101/ComfyUI_OmniAvatar"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node developed based on OmniAvatar, capable of generating video sequences with synchronized lip movements and facial expressions by inputting a portrait image, audio, and text prompt. The node parameters and invocation method are fully consistent with the official OmniAvatar inference."
+    },
+    {
+      "author": "ebrinz",
+      "title": "ComfyUI-MusicGen-HF",
+      "reference": "https://github.com/ebrinz/ComfyUI-MusicGen-HF",
+      "files": [
+        "https://github.com/ebrinz/ComfyUI-MusicGen-HF"
+      ],
+      "install_type": "git-clone",
+      "description": "A standalone ComfyUI custom node package for Facebook's MusicGen using Hugging Face Transformers. Generate high-quality music from text prompts with full support for CUDA, MPS (Apple Silicon), and CPU."
+    },
+    {
+      "author": "mcDandy",
+      "title": "More Math",
+      "reference": "https://github.com/mcDandy/more_math",
+      "files": [
+        "https://github.com/mcDandy/more_math"
+      ],
+      "install_type": "git-clone",
+      "description": "Adds math nodes for numbers and types which do not need it."
+    },
+    {
+      "author": "kmlbdh",
+      "title": "ComfyUI_LocalLLMNodes",
+      "reference": "https://github.com/kmlbdh/ComfyUI_LocalLLMNodes",
+      "files": [
+        "https://github.com/kmlbdh/ComfyUI_LocalLLMNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node pack for ComfyUI that allows you to run Large Language Models (LLMs) locally and use them for prompt generation and other text tasks directly within your ComfyUI workflows."
+    },
+    {
+      "author": "joosthel",
+      "title": "ComfyUI-CVOverlay",
+      "reference": "https://github.com/joosthel/ComfyUI-CVOverlay",
+      "files": [
+        "https://github.com/joosthel/ComfyUI-CVOverlay"
+      ],
+      "install_type": "git-clone",
+      "description": "TouchDesigner-style blob tracking and computer vision effects for ComfyUI. Simple nodes for bright spot detection, plexus connections, and technical aesthetics in video workflows."
+    },
+    {
+      "author": "fcanfora",
+      "title": "comfyui-camera-tools",
+      "reference": "https://github.com/fcanfora/comfyui-camera-tools",
+      "files": [
+        "https://github.com/fcanfora/comfyui-camera-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: Load Camera From File, Load 3D, Load 3D - Animation, Preview 3D, Preview 3D - Animation"
+    },
+    {
+      "author": "lokinou",
+      "title": "ComfyUI-Offload-Models",
+      "reference": "https://github.com/lokinou/comfyui-offload-models",
+      "files": [
+        "https://github.com/lokinou/comfyui-offload-models"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes to offload and rapatriate models from cpu."
     },
     {
       "author": "Ser-Hilary",
