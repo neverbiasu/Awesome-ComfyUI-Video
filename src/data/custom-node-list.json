@@ -8756,6 +8756,16 @@
       "description": "This is a hierarchical auxiliary project of the IPAdapter project, which uses a slider to quickly control the hierarchical weights and add fully random and semi random modes"
     },
     {
+      "author": "11dogzi",
+      "title": "HYPIR ComfyUI Plugin",
+      "reference": "https://github.com/11dogzi/Comfyui-HYPIR",
+      "files": [
+        "https://github.com/11dogzi/Comfyui-HYPIR"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI plugin for [a/HYPIR (Harnessing Diffusion-Yielded Score Priors for Image Restoration)](https://github.com/XPixelGroup/HYPIR), a state-of-the-art image restoration model based on Stable Diffusion 2.1."
+    },
+    {
       "author": "BXYMartin",
       "title": "ComfyUI-InstantIDUtils",
       "id": "instantid-utils",
@@ -14305,6 +14315,17 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes to use Florence2 VLM for image tagging and captioning"
+    },
+    {
+      "author": "MiaoshouAI",
+      "title": "ComfyUI Video Segmentation Node",
+      "id": "miaoshouai-tagger",
+      "reference": "https://github.com/miaoshouai/ComfyUI-Video-Segmentation",
+      "files": [
+        "https://github.com/miaoshouai/ComfyUI-Video-Segmentation"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for automatic video scene segmentation using TransNetV2."
     },
     {
       "author": "Patricio Gonzalez Vivo",
@@ -20086,6 +20107,16 @@
       ],
       "install_type": "git-clone",
       "description": "NODES: StarNode Startsettings for Flux and SD, Smplers for Flux and SD, Detail Deamon, Wildcards and more Helper Nodes"
+    },
+    {
+      "author": "Starnodes2024",
+      "title": "ComfyUI_StarBetaNodes",
+      "reference": "https://github.com/Starnodes2024/ComfyUI_StarBetaNodes",
+      "files": [
+        "https://github.com/Starnodes2024/ComfyUI_StarBetaNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Welcome to Star Beta Nodes - a collection of experimental custom nodes for ComfyUI designed for beta testing and feedback. These nodes provide enhanced functionality for image processing, video handling, and workflow automation."
     },
     {
       "author": "motivated3",
@@ -30138,6 +30169,87 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that integrates ByteDance Volcano Engine's video generation AI model, supporting both text-to-video and image-to-video generation."
+    },
+    {
+      "author": "YaserJaradeh",
+      "title": "Yaser-nodes for ComfyUI",
+      "reference": "https://github.com/YaserJaradeh/comfyui-yaser-nodes",
+      "files": [
+        "https://github.com/YaserJaradeh/comfyui-yaser-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI that provide dynamic input selection and intelligent upscaling functionality."
+    },
+    {
+      "author": "gvfarns",
+      "title": "comfyui_gvf",
+      "reference": "https://github.com/gvfarns/comfyui_gvf",
+      "files": [
+        "https://github.com/gvfarns/comfyui_gvf"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom convenience nodes: Cropping images to a given aspect ratio, Cropping images to a max/min aspect ratio, If/else logic with provided float (rather than using a float node)"
+    },
+    {
+      "author": "mikeshuangyan",
+      "title": "ComfyUI_MqUtils",
+      "reference": "https://github.com/mikeshuangyan/ComfyUI_MqUtils",
+      "files": [
+        "https://github.com/mikeshuangyan/ComfyUI_MqUtils"
+      ],
+      "install_type": "git-clone",
+      "description": "MQ util nodes for ComfyUI"
+    },
+    {
+      "author": "Franklyc",
+      "title": "ComfyUI LoRA adaLN Patcher Node",
+      "reference": "https://github.com/Franklyc/comfyui-lora-adain-patcher-node",
+      "files": [
+        "https://github.com/Franklyc/comfyui-lora-adain-patcher-node"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple but powerful custom node for ComfyUI that patches LoRA models by adding dummy adaLN_modulation_1 weights. This solves compatibility errors when using LoRAs with newer model architectures that expect these keys to be present in the final_layer."
+    },
+    {
+      "author": "Simlym",
+      "title": "ComfyUI Prompt Helper",
+      "id": "prompt-helper",
+      "reference": "https://github.com/Simlym/comfyui-prompt-helper",
+      "files": [
+        "https://github.com/Simlym/comfyui-prompt-helper"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple and intuitive prompt management tool for ComfyUI."
+    },
+    {
+      "author": "woct0rdho",
+      "title": "ComfyUI-RadialAttn",
+      "reference": "https://github.com/woct0rdho/ComfyUI-RadialAttn",
+      "files": [
+        "https://github.com/woct0rdho/ComfyUI-RadialAttn"
+      ],
+      "install_type": "git-clone",
+      "description": "RadialAttention in ComfyUI native workflow"
+    },
+    {
+      "author": "jiafuzeng",
+      "title": "LatentSync",
+      "reference": "https://github.com/jiafuzeng/comfyui-LatentSync",
+      "files": [
+        "https://github.com/jiafuzeng/comfyui-LatentSync"
+      ],
+      "install_type": "git-clone",
+      "description": "We present LatentSync, an end-to-end lip-sync method based on audio-conditioned latent diffusion models without any intermediate motion representation, diverging from previous diffusion-based lip-sync methods based on pixel-space diffusion or two-stage generation. Our framework can leverage the powerful capabilities of Stable Diffusion to directly model complex audio-visual correlations."
+    },
+    {
+      "author": "What-a-stupid-username",
+      "title": "comfyui_InversedSampler",
+      "reference": "https://github.com/What-a-stupid-username/comfyui-InversedSampler",
+      "files": [
+        "https://github.com/What-a-stupid-username/comfyui-InversedSampler"
+      ],
+      "install_type": "git-clone",
+      "description": "A inversed euler sampler to revert image to noisy latent. Can be used to improve content consistency when perform I2I."
     },
     {
       "author": "Ser-Hilary",
