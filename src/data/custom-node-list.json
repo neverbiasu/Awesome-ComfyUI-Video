@@ -7967,6 +7967,16 @@
       "description": "A ComfyUI wrapper implementation of ThinkSound - an advanced AI model for generating high-quality audio from text descriptions and video content using Chain-of-Thought (CoT) reasoning."
     },
     {
+      "author": "ShmuelRonen",
+      "title": "multi-lora-stack",
+      "reference": "https://github.com/ShmuelRonen/multi-lora-stack",
+      "files": [
+        "https://github.com/ShmuelRonen/multi-lora-stack"
+      ],
+      "install_type": "git-clone",
+      "description": "A complete replacement for rgthree's Power Lora Loader with zero dependencies and two specialized versions to fit any workflow."
+    },
+    {
       "author": "redhottensors",
       "title": "ComfyUI-Prediction",
       "id": "prediction",
@@ -29837,6 +29847,16 @@
       "description": "A ComfyUI custom node package for batch image processing with filename preservation."
     },
     {
+      "author": "cedarconnor",
+      "title": "HunyuanWorld",
+      "reference": "https://github.com/cedarconnor/HunyuanWorld",
+      "files": [
+        "https://github.com/cedarconnor/HunyuanWorld"
+      ],
+      "install_type": "git-clone",
+      "description": "Transform text and images into immersive 360° 3D worlds using Tencent's HunyuanWorld-1.0 in ComfyUI with native FLUX architecture integration."
+    },
+    {
       "author": "vaishnav-vn",
       "title": "va1",
       "name": "Pad Image by Aspect",
@@ -30250,6 +30270,36 @@
       ],
       "install_type": "git-clone",
       "description": "A inversed euler sampler to revert image to noisy latent. Can be used to improve content consistency when perform I2I."
+    },
+    {
+      "author": "rubenvillarreal",
+      "title": "ComfyUI_PoseAlign",
+      "reference": "https://github.com/rubenvillarreal/ComfyUI_PoseAlign",
+      "files": [
+        "https://github.com/rubenvillarreal/ComfyUI_PoseAlign"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that provides pose alignment functionality."
+    },
+    {
+      "author": "charlyad142",
+      "title": "ComfyUI Charly FitToAspectNode",
+      "reference": "https://github.com/charlyad142/ComfyUI_Charly_FitToAspectNode",
+      "files": [
+        "https://github.com/charlyad142/ComfyUI_Charly_FitToAspectNode"
+      ],
+      "install_type": "git-clone",
+      "description": "Un nodo personalizado para ComfyUI que ajusta imágenes a diferentes relaciones de aspecto manteniendo las proporciones originales."
+    },
+    {
+      "author": "Rizzlord",
+      "title": "ComfyUI-RizzNodes",
+      "reference": "https://github.com/Rizzlord/ComfyUI-RizzNodes",
+      "files": [
+        "https://github.com/Rizzlord/ComfyUI-RizzNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "RizzNodes for ComfyUI Welcome to RizzNodes, a collection of custom nodes for ComfyUI designed to streamline various workflows, from loading images and models in batches to dynamic prompt generation and memory management."
     },
     {
       "author": "Ser-Hilary",
