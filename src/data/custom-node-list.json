@@ -8776,6 +8776,16 @@
       "description": "This is a ComfyUI plugin for [a/HYPIR (Harnessing Diffusion-Yielded Score Priors for Image Restoration)](https://github.com/XPixelGroup/HYPIR), a state-of-the-art image restoration model based on Stable Diffusion 2.1."
     },
     {
+      "author": "11dogzi",
+      "title": "Qwen-Image ComfyUI",
+      "reference": "https://github.com/11dogzi/Comfyui-Qwen-Image",
+      "files": [
+        "https://github.com/11dogzi/Comfyui-Qwen-Image"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node package that integrates the Qwen-Image model into ComfyUI."
+    },
+    {
       "author": "BXYMartin",
       "title": "ComfyUI-InstantIDUtils",
       "id": "instantid-utils",
@@ -14329,7 +14339,6 @@
     {
       "author": "MiaoshouAI",
       "title": "ComfyUI Video Segmentation Node",
-      "id": "miaoshouai-tagger",
       "reference": "https://github.com/miaoshouai/ComfyUI-Video-Segmentation",
       "files": [
         "https://github.com/miaoshouai/ComfyUI-Video-Segmentation"
@@ -15290,6 +15299,26 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful and feature-rich custom node collection for ComfyUI that integrates the Kokoro TTS (Text-to-Speech) system with advanced voice modification capabilities. This package allows you to generate natural-sounding speech and apply various voice effects within ComfyUI workflows."
+    },
+    {
+      "author": "GeekyGhost",
+      "title": "ComfyUI Geeky AudioMixer",
+      "reference": "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer",
+      "files": [
+        "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer"
+      ],
+      "install_type": "git-clone",
+      "description": "Audio Mixing node for ComfyUI"
+    },
+    {
+      "author": "GeekyGhost",
+      "title": "ComfyUI-Geeky-LatentSyncWrapper 1.5",
+      "reference": "https://github.com/GeekyGhost/ComfyUI-Geeky-LatentSyncWrapper",
+      "files": [
+        "https://github.com/GeekyGhost/ComfyUI-Geeky-LatentSyncWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "Unofficial optimized and enhanced fork of [a/LatentSync 1.5](https://github.com/bytedance/LatentSync) implementation for ComfyUI on Windows and WSL 2.0."
     },
     {
       "author": "Dobidop",
@@ -26030,6 +26059,16 @@
       "description": "A non real-time ComfyUI implementation of Kyutai TTS"
     },
     {
+      "author": "BobRandomNumber",
+      "title": "ComfyUI-TLBVFI",
+      "reference": "https://github.com/BobRandomNumber/ComfyUI-TLBVFI",
+      "files": [
+        "https://github.com/BobRandomNumber/ComfyUI-TLBVFI"
+      ],
+      "install_type": "git-clone",
+      "description": "wrapper for the TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation project"
+    },
+    {
       "author": "santiagosamuel3455",
       "title": "ComfyUI-GeminiImageToPrompt",
       "reference": "https://github.com/santiagosamuel3455/ComfyUI-GeminiImageToPrompt",
@@ -30004,6 +30043,17 @@
       "description": "ComfyUI custom nodes for interacting with the Gemini api for image and video generation prompting."
     },
     {
+      "author": "Cyrostar",
+      "title": "Artha-Projekt",
+      "id": "artha-projekt",
+      "reference": "https://github.com/Cyrostar/Artha-Projekt",
+      "files": [
+        "https://github.com/Cyrostar/Artha-Projekt"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for project management."
+    },
+    {
       "author": "GeraldWie",
       "title": "ComfyUI-I2I-slim",
       "reference": "https://github.com/GeraldWie/ComfyUI-I2I-slim",
@@ -30079,16 +30129,6 @@
         "markdown",
         "utils"
       ]
-    },
-    {
-      "author": "synchronicity-labs",
-      "title": "ComfyUI Sync Lipsync Node",
-      "reference": "https://github.com/synchronicity-labs/sync-comfyui",
-      "files": [
-        "https://github.com/synchronicity-labs/sync-comfyui"
-      ],
-      "install_type": "git-clone",
-      "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface."
     },
     {
       "author": "jenn",
@@ -30415,6 +30455,16 @@
       "description": "This is a set of custom nodes for ComfyUI that replaces nodes like WanImageToVideo but using a Tiled VAE approach to reduce VRAM requirements."
     },
     {
+      "author": "stduhpf",
+      "title": "Wan22FirstLastFrameToVideoLatent for ComfyUI",
+      "reference": "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent",
+      "files": [
+        "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI that can be used to generate videos from either a starting frame, an end frame or both; with the Wan2.2 5B model (which uses the new Wan2.2 VAE, unlike Wan 2.2 A14B model wich uses the old Wan2.1 VAE)."
+    },
+    {
       "author": "kanibus",
       "title": "KANIBUS - Advanced Eye Tracking ControlNet System",
       "reference": "https://github.com/kanibus/kanibus",
@@ -30423,6 +30473,67 @@
       ],
       "install_type": "git-clone",
       "description": "Advanced Eye Tracking ControlNet System for ComfyUI - Professional eye-tracking with MediaPipe, 6-DOF Kalman filtering, and WAN 2.1/2.2 compatibility"
+    },
+    {
+      "author": "Novice_Chen",
+      "title": "ComfyUI-XingLiu",
+      "reference": "https://github.com/NewNoviceChen/ComfyUI-XingLiu",
+      "files": [
+        "https://github.com/NewNoviceChen/ComfyUI-XingLiu"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node that integrates LibLib's text-to-image and image-to-image generation capabilities, with customizable ControlNet and Lora support."
+    },
+    {
+      "author": "chuchu114514",
+      "title": "comfyui_text_list_stepper",
+      "reference": "https://github.com/chuchu114514/comfyui_text_list_stepper",
+      "files": [
+        "https://github.com/chuchu114514/comfyui_text_list_stepper"
+      ],
+      "install_type": "git-clone",
+      "description": "Used for batch extraction of prompt words."
+    },
+    {
+      "author": "ranska",
+      "title": "pixel_palette_art",
+      "reference": "https://github.com/ranska/pixel_palette_art",
+      "files": [
+        "https://github.com/ranska/pixel_palette_art"
+      ],
+      "install_type": "git-clone",
+      "description": "Comfyui custom node: Set of tools for pixel art palette."
+    },
+    {
+      "author": "SaturMars",
+      "title": "ComfyUI-NVVFR",
+      "reference": "https://github.com/SaturMars/ComfyUI-NVVFR",
+      "files": [
+        "https://github.com/SaturMars/ComfyUI-NVVFR"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node for video super-resolution and frame interpolation using [a/NVEncC](https://github.com/rigaya/NVEnc)."
+    },
+    {
+      "author": "jqy-yo",
+      "title": "ComfyUI Gemini Nodes",
+      "id": "gemini-nodes-jqy",
+      "reference": "https://github.com/jqy-yo/comfyui-gemini-nodes",
+      "files": [
+        "https://github.com/jqy-yo/comfyui-gemini-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for integrating Google Gemini API with ComfyUI, providing powerful AI capabilities for text generation, image generation, and video analysis. Nodes: Gemini Text API, Gemini Image Editor, Gemini Image Gen Advanced, Gemini Video Captioner."
+    },
+    {
+      "author": "alFrame",
+      "title": "AF - Edit Generated Prompt",
+      "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
+      "files": [
+        "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
     },
     {
       "author": "Ser-Hilary",
