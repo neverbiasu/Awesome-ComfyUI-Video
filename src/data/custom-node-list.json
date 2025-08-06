@@ -8776,16 +8776,6 @@
       "description": "This is a ComfyUI plugin for [a/HYPIR (Harnessing Diffusion-Yielded Score Priors for Image Restoration)](https://github.com/XPixelGroup/HYPIR), a state-of-the-art image restoration model based on Stable Diffusion 2.1."
     },
     {
-      "author": "11dogzi",
-      "title": "Qwen-Image ComfyUI",
-      "reference": "https://github.com/11dogzi/Comfyui-Qwen-Image",
-      "files": [
-        "https://github.com/11dogzi/Comfyui-Qwen-Image"
-      ],
-      "install_type": "git-clone",
-      "description": "This is a custom node package that integrates the Qwen-Image model into ComfyUI."
-    },
-    {
       "author": "BXYMartin",
       "title": "ComfyUI-InstantIDUtils",
       "id": "instantid-utils",
@@ -9489,7 +9479,7 @@
         "https://github.com/zhangp365/ComfyUI-utils-nodes"
       ],
       "install_type": "git-clone",
-      "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, GenderControlOutput, ImageCompositeMaskedWithSwitch, ImageCompositeMaskedOneByOne, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset, UpscaleImageWithModelIfNeed, MaskFromFaceModel, MaskCoverFourCorners, DetectorForNSFW, DeepfaceAnalyzeFaceAttributes etc."
+      "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, GenderControlOutput, ImageCompositeMaskedWithSwitch, ImageCompositeMaskedOneByOne, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset, MaskFromFaceModel, MaskCoverFourCorners, DetectorForNSFW, DeepfaceAnalyzeFaceAttributes, VolcanoOutpainting, VolcanoImageEdit, etc."
     },
     {
       "author": "zhangp365",
@@ -20628,6 +20618,16 @@
       "description": "This is a ComfyUI custom node implementation for image editing using the Step-1 model architecture, specifically adapted for reference-based image editing guided by text prompts."
     },
     {
+      "author": "HM-RunningHub",
+      "title": "ComfyUI Qwen-Image Node",
+      "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image",
+      "files": [
+        "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that integrates Alibaba's Qwen-Image model for high-quality image generation with exceptional text rendering capabilities."
+    },
+    {
       "author": "sebord",
       "title": "ComfyUI-LMCQ",
       "reference": "https://github.com/sebord/ComfyUI-LMCQ",
@@ -24311,6 +24311,16 @@
       "description": "Custom nodes for ComfyUI for simple LUT file extraction from any image."
     },
     {
+      "author": "thezveroboy",
+      "title": "comfyui-RandomPromptsZveroboy",
+      "reference": "https://github.com/thezveroboy/comfyui-RandomPromptsZveroboy",
+      "files": [
+        "https://github.com/thezveroboy/comfyui-RandomPromptsZveroboy"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node for ComfyUI that fixes an existing node [a/comfyui-dynamicprompts](https://github.com/adieyal/comfyui-dynamicprompts)."
+    },
+    {
       "author": "tatookan",
       "title": "comfyui_ssl_gemini_EXP",
       "reference": "https://github.com/tatookan/comfyui_ssl_gemini_EXP",
@@ -26690,7 +26700,7 @@
         "https://github.com/lerignoux/ComfyUI-Stable3DGen"
       ],
       "install_type": "git-clone",
-      "description": "A ComfyUI custom node to generate 3D assets using Stable3D"
+      "description": "A ComfyUI custom node to generate 3D assets using [a/Stable3D](https://github.com/Stable-X/Stable3DGen)"
     },
     {
       "author": "GroxicTinch",
@@ -29208,6 +29218,16 @@
       "description": "A set of custom nodes developed by SunxAI for ComfyUI, including image loop processing and more. "
     },
     {
+      "author": "sunx.ai",
+      "title": "ComfyUI Gemini Nodes",
+      "reference": "https://github.com/upseem/comfyui_sunxAI_facetools",
+      "files": [
+        "https://github.com/upseem/comfyui_sunxAI_facetools"
+      ],
+      "install_type": "git-clone",
+      "description": "Face detection & restoration tools for ComfyUI by Sunx.ai"
+    },
+    {
       "author": "set-soft",
       "title": "Audio Separation (Demix)",
       "reference": "https://github.com/set-soft/AudioSeparation",
@@ -30534,6 +30554,66 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
+    },
+    {
+      "author": "fidecastro",
+      "title": "comfyui-llamacpp-client",
+      "reference": "https://github.com/fidecastro/comfyui-llamacpp-client",
+      "files": [
+        "https://github.com/fidecastro/comfyui-llamacpp-client"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive ComfyUI custom node that provides complete client functionality for llama-server from [a/llama.cpp](https://github.com/ggml-org/llama.cpp). This node acts as a bridge between ComfyUI workflows and llama-server instances, supporting every single parameter and endpoint that llama-server offers."
+    },
+    {
+      "author": "PICOPON",
+      "title": "ComfyUI OpenAI Node",
+      "reference": "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node",
+      "files": [
+        "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that integrates OpenAI-compatible APIs for prompt generation and enhancement, specifically designed for Stable Diffusion workflows."
+    },
+    {
+      "author": "verIdyia",
+      "title": "ComfyUI Qwen-Image DFloat11 Nodes",
+      "reference": "https://github.com/verIdyia/ComfyUI-Qwen-Image-DF11",
+      "files": [
+        "https://github.com/verIdyia/ComfyUI-Qwen-Image-DF11"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for the DFloat11 compressed Qwen-Image model. This package provides efficient image generation with reduced memory usage through DFloat11 compression technology."
+    },
+    {
+      "author": "ranska",
+      "title": "Pixel Palette Art",
+      "reference": "https://github.com/ranska/pixel_palette_art",
+      "files": [
+        "https://github.com/ranska/pixel_palette_art"
+      ],
+      "install_type": "git-clone",
+      "description": "Comfyui custom node: Set of tools for pixel art palette."
+    },
+    {
+      "author": "snomiao",
+      "title": "ComfyUI Video Crop",
+      "reference": "https://github.com/snomiao/ComfyUI-Video-Crop",
+      "files": [
+        "https://github.com/snomiao/ComfyUI-Video-Crop"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for cropping videos using FFmpeg with pixel-precise control."
+    },
+    {
+      "author": "max-dingsda",
+      "title": "OllamaTools for ComfyUI",
+      "reference": "https://github.com/max-dingsda/OllamaTools",
+      "files": [
+        "https://github.com/max-dingsda/OllamaTools"
+      ],
+      "install_type": "git-clone",
+      "description": "This project makes local LLMs easy to use for prompt enhancement and image captioning –No API keys. No external tools. No headache."
     },
     {
       "author": "Ser-Hilary",
