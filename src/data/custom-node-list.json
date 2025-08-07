@@ -10110,6 +10110,16 @@
       "description": "ComfyUI Hunyuan3D-1-wrapper is a custom node that allows you to run [a/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-1) in ComfyUI as a wrapper."
     },
     {
+      "author": "jtydhr88",
+      "title": "ComfyUI-OpenCut",
+      "reference": "https://github.com/jtydhr88/ComfyUI-OpenCut",
+      "files": [
+        "https://github.com/jtydhr88/ComfyUI-OpenCut"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI plugin that integrated OpenCut into ComfyUI, originally developed by [a/OpenCut](https://github.com/OpenCut-app/OpenCut)"
+    },
+    {
       "author": "SeaArtLab",
       "title": "ComfyUI-Long-CLIP",
       "reference": "https://github.com/SeaArtLab/ComfyUI-Long-CLIP",
@@ -15710,17 +15720,6 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes:Batch Image Blend by Mask, Batch Enlarged Overlay, Batch Image Overlay, Remove Black Pixels to Transparent, Canny Shrink and Recenter, ..."
-    },
-    {
-      "author": "OgreLemonSoup",
-      "title": "Gallery&Tabs",
-      "id": "LoadImageGallery",
-      "reference": "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery",
-      "files": [
-        "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
-      ],
-      "install_type": "git-clone",
-      "description": "Adds a gallery to the Load Image node and tabs for Load Checkpoint/Lora/etc nodes"
     },
     {
       "author": "OuticNZ",
@@ -22483,6 +22482,16 @@
       "description": "A comprehensive Vision-Language Model (VLM) integration system for ComfyUI with more intelligent prompt optimization, object detection, template support, and performance optimizations. Optimized for Wan2.1, Flux Kontext, and general purpose. Goes well with my other project, an MLX/llama.cpp server with hot swappable models and ollama api compatibility, (heylookitsanllm)[a/https://github.com/fblissjr/heylookitsanllm](https://github.com/fblissjr/heylookitsanllm)"
     },
     {
+      "author": "fblissjr",
+      "title": "ComfyUI-QwenImageWanBridge",
+      "reference": "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge",
+      "files": [
+        "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for bridging Qwen-Image and WAN video models in ComfyUI."
+    },
+    {
       "author": "vincentfs",
       "title": "ComfyUI-ArchiGraph",
       "id": "archigraph",
@@ -27892,16 +27901,6 @@
       "description": "Achieve seamless inpainting results without needing a specialized inpainting model."
     },
     {
-      "author": "chaunceyyann",
-      "title": "ComfyUI Image Processing Nodes",
-      "reference": "https://github.com/chaunceyyann/comfyui-image-processing-nodes",
-      "files": [
-        "https://github.com/chaunceyyann/comfyui-image-processing-nodes"
-      ],
-      "install_type": "git-clone",
-      "description": "A collection of custom nodes for ComfyUI focused on image processing operations."
-    },
-    {
       "author": "hvppycoding",
       "title": "RandomSamplerSchedulerSteps for ComfyUI",
       "reference": "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps",
@@ -30614,6 +30613,36 @@
       ],
       "install_type": "git-clone",
       "description": "This project makes local LLMs easy to use for prompt enhancement and image captioning –No API keys. No external tools. No headache."
+    },
+    {
+      "author": "HWDigi",
+      "title": "Factory Prompt Generator",
+      "reference": "https://github.com/HWDigi/Factory-Prompts_comfyui",
+      "files": [
+        "https://github.com/HWDigi/Factory-Prompts_comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive ComfyUI custom node suite for advanced Safe for Work prompt generation across all checkpoint types (Pony, SDXL, SD1.5, and more). This SFW edition is specifically designed for professional workflows, educational environments, and GitHub hosting compliance."
+    },
+    {
+      "author": "BitWalker",
+      "title": "FlowCV",
+      "reference": "https://github.com/Koren-cy/FlowCV",
+      "files": [
+        "https://github.com/Koren-cy/FlowCV"
+      ],
+      "install_type": "git-clone",
+      "description": "Visual opencv node package based on comfy ui"
+    },
+    {
+      "author": "switzerswish",
+      "title": "LoRA Visualizer",
+      "reference": "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer",
+      "files": [
+        "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that parses prompt text for LoRA tags and visualizes their metadata, including trigger words, strength values, thumbnail previews, and example images."
     },
     {
       "author": "Ser-Hilary",
