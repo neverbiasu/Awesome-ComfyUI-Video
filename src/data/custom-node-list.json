@@ -30687,6 +30687,16 @@
       "description": "This package provides three custom nodes designed to streamline workflows involving API requests, dynamic text manipulation based on API responses, and image posting to APIs. These nodes are particularly useful for automating interactions with APIs, enhancing text-based workflows with dynamic data, and facilitating image uploads."
     },
     {
+      "author": "Ferocit",
+      "title": "comfyui-feroccustomnodes",
+      "reference": "https://github.com/Ferocit/comfyui-feroccustomnodes",
+      "files": [
+        "https://github.com/Ferocit/comfyui-feroccustomnodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository contains custom nodes for ComfyUI, designed to enhance your workflow with text-based operations, particularly for managing and utilizing descriptive texts."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
