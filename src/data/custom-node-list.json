@@ -3898,7 +3898,7 @@
         "https://github.com/Fictiverse/ComfyUI_Fictiverse"
       ],
       "install_type": "git-clone",
-      "description": "Nodes:Color correction."
+      "description": "Nodes:Essential Params, Image Params, Video Params, Add Margin With Color, Resize to megapixels"
     },
     {
       "author": "idrirap",
@@ -28013,6 +28013,26 @@
       "description": "An interactive color balance adjustment node for ComfyUI, featuring a clean interface and realtime preview."
     },
     {
+      "author": "o-l-l-i",
+      "title": "Olm Histogram for ComfyUI",
+      "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-Histogram",
+      "files": [
+        "https://github.com/o-l-l-i/ComfyUI-Olm-Histogram"
+      ],
+      "install_type": "git-clone",
+      "description": "A compact, real-time histogram analysis node for ComfyUI — with easy-to-use interactive UI, smooth rendering, and accurate pixel sampling. Built for compositing-style workflows and color diagnostics."
+    },
+    {
+      "author": "o-l-l-i",
+      "title": "Olm LGG (Lift, Gamma, Gain) for ComfyUI",
+      "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-LGG",
+      "files": [
+        "https://github.com/o-l-l-i/ComfyUI-Olm-LGG"
+      ],
+      "install_type": "git-clone",
+      "description": "A visual, interactive Lift, Gamma, Gain color correction node for ComfyUI, tailored for precise color grading workflows."
+    },
+    {
       "author": "xiaogui8dangjia",
       "title": "Comfyui-imagetoSTL",
       "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
@@ -30556,6 +30576,16 @@
       "description": "ComfyUI node for video super-resolution and frame interpolation using [a/NVEncC](https://github.com/rigaya/NVEnc)."
     },
     {
+      "author": "SaturMars",
+      "title": "ComfyUI Qwen LoRA Converter Node",
+      "reference": "https://github.com/SaturMars/ComfyUI-QwenImageLoraConverter",
+      "files": [
+        "https://github.com/SaturMars/ComfyUI-QwenImageLoraConverter"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI custom node used to convert Qwen-Image LoRA files trained on the ModelScope platform to a format that ComfyUI can recognize."
+    },
+    {
       "author": "jqy-yo",
       "title": "ComfyUI Gemini Nodes",
       "id": "gemini-nodes-jqy",
@@ -30695,6 +30725,46 @@
       ],
       "install_type": "git-clone",
       "description": "This repository contains custom nodes for ComfyUI, designed to enhance your workflow with text-based operations, particularly for managing and utilizing descriptive texts."
+    },
+    {
+      "author": "drozbay",
+      "title": "ComfyUI-WanVaceAdvanced",
+      "reference": "https://github.com/drozbay/ComfyUI-WanVaceAdvanced",
+      "files": [
+        "https://github.com/drozbay/ComfyUI-WanVaceAdvanced"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced/Experimental VACE nodes for WAN video models in ComfyUI."
+    },
+    {
+      "author": "Lovzu",
+      "title": "KittenTTS Node for Voice Generation",
+      "reference": "https://github.com/Lovzu/ComfyUI-KittenTTS",
+      "files": [
+        "https://github.com/Lovzu/ComfyUI-KittenTTS"
+      ],
+      "install_type": "git-clone",
+      "description": "Ultra-lightweight text-to-speech model with just 15 million parameters"
+    },
+    {
+      "author": "Pirog17000",
+      "title": "Pirog's Nodes for ComfyUI",
+      "reference": "https://github.com/Pirog17000/Pirogs-Nodes",
+      "files": [
+        "https://github.com/Pirog17000/Pirogs-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Pirog's Nodes - ComfyUI custom node pack providing enhanced sampling functionality"
+    },
+    {
+      "author": "vsaan212",
+      "title": "ComfyUI Text Split Node",
+      "reference": "https://github.com/vsaan212/Comfy-ui-textsplit",
+      "files": [
+        "https://github.com/vsaan212/Comfy-ui-textsplit"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that splits text into multiple outputs for feeding complex multi-scene renders. This node allows you to dynamically control the number of splits and use custom separators."
     },
     {
       "author": "Ser-Hilary",
