@@ -24378,8 +24378,18 @@
       "files": [
         "https://github.com/pixelworldai/ComfyUI-AlphaFlatten"
       ],
-      "description": "This node takes a batch of images with alpha channels (RGBA format) and combines them into a single image, respecting the transparency of each layer. It's particularly useful for compositing multiple masked elements (like faces) into a single image.",
-      "install_type": "git-clone"
+      "install_type": "git-clone",
+      "description": "This node takes a batch of images with alpha channels (RGBA format) and combines them into a single image, respecting the transparency of each layer. It's particularly useful for compositing multiple masked elements (like faces) into a single image."
+    },
+    {
+      "author": "pixelworldai",
+      "title": "ComfyUI-WorkflowGraphics",
+      "reference": "https://github.com/pixelworldai/ComfyUI-WorkflowGraphics",
+      "files": [
+        "https://github.com/pixelworldai/ComfyUI-WorkflowGraphics"
+      ],
+      "install_type": "git-clone",
+      "description": "Embed images directly in your workflow JSONs"
     },
     {
       "author": "CozyMantis (+ Curt-Park)",
@@ -27681,6 +27691,16 @@
       "description": "This is a custom node for ComfyUI that takes in a file path full of json's and finds the mape variable nodes in them and converts them to the kjnode set and get nodes."
     },
     {
+      "author": "boricuapab",
+      "title": "ComfyUI-Bori-JsonSetGetConverter",
+      "reference": "https://github.com/boricuapab/ComfyUI-Bori-QwenImageResolutions",
+      "files": [
+        "https://github.com/boricuapab/ComfyUI-Bori-QwenImageResolutions"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI that provides the user with a dropdown which contains the recommended resolutions for the Qwen Image Model."
+    },
+    {
       "author": "avocadori",
       "title": "ComfyUI-load-image-prompt-lora",
       "reference": "https://github.com/avocadori/ComfyUI-load-image-prompt-lora",
@@ -29146,6 +29166,16 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
+    },
+    {
+      "author": "S4MUEL404",
+      "title": "ComfyUI-S4Motion Nodes",
+      "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Motion",
+      "files": [
+        "https://github.com/S4MUEL-404/ComfyUI-S4Motion"
+      ],
+      "install_type": "git-clone",
+      "description": "A set of ComfyUI nodes for animating a foreground layer over a background, with unified timing and high-quality composition. It includes effectors for rotation, position, path-following position, scale, opacity, distortion, and masking, plus a core node that composes frames and exports APNG/WEBP and a frame sequence."
     },
     {
       "author": "fchangjun",
@@ -30765,6 +30795,47 @@
       ],
       "install_type": "git-clone",
       "description": "A custom ComfyUI node that splits text into multiple outputs for feeding complex multi-scene renders. This node allows you to dynamically control the number of splits and use custom separators."
+    },
+    {
+      "author": "eric183",
+      "title": "ComfyUI-Only",
+      "id": "comfyui-only",
+      "reference": "https://github.com/eric183/ComfyUI-Only",
+      "files": [
+        "https://github.com/eric183/ComfyUI-Only"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI, originally focused on workflow parsing, now expanded to provide advanced file loading features like 'Load Latent (Advanced)' for drag-and-drop latent file uploads and 'WorkflowImageFileLoader' for parsing prompts from image metadata. It also adds a js extension for a better UI experience."
+    },
+    {
+      "author": "squirrel765",
+      "title": "ComfyUI-LLM-VLM-Node",
+      "reference": "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node",
+      "files": [
+        "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "A unified ComfyUI node for both LLM (text-only) and VLM (image-to-text) generation using GGUF models.."
+    },
+    {
+      "author": "squirrel765",
+      "title": "comfyui-ea-nodes",
+      "reference": "https://github.com/ExoticArts/comfyui-ea-nodes",
+      "files": [
+        "https://github.com/ExoticArts/comfyui-ea-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ExoticArts custom nodes for ComfyUI (EA Power LoRA, etc.)"
+    },
+    {
+      "author": "squirrel765",
+      "title": "lorasubdirectory",
+      "reference": "https://github.com/andrewsthomasj/lorasubdirectory",
+      "files": [
+        "https://github.com/andrewsthomasj/lorasubdirectory"
+      ],
+      "install_type": "git-clone",
+      "description": "only show dropdown of loras ina a given subdirectory"
     },
     {
       "author": "Ser-Hilary",
