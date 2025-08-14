@@ -94,6 +94,17 @@
       "description": "This node enables the best performance on NVIDIA RTX™ Graphics Cards  (GPUs) for Stable Diffusion by leveraging NVIDIA TensorRT."
     },
     {
+      "author": "Comfy-Org",
+      "title": "NVIDIA FLUX NIM",
+      "id": "nimnodes",
+      "reference": "https://github.com/Comfy-Org/NIMnodes",
+      "files": [
+        "https://github.com/Comfy-Org/NIMnodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Provides nodes to utilise NVIDIA NIM, a set of accelerated inference microservices that allow you to run AI models on NVIDIA GPUs anywhere."
+    },
+    {
       "author": "Stability-AI",
       "title": "Stability API nodes for ComfyUI",
       "id": "sai-api",
@@ -9258,6 +9269,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that automatically selects appropriate video resolution dimensions based on generation mode, aspect ratio, and quality settings. Designed to work seamlessly with video generation models and KJNodes image resize nodes."
+    },
+    {
+      "author": "impactframes",
+      "title": "ComfyUI-yt_dl",
+      "reference": "https://github.com/if-ai/ComfyUI-yt_dl",
+      "files": [
+        "https://github.com/if-ai/ComfyUI-yt_dl"
+      ],
+      "install_type": "git-clone",
+      "description": "Download Youtube videos using ComfyUI"
     },
     {
       "author": "dmMaze",
@@ -22716,6 +22737,16 @@
       "description": "A custom node collection for ComfyUI that provides advanced face detection, alignment, and transformation capabilities using MediaPipe Face Mesh."
     },
     {
+      "author": "SykkoAtHome",
+      "title": "Sykko Tools for ComfyUI",
+      "reference": "https://github.com/SykkoAtHome/ComfyUI_SykkoTools",
+      "files": [
+        "https://github.com/SykkoAtHome/ComfyUI_SykkoTools"
+      ],
+      "install_type": "git-clone",
+      "description": "Utilities for working with camera animations inside ComfyUI. The repository currently provides a node for loading camera motion from ASCII FBX files and a corresponding command line helper for debugging."
+    },
+    {
       "author": "Mattabyte",
       "title": "ComfyUI Secure API Call",
       "reference": "https://github.com/Mattabyte/ComfyUI-SecureApiCall",
@@ -27169,16 +27200,6 @@
     },
     {
       "author": "Charonartist",
-      "title": "Comfyui_gemini_tts_node",
-      "reference": "https://github.com/Charonartist/Comfyui_gemini_tts_node",
-      "files": [
-        "https://github.com/Charonartist/Comfyui_gemini_tts_node"
-      ],
-      "install_type": "git-clone",
-      "description": "This custom node is a ComfyUI node for generating speech from text using the Gemini 2.5 Flash Preview TTS API."
-    },
-    {
-      "author": "Charonartist",
       "title": "ComfyUI Auto LoRA",
       "reference": "https://github.com/Charonartist/comfyui-auto-lora-v2",
       "files": [
@@ -27534,7 +27555,7 @@
     },
     {
       "author": "LingSss9",
-      "title": "Comfyui-Merge-LoRA",
+      "title": "comfyui-merge",
       "id": "comfyui-merge",
       "reference": "https://github.com/LingSss9/comfyui-merge",
       "files": [
@@ -30853,6 +30874,86 @@
       ],
       "install_type": "git-clone",
       "description": "Creates spatial echo and ambient effects by applying reverb-like processing directly in latent space"
+    },
+    {
+      "author": "Baverne",
+      "title": "comfyUI-TiledWan",
+      "reference": "https://github.com/Baverne/comfyUI-TiledWan",
+      "files": [
+        "https://github.com/Baverne/comfyUI-TiledWan"
+      ],
+      "install_type": "git-clone",
+      "description": "Node set and workflow to run wan2.1 vace with tiled while keeping temporal and spatial consistency"
+    },
+    {
+      "author": "teamalpha-ai",
+      "title": "ComfyUI-ImageTransformer",
+      "reference": "https://github.com/teamalpha-ai/comfyui-image-transformer",
+      "files": [
+        "https://github.com/teamalpha-ai/comfyui-image-transformer"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI wrapper nodes for Image Transformer"
+    },
+    {
+      "author": "karas17",
+      "title": "ComfyUI Camera Watermark",
+      "reference": "https://github.com/karas17/ComfyUI-Camera-Watermark",
+      "files": [
+        "https://github.com/karas17/ComfyUI-Camera-Watermark"
+      ],
+      "install_type": "git-clone",
+      "description": "A versatile and highly customizable node for ComfyUI to add camera-style watermarks and frames to your images. Whether you want to emulate the classic Leica look, add EXIF data, or create professional-looking framed images, this plugin has you covered."
+    },
+    {
+      "author": "shinyakidoguchi301",
+      "title": "LoRA Tag Loader for ComfyUI",
+      "reference": "https://github.com/shinyakidoguchi301/comfyui-lora-tag-loader",
+      "files": [
+        "https://github.com/shinyakidoguchi301/comfyui-lora-tag-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node allows you to select a LoRA file from the models/loras directory (including subfolders), automatically load training tags from metadata or Eagle MEMO, set strength, and optionally display a preview image."
+    },
+    {
+      "author": "njlent",
+      "title": "ComfyUI Wavelet Color Fix",
+      "reference": "https://github.com/njlent/ComfyUI_wavelet-colorfix",
+      "files": [
+        "https://github.com/njlent/ComfyUI_wavelet-colorfix"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a standalone node pack that provides powerful color correction methods for ComfyUI, extracted from the ComfyUI-DLoRAL project. It allows you to transfer the color profile from a source image or video to a target image or video.\nThis is ideal for restoring the original color to AI-processed videos (like upscaling or frame interpolation) or for creative color grading."
+    },
+    {
+      "author": "flybirdxx",
+      "title": "ComfyUI-SDMatte",
+      "reference": "https://github.com/flybirdxx/ComfyUI-SDMatte",
+      "files": [
+        "https://github.com/flybirdxx/ComfyUI-SDMatte"
+      ],
+      "install_type": "git-clone",
+      "description": "SDMatte is an interactive image matting method based on stable diffusion, which supports three types of visual prompts (points, boxes, and masks) for accurately extracting target objects from natural images."
+    },
+    {
+      "author": "DenRakEiw",
+      "title": "ComfyUI Latent Color Tools",
+      "reference": "https://github.com/DenRakEiw/Latent_Nodes",
+      "files": [
+        "https://github.com/DenRakEiw/Latent_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced color manipulation and image adjustments directly in ComfyUI's latent space"
+    },
+    {
+      "author": "RainyN0077",
+      "title": "ComfyUI-PromptSE",
+      "reference": "https://github.com/RainyN0077/ComfyUI-PromptSE",
+      "files": [
+        "https://github.com/RainyN0077/ComfyUI-PromptSE"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI custom node for managing and combining multiple prompt entries. Supports weight adjustment, lexicon assistance, drag-and-drop sorting, and global settings to greatly enhance prompt engineering efficiency and flexibility."
     },
     {
       "author": "Ser-Hilary",
