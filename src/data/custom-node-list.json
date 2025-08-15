@@ -14889,6 +14889,16 @@
       "description": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model."
     },
     {
+      "author": "neverbiasu",
+      "title": "ComfyUI-Ovis-U1",
+      "reference": "https://github.com/neverbiasu/ComfyUI-Ovis-U1",
+      "files": [
+        "https://github.com/neverbiasu/ComfyUI-Ovis-U1"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository adds ComfyUI custom nodes that wrap the Ovis-U1 multimodal model, exposing three primary workflows inside the ComfyUI editor."
+    },
+    {
       "author": "var1ableX",
       "title": "ComfyUI_Accessories",
       "reference": "https://github.com/var1ableX/ComfyUI_Accessories",
@@ -22737,16 +22747,6 @@
       "description": "A custom node collection for ComfyUI that provides advanced face detection, alignment, and transformation capabilities using MediaPipe Face Mesh."
     },
     {
-      "author": "SykkoAtHome",
-      "title": "Sykko Tools for ComfyUI",
-      "reference": "https://github.com/SykkoAtHome/ComfyUI_SykkoTools",
-      "files": [
-        "https://github.com/SykkoAtHome/ComfyUI_SykkoTools"
-      ],
-      "install_type": "git-clone",
-      "description": "Utilities for working with camera animations inside ComfyUI. The repository currently provides a node for loading camera motion from ASCII FBX files and a corresponding command line helper for debugging."
-    },
-    {
       "author": "Mattabyte",
       "title": "ComfyUI Secure API Call",
       "reference": "https://github.com/Mattabyte/ComfyUI-SecureApiCall",
@@ -27219,6 +27219,26 @@
       "description": "Smart resize node for ComfyUI that handles portrait/landscape images with short/long side specification"
     },
     {
+      "author": "Charonartist",
+      "title": "ComfyUI Tag Remover",
+      "reference": "https://github.com/Charonartist/comfyui-tag-remover",
+      "files": [
+        "https://github.com/Charonartist/comfyui-tag-remover"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for removing specified tags and their content from text"
+    },
+    {
+      "author": "Charonartist",
+      "title": "comfyui-last-frame-extractor",
+      "reference": "https://github.com/Charonartist/comfyui-last-frame-extractor",
+      "files": [
+        "https://github.com/Charonartist/comfyui-last-frame-extractor"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI custom node that extracts the last frame (image) from an input image batch. It is particularly useful when you want to obtain the final scene or frame in a video generation workflow."
+    },
+    {
       "author": "ptmaster",
       "title": "ComfyUI-Load-Diffusion-Model-to-Muti-GPUs",
       "reference": "https://github.com/ptmaster/ComfyUI-Load-Diffusion-Model-to-Muti-GPUs",
@@ -30946,14 +30966,85 @@
       "description": "Advanced color manipulation and image adjustments directly in ComfyUI's latent space"
     },
     {
+      "author": "DenRakEiw",
+      "title": "Universal NN Latent Upscaler for ComfyUI",
+      "reference": "https://github.com/DenRakEiw/WAN_NN_Latent_Upscale",
+      "files": [
+        "https://github.com/DenRakEiw/WAN_NN_Latent_Upscale"
+      ],
+      "install_type": "git-clone",
+      "description": "A universal neural network latent upscaler that supports SD1.5, SDXL, Flux, and Wan2.2 models. Uses trained neural networks instead of simple interpolation for higher quality latent upscaling.\nBuilt upon the excellent foundation of [a/Ttl's ComfyUi_NNLatentUpscale](https://github.com/Ttl/ComfyUi_NNLatentUpscale) - this project extends the original work with universal model support and improved architectures."
+    },
+    {
       "author": "RainyN0077",
       "title": "ComfyUI-PromptSE",
+      "id": "comfyui-promptse",
       "reference": "https://github.com/RainyN0077/ComfyUI-PromptSE",
       "files": [
         "https://github.com/RainyN0077/ComfyUI-PromptSE"
       ],
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node for managing and combining multiple prompt entries. Supports weight adjustment, lexicon assistance, drag-and-drop sorting, and global settings to greatly enhance prompt engineering efficiency and flexibility."
+    },
+    {
+      "author": "kusurin",
+      "title": "ComfyUI-chronophotography",
+      "reference": "https://github.com/kusurin/ComfyUI-chronophotography",
+      "files": [
+        "https://github.com/kusurin/ComfyUI-chronophotography"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for creating chronophotography effects from video frames"
+    },
+    {
+      "author": "feffy380",
+      "title": "Chroma Cache",
+      "reference": "https://github.com/feffy380/comfyui-chroma-cache",
+      "files": [
+        "https://github.com/feffy380/comfyui-chroma-cache"
+      ],
+      "install_type": "git-clone",
+      "description": "Caching optimization for Chroma"
+    },
+    {
+      "author": "FearL0rd",
+      "title": "ComfyUI MaskAIFingerprint",
+      "reference": "https://github.com/FearL0rd/ComfyUI-MaskAIFingerprint",
+      "files": [
+        "https://github.com/FearL0rd/ComfyUI-MaskAIFingerprint"
+      ],
+      "install_type": "git-clone",
+      "description": "Attempt to create a ComfyUI node for masking AI-generated fingerprints."
+    },
+    {
+      "author": "Avalre",
+      "title": "ComfyUI-avaNodes",
+      "reference": "https://github.com/Avalre/ComfyUI-avaNodes",
+      "files": [
+        "https://github.com/Avalre/ComfyUI-avaNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "These nodes were created to personalize/optimize several ComfyUI nodes for my own use. You can replicate the functionality of most of my nodes by some combination of default ComfyUI nodes and custom nodes from other developers."
+    },
+    {
+      "author": "Alectriciti",
+      "title": "comfyui-creativeprompts",
+      "reference": "https://github.com/Alectriciti/comfyui-creativeprompts",
+      "files": [
+        "https://github.com/Alectriciti/comfyui-creativeprompts"
+      ],
+      "install_type": "git-clone",
+      "description": "A creative alternative to dynamicprompts"
+    },
+    {
+      "author": "VraethrDalkr",
+      "title": "ComfyUI-ProgressiveBlend",
+      "reference": "https://github.com/VraethrDalkr/ComfyUI-ProgressiveBlend",
+      "files": [
+        "https://github.com/VraethrDalkr/ComfyUI-ProgressiveBlend"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI that enable progressive blending and color matching effects across image batches/video frames."
     },
     {
       "author": "Ser-Hilary",
