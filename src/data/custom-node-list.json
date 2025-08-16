@@ -11192,6 +11192,16 @@
       "description": "OmniSVG: A Unified Scalable Vector Graphics Generation Model,you can try it in ComfyUI."
     },
     {
+      "author": "smthemex",
+      "title": "ComfyUI_StableAvatar",
+      "reference": "https://github.com/smthemex/ComfyUI_StableAvatar",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_StableAvatar"
+      ],
+      "install_type": "git-clone",
+      "description": "StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation,you can try it in ComfyUI"
+    },
+    {
       "author": "choey",
       "title": "Comfy-Topaz",
       "id": "topaz",
@@ -31045,6 +31055,68 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of custom nodes for ComfyUI that enable progressive blending and color matching effects across image batches/video frames."
+    },
+    {
+      "author": "NHLStenden",
+      "title": "ComfyUI-ImageBag",
+      "reference": "https://github.com/NHLStenden/ComfyUI-ImageBag",
+      "files": [
+        "https://github.com/NHLStenden/ComfyUI-ImageBag"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node package for ComfyUI featuring advanced image processing tools."
+    },
+    {
+      "author": "jupo-ai",
+      "title": "comfy-preview-model",
+      "id": "comfy-preview-model",
+      "reference": "https://github.com/jupo-ai/comfy-preview-model",
+      "files": [
+        "https://github.com/jupo-ai/comfy-preview-model"
+      ],
+      "install_type": "git-clone",
+      "description": "Preview media file in model's dir."
+    },
+    {
+      "author": "jupo-ai",
+      "title": "comfy-join-prompt",
+      "id": "comfy-join-prompt",
+      "reference": "https://github.com/jupo-ai/comfy-join-prompt",
+      "files": [
+        "https://github.com/jupo-ai/comfy-join-prompt"
+      ],
+      "install_type": "git-clone",
+      "description": "Join Multiline text."
+    },
+    {
+      "author": "apeirography",
+      "title": "DaimalyadNodes",
+      "reference": "https://github.com/apeirography/DaimalyadNodes",
+      "files": [
+        "https://github.com/apeirography/DaimalyadNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Model Downloader + API-Friendly Wildcard Processor for ComfyUI"
+    },
+    {
+      "author": "mamorett",
+      "title": "MiniCPM‑V‑4 (GGUF) for ComfyUI",
+      "reference": "https://github.com/mamorett/ComfyUI_minicpmv4",
+      "files": [
+        "https://github.com/mamorett/ComfyUI_minicpmv4"
+      ],
+      "install_type": "git-clone",
+      "description": "Modular ComfyUI nodes to run the vision-language model MiniCPM‑V‑4 in GGUF format, powered by llama‑cpp‑python."
+    },
+    {
+      "author": "Verolelb",
+      "title": "ComfyUI-Qwen-Aspect-Ratio",
+      "reference": "https://github.com/Verolelb/ComfyUI-Qwen-Aspect-Ratio",
+      "files": [
+        "https://github.com/Verolelb/ComfyUI-Qwen-Aspect-Ratio"
+      ],
+      "install_type": "git-clone",
+      "description": "A node to provide recommended aspect ratios for the Qwen model series."
     },
     {
       "author": "Ser-Hilary",
