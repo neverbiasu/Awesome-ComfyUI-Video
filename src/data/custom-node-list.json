@@ -17826,13 +17826,13 @@
     },
     {
       "author": "YarvixPA",
-      "title": "ComfyUI-NeuralMedia",
-      "reference": "https://github.com/YarvixPA/ComfyUI-NeuralMedia",
+      "title": "ComfyUI-YarvixPA",
+      "reference": "https://github.com/YarvixPA/ComfyUI-YarvixPA",
       "files": [
-        "https://github.com/YarvixPA/ComfyUI-NeuralMedia"
+        "https://github.com/YarvixPA/ComfyUI-YarvixPA"
       ],
       "install_type": "git-clone",
-      "description": "A set of custom nodes modified to achieve things I felt were missing."
+      "description": "A set of custom nodes that simplify things."
     },
     {
       "author": "SpenserCai",
@@ -30137,6 +30137,16 @@
       "description": "Photoshop-like layered canvas editor to your ComfyUI workflow. This node is perfect for complex compositing, inpainting, and outpainting, featuring multi-layer support, masking, blend modes, and precise transformations. Includes optional AI-powered background removal for streamlined image editing."
     },
     {
+      "author": "Azornes",
+      "title": "Comfyui-Resolution-Master",
+      "reference": "https://github.com/Azornes/Comfyui-Resolution-Master",
+      "files": [
+        "https://github.com/Azornes/Comfyui-Resolution-Master"
+      ],
+      "install_type": "git-clone",
+      "description": " Precise resolution and aspect ratio control for ComfyUI"
+    },
+    {
       "author": "einhorn13",
       "title": "ComfyUI-ImageProcessUtilities",
       "reference": "https://github.com/einhorn13/ComfyUI-ImageProcessUtilities",
@@ -31027,24 +31037,14 @@
       "description": "Attempt to create a ComfyUI node for masking AI-generated fingerprints."
     },
     {
-      "author": "Avalre",
-      "title": "ComfyUI-avaNodes",
-      "reference": "https://github.com/Avalre/ComfyUI-avaNodes",
-      "files": [
-        "https://github.com/Avalre/ComfyUI-avaNodes"
-      ],
-      "install_type": "git-clone",
-      "description": "These nodes were created to personalize/optimize several ComfyUI nodes for my own use. You can replicate the functionality of most of my nodes by some combination of default ComfyUI nodes and custom nodes from other developers."
-    },
-    {
       "author": "Alectriciti",
-      "title": "comfyui-creativeprompts",
-      "reference": "https://github.com/Alectriciti/comfyui-creativeprompts",
+      "title": "comfyui-adaptiveprompts",
+      "reference": "https://github.com/Alectriciti/comfyui-adaptiveprompts",
       "files": [
-        "https://github.com/Alectriciti/comfyui-creativeprompts"
+        "https://github.com/Alectriciti/comfyui-adaptiveprompts"
       ],
       "install_type": "git-clone",
-      "description": "A creative alternative to dynamicprompts"
+      "description": "Adaptive Prompts is a modern reimagining of dynamic prompts for ComfyUI. It lets you randomize, restructure, and clean up prompts with powerful wildcard and string tools. For the sake of consistency, I will still refer to them as Dynamic Prompts."
     },
     {
       "author": "VraethrDalkr",
@@ -31117,6 +31117,94 @@
       ],
       "install_type": "git-clone",
       "description": "A node to provide recommended aspect ratios for the Qwen model series."
+    },
+    {
+      "author": "jupo-ai",
+      "title": "comfy-linear-move",
+      "id": "comfy-linear-move",
+      "reference": "https://github.com/jupo-ai/comfy-linear-move",
+      "files": [
+        "https://github.com/jupo-ai/comfy-linear-move"
+      ],
+      "install_type": "git-clone",
+      "description": "Move nodes linearly."
+    },
+    {
+      "author": "Marco Zanella",
+      "title": "ComfyUI-BooleanExpression",
+      "id": "ComfyUI-BooleanExpression",
+      "reference": "https://github.com/marco-zanella/ComfyUI-BooleanExpression",
+      "files": [
+        "https://github.com/marco-zanella/ComfyUI-BooleanExpression"
+      ],
+      "install_type": "git-clone",
+      "tags": [
+        "boolean",
+        "logic",
+        "comparison"
+      ],
+      "description": "A collection of logic and comparison nodes for ComfyUI. This package adds building blocks for boolean logic, arithmetic comparisons, and string comparisons, making it easier to design conditional workflows directly in ComfyUI."
+    },
+    {
+      "author": "WeChatCV",
+      "title": "Stand-In Official Preprocessor ComfyUI Nodes",
+      "reference": "https://github.com/WeChatCV/Stand-In_Preprocessor_ComfyUI",
+      "files": [
+        "https://github.com/WeChatCV/Stand-In_Preprocessor_ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository provides a temporary ComfyUI node implementation of the Stand-In preprocessor, aiming to correct the misunderstanding of Stand-In’s preprocessing logic in [a/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper).\n[w/We strongly recommend using the workflows provided in this repo to ensure proper compatibility and the best identity-preserving performance.]"
+    },
+    {
+      "author": "SilverAndJade",
+      "title": "ComfyUI Silver Nodes",
+      "reference": "https://github.com/SilverAndJade/comfyui-silver-nodes",
+      "files": [
+        "https://github.com/SilverAndJade/comfyui-silver-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of utility nodes for ComfyUI that enhance workflow capabilities with advanced loaders and processing tools."
+    },
+    {
+      "author": "vsLinx",
+      "title": "ComfyUI vsLinx Nodes",
+      "id": "comfyui-vslinx-nodes",
+      "reference": "https://github.com/vslinx/ComfyUI-vslinx-nodes",
+      "files": [
+        "https://github.com/vslinx/ComfyUI-vslinx-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes that let you quickly load multiple images via a multi-select dialog with preview. The images are instantly uploaded to the input folder and can be output either as a list or a batch. "
+    },
+    {
+      "author": "HoangYell",
+      "title": "comfyui-hoangyell-video-edit",
+      "reference": "https://github.com/HoangYell/comfyui-hoangyell-video",
+      "files": [
+        "https://github.com/HoangYell/comfyui-hoangyell-video"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom ComfyUI nodes for advanced video processing and editing workflows."
+    },
+    {
+      "author": "krigeta",
+      "title": "qwen-image-controlnets-comfyui",
+      "reference": "https://github.com/krigeta/qwen-image-controlnets-comfyui",
+      "files": [
+        "https://github.com/krigeta/qwen-image-controlnets-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "creating a custom node to test how to use Blocknet controlnets in comfyUI using logic from Diffsynth Studio."
+    },
+    {
+      "author": "L33chKing",
+      "title": "Tag Frequency Weighter for ComfyUI",
+      "reference": "https://github.com/L33chKing/comfyui-tag-frequency-weighter",
+      "files": [
+        "https://github.com/L33chKing/comfyui-tag-frequency-weighter"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that weights tags based on their frequency/rarity in danbooru"
     },
     {
       "author": "Ser-Hilary",
@@ -31515,17 +31603,6 @@
       ],
       "install_type": "unzip",
       "description": "This is a node to convert an image into a CMYK Halftone dot image."
-    },
-    {
-      "author": "jupo-ai",
-      "title": "comfy-linear-move",
-      "id": "comfy-linear-move",
-      "reference": "https://github.com/jupo-ai/comfy-linear-move",
-      "files": [
-        "https://github.com/jupo-ai/comfy-linear-move"
-      ],
-      "install_type": "git-clone",
-      "description": "Move nodes linearly."
     }
   ]
 }
