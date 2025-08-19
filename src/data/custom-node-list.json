@@ -9719,13 +9719,13 @@
     },
     {
       "author": "shinich39",
-      "title": "comfyui-poor-textarea",
-      "reference": "https://github.com/shinich39/comfyui-poor-textarea",
+      "title": "comfyui-mtga",
+      "reference": "https://github.com/shinich39/comfyui-mtga",
       "files": [
-        "https://github.com/shinich39/comfyui-poor-textarea"
+        "https://github.com/shinich39/comfyui-mtga"
       ],
       "install_type": "git-clone",
-      "description": "Add commentify, indentation, auto-close brackets in textarea."
+      "description": "Make Textarea Great Again"
     },
     {
       "author": "wei30172",
@@ -28871,6 +28871,16 @@
       "description": "Custom ComfyUI nodes used in Maxed Out workflows (SDXL, Flux, etc.)"
     },
     {
+      "author": "Maxed-Out-99",
+      "title": "ComfyUI-SmartModelLoaders-MXD",
+      "reference": "https://github.com/Maxed-Out-99/ComfyUI-SmartModelLoaders-MXD",
+      "files": [
+        "https://github.com/Maxed-Out-99/ComfyUI-SmartModelLoaders-MXD"
+      ],
+      "install_type": "git-clone",
+      "description": "Smart, unified model loaders for ComfyUI that support both standard .safetensors and quantized .gguf formats — no switching nodes required. Includes flexible UNET and CLIP loaders that work across models like SDXL, SD3, Flux, and more."
+    },
+    {
       "author": "lucak5s",
       "title": "ComfyUI GFPGAN",
       "reference": "https://github.com/lucak5s/comfyui_gfpgan",
@@ -31205,6 +31215,26 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that weights tags based on their frequency/rarity in danbooru"
+    },
+    {
+      "author": "routhakash",
+      "title": "AkkiNodes LLM Suite: Your Personal AI Film Studio",
+      "reference": "https://github.com/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI",
+      "files": [
+        "https://github.com/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "A suite of advanced ComfyUI custom nodes for a complete 'Script-to-Screen' workflow, powered by local LLMs."
+    },
+    {
+      "author": "moonwhaler",
+      "title": "SeedVR2 Tiling Upscaler",
+      "reference": "https://github.com/moonwhaler/comfyui-seedvr2-tilingupscaler",
+      "files": [
+        "https://github.com/moonwhaler/comfyui-seedvr2-tilingupscaler"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for memory-efficient image upscaling using SeedVR2 models with advanced tiling and detail-preserving stitching."
     },
     {
       "author": "Ser-Hilary",
