@@ -15348,6 +15348,16 @@
       "description": "Unofficial optimized and enhanced fork of [a/LatentSync 1.5](https://github.com/bytedance/LatentSync) implementation for ComfyUI on Windows and WSL 2.0."
     },
     {
+      "author": "GeekyGhost",
+      "title": "ComfyUI-Image-Segmenting-Loader",
+      "reference": "https://github.com/GeekyGhost/ComfyUI-Image-Segmenting-Loader",
+      "files": [
+        "https://github.com/GeekyGhost/ComfyUI-Image-Segmenting-Loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Lets you send a section of an image to qwen edit or kontext to help isolate areas in need of change"
+    },
+    {
       "author": "Dobidop",
       "title": "Dobidop ComfyStereo",
       "id": "simple-stereoscopic",
@@ -18856,6 +18866,17 @@
       ],
       "install_type": "git-clone",
       "description": "A general extension to utilize TIPO or DanTagGen to do 'text-presampling' based on KGen library: [a/https://github.com/KohakuBlueleaf/KGen](https://github.com/KohakuBlueleaf/KGen)"
+    },
+    {
+      "author": "KohakuBlueleaf",
+      "title": "HDM-ext",
+      "id": "HDM",
+      "reference": "https://github.com/KohakuBlueleaf/HDM-ext",
+      "files": [
+        "https://github.com/KohakuBlueleaf/HDM-ext"
+      ],
+      "install_type": "git-clone",
+      "description": "HDM model loader for ComfyUI"
     },
     {
       "author": "hanoixan",
@@ -26383,6 +26404,16 @@
       "description": "This node displays the positive and negative prompts of a loaded ComfyUi image."
     },
     {
+      "author": "BigStationW",
+      "title": "ComfyUi-Scale-Image-to-Total-Pixels-Advanced",
+      "reference": "https://github.com/BigStationW/ComfyUi-Scale-Image-to-Total-Pixels-Advanced",
+      "files": [
+        "https://github.com/BigStationW/ComfyUi-Scale-Image-to-Total-Pixels-Advanced"
+      ],
+      "install_type": "git-clone",
+      "description": "A more advanced version of the original ImageScaleToTotalPixels node"
+    },
+    {
       "author": "rakki194",
       "title": "ComfyUI-ImageCompare",
       "reference": "https://github.com/rakki194/ComfyUI-ImageCompare",
@@ -31286,6 +31317,36 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of ComfyUI nodes for interfacing with the Vectorizer.ai API. Manipulate the results with options for scaling the SVG result back to raster image with increased resolution. Includes a background remover node to remove a prevalent background color from raster images. Enter credentials in config.json or directly within the node."
+    },
+    {
+      "author": "TinyBeeman",
+      "title": "ComfyUI-TinyBee",
+      "reference": "https://github.com/TinyBeeman/ComfyUI-TinyBee",
+      "files": [
+        "https://github.com/TinyBeeman/ComfyUI-TinyBee"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI, designed to provide utility functions for list processing, file management, and more."
+    },
+    {
+      "author": "Hangover3832",
+      "title": "ComfyUI_Hangover-Utils",
+      "reference": "https://github.com/Hangover3832/ComfyUI_Hangover-Utils",
+      "files": [
+        "https://github.com/Hangover3832/ComfyUI_Hangover-Utils"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository fully replaces and extends the previous Hangover Nodes"
+    },
+    {
+      "author": "Onionman61",
+      "title": "ComfyUI ModelScope Kontext API Node",
+      "reference": "https://github.com/Onionman61/ComfyUI-ModelScope-Kontext",
+      "files": [
+        "https://github.com/Onionman61/ComfyUI-ModelScope-Kontext"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI that allows users to perform Image-to-Image generation by calling the FLUX.1-Kontext-Dev model via the official ModelScope API."
     },
     {
       "author": "Ser-Hilary",
