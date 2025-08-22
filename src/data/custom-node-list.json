@@ -21143,16 +21143,6 @@
       "description": "FlexiLoRALoader - A ComfyUI custom node for dynamic LoRA weight management. Apply multiple LoRAs with flexible weight patterns and randomization features for creative AI image generation.\nFeatures: • Multiple LoRA handling (up to 3) • Weight pattern presets • Random/Sequential mode • Debug logging support"
     },
     {
-      "author": "zhilemann",
-      "title": "ComfyUI-moondream2",
-      "reference": "https://github.com/zhilemann/ComfyUI-moondream2",
-      "files": [
-        "https://github.com/zhilemann/ComfyUI-moondream2"
-      ],
-      "install_type": "git-clone",
-      "description": "nodes for nightly moondream2 VLM inference\nsupports only captioning and visual queries at the moment"
-    },
-    {
       "author": "cherninlab",
       "title": "Logo Generator Node for ComfyUI",
       "reference": "https://github.com/cherninlab/logo-generator-comfyui",
@@ -24560,6 +24550,16 @@
       "description": "A model cached-loader custom node for ComfyUI."
     },
     {
+      "author": "infinigence",
+      "title": "ComfyUI-Infinigence-Nodes",
+      "reference": "https://github.com/infinigence/ComfyUI-Infinigence-Nodes",
+      "files": [
+        "https://github.com/infinigence/ComfyUI-Infinigence-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: DrawTextNode, ..."
+    },
+    {
       "author": "zaheenrahman",
       "title": "ComfyUI-ColorCorrection",
       "reference": "https://github.com/zaheenrahman/ComfyUI-ColorCorrection",
@@ -26679,6 +26679,16 @@
       ],
       "install_type": "git-clone",
       "description": "Embeds an invisible watermark in the input image"
+    },
+    {
+      "author": "lihaoyun6",
+      "title": "Comfyui-QwenPromptRewriter",
+      "reference": "https://github.com/lihaoyun6/ComfyUI-QwenPromptRewriter",
+      "files": [
+        "https://github.com/lihaoyun6/ComfyUI-QwenPromptRewriter"
+      ],
+      "install_type": "git-clone",
+      "description": "Enhance your prompts using the Qwen LLM to align the behavior and capabilities of the Qwen-Image/Edit online version."
     },
     {
       "author": "northumber",
@@ -31347,6 +31357,46 @@
       ],
       "install_type": "git-clone",
       "description": "This is a custom node for ComfyUI that allows users to perform Image-to-Image generation by calling the FLUX.1-Kontext-Dev model via the official ModelScope API."
+    },
+    {
+      "author": "svntax",
+      "title": "ComfyUI-RetroDiffusion-API-Node",
+      "reference": "https://github.com/svntax/ComfyUI-RetroDiffusion-API-Node",
+      "files": [
+        "https://github.com/svntax/ComfyUI-RetroDiffusion-API-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for the [a/Retro Diffusion API](https://retrodiffusion.ai/)"
+    },
+    {
+      "author": "chyer",
+      "title": "Chye ComfyUI Toolset",
+      "reference": "https://github.com/chyer/Chye-ComfyUI-Toolset",
+      "files": [
+        "https://github.com/chyer/Chye-ComfyUI-Toolset"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive toolset of ComfyUI custom nodes for latent generation, image processing, and workflow utilities"
+    },
+    {
+      "author": "bhvbhushan",
+      "title": "ComfyUI LoRA Block Weight Loader",
+      "reference": "https://github.com/bhvbhushan/ComfyUI-LoRABlockWeight",
+      "files": [
+        "https://github.com/bhvbhushan/ComfyUI-LoRABlockWeight"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced LoRA loader with per-block weight control for fine-grained influence over different model layers in ComfyUI"
+    },
+    {
+      "author": "lucasgattas",
+      "title": "comfyui-egregora-tiled",
+      "reference": "https://github.com/lucasgattas/comfyui-egregora-tiled",
+      "files": [
+        "https://github.com/lucasgattas/comfyui-egregora-tiled"
+      ],
+      "install_type": "git-clone",
+      "description": "Tiled regional prompting + tiled VAE decode with seam-free blending for ComfyUI"
     },
     {
       "author": "Ser-Hilary",
