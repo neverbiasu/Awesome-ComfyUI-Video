@@ -28434,7 +28434,7 @@
     {
       "author": "xuhuan2048",
       "title": "ExtractStoryboards",
-      "id": "xuhuan2048_ExtractStoryboards",
+      "id": "comfyui_extractstoryboards",
       "reference": "https://github.com/gitadmini/comfyui_extractstoryboards",
       "files": [
         "https://github.com/gitadmini/comfyui_extractstoryboards"
