@@ -3293,6 +3293,16 @@
       "description": "ComfyUI wrapper nodes for [a/WanVideo](https://github.com/Wan-Video/Wan2.1) and related models."
     },
     {
+      "author": "kijai",
+      "title": "ComfyUI-MelBandRoFormer",
+      "reference": "https://github.com/kijai/ComfyUI-MelBandRoFormer",
+      "files": [
+        "https://github.com/kijai/ComfyUI-MelBandRoFormer"
+      ],
+      "install_type": "git-clone",
+      "description": "Mel-Band RoFormer for Music Source Separation"
+    },
+    {
       "author": "hhhzzyang",
       "title": "Comfyui-Lama",
       "id": "lama",
@@ -5023,6 +5033,16 @@
       "nodename_pattern": "_jru$",
       "install_type": "git-clone",
       "description": "Word embedding utility nodes for ComfyUI. Load a pre-trained embedding model, explore neighbors, do analogies, and project any token/phrase onto 1D/2D/3D semantic axes with human‑readable summaries."
+    },
+    {
+      "author": "jtrue",
+      "title": "ComfyUI-Rect",
+      "reference": "https://github.com/jtrue/ComfyUI-Rect",
+      "files": [
+        "https://github.com/jtrue/ComfyUI-Rect"
+      ],
+      "install_type": "git-clone",
+      "description": "Interactive rectangle tools for ComfyUI: Select, Crop, Mask, Fill."
     },
     {
       "author": "filliptm",
@@ -19138,6 +19158,16 @@
       "description": "Prompt Stash is a simple plugin for ComfyUI that lets you save your prompts and organize them into multiple lists. It also features a pass-through functionality, so you can hook it up to an LLM node (or any text outputting node) and capture its outputs directly."
     },
     {
+      "author": "phazei",
+      "title": "ComfyUI-OrpheusTTS-LMStudio",
+      "reference": "https://github.com/phazei/ComfyUI-OrpheusTTS-LMStudio",
+      "files": [
+        "https://github.com/phazei/ComfyUI-OrpheusTTS-LMStudio"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate Orpheus TTS audio via LM Studio"
+    },
+    {
       "author": "Doctor Diffusion",
       "title": "Schedulizer",
       "id": "schedulizer",
@@ -20888,6 +20918,16 @@
       ],
       "install_type": "git-clone",
       "description": "A combined node for ComfyUI with six configurable tabs for managing multiple parameter configurations, including guidance, sampler, scheduler, steps, and denoise."
+    },
+    {
+      "author": "Light-x02",
+      "title": "Crop Image by Lightx02",
+      "reference": "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02",
+      "files": [
+        "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02"
+      ],
+      "install_type": "git-clone",
+      "description": "CropImageByLightx02 is a ComfyUI node that allows cropping an image (and optionally its mask) using pixel values."
     },
     {
       "author": "marcoc2",
@@ -27677,6 +27717,16 @@
       "description": "ComfyUI Timm Backbone Nodes is a custom node set that enables you to load and use pre-trained models from the [a/timm](https://github.com/huggingface/pytorch-image-models) library within ComfyUI workflows."
     },
     {
+      "author": "p1atdev",
+      "title": "TKG-DM (Training-free Chroma Key Content Generation Diffusion Model) for ComfyUI",
+      "reference": "https://github.com/p1atdev/comfyui-tkg-chroma-key",
+      "files": [
+        "https://github.com/p1atdev/comfyui-tkg-chroma-key"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository provides an unofficial ComfyUI custom node implementation of the paper TKG-DM: Training-free Chroma Key Content Generation Diffusion Model."
+    },
+    {
       "author": "Zch6111",
       "title": "AI_Text_Comfyui",
       "reference": "https://github.com/Zch6111/AI_Text_Comfyui",
@@ -28059,6 +28109,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that randomly selects a (Sampler, Scheduler, Steps) combination from user-defined presets."
+    },
+    {
+      "author": "hvppycoding",
+      "title": "json prompt renderer",
+      "reference": "https://github.com/hvppycoding/comfyui-json-prompt-renderer",
+      "files": [
+        "https://github.com/hvppycoding/comfyui-json-prompt-renderer"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: Extract JSON, 'Prompt: Render Template from JSON'"
     },
     {
       "author": "o-l-l-i",
@@ -29966,13 +30026,13 @@
     },
     {
       "author": "aiaiaikkk",
-      "title": "kontext-super-prompt",
-      "reference": "https://github.com/aiaiaikkk/kontext-super-prompt",
+      "title": "super-prompt-canvas",
+      "reference": "https://github.com/aiaiaikkk/super-prompt-canvas",
       "files": [
-        "https://github.com/aiaiaikkk/kontext-super-prompt"
+        "https://github.com/aiaiaikkk/super-prompt-canvas"
       ],
       "install_type": "git-clone",
-      "description": "Super Prompt System Powered by Flux Kontext Leveraging visual annotations and AI-enhanced control, this system enables precise, multimodal image editing. Users simply select a region and describe it—structured prompts are auto-generated to guide the Kontext model in smart local or global edits."
+      "description": "ComfyUI nodes for image editing prompt generation with visual canvas annotation and multi-model AI assistance"
     },
     {
       "author": "seanjang990",
@@ -31440,6 +31500,16 @@
       "description": "Auto Prompt Schedule is a ComfyUI helper node for the Prompt Schedule Node or the Batch Prompt Schedule node from Fizzledorf. You need this Prompt Schedule nodes to make use of the Auto Prompt Schedule Node."
     },
     {
+      "author": "ReinerBforartists",
+      "title": "ComfyUI_Text_Line_Combine",
+      "reference": "https://github.com/ReinerBforartists/comfyui_text_line_combine",
+      "files": [
+        "https://github.com/ReinerBforartists/comfyui_text_line_combine"
+      ],
+      "install_type": "git-clone",
+      "description": "Combines texts line by line to a single text"
+    },
+    {
       "author": "dimtoneff",
       "title": "ComfyUI-VL-Nodes",
       "reference": "https://github.com/dimtoneff/ComfyUI-VL-Nodes",
@@ -31458,6 +31528,82 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node that performs object detection using YOLOv8 and outputs individual images for each detected object. Perfect for automatic mask generation, object isolation, and batch processing workflows."
+    },
+    {
+      "author": "Daxamur",
+      "title": "DaxNodes",
+      "reference": "https://civitai.com/user/Daxamur",
+      "files": [
+        "https://github.com/Daxamur/DaxNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI video processing nodes with workflow metadata support",
+      "pip": [
+        "mediapipe>=0.10.0",
+        "opencv-python>=4.8.0",
+        "scipy>=1.10.0",
+        "color-matcher>=0.3.0"
+      ]
+    },
+    {
+      "author": "Dehypnotic",
+      "title": "RangeToString",
+      "reference": "https://github.com/Dehypnotic/comfyui-range-to-string",
+      "files": [
+        "https://github.com/Dehypnotic/comfyui-range-to-string"
+      ],
+      "install_type": "git-clone",
+      "description": "Lightweight node that generates a string of numbers between a start and end value. Supports positive and negative steps, configurable separators, and inclusive/exclusive end values."
+    },
+    {
+      "author": "KY-2000",
+      "title": "comfyui-ksampler-tester-loop",
+      "reference": "https://github.com/KY-2000/comfyui-ksampler-tester-loop",
+      "files": [
+        "https://github.com/KY-2000/comfyui-ksampler-tester-loop"
+      ],
+      "install_type": "git-clone",
+      "description": "Batch samplers, schedulers, cfg, shift and steps tester custom node, automatic looping functionality for Ksampler node"
+    },
+    {
+      "author": "Firetheft",
+      "title": "ComfyUI Civitai Gallery",
+      "reference": "https://github.com/Firetheft/ComfyUI_Civitai_Gallery",
+      "files": [
+        "https://github.com/Firetheft/ComfyUI_Civitai_Gallery"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Civitai Gallery is a powerful custom node for ComfyUI that integrates a seamless image browser for the Civitai website directly into your workflow. This node allows you to browse, search, and select images from Civitai and instantly import their prompts, negative prompts, and full-resolution images into your workflow. It is designed to significantly speed up your creative process by eliminating the need to switch between your browser and ComfyUI."
+    },
+    {
+      "author": "RegulusAlpha",
+      "title": "ComfyUI Dynamic Prompting Simplified",
+      "reference": "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified",
+      "files": [
+        "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified"
+      ],
+      "install_type": "git-clone",
+      "description": "A minimal dynamic prompting + mirrored wildcards node for ComfyUI."
+    },
+    {
+      "author": "Jelosus2",
+      "title": "ComfyUI VAE Reflection",
+      "reference": "https://github.com/Jelosus2/comfyui-vae-reflection",
+      "files": [
+        "https://github.com/Jelosus2/comfyui-vae-reflection"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple custom node to use reflect padding mode in the conv layers of VAEs."
+    },
+    {
+      "author": "netroxin",
+      "title": "comfyui_netro",
+      "reference": "https://github.com/netroxin/comfyui_netro",
+      "files": [
+        "https://github.com/netroxin/comfyui_netro"
+      ],
+      "install_type": "git-clone",
+      "description": "#Camera Movement Prompt Node for ComfyUI\nThis custom node script for ComfyUI generates descriptive camera movement prompts based on user-selected movement options for Wan2.2"
     },
     {
       "author": "Ser-Hilary",
