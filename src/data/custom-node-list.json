@@ -945,6 +945,7 @@
       "title": "NodeGPT",
       "id": "nodegpt",
       "reference": "https://github.com/xXAdonesXx/NodeGPT",
+      "reference2": "https://github.com/antonym-git/NodeGPT",
       "files": [
         "https://github.com/xXAdonesXx/NodeGPT"
       ],
@@ -7997,6 +7998,16 @@
       "description": "A complete replacement for rgthree's Power Lora Loader with zero dependencies and two specialized versions to fit any workflow."
     },
     {
+      "author": "ShmuelRonen",
+      "title": "ComfyUI-NanoBanano",
+      "reference": "https://github.com/ShmuelRonen/ComfyUI-NanoBanano",
+      "files": [
+        "https://github.com/ShmuelRonen/ComfyUI-NanoBanano"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for Google's Gemini 2.5 Flash Image (aka 'Nano Banana') model - the state-of-the-art image generation and editing AI."
+    },
+    {
       "author": "redhottensors",
       "title": "ComfyUI-Prediction",
       "id": "prediction",
@@ -10167,6 +10178,16 @@
       ],
       "install_type": "git-clone",
       "description": "This is a ComfyUI plugin that integrated OpenCut into ComfyUI, originally developed by [a/OpenCut](https://github.com/OpenCut-app/OpenCut)"
+    },
+    {
+      "author": "jtydhr88",
+      "title": "ComfyUI-AudioMass",
+      "reference": "https://github.com/jtydhr88/ComfyUI-AudioMass",
+      "files": [
+        "https://github.com/jtydhr88/ComfyUI-AudioMass"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI plugin that provides a user interface of AudioMass, originally developed by [a/AudioMass](https://github.com/pkalogiros/audiomass)"
     },
     {
       "author": "SeaArtLab",
@@ -16554,7 +16575,7 @@
       "title": "ComfyUI_mittimiDaisyChainText",
       "reference": "https://github.com/mittimi/ComfyUI_mittimiDaisyChainText",
       "files": [
-        "https://github.com/mittimi/ComfyUI_mittimiWidthHeight"
+        "https://github.com/mittimi/ComfyUI_mittimiDaisyChainText"
       ],
       "install_type": "git-clone",
       "description": "It has the ability to concatenate text."
@@ -22504,6 +22525,7 @@
       "author": "duchamps0305",
       "title": "comfyui-white-extractor",
       "reference": "https://github.com/duchamps0305/comfyui-white-extractor",
+      "reference2": "https://github.com/alexpuliatti/comfyui-white-extractor",
       "files": [
         "https://github.com/duchamps0305/comfyui-white-extractor"
       ],
@@ -24250,9 +24272,9 @@
     {
       "author": "mit-han-lab",
       "title": "ComfyUI-nunchaku",
-      "reference": "https://github.com/mit-han-lab/ComfyUI-nunchaku",
+      "reference": "https://github.com/nunchaku-tech/ComfyUI-nunchaku",
       "files": [
-        "https://github.com/mit-han-lab/ComfyUI-nunchaku"
+        "https://github.com/nunchaku-tech/ComfyUI-nunchaku"
       ],
       "install_type": "git-clone",
       "description": "Nunchaku ComfyUI Node. Nunchaku is the inference that supports SVDQuant. SVDQuant is a new post-training training quantization paradigm for diffusion models, which quantize both the weights and activations of FLUX.1 to 4 bits, achieving 3.5× memory and 8.7× latency reduction on a 16GB laptop 4090 GPU. See more details: https://github.com/mit-han-lab/nunchaku"
@@ -25102,17 +25124,6 @@
       ],
       "install_type": "git-clone",
       "description": "Utility nodes for some randomness in your workflows, like random latent sizes. A few modifications to a few existing nodes, includes nodes for sampler and model parameters. Also includes two schedulers and four samplers that can be used with any KSampler node."
-    },
-    {
-      "author": "Ky11le",
-      "title": "ygo_tools",
-      "reference": "https://github.com/Ky11le/ygo_tools",
-      "reference2": "https://github.com/Ky11le/draw_tools",
-      "files": [
-        "https://github.com/Ky11le/ygo_tools"
-      ],
-      "install_type": "git-clone",
-      "description": "A set of custom ComfyUI nodes designed for creating Yu-Gi-Oh! card illustrations."
     },
     {
       "author": "Ky11le",
@@ -27155,6 +27166,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI startup optimizer and patcher"
+    },
+    {
+      "author": "wildminder",
+      "title": "ComfyUI-VibeVoice",
+      "reference": "https://github.com/wildminder/ComfyUI-VibeVoice",
+      "files": [
+        "https://github.com/wildminder/ComfyUI-VibeVoice"
+      ],
+      "install_type": "git-clone",
+      "description": "VibeVoice TTS. Expressive, long-form, multi-speaker conversational audio"
     },
     {
       "author": "cloudkoala",
@@ -31500,26 +31521,6 @@
       "description": "Advanced LoRA loader with per-block weight control for fine-grained influence over different model layers in ComfyUI"
     },
     {
-      "author": "lucasgattas",
-      "title": "comfyui-egregora-tiled",
-      "reference": "https://github.com/lucasgattas/comfyui-egregora-tiled",
-      "files": [
-        "https://github.com/lucasgattas/comfyui-egregora-tiled"
-      ],
-      "install_type": "git-clone",
-      "description": "Tiled regional prompting + tiled VAE decode with seam-free blending for ComfyUI"
-    },
-    {
-      "author": "jialuw0830",
-      "title": "comfyui-egregora-regional",
-      "reference": "https://github.com/lucasgattas/comfyui-egregora-regional",
-      "files": [
-        "https://github.com/lucasgattas/comfyui-egregora-regional"
-      ],
-      "install_type": "git-clone",
-      "description": "Image Tile Split with Region-Aware Prompting for ComfyUI"
-    },
-    {
       "author": "BEIBEI-star661",
       "title": "SJ_sweepEffect_Comfyui",
       "reference": "https://github.com/BEIBEI-star661/SJ_sweepEffect_Comfyui",
@@ -31765,6 +31766,36 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node extension that provides easy-to-use prompt templates and wildcards for AI image generation."
+    },
+    {
+      "author": "isaac-mcfadyen",
+      "title": "ComfyUI-QwenClip",
+      "reference": "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip",
+      "files": [
+        "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip"
+      ],
+      "install_type": "git-clone",
+      "description": "A variety of random text encoder tools intended for use with ComfyUI and Qwen Image/Qwen Image Edit. More (may) be added as I try out various modifications to Qwen Image."
+    },
+    {
+      "author": "isaac-mcfadyen",
+      "title": "ComfyUI Popo Utility",
+      "reference": "https://github.com/popoimm/comfyui-popo-utility",
+      "files": [
+        "https://github.com/popoimm/comfyui-popo-utility"
+      ],
+      "install_type": "git-clone",
+      "description": "High-Performance ComfyUI Custom Node Toolkit - Modular and Extensible Architecture\nA utility toolkit designed specifically for ComfyUI image processing, built with a modular architecture that supports fast extension and the addition of new nodes."
+    },
+    {
+      "author": "orion4d",
+      "title": "SharpnessPro pour ComfyUI",
+      "reference": "https://github.com/orion4d/ComfyUI_SharpnessPro",
+      "files": [
+        "https://github.com/orion4d/ComfyUI_SharpnessPro"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of high-quality nodes for ComfyUI, dedicated to improving the sharpness, clarity, and texture of your images"
     },
     {
       "author": "Ser-Hilary",
