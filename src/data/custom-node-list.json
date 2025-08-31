@@ -27252,6 +27252,16 @@
       "description": "Automatic background removal and transparency generation for ComfyUI"
     },
     {
+      "author": "Limbicnation",
+      "title": "ComfyUI-RandomSeedGenerator",
+      "reference": "https://github.com/Limbicnation/ComfyUI-RandomSeedGenerator",
+      "files": [
+        "https://github.com/Limbicnation/ComfyUI-RandomSeedGenerator"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced seed generator for ComfyUI with multiple modes, state persistence, and cross-library synchronization"
+    },
+    {
       "author": "hao-ai-lab",
       "title": "ComfyUI-FastVideo",
       "reference": "https://github.com/hao-ai-lab/FastVideo",
@@ -31679,16 +31689,6 @@
       "description": "#Camera Movement Prompt Node for ComfyUI\nThis custom node script for ComfyUI generates descriptive camera movement prompts based on user-selected movement options for Wan2.2"
     },
     {
-      "author": "netroxin",
-      "title": "Netro_wildcards",
-      "reference": "https://github.com/netroxin/comfyui_netro_wildcards",
-      "files": [
-        "https://github.com/netroxin/comfyui_netro_wildcards"
-      ],
-      "install_type": "git-clone",
-      "description": "Since I used 'simple wildcards' from Vanilla and it no longer works with the new Comfy UI version for me, I created an alternative. This CustomNode takes the entire contents of your wildcards-folder(comfyui wildcards) and creates a node for each one."
-    },
-    {
       "author": "alexds9",
       "title": "Save Checkpoint with Metadata",
       "reference": "https://github.com/a-l-e-x-d-s-9/ComfyUI-SaveCheckpointWithMetadata",
@@ -31947,6 +31947,76 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of utility nodes for ComfyUI to improve workflow efficiency."
+    },
+    {
+      "author": "huwenkai26",
+      "title": "ComfyUI Text Remove Node",
+      "reference": "https://github.com/huwenkai26/comfyui-remove-text",
+      "files": [
+        "https://github.com/huwenkai26/comfyui-remove-text"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI custom node designed to automatically detect and remove text from images."
+    },
+    {
+      "author": "synchronicity-labs",
+      "title": "ComfyUI Sync Lipsync Node",
+      "reference": "https://github.com/synchronicity-labs/sync-comfyui",
+      "files": [
+        "https://github.com/synchronicity-labs/sync-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface."
+    },
+    {
+      "author": "BAIKEMARK",
+      "title": "Civitai Prompt Stats Node",
+      "reference": "https://github.com/BAIKEMARK/ComfyUI_Civitai_Prompt_Stats",
+      "files": [
+        "https://github.com/BAIKEMARK/ComfyUI_Civitai_Prompt_Stats"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node that quickly fetches the most commonly used positive and negative prompts for Civitai models (Checkpoint / Lora) from the community, helping you effortlessly enhance your own creations!"
+    },
+    {
+      "author": "BAIKEMARK",
+      "title": "Civitai Recipe Finder",
+      "reference": "https://github.com/BAIKEMARK/ComfyUI-Civitai-Recipe",
+      "files": [
+        "https://github.com/BAIKEMARK/ComfyUI-Civitai-Recipe"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful node suite that finds the community's best 'recipes' for any Civitai model by analyzing top prompts, LoRA triggers, parameters, and combos."
+    },
+    {
+      "author": "Jarcis-cy",
+      "title": "HunyuanVideo-Foley Audio Generator",
+      "reference": "https://github.com/Jarcis-cy/ComfyUI-HunyuanVideoFoley",
+      "files": [
+        "https://github.com/Jarcis-cy/ComfyUI-HunyuanVideoFoley"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI wrapper nodes for HunyuanVideo-Foley: Generate audio from video + text prompts"
+    },
+    {
+      "author": "railep",
+      "title": "HunyuanVideo-Foley Audio Generator",
+      "reference": "https://github.com/railep/ComfyUI-HunyuanVideo-Foley",
+      "files": [
+        "https://github.com/railep/ComfyUI-HunyuanVideo-Foley"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for generating synchronized audio for videos using the HunyuanVideo-Foley model."
+    },
+    {
+      "author": "Dehypnotic",
+      "title": "AspectRatioAdvanced",
+      "reference": "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced",
+      "files": [
+        "https://raw.githubusercontent.com/Dehypnotic/comfyui-aspect-ratio-advanced/main/aspect_ratio_advanced.py"
+      ],
+      "install_type": "copy",
+      "description": "An advanced aspect ratio calculator and image scaler with flexible scaling modes and intelligent image handling."
     },
     {
       "author": "Ser-Hilary",
