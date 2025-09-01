@@ -20380,6 +20380,16 @@
       "description": "ComfyUI custom node for flexible and efficient image color correction and post-processing."
     },
     {
+      "author": "itsjustregi",
+      "title": "SDXL Adherence",
+      "reference": "https://github.com/regiellis/ComfyUI-SDXL-Adherence",
+      "files": [
+        "https://github.com/regiellis/ComfyUI-SDXL-Adherence"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes that improve SDXL prompt adherence and any-size/tiled VAE workflows."
+    },
+    {
       "author": "mrhan1993",
       "title": "ComfyUI-Fooocus",
       "reference": "https://github.com/mrhan1993/ComfyUI-Fooocus",
@@ -29541,6 +29551,16 @@
       "description": "A curated collection of reusable ComfyUI nodes developed by TGB. These sidecodes encapsulate key breakthroughs in model sampling, noise scheduling, and image refinement for enhanced stable diffusion workflows."
     },
     {
+      "author": "Ltamann",
+      "title": "FastVLM-7B ComfyUI Node",
+      "reference": "https://github.com/Ltamann/ComfyUI-FastVLM-7B",
+      "files": [
+        "https://github.com/Ltamann/ComfyUI-FastVLM-7B"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-FastVLM-7B Apple A custom node for Apple’s FastVLM-7B vision-language model. This node lets you pass an image + instruction and returns a generated text response."
+    },
+    {
       "author": "DavidPiazza",
       "title": "Network Bending for ComfyUI",
       "reference": "https://github.com/DavidPiazza/network_bending",
@@ -31649,6 +31669,36 @@
       "description": "Batch samplers, schedulers, cfg, shift and steps tester custom node, automatic looping functionality for Ksampler node"
     },
     {
+      "author": "KY-2000",
+      "title": "RES4LYF-tester-loop",
+      "reference": "https://github.com/KY-2000/RES4LYF-tester-loop",
+      "files": [
+        "https://github.com/KY-2000/RES4LYF-tester-loop"
+      ],
+      "install_type": "git-clone",
+      "description": "Batch samplers, schedulers, cfg, shift and steps tester custom node, automatic looping functionality for RES4LYF custom nodes"
+    },
+    {
+      "author": "KY-2000",
+      "title": "ComfyUI_PuLID_Flux_ll_FaceNet",
+      "reference": "https://github.com/KY-2000/ComfyUI_PuLID_Flux_ll_FaceNet",
+      "files": [
+        "https://github.com/KY-2000/ComfyUI_PuLID_Flux_ll_FaceNet"
+      ],
+      "install_type": "git-clone",
+      "description": "Same Function as original ComfyUI_PuLID_Flux_ll repository, with FaceNet Implementation that is safe for commercial usage."
+    },
+    {
+      "author": "KY-2000",
+      "title": "comfyui-save-image-enhanced",
+      "reference": "https://github.com/KY-2000/comfyui-save-image-enhanced",
+      "files": [
+        "https://github.com/KY-2000/comfyui-save-image-enhanced"
+      ],
+      "install_type": "git-clone",
+      "description": "enable to save the image without the default filename suffix, with the feature of saving caption txt file to save prompts or descriptions of the image."
+    },
+    {
       "author": "Firetheft",
       "title": "ComfyUI Civitai Gallery",
       "reference": "https://github.com/Firetheft/ComfyUI_Civitai_Gallery",
@@ -31959,16 +32009,6 @@
       "description": "This is a ComfyUI custom node designed to automatically detect and remove text from images."
     },
     {
-      "author": "synchronicity-labs",
-      "title": "ComfyUI Sync Lipsync Node",
-      "reference": "https://github.com/synchronicity-labs/sync-comfyui",
-      "files": [
-        "https://github.com/synchronicity-labs/sync-comfyui"
-      ],
-      "install_type": "git-clone",
-      "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface."
-    },
-    {
       "author": "BAIKEMARK",
       "title": "Civitai Prompt Stats Node",
       "reference": "https://github.com/BAIKEMARK/ComfyUI_Civitai_Prompt_Stats",
@@ -32017,6 +32057,96 @@
       ],
       "install_type": "copy",
       "description": "An advanced aspect ratio calculator and image scaler with flexible scaling modes and intelligent image handling."
+    },
+    {
+      "author": "GsusGG",
+      "title": "ComfyUI-CozyGen",
+      "reference": "https://github.com/gsusgg/ComfyUI_CozyGen",
+      "files": [
+        "https://github.com/gsusgg/ComfyUI_CozyGen"
+      ],
+      "install_type": "git-clone",
+      "description": "A set of custom nodes and aiohttp server for a simple ComfyUI browser and mobile device experience for any t2i image workflow."
+    },
+    {
+      "author": "daehwa",
+      "title": "ComfyUI-NanoBananaAPI",
+      "reference": "https://github.com/daehwa00/ComfyUI-NanoBananaAPI",
+      "files": [
+        "https://github.com/daehwa00/ComfyUI-NanoBananaAPI"
+      ],
+      "install_type": "git-clone",
+      "description": "Creates images using the NanoBanana API. To use it, you must enter your issued API key."
+    },
+    {
+      "author": "annewj023",
+      "title": "Google Nano",
+      "reference": "https://github.com/annewj023/Comfyui_google_nano",
+      "files": [
+        "https://github.com/annewj023/Comfyui_google_nano"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node based on OpenRouter that supports calling the Google Gemini model via the OpenAI API to generate new images from reference images and prompts."
+    },
+    {
+      "author": "MushroomFleet",
+      "title": "Zenkai-POML for ComfyUI",
+      "reference": "https://github.com/MushroomFleet/ComfyUI-DJZ-POML",
+      "files": [
+        "https://github.com/MushroomFleet/ComfyUI-DJZ-POML"
+      ],
+      "install_type": "git-clone",
+      "description": "Bring Microsoft's POML (Prompt Orchestration Markup Language) to your ComfyUI workflows! Create structured, reusable, and powerful prompts with visual node-based editing."
+    },
+    {
+      "author": "Urabewe",
+      "title": "ComfyUI Video Extend Counter",
+      "reference": "https://github.com/Urabewe/ComfyUI-CountS2VExtend",
+      "files": [
+        "https://github.com/Urabewe/ComfyUI-CountS2VExtend"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple utility node that counts active Video S2V Extend nodes in your workflow and returns that number plus one. Now you don't have to remember to update the batch number. Just set your extend nodes and go. It was easy to forget so I made this quick and dirty."
+    },
+    {
+      "author": "Juste-Leo2",
+      "title": "USO Nodes for ComfyUI",
+      "reference": "https://github.com/Juste-Leo2/USO_ComfyUI",
+      "files": [
+        "https://github.com/Juste-Leo2/USO_ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes to integrate the USO image generation model (based on FLUX.1 by ByteDance) into ComfyUI.\nThis project is an implementation based on the official source code from the [a/ByteDance/USO](https://github.com/bytedance/USO) repository."
+    },
+    {
+      "author": "mengqin",
+      "title": "Unet Bnb Model Loader",
+      "reference": "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader",
+      "files": [
+        "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader"
+      ],
+      "install_type": "git-clone",
+      "description": "A general comfyui model loading plugin that supports loading unet models quantized in bnb-4bit (nf4 and fp4) format"
+    },
+    {
+      "author": "Artificial-Sweetener",
+      "title": "WhiteRabbit: Master the Flow of Time",
+      "reference": "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit",
+      "files": [
+        "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit"
+      ],
+      "install_type": "git-clone",
+      "description": "This is comfyui-WhiteRabbit, a nodepack designed to help you work with video from within ComfyUI.\nThe Rabbit's specialty is looping through time to help you create seamless looping video, but that's not all she brings to the tea party. Quality, arbitrary framerate resampling and super fast image resizing are also part of the kit!\nWhile some of these nodes certainly can be used for single-image tasks, every one of them is designed with efficient batch handling in mind and that means the performance gains compound, letting you process whole video clips as fast as possible within your hardware constraints."
+    },
+    {
+      "author": "hujuying",
+      "title": "ComfyUI ModelScope API Node",
+      "reference": "https://github.com/hujuying/ComfyUI-ModelScope-API",
+      "files": [
+        "https://github.com/hujuying/ComfyUI-ModelScope-API"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a universal custom node for ComfyUI that supports both Text-to-Image and Image-to-Image generation by calling various models via the official ModelScope API."
     },
     {
       "author": "Ser-Hilary",
