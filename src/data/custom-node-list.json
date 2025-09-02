@@ -32130,13 +32130,13 @@
     },
     {
       "author": "Artificial-Sweetener",
-      "title": "WhiteRabbit: Master the Flow of Time",
+      "title": "WhiteRabbit",
       "reference": "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit",
       "files": [
         "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit"
       ],
       "install_type": "git-clone",
-      "description": "This is comfyui-WhiteRabbit, a nodepack designed to help you work with video from within ComfyUI.\nThe Rabbit's specialty is looping through time to help you create seamless looping video, but that's not all she brings to the tea party. Quality, arbitrary framerate resampling and super fast image resizing are also part of the kit!\nWhile some of these nodes certainly can be used for single-image tasks, every one of them is designed with efficient batch handling in mind and that means the performance gains compound, letting you process whole video clips as fast as possible within your hardware constraints."
+      "description": "A nodepack designed to help you work with video from within ComfyUI that specializes in handling image batches efficiency and creating video loops."
     },
     {
       "author": "hujuying",
@@ -32147,6 +32147,16 @@
       ],
       "install_type": "git-clone",
       "description": "This is a universal custom node for ComfyUI that supports both Text-to-Image and Image-to-Image generation by calling various models via the official ModelScope API."
+    },
+    {
+      "author": "chaserhkj",
+      "title": "Chaser's Custom Nodes",
+      "reference": "https://github.com/chaserhkj/ComfyUI-Chaser-nodes",
+      "files": [
+        "https://github.com/chaserhkj/ComfyUI-Chaser-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: Upload image(s) to WebDAV, Upload video as WebM to WebDAV, Load image from WebDAV, Evaluate S-Expr with integer output, Evaluate S-Expr with float output"
     },
     {
       "author": "Ser-Hilary",
