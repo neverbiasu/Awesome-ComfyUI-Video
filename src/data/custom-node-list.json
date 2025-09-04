@@ -32250,16 +32250,6 @@
       "description": "This node pack integrates the core capabilities of the Canary-1b-v2 model, providing three main features: it can transcribe audio in any of 25 supported languages into text in the same language, translate audio from 24 source languages directly into English, and translate English audio directly into one of the 24 other supported languages."
     },
     {
-      "author": "D3lUX3I",
-      "title": "VideoPromptEnhancer",
-      "reference": "https://github.com/D3lUX3I/ComfyUI-VideoPromptEnhancer",
-      "files": [
-        "https://github.com/D3lUX3I/ComfyUI-VideoPromptEnhancer"
-      ],
-      "install_type": "git-clone",
-      "description": "This node generates a professional prompt from an input text for modern video AI models (e.g., Alibaba Wan 2.2) via the OpenRouter API."
-    },
-    {
       "author": "Frief84",
       "title": "ComfyUI-LoRAWeightAxisXY",
       "reference": "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY",
@@ -32304,6 +32294,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that inserts images into videos."
+    },
+    {
+      "author": "sumitchatterjee13",
+      "title": "Nuke Nodes for ComfyUI",
+      "reference": "https://github.com/sumitchatterjee13/nuke-nodes-comfyui",
+      "files": [
+        "https://github.com/sumitchatterjee13/nuke-nodes-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive collection of ComfyUI custom nodes that replicate the functionality of popular Nuke compositing nodes. Includes merge, grade, transform, blur nodes and more for professional compositing workflows."
     },
     {
       "author": "Ser-Hilary",
