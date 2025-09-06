@@ -24253,10 +24253,10 @@
     },
     {
       "author": "chenpipi0807",
-      "title": "Comfyui-Qwen-image-edit-CharacterConsistency",
-      "reference": "https://github.com/chenpipi0807/Comfyui-Qwen-image-edit-CharacterConsistency",
+      "title": "Comfyui-CustomizeTextEncoder-Qwen-image",
+      "reference": "https://github.com/chenpipi0807/Comfyui-CustomizeTextEncoder-Qwen-image",
       "files": [
-        "https://github.com/chenpipi0807/Comfyui-Qwen-image-edit-CharacterConsistency"
+        "https://github.com/chenpipi0807/Comfyui-CustomizeTextEncoder-Qwen-image"
       ],
       "install_type": "git-clone",
       "description": "The official ComfyUI TextEncodeQwenImageEdit node simplifies prompt engineering. This node supports custom system prompts to enhance flexibility."
@@ -32357,6 +32357,36 @@
       "description": "ThoughtBubble is a custom node for ComfyUI that provides an interactive canvas to build and manage your prompts in a more visual and organized way. Think of it as a whiteboard for your ideas, allowing you to link different concepts, create conditional logic, and dynamically generate prompts using a powerful set of commands."
     },
     {
+      "author": "Justify87",
+      "title": "ComfyUI Multi-Analysis Heatmaps",
+      "reference": "https://github.com/Justify87/ComfyUI-Multi-Analysis-Heatmaps",
+      "files": [
+        "https://github.com/Justify87/ComfyUI-Multi-Analysis-Heatmaps"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node for visual comparison of two images using multiple perceptual and mathematical methods. The goal: make hidden differences visible as colorful heatmaps, so you can see where an upscaler, denoiser, or diffusion model changed your image — even when your eyes can’t tell at first glance."
+    },
+    {
+      "author": "iguanesolutions",
+      "title": "Flux Resolution",
+      "reference": "https://github.com/iguanesolutions/comfyui-flux-resolution",
+      "files": [
+        "https://github.com/iguanesolutions/comfyui-flux-resolution"
+      ],
+      "install_type": "git-clone",
+      "description": "Get the closest compatible flux resolution from a given resolution."
+    },
+    {
+      "author": "Vantage with AI",
+      "title": "Vantage-HunyuanFoley",
+      "reference": "https://github.com/vantagewithai/Vantage-HunyuanFoley",
+      "files": [
+        "https://github.com/vantagewithai/Vantage-HunyuanFoley"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
@@ -32753,6 +32783,17 @@
       ],
       "install_type": "unzip",
       "description": "This is a node to convert an image into a CMYK Halftone dot image."
+    },
+    {
+      "author": "SatadalAI",
+      "title": "SATA UtilityNode Node for ComfyUI",
+      "id": "SATA UtilityNode",
+      "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
+      "files": [
+        "https://github.com/SatadalAI/SATA_UtilityNode"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of utility nodes including image upscale,touchpad support and CSV-driven prompt machine for ComfyUI."
     }
   ]
 }
