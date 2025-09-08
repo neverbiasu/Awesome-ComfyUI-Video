@@ -4060,7 +4060,7 @@
         "https://github.com/whmc76/ComfyUI-UniversalToolkit"
       ],
       "install_type": "git-clone",
-      "description": "This plugin provides general-purpose utility nodes for ComfyUI. Currently, it implements a 'Blank Cell Generator' node, which can batch-generate images, masks, and latents with specified resolution and color."
+      "description": "A comprehensive toolkit based on ComfyUI, providing image, mask, audio, and tools nodes, fully modular and v3 compatible."
     },
     {
       "author": "martijnat",
@@ -7667,16 +7667,6 @@
     },
     {
       "author": "ShmuelRonen",
-      "title": "ComfyUI Flux 1.1 Ultra & Raw Node",
-      "reference": "https://github.com/ShmuelRonen/ComfyUI_Flux_1.1_RAW_API",
-      "files": [
-        "https://github.com/ShmuelRonen/ComfyUI_Flux_1.1_RAW_API"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node for Black Forest Labs' FLUX 1.1 [pro] API, supporting both regular and Ultra modes with optional Raw mode."
-    },
-    {
-      "author": "ShmuelRonen",
       "title": "ComfyUI-AstralAnimator",
       "id": "astralanimator",
       "reference": "https://github.com/ShmuelRonen/ComfyUI-AstralAnimator",
@@ -8008,6 +7998,16 @@
       "description": "A ComfyUI custom node for Google's Gemini 2.5 Flash Image (aka 'Nano Banana') model - the state-of-the-art image generation and editing AI."
     },
     {
+      "author": "ShmuelRonen",
+      "title": "ComfyUI Flux Pro Integrative - Enhanced Flux API Node",
+      "reference": "https://github.com/ShmuelRonen/flux_pro_integrative",
+      "files": [
+        "https://github.com/ShmuelRonen/flux_pro_integrative"
+      ],
+      "install_type": "git-clone",
+      "description": "A completely rewritten and enhanced custom node for ComfyUI that integrates with Black Forest Labs FLUX API, providing seamless access to FLUX's image generation and finetuning capabilities with improved reliability and user experience."
+    },
+    {
       "author": "redhottensors",
       "title": "ComfyUI-Prediction",
       "id": "prediction",
@@ -8064,7 +8064,7 @@
     },
     {
       "author": "al-swaiti",
-      "title": "GeminiOllama ComfyUI Extension",
+      "title": "ComfyUI-OllamaGemini",
       "reference": "https://github.com/al-swaiti/ComfyUI-OllamaGemini",
       "files": [
         "https://github.com/al-swaiti/ComfyUI-OllamaGemini"
@@ -9529,7 +9529,7 @@
         "https://github.com/zhangp365/ComfyUI-utils-nodes"
       ],
       "install_type": "git-clone",
-      "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, GenderControlOutput, ImageCompositeMaskedWithSwitch, ImageCompositeMaskedOneByOne, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset, MaskFromFaceModel, MaskCoverFourCorners, DetectorForNSFW, DeepfaceAnalyzeFaceAttributes, VolcanoOutpainting, VolcanoImageEdit, etc."
+      "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, GenderControlOutput, ImageCompositeMaskedWithSwitch, ImageCompositeMaskedOneByOne, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset, MaskFromFaceModel, MaskCoverFourCorners, DetectorForNSFW, DeepfaceAnalyzeFaceAttributes, VolcanoOutpainting, VolcanoImageEdit, ReplicateRequstNode etc."
     },
     {
       "author": "zhangp365",
@@ -10198,6 +10198,16 @@
       ],
       "install_type": "git-clone",
       "description": "This is a ComfyUI plugin that provides a user interface of AudioMass, originally developed by [a/AudioMass](https://github.com/pkalogiros/audiomass)"
+    },
+    {
+      "author": "jtydhr88",
+      "title": "ComfyUI-StableStudio",
+      "reference": "https://github.com/jtydhr88/ComfyUI-StableStudio",
+      "files": [
+        "https://github.com/jtydhr88/ComfyUI-StableStudio"
+      ],
+      "install_type": "git-clone",
+      "description": "A practical plug‑in that adds a StableStudio style user interface to ComfyUI. This project aims to give you a clean, responsive UI for managing StableStudio features inside ComfyUI, without complicating your workflow. It focuses on reliability, speed, and a calm, uncluttered design that helps you work faster."
     },
     {
       "author": "SeaArtLab",
@@ -27593,7 +27603,7 @@
         "https://github.com/gabe-init/ComfyUI-Openrouter_node"
       ],
       "install_type": "git-clone",
-      "description": "A custom node for ComfyUI that allows you to interact with OpenRouter's chat/completion API, providing access to a wide range of LLM models including GPT-4, Claude, Llama, Mistral, and more."
+      "description": "A custom node for ComfyUI that allows you to interact with OpenRouter's chat/completion API, providing access to a wide range of models."
     },
     {
       "author": "gabe-init",
@@ -30664,7 +30674,7 @@
         "https://github.com/mcDandy/more_math"
       ],
       "install_type": "git-clone",
-      "description": "Adds math nodes for numbers and types which do not need it."
+      "description": "Adds math nodes for FLOAT, CONDITIONING, LATENT, IMAGE, NOISE and AUDIO.\nAllows usage of math expressions with variety of functions and variables, not limited to inputs. List of those is on github of this extension."
     },
     {
       "author": "kmlbdh",
@@ -31941,6 +31951,26 @@
       "description": "A collection of high-quality nodes for ComfyUI, dedicated to improving the sharpness, clarity, and texture of your images"
     },
     {
+      "author": "orion4d",
+      "title": "ComfyUI EncryptMaster",
+      "reference": "https://github.com/orion4d/Comfyui_EncryptMaster",
+      "files": [
+        "https://github.com/orion4d/Comfyui_EncryptMaster"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node pack for encrypting and hiding text or images.\nSecurity: AES-256-GCM (authenticated) with scrypt key derivation.\nSteganography: LSB (PNG/TIFF) and DCT/JPEG (more robust to recompression)."
+    },
+    {
+      "author": "orion4d",
+      "title": "Gemini Nano Banana for ComfyUI",
+      "reference": "https://github.com/orion4d/Gemini_Banana_by_orion4d",
+      "files": [
+        "https://github.com/orion4d/Gemini_Banana_by_orion4d"
+      ],
+      "install_type": "git-clone",
+      "description": "This project is a custom node for ComfyUI that integrates the power of the Google Gemini 2.5 Flash Image (“Nano Banana”) API. It provides a single versatile node, the Gemini Nano Banana, which allows you to perform image generation and editing operations directly within your workflows."
+    },
+    {
       "author": "Fabio Sarracino",
       "title": "VibeVoice ComfyUI",
       "id": "vibevoice-comfyui",
@@ -32040,8 +32070,8 @@
       "description": "A collection of utility nodes for ComfyUI to improve workflow efficiency."
     },
     {
-      "author": "aesethtics",
-      "title": "ComfyUI Utilitools Nodes",
+      "author": "gearmachine",
+      "title": "ComfyUI-ProportionChanger",
       "reference": "https://github.com/grmchn/ComfyUI-ProportionChanger",
       "files": [
         "https://github.com/grmchn/ComfyUI-ProportionChanger"
@@ -32091,7 +32121,7 @@
     },
     {
       "author": "railep",
-      "title": "HunyuanVideo-Foley Audio Generator",
+      "title": "ComfyUI-HunyuanVideo-Foley",
       "reference": "https://github.com/railep/ComfyUI-HunyuanVideo-Foley",
       "files": [
         "https://github.com/railep/ComfyUI-HunyuanVideo-Foley"
@@ -32385,6 +32415,98 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
+    },
+    {
+      "author": "SatadalAI",
+      "title": "SATA UtilityNode Node for ComfyUI",
+      "id": "SATA UtilityNode",
+      "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
+      "files": [
+        "https://github.com/SatadalAI/SATA_UtilityNode"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of utility nodes including image upscale,touchpad support and CSV-driven prompt machine for ComfyUI."
+    },
+    {
+      "author": "CoreyCorza",
+      "title": "ComfyUI-CRZnodes",
+      "reference": "https://github.com/CoreyCorza/ComfyUI-CRZnodes",
+      "files": [
+        "https://github.com/CoreyCorza/ComfyUI-CRZnodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Dashboard Nodes for Comfy"
+    },
+    {
+      "author": "wizdroid",
+      "title": "Wizdroid ComfyUI Outfit Selection",
+      "reference": "https://github.com/wizdroid/wizdroid-fashionista",
+      "files": [
+        "https://github.com/wizdroid/wizdroid-fashionista"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive outfit generation system for ComfyUI with AI-powered prompt enhancement and dynamic outfit composition."
+    },
+    {
+      "author": "SnJake",
+      "title": "JPG & Noise Remover for ComfyUI",
+      "reference": "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner",
+      "files": [
+        "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI designed to remove JPEG compression artifacts and digital noise from images. It is powered by a lightweight UNetRestorer model that efficiently restores image quality."
+    },
+    {
+      "author": "MilleN2ium",
+      "title": "ComfyUI-CutomizableSave",
+      "reference": "https://github.com/MilleN2ium/ComfyUI-CutomizableSave",
+      "files": [
+        "https://github.com/MilleN2ium/ComfyUI-CutomizableSave"
+      ],
+      "install_type": "git-clone",
+      "description": "save your image with customized naming rule"
+    },
+    {
+      "author": "leylahkrell",
+      "title": "ComfyUI Violet Tools",
+      "reference": "https://github.com/leylahkrell/ComfyUI-Violet-Tools",
+      "files": [
+        "https://github.com/leylahkrell/ComfyUI-Violet-Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of aesthetic-focused custom nodes for ComfyUI that enhance AI image generation with sophisticated style and prompt management capabilities. Includes 7 nodes: Aesthetic Alchemist (style blending with 20+ curated aesthetics), Quality Queen (quality prompts), Glamour Goddess (hair/makeup), Body Bard (body features), Pose Priestess (positioning), Encoding Enchantress (text processing), and Negativity Nullifier (negative prompts). Features weighted blending, randomization, and modular YAML-based configuration."
+    },
+    {
+      "author": "ApexArtist",
+      "title": "Apex Artist - Image Resize",
+      "reference": "https://github.com/ApexArtist/apex-artist-comfyui",
+      "files": [
+        "https://github.com/ApexArtist/apex-artist-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional image resizing node with 6 advanced algorithms, intelligent aspect ratio handling, crop/pad options, and batch processing support. Perfect for AI workflows, photography, and digital art.",
+      "category": "Image Processing",
+      "tags": [
+        "image",
+        "resize",
+        "scaling",
+        "aspect-ratio",
+        "lanczos",
+        "bicubic",
+        "batch-processing"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "author": "Seth A. Robinson",
+      "title": "Workflow to API Converter Endpoint",
+      "reference": "https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint",
+      "files": [
+        "https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint"
+      ],
+      "install_type": "git-clone",
+      "description": "Adds a global /workflow/convert API endpoint to convert non-API workflow formats to API format for ComfyUI execution"
     },
     {
       "author": "Ser-Hilary",
@@ -32783,17 +32905,6 @@
       ],
       "install_type": "unzip",
       "description": "This is a node to convert an image into a CMYK Halftone dot image."
-    },
-    {
-      "author": "SatadalAI",
-      "title": "SATA UtilityNode Node for ComfyUI",
-      "id": "SATA UtilityNode",
-      "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
-      "files": [
-        "https://github.com/SatadalAI/SATA_UtilityNode"
-      ],
-      "install_type": "git-clone",
-      "description": "A collection of utility nodes including image upscale,touchpad support and CSV-driven prompt machine for ComfyUI."
     }
   ]
 }
