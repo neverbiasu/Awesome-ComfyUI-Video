@@ -3500,6 +3500,18 @@
       "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model.",
       "stars": 0,
       "author_account_age_days": 455
+    },
+    {
+      "author": "FloyoAI",
+      "title": "ComfyUI Seed API Integration",
+      "reference": "https://github.com/FloyoAI/ComfyUI-Seed-API",
+      "files": [
+        "https://github.com/FloyoAI/ComfyUI-Seed-API"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for Seed AI APIs including video generation, image generation, and chat models",
+      "stars": 0,
+      "author_account_age_days": 336
     }
   ]
 }

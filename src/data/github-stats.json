@@ -1354,6 +1354,11 @@
     "last_update": "2025-08-14 13:42:17",
     "author_account_age_days": 434
   },
+  "https://github.com/Charonartist/comfyui-lmstudio-conversation": {
+    "stars": 0,
+    "last_update": "2025-09-07 07:57:09",
+    "author_account_age_days": 434
+  },
   "https://github.com/Charonartist/comfyui-smart-resize-node": {
     "stars": 0,
     "last_update": "2025-08-12 13:01:48",
@@ -2049,6 +2054,11 @@
     "last_update": "2025-09-07 15:56:35",
     "author_account_age_days": 1341
   },
+  "https://github.com/Firetheft/ComfyUI_Local_Lora_Gallery": {
+    "stars": 29,
+    "last_update": "2025-09-08 01:30:48",
+    "author_account_age_days": 1341
+  },
   "https://github.com/FizzleDorf/ComfyUI-AIT": {
     "stars": 52,
     "last_update": "2024-06-22 03:13:05",
@@ -2063,6 +2073,11 @@
     "stars": 78,
     "last_update": "2025-03-28 04:58:45",
     "author_account_age_days": 1948
+  },
+  "https://github.com/FloyoAI/ComfyUI-Seed-API": {
+    "stars": 0,
+    "last_update": "2025-09-07 14:03:29",
+    "author_account_age_days": 336
   },
   "https://github.com/FlyingFireCo/tiled_ksampler": {
     "stars": 90,
@@ -8364,6 +8379,11 @@
     "last_update": "2025-05-02 08:31:46",
     "author_account_age_days": 969
   },
+  "https://github.com/duldduld/ComfyUI_md5": {
+    "stars": 1,
+    "last_update": "2025-09-06 16:58:52",
+    "author_account_age_days": 3168
+  },
   "https://github.com/dymokomi/comfyui_dygen": {
     "stars": 1,
     "last_update": "2024-11-28 20:08:13",
@@ -9758,6 +9778,11 @@
     "stars": 150,
     "last_update": "2025-03-18 04:47:24",
     "author_account_age_days": 4092
+  },
+  "https://github.com/jfcantu/ComfyUI-Prompt-Companion": {
+    "stars": 1,
+    "last_update": "2025-09-07 08:17:04",
+    "author_account_age_days": 2428
   },
   "https://github.com/jhj0517/ComfyUI-Moondream-Gaze-Detection": {
     "stars": 55,
@@ -11158,6 +11183,11 @@
     "stars": 0,
     "last_update": "2025-06-30 04:42:11",
     "author_account_age_days": 588
+  },
+  "https://github.com/lucasgattas/ComfyUI-Egregora-Audio-Super-Resolution": {
+    "stars": 0,
+    "last_update": "2025-09-07 23:30:57",
+    "author_account_age_days": 2874
   },
   "https://github.com/lucasgattas/comfyui-egregora-divide-and-enhance": {
     "stars": 1,
@@ -12822,6 +12852,11 @@
   "https://github.com/regiellis/ComfyUI-EasyColorCorrector": {
     "stars": 93,
     "last_update": "2025-06-30 16:50:28",
+    "author_account_age_days": 5067
+  },
+  "https://github.com/regiellis/ComfyUI-EasyIllustrious": {
+    "stars": 0,
+    "last_update": "2025-09-08 02:56:52",
     "author_account_age_days": 5067
   },
   "https://github.com/regiellis/ComfyUI-EasyNoobai": {
