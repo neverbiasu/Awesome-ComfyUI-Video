@@ -6735,17 +6735,6 @@
       "description": "GLM4 Vision Integration"
     },
     {
-      "author": "darkamenosa",
-      "title": "Comfy Nano Banana",
-      "id": "comfy-nanobanana",
-      "reference": "https://github.com/darkamenosa/comfy_nanobanana",
-      "files": [
-        "https://github.com/darkamenosa/comfy_nanobanana"
-      ],
-      "install_type": "git-clone",
-      "description": "Google Gemini API integration for ComfyUI - Generate images and text using Google's latest AI models. Provides nodes for Gemini API interactions and batch image processing."
-    },
-    {
       "author": "darkpixel",
       "title": "DarkPrompts",
       "id": "darkprompts",
@@ -8511,16 +8500,6 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node allow upscaling an image by a factor using a model."
-    },
-    {
-      "author": "TheBill2001",
-      "title": "Save Images with Captions",
-      "reference": "https://github.com/TheBill2001/ComfyUI-Save-Image-Caption",
-      "files": [
-        "https://github.com/TheBill2001/ComfyUI-Save-Image-Caption"
-      ],
-      "install_type": "git-clone",
-      "description": "Provide two custom nodes to load and save images with captions as separate files."
     },
     {
       "author": "leoleelxh",
@@ -27807,6 +27786,16 @@
       "description": "ComfyUI_DAO_master is a collection of custom nodes for ComfyUI. These nodes provide additional tools for image creation, manipulation, and visual experimentation, with a focus on vector workflows (DXF & SVG) and production utilities."
     },
     {
+      "author": "orion4d",
+      "title": "Orion4D Pixel-Shift Nodes for ComfyUI",
+      "reference": "https://github.com/orion4d/Orion4D_pixelshift",
+      "files": [
+        "https://github.com/orion4d/Orion4D_pixelshift"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node pack for ComfyUI provides an advanced image processing workflow to achieve high-quality upscales with an extended dynamic range (HDR), mimicking the flexibility of a camera's RAW file. Note: this node will not correct AI image hallucinations, ideally it is used in the last pass from a good quality image (2000/3000px with an X2 or X4 model)."
+    },
+    {
       "author": "aiaiaikkk",
       "title": "ComfyUI-Curve",
       "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
@@ -32521,9 +32510,9 @@
     {
       "author": "ApexArtist",
       "title": "Apex Artist - Image Resize",
-      "reference": "https://github.com/ApexArtist/apex-artist-comfyui",
+      "reference": "https://github.com/ApexArtist/comfyui-apex-artist",
       "files": [
-        "https://github.com/ApexArtist/apex-artist-comfyui"
+        "https://github.com/ApexArtist/comfyui-apex-artist"
       ],
       "install_type": "git-clone",
       "description": "Professional image resizing node with 6 advanced algorithms, intelligent aspect ratio handling, crop/pad options, and batch processing support. Perfect for AI workflows, photography, and digital art.",
@@ -32598,6 +32587,97 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that provides a visual gallery for managing and applying multiple LoRA models."
+    },
+    {
+      "author": "darkamenosa",
+      "title": "Comfy Nano Banana",
+      "id": "comfy-nanobanana",
+      "reference": "https://github.com/darkamenosa/comfy_nanobanana",
+      "files": [
+        "https://github.com/darkamenosa/comfy_nanobanana"
+      ],
+      "install_type": "git-clone",
+      "description": "Google Gemini API integration for ComfyUI - Generate images and text using Google's latest AI models. Provides nodes for Gemini API interactions and batch image processing."
+    },
+    {
+      "author": "Malte0621",
+      "title": "HordeAI",
+      "reference": "https://github.com/Malte0621/hordeai-comfy",
+      "files": [
+        "https://github.com/Malte0621/hordeai-comfy"
+      ],
+      "install_type": "git-clone",
+      "description": "AI Horde integration as custom node(s) for ComfyUI"
+    },
+    {
+      "author": "Draek2077",
+      "title": "comfyui-draekz-nodez",
+      "reference": "https://github.com/Draek2077/comfyui-draekz-nodez",
+      "files": [
+        "https://github.com/Draek2077/comfyui-draekz-nodez"
+      ],
+      "install_type": "git-clone",
+      "description": "Making ComfyUI more comfortable."
+    },
+    {
+      "author": "apacheone",
+      "title": "ComfyUI_efficient_sam_node",
+      "reference": "https://github.com/Apache0ne/ComfyUI_efficient_sam_node",
+      "files": [
+        "https://github.com/Apache0ne/ComfyUI_efficient_sam_node"
+      ],
+      "install_type": "git-clone",
+      "description": "Unofficial EfficientViT_sam_nodes for the https://huggingface.co/mit-han-lab/efficientvit-sam models"
+    },
+    {
+      "author": "easygoing0114",
+      "title": "ComfyUI-easygoing-nodes",
+      "reference": "https://github.com/easygoing0114/ComfyUI-easygoing-nodes",
+      "files": [
+        "https://github.com/easygoing0114/ComfyUI-easygoing-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Enhanced Text Encoder modules, acd Custom nodes for ComfyUI, device-select CLIP loaders, providing HDR effects, image saving with prompt metadata."
+    },
+    {
+      "author": "writer-in-fancy-pants",
+      "title": "Octo Json Presets",
+      "reference": "https://github.com/writer-in-fancy-pants/octo_json_presets",
+      "files": [
+        "https://github.com/writer-in-fancy-pants/octo_json_presets"
+      ],
+      "install_type": "git-clone",
+      "description": "Load presets from json file to run a set of experiments in a workflow with different models and settings"
+    },
+    {
+      "author": "sputnik57",
+      "title": "comfyui-prompt-logger",
+      "reference": "https://github.com/sputnik57/comfyui-prompt-logger",
+      "files": [
+        "https://github.com/sputnik57/comfyui-prompt-logger"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node saves metadata when I explore images. It creates a sidecare json file beside the image file."
+    },
+    {
+      "author": "brenzel",
+      "title": "comfyui-prompt-beautify",
+      "reference": "https://github.com/brenzel/comfyui-prompt-beautify",
+      "files": [
+        "https://github.com/brenzel/comfyui-prompt-beautify"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node to beautify your image generation prompt"
+    },
+    {
+      "author": "Firetheft",
+      "title": "ComfyUI-Animate-Progress",
+      "reference": "https://github.com/Firetheft/ComfyUI-Animate-Progress",
+      "files": [
+        "https://github.com/Firetheft/ComfyUI-Animate-Progress"
+      ],
+      "install_type": "git-clone",
+      "description": "A progress bar beautification plugin designed for ComfyUI. It replaces the monotonous default progress bar with a vibrant and dynamic experience, complete with an animated character and rich visual effects."
     },
     {
       "author": "Ser-Hilary",
