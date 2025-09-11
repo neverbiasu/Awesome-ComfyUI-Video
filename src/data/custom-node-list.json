@@ -424,6 +424,16 @@
       "description": "All-in-One Face Fix KSampler for ComfyUI with YOLO detection and SAM segmentation"
     },
     {
+      "author": "WASasquatch",
+      "title": "WAS Affine",
+      "reference": "https://github.com/WASasquatch/was_affine",
+      "files": [
+        "https://github.com/WASasquatch/was_affine"
+      ],
+      "install_type": "git-clone",
+      "description": "Apply AFFINE noise transforms to latent space to improve image quality, especially with light loras."
+    },
+    {
       "author": "omar92",
       "title": "Quality of life Suit:V2",
       "id": "qol",
@@ -16254,6 +16264,16 @@
       "description": "Implementation of paint-by-example on ComfyUI"
     },
     {
+      "author": "phyblas",
+      "title": "nsfw-shorier_comfyui",
+      "reference": "https://github.com/phyblas/nsfw-shorier_comfyui",
+      "files": [
+        "https://github.com/phyblas/nsfw-shorier_comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Performs various processing on images containing NSFW content within ComfyUI. The model used for detecting NSFW content can be selected."
+    },
+    {
       "author": "aidenli",
       "title": "ComfyUI_NYJY",
       "id": "NYJY",
@@ -17528,6 +17548,26 @@
       ],
       "install_type": "git-clone",
       "description": "An implementation of Frequency-Decoupled Guidance (FDG) in pure Pytorch."
+    },
+    {
+      "author": "silveroxides",
+      "title": "ComfyUI Power Shift Scheduler",
+      "reference": "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler",
+      "files": [
+        "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler"
+      ],
+      "install_type": "git-clone",
+      "description": "Highly customizable Scheduler for ComfyUI."
+    },
+    {
+      "author": "silveroxides",
+      "title": "ComfyUI Gemini Expanded API",
+      "reference": "https://github.com/silveroxides/ComfyUI_Gemini_Expanded_API",
+      "files": [
+        "https://github.com/silveroxides/ComfyUI_Gemini_Expanded_API"
+      ],
+      "install_type": "git-clone",
+      "description": "Node for usage of Gemini API"
     },
     {
       "author": "turkyden",
@@ -23792,6 +23832,16 @@
       ],
       "install_type": "git-clone",
       "description": "Comfyui [a/BPT](https://github.com/whaohan/bpt) Wrapper (Trimesh in/out connections)"
+    },
+    {
+      "author": "Easymode-ai",
+      "title": "FlexPainter ComfyUI Wrapper",
+      "reference": "https://github.com/Easymode-ai/ComfyUI-FlexPainter",
+      "files": [
+        "https://github.com/Easymode-ai/ComfyUI-FlexPainter"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI FlexPainter Wrapper"
     },
     {
       "author": "GamingDaveUk",
@@ -30077,16 +30127,6 @@
       "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
     },
     {
-      "author": "silveroxides",
-      "title": "ComfyUI Power Shift Scheduler",
-      "reference": "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler",
-      "files": [
-        "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler"
-      ],
-      "install_type": "git-clone",
-      "description": "Highly customizable Scheduler for ComfyUI."
-    },
-    {
       "author": "claptrap0",
       "title": "ComfyUI_LLM_Hub",
       "reference": "https://github.com/claptrap0/ComfyUI_LLM_Hub",
@@ -32137,7 +32177,7 @@
         "https://github.com/BAIKEMARK/ComfyUI-Civitai-Recipe"
       ],
       "install_type": "git-clone",
-      "description": "A powerful node suite that finds the community's best 'recipes' for any Civitai model by analyzing top prompts, LoRA triggers, parameters, and combos."
+      "description": "Instantly explore Civitai community hits for your local AI models and apply full recipes with one click — or dive deep to uncover the best prompts, parameters, and LoRA combos."
     },
     {
       "author": "Jarcis-cy",
@@ -32678,6 +32718,56 @@
       ],
       "install_type": "git-clone",
       "description": "A progress bar beautification plugin designed for ComfyUI. It replaces the monotonous default progress bar with a vibrant and dynamic experience, complete with an animated character and rich visual effects."
+    },
+    {
+      "author": "AstrionX",
+      "title": "ComfyUI-Tensor-Prism-Node-Pack",
+      "reference": "https://github.com/AstrionX/ComfyUI-Tensor-Prism-Node-Pack",
+      "files": [
+        "https://github.com/AstrionX/ComfyUI-Tensor-Prism-Node-Pack"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced model merging and enhancement nodes for ComfyUI"
+    },
+    {
+      "author": "ru4ls",
+      "title": "ComfyUI_Nano_Banana",
+      "reference": "https://github.com/ru4ls/ComfyUI_Nano_Banana",
+      "files": [
+        "https://github.com/ru4ls/ComfyUI_Nano_Banana"
+      ],
+      "install_type": "git-clone",
+      "description": "A set of custom nodes for ComfyUI that leverage the Gemini 2.5 Flash Image Preview API to generate images from text prompts, single images, and multiple images."
+    },
+    {
+      "author": "garg-aayush",
+      "title": "ComfyUI-Svg2Raster",
+      "reference": "https://github.com/garg-aayush/ComfyUI-Svg2Raster",
+      "files": [
+        "https://github.com/garg-aayush/ComfyUI-Svg2Raster"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node to load SVG files and convert them to raster images, with options for resizing, background color, and borders."
+    },
+    {
+      "author": "razvanmatei-sf",
+      "title": "ComfyUI Razv LLM Node",
+      "reference": "https://github.com/razvanmatei-sf/razv-llm",
+      "files": [
+        "https://github.com/razvanmatei-sf/razv-llm"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI node for integrating Claude API with image and text capabilities."
+    },
+    {
+      "author": "Enashka",
+      "title": "ComfyUI-nhknodes",
+      "reference": "https://github.com/Enashka/ComfyUI-nhknodes",
+      "files": [
+        "https://github.com/Enashka/ComfyUI-nhknodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes collection with workflow utilities, image processing, and AI integration"
     },
     {
       "author": "Ser-Hilary",
