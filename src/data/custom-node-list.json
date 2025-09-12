@@ -20787,16 +20787,6 @@
       "description": "A ComfyUI custom node for integrating with Midjourney API."
     },
     {
-      "author": "SlackinJack",
-      "title": "distrifuser_comfyui",
-      "reference": "https://github.com/SlackinJack/distrifuser_comfyui",
-      "files": [
-        "https://github.com/SlackinJack/distrifuser_comfyui"
-      ],
-      "install_type": "git-clone",
-      "description": "[a/Distrifuser](https://github.com/mit-han-lab/distrifuser) sampler node for ComfyUI\n"
-    },
-    {
       "author": "Runware Inc.",
       "title": "Runware.ai ComfyUI Inference API Integration",
       "id": "runware",
@@ -21212,16 +21202,6 @@
       ],
       "install_type": "git-clone",
       "description": "Seamless Clone for ComfyUI"
-    },
-    {
-      "author": "SlackinJack",
-      "title": "asyncdiff_comfyui",
-      "reference": "https://github.com/SlackinJack/asyncdiff_comfyui",
-      "files": [
-        "https://github.com/SlackinJack/asyncdiff_comfyui"
-      ],
-      "install_type": "git-clone",
-      "description": "AsyncDiff node for ComfyUI"
     },
     {
       "author": "pharmapsychotic",
@@ -32080,6 +32060,16 @@
       "description": "ComfyUI node for generating animated dotted waveform visualizations with multiple animation styles including teardrop bars"
     },
     {
+      "author": "Saganaki22",
+      "title": "Seedream4 Replicate",
+      "reference": "https://github.com/Saganaki22/ComfyUI-Seedream4_Replicate",
+      "files": [
+        "https://github.com/Saganaki22/ComfyUI-Seedream4_Replicate"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node for Seedream 4 image generation via Replicate API with support for text-to-image and image-to-image generation"
+    },
+    {
       "author": "sfinktah",
       "title": "comfy-ovum",
       "reference": "https://github.com/sfinktah/comfy-ovum",
@@ -32768,6 +32758,26 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes collection with workflow utilities, image processing, and AI integration"
+    },
+    {
+      "author": "teepunkt-esspunkt",
+      "title": "ComfyUI-SuiteTea",
+      "reference": "https://github.com/teepunkt-esspunkt/ComfyUI-SuiteTea",
+      "files": [
+        "https://github.com/teepunkt-esspunkt/ComfyUI-SuiteTea"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: 'Tea: Save & Reload Image', 'Tea: Load Image Checkpoints from path', ..."
+    },
+    {
+      "author": "razvanmatei-sf",
+      "title": "ComfyUI Razv WaveSpeed Nodes",
+      "reference": "https://github.com/razvanmatei-sf/razv-wavespeed",
+      "files": [
+        "https://github.com/razvanmatei-sf/razv-wavespeed"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for integrating WaveSpeed AI API for image and video generation."
     },
     {
       "author": "Ser-Hilary",
