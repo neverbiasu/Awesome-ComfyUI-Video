@@ -31840,16 +31840,6 @@
       "description": "A simple custom node to use reflect padding mode in the conv layers of VAEs."
     },
     {
-      "author": "netroxin",
-      "title": "comfyui_netro",
-      "reference": "https://github.com/netroxin/comfyui_netro",
-      "files": [
-        "https://github.com/netroxin/comfyui_netro"
-      ],
-      "install_type": "git-clone",
-      "description": "#Camera Movement Prompt Node for ComfyUI\nThis custom node script for ComfyUI generates descriptive camera movement prompts based on user-selected movement options for Wan2.2"
-    },
-    {
       "author": "alexds9",
       "title": "Save Checkpoint with Metadata",
       "reference": "https://github.com/a-l-e-x-d-s-9/ComfyUI-SaveCheckpointWithMetadata",
@@ -32818,6 +32808,23 @@
       ],
       "install_type": "git-clone",
       "description": "Lightweight ComfyUI wrapper for IndexTTS 2 (voice cloning + emotion control)."
+    },
+    {
+      "author": "snicolast",
+      "title": "ComfyUI-Manufnode",
+      "reference": "https://github.com/efortin/ComfyUI-Ollama-Enhancer",
+      "files": [
+        "https://github.com/efortin/ComfyUI-Ollama-Enhancer"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes integrating Ollama to generate and enhance positive/negative prompts for Stable Diffusion workflows."
+    },
+    {
+      "author": "fr0nky0ng",
+      "title": "ComfyUI-Face-Comparator",
+      "description": "This is a node to detect the similarity between two faces",
+      "install_type": "git-clone",
+      "reference": "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator"
     },
     {
       "author": "Ser-Hilary",
