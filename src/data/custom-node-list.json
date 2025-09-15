@@ -15441,6 +15441,16 @@
       "description": "Lets you send a section of an image to qwen edit or kontext to help isolate areas in need of change"
     },
     {
+      "author": "GeekyGhost",
+      "title": "ComfyUI-Image-Segmenting-Loader",
+      "reference": "https://github.com/GeekyGhost/24oiduts-ComfyUI",
+      "files": [
+        "https://github.com/GeekyGhost/24oiduts-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Lets you send a section of an image to qwen edit or kontext to help isolate areas in need of change"
+    },
+    {
       "author": "Dobidop",
       "title": "Dobidop ComfyStereo",
       "id": "simple-stereoscopic",
@@ -17437,6 +17447,16 @@
       ],
       "install_type": "git-clone",
       "description": "Using IPAdapter for style consistency, the node accepts a story structured as text {prompt} text {prompt} etc. and generates a comic, saving it to /output. It also adds LLM API Request node, providing an openai compatible LLM API for generating the stories."
+    },
+    {
+      "author": "blob8",
+      "title": "ComfyUI_video-image-motion-transfer",
+      "reference": "https://github.com/blob8/ComfyUI_video-image-motion-transfer",
+      "files": [
+        "https://github.com/blob8/ComfyUI_video-image-motion-transfer"
+      ],
+      "install_type": "git-clone",
+      "description": "Introduces a node that tries to approximate the entire video using it's first frame (that we stylize) by warping it using optical flow extracted from the video. First we do image-to-image using the reference video's first frame and a depth controlnet. The generated object doesn't have to closely resemble the reference like on the demo. Then the generated image and the video frames are fed into the node and it returns a warped video. No ai models are used by the node. The example workflow uses SDXL but you can get it to work with any arch if you manage i2i."
     },
     {
       "author": "banqingyuan",
@@ -32740,6 +32760,16 @@
       "description": "A custom node for ComfyUI that provides seamless integration with the Wan models from Alibaba Cloud Model Studio. This solution delivers cutting-edge image and video generation capabilities directly within ComfyUI, supporting both international and Mainland China regions."
     },
     {
+      "author": "ru4ls",
+      "title": "ComfyUI_Imagen",
+      "reference": "https://github.com/ru4ls/ComfyUI_Imagen",
+      "files": [
+        "https://github.com/ru4ls/ComfyUI_Imagen"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that leverages the Google Cloud Vertex AI Imagen API to generate and edit images."
+    },
+    {
       "author": "garg-aayush",
       "title": "ComfyUI-Svg2Raster",
       "reference": "https://github.com/garg-aayush/ComfyUI-Svg2Raster",
@@ -32822,9 +32852,53 @@
     {
       "author": "fr0nky0ng",
       "title": "ComfyUI-Face-Comparator",
-      "description": "This is a node to detect the similarity between two faces",
+      "reference": "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator",
+      "files": [
+        "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator"
+      ],
       "install_type": "git-clone",
-      "reference": "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator"
+      "description": "This is a node to detect the similarity between two faces"
+    },
+    {
+      "author": "S4MUEL404",
+      "title": "ComfyUI Prepack",
+      "id": "comfyui-prepack",
+      "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
+      "files": [
+        "https://github.com/S4MUEL-404/ComfyUI-Prepack"
+      ],
+      "install_type": "git-clone",
+      "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
+    },
+    {
+      "author": "Tr1dae",
+      "title": "LoRA Matcher Nodes for ComfyUI",
+      "reference": "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher",
+      "files": [
+        "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node provides two different approaches to automatically match text prompts with LoRA models using their descriptions."
+    },
+    {
+      "author": "nakagawadev",
+      "title": "comfyui_nakagawa",
+      "reference": "https://github.com/nakagawadev/comfyui_nakagawa",
+      "files": [
+        "https://github.com/nakagawadev/comfyui_nakagawa"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI that send video data through websockets instead of saving to disk."
+    },
+    {
+      "author": "nakMe-guminagawadev",
+      "title": "MeComfyuiEncrypt",
+      "reference": "https://github.com/Me-gumin/MeComfyuiEncrypt",
+      "files": [
+        "https://github.com/Me-gumin/MeComfyuiEncrypt"
+      ],
+      "install_type": "git-clone",
+      "description": "Image obfuscation in ComfyUI"
     },
     {
       "author": "Ser-Hilary",
