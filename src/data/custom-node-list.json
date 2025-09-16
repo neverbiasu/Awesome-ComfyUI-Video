@@ -9182,17 +9182,6 @@
     },
     {
       "author": "impactframes",
-      "title": "IF_AI_tools",
-      "id": "impactframes-tools",
-      "reference": "https://github.com/if-ai/ComfyUI-IF_AI_tools",
-      "files": [
-        "https://github.com/if-ai/ComfyUI-IF_AI_tools"
-      ],
-      "install_type": "git-clone",
-      "description": "Various AI tools to use in Comfy UI. Starting with VL and prompt making tools using Ollma as backend will evolve as I find time."
-    },
-    {
-      "author": "impactframes",
       "title": "IF_AI_WishperSpeechNode",
       "id": "impactframes-whisper-speech",
       "reference": "https://github.com/if-ai/ComfyUI-IF_AI_WishperSpeechNode",
@@ -13229,7 +13218,17 @@
         "https://github.com/vanche1212/ComfyUI-ZMG-Nodes"
       ],
       "install_type": "git-clone",
-      "description": "Nodes:ApiRequestNode, LoadVideoNode, JsonParserNode, OllamaRequestNode, OldPhotoColorizationNode."
+      "description": "Nodes:ApiRequestNode, LoadVideoNode, JsonParserNode, OllamaRequestNode, OldPhotoColorizationNode, waveform_2_audio, SaveImageUnifiedOutput, VideoHelperUnifiedOutput, ..."
+    },
+    {
+      "author": "vanche1212",
+      "title": "ComfyUI InspireMusic Plugin",
+      "reference": "https://github.com/vanche1212/ComfyUI-InspireMusic",
+      "files": [
+        "https://github.com/vanche1212/ComfyUI-InspireMusic"
+      ],
+      "install_type": "git-clone",
+      "description": "InspireMusic ComfyUI Plugin – ComfyUI Integration Plugin for AI Music Generation\nA ComfyUI node plugin based on Alibaba’s InspireMusic model, supporting text-to-music generation and music continuation features."
     },
     {
       "author": "hben35096",
@@ -32899,6 +32898,56 @@
       ],
       "install_type": "git-clone",
       "description": "Image obfuscation in ComfyUI"
+    },
+    {
+      "author": "dzy1128",
+      "title": "Seedream Image Generate ComfyUI Node",
+      "reference": "https://github.com/dzy1128/Seedream-Image-Generate-ComfyUI",
+      "files": [
+        "https://github.com/dzy1128/Seedream-Image-Generate-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node based on the Volcano Engine Doubao large model Seedream API, designed for high-quality image generation."
+    },
+    {
+      "author": "swfxliyiyu",
+      "title": "ComfyUI-FastVideo",
+      "reference": "https://github.com/swfxliyiyu/ComfyUI-FastVideo",
+      "files": [
+        "https://github.com/swfxliyiyu/ComfyUI-FastVideo"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node suite for ComfyUI that provides accelerated video generation using [a/FastVideo](https://github.com/hao-ai-labs/FastVideo). See the blog post about FastVideo V1 to learn more."
+    },
+    {
+      "author": "darkamenosa",
+      "title": "Enhanced Image Composite Masked",
+      "reference": "https://github.com/darkamenosa/comfy_inpaint_blend",
+      "files": [
+        "https://github.com/darkamenosa/comfy_inpaint_blend"
+      ],
+      "install_type": "git-clone",
+      "description": "Seamless inpainting for image-space models like Google Nano Banana and ByteDance Seedream 4. Fixes color mismatches using Poisson blending."
+    },
+    {
+      "author": "len-ml",
+      "title": "comfyui_qwen_image_edit_adv",
+      "reference": "https://github.com/lenML/comfyui_qwen_image_edit_adv",
+      "files": [
+        "https://github.com/lenML/comfyui_qwen_image_edit_adv"
+      ],
+      "install_type": "git-clone",
+      "description": "Improved qwen image editing accuracy"
+    },
+    {
+      "author": "Ian2073",
+      "title": "ComfyUI-MyLLMNode",
+      "reference": "https://github.com/Ian2073/ComfyUI-MyLLMnode",
+      "files": [
+        "https://github.com/Ian2073/ComfyUI-MyLLMnode"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
     },
     {
       "author": "Ser-Hilary",
