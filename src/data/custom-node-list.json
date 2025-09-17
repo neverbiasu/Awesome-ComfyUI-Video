@@ -4407,16 +4407,6 @@
       "description": " If you want to draw two different characters together without blending their features, so you could try to check out this custom node."
     },
     {
-      "author": "42lux",
-      "title": "ComfyUI-42lux",
-      "reference": "https://github.com/42lux/ComfyUI-42lux",
-      "files": [
-        "https://github.com/42lux/ComfyUI-42lux"
-      ],
-      "install_type": "git-clone",
-      "description": "A collection of custom nodes for ComfyUI focused on enhanced sampling, model optimization, and quality improvements."
-    },
-    {
       "author": "sergekatzmann",
       "title": "ComfyUI_Nimbus-Pack",
       "reference": "https://github.com/sergekatzmann/ComfyUI_Nimbus-Pack",
@@ -8222,6 +8212,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for MiniCPM vision-language models, enabling high-quality image captioning and analysis."
+    },
+    {
+      "author": "1038lab",
+      "title": "ComfyUI-FireRedTTS",
+      "reference": "https://github.com/1038lab/ComfyUI-FireRedTTS",
+      "files": [
+        "https://github.com/1038lab/ComfyUI-FireRedTTS"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI integration for FireRedTTS‑2, a real-time multi-speaker TTS system enabling high-quality, emotionally expressive dialogue and monologue synthesis. Leveraging a streaming architecture and context-aware prosody modeling, it supports natural speaker turns and stable long-form generation, ideal for interactive chat and podcast applications."
     },
     {
       "author": "Klinter",
@@ -23578,6 +23578,16 @@
       "description": "This custom node for ComfyUI allows you to scrape and download images and videos from the Midjourney showcase pages. It uses undetected_chromedriver to bypass anti-scraping measures, but requires session cookies from a logged-in browser session to function correctly."
     },
     {
+      "author": "lum3on",
+      "title": "ComfyUI Reve API Integration Node",
+      "reference": "https://github.com/lum3on/ComfyUI_Reve-API",
+      "files": [
+        "https://github.com/lum3on/ComfyUI_Reve-API"
+      ],
+      "install_type": "git-clone",
+      "description": "A unified ComfyUI custom node that integrates all Reve API endpoints (Create, Edit, Remix) into a single, dynamic node with operation-specific inputs and seamless operation switching."
+    },
+    {
       "author": "austinbrown34",
       "title": "ComfyUI-IO-Helpers",
       "reference": "https://github.com/austinbrown34/ComfyUI-IO-Helpers",
@@ -29255,16 +29265,6 @@
       "description": "Smart, unified model loaders for ComfyUI that support both standard .safetensors and quantized .gguf formats — no switching nodes required. Includes flexible UNET and CLIP loaders that work across models like SDXL, SD3, Flux, and more."
     },
     {
-      "author": "lucak5s",
-      "title": "ComfyUI GFPGAN",
-      "reference": "https://github.com/lucak5s/comfyui_gfpgan",
-      "files": [
-        "https://github.com/lucak5s/comfyui_gfpgan"
-      ],
-      "install_type": "git-clone",
-      "description": "Face restoration with GFPGAN."
-    },
-    {
       "author": "joeriben",
       "title": "AI4ArtsEd Nodes",
       "reference": "https://github.com/joeriben/ai4artsed_comfyui_nodes",
@@ -32948,6 +32948,87 @@
       ],
       "install_type": "git-clone",
       "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
+    },
+    {
+      "author": "semonxue",
+      "title": "ComfyUI FlexAI Nodes",
+      "reference": "https://github.com/Semonxue/Comfyui-flexai",
+      "files": [
+        "https://github.com/Semonxue/Comfyui-flexai"
+      ],
+      "install_type": "git-clone",
+      "description": "Use the fewest nodes for the most flexible model calls. A versatile ComfyUI plugin for OpenAI-compatible APIs, featuring multi-purpose nodes for text and image, support for switching between multiple API providers, and auto-saving of custom models. Compatible with new models like nano-banana and seedream4."
+    },
+    {
+      "author": "Dehypnotic",
+      "title": "Save MP3",
+      "reference": "https://github.com/Dehypnotic/comfyui-save-mp3",
+      "files": [
+        "https://github.com/Dehypnotic/comfyui-save-mp3"
+      ],
+      "install_type": "git-clone",
+      "description": "A node for saving audio in MP3-format with selected bitrate mode and quality to an output subfolder or absolute path on any drive."
+    },
+    {
+      "author": "Aaalice233",
+      "title": "ComfyUI-Danbooru-Gallery",
+      "reference": "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery",
+      "files": [
+        "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery"
+      ],
+      "install_type": "git-clone",
+      "description": "A danbooru gallery for ComfyUI"
+    },
+    {
+      "author": "l33chking",
+      "title": "Danbooru FAISS Search Nodes",
+      "id": "danbooru-faiss-search",
+      "reference": "https://github.com/L33chKing/ComfyUI-danbooru-FAISS-search",
+      "files": [
+        "https://github.com/L33chKing/ComfyUI-danbooru-FAISS-search"
+      ],
+      "install_type": "git-clone",
+      "description": "Use image to search similar images from danbooru using various methods. Notice: the optional API key will be saved to metadata if used"
+    },
+    {
+      "author": "GegenDenTag",
+      "title": "Multi Area Conditioning",
+      "reference": "https://github.com/GegenDenTag/ComfyUI-multi-area-condition-node",
+      "files": [
+        "https://github.com/GegenDenTag/ComfyUI-multi-area-condition-node"
+      ],
+      "install_type": "git-clone",
+      "description": "Fix Nov. 2024, Davemane42's Custom Node for ComfyUI"
+    },
+    {
+      "author": "Kaleidia",
+      "title": "KaleidiaNodes",
+      "reference": "https://github.com/Kaleidia/KaleidiaNodes",
+      "files": [
+        "https://github.com/Kaleidia/KaleidiaNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple set of nodes to make things easier. String Nodes and Files nodes."
+    },
+    {
+      "author": "ialhabbal",
+      "title": "ComfyUI Prompt Verify",
+      "reference": "https://github.com/ialhabbal/ComfyUI-Prompt-Verify",
+      "files": [
+        "https://github.com/ialhabbal/ComfyUI-Prompt-Verify"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node to pause a string flow/prompt and let you edit the text"
+    },
+    {
+      "author": "xhh522",
+      "title": "ComfyUI Preview Monitor",
+      "reference": "https://github.com/xhh522/ComfyUI-preview-monitor",
+      "files": [
+        "https://github.com/xhh522/ComfyUI-preview-monitor"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI custom node for image preview and monitoring"
     },
     {
       "author": "Ser-Hilary",
