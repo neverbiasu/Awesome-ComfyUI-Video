@@ -32547,11 +32547,11 @@
       "description": "save your image with customized naming rule"
     },
     {
-      "author": "leylahkrell",
+      "author": "leylahviolet",
       "title": "ComfyUI Violet Tools",
-      "reference": "https://github.com/leylahkrell/ComfyUI-Violet-Tools",
+      "reference": "https://github.com/leylahviolet/ComfyUI-Violet-Tools",
       "files": [
-        "https://github.com/leylahkrell/ComfyUI-Violet-Tools"
+        "https://github.com/leylahviolet/ComfyUI-Violet-Tools"
       ],
       "install_type": "git-clone",
       "description": "A collection of aesthetic-focused custom nodes for ComfyUI that enhance AI image generation with sophisticated style and prompt management capabilities. Includes 7 nodes: Aesthetic Alchemist (style blending with 20+ curated aesthetics), Quality Queen (quality prompts), Glamour Goddess (hair/makeup), Body Bard (body features), Pose Priestess (positioning), Encoding Enchantress (text processing), and Negativity Nullifier (negative prompts). Features weighted blending, randomization, and modular YAML-based configuration."
@@ -33029,6 +33029,16 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node for image preview and monitoring"
+    },
+    {
+      "author": "Junst",
+      "title": "ComfyUI-Concept-Diffusion",
+      "reference": "https://github.com/Junst/ComfyUI-Concept-Diffusion",
+      "files": [
+        "https://github.com/Junst/ComfyUI-Concept-Diffusion"
+      ],
+      "install_type": "git-clone",
+      "description": "ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features for ComfyUI"
     },
     {
       "author": "Ser-Hilary",
