@@ -33090,16 +33090,6 @@
       "description": "NODES: QI • TextEncodeQwenImageEdit, QI • VAE Decode, QI • RefEdit Encode — by wallen0322"
     },
     {
-      "author": "Yuxi Liu",
-      "title": "comfyui-ddu",
-      "reference": "https://github.com/YL-Lyx/Comfyui-ddu-toolchain",
-      "files": [
-        "https://github.com/YL-Lyx/Comfyui-ddu-toolchain"
-      ],
-      "install_type": "git-clone",
-      "description": "ai-driven toolchain for digital design and fabrication "
-    },
-    {
       "author": "Sean-Bradley",
       "title": "ComfyUI Virtual Webcam",
       "reference": "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam",
@@ -33171,7 +33161,7 @@
     },
     {
       "author": "3dgopnik",
-      "title": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs",
+      "title": "ComfyUI Arena Suite",
       "reference": "https://github.com/3dgopnik/comfyui-arena-suite",
       "files": [
         "https://github.com/3dgopnik/comfyui-arena-suite"
@@ -33180,14 +33170,44 @@
       "description": "ComfyUI custom nodes in a single package: Arena legacy + AutoCache + Updater"
     },
     {
-      "author": "SiggEye",
-      "title": "FaceCanon — Consistent Faces at Any Resolution",
-      "reference": "https://github.com/SiggEye/FaceCanon",
+      "author": "3dgopnik",
+      "title": "ComfyUI YOLO Mask Process",
+      "reference": "https://github.com/gasdyueer/comfyui-yolo-mask-process",
       "files": [
-        "https://github.com/SiggEye/FaceCanon"
+        "https://github.com/gasdyueer/comfyui-yolo-mask-process"
       ],
       "install_type": "git-clone",
-      "description": "FaceCanon scales a detected face to a canonical pixel size, lets you run your favorite face detailer at that sweet spot, then maps the result back into the original image with seamless blending. The payoff is consistent face style no matter the input resolution or framing."
+      "description": "ComfyUI custom nodes for YOLO detection and mask processing"
+    },
+    {
+      "author": "sammykumar",
+      "title": "ComfyUI-SwissArmyKnife",
+      "reference": "https://github.com/sammykumar/ComfyUI-SwissArmyKnife",
+      "files": [
+        "https://github.com/sammykumar/ComfyUI-SwissArmyKnife"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI featuring Gemini AI integration for video and image analysis, with a complete development environment using GPU-accelerated containers."
+    },
+    {
+      "author": "sumitchatterjee13",
+      "title": "Luminance Stack Processor",
+      "reference": "https://github.com/sumitchatterjee13/Luminance-Stack-Processor",
+      "files": [
+        "https://github.com/sumitchatterjee13/Luminance-Stack-Processor"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes to process multi exposure images and stack them to produce 32bit exr file with dynamic range data"
+    },
+    {
+      "author": "perckle",
+      "title": "ComfyUI-DPIR",
+      "reference": "https://github.com/perckle/comfyui_dpir",
+      "files": [
+        "https://github.com/perckle/comfyui_dpir"
+      ],
+      "install_type": "git-clone",
+      "description": "A dpir/DRUnet inference node for ComfyUI"
     },
     {
       "author": "Ser-Hilary",
