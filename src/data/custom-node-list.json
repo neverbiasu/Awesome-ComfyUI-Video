@@ -14402,6 +14402,16 @@
       "description": "This extension provides PSD layer saving functionalities with mask support for ComfyUI."
     },
     {
+      "author": "APZmedia",
+      "title": "ComfyUI Color Profile Reader",
+      "reference": "https://github.com/APZmedia/ComfyUI-color-tools",
+      "files": [
+        "https://github.com/APZmedia/ComfyUI-color-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive collection of color manipulation and analysis nodes for ComfyUI"
+    },
+    {
       "author": "N3rd00d",
       "title": "ComfyUI-Paint3D-Nodes",
       "id": "paint3d",
@@ -28192,16 +28202,6 @@
       "description": "This is a custom node for ComfyUI that retrieves detailed information about an image, including its name, format (extension), DPI, dimensions, long side, short side, file size, and EXIF data. It also supports image saving "
     },
     {
-      "author": "r-vage",
-      "title": "ComfyUI-RvTools_v2",
-      "reference": "https://github.com/r-vage/ComfyUI-RvTools_v2",
-      "files": [
-        "https://github.com/r-vage/ComfyUI-RvTools_v2"
-      ],
-      "install_type": "git-clone",
-      "description": "this node contains a lot of small little helpers like switches, passers and selectors that i use a lot to build my workflows."
-    },
-    {
       "author": "Aljnk",
       "title": "ComfyUI-JNK-Tiny-Nodes",
       "reference": "https://github.com/Aljnk/ComfyUI-JNK-Tiny-Nodes",
@@ -29649,6 +29649,17 @@
       ],
       "install_type": "git-clone",
       "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
+    },
+    {
+      "author": "S4MUEL404",
+      "title": "ComfyUI-PromptsO",
+      "id": "comfyui-promptso",
+      "reference": "https://github.com/S4MUEL-404/ComfyUI-PromptsO",
+      "files": [
+        "https://github.com/S4MUEL-404/ComfyUI-PromptsO"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive AI API integration and prompt processing toolkit for ComfyUI, providing powerful text and image generation capabilities with advanced prompt manipulation tools."
     },
     {
       "author": "fchangjun",
@@ -33208,6 +33219,26 @@
       ],
       "install_type": "git-clone",
       "description": "A dpir/DRUnet inference node for ComfyUI"
+    },
+    {
+      "author": "downlifted",
+      "title": "ComfyUI_ComfyGroq",
+      "reference": "https://github.com/downlifted/ComfyUI_GROQ-PromptWizard",
+      "files": [
+        "https://github.com/downlifted/ComfyUI_GROQ-PromptWizard"
+      ],
+      "install_type": "git-clone",
+      "description": "A streamlined ComfyUI custom node package for interacting with GROQ's AI models, including both text and vision capabilities."
+    },
+    {
+      "author": "red-polo",
+      "title": "ComfyUI-WanViTPoseRetargeter",
+      "reference": "https://github.com/red-polo/ComfyUI-WanViTPoseRetargeter",
+      "files": [
+        "https://github.com/red-polo/ComfyUI-WanViTPoseRetargeter"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a ComfyUI port of PoseRetarget, originally implemented in Wan2.2-Animation. Please use it together with WanVideoWrapper."
     },
     {
       "author": "Ser-Hilary",
