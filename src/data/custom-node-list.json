@@ -32527,6 +32527,16 @@
       "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
     },
     {
+      "author": "Vantage with AI",
+      "title": "Vantage Long Wan Video",
+      "reference": "https://github.com/vantagewithai/VantageLongWanVideo",
+      "files": [
+        "https://github.com/vantagewithai/VantageLongWanVideo"
+      ],
+      "install_type": "git-clone",
+      "description": "VantageLongWanVideo is a lightweight project management system for ComfyUI, designed for long-running, prompt-driven video generation. It simplifies workflow management by saving prompts to disk, handling continuity across runs, and allowing resuming or regenerating from any point."
+    },
+    {
       "author": "SatadalAI",
       "title": "SATA UtilityNode Node for ComfyUI",
       "id": "SATA UtilityNode",
@@ -33239,6 +33249,37 @@
       ],
       "install_type": "git-clone",
       "description": "This is a ComfyUI port of PoseRetarget, originally implemented in Wan2.2-Animation. Please use it together with WanVideoWrapper."
+    },
+    {
+      "author": "ucloud",
+      "title": "ComfyUl-UCloud",
+      "reference": "https://github.com/ucloud/comfyui-plugin",
+      "files": [
+        "https://github.com/ucloud/comfyui-plugin"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI that allows you to use the UCloud API directly in ComfyUI. UCloud is a high-performance AI computing platform providing powerful image generation models and industry-leading inference speeds. It offers a wide range of AI model options, including popular text-to-image and image editing models, ready to use without local GPU setup."
+    },
+    {
+      "author": "fkxianzhou",
+      "title": "ComfyUI-Jimeng-API",
+      "reference": "https://github.com/fkxianzhou/ComfyUI-Jimeng-API",
+      "files": [
+        "https://github.com/fkxianzhou/ComfyUI-Jimeng-API"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for Volcano Ark (Jimeng) API"
+    },
+    {
+      "author": "wallen",
+      "title": "ComfyUI-QI-QwenEditSafe",
+      "id": "qi-qweneditsafe",
+      "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
+      "files": [
+        "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
+      ],
+      "install_type": "git-clone",
+      "description": "QwenImage edit-safe nodes: consistent encoders, ref-edit presets, and HQ VAE decode. No extra dependencies."
     },
     {
       "author": "Ser-Hilary",
