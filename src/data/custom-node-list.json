@@ -15009,6 +15009,16 @@
       "description": "This repository adds ComfyUI custom nodes that wrap the Ovis-U1 multimodal model, exposing three primary workflows inside the ComfyUI editor."
     },
     {
+      "author": "neverbiasu",
+      "title": "ComfyUI-ModelScope",
+      "reference": "https://github.com/neverbiasu/ComfyUI-ModelScope",
+      "files": [
+        "https://github.com/neverbiasu/ComfyUI-ModelScope"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node package for ModelScope API integration, providing seamless access to ModelScope's powerful AI models including Large Language Models (LLM), Vision-Language Models (VLM), and Image Generation capabilities."
+    },
+    {
       "author": "var1ableX",
       "title": "ComfyUI_Accessories",
       "reference": "https://github.com/var1ableX/ComfyUI_Accessories",
@@ -26914,16 +26924,6 @@
     },
     {
       "author": "lihaoyun6",
-      "title": "ComfyUI-CSV-Random-Picker",
-      "reference": "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker",
-      "files": [
-        "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker"
-      ],
-      "install_type": "git-clone",
-      "description": "String random picker for ComfyUI"
-    },
-    {
-      "author": "lihaoyun6",
       "title": "ComfyUI-BlindWatermark",
       "reference": "https://github.com/lihaoyun6/ComfyUI-BlindWatermark",
       "files": [
@@ -32180,6 +32180,17 @@
       "description": "A collection of utility nodes for ComfyUI to improve workflow efficiency."
     },
     {
+      "author": "aesethtics",
+      "title": "ComfyUI 3D Model Viewer",
+      "id": "comfyui-3d-model-viewer",
+      "reference": "https://github.com/aesethtics/comfyui-3d-model-viewer",
+      "files": [
+        "https://github.com/aesethtics/comfyui-3d-model-viewer"
+      ],
+      "install_type": "git-clone",
+      "description": "A 3D model viewer node for ComfyUI that allows viewing and interacting with 3D models directly in the interface"
+    },
+    {
       "author": "gearmachine",
       "title": "ComfyUI-ProportionChanger",
       "reference": "https://github.com/grmchn/ComfyUI-ProportionChanger",
@@ -33221,6 +33232,16 @@
       "description": "Custom nodes to process multi exposure images and stack them to produce 32bit exr file with dynamic range data"
     },
     {
+      "author": "sumitchatterjee13",
+      "title": "vae-decode-hdr",
+      "reference": "https://github.com/sumitchatterjee13/vae-decode-hdr",
+      "files": [
+        "https://github.com/sumitchatterjee13/vae-decode-hdr"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that preserves High Dynamic Range (HDR) data during VAE decoding, bypassing the default 0-1 range clamping. It also includes a companion 'Linear EXR Export' node for creating professional-grade linear EXR files."
+    },
+    {
       "author": "perckle",
       "title": "ComfyUI-DPIR",
       "reference": "https://github.com/perckle/comfyui_dpir",
@@ -33280,6 +33301,58 @@
       ],
       "install_type": "git-clone",
       "description": "QwenImage edit-safe nodes: consistent encoders, ref-edit presets, and HQ VAE decode. No extra dependencies."
+    },
+    {
+      "author": "ChaosHL",
+      "title": "Marvelous-Box-Comfyui",
+      "reference": "https://github.com/ChaosHL/Marvelous-Box-Comfyui",
+      "files": [
+        "https://github.com/ChaosHL/Marvelous-Box-Comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "a tool for prompt collect"
+    },
+    {
+      "author": "suhee19",
+      "title": "comfyui-orpheus-loader",
+      "reference": "https://github.com/suhee19/comfyui-orpheus-loader",
+      "files": [
+        "https://github.com/suhee19/comfyui-orpheus-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node for ComfyUI to load the Orpheus TTS base model and prepare it for LoRA injection + speech generation."
+    },
+    {
+      "author": "Santat2023",
+      "title": "ComfyUiRagCustomNodes",
+      "reference": "https://github.com/Santat2023/ComfyUiRagNodes",
+      "files": [
+        "https://github.com/Santat2023/ComfyUiRagNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This package contains custom nodes for ComfyUI: Image generation using Stable Diffusion and LLM, Uploading and searching images via ChromaDB and MinIO (S3), Integration with CLIP, Ollama, and other tools"
+    },
+    {
+      "author": "GizmoR13",
+      "title": "PG Nodes",
+      "id": "PG",
+      "reference": "https://github.com/GizmoR13/PG-Nodes",
+      "files": [
+        "https://github.com/GizmoR13/PG-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Pragmatic utilities for ComfyUI: Lazy Prompt (history + randomizer), Unified Loader (+ mini), Just Save Image (+ passthrough)."
+    },
+    {
+      "author": "Dalongzhuazi",
+      "title": "ComfyUI-Gemini-Prompt-Studio",
+      "id": "comfyui-gemini-prompt-studio",
+      "reference": "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio",
+      "files": [
+        "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio"
+      ],
+      "install_type": "git-clone",
+      "description": "One node generates both T2I & I2V positive/negative conditioning in a single click."
     },
     {
       "author": "Ser-Hilary",
