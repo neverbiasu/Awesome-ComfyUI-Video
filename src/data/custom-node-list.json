@@ -8234,6 +8234,16 @@
       "description": "A ComfyUI integration for FireRedTTS‑2, a real-time multi-speaker TTS system enabling high-quality, emotionally expressive dialogue and monologue synthesis. Leveraging a streaming architecture and context-aware prosody modeling, it supports natural speaker turns and stable long-form generation, ideal for interactive chat and podcast applications."
     },
     {
+      "author": "1038lab",
+      "title": "ComfyUI-VoxCPMTTS",
+      "reference": "https://github.com/1038lab/ComfyUI-VoxCPMTTS",
+      "files": [
+        "https://github.com/1038lab/ComfyUI-VoxCPMTTS"
+      ],
+      "install_type": "git-clone",
+      "description": "A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM model."
+    },
+    {
       "author": "Klinter",
       "title": "Klinter_nodes",
       "id": "klinter",
@@ -13912,6 +13922,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI implementation of [a/Aura-SR](https://github.com/fal-ai/aura-sr)"
+    },
+    {
+      "author": "GreenLandisaLie",
+      "title": "ComfyUI-BooruBrowser",
+      "reference": "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser",
+      "files": [
+        "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser"
+      ],
+      "install_type": "git-clone",
+      "description": "Quickly search and get images from Gelbooru/Danbooru/E621 without leaving ComfyUI"
     },
     {
       "author": "licyk",
@@ -33353,6 +33373,76 @@
       ],
       "install_type": "git-clone",
       "description": "One node generates both T2I & I2V positive/negative conditioning in a single click."
+    },
+    {
+      "author": "Sampkao",
+      "title": "ComfyUI-Amage",
+      "reference": "https://github.com/Sampkao/ComfyUI-Amage",
+      "files": [
+        "https://github.com/Sampkao/ComfyUI-Amage"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository provides a set of custom nodes for ComfyUI, designed to improve workflow convenience when working with text, image, video, and audio data."
+    },
+    {
+      "author": "maxmad62",
+      "title": "ComfyUI-DiscordWebhookWithInput",
+      "reference": "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput",
+      "files": [
+        "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that allows you to send an image + a message (e.g. your prompt) to a Discord channel via a webhook."
+    },
+    {
+      "author": "BizaNator",
+      "title": "ComfyUI Prompt Iterator Extension",
+      "reference": "https://github.com/BizaNator/ComfyUI_PromptIterator",
+      "files": [
+        "https://github.com/BizaNator/ComfyUI_PromptIterator"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful custom node extension for ComfyUI that enables automatic iteration through multiple prompts with corresponding filename generation. Perfect for batch processing different variations like character face angles, poses, or any sequential prompt workflow."
+    },
+    {
+      "author": "Art-xmaster",
+      "title": "comfyui-AGSoft",
+      "reference": "https://github.com/Art-xmaster/comfyui-AGSoft",
+      "files": [
+        "https://github.com/Art-xmaster/comfyui-AGSoft"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: AGSoft Empty Latent, AGSoft ImageRes, AGSoft ImageResMP, AGSoft ImagegPad for Outpainting, AGSoft ImagePad for OutpaintingAdv, AGSoft Image Crop, AGSoft Image Concatenate, AGSoft Image ConcatenateFromBatch, ..."
+    },
+    {
+      "author": "No-22-Github",
+      "title": "ComfyUI_RWKV_Studio",
+      "reference": "https://github.com/No-22-Github/ComfyUI_RWKV_Studio",
+      "files": [
+        "https://github.com/No-22-Github/ComfyUI_RWKV_Studio"
+      ],
+      "install_type": "git-clone",
+      "description": "A suite of ComfyUI custom nodes based on the RWKV series of models, offering various functions like translation and dialogue."
+    },
+    {
+      "author": "cyan9977",
+      "title": "ComfyUI_PromptQueue",
+      "reference": "https://github.com/cyan9977/ComfyUI_PromptQueue",
+      "files": [
+        "https://github.com/cyan9977/ComfyUI_PromptQueue"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node: batch prompt queue from multiline/text file with incremental per-run consumption and {p} templating."
+    },
+    {
+      "author": "rvage",
+      "title": "ComfyUI-RvToolsX",
+      "reference": "https://github.com/r-vage/ComfyUI-RvToolsX",
+      "files": [
+        "https://github.com/r-vage/ComfyUI-RvToolsX"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities."
     },
     {
       "author": "Ser-Hilary",
