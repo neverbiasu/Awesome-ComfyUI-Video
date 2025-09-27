@@ -14135,6 +14135,16 @@
       "description": "A custom node for ComfyUI that provides advanced 2D relighting capabilities."
     },
     {
+      "author": "tritant",
+      "title": "ComfyUI_Custom_Switch",
+      "reference": "https://github.com/tritant/ComfyUI_Custom_Switch",
+      "files": [
+        "https://github.com/tritant/ComfyUI_Custom_Switch"
+      ],
+      "install_type": "git-clone",
+      "description": "It allows you to control complex graphs by unbypass/unmute and bypass/mute entire groups of nodes, just by adding tags in the title of your nodes, no connection required."
+    },
+    {
       "author": "metncelik",
       "title": "comfyui_met_suite",
       "reference": "https://github.com/metncelik/comfyui_met_suite",
@@ -14641,6 +14651,16 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node for ComfyUI provides watermark detection capabilities using a YOLO model trained by [a/fancyfeast](https://huggingface.co/fancyfeast), the creator of JoyCaption. The model is originally hosted at [a/Hugging Face Space](https://huggingface.co/spaces/fancyfeast/joycaption-watermark-detection)."
+    },
+    {
+      "author": "lrzjason",
+      "title": "Comfyui-QwenEditUtils",
+      "reference": "https://github.com/lrzjason/Comfyui-QwenEditUtils",
+      "files": [
+        "https://github.com/lrzjason/Comfyui-QwenEditUtils"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of utility nodes for Qwen-based image editing in ComfyUI."
     },
     {
       "author": "cozy_comm",
@@ -22913,16 +22933,6 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI plugin library based on [a/https://github.com/stavsap/comfyui-ollama](https://github.com/stavsap/comfyui-ollama), with the Ollama cluster provided by Huixingyun."
-    },
-    {
-      "author": "huixingyun",
-      "title": "ComfyUI-HX-Pimg",
-      "reference": "https://github.com/huixingyun/ComfyUI-HX-Pimg",
-      "files": [
-        "https://github.com/huixingyun/ComfyUI-HX-Pimg"
-      ],
-      "install_type": "git-clone",
-      "description": "Some custom nodes used for pimg (a comfyui controller deployed in huixingyun)."
     },
     {
       "author": "bradsec",
@@ -33132,16 +33142,6 @@
       "description": "Lucy Edit is a video editing model that performs instruction-guided edits on videos using free-text prompts — it supports a variety of edits, such as clothing & accessory changes, character changes, object insertions, and scene replacements while preserving the motion and composition perfectly."
     },
     {
-      "author": "wallen0322",
-      "title": "ComfyUI-QI-QwenEditSafe",
-      "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
-      "files": [
-        "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
-      ],
-      "install_type": "git-clone",
-      "description": "NODES: QI • TextEncodeQwenImageEdit, QI • VAE Decode, QI • RefEdit Encode — by wallen0322"
-    },
-    {
       "author": "Sean-Bradley",
       "title": "ComfyUI Virtual Webcam",
       "reference": "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam",
@@ -33314,13 +33314,13 @@
     {
       "author": "wallen",
       "title": "ComfyUI-QI-QwenEditSafe",
-      "id": "qi-qweneditsafe",
+      "id": "comfyui-qi-qweneditsafe",
       "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
       "files": [
         "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
       ],
       "install_type": "git-clone",
-      "description": "QwenImage edit-safe nodes: consistent encoders, ref-edit presets, and HQ VAE decode. No extra dependencies."
+      "description": "Safe & consistent QwenImage edit encoders and HQ VAE decode for ComfyUI."
     },
     {
       "author": "ChaosHL",
@@ -33435,14 +33435,40 @@
       "description": "ComfyUI custom node: batch prompt queue from multiline/text file with incremental per-run consumption and {p} templating."
     },
     {
-      "author": "rvage",
-      "title": "ComfyUI-RvToolsX",
-      "reference": "https://github.com/r-vage/ComfyUI-RvToolsX",
+      "title": "RC Image Compositor",
+      "author": "kj863257",
+      "description": "A comprehensive ComfyUI plugin suite that brings professional Photoshop-style layer effects and advanced compositing capabilities. Features modular architecture, 24 blend modes, and enhanced positioning system.",
       "files": [
-        "https://github.com/r-vage/ComfyUI-RvToolsX"
+        "https://github.com/kj863257/ComfyUI_RC_Image_Compositor"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities."
+      "tags": [
+        "compositing",
+        "layer",
+        "blend modes",
+        "photoshop-style"
+      ]
+    },
+    {
+      "author": "Verolelb",
+      "title": "Video Compressor (Unified)",
+      "id": "Video compressor",
+      "reference": "https://github.com/Verolelb/ComfyUI-VideoCompressor",
+      "files": [
+        "https://github.com/Verolelb/ComfyUI-VideoCompressor"
+      ],
+      "install_type": "git-clone",
+      "description": "Compress video in comfyui."
+    },
+    {
+      "author": "Verolelb",
+      "title": "ComfyUI-Persistent-Queue",
+      "reference": "https://github.com/co5dt/ComfyUI-Persistent-Queue",
+      "files": [
+        "https://github.com/co5dt/ComfyUI-Persistent-Queue"
+      ],
+      "install_type": "git-clone",
+      "description": "CoA simple, friendly way to make your ComfyUI job queue survive restarts and crashes."
     },
     {
       "author": "Ser-Hilary",
