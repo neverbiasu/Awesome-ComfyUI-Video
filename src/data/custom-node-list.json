@@ -11354,7 +11354,7 @@
         "https://github.com/pamparamm/sd-perturbed-attention"
       ],
       "install_type": "git-clone",
-      "description": "Perturbed-Attention Guidance, Smoothed Energy Guidance and Sliding Window Guidance for ComfyUI and SD Forge/reForge. (PAG)"
+      "description": "Perturbed-Attention Guidance (PAG), Smoothed Energy Guidance (SEG), Sliding Window Guidance (SWG), PLADIS, Normalized Attention Guidance (NAG), Token Perturbation Guidance (TPG) for ComfyUI and SD reForge."
     },
     {
       "author": "pamparamm",
@@ -21110,14 +21110,14 @@
     },
     {
       "author": "Light-x02",
-      "title": "Image Metadata Nodes",
-      "id": "image_metadata_nodes",
-      "reference": "https://github.com/Light-x02/ComfyUI-Image-Metadata-Nodes",
+      "title": "Light-x02 Nodes",
+      "id": "Light-x02_Nodes",
+      "reference": "https://github.com/Light-x02/ComfyUI-Lightx02-Nodes",
       "files": [
-        "https://github.com/Light-x02/ComfyUI-Image-Metadata-Nodes"
+        "https://github.com/Light-x02/ComfyUI-Lightx02-Nodes"
       ],
       "install_type": "git-clone",
-      "description": "Nodes for loading and saving images with metadata in ComfyUI."
+      "description": "Custom nodes for ComfyUI by Light-x02. Optimize and simplify workflows, adding utilities, samplers, schedulers and various tools (Flux, images, etc.) to enrich and extend ComfyUI’s capabilities."
     },
     {
       "author": "Light-x02",
@@ -21129,16 +21129,6 @@
       ],
       "install_type": "git-clone",
       "description": "A combined node for ComfyUI with six configurable tabs for managing multiple parameter configurations, including guidance, sampler, scheduler, steps, and denoise."
-    },
-    {
-      "author": "Light-x02",
-      "title": "Crop Image by Lightx02",
-      "reference": "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02",
-      "files": [
-        "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02"
-      ],
-      "install_type": "git-clone",
-      "description": "CropImageByLightx02 is a ComfyUI node that allows cropping an image (and optionally its mask) using pixel values."
     },
     {
       "author": "marcoc2",
@@ -28734,16 +28724,6 @@
     },
     {
       "author": "A043-studios",
-      "title": "ComfyUI HunyuanWorld - Complete 3D Generation Suite",
-      "reference": "https://github.com/A043-studios/ComfyUI_HunyuanWorldnode",
-      "files": [
-        "https://github.com/A043-studios/ComfyUI_HunyuanWorldnode"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for Hunyuan3D - Complete 3D generation suite"
-    },
-    {
-      "author": "A043-studios",
       "title": "ComfyUI OmniSVG Nodes",
       "reference": "https://github.com/A043-studios/ComfyUI-OmniSVG",
       "files": [
@@ -30519,16 +30499,6 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node package for batch image processing with filename preservation."
-    },
-    {
-      "author": "cedarconnor",
-      "title": "ComfyUI HunyuanWorld - Professional 3D World Generation",
-      "reference": "https://github.com/cedarconnor/ComfyUI_HunyuanWorld",
-      "files": [
-        "https://github.com/cedarconnor/ComfyUI_HunyuanWorld"
-      ],
-      "install_type": "git-clone",
-      "description": "Transform text and images into immersive 360° 3D worlds using Tencent's HunyuanWorld-1.0 in ComfyUI with native FLUX architecture integration."
     },
     {
       "author": "vaishnav-vn",
@@ -32630,13 +32600,13 @@
     },
     {
       "author": "leylahviolet",
-      "title": "ComfyUI Violet Tools",
+      "title": "iolet Tools 💅",
       "reference": "https://github.com/leylahviolet/ComfyUI-Violet-Tools",
       "files": [
         "https://github.com/leylahviolet/ComfyUI-Violet-Tools"
       ],
       "install_type": "git-clone",
-      "description": "A collection of aesthetic-focused custom nodes for ComfyUI that enhance AI image generation with sophisticated style and prompt management capabilities. Includes 7 nodes: Aesthetic Alchemist (style blending with 20+ curated aesthetics), Quality Queen (quality prompts), Glamour Goddess (hair/makeup), Body Bard (body features), Pose Priestess (positioning), Encoding Enchantress (text processing), and Negativity Nullifier (negative prompts). Features weighted blending, randomization, and modular YAML-based configuration."
+      "description": "Aesthetic-focused custom nodes for ComfyUI with sophisticated style and prompt management"
     },
     {
       "author": "ApexArtist",
@@ -33469,6 +33439,17 @@
       ],
       "install_type": "git-clone",
       "description": "CoA simple, friendly way to make your ComfyUI job queue survive restarts and crashes."
+    },
+    {
+      "author": "MIUProject",
+      "title": "VNCCS - Visual Novel Character Creation Suite",
+      "id": "VNCCS",
+      "reference": "https://github.com/AHEKOT/ComfyUI_VNCCS",
+      "files": [
+        "https://github.com/AHEKOT/ComfyUI_VNCCS"
+      ],
+      "install_type": "git-clone",
+      "description": "VNCCS is a comprehensive tool for creating character sprites for visual novels."
     },
     {
       "author": "Ser-Hilary",
