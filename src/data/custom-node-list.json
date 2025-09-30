@@ -5662,6 +5662,16 @@
       "description": "This repo contains nodes for ComfyUI that implement some helpful operations on tensors, such as normalization."
     },
     {
+      "author": "ttulttul",
+      "title": "ComfyUI Qwen Rectified Flow Tools",
+      "reference": "https://github.com/ttulttul/ComfyUI-FlowMatching-Inverter",
+      "files": [
+        "https://github.com/ttulttul/ComfyUI-FlowMatching-Inverter"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node pack for ComfyUI provides a suite of advanced tools for performing 'invert-and-resample' workflows with Rectified Flow models like Qwen-VL. It allows you to take an existing image, convert it to a noisy latent using a guided inversion process, and then use that latent as a starting point to generate creative, high-quality variations."
+    },
+    {
       "author": "jitcoder",
       "title": "LoraInfo",
       "id": "lorainfo",
@@ -33450,6 +33460,46 @@
       ],
       "install_type": "git-clone",
       "description": "VNCCS is a comprehensive tool for creating character sprites for visual novels."
+    },
+    {
+      "author": "wzken",
+      "title": "Steganos Node for ComfyUI",
+      "reference": "https://github.com/wzken/ComfyUI-Steganos-Node",
+      "files": [
+        "https://github.com/wzken/ComfyUI-Steganos-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node for ComfyUI allows you to hide a video file within a PNG image using a file concatenation technique. The resulting image can be viewed as a normal picture, but a standard unzip tool can extract the hidden video from it."
+    },
+    {
+      "author": "gregory-richard",
+      "title": "WarpPipe Nodes",
+      "reference": "https://github.com/gregory-richard/ComfyUI-WarpPipe",
+      "files": [
+        "https://github.com/gregory-richard/ComfyUI-WarpPipe"
+      ],
+      "install_type": "git-clone",
+      "description": "WarpPipe - A data bundling and transfer system for ComfyUI workflows"
+    },
+    {
+      "author": "abdullahceylan",
+      "title": "AC ComfyUI Queue Manager",
+      "reference": "https://github.com/abdullahceylan/ac-comfyui-queue-manager",
+      "files": [
+        "https://github.com/abdullahceylan/ac-comfyui-queue-manager"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive queue management system for ComfyUI workflows"
+    },
+    {
+      "author": "J-ChenX",
+      "title": "NIX ComfyUI Plugin",
+      "reference": "https://github.com/J-ChenX/ComfyUI-NIX",
+      "files": [
+        "https://github.com/J-ChenX/ComfyUI-NIX"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of plugins for ComfyUI that provides a variety of useful nodes (batch path loading, rotate & crop, mask crop & composition, proportional scaling, slicing, string utilities, arbitrary type switching, image inference, etc.)."
     },
     {
       "author": "Ser-Hilary",
