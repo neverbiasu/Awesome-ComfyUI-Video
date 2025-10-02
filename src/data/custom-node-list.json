@@ -14462,6 +14462,16 @@
       "description": "A comprehensive collection of color manipulation and analysis nodes for ComfyUI"
     },
     {
+      "author": "APZmedia",
+      "title": "NormalMapLightEstimator",
+      "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
+      "files": [
+        "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
+    },
+    {
       "author": "N3rd00d",
       "title": "ComfyUI-Paint3D-Nodes",
       "id": "paint3d",
@@ -33602,6 +33612,36 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for Hunyuan3D - Complete 3D generation suite"
+    },
+    {
+      "author": "mochidroppot",
+      "title": "ComfyUI-ProxyFix",
+      "reference": "https://github.com/mochidroppot/ComfyUI-ProxyFix",
+      "files": [
+        "https://github.com/mochidroppot/ComfyUI-ProxyFix"
+      ],
+      "install_type": "git-clone",
+      "description": "This extension fixes URL encoding issues when ComfyUI is accessed through reverse proxies like 'jupyter-server-proxy'."
+    },
+    {
+      "author": "9nate-drake",
+      "title": "ComfyUI Mask to Center Point Nodes",
+      "reference": "https://github.com/9nate-drake/ComfyUI-MaskCenter",
+      "files": [
+        "https://github.com/9nate-drake/ComfyUI-MaskCenter"
+      ],
+      "install_type": "git-clone",
+      "description": "This pack provides two custom nodes for ComfyUI designed to find the center coordinates of masks and segments. They are useful for workflows where you need to precisely identify the location of objects or regions of interest."
+    },
+    {
+      "author": "Kishor900",
+      "title": "ComfyUI WANv2v Video Stitcher",
+      "reference": "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher",
+      "files": [
+        "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node pack for WAN v2v long video generation. Provides nodes for chunking, overlap stitching, control group orchestration, debug numbering, and de-overlap merging to create seamless long-form videos."
     },
     {
       "author": "Ser-Hilary",
