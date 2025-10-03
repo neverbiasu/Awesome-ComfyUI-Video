@@ -14443,16 +14443,6 @@
     },
     {
       "author": "APZmedia",
-      "title": "ComfyUI APZmedia PSD Tools",
-      "reference": "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools",
-      "files": [
-        "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools"
-      ],
-      "install_type": "git-clone",
-      "description": "This extension provides PSD layer saving functionalities with mask support for ComfyUI."
-    },
-    {
-      "author": "APZmedia",
       "title": "ComfyUI Color Profile Reader",
       "reference": "https://github.com/APZmedia/ComfyUI-color-tools",
       "files": [
@@ -33642,6 +33632,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom node pack for WAN v2v long video generation. Provides nodes for chunking, overlap stitching, control group orchestration, debug numbering, and de-overlap merging to create seamless long-form videos."
+    },
+    {
+      "author": "sselpah",
+      "title": "ComfyUI-sselpah-nodes",
+      "reference": "https://github.com/sselpah/ComfyUI-sselpah-nodes",
+      "files": [
+        "https://github.com/sselpah/ComfyUI-sselpah-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Extension of IPAdapter implementation by cubiq and whoever contributed to that repository"
     },
     {
       "author": "Ser-Hilary",
