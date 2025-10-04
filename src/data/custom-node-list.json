@@ -14452,16 +14452,6 @@
       "description": "A comprehensive collection of color manipulation and analysis nodes for ComfyUI"
     },
     {
-      "author": "APZmedia",
-      "title": "NormalMapLightEstimator",
-      "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
-      "files": [
-        "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
-    },
-    {
       "author": "N3rd00d",
       "title": "ComfyUI-Paint3D-Nodes",
       "id": "paint3d",
@@ -22691,6 +22681,16 @@
       "description": "Provides tools for applying and removing fisheye lens effects from images."
     },
     {
+      "author": "Kidev",
+      "title": "ComfyUI-FaceFilter",
+      "reference": "https://github.com/Kidev/ComfyUI-FaceFilter",
+      "files": [
+        "https://github.com/Kidev/ComfyUI-FaceFilter"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for face based filtering plus image batch merging."
+    },
+    {
       "author": "feixuetuba",
       "title": "Spleeter",
       "reference": "https://github.com/feixuetuba/Spleeter",
@@ -26717,16 +26717,6 @@
       "description": "A more advanced version of the original ImageScaleToTotalPixels node"
     },
     {
-      "author": "rakki194",
-      "title": "ComfyUI-ImageCompare",
-      "reference": "https://github.com/rakki194/ComfyUI-ImageCompare",
-      "files": [
-        "https://github.com/rakki194/ComfyUI-ImageCompare"
-      ],
-      "install_type": "git-clone",
-      "description": "A simple custom node for ComfyUI that allows you to compare two images (or batches of images) side-by-side within the UI."
-    },
-    {
       "author": "matoo",
       "title": "Compare Videos",
       "reference": "https://github.com/surinder83singh/ComfyUI-compare-videos",
@@ -27398,6 +27388,16 @@
       ],
       "install_type": "git-clone",
       "description": "VoxCPM TTS. Context-aware, expressive speech generation and true-to-life voice cloning"
+    },
+    {
+      "author": "wildminder",
+      "title": "ComfyUI-KaniTTS",
+      "reference": "https://github.com/wildminder/ComfyUI-KaniTTS",
+      "files": [
+        "https://github.com/wildminder/ComfyUI-KaniTTS"
+      ],
+      "install_type": "git-clone",
+      "description": "Kani TTS. Generate natural, high‑quality speech from text"
     },
     {
       "author": "cloudkoala",
@@ -32191,6 +32191,16 @@
       "description": "High‑quality music audio enhancement for ComfyUI: FlashSR super‑resolution + Fat Llama spectral enhancement (GPU & CPU)."
     },
     {
+      "author": "lucasgattas",
+      "title": "Egregora Frames Animation Nodes for ComfyUI",
+      "reference": "https://github.com/lucasgattas/ComfyUI-Egregora-Frames-Animation-Nodes",
+      "files": [
+        "https://github.com/lucasgattas/ComfyUI-Egregora-Frames-Animation-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced image list animation toolkit for ComfyUI with batch processing, AI-powered frame interpolation, and multi-format video encoding."
+    },
+    {
       "author": "sweetndata",
       "title": "ComfyUI-Reflatent",
       "reference": "https://github.com/sweetndata/ComfyUI-Reflatent",
@@ -33334,6 +33344,16 @@
       "description": "Safe & consistent QwenImage edit encoders and HQ VAE decode for ComfyUI."
     },
     {
+      "author": "wallen",
+      "title": "ComfyUI-SageAttention3",
+      "reference": "https://github.com/wallen0322/ComfyUI-SageAttention3",
+      "files": [
+        "https://github.com/wallen0322/ComfyUI-SageAttention3"
+      ],
+      "install_type": "git-clone",
+      "description": "Strict Sage 3 (Blackwell) attention for ComfyUI official flows."
+    },
+    {
       "author": "ChaosHL",
       "title": "Marvelous-Box-Comfyui",
       "reference": "https://github.com/ChaosHL/Marvelous-Box-Comfyui",
@@ -33642,6 +33662,47 @@
       ],
       "install_type": "git-clone",
       "description": "Extension of IPAdapter implementation by cubiq and whoever contributed to that repository"
+    },
+    {
+      "author": "u5dev",
+      "title": "u5 FreeVRAM - Memory Management",
+      "id": "u5_VramFREE",
+      "reference": "https://github.com/u5dev/comfyUI_u5_VramFREE",
+      "files": [
+        "https://github.com/u5dev/comfyUI_u5_VramFREE"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Memory Management and VRAM Optimization Custom Node - Free VRAM with sequential model loading support"
+    },
+    {
+      "author": "WangDianhui",
+      "title": "ComfyUI-SA-ODE_Sampler",
+      "reference": "https://github.com/WangDianhui/ComfyUI-SA-ODE_Sampler",
+      "files": [
+        "https://github.com/WangDianhui/ComfyUI-SA-ODE_Sampler"
+      ],
+      "install_type": "git-clone",
+      "description": "Ultra-Efficient Flow Matching sampler ported from [a/https://github.com/eddyhhlure1Eddy/ode-t1](https://github.com/eddyhhlure1Eddy/ode-t1), suitable for native ComfyUI workflows."
+    },
+    {
+      "author": "rvage",
+      "title": "ComfyUI-RvTools-X",
+      "reference": "https://github.com/r-vage/ComfyUI-RvTools-X",
+      "files": [
+        "https://github.com/r-vage/ComfyUI-RvTools-X"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities."
+    },
+    {
+      "author": "dothings",
+      "title": "comfyui_placeholder_prompting",
+      "reference": "https://github.com/dothings/comfyui_placeholder_prompting",
+      "files": [
+        "https://github.com/dothings/comfyui_placeholder_prompting"
+      ],
+      "install_type": "git-clone",
+      "description": "custom node which allows placing **some_tag** in your prompt and it will replace it with a preset prompt as you like."
     },
     {
       "author": "Ser-Hilary",
