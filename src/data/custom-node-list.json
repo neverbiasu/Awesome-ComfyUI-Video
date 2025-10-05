@@ -21142,6 +21142,16 @@
       "description": "A combined node for ComfyUI with six configurable tabs for managing multiple parameter configurations, including guidance, sampler, scheduler, steps, and denoise."
     },
     {
+      "author": "Light-x02",
+      "title": "ComfyUI-Civitai-Discovery-Hub",
+      "reference": "https://github.com/Light-x02/ComfyUI-Civitai-Discovery-Hub",
+      "files": [
+        "https://github.com/Light-x02/ComfyUI-Civitai-Discovery-Hub"
+      ],
+      "install_type": "git-clone",
+      "description": "This ComfyUI node lets you browse the Civitai gallery directly within the interface, featuring infinite scroll, advanced filters (including NSFW), and favorites management. It also allows you to retrieve prompts, metadata, and images/videos to seamlessly reuse them in your workflows."
+    },
+    {
       "author": "marcoc2",
       "title": "Image Processing Suite for ComfyUI",
       "reference": "https://github.com/marcoc2/ComfyUI-AnotherUtils",
@@ -29135,6 +29145,16 @@
       "description": "Custom samplers and schedulers for ComfyUI"
     },
     {
+      "author": "azazeal04",
+      "title": "comfy-switch-samplers",
+      "reference": "https://github.com/azazeal04/comfyui-switch-samplers",
+      "files": [
+        "https://github.com/azazeal04/comfyui-switch-samplers"
+      ],
+      "install_type": "git-clone",
+      "description": "Switch sampler nodes for ComfyUI"
+    },
+    {
       "author": "flamacore",
       "title": "ComfyUI YouTube Uploader",
       "id": "comfyui-youtubeuploader",
@@ -33703,6 +33723,26 @@
       ],
       "install_type": "git-clone",
       "description": "custom node which allows placing **some_tag** in your prompt and it will replace it with a preset prompt as you like."
+    },
+    {
+      "author": "ThunderBolt4931",
+      "title": "ComfyUI-Pixel-Forge",
+      "reference": "https://github.com/ThunderBolt4931/comfyui_pixel_forge",
+      "files": [
+        "https://github.com/ThunderBolt4931/comfyui_pixel_forge"
+      ],
+      "install_type": "git-clone",
+      "description": "Pixel-Forge is a powerful suite of custom nodes for ComfyUI designed for complex image processing, computer vision tasks, and advanced batch operations. This toolkit moves beyond simple image generation, providing the essential building blocks for creating sophisticated, logic-driven workflows."
+    },
+    {
+      "author": "ThunderBolt4931",
+      "title": "ComfyUI-Koolook",
+      "reference": "https://github.com/malkuthro/ComfyUI-Koolook",
+      "files": [
+        "https://github.com/malkuthro/ComfyUI-Koolook"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository provides custom nodes for ComfyUI tailored for VFX and AI image/video generation workflows"
     },
     {
       "author": "Ser-Hilary",
