@@ -15782,6 +15782,16 @@
       "description": "The ComfyUI version of [a/Qwen3-Omini](https://github.com/QwenLM/Qwen3-Omni)"
     },
     {
+      "author": "leeguandong",
+      "title": "ComfyUI nodes to use Xverse",
+      "reference": "https://github.com/leeguandong/ComfyUI_Xverse",
+      "files": [
+        "https://github.com/leeguandong/ComfyUI_Xverse"
+      ],
+      "install_type": "git-clone",
+      "description": "The ComfyUI version of [a/XVerse](https://github.com/bytedance/XVerse)"
+    },
+    {
       "author": "lenskikh",
       "title": "Propmt Worker",
       "reference": "https://github.com/lenskikh/ComfyUI-Prompt-Worker",
@@ -33162,16 +33172,6 @@
       "description": "Use the fewest nodes for the most flexible model calls. A versatile ComfyUI plugin for OpenAI-compatible APIs, featuring multi-purpose nodes for text and image, support for switching between multiple API providers, and auto-saving of custom models. Compatible with new models like nano-banana and seedream4."
     },
     {
-      "author": "Dehypnotic",
-      "title": "Save MP3",
-      "reference": "https://github.com/Dehypnotic/comfyui-save-mp3",
-      "files": [
-        "https://github.com/Dehypnotic/comfyui-save-mp3"
-      ],
-      "install_type": "git-clone",
-      "description": "A node for saving audio in MP3-format with selected bitrate mode and quality to an output subfolder or absolute path on any drive."
-    },
-    {
       "author": "Aaalice233",
       "title": "ComfyUI-Danbooru-Gallery",
       "reference": "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery",
@@ -33945,6 +33945,78 @@
       "description": "A ComfyUI custom node that provides a basic implementation of Hunyuan Image 3.0 using Transformers."
     },
     {
+      "author": "Seungyong Lee",
+      "title": "ComfyUI-PromptEnhancer",
+      "id": "comfyui-promptenhancer",
+      "reference": "https://github.com/ryan-seungyong-lee/ComfyUI-PromptEnhancer",
+      "files": [
+        "https://github.com/ryan-seungyong-lee/ComfyUI-PromptEnhancer"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-PromptEnhancer is a custom node for Hunyuan PromptEnhancer"
+    },
+    {
+      "author": "scofano",
+      "title": "Comfy Text Stats",
+      "id": "comfy-text-stats",
+      "reference": "https://github.com/scofano/comfy-text-stats",
+      "files": [
+        "https://github.com/scofano/comfy-text-stats"
+      ],
+      "install_type": "git-clone",
+      "description": "Node: Text Stats (Char & Word Count). A lightweight ComfyUI custom node that takes a text string and outputs character and word counts (INT). Ideal for caption preprocessing, prompt analytics, and dataset workflows."
+    },
+    {
+      "author": "voxta-ai",
+      "title": "Voxta ComfyUI Nodes",
+      "reference": "https://github.com/voxta-ai/ComfyUI-VoxtaNodes",
+      "files": [
+        "https://github.com/voxta-ai/ComfyUI-VoxtaNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes to create and integrate with Voxta"
+    },
+    {
+      "author": "casc1701",
+      "title": "ComfyUI_OverlayFrameNumber",
+      "reference": "https://github.com/casc1701/ComfyUI_OverlayFrameNumber",
+      "files": [
+        "https://github.com/casc1701/ComfyUI_OverlayFrameNumber"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node to overlay frame numbers on images (e.g., from VAE Decode) with customizable prefix, zero-padding, font, position, and text outline."
+    },
+    {
+      "author": "bobosola",
+      "title": "ComfyUI-reboot",
+      "reference": "https://github.com/bobosola/ComfyUI-reboot",
+      "files": [
+        "https://github.com/bobosola/ComfyUI-reboot"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node to reboot ComfyUI server"
+    },
+    {
+      "author": "AzelusLightvale",
+      "title": "ComfyUI ARG Toolkit",
+      "reference": "https://github.com/AzelusLightvale/ComfyUI-ARG-Toolkit",
+      "files": [
+        "https://github.com/AzelusLightvale/ComfyUI-ARG-Toolkit"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of ComfyUI nodes for cryptography, steganography, encryption, decryption, and tools needed to both make and solve ARGs (Alternative Reality Games) and secret messages."
+    },
+    {
+      "author": "Kayarte",
+      "title": "GeoNodes",
+      "reference": "https://github.com/Kayarte/GeoNodes",
+      "files": [
+        "https://github.com/Kayarte/GeoNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "GIS Processing Nodes for ComfyUI"
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
@@ -34274,16 +34346,6 @@
       ],
       "install_type": "copy",
       "description": "Extremely inspired and forked from: [a/https://github.com/klimaleksus/stable-diffusion-webui-embedding-merge](https://github.com/klimaleksus/stable-diffusion-webui-embedding-merge)"
-    },
-    {
-      "author": "Kayarte",
-      "title": "GeoNodes",
-      "reference": "https://github.com/Kayarte/GeoNodes",
-      "files": [
-        "https://github.com/Kayarte/GeoNodes/raw/refs/heads/main/GISDetectionNode.py"
-      ],
-      "install_type": "copy",
-      "description": "GIS Processing Nodes for ComfyUI"
     },
     {
       "author": "huimengshiguang",
