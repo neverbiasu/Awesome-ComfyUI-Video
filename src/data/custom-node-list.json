@@ -15782,16 +15782,6 @@
       "description": "The ComfyUI version of [a/Qwen3-Omini](https://github.com/QwenLM/Qwen3-Omni)"
     },
     {
-      "author": "leeguandong",
-      "title": "ComfyUI nodes to use Xverse",
-      "reference": "https://github.com/leeguandong/ComfyUI_Xverse",
-      "files": [
-        "https://github.com/leeguandong/ComfyUI_Xverse"
-      ],
-      "install_type": "git-clone",
-      "description": "The ComfyUI version of [a/XVerse](https://github.com/bytedance/XVerse)"
-    },
-    {
       "author": "lenskikh",
       "title": "Propmt Worker",
       "reference": "https://github.com/lenskikh/ComfyUI-Prompt-Worker",
@@ -17717,6 +17707,16 @@
       ],
       "install_type": "git-clone",
       "description": "Node for usage of Gemini API"
+    },
+    {
+      "author": "silveroxides",
+      "title": "ComfyUI_Hybrid-Scaled_fp8-Loader",
+      "reference": "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader",
+      "files": [
+        "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom Loader for scaled_fp8 models with hybrid precision layers."
     },
     {
       "author": "turkyden",
@@ -20836,6 +20836,16 @@
       "description": "DeepExtract is a powerful and efficient tool designed to separate vocals and sounds from audio files, providing an enhanced experience for musicians, producers, and audio engineers. With DeepExtract, you can quickly and effectively isolate vocals or instruments from mixed audio tracks, facilitating tasks like remixing, karaoke preparation, or audio analysis."
     },
     {
+      "author": "abdozmantar",
+      "title": "DeepExtract2",
+      "reference": "https://github.com/abdozmantar/ComfyUI-DeepExtractV2",
+      "files": [
+        "https://github.com/abdozmantar/ComfyUI-DeepExtractV2"
+      ],
+      "install_type": "git-clone",
+      "description": "DeepExtractV2 – lightning-fast, high-quality audio separator. Instantly isolate vocals, drums, bass, and more from any track. Ideal for creators, DJs, and audio pros."
+    },
+    {
       "author": "ctefer",
       "title": "CFE_comfyui",
       "reference": "https://github.com/CpreForEver/CFE_comfyui",
@@ -22944,16 +22954,6 @@
       ],
       "install_type": "git-clone",
       "description": "Implementation of architectural related graph algorithm in ComfyUI."
-    },
-    {
-      "author": "ziwang-com",
-      "title": "comfyui-deepseek-r1",
-      "reference": "https://github.com/ziwang-com/comfyui-deepseek-r1",
-      "files": [
-        "https://github.com/ziwang-com/comfyui-deepseek-r1"
-      ],
-      "install_type": "git-clone",
-      "description": "Comfyui-deepseek-r1 Node Plugin"
     },
     {
       "author": "davidgressett",
@@ -32625,7 +32625,7 @@
         "https://github.com/5agado/ComfyUI-Sagado-Nodes"
       ],
       "install_type": "git-clone",
-      "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node"
+      "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node, Video Loader, Film Grain"
     },
     {
       "author": "FredBisAI",
@@ -33273,6 +33273,16 @@
       "description": "A Virtual Camera Output For ComfyUI. On Windows, it will use the OBS Virtual Camera driver. So make sure you have OBS installed. Then in your other webcam capable applications, such as Google Meet, Teams, Zoom and even OBS itself, you can connect to the OBS Virtual Camera option and see what you are outputting from ComfyUI."
     },
     {
+      "author": "Sean-Bradley",
+      "title": "ComfyUI Image Compare",
+      "reference": "https://github.com/Sean-Bradley/ComfyUI-Image-Compare",
+      "files": [
+        "https://github.com/Sean-Bradley/ComfyUI-Image-Compare"
+      ],
+      "install_type": "git-clone",
+      "description": "Compare two images using ComfyUI. Connect images to both image_a and image_b inputs. Press RUN. Then use the slider to compare. Best used when two images are very similar and you want to see the differences very closely. Search for the manager for image compare, or imagecompare."
+    },
+    {
       "author": "LukeCoulson1",
       "title": "ComfyUI LoRA Combine Node",
       "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
@@ -33371,16 +33381,6 @@
       ],
       "install_type": "git-clone",
       "description": "Custom nodes to process multi exposure images and stack them to produce 32bit exr file with dynamic range data"
-    },
-    {
-      "author": "sumitchatterjee13",
-      "title": "vae-decode-hdr",
-      "reference": "https://github.com/sumitchatterjee13/vae-decode-hdr",
-      "files": [
-        "https://github.com/sumitchatterjee13/vae-decode-hdr"
-      ],
-      "install_type": "git-clone",
-      "description": "A custom ComfyUI node that preserves High Dynamic Range (HDR) data during VAE decoding, bypassing the default 0-1 range clamping. It also includes a companion 'Linear EXR Export' node for creating professional-grade linear EXR files."
     },
     {
       "author": "perckle",
@@ -33907,9 +33907,9 @@
     {
       "author": "wgedeon",
       "title": "comfyui_play_traversal",
-      "reference": "https://github.com/mikecaronna/comfyui_c2pa_signer",
+      "reference": "https://github.com/wgedeon/comfyui_play_traversal",
       "files": [
-        "https://github.com/mikecaronna/comfyui_c2pa_signer"
+        "https://github.com/wgedeon/comfyui_play_traversal"
       ],
       "install_type": "git-clone",
       "description": "Provides a structured model and helper nodes for producing long video sequences on ComfyUI using low vram machines."
@@ -34015,6 +34015,47 @@
       ],
       "install_type": "git-clone",
       "description": "GIS Processing Nodes for ComfyUI"
+    },
+    {
+      "author": "Jairodaniel-17",
+      "title": "ComfyUI-translate-offline",
+      "reference": "https://github.com/Jairodaniel-17/ComfyUI-translate-offline",
+      "files": [
+        "https://github.com/Jairodaniel-17/ComfyUI-translate-offline"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-translate-offline is a custom node for ComfyUI designed to perform offline text translations using ONNX–based translation models from Hugging Face. The project enables integrating multilingual translations into ComfyUI workflows, focusing on text prompts and conditioning for CLIP models. It supports direct translation between configured language pairs as well as pivot translation via English when no direct model exists. It uses lazy model loading to optimize performance and a SQLite-based caching system to avoid repeated translations."
+    },
+    {
+      "author": "PiePieDesign",
+      "title": "PiePieTweaks",
+      "id": "piepie-tweaks",
+      "reference": "https://github.com/PiePieDesign/PiePieTweaks",
+      "files": [
+        "https://github.com/PiePieDesign/PiePieTweaks"
+      ],
+      "install_type": "git-clone",
+      "description": "Tweaks and simple nodes for usability and common needs"
+    },
+    {
+      "author": "turnbros",
+      "title": "ComfyBros - Custom ComfyUI Nodes",
+      "reference": "https://github.com/turnbros/ComfyBros",
+      "files": [
+        "https://github.com/turnbros/ComfyBros"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for enhanced text and image processing"
+    },
+    {
+      "author": "siraxe",
+      "title": "ComfyUI-WanVideoWrapper_QQ",
+      "reference": "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ",
+      "files": [
+        "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI providing video manipulation, LoRA loading, path animation, and visual drawing tools for WanVideo workflows."
     },
     {
       "author": "Ser-Hilary",
