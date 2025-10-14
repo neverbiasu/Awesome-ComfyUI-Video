@@ -33044,6 +33044,16 @@
       "description": "A custom node for ComfyUI that leverages the Google Cloud Vertex AI Imagen API to generate and edit images."
     },
     {
+      "author": "ru4ls",
+      "title": "Google Font Text Image Node for ComfyUI",
+      "reference": "https://github.com/ru4ls/ComfyUI_Google-Fonts",
+      "files": [
+        "https://github.com/ru4ls/ComfyUI_Google-Fonts"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node provides a powerful and flexible way to create images from text with advanced typographic controls. It's an ideal tool for generating inputs for Typography, creating titles and watermarks, or producing font specimens for multimodal models to analyze and generate."
+    },
+    {
       "author": "garg-aayush",
       "title": "ComfyUI-Svg2Raster",
       "reference": "https://github.com/garg-aayush/ComfyUI-Svg2Raster",
@@ -34288,6 +34298,27 @@
       ],
       "install_type": "git-clone",
       "description": "A simple node for loading DDS (DirectDraw Surface) texture files into a PyTorch tensor.\nThe node is designed to be used in visual programming frameworks that support custom nodes (e.g., ComfyUI, AUTOMATIC1111)."
+    },
+    {
+      "author": "IAMCCS",
+      "title": "IAMCCS-nodes",
+      "id": "iamccs-nodes",
+      "reference": "https://github.com/IAMCCS/IAMCCS-nodes",
+      "files": [
+        "https://github.com/IAMCCS/IAMCCS-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes by IAMCCS, including a critical fix for LoRA loading in native WANAnimate workflows, especially useful for advanced models like FLUX and WAN 2.1. This bypasses the need for the WanVideoWrapper for LoRA functionality."
+    },
+    {
+      "author": "michael",
+      "title": "ComfyUI ML Nodes",
+      "reference": "https://github.com/MichaelMaxAgent/comfyui_ML_nodes",
+      "files": [
+        "https://github.com/MichaelMaxAgent/comfyui_ML_nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for saving images/videos without metadata and GPU-accelerated frame rate processing (25fps→16fps). Includes 5 nodes: Save Image/Video (No Metadata), Frame Rate Resampler (CPU/GPU). Supports CUDA acceleration and multiple nterpolation methods. Requires ffmpeg."
     },
     {
       "author": "Ser-Hilary",
