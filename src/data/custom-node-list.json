@@ -13213,7 +13213,7 @@
         "https://github.com/MariusKM/ComfyUI-BadmanNodes"
       ],
       "install_type": "git-clone",
-      "description": "Nodes:Badman_Blend, Badman_HexGenerator, Badman_String, Badman_Concat_String, Badman_Print, BadmanIO, BadmanIntUtil"
+      "description": "Utility nodes including ImageBlend, Math, Strings, Color tools, Wildcard Processor, Latent Noise Mask, and WAN Three Frame To Video for keyframe-based video generation"
     },
     {
       "author": "TMElyralab",
@@ -16617,6 +16617,16 @@
       "description": "General audio nodes.  Mix, Bass/Treble, Concatenate, Pitch, Add/remove silence, Speed"
     },
     {
+      "author": "niknah",
+      "title": "Presentation ComfyUI",
+      "reference": "https://github.com/niknah/presentation-ComfyUI",
+      "files": [
+        "https://github.com/niknah/presentation-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Turn ComfyUI workflow to a website UI"
+    },
+    {
       "author": "daryltucker",
       "title": "ComfyUI-LoadFiles",
       "id": "LoadFiles",
@@ -19855,6 +19865,16 @@
       ],
       "install_type": "git-clone",
       "description": "A simple ComfyUI plugin that Its purpose and function is to replicate some of the editing effects of capcut,jianying and pr."
+    },
+    {
+      "author": "yichengup",
+      "title": "ComfyUI-VideoTransition",
+      "reference": "https://github.com/yichengup/ComfyUI-VideoTransition",
+      "files": [
+        "https://github.com/yichengup/ComfyUI-VideoTransition"
+      ],
+      "install_type": "git-clone",
+      "description": "A video transition effects plugin implemented using a Chromium headless browser and Python."
     },
     {
       "author": "Horizon Team",
@@ -23481,7 +23501,7 @@
         "https://github.com/DragonDiffusionbyBoyo/Boyonodes"
       ],
       "install_type": "git-clone",
-      "description": "The Vae node is a sneaky little node perfect for deployment in Schools or work environments where you do not want the kiddywinkles creating NSFW content. Just rename the node to VAE decode and it looks like a normal node but hidden inside is an NSFW detector. Once hidden in the workflow there are no settings to undo the NSFW detection so cannot be worked around unless you remove the node. The node looks innocent once renamed so is virtually undetectable. I have placed an example workflow for you to see how to connect it. Simple stuff really, but once connected just rename."
+      "description": "Essential nodes for semantic image editing workflows with Kontext, Qwen Image Edit, and HiDream E1.1 models. Features automated iterative editing with Boyo Image Grab, organised dataset creation with paired image/prompt savers, and comprehensive file management tools. Perfect for batch processing, training data preparation, and streamlined semantic editing pipelines. Added Uncensored Qwen VL abliterated model node and downloader!"
     },
     {
       "author": "DragonDiffusionbyBoyo",
@@ -32733,9 +32753,9 @@
     {
       "author": "iguanesolutions",
       "title": "Flux Resolution",
-      "reference": "https://github.com/iguanesolutions/comfyui-flux-resolution",
+      "reference": "https://github.com/iguanesolutions/comfyui-ig1-tools",
       "files": [
-        "https://github.com/iguanesolutions/comfyui-flux-resolution"
+        "https://github.com/iguanesolutions/comfyui-ig1-tools"
       ],
       "install_type": "git-clone",
       "description": "Get the closest compatible flux resolution from a given resolution."
@@ -34319,6 +34339,37 @@
       ],
       "install_type": "git-clone",
       "description": "Custom nodes for saving images/videos without metadata and GPU-accelerated frame rate processing (25fps→16fps). Includes 5 nodes: Save Image/Video (No Metadata), Frame Rate Resampler (CPU/GPU). Supports CUDA acceleration and multiple nterpolation methods. Requires ffmpeg."
+    },
+    {
+      "author": "leewinder",
+      "title": "Crop To Center",
+      "reference": "https://github.com/leewinder/comfyui-crop-to-center",
+      "files": [
+        "https://github.com/leewinder/comfyui-crop-to-center"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+    },
+    {
+      "author": "PozzettiAndrea",
+      "title": "ComfyUI-MeshCraft",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+    },
+    {
+      "author": "rookiestar28",
+      "title": "Danbooru Tags Upsampler for ComfyUI",
+      "id": "danbooru-tags-upsampler",
+      "reference": "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler",
+      "files": [
+        "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler"
+      ],
+      "install_type": "git-clone",
+      "description": "Makes the prompts for generating anime images more detailed by upsampling Danbooru tags."
     },
     {
       "author": "Ser-Hilary",
