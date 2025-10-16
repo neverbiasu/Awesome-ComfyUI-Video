@@ -2089,6 +2089,17 @@
       "description": "This project is used to enable [a/ToonCrafter](https://github.com/ToonCrafter/ToonCrafter) to be used in ComfyUI.\nYou can use it to achieve generative keyframe animation\nAnd use it in Blender for animation rendering and prediction"
     },
     {
+      "author": "AIGODLIKE",
+      "title": "Blender-IO",
+      "id": "blender-io",
+      "reference": "https://github.com/AIGODLIKE/Blender-IO",
+      "files": [
+        "https://github.com/AIGODLIKE/Blender-IO"
+      ],
+      "install_type": "git-clone",
+      "description": "Add data chain operation between blender and comfyui. Provides ComfyUIInputs node for blender to fetching data from ComfyUI, and Blender Inputs/Outputs node for ComfyUI to fetching/sending data with blender."
+    },
+    {
       "author": "syllebra",
       "title": "BilboX's ComfyUI Custom Nodes",
       "id": "bilbox",
@@ -11330,6 +11341,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI_LucidFlux:Caption-Free Universal Image Restoration with a Large-Scale Diffusion Transformer，you can use it in ComfyUI"
+    },
+    {
+      "author": "smthemex",
+      "title": "ComfyUI_OmniPart",
+      "reference": "https://github.com/smthemex/ComfyUI_OmniPart",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_OmniPart"
+      ],
+      "install_type": "git-clone",
+      "description": "OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion,this node ,you can use it in comfyUI"
     },
     {
       "author": "choey",
@@ -21547,6 +21568,16 @@
       "description": "A custom node for ComfyUI that integrates DreamOmni2 for image generation and editing with multi-modal understanding."
     },
     {
+      "author": "HM-RunningHub",
+      "title": "ComfyUI_RH_mammothmoda",
+      "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_mammothmoda",
+      "files": [
+        "https://github.com/HM-RunningHub/ComfyUI_RH_mammothmoda"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for MammothModa2 text-to-image generation."
+    },
+    {
       "author": "wqjuser",
       "title": "ComfyUI-Chat-Image",
       "reference": "https://github.com/wqjuser/ComfyUI-Chat-Image",
@@ -27672,6 +27703,16 @@
       ],
       "install_type": "git-clone",
       "description": "A lightweight ComfyUI custom node for generating high-quality masks and pose detection for virtual try-on applications. This node extracts only the essential masking functionality from FitDiT without requiring heavy diffusion models."
+    },
+    {
+      "author": "karthikg-09",
+      "title": "ComfyUI WanVideo Auto Resize",
+      "reference": "https://github.com/karthikg-09/ComfyUI-WanVideoAutoResize",
+      "files": [
+        "https://github.com/karthikg-09/ComfyUI-WanVideoAutoResize"
+      ],
+      "install_type": "git-clone",
+      "description": "A high-performance ComfyUI custom node for intelligent image resizing with industry-standard presets and smart orientation detection. Optimized for video workflows and batch processing."
     },
     {
       "author": "kiko9",
@@ -34370,6 +34411,76 @@
       ],
       "install_type": "git-clone",
       "description": "Makes the prompts for generating anime images more detailed by upsampling Danbooru tags."
+    },
+    {
+      "author": "MoonMoon82",
+      "title": "ClipVision_Tools",
+      "reference": "https://github.com/MoonMoon82/ClipVision_Tools",
+      "files": [
+        "https://github.com/MoonMoon82/ClipVision_Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes using CLIP Vision models for image similarity analysis."
+    },
+    {
+      "author": "pdale-boop",
+      "title": "Network Guardian",
+      "reference": "https://github.com/pdale-boop/Comfyui-Network-Guardian",
+      "files": [
+        "https://github.com/pdale-boop/Comfyui-Network-Guardian"
+      ],
+      "install_type": "git-clone",
+      "description": "Protects ComfyUI workflows from network interruptions with automatic retry and fallback"
+    },
+    {
+      "author": "pierreb-mf",
+      "title": "MF PipoNodes",
+      "reference": "https://github.com/pierreb-mf/ComfyUI-MF-PipoNodes",
+      "files": [
+        "https://github.com/pierreb-mf/ComfyUI-MF-PipoNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Utility nodes for ComfyUI workflows: randomization, text processing, logging, and math operations."
+    },
+    {
+      "author": "polym",
+      "title": "ComfyUI-musubi",
+      "reference": "https://github.com/polym/ComfyUI-musubi",
+      "files": [
+        "https://github.com/polym/ComfyUI-musubi"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository provides a custom node for ComfyUI to load diffusion models with musubi block-wise scaling."
+    },
+    {
+      "author": "ChristopherLuciano",
+      "title": "LucianoTools ComfyUI Suite",
+      "reference": "https://github.com/ChristopherLuciano/ComfyUI-LucianoTools",
+      "files": [
+        "https://github.com/ChristopherLuciano/ComfyUI-LucianoTools"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of useful user interface extensions for ComfyUI to improve workflow and provide helpful feedback."
+    },
+    {
+      "author": "m3rr",
+      "title": "h4 ToolKit",
+      "reference": "https://github.com/m3rr/h4_ToolKit",
+      "files": [
+        "https://github.com/m3rr/h4_ToolKit"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of useful user interface extensions for ComfyUI to improve workflow and provide helpful feedback."
+    },
+    {
+      "author": "Pixelailabs",
+      "title": "Joy Caption Two - PixelaiLabs Edition",
+      "reference": "https://github.com/Pixelailabs/Joy_Caption_Two_PixelaiLabs",
+      "files": [
+        "https://github.com/Pixelailabs/Joy_Caption_Two_PixelaiLabs"
+      ],
+      "install_type": "git-clone",
+      "description": "A fully automated ComfyUI custom node that uses Joy Caption Alpha Two to generate high-quality image captions. Perfect for: LoRA/model training dataset preparation, Image tagging and organization, NSFW content captioning, Batch processing large image collections"
     },
     {
       "author": "Ser-Hilary",
