@@ -11353,6 +11353,16 @@
       "description": "OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion,this node ,you can use it in comfyUI"
     },
     {
+      "author": "smthemex",
+      "title": "ComfyUI_FlashVSR",
+      "reference": "https://github.com/smthemex/ComfyUI_FlashVSR",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_FlashVSR"
+      ],
+      "install_type": "git-clone",
+      "description": "FlashVSR: Towards Real-Time Diffusion-Based Streaming Video Super-Resolution,this node ,you can use it in comfyUI"
+    },
+    {
       "author": "choey",
       "title": "Comfy-Topaz",
       "id": "topaz",
