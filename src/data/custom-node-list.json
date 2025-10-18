@@ -15856,14 +15856,13 @@
     },
     {
       "author": "IuvenisSapiens",
-      "title": "ComfyUI_Qwen2-VL-Instruct",
-      "id": "ComfyUI_Qwen2_5-VL-Instruct",
-      "reference": "https://github.com/IuvenisSapiens/ComfyUI_Qwen2_5-VL-Instruct",
+      "title": "Comfyui_Qwen3-VL-Instruct",
+      "reference": "https://github.com/IuvenisSapiens/ComfyUI_Qwen3-VL-Instruct",
       "files": [
-        "https://github.com/IuvenisSapiens/ComfyUI_Qwen2_5-VL-Instruct"
+        "https://github.com/IuvenisSapiens/ComfyUI_Qwen3-VL-Instruct"
       ],
       "install_type": "git-clone",
-      "description": "This is an implementation of [a/Qwen2.5-VL-Instruct](https://github.com/QwenLM/Qwen2.5-VL) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), which includes, but is not limited to, support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
+      "description": "This is an implementation of [Qwen3-VL-Instruct](https://github.com/QwenLM/Qwen3-VL) by [ComfyUI](https://github.com/comfyanonymous/ComfyUI), which includes, but is not limited to, support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
     },
     {
       "author": "mltask",
@@ -31625,6 +31624,16 @@
       "description": "SDMatte is an interactive image matting method based on stable diffusion, which supports three types of visual prompts (points, boxes, and masks) for accurately extracting target objects from natural images."
     },
     {
+      "author": "flybirdxx",
+      "title": "ComfyUI-Rex-Omni",
+      "reference": "https://github.com/flybirdxx/ComfyUI-RexOmni",
+      "files": [
+        "https://github.com/flybirdxx/ComfyUI-RexOmni"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI custom node for integrating Rex-Omni multimodal AI models. This node provides seamless integration of Rex-Omni's advanced computer vision and natural language processing capabilities into your ComfyUI workflows."
+    },
+    {
       "author": "DenRakEiw",
       "title": "ComfyUI Latent Color Tools",
       "reference": "https://github.com/DenRakEiw/Latent_Nodes",
@@ -32273,16 +32282,6 @@
       ],
       "install_type": "git-clone",
       "description": "Process batches of images (e.g., video frames) with ultralytics bbox detection in ComfyUI. This custom node package extends the standard BboxDetectorCombined to handle batches efficiently, making it ideal for processing 300+ video frames."
-    },
-    {
-      "author": "isaac-mcfadyen",
-      "title": "ComfyUI-QwenClip",
-      "reference": "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip",
-      "files": [
-        "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip"
-      ],
-      "install_type": "git-clone",
-      "description": "A variety of random text encoder tools intended for use with ComfyUI and Qwen Image/Qwen Image Edit. More (may) be added as I try out various modifications to Qwen Image."
     },
     {
       "author": "isaac-mcfadyen",
@@ -33123,6 +33122,16 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node provides a powerful and flexible way to create images from text with advanced typographic controls. It's an ideal tool for generating inputs for Typography, creating titles and watermarks, or producing font specimens for multimodal models to analyze and generate."
+    },
+    {
+      "author": "ru4ls",
+      "title": "ComfyUI Street View Loader Node",
+      "reference": "https://github.com/ru4ls/ComfyUI_StreetView-Loader",
+      "files": [
+        "https://github.com/ru4ls/ComfyUI_StreetView-Loader"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that allows you to load images directly from Google Street View to use as backgrounds, textures, or inputs in your workflows."
     },
     {
       "author": "garg-aayush",
@@ -34491,6 +34500,56 @@
       ],
       "install_type": "git-clone",
       "description": "A fully automated ComfyUI custom node that uses Joy Caption Alpha Two to generate high-quality image captions. Perfect for: LoRA/model training dataset preparation, Image tagging and organization, NSFW content captioning, Batch processing large image collections"
+    },
+    {
+      "author": "EricRollei",
+      "title": "Hyper-ComfyUI: HYPIR Image Restoration Node",
+      "reference": "https://github.com/EricRollei/HYPIR-ComfyUI",
+      "files": [
+        "https://github.com/EricRollei/HYPIR-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes that embed the HYPIR image restoration method for Stable Diffusion 2.1. The upstream research was created by Xinqi Lin, Fanghua Yu, Jinfan Hu, Zhiyuan You, Wu Shi, Jimmy S. Ren, Jinjin Gu, and collaborators. Source: [a/https://github.com/XPixelGroup/HYPIR](https://github.com/XPixelGroup/HYPIR)."
+    },
+    {
+      "author": "EricRollei",
+      "title": "Eric's Prompt Enhancers for ComfyUI",
+      "reference": "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer",
+      "files": [
+        "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive suite of AI-powered prompt enhancement nodes for ComfyUI using local LLMs (LM Studio or Ollama). Transform simple prompts into detailed, platform-optimized descriptions for video and image generation."
+    },
+    {
+      "author": "nomadoor",
+      "title": "ComfyUI Temporal Mask Tools",
+      "reference": "https://github.com/nomadoor/ComfyUI-Temporal-Mask-Tools",
+      "files": [
+        "https://github.com/nomadoor/ComfyUI-Temporal-Mask-Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Utility collection of ComfyUI V3 nodes for stabilizing temporal segmentation masks while staying deterministic and torch-only."
+    },
+    {
+      "author": "neo-editer",
+      "title": "ComfyUI-Better-Dimensions-wan-v2",
+      "reference": "https://github.com/neo-editer/ComfyUI-Better-Dimensions-wan-v2",
+      "files": [
+        "https://github.com/neo-editer/ComfyUI-Better-Dimensions-wan-v2"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: Better Image Dimensions, Standard SDXL Dimensions node, Dimensions by Ratio node, ..."
+    },
+    {
+      "author": "Boba-svg",
+      "title": "ComfyUI-PromptSwitch",
+      "reference": "https://github.com/Boba-svg/ComfyUI-PromptSwitch",
+      "files": [
+        "https://github.com/Boba-svg/ComfyUI-PromptSwitch"
+      ],
+      "install_type": "git-clone",
+      "description": "It’s a custom node that allows you to intuitively toggle prompts ON/OFF and adjust their weights — just like using a checklist."
     },
     {
       "author": "Ser-Hilary",
