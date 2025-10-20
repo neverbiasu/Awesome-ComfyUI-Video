@@ -14734,6 +14734,16 @@
       "description": "A collection of utility nodes for Qwen-based image editing in ComfyUI."
     },
     {
+      "author": "lrzjason",
+      "title": "Comfyui-LoraUtils",
+      "reference": "https://github.com/lrzjason/Comfyui-LoraUtils",
+      "files": [
+        "https://github.com/lrzjason/Comfyui-LoraUtils"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of utility nodes for lora operations in ComfyUI."
+    },
+    {
       "author": "cozy_comm",
       "title": "Cozy Communication",
       "id": "cozy_comm",
@@ -28554,6 +28564,16 @@
       "description": "gemini and openai in comfyui"
     },
     {
+      "author": "spawner",
+      "title": "comfyui-lsnet",
+      "reference": "https://github.com/spawner1145/comfyui-lsnet",
+      "files": [
+        "https://github.com/spawner1145/comfyui-lsnet"
+      ],
+      "install_type": "git-clone",
+      "description": "A nodepack powered by LSNet that classifies and clusters artworks by style for fast and efficient style analysis."
+    },
+    {
       "author": "PenguinTeo",
       "title": "Comfyui-TextEditor-Penguin",
       "reference": "https://github.com/PenguinTeo/Comfyui-TextEditor-Penguin",
@@ -33468,6 +33488,16 @@
       ]
     },
     {
+      "author": "Sean-Bradley",
+      "title": "ComfyUI Voice Clone",
+      "reference": "https://github.com/Sean-Bradley/ComfyUI-Voice-Clone",
+      "files": [
+        "https://github.com/Sean-Bradley/ComfyUI-Voice-Clone"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom TTS node that clones voice from a reference audio and speaks entered text."
+    },
+    {
       "author": "LukeCoulson1",
       "title": "ComfyUI LoRA Combine Node",
       "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
@@ -34503,16 +34533,6 @@
     },
     {
       "author": "EricRollei",
-      "title": "Hyper-ComfyUI: HYPIR Image Restoration Node",
-      "reference": "https://github.com/EricRollei/HYPIR-ComfyUI",
-      "files": [
-        "https://github.com/EricRollei/HYPIR-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI nodes that embed the HYPIR image restoration method for Stable Diffusion 2.1. The upstream research was created by Xinqi Lin, Fanghua Yu, Jinfan Hu, Zhiyuan You, Wu Shi, Jimmy S. Ren, Jinjin Gu, and collaborators. Source: [a/https://github.com/XPixelGroup/HYPIR](https://github.com/XPixelGroup/HYPIR)."
-    },
-    {
-      "author": "EricRollei",
       "title": "Eric's Prompt Enhancers for ComfyUI",
       "reference": "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer",
       "files": [
@@ -34530,6 +34550,16 @@
       ],
       "install_type": "git-clone",
       "description": "Utility collection of ComfyUI V3 nodes for stabilizing temporal segmentation masks while staying deterministic and torch-only."
+    },
+    {
+      "author": "nomadoor",
+      "title": "ComfyUI Dual Panel Subgraph Viewer",
+      "reference": "https://github.com/nomadoor/ComfyUI-DualPanel-Subgraph-Viewer",
+      "files": [
+        "https://github.com/nomadoor/ComfyUI-DualPanel-Subgraph-Viewer"
+      ],
+      "install_type": "git-clone",
+      "description": "A frontend extension for ComfyUI that allows you to open and edit subgraphs in a right-hand panel, instead of replacing the main canvas."
     },
     {
       "author": "neo-editer",
@@ -34550,6 +34580,107 @@
       ],
       "install_type": "git-clone",
       "description": "It’s a custom node that allows you to intuitively toggle prompts ON/OFF and adjust their weights — just like using a checklist."
+    },
+    {
+      "author": "sysoutch",
+      "title": "ComfyUI Generator Add-on",
+      "reference": "https://github.com/sysoutch/blender-ComfyUIModelGenerator-addon",
+      "files": [
+        "https://github.com/sysoutch/blender-ComfyUIModelGenerator-addon"
+      ],
+      "install_type": "git-clone",
+      "description": "A Blender add-on that integrates with ComfyUI for AI-powered model generation. Provides workflow management, image input handling, and real-time status tracking for seamless AI art creation within Blender's interface."
+    },
+    {
+      "author": "NewLouwa",
+      "title": "ComfyUI Model Preset Pilot",
+      "reference": "https://github.com/NewLouwa/ComfyUI-Model_preset_Pilot",
+      "files": [
+        "https://github.com/NewLouwa/ComfyUI-Model_preset_Pilot"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node module for managing model presets and configurations. This module automatically detects the model, loads/saves presets (sampler, scheduler, steps, CFG, clip-skip, seed, resolution), and generates/caches preview images per model."
+    },
+    {
+      "author": "SquirrelRat",
+      "title": "MultiString Prompts",
+      "reference": "https://github.com/SquirrelRat/MultiString-Prompts",
+      "files": [
+        "https://github.com/SquirrelRat/MultiString-Prompts"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a simple but powerful custom node for ComfyUI, designed to help you manage and sequence multiple prompts from a single, clean interface.\nIt's ideal for workflows like sequential video generation where you need to feed a series of different prompts into your model."
+    },
+    {
+      "author": "OKIE5",
+      "title": "ComfyUI-CN-Pre",
+      "reference": "https://github.com/OKIE5/ComfyUI-CN-Pre",
+      "files": [
+        "https://github.com/OKIE5/ComfyUI-CN-Pre"
+      ],
+      "install_type": "git-clone",
+      "description": "Ollama in ComfyUI"
+    },
+    {
+      "author": "OmiX",
+      "title": "OmiXdev Custom Nodes",
+      "id": "omixdev-custom-nodes",
+      "reference": "https://github.com/omixmaxdimo/OmiXDev",
+      "files": [
+        "https://github.com/omixmaxdimo/OmiXDev"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom node for online chat with APIKey to OpenAI ChatGpt4xx... Grok ...."
+    },
+    {
+      "author": "AlcAI-AnimeHaven",
+      "title": "AlcAI Nodes for ComfyUI",
+      "reference": "https://github.com/AlcAI-AnimeHaven/AlcAI-nodes",
+      "files": [
+        "https://github.com/AlcAI-AnimeHaven/AlcAI-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "AlcAI Nodes is a collection of custom nodes for ComfyUI, a modular interface for image generation with Stable Diffusion. This project focuses on tools optimized for creating anime-style images and stylized effects, inspired by the AnimeHaven universe. It aims to simplify workflows for artists and AI creativity enthusiasts."
+    },
+    {
+      "author": "diffussy69",
+      "title": "ComfyUI-curved_weight_schedule",
+      "reference": "https://github.com/diffussy69/comfyui-curved_weight_schedule",
+      "files": [
+        "https://github.com/diffussy69/comfyui-curved_weight_schedule"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom Node for ComfyUI that allows you set a weighted curve to your ControlNet giving you more control over the weight of the model over the course of generation."
+    },
+    {
+      "author": "smbdsbrain",
+      "title": "ComfyUI PK Load Image Paste",
+      "reference": "https://github.com/smbdsbrain/ComfyUI-PK_load_image_paste",
+      "files": [
+        "https://github.com/smbdsbrain/ComfyUI-PK_load_image_paste"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that extends the standard Load Image functionality with a convenient 'Paste from clipboard' button. This allows you to directly paste images from your clipboard without workflow conflicts, ensuring only images are pasted."
+    },
+    {
+      "author": "rdawgemfl",
+      "title": "RDAWG 3D Pack (CUDA 12.8 + PyTorch 2.9.0)",
+      "reference": "https://github.com/rdawgemfl/rdawg_3D_pack",
+      "files": [
+        "https://github.com/rdawgemfl/rdawg_3D_pack"
+      ],
+      "install_type": "git-clone",
+      "description": "Modern 3D Processing Nodes for ComfyUI - Optimized for CUDA 12.8 + PyTorch 2.9.0"
+    },
+    {
+      "author": "ashtar1984",
+      "title": "comfyui-find-perfect-resolution",
+      "reference": "https://github.com/ashtar1984/comfyui-find-perfect-resolution",
+      "files": [
+        "https://github.com/ashtar1984/comfyui-find-perfect-resolution"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom ComfyUI node, Find Perfect Resolution, calculates an optimal output resolution for an input image while preserving its aspect ratio and ensuring dimensions are divisible by a specified value. It is designed to work seamlessly in ComfyUI workflows, particularly for resizing images with nodes like 'Resize Image v2'."
     },
     {
       "author": "Ser-Hilary",
