@@ -34683,6 +34683,46 @@
       "description": "This custom ComfyUI node, Find Perfect Resolution, calculates an optimal output resolution for an input image while preserving its aspect ratio and ensuring dimensions are divisible by a specified value. It is designed to work seamlessly in ComfyUI workflows, particularly for resizing images with nodes like 'Resize Image v2'."
     },
     {
+      "author": "cybernaut4",
+      "title": "Arkl1te's Toolkit",
+      "reference": "https://github.com/cybernaut4/comfyui_arkl1te_toolkit",
+      "files": [
+        "https://github.com/cybernaut4/comfyui_arkl1te_toolkit"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI by Arkl1te"
+    },
+    {
+      "author": "guyouyue",
+      "title": "ComfyUI_VideoAutoSplit",
+      "reference": "https://github.com/guyouyue/ComfyUI_VideoAutoSplit",
+      "files": [
+        "https://github.com/guyouyue/ComfyUI_VideoAutoSplit"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Video Auto-Cropping Tool — includes keyframe detection and automatic segmentation/saving based on keyframes."
+    },
+    {
+      "author": "Analaser",
+      "title": "ComfyUI-RandomTagWeights",
+      "reference": "https://github.com/Analaser/ComfyUI-RandomTagWeights",
+      "files": [
+        "https://github.com/Analaser/ComfyUI-RandomTagWeights"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that randomizes tag weights for text prompts. Useful for dynamic prompt generation or creative experimentation in AI image workflows."
+    },
+    {
+      "author": "walke2019",
+      "title": "ComfyUI-GGUF-VisionLM",
+      "reference": "https://github.com/walke2019/ComfyUI-GGUF-VisionLM",
+      "files": [
+        "https://github.com/walke2019/ComfyUI-GGUF-VisionLM"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
