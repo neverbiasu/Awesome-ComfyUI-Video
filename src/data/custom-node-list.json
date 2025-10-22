@@ -14513,6 +14513,16 @@
       "description": "A comprehensive collection of color manipulation and analysis nodes for ComfyUI"
     },
     {
+      "author": "APZmedia",
+      "title": "NormalMapLightEstimator",
+      "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
+      "files": [
+        "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
+    },
+    {
       "author": "N3rd00d",
       "title": "ComfyUI-Paint3D-Nodes",
       "id": "paint3d",
@@ -18775,6 +18785,16 @@
       "nodename_pattern": "\\(BillBum\\)$",
       "install_type": "git-clone",
       "description": "API call node for Third-party platforms both official and local. Support VLMs LLMs Dalle3 Flux-Pro SD3 etc. And some little tools: img to b64 url, b64 url to img, b64 url to b64 data, reg text to word and ',' only, etc."
+    },
+    {
+      "author": "AhBumm",
+      "title": "ComfyUI_UnfakePy_Warpper",
+      "reference": "https://github.com/AhBumm/ComfyUI_UnfakePy_Warpper",
+      "files": [
+        "https://github.com/AhBumm/ComfyUI_UnfakePy_Warpper"
+      ],
+      "install_type": "git-clone",
+      "description": "Warp Unfake.py for ComfyUI"
     },
     {
       "author": "Scepter",
@@ -34721,6 +34741,56 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
+    },
+    {
+      "author": "ussoewwin",
+      "title": "ComfyUI-NunchakuFluxLoraStacker",
+      "reference": "https://github.com/ussoewwin/ComfyUI-NunchakuFluxLoraStacker",
+      "files": [
+        "https://github.com/ussoewwin/ComfyUI-NunchakuFluxLoraStacker"
+      ],
+      "install_type": "git-clone",
+      "description": "An advanced LoRA stacker node specifically designed for Nunchaku FLUX models, featuring dynamic UI control for easy and efficient LoRA management."
+    },
+    {
+      "author": "ussoewwin",
+      "title": "ComfyUI-DistorchMemoryManager",
+      "reference": "https://github.com/ussoewwin/ComfyUI-DistorchMemoryManager",
+      "files": [
+        "https://github.com/ussoewwin/ComfyUI-DistorchMemoryManager"
+      ],
+      "install_type": "git-clone",
+      "description": "An independent memory management custom node for ComfyUI. Provides Distorch memory management functionality for efficient GPU/CPU memory handling."
+    },
+    {
+      "author": "geltz",
+      "title": "ComfyUI-geltz",
+      "reference": "https://github.com/geltz/ComfyUI-geltz",
+      "files": [
+        "https://github.com/geltz/ComfyUI-geltz"
+      ],
+      "install_type": "git-clone",
+      "description": "Various custom nodes; guidance, latents, sampling, tokenization, etc."
+    },
+    {
+      "author": "cmeka",
+      "title": "ComfyUI-WanMoEScheduler",
+      "reference": "https://github.com/cmeka/ComfyUI-WanMoEScheduler",
+      "files": [
+        "https://github.com/cmeka/ComfyUI-WanMoEScheduler"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI scheduler that finds the shift value required to align high/low sampling steps with a target sigma boundary."
+    },
+    {
+      "author": "hvppycoding",
+      "title": "hvppyflow",
+      "reference": "https://github.com/hvppycoding/hvppyflow",
+      "files": [
+        "https://github.com/hvppycoding/hvppyflow"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for Automated Workflow"
     },
     {
       "author": "Ser-Hilary",
