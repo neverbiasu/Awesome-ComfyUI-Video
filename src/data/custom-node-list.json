@@ -34793,6 +34793,37 @@
       "description": "ComfyUI nodes for Automated Workflow"
     },
     {
+      "author": "l33chking",
+      "title": "ComfyUI Channel Ops",
+      "id": "ComfyUI-Channel-Ops",
+      "reference": "https://github.com/L33chKing/ComfyUI_Channel_Ops",
+      "files": [
+        "https://github.com/L33chKing/ComfyUI_Channel_Ops"
+      ],
+      "install_type": "git-clone",
+      "description": "Comfyui custom node that modifies image channels with various per-channel operations"
+    },
+    {
+      "author": "wallen0322",
+      "title": "ComfyUI-WanAnimate-Enhancer",
+      "reference": "https://github.com/wallen0322/ComfyUI-WanAnimate-Enhancer",
+      "files": [
+        "https://github.com/wallen0322/ComfyUI-WanAnimate-Enhancer"
+      ],
+      "install_type": "git-clone",
+      "description": "Enhanced WanAnimateToVideo with multi-dimensional control"
+    },
+    {
+      "author": "alibof96",
+      "title": "ComfyUI-DownscaleIRN",
+      "reference": "https://github.com/alibof96/ComfyUI-DownscaleIRN",
+      "files": [
+        "https://github.com/alibof96/ComfyUI-DownscaleIRN"
+      ],
+      "install_type": "git-clone",
+      "description": "A single-node ComfyUI module for Invertible Image Rescaling (IRN) that includes: automatic model download and discovery, BasicSR-based IRN_x2/x3/x4 loading, device/precision control, low-VRAM tiling, safe handling of non-divisible sizes, alpha channel preservation, and built-in bicubic/area fallback."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
