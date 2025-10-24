@@ -533,17 +533,6 @@
       "description": "Nodes: Image Remove Background (rembg)"
     },
     {
-      "author": "YinBailiang",
-      "title": "MergeBlockWeighted_fo_ComfyUI",
-      "id": "mergeblockweighted_fo_comfyui",
-      "reference": "https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI",
-      "files": [
-        "https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "Nodes: MergeBlockWeighted"
-    },
-    {
       "author": "trojblue",
       "title": "trNodes",
       "id": "trnodes",
@@ -34822,6 +34811,136 @@
       ],
       "install_type": "git-clone",
       "description": "A single-node ComfyUI module for Invertible Image Rescaling (IRN) that includes: automatic model download and discovery, BasicSR-based IRN_x2/x3/x4 loading, device/precision control, low-VRAM tiling, safe handling of non-divisible sizes, alpha channel preservation, and built-in bicubic/area fallback."
+    },
+    {
+      "author": "0xhappydev",
+      "title": "comfyui-qwen-image-tools",
+      "reference": "https://github.com/0xhappydev/comfyui-qwen-image-tools",
+      "files": [
+        "https://github.com/0xhappydev/comfyui-qwen-image-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for Qwen-Image-Edit with multi-image support, more flexibility around the vision transformer (qwen2.5-vl), custom system prompts, and some other experimental things to come."
+    },
+    {
+      "author": "L-Hugh",
+      "title": "ComfyUI-Lumina-DiMOO",
+      "reference": "https://github.com/L-Hugh/ComfyUI-Lumina-DiMOO",
+      "files": [
+        "https://github.com/L-Hugh/ComfyUI-Lumina-DiMOO"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI wrapper nodes for Lumina-DiMOO. Please see the README for model weight download instructions."
+    },
+    {
+      "author": "charlyad142",
+      "title": "ComfyUI Replicate Image Generation & Edit",
+      "reference": "https://github.com/charlyad142/comfyUI_charly_replicate_api",
+      "files": [
+        "https://github.com/charlyad142/comfyUI_charly_replicate_api"
+      ],
+      "install_type": "git-clone",
+      "description": "This nodepack lets you use several Replicate models for image generation and editing: Qwen Image Edit Plus (Multi-Image) for editing multiple images using reference poses, Qwen Image Edit (Single Image) for single-image edits with text instructions, SeedEdit 3.0 (ByteDance) for advanced prompt-controlled editing, and Seedream 4.0 (ByteDance) for high-quality multi-resolution image generation."
+    },
+    {
+      "author": "IXIWORKS-KIMJUNGHO",
+      "title": "ComfyUI-VideoDescription",
+      "reference": "https://github.com/IXIWORKS-KIMJUNGHO/ComfyUI-VideoDescription",
+      "files": [
+        "https://github.com/IXIWORKS-KIMJUNGHO/ComfyUI-VideoDescription"
+      ],
+      "install_type": "git-clone",
+      "description": "Video description custom nodes for ComfyUI powered by advanced vision-language models."
+    },
+    {
+      "author": "pacchikAI",
+      "title": "ImagePromptBatch",
+      "reference": "https://github.com/pacchikAI/comfyui_pacchik_ImagePromptBatch",
+      "files": [
+        "https://github.com/pacchikAI/comfyui_pacchik_ImagePromptBatch"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple comfyui Node for Loading images and thier prompts"
+    },
+    {
+      "author": "tenitsky",
+      "title": "ComfyUI Prompt Cycler Node",
+      "reference": "https://github.com/tenitsky/tenitsky-prompt-cycler-simple",
+      "files": [
+        "https://github.com/tenitsky/tenitsky-prompt-cycler-simple"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that cycles through an infinite number of prompts"
+    },
+    {
+      "author": "PozzettiAndrea",
+      "title": "ComfyUI-Grounding",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-Grounding",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-Grounding"
+      ],
+      "install_type": "git-clone",
+      "description": "Grounding for dummies, simplest workflow"
+    },
+    {
+      "author": "Antique3e",
+      "title": "ComfyUI Credit Tracker",
+      "reference": "https://github.com/Antique3e/ComfyUI-ModalCredits",
+      "files": [
+        "https://github.com/Antique3e/ComfyUI-ModalCredits"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple UI extension to track Modal GPU credits in real-time."
+    },
+    {
+      "author": "spiralmountain",
+      "title": "ComfyUI_HDNodes",
+      "reference": "https://github.com/spiralmountain/ComfyUI_HDNodes",
+      "files": [
+        "https://github.com/spiralmountain/ComfyUI_HDNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI that enable video generation using ByteDance's Seedance model via [a/Fal.ai](https://fal.ai/)."
+    },
+    {
+      "author": "apenguin24",
+      "title": "ComfyUI-WanKeyframing",
+      "reference": "https://github.com/apenguin24/ComfyUI-WanKeyframing",
+      "files": [
+        "https://github.com/apenguin24/ComfyUI-WanKeyframing"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI custom node collection for keyframe-based video generation and batch image processing. This extension provides advanced tools for creating smooth video sequences from keyframes with intelligent conditioning and latent space interpolation."
+    },
+    {
+      "author": "balu112121",
+      "title": "ComfyUI URL Image Loader",
+      "reference": "https://github.com/balu112121/comfyui-LoadImageFromURL",
+      "files": [
+        "https://github.com/balu112121/comfyui-LoadImageFromURL"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node for loading images directly from URLs for AI image generation workflows."
+    },
+    {
+      "author": "manycore-maas",
+      "title": "ComfyUI-SpatialGen",
+      "reference": "https://github.com/manycore-maas/ComfyUI-SpatialGen",
+      "files": [
+        "https://github.com/manycore-maas/ComfyUI-SpatialGen"
+      ],
+      "install_type": "git-clone",
+      "description": "Scene Viewer of SpatialGen"
+    },
+    {
+      "author": "QuietNoise",
+      "title": "ComfyUI Queue Manager",
+      "reference": "https://github.com/QuietNoise/comfyui_queue_manager",
+      "files": [
+        "https://github.com/QuietNoise/comfyui_queue_manager"
+      ],
+      "install_type": "git-clone",
+      "description": "An extension supporting more streamlined prompt queue management."
     },
     {
       "author": "Ser-Hilary",
