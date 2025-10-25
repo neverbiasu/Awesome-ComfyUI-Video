@@ -27174,6 +27174,16 @@
       "description": "Run Segformer at lightning speed for image/video segmentation."
     },
     {
+      "author": "lihaoyun6",
+      "title": "ComfyUI-FlashVSR_Ultra_Fast",
+      "reference": "https://github.com/lihaoyun6/ComfyUI-FlashVSR_Ultra_Fast",
+      "files": [
+        "https://github.com/lihaoyun6/ComfyUI-FlashVSR_Ultra_Fast"
+      ],
+      "install_type": "git-clone",
+      "description": "Running FlashVSR on lower VRAM without any artifacts."
+    },
+    {
       "author": "northumber",
       "title": "ComfyUI-northTools",
       "reference": "https://github.com/northumber/ComfyUI-northTools",
@@ -34941,6 +34951,16 @@
       ],
       "install_type": "git-clone",
       "description": "An extension supporting more streamlined prompt queue management."
+    },
+    {
+      "author": "Spin256",
+      "title": "spin256-comfyui",
+      "reference": "https://github.com/Spin256/spin256-comfyui",
+      "files": [
+        "https://github.com/Spin256/spin256-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes to enable easy selection of image/video sizes (width/height) and int/string selectors"
     },
     {
       "author": "Ser-Hilary",
