@@ -34933,16 +34933,6 @@
       "description": "A custom ComfyUI node for loading images directly from URLs for AI image generation workflows."
     },
     {
-      "author": "manycore-maas",
-      "title": "ComfyUI-SpatialGen",
-      "reference": "https://github.com/manycore-maas/ComfyUI-SpatialGen",
-      "files": [
-        "https://github.com/manycore-maas/ComfyUI-SpatialGen"
-      ],
-      "install_type": "git-clone",
-      "description": "Scene Viewer of SpatialGen"
-    },
-    {
       "author": "QuietNoise",
       "title": "ComfyUI Queue Manager",
       "reference": "https://github.com/QuietNoise/comfyui_queue_manager",
@@ -34961,6 +34951,26 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes to enable easy selection of image/video sizes (width/height) and int/string selectors"
+    },
+    {
+      "author": "tmode-1960",
+      "title": "TA-ComfyUI-Nodes-Pack",
+      "reference": "https://github.com/tmode-1960/TA-ComfyUI-Nodes-Pack",
+      "files": [
+        "https://github.com/tmode-1960/TA-ComfyUI-Nodes-Pack"
+      ],
+      "install_type": "git-clone",
+      "description": "Some useful nodes for ComfyUI (model loader & extensions for EBU-LMStudio)"
+    },
+    {
+      "author": "lakkiy",
+      "title": "ComfyUI-RWImageS3",
+      "reference": "https://github.com/lakkiy/ComfyUI-RWImageS3",
+      "files": [
+        "https://github.com/lakkiy/ComfyUI-RWImageS3"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI extension that enables seamless integration with AWS S3 storage for reading and saving images directly within your ComfyUI workflows. This extension eliminates the need for manual file transfers by providing direct S3 connectivity for your image processing pipelines."
     },
     {
       "author": "Ser-Hilary",
