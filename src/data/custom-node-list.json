@@ -9479,17 +9479,6 @@
       "description": "Mask cutout based on Segment Anything."
     },
     {
-      "author": "Shadetail",
-      "title": "Eagleshadow Custom Nodes",
-      "id": "eagleshadow",
-      "reference": "https://github.com/Shadetail/ComfyUI_Eagleshadow",
-      "files": [
-        "https://github.com/Shadetail/ComfyUI_Eagleshadow"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom nodes for ComfyUI by Eagleshadow."
-    },
-    {
       "author": "Jannchie",
       "title": "ComfyUI-J",
       "reference": "https://github.com/Jannchie/ComfyUI-J",
@@ -14510,6 +14499,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
+    },
+    {
+      "author": "APZmedia",
+      "title": "ComfyUI DreamLight Node",
+      "reference": "https://github.com/APZmedia/ComfyUI-Dreamlight",
+      "files": [
+        "https://github.com/APZmedia/ComfyUI-Dreamlight"
+      ],
+      "install_type": "git-clone",
+      "description": "Comfyui wrapper of Dreamlight by yongliu20"
     },
     {
       "author": "N3rd00d",
@@ -22891,6 +22890,16 @@
       "description": "ComfyUI nodes for face based filtering plus image batch merging."
     },
     {
+      "author": "Dehypnotic",
+      "title": "Dehypnotic Save nodes",
+      "reference": "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes",
+      "files": [
+        "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Save toolkit for audio, image, and video: MP3 audio export with VBR/CBR options, multi-format image saving with workflow/thumbnail metadata, and video + frame encoding (MP4/MKV/WEBM/MOV) — all sharing whitelist-safe paths and rich placeholder templating."
+    },
+    {
       "author": "feixuetuba",
       "title": "Spleeter",
       "reference": "https://github.com/feixuetuba/Spleeter",
@@ -23196,6 +23205,16 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of custom nodes for working with and converting between and working with 360 degree equirectangular images, cubemap, and perspective images. Also includes Circular padding Conv2d options for models and VAEs, along with nodes to fix seams and polar artifacts. Panoramic 360 images are also sometimes known as VR photography (virtual reality), HDRI environments (ex: skyboxes), image spheres, spherical images, 360 pano."
+    },
+    {
+      "author": "ProGamerGov",
+      "title": "ComfyUI_pytorch360convert_video",
+      "reference": "https://github.com/ProGamerGov/ComfyUI_pytorch360convert_video",
+      "files": [
+        "https://github.com/ProGamerGov/ComfyUI_pytorch360convert_video"
+      ],
+      "install_type": "git-clone",
+      "description": "Video nodes for comfyui-pytorch360convert"
     },
     {
       "author": "ProGamerGov",
@@ -30772,6 +30791,16 @@
       "description": "A ComfyUI custom node package for batch image processing with filename preservation."
     },
     {
+      "author": "cedarconnor",
+      "title": "ComfyUI-DiT360",
+      "reference": "https://github.com/cedarconnor/ComfyUI-DiT360",
+      "files": [
+        "https://github.com/cedarconnor/ComfyUI-DiT360"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate high-fidelity 360-degree panoramic images using the DiT360 diffusion transformer model in ComfyUI."
+    },
+    {
       "author": "vaishnav-vn",
       "title": "va1",
       "name": "Pad Image by Aspect",
@@ -34170,6 +34199,16 @@
       "description": "This comfyUI node intializes at startup automatically and displays the clock in CMD console when Process starts and ends."
     },
     {
+      "author": "ShammiG",
+      "title": "ComfyUI Image Properties SG",
+      "reference": "https://github.com/ShammiG/ComfyUI-Image_Properties_SG",
+      "files": [
+        "https://github.com/ShammiG/ComfyUI-Image_Properties_SG"
+      ],
+      "install_type": "git-clone",
+      "description": "View general image properties of image: Dimension, Resolution, Aspect Ratio, Tensor Size (including batch)"
+    },
+    {
       "author": "bgreene2",
       "title": "ComfyUI-Hunyuan-Image-3",
       "reference": "https://github.com/bgreene2/ComfyUI-Hunyuan-Image-3",
@@ -34211,6 +34250,16 @@
       ],
       "install_type": "git-clone",
       "description": "Returns the duration of an audio source, which can be provided either as a filesystem path or as raw audio data (samples and sample rate) from an upstream node. Duration calculation primarily uses ffprobe (from FFmpeg) for paths, or calculates the duration directly from samples/SR if no path is available."
+    },
+    {
+      "author": "scofano",
+      "title": "Advanced Text Overlay",
+      "reference": "https://github.com/scofano/ComfyUI-Advanced-TextOverlay",
+      "files": [
+        "https://github.com/scofano/ComfyUI-Advanced-TextOverlay"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced Text Overlay Node for ComfyUI featuring rebuilt rendering logic, precise alignment, custom fonts, and extended styling controls."
     },
     {
       "author": "voxta-ai",
@@ -34458,6 +34507,16 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+    },
+    {
+      "author": "leewinder",
+      "title": "Mureka API",
+      "reference": "https://github.com/leewinder/comfyui-mureka-api",
+      "files": [
+        "https://github.com/leewinder/comfyui-mureka-api"
+      ],
+      "install_type": "git-clone",
+      "description": "A set of ComfyUI custom nodes allowing the use of the Mureka API in your workflows"
     },
     {
       "author": "PozzettiAndrea",
@@ -34971,6 +35030,100 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful ComfyUI extension that enables seamless integration with AWS S3 storage for reading and saving images directly within your ComfyUI workflows. This extension eliminates the need for manual file transfers by providing direct S3 connectivity for your image processing pipelines."
+    },
+    {
+      "author": "TianDongL",
+      "title": "Blind_watermark_Comfyui",
+      "reference": "https://github.com/TianDongL/Blind_watermark_Comfyui",
+      "files": [
+        "https://github.com/TianDongL/Blind_watermark_Comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful blind watermark plugin for ComfyUI that allows you to embed and extract invisible watermarks in images using frequency domain techniques (DWT-DCT-SVD)."
+    },
+    {
+      "author": "wallen0322",
+      "title": "ComfyUI-Wan22FMLF",
+      "reference": "https://github.com/wallen0322/ComfyUI-Wan22FMLF",
+      "files": [
+        "https://github.com/wallen0322/ComfyUI-Wan22FMLF"
+      ],
+      "install_type": "git-clone",
+      "description": "Multi-frame reference conditioning nodes for Wan2.2 A14B I2V models."
+    },
+    {
+      "author": "KursatAs",
+      "title": "Comfyui Krs Nodes",
+      "reference": "https://github.com/KursatAs/KrsNodes",
+      "files": [
+        "https://github.com/KursatAs/KrsNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES: TextEncodeQwenImageEditKrsSimple, TextEncodeQwenImageEditKrsAdvanced, QwenImageEditLatentKrs, ..."
+    },
+    {
+      "author": "yemanou",
+      "title": "NABA Image (Gemini REST) Node",
+      "reference": "https://github.com/yemanou/ComfyUI-NABA",
+      "files": [
+        "https://github.com/yemanou/ComfyUI-NABA"
+      ],
+      "install_type": "git-clone",
+      "description": "Simplified Gemini 2.5 Flash Image Preview node for ComfyUI. REST-only for stability, two optional reference images, padded aspect ratio resizing (no stretching), and basic sampling controls. All extra debug layers, SDK path, multi-seed, and legacy compatibility code removed to avoid crashes."
+    },
+    {
+      "author": "Glarus-akash",
+      "title": "ComfyUI_Image_Upscaler",
+      "reference": "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler",
+      "files": [
+        "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler"
+      ],
+      "install_type": "git-clone",
+      "description": "Welcome to the Image Upscaler & Restorer project! This tool utilizes the [a/GFPGAN](https://github.com/TencentARC/GFPGAN) algorithm to enhance and restore images, providing a seamless way to improve image quality."
+    },
+    {
+      "author": "Blacksnowskill",
+      "title": "BSS WD14 Batch Tagger",
+      "reference": "https://github.com/BlackSnowSkill/wd14_batch_tagger",
+      "files": [
+        "https://github.com/BlackSnowSkill/wd14_batch_tagger"
+      ],
+      "install_type": "git-clone",
+      "description": "Automatic image tagging using WD14 models with batch processing and GPU acceleration for ComfyUI",
+      "category": "Image Processing",
+      "tags": [
+        "image",
+        "tagging",
+        "wd14",
+        "batch",
+        "gpu"
+      ],
+      "pip": [
+        "onnxruntime>=1.16.0",
+        "numpy>=1.24.0",
+        "pillow>=9.0.0",
+        "huggingface-hub>=0.16.0"
+      ]
+    },
+    {
+      "author": "Novice_Chen",
+      "title": "ComfyUI-Simple-IndexTTs",
+      "reference": "https://github.com/NewNoviceChen/ComfyUI-Simple-IndexTTs",
+      "files": [
+        "https://github.com/NewNoviceChen/ComfyUI-Simple-IndexTTs"
+      ],
+      "install_type": "git-clone",
+      "description": "Bilibili IndexTTS2 ComfyUI Version - Auto-downloads models, simple to use."
+    },
+    {
+      "author": "WWWEN8",
+      "title": "ComfyUI-CCXManager",
+      "reference": "https://github.com/WWWEN8/ComfyUI-CCXManager",
+      "files": [
+        "https://github.com/WWWEN8/ComfyUI-CCXManager"
+      ],
+      "install_type": "git-clone",
+      "description": "Set to run once, and the SD-PPP Photoshop plugin will be automatically updated when there are updates later, completely eliminating the need for manual updates on the Photoshop side."
     },
     {
       "author": "Ser-Hilary",
