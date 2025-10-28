@@ -26239,6 +26239,16 @@
       "description": "Unofficial ComfyUI implementation of [a/UniWorld-V1](https://github.com/PKU-YuanGroup/UniWorld-V1)."
     },
     {
+      "author": "judian17",
+      "title": "ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node",
+      "reference": "https://github.com/judian17/ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node",
+      "files": [
+        "https://github.com/judian17/ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node"
+      ],
+      "install_type": "git-clone",
+      "description": "Prompt node for the [a/JoyCaption-beta-one-hf-llava](https://huggingface.co/mradermacher/llama-joycaption-beta-one-hf-llava-GGUF) model, to use JoyCaption-beta-one-hf-llava with Ollama"
+    },
+    {
       "author": "AngelCookies",
       "title": "ComfyUI-Seed-Tracker",
       "reference": "https://github.com/AngelCookies/ComfyUI-Seed-Tracker",
@@ -29857,6 +29867,16 @@
       "description": "Assist in determining reasonable input values for tiled_width/tiled_height in the UltimateSDUpscale node to improve efficiency."
     },
     {
+      "author": "Windecay",
+      "title": "ComfyUI_CheckVprediction",
+      "reference": "https://github.com/Windecay/ComfyUI_CheckVprediction",
+      "files": [
+        "https://github.com/Windecay/ComfyUI_CheckVprediction"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple node for detecting vrediction, outputs a boolean value, used for logical switching (for example, automatically adding rescalecfg when vrediction model is detected), recommended to be used with if else and other nodes."
+    },
+    {
       "author": "kaaskoek232",
       "title": "ComfyUI-MemoryManagement",
       "reference": "https://github.com/kaaskoek232/ComfyUI-MemoryManagement",
@@ -31278,16 +31298,6 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes to enhance & streamline prompts. Enhance using local LLM within ComfyUI, generate using random lines from text files, or randomly select text file prompts"
-    },
-    {
-      "author": "judian17",
-      "title": "ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node",
-      "reference": "https://github.com/judian17/ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node",
-      "files": [
-        "https://github.com/judian17/ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node"
-      ],
-      "install_type": "git-clone",
-      "description": "Prompt node for the [a/JoyCaption-beta-one-hf-llava](https://huggingface.co/mradermacher/llama-joycaption-beta-one-hf-llava-GGUF) model, to use JoyCaption-beta-one-hf-llava with Ollama"
     },
     {
       "author": "juddisjudd",
@@ -33907,6 +33917,16 @@
       "description": "A comprehensive queue management system for ComfyUI workflows"
     },
     {
+      "author": "abdullahceylan",
+      "title": "AC Image Optimizer",
+      "reference": "https://github.com/abdullahceylan/ac-comfyui-image-optimizer",
+      "files": [
+        "https://github.com/abdullahceylan/ac-comfyui-image-optimizer"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI custom node for optimizing and compressing images with support for multiple formats (JPEG, WebP, PNG) and configurable quality settings."
+    },
+    {
       "author": "J-ChenX",
       "title": "NIX ComfyUI Plugin",
       "reference": "https://github.com/J-ChenX/ComfyUI-NIX",
@@ -34468,6 +34488,16 @@
       "description": "Standalone torch.compile optimization node for ComfyUI with speed-focused presets"
     },
     {
+      "author": "eddyhhlure1Eddy",
+      "title": "I-Ching-Informed Adaptive ODE Scheduler",
+      "reference": "https://github.com/eddyhhlure1Eddy/ode-ComfyUI-WanVideoWrapper",
+      "files": [
+        "https://github.com/eddyhhlure1Eddy/ode-ComfyUI-WanVideoWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "The ode v2 version is a creative sampler characterized by low contrast, near-realistic quality, and artistic creation. It can only be used with high noise for 6 steps, low noise for 2 steps, and a middle split step of 4 steps. It requires a unique LoRA, which is currently in training and undergoing refinement, and is only in the testing phase. This version offers multiple options for you to choose from, and my recommendation is to go with robust-smooth or even lower. Stay tuned for the official release."
+    },
+    {
       "author": "maikgreubel",
       "title": "Load DDS File Node",
       "reference": "https://github.com/maikgreubel/comfyui-loaddds",
@@ -34821,6 +34851,16 @@
       "description": "An independent memory management custom node for ComfyUI. Provides Distorch memory management functionality for efficient GPU/CPU memory handling."
     },
     {
+      "author": "ussoewwin",
+      "title": "ComfyUI-QwenImageLoraLoader",
+      "reference": "https://github.com/ussoewwin/ComfyUI-QwenImageLoraLoader",
+      "files": [
+        "https://github.com/ussoewwin/ComfyUI-QwenImageLoraLoader"
+      ],
+      "install_type": "git-clone",
+      "description": "Standalone ComfyUI custom node for Nunchaku QwenImage LoRA loading functionality."
+    },
+    {
       "author": "geltz",
       "title": "ComfyUI-geltz",
       "reference": "https://github.com/geltz/ComfyUI-geltz",
@@ -35124,6 +35164,66 @@
       ],
       "install_type": "git-clone",
       "description": "Set to run once, and the SD-PPP Photoshop plugin will be automatically updated when there are updates later, completely eliminating the need for manual updates on the Photoshop side."
+    },
+    {
+      "author": "Fossiel",
+      "title": "ComfyUI-Fossiel-QoL-Nodes",
+      "reference": "https://github.com/Fossiel/ComfyUI-Fossiel-QoL-Nodes",
+      "files": [
+        "https://github.com/Fossiel/ComfyUI-Fossiel-QoL-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-Fossiel-QoL-Nodes is (what will hopefully become) a suite of custom nodes for ComfyUI to improve quality of life. These nodes have been developed for personal use but maybe you’ll find them useful as well."
+    },
+    {
+      "author": "rsxdalv",
+      "title": "ComfyUI: TTS WebUI (OpenAI-style) nodes",
+      "reference": "https://github.com/rsxdalv/ComfyUI-TTS-Webui",
+      "files": [
+        "https://github.com/rsxdalv/ComfyUI-TTS-Webui"
+      ],
+      "install_type": "git-clone",
+      "description": "This package provides ComfyUI custom nodes that call a TTS WebUI OpenAI-style HTTP endpoint (POST /v1/audio/speech) and return in-memory AUDIO usable in ComfyUI workflows."
+    },
+    {
+      "author": "styletransfer",
+      "title": "Sequential Group Controller for ComfyUI",
+      "reference": "https://github.com/styletransfer/ComfyUI_SequentialGroupController",
+      "files": [
+        "https://github.com/styletransfer/ComfyUI_SequentialGroupController"
+      ],
+      "install_type": "git-clone",
+      "description": "Control which groups execute based on iteration ranges - a simplified alternative to complex conditional branching workflows."
+    },
+    {
+      "author": "djdarcy",
+      "title": "Smart Resolution Calculator",
+      "reference": "https://github.com/djdarcy/ComfyUI-Smart-Resolution-Calc",
+      "files": [
+        "https://github.com/djdarcy/ComfyUI-Smart-Resolution-Calc"
+      ],
+      "install_type": "git-clone",
+      "description": "Flexible resolution and latent generation for ComfyUI with toggle-based dimension inputs and automatic calculation of missing values"
+    },
+    {
+      "author": "yannickcruz",
+      "title": "ComfyUI YSC HighRes-Fix",
+      "reference": "https://github.com/yannickcruz/ComfyUI_YSC_HighResFix",
+      "files": [
+        "https://github.com/yannickcruz/ComfyUI_YSC_HighResFix"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI designed to simplify the 'High-Resolution Fix' process. This node takes an input image, performs a direct upscale, and then re-encodes it into a latent image, preparing it for a final sampling pass to add details."
+    },
+    {
+      "author": "GeekatplayStudio",
+      "title": "ComfyUI HiTem3D Integration",
+      "reference": "https://github.com/GeekatplayStudio/comfyui-hitem3d",
+      "files": [
+        "https://github.com/GeekatplayStudio/comfyui-hitem3d"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive ComfyUI node collection that integrates with the HiTem3D API to generate high-quality 3D models from images, featuring advanced HTML preview capabilities and dynamic content generation."
     },
     {
       "author": "Ser-Hilary",
