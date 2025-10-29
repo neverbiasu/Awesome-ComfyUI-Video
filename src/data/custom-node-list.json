@@ -35177,13 +35177,14 @@
     },
     {
       "author": "rsxdalv",
-      "title": "ComfyUI: TTS WebUI (OpenAI-style) nodes",
+      "title": "TTS WebUI API nodes for ComfyUI",
+      "id": "tts-webui",
       "reference": "https://github.com/rsxdalv/ComfyUI-TTS-Webui",
       "files": [
         "https://github.com/rsxdalv/ComfyUI-TTS-Webui"
       ],
       "install_type": "git-clone",
-      "description": "This package provides ComfyUI custom nodes that call a TTS WebUI OpenAI-style HTTP endpoint (POST /v1/audio/speech) and return in-memory AUDIO usable in ComfyUI workflows."
+      "description": "Nodes: TTS WebUI Kokoro, TTS WebUI Chatterbox, TTS WebUI StyleTTS2, TTS WebUI Kitten TTS, TTS WebUI F5-TTS, TTS WebUI Preset\nAdd API key to environment variable 'TTS_WEBUI_OPENAI_API_KEY'\nAlternatively you can write your API key to file 'tts_api_key.txt'\nYou can also use and/or override the above by entering your API key in the 'api_key' field of each node."
     },
     {
       "author": "styletransfer",
