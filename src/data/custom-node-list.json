@@ -2724,6 +2724,16 @@
       "description": "Basic utility for testing diffusion model loss across the timestep schedule. Should work with any native models that use ksampler. This could be used for comparing models, testing captions on an image, etc."
     },
     {
+      "author": "spacepxl",
+      "title": "ComfyUI-VAE-Utils",
+      "reference": "https://github.com/spacepxl/ComfyUI-VAE-Utils",
+      "files": [
+        "https://github.com/spacepxl/ComfyUI-VAE-Utils"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for loading and using VAEs in ways not supported by base ComfyUI. Currently supports Wan upscale VAE, more may be added later as needed."
+    },
+    {
       "author": "PTA",
       "title": "auto nodes layout",
       "id": "autolayout",
@@ -30315,6 +30325,16 @@
       "description": "Professional-grade ComfyUI image saving plugin with support for multiple formats, custom naming, and advanced features."
     },
     {
+      "author": "weekii",
+      "title": "ComfyUI-GGUF-FX",
+      "reference": "https://github.com/weekii/ComfyUI-GGUF-FX",
+      "files": [
+        "https://github.com/weekii/ComfyUI-GGUF-FX"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
+    },
+    {
       "author": "bbaudio",
       "title": "ComfyUI-SuperUltimateVaceTools",
       "reference": "https://github.com/bbaudio-2025/ComfyUI-SuperUltimateVaceTools",
@@ -32320,16 +32340,6 @@
       ],
       "install_type": "git-clone",
       "description": "High-utility nodes for ComfyUI with a focus on Flux 1 Dev workflows and Ultimate SD Upscale enhancement loops."
-    },
-    {
-      "author": "alFrame",
-      "title": "AF - Edit Generated Prompt",
-      "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
-      "files": [
-        "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
     },
     {
       "author": "joanna910225",
@@ -34690,6 +34700,16 @@
       "description": "A frontend extension for ComfyUI that allows you to open and edit subgraphs in a right-hand panel, instead of replacing the main canvas."
     },
     {
+      "author": "nomadoor",
+      "title": "ComfyUI Video Stabilizer",
+      "reference": "https://github.com/nomadoor/ComfyUI-Video-Stabilizer",
+      "files": [
+        "https://github.com/nomadoor/ComfyUI-Video-Stabilizer"
+      ],
+      "install_type": "git-clone",
+      "description": "Two complementary stabiliser nodes for ComfyUI: Video Stabilizer (Classic), Video Stabilizer (Flow)"
+    },
+    {
       "author": "neo-editer",
       "title": "ComfyUI-Better-Dimensions-wan-v2",
       "reference": "https://github.com/neo-editer/ComfyUI-Better-Dimensions-wan-v2",
@@ -35275,6 +35295,16 @@
       ],
       "install_type": "git-clone",
       "description": "This custom node package provides seamless integration between ComfyUI and Google Cloud Platform (GCP) Cloud Storage, enabling you to run ComfyUI without relying on instance disk storage. decouple your storage needs from local disks by leveraging GCP's scalable and reliable Cloud Storage service. Models can be saved and loaded directly from Cloud Storage, while outputs and temporary files are automatically synced."
+    },
+    {
+      "author": "myonmu0",
+      "title": "ComfyUI-Jumper",
+      "reference": "https://github.com/myonmu0/ComfyUI-Jumper",
+      "files": [
+        "https://github.com/myonmu0/ComfyUI-Jumper"
+      ],
+      "install_type": "git-clone",
+      "description": "Pass string and images between multiple ComfyUI via socket. Easy and intuitive nodes for remote connection."
     },
     {
       "author": "Ser-Hilary",
