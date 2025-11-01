@@ -14003,6 +14003,16 @@
       "description": "Quickly search and get images from Gelbooru/Danbooru/E621 without leaving ComfyUI"
     },
     {
+      "author": "GreenLandisaLie",
+      "title": "ComfyUI-RichText_BasicDynamicPrompts",
+      "reference": "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts",
+      "files": [
+        "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts"
+      ],
+      "install_type": "git-clone",
+      "description": "Basic Dynamic Prompts functionality with a Rich Text texbox for coloring."
+    },
+    {
       "author": "licyk",
       "title": "ComfyUI-Restart-Sampler",
       "id": "restart-sampler-licyk",
@@ -21613,6 +21623,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for MammothModa2 text-to-image generation."
+    },
+    {
+      "author": "HM-RunningHub",
+      "title": "ComfyUI_RH_VideoAsPrompt",
+      "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_VideoAsPrompt",
+      "files": [
+        "https://github.com/HM-RunningHub/ComfyUI_RH_VideoAsPrompt"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that integrates Video-As-Prompt for motion-guided video generation from image inputs."
     },
     {
       "author": "wqjuser",
@@ -30002,6 +30022,16 @@
       "description": "A custom node for saving multiple images simultaneously with batch processing and resizing capabilities."
     },
     {
+      "author": "fchangjun",
+      "title": "Baidu Meux ComfyTools",
+      "reference": "https://github.com/fchangjun/Baidu_Meux_ComfyTools",
+      "files": [
+        "https://github.com/fchangjun/Baidu_Meux_ComfyTools"
+      ],
+      "install_type": "git-clone",
+      "description": "Baidu Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Baidu Meux asset platform."
+    },
+    {
       "author": "Yo1up",
       "title": "Diffusion-Model-Detailer",
       "reference": "https://github.com/Yo1up/Diffusion-Model-Detailer",
@@ -31730,6 +31760,16 @@
       ],
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node for integrating Rex-Omni multimodal AI models. This node provides seamless integration of Rex-Omni's advanced computer vision and natural language processing capabilities into your ComfyUI workflows."
+    },
+    {
+      "author": "flybirdxx",
+      "title": "ComfyUI-SoulX-Podcast",
+      "reference": "https://github.com/flybirdxx/ComfyUI-SoulX-Podcast",
+      "files": [
+        "https://github.com/flybirdxx/ComfyUI-SoulX-Podcast"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-SoulX-Podcast is a custom node plugin for ComfyUI that packages the core functionality of SoulX-Podcast (long-form, multi-speaker, multi-dialect podcast voice generation) into a visual node workflow."
     },
     {
       "author": "DenRakEiw",
@@ -34760,6 +34800,16 @@
       "description": "This is a simple but powerful custom node for ComfyUI, designed to help you manage and sequence multiple prompts from a single, clean interface.\nIt's ideal for workflows like sequential video generation where you need to feed a series of different prompts into your model."
     },
     {
+      "author": "SquirrelRat",
+      "title": "WanVideoLooper",
+      "reference": "https://github.com/SquirrelRat/WanVideoLooper",
+      "files": [
+        "https://github.com/SquirrelRat/WanVideoLooper"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a set of custom nodes for ComfyUI designed for generating sequential long video clips based on the Wan 2.2 model architecture, handling continuity between segments and offering advanced control over the sampling process"
+    },
+    {
       "author": "OKIE5",
       "title": "ComfyUI-CN-Pre",
       "reference": "https://github.com/OKIE5/ComfyUI-CN-Pre",
@@ -35305,6 +35355,86 @@
       ],
       "install_type": "git-clone",
       "description": "Pass string and images between multiple ComfyUI via socket. Easy and intuitive nodes for remote connection."
+    },
+    {
+      "author": "FranckyB",
+      "title": "ComfyUI-Prompt-Manager",
+      "reference": "https://github.com/FranckyB/ComfyUI-Prompt-Manager",
+      "files": [
+        "https://github.com/FranckyB/ComfyUI-Prompt-Manager"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple custom node for ComfyUI that allows you to save and reuse prompts, organized into different categories"
+    },
+    {
+      "author": "petr-pr",
+      "title": "ComfyUI-TranslationNode",
+      "reference": "https://github.com/petr-pr/ComfyUI-TranslationNode",
+      "files": [
+        "https://github.com/petr-pr/ComfyUI-TranslationNode"
+      ],
+      "install_type": "git-clone",
+      "description": "Offline translation node for ComfyUI, powered by Facebook's M2M-100 multilingual model. Translate text between 100+ languages — completely offline and private."
+    },
+    {
+      "author": "eRepublik-Labs",
+      "title": "ERPK Collection",
+      "reference": "https://github.com/eRepublik-Labs/comfyui-nodes-erpk",
+      "files": [
+        "https://github.com/eRepublik-Labs/comfyui-nodes-erpk"
+      ],
+      "install_type": "git-clone",
+      "description": "A monorepo for ERPK's custom ComfyUI nodes, extending ComfyUI's functionality through integrations with various AI services and APIs."
+    },
+    {
+      "author": "alFrame",
+      "title": "ComfyUI AF - Find Nodes",
+      "reference": "https://github.com/alFrame/ComfyUI-AF-Find-Nodes",
+      "files": [
+        "https://github.com/alFrame/ComfyUI-AF-Find-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI extension that allows you to find and locate nodes by their ID, title, pack, or type in complex workflows."
+    },
+    {
+      "author": "alFrame",
+      "title": "ComfyUI AF - Pack-Prompt-Nodes",
+      "reference": "https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes",
+      "files": [
+        "https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A lightweight suite of ComfyUI custom nodes for AI prompt management and history tracking."
+    },
+    {
+      "author": "loockluo",
+      "title": "ComfyUI WhisperX Pro",
+      "reference": "https://github.com/loockluo/comfyui-whisperx-pro",
+      "files": [
+        "https://github.com/loockluo/comfyui-whisperx-pro"
+      ],
+      "install_type": "git-clone",
+      "description": "A professional ComfyUI custom node for accurate text-audio alignment using [a/WhisperX](https://github.com/m-bain/whisperX)."
+    },
+    {
+      "author": "Revmagi",
+      "title": "DDM Bundle - ComfyUI Custom Nodes",
+      "reference": "https://github.com/Revmagi/DDM_bundle",
+      "files": [
+        "https://github.com/Revmagi/DDM_bundle"
+      ],
+      "install_type": "git-clone",
+      "description": "Clean workflow routing nodes for ComfyUI. Say goodbye to spaghetti connections!"
+    },
+    {
+      "author": "hardik-uppal",
+      "title": "ComfyUI-QwenVL-MultiImage",
+      "reference": "https://github.com/hardik-uppal/ComfyUI-QwenVL-MultiImage",
+      "files": [
+        "https://github.com/hardik-uppal/ComfyUI-QwenVL-MultiImage"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful ComfyUI custom node that integrates Qwen2.5-VL and Qwen3-VL vision-language models with multi-image support. Process multiple images simultaneously with advanced AI capabilities for image understanding, comparison, and analysis."
     },
     {
       "author": "Ser-Hilary",
