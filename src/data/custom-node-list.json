@@ -5096,6 +5096,16 @@
       "description": "Voice Clone and TTS model."
     },
     {
+      "author": "filliptm",
+      "title": "ComfyUI_FL-Path-Animator",
+      "reference": "https://github.com/filliptm/ComfyUI_FL-Path-Animator",
+      "files": [
+        "https://github.com/filliptm/ComfyUI_FL-Path-Animator"
+      ],
+      "install_type": "git-clone",
+      "description": "A standalone ComfyUI custom node for creating animated shapes that follow user-drawn paths."
+    },
+    {
       "author": "zfkun",
       "title": "ComfyUI_zfkun",
       "reference": "https://github.com/zfkun/ComfyUI_zfkun",
@@ -18073,6 +18083,17 @@
       "description": "Nodes: String Formatting (f-string and jinja2), Random Choice, Model Memory management, and other quality of life improvements."
     },
     {
+      "author": "Darth-Veitcher",
+      "title": "ComfyUI Ollama Model Manager",
+      "id": "comfydv",
+      "reference": "https://github.com/darth-veitcher/comfyui-ollama-model-manager",
+      "files": [
+        "https://github.com/darth-veitcher/comfyui-ollama-model-manager"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for managing [a/Ollama](https://ollama.com/) models in ComfyUI workflows. Load and unload models on-demand to optimize memory usage in constrained environments."
+    },
+    {
       "author": "ez-af",
       "title": "ComfyUI-EZ-AF-Nodes",
       "reference": "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes",
@@ -30042,13 +30063,13 @@
     },
     {
       "author": "fchangjun",
-      "title": "Baidu Meux ComfyTools",
+      "title": "BaiduMeux_Comfy Tools",
       "reference": "https://github.com/fchangjun/Baidu_Meux_ComfyTools",
       "files": [
         "https://github.com/fchangjun/Baidu_Meux_ComfyTools"
       ],
       "install_type": "git-clone",
-      "description": "Baidu Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Baidu Meux asset platform."
+      "description": "Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Meux asset platform."
     },
     {
       "author": "Yo1up",
@@ -31648,6 +31669,16 @@
       ],
       "install_type": "git-clone",
       "description": "A custom ComfyUI node that splits text into multiple outputs for feeding complex multi-scene renders. This node allows you to dynamically control the number of splits and use custom separators."
+    },
+    {
+      "author": "vsaan212",
+      "title": "ComfyUI Subject Selector",
+      "reference": "https://github.com/vsaan212/ComfyUI_subjectselector",
+      "files": [
+        "https://github.com/vsaan212/ComfyUI_subjectselector"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI_subjectselector is a custom ComfyUI node that allows you to manage and select text-based subject descriptions directly from the workflow UI. This node was designed to pair seamlessly with [a/ComfyUI-textsplit](https://github.com/vsaan212/Comfy-ui-textsplit), providing a clean, modular way to feed descriptive text prompts into your generation pipeline."
     },
     {
       "author": "eric183",
@@ -34523,8 +34554,21 @@
       ],
       "install_type": "git-clone",
       "description": "Professional AI Interior Design Toolkit for ComfyUI. Custom Qwen-VL nodes with 4 design modes: Text-to-Design, Mood Board, Reference Control, and Room Cleaning. Includes 5 optimized nodes with advanced strength controls and 23 preferred aspect ratios.",
-      "nodename_pattern": "ArchAi3D",
-      "pip": []
+      "nodename_pattern": "ArchAi3D"
+    },
+    {
+      "author": "Amir Ferdos (ArchAi3d)",
+      "title": "ComfyUI-GRAG-ArchAi3D",
+      "id": "grag-archai3d",
+      "reference": "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D",
+      "files": [
+        "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced GRAG (Guided Region-Adaptive Guidance) implementation for ComfyUI. Features: Simple Controller (3 parameters) for beginners, Unified Controller (25+ parameters) for experts, Advanced Sampler with v2.2.1 contamination fix, Preset Manager with 54 curated presets, per-layer control, adaptive schedules, and multi-resolution support.",
+      "pip": [
+        "PyYAML>=6.0"
+      ]
     },
     {
       "author": "pizurny",
@@ -35496,16 +35540,6 @@
       "description": "A custom node for ComfyUI that automatically saves your prompts, generated images, and workflow metadata into a browsable history, accessible directly from the node."
     },
     {
-      "author": "fchangjun",
-      "title": "BaiduMeux_Comfy Tools",
-      "reference": "https://github.com/fchangjun/Baidu_Meux_ComfyTools",
-      "files": [
-        "https://github.com/fchangjun/Baidu_Meux_ComfyTools"
-      ],
-      "install_type": "git-clone",
-      "description": "Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Meux asset platform."
-    },
-    {
       "author": "EuphoricPenguin",
       "title": "ComfyUI Resemble Enhance",
       "reference": "https://github.com/EuphoricPenguin/resemble-enhance-comfyui",
@@ -35514,6 +35548,36 @@
       ],
       "install_type": "git-clone",
       "description": "A custom ComfyUI node for audio enhancement using Resemble AI's Resemble Enhance model. Created using OpenHands, Cline, and DeepSeek."
+    },
+    {
+      "author": "DazzleNodes",
+      "title": "ComfyUI Fit Mask to Image",
+      "reference": "https://github.com/DazzleNodes/fit-mask-to-image",
+      "files": [
+        "https://github.com/DazzleNodes/fit-mask-to-image"
+      ],
+      "install_type": "git-clone",
+      "description": "Automatically resizes masks to match image dimensions for seamless inpainting workflows."
+    },
+    {
+      "author": "okdalto",
+      "title": "ComfyUI-WithAnyone",
+      "reference": "https://github.com/okdalto/ComfyUI-WithAnyone",
+      "files": [
+        "https://github.com/okdalto/ComfyUI-WithAnyone"
+      ],
+      "install_type": "git-clone",
+      "description": "This repository is a ComfyUI port of the WithAnyone model introduced in the paper.\n[a/WithAnyone: Towards Controllable and ID-Consistent Image Generation (2025)](https://arxiv.org/abs/2510.14975)\nOriginal implementation: [a/Doby-Xu/WithAnyone](https://github.com/Doby-Xu/WithAnyone)."
+    },
+    {
+      "author": "hw5511",
+      "title": "Woohee HF Upscaler Loader",
+      "reference": "https://github.com/hw5511/comfyui_hf_upscaler_loader",
+      "files": [
+        "https://github.com/hw5511/comfyui_hf_upscaler_loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Load upscale models directly from Hugging Face Hub in ComfyUI"
     },
     {
       "author": "Ser-Hilary",
