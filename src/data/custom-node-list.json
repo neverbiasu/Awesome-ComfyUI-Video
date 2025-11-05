@@ -33029,6 +33029,16 @@
       "description": "Vantage DyPE integrates DyPE (Dynamic Position Extrapolation) into ComfyUI, enabling Flux-based transformer models to produce native ultra-high-resolution images (4K, 8K, and beyond) without retraining or external upscaling."
     },
     {
+      "author": "vantagewithai",
+      "title": "Vantage-DreamOmni2",
+      "reference": "https://github.com/vantagewithai/Vantage-DreamOmni2",
+      "files": [
+        "https://github.com/vantagewithai/Vantage-DreamOmni2"
+      ],
+      "install_type": "git-clone",
+      "description": "ntage-DreamOmni2 brings Qwen2.5-VL’s multimodal intelligence to ComfyUI, enabling unified text–image understanding for both generation and editing. Create context-aware prompts, perform reference-based visual edits, and build adaptive image grids — all with high consistency, abstraction, and creative control."
+    },
+    {
       "author": "SatadalAI",
       "title": "SATA UtilityNode Node for ComfyUI",
       "id": "SATA UtilityNode",
@@ -35578,6 +35588,46 @@
       ],
       "install_type": "git-clone",
       "description": "Load upscale models directly from Hugging Face Hub in ComfyUI"
+    },
+    {
+      "author": "edoardocompagnucci",
+      "title": "ComfyUI-HSyn9DHPE",
+      "reference": "https://github.com/edoardocompagnucci/ComfyUI-HSyn9DHPE",
+      "files": [
+        "https://github.com/edoardocompagnucci/ComfyUI-HSyn9DHPE"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for 9D Human Pose Estimation, integrating the [a/HSyn9DHPE](https://github.com/edoardocompagnucci/HSyn9DHPE) project."
+    },
+    {
+      "author": "dskjal",
+      "title": "comfyui-yolov8-simple",
+      "reference": "https://github.com/dskjal/comfyui-yolov8-simple",
+      "files": [
+        "https://github.com/dskjal/comfyui-yolov8-simple"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple yolov8 comfyui plugin. This plugin adds Yolov8DetectionSegmentation node and ImageCompositeBlurred node."
+    },
+    {
+      "author": "WingeD123",
+      "title": "ComfyUI_QwenVL_PromptCaption",
+      "reference": "https://github.com/WingeD123/ComfyUI_QwenVL_PromptCaption",
+      "files": [
+        "https://github.com/WingeD123/ComfyUI_QwenVL_PromptCaption"
+      ],
+      "install_type": "git-clone",
+      "description": "Leverages Qwen 2.5/3 VL for prompt inversion & caption generation."
+    },
+    {
+      "author": "kianxyzw",
+      "title": "ComfyUI Model Linker Extension",
+      "reference": "https://github.com/kianxyzw/comfyui-model-linker",
+      "files": [
+        "https://github.com/kianxyzw/comfyui-model-linker"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI extension that helps users relink missing models in workflows"
     },
     {
       "author": "Ser-Hilary",
