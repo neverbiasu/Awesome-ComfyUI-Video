@@ -10109,6 +10109,16 @@
       "description": "Custom Node for comfyUI for virtual lighting based on normal map.\nYou can use normal maps to add virtual lighting effects to your images."
     },
     {
+      "author": "TJ16th",
+      "title": "TJ_PolkaDot",
+      "reference": "https://github.com/TJ16th/ComfyUI-TJ-PolkaDot",
+      "files": [
+        "https://github.com/TJ16th/ComfyUI-TJ-PolkaDot"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for creating polka dot collages"
+    },
+    {
       "author": "A4P7J1N7M05OT",
       "title": "ComfyUI-PixelOE-Wrapper",
       "reference": "https://github.com/A4P7J1N7M05OT/ComfyUI-PixelOE-Wrapper",
@@ -11348,6 +11358,16 @@
       ],
       "install_type": "git-clone",
       "description": "FlashVSR: Towards Real-Time Diffusion-Based Streaming Video Super-Resolution,this node ,you can use it in comfyUI"
+    },
+    {
+      "author": "smthemex",
+      "title": "ComfyUI_ChronoEdit_SM",
+      "reference": "https://github.com/smthemex/ComfyUI_ChronoEdit_SM",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_ChronoEdit_SM"
+      ],
+      "install_type": "git-clone",
+      "description": "Towards Temporal Reasoning for Image Editing and World Simulation,you can use this node in comfyUI,and Vram >12G"
     },
     {
       "author": "choey",
@@ -20841,6 +20861,16 @@
       ],
       "install_type": "git-clone",
       "description": "Node that generates prompts using Anthropic Claude API."
+    },
+    {
+      "author": "PauldeLavallaz",
+      "title": "ComfyUI-CartesiaTTS",
+      "reference": "https://github.com/PauldeLavallaz/ComfyUI-CartesiaTTS",
+      "files": [
+        "https://github.com/PauldeLavallaz/ComfyUI-CartesiaTTS"
+      ],
+      "install_type": "git-clone",
+      "description": "Node for Cartesia Sonic-3 that calls the `/tts/bytes` endpoint and returns: file_path, bytes, url"
     },
     {
       "author": "huanngzh",
@@ -33372,6 +33402,16 @@
       "description": "Custom ComfyUI node for integrating Claude API with image and text capabilities."
     },
     {
+      "author": "razvanmatei-sf",
+      "title": "Dynamic Prompt List Node for ComfyUI",
+      "reference": "https://github.com/razvanmatei-sf/serhii-prompt-list",
+      "files": [
+        "https://github.com/razvanmatei-sf/serhii-prompt-list"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that allows you to create lists of prompts with dynamic input count. Add or remove prompt inputs on the fly without creating multiple nodes."
+    },
+    {
       "author": "Enashka",
       "title": "ComfyUI-nhknodes",
       "reference": "https://github.com/Enashka/ComfyUI-nhknodes",
@@ -34681,6 +34721,16 @@
       "description": "The ode v2 version is a creative sampler characterized by low contrast, near-realistic quality, and artistic creation. It can only be used with high noise for 6 steps, low noise for 2 steps, and a middle split step of 4 steps. It requires a unique LoRA, which is currently in training and undergoing refinement, and is only in the testing phase. This version offers multiple options for you to choose from, and my recommendation is to go with robust-smooth or even lower. Stay tuned for the official release."
     },
     {
+      "author": "eddyhhlure1Eddy",
+      "title": "ComfyUI-EddySevenResonance",
+      "reference": "https://github.com/eddyhhlure1Eddy/ComfyUI-EddySevenResonance",
+      "files": [
+        "https://github.com/eddyhhlure1Eddy/ComfyUI-EddySevenResonance"
+      ],
+      "install_type": "git-clone",
+      "description": "lucky_seed"
+    },
+    {
       "author": "maikgreubel",
       "title": "Load DDS File Node",
       "reference": "https://github.com/maikgreubel/comfyui-loaddds",
@@ -35570,6 +35620,16 @@
       "description": "Automatically resizes masks to match image dimensions for seamless inpainting workflows."
     },
     {
+      "author": "DazzleNodes",
+      "title": "DazzleNodes Collection",
+      "reference": "https://github.com/DazzleNodes/DazzleNodes",
+      "files": [
+        "https://github.com/DazzleNodes/DazzleNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A curated collection of image/latent creation and transformation custom nodes for ComfyUI. Each node is independently developed and maintained, but packaged together for convenient installation."
+    },
+    {
       "author": "okdalto",
       "title": "ComfyUI-WithAnyone",
       "reference": "https://github.com/okdalto/ComfyUI-WithAnyone",
@@ -35628,6 +35688,66 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI extension that helps users relink missing models in workflows"
+    },
+    {
+      "author": "Lavah000",
+      "title": "ComfyUI Advanced Generation Pack (AGP)",
+      "reference": "https://github.com/Lavah000/ComfyUI-AdvGenPack",
+      "files": [
+        "https://github.com/Lavah000/ComfyUI-AdvGenPack"
+      ],
+      "install_type": "git-clone",
+      "description": "Production-ready custom nodes for advanced diffusion workflows. Modular implementation grounded in proven techniques from leading ComfyUI repositories."
+    },
+    {
+      "author": "GuardSkill",
+      "title": "ComfyUI-VoiceSep",
+      "reference": "https://github.com/GuardSkill/ComfyUI-VoiceSep",
+      "files": [
+        "https://github.com/GuardSkill/ComfyUI-VoiceSep"
+      ],
+      "install_type": "git-clone",
+      "description": "Seperation the voice to 2 track/person by voicesep, keep the office effect in Modelscope demo meanwhile accelerate the resample speed."
+    },
+    {
+      "author": "trunksn1",
+      "title": "ComfyUI Checkpoint Rotation Node",
+      "reference": "https://github.com/trunksn1/comfyui-change-checkpoint-randomly",
+      "files": [
+        "https://github.com/trunksn1/comfyui-change-checkpoint-randomly"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that enables automatic checkpoint rotation during batch image generation. This allows you to generate images using multiple different model checkpoints in a single workflow, automatically switching between them based on your specified interval."
+    },
+    {
+      "author": "francarl",
+      "title": "ComfyUI-OnDemand-Lora-Loader",
+      "reference": "https://github.com/francarl/ComfyUI-OnDemand-Loaders",
+      "files": [
+        "https://github.com/francarl/ComfyUI-OnDemand-Loaders"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a custom node for ComfyUI that allows you to download and apply LoRA models directly from Civitai/HuggingFace. It simplifies your workflow by managing LoRA downloads automatically, so you don't have to manually download files and place them in the correct folder."
+    },
+    {
+      "author": "nour",
+      "title": "nd-super-nodes",
+      "reference": "https://github.com/HenkDz/nd-super-nodes",
+      "files": [
+        "https://github.com/HenkDz/nd-super-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Super LoRA Loader and ND Super Selector overlays for ComfyUI."
+    },
+    {
+      "author": "Seb-Lis",
+      "title": "comfyui-image-labeler",
+      "reference": "https://github.com/Seb-Lis/comfyui-image-labeler",
+      "files": [
+        "https://github.com/Seb-Lis/comfyui-image-labeler"
+      ],
+      "install_type": "git-clone",
+      "description": "Image labeler for ComyUI"
     },
     {
       "author": "Ser-Hilary",
