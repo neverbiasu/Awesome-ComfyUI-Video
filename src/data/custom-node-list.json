@@ -32601,6 +32601,16 @@
       "description": "ComfyUI node for Seedream 4 image generation via Replicate API with support for text-to-image and image-to-image generation"
     },
     {
+      "author": "Saganaki22",
+      "title": "Maya1 TTS",
+      "reference": "https://github.com/Saganaki22/ComfyUI-Maya1_TTS",
+      "files": [
+        "https://github.com/Saganaki22/ComfyUI-Maya1_TTS"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node for Maya1 TTS - Expressive voice generation with 20+ emotions, voice design, and SNAC neural codec"
+    },
+    {
       "author": "sfinktah",
       "title": "comfy-ovum",
       "reference": "https://github.com/sfinktah/comfy-ovum",
@@ -35065,16 +35075,6 @@
     },
     {
       "author": "walke2019",
-      "title": "ComfyUI-GGUF-VisionLM",
-      "reference": "https://github.com/walke2019/ComfyUI-GGUF-VisionLM",
-      "files": [
-        "https://github.com/walke2019/ComfyUI-GGUF-VisionLM"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
-    },
-    {
-      "author": "walke2019",
       "title": "Qwen2.5-VL GGUF Nodes",
       "reference": "https://github.com/walke2019/ComfyUI-GGUF-VLM",
       "files": [
@@ -35670,6 +35670,16 @@
       "description": "Simple yolov8 comfyui plugin. This plugin adds Yolov8DetectionSegmentation node and ImageCompositeBlurred node."
     },
     {
+      "author": "dskjal",
+      "title": "comfyui-yolov8-dsuksampler",
+      "reference": "https://github.com/dskjal/comfyui-yolov8-dsuksampler",
+      "files": [
+        "https://github.com/dskjal/comfyui-yolov8-dsuksampler"
+      ],
+      "install_type": "git-clone",
+      "description": "This node performs detection and segmentation, as well as upsampling, sampling, and blurring the composite."
+    },
+    {
       "author": "WingeD123",
       "title": "ComfyUI_QwenVL_PromptCaption",
       "reference": "https://github.com/WingeD123/ComfyUI_QwenVL_PromptCaption",
@@ -35748,6 +35758,16 @@
       ],
       "install_type": "git-clone",
       "description": "Image labeler for ComyUI"
+    },
+    {
+      "author": "gitcapoom",
+      "title": "ComfyUI FOV Estimator",
+      "reference": "https://github.com/gitcapoom/comfyui_fovestimator",
+      "files": [
+        "https://github.com/gitcapoom/comfyui_fovestimator"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that estimates the Field of View (FOV) and tilt angle (horizon angle) of images using computer vision techniques."
     },
     {
       "author": "Ser-Hilary",
