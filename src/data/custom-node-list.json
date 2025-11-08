@@ -34482,6 +34482,16 @@
       "description": "Advanced Text Overlay Node for ComfyUI featuring rebuilt rendering logic, precise alignment, custom fonts, and extended styling controls."
     },
     {
+      "author": "scofano",
+      "title": "Simple Video Effects",
+      "reference": "https://github.com/scofano/ComfyUI-Simple-video-effects",
+      "files": [
+        "https://github.com/scofano/ComfyUI-Simple-video-effects"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for Video effects. Zoom In/Out - new features soon."
+    },
+    {
       "author": "voxta-ai",
       "title": "Voxta ComfyUI Nodes",
       "reference": "https://github.com/voxta-ai/ComfyUI-VoxtaNodes",
