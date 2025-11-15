@@ -12717,6 +12717,28 @@
       "description": "This is a PuLID node that has been extended with new features."
     },
     {
+      "author": "GraftingRayman",
+      "title": "Unfied Vision Prompt Generator",
+      "id": "iGraftingRayman",
+      "reference": "https://github.com/GraftingRayman/Unified-Vision-Prompt-Generator",
+      "files": [
+        "https://github.com/GraftingRayman/Unified-Vision-Prompt-Generator"
+      ],
+      "install_type": "git-clone",
+      "description": "A Qwen 2/2.5, Moondream and SmolVLM LLM caption/prompt genrator"
+    },
+    {
+      "author": "GraftingRayman",
+      "title": "Border Distance Mapper",
+      "id": "iGraftingRayman",
+      "reference": "https://github.com/GraftingRayman/Border-Distance-Mapper",
+      "files": [
+        "ttps://github.com/GraftingRayman/Border-Distance-Mapper"
+      ],
+      "install_type": "git-clone",
+      "description": "A Countries Border distance mapper"
+    },
+    {
       "author": "royceschultz",
       "title": "ComfyUI-Notifications",
       "reference": "https://github.com/royceschultz/ComfyUI-Notifications",
@@ -34793,6 +34815,17 @@
       "description": "Custom nodes by IAMCCS, including a critical fix for LoRA loading in native WANAnimate workflows, especially useful for advanced models like FLUX and WAN 2.1. This bypasses the need for the WanVideoWrapper for LoRA functionality."
     },
     {
+      "author": "IAMCCS Annotate",
+      "title": "IAMCCS_annotate - Free-hand drawing tool for ComfyUI",
+      "id": "IAMCCS-Annotate",
+      "reference": "https://github.com/IAMCCS/IAMCCS_annotate",
+      "files": [
+        "https://github.com/IAMCCS/IAMCCS_annotate"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful drawing and annotation tool for ComfyUI that lets you add notes, sketches, and annotations directly on your workflow canvas with full layer support."
+    },
+    {
       "author": "michael",
       "title": "ComfyUI ML Nodes",
       "reference": "https://github.com/MichaelMaxAgent/comfyui_ML_nodes",
@@ -35898,6 +35931,17 @@
       "description": "Advanced camera control prompt generator for ComfyUI, optimized for dx8152's MultiAngle LoRA. Simplifies multi-directional movements, rotations, and special views with bilingual output."
     },
     {
+      "author": "Lorenzo Mercugliano",
+      "title": "BoxBox",
+      "id": "ComfyUI-BoxBox",
+      "reference": "https://github.com/mercu-lore/BoxBox",
+      "description": "BoxBox is a lightweight ComfyUI extension for drawing, cropping, resizing, and reinserting specific regions of an image.",
+      "files": [
+        "https://github.com/mercu-lore/BoxBox"
+      ],
+      "install_type": "git-clone"
+    },
+    {
       "author": "Owl-V",
       "title": "ComfyUI-Owlv_Nodes",
       "id": "comfyui-owlv_nodes",
@@ -35913,10 +35957,11 @@
     },
     {
       "author": "Owl-V",
-      "title": "ComfyUI-Translator",
-      "reference": "https://github.com/OwlvChirotha/ComfyUI-Translator",
+      "title": "ComfyUI-MultiTranslator",
+      "id": "comfyui-multitranslator-owlv",
+      "reference": "https://github.com/OwlvChirotha/ComfyUI-MultiTranslator",
       "files": [
-        "https://github.com/OwlvChirotha/ComfyUI-Translator"
+        "https://github.com/OwlvChirotha/ComfyUI-MultiTranslator"
       ],
       "install_type": "git-clone",
       "description": "ComfyUI plug-in collection of basic translator, LLM translator and a series of LLM Service Connectors.",
