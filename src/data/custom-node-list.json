@@ -8293,6 +8293,16 @@
       "description": "A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM model."
     },
     {
+      "author": "ailab",
+      "title": "ComfyUI-FlashVSR",
+      "reference": "https://github.com/1038lab/ComfyUI-FlashVSR",
+      "files": [
+        "https://github.com/1038lab/ComfyUI-FlashVSR"
+      ],
+      "install_type": "git-clone",
+      "description": "Powerful ComfyUI custom node built on the FlashVSR model, facilitating real-time diffusion-based video super-resolution for streaming applications."
+    },
+    {
       "author": "Klinter",
       "title": "Klinter_nodes",
       "id": "klinter",
@@ -11390,6 +11400,16 @@
       "description": "Step_Audio_EditX：the first open-source LLM-based audio model excelling at expressive and iterative audio editing—encompassing emotion, speaking style, and paralinguistics—alongside robust zero-shot text-to-speech (TTS) capabilities，try it in comfyUI"
     },
     {
+      "author": "smthemex",
+      "title": "ComfyUI_DyPE",
+      "reference": "https://github.com/smthemex/ComfyUI_DyPE",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_DyPE"
+      ],
+      "install_type": "git-clone",
+      "description": "DyPE: Dynamic Position Extrapolation for Ultra High Resolution Diffusion ,you can use a wrapper node it in comfyUI"
+    },
+    {
       "author": "choey",
       "title": "Comfy-Topaz",
       "id": "topaz",
@@ -12735,6 +12755,16 @@
       ],
       "install_type": "git-clone",
       "description": "A Countries Border distance mapper"
+    },
+    {
+      "author": "GraftingRayman",
+      "title": "ComfyUI Visual Dimension Selector",
+      "reference": "https://github.com/GraftingRayman/ComfyUI-Dimension-Selector",
+      "files": [
+        "https://github.com/GraftingRayman/ComfyUI-Dimension-Selector"
+      ],
+      "install_type": "git-clone",
+      "description": "A visual ComfyUI latent canvas dimensions selector"
     },
     {
       "author": "royceschultz",
@@ -33754,6 +33784,16 @@
       "description": "A ComfyUI custom node for vision + text analysis using GPT-5 and GPT-4o with direct API key input, system prompt, temperature, max tokens, and multi-image support."
     },
     {
+      "author": "comrender",
+      "title": "ComfyUI-Topaz-Upscaler",
+      "reference": "https://github.com/comrender/ComfyUI-Topaz-Upscaler",
+      "files": [
+        "https://github.com/comrender/ComfyUI-Topaz-Upscaler"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that integrates the Topaz Labs API for AI-powered image upscaling and enhancement."
+    },
+    {
       "author": "DecartAI",
       "title": "Lucy-Edit-ComfyUI",
       "reference": "https://github.com/DecartAI/Lucy-Edit-ComfyUI",
@@ -34500,6 +34540,16 @@
       "description": "View general image properties of image: Dimension, Resolution, Aspect Ratio, Tensor Size (including batch)"
     },
     {
+      "author": "shammi-g",
+      "title": "ComfyUI-Simple_Readable_Metadata-SG",
+      "reference": "https://github.com/ShammiG/ComfyUI-Simple_Readable_Metadata-SG",
+      "files": [
+        "https://github.com/ShammiG/ComfyUI-Simple_Readable_Metadata-SG"
+      ],
+      "install_type": "git-clone",
+      "description": "View Image Metadata of ComfyUI as well as of ForgeUI or Automatic 1111 generated images in Easily Readable Format"
+    },
+    {
       "author": "bgreene2",
       "title": "ComfyUI-Hunyuan-Image-3",
       "reference": "https://github.com/bgreene2/ComfyUI-Hunyuan-Image-3",
@@ -34882,6 +34932,46 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+    },
+    {
+      "author": "PozzettiAndrea",
+      "title": "ComfyUI-Grounding",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-Grounding",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-Grounding"
+      ],
+      "install_type": "git-clone",
+      "description": "Grounding for dummies, simplest workflow"
+    },
+    {
+      "author": "PozzettiAndrea",
+      "title": "ComfyUI libigl",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-GeometryPack",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-GeometryPack"
+      ],
+      "install_type": "git-clone",
+      "description": "libigl geometry processing wrapper for ComfyUI - mesh manipulation and analysis nodes"
+    },
+    {
+      "author": "PozzettiAndrea",
+      "title": "ComfyUI-HunyuanX",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX"
+      ],
+      "install_type": "git-clone",
+      "description": "Hunyuan 3D 2.1 image-to-3D generation nodes for ComfyUI with PBR texturing and model caching. Granular control for research."
+    },
+    {
+      "author": "pznodes",
+      "title": "ComfyUI-DepthAnythingV3",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes to use Depth Anything V3 - the latest depth estimation model from ByteDance. For now monocular depth, camera pose estimation and 3D point clouds/gaussians are supported. Models autodownload from HuggingFace (depth-anything org). This is a first draft, let me know if you have any feedback! :)"
     },
     {
       "author": "rookiestar28",
@@ -35317,16 +35407,6 @@
       "description": "A ComfyUI custom node that cycles through an infinite number of prompts"
     },
     {
-      "author": "PozzettiAndrea",
-      "title": "ComfyUI-Grounding",
-      "reference": "https://github.com/PozzettiAndrea/ComfyUI-Grounding",
-      "files": [
-        "https://github.com/PozzettiAndrea/ComfyUI-Grounding"
-      ],
-      "install_type": "git-clone",
-      "description": "Grounding for dummies, simplest workflow"
-    },
-    {
       "author": "Antique3e",
       "title": "ComfyUI Credit Tracker",
       "reference": "https://github.com/Antique3e/ComfyUI-ModalCredits",
@@ -35540,6 +35620,16 @@
       ],
       "install_type": "git-clone",
       "description": "A comprehensive ComfyUI node collection that integrates with the HiTem3D API to generate high-quality 3D models from images, featuring advanced HTML preview capabilities and dynamic content generation."
+    },
+    {
+      "author": "GeekatplayStudio",
+      "title": "ComfyUI-Text2Speech",
+      "reference": "https://github.com/GeekatplayStudio/ComfyUI-Text2Speech",
+      "files": [
+        "https://github.com/GeekatplayStudio/ComfyUI-Text2Speech"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for text-to-speech integration with a local TTS server."
     },
     {
       "author": "wouterverweirder",
@@ -36105,26 +36195,6 @@
       "description": "Creditas' Ad Creation Toolkit for ComfyUI"
     },
     {
-      "author": "PozzettiAndrea",
-      "title": "ComfyUI libigl",
-      "reference": "https://github.com/PozzettiAndrea/ComfyUI-GeometryPack",
-      "files": [
-        "https://github.com/PozzettiAndrea/ComfyUI-GeometryPack"
-      ],
-      "install_type": "git-clone",
-      "description": "libigl geometry processing wrapper for ComfyUI - mesh manipulation and analysis nodes"
-    },
-    {
-      "author": "PozzettiAndrea",
-      "title": "ComfyUI-HunyuanX",
-      "reference": "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX",
-      "files": [
-        "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX"
-      ],
-      "install_type": "git-clone",
-      "description": "Hunyuan 3D 2.1 image-to-3D generation nodes for ComfyUI with PBR texturing and model caching. Granular control for research."
-    },
-    {
       "author": "shiba2shiba",
       "title": "ComfyUI_FreeU_V2_advanced",
       "reference": "https://github.com/Shiba-2-shiba/ComfyUI_FreeU_V2_advanced",
@@ -36494,6 +36564,16 @@
       "description": "Unofficial Implementation of Diff2Flow Method for ComfyUI."
     },
     {
+      "author": "Koratahiu",
+      "title": "ComfyUI-OFTv2",
+      "reference": "https://github.com/Koratahiu/ComfyUI-OFTv2",
+      "files": [
+        "https://github.com/Koratahiu/ComfyUI-OFTv2"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node to support and load OFTv2 adapters"
+    },
+    {
       "author": "orpheus-gaze",
       "title": "comfyui-s2-guidance-test",
       "reference": "https://github.com/orpheus-gaze/comfyui-s2-guidance-test",
@@ -36526,12 +36606,73 @@
     {
       "author": "deng-wei",
       "title": "ComfyUI-MiVolo-V2",
+      "id": "ComfyUI-MiVolo-V2",
       "reference": "https://github.com/deng-wei/ComfyUI-MiVolo-V2",
       "files": [
         "https://github.com/deng-wei/ComfyUI-MiVolo-V2"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI nodes for MiVolo V2 Age & Gender Prediction (based on iitolstykh/mivolo_v2)"
+      "description": "ComfyUI nodes for [MiVolo V2 Age & Gender Prediction](https://huggingface.co/iitolstykh/mivolo_v2)"
+    },
+    {
+      "author": "alankent",
+      "title": "OA 360 Clip",
+      "reference": "https://github.com/alankent/ComfyUI-OA-360-Clip",
+      "files": [
+        "https://github.com/alankent/ComfyUI-OA-360-Clip"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node for extracting perspective views from 360 degree equirectangular images with an interactive drag-and-drop crop interface."
+    },
+    {
+      "author": "mister_link",
+      "title": "Link Comfy Nodes",
+      "reference": "https://github.com/Mister-Link/link-comfy-nodes",
+      "files": [
+        "https://github.com/Mister-Link/link-comfy-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom ComfyUI nodes by Mister-Link, including color parsing, frame calculation, and utility nodes for enhanced workflow capabilities."
+    },
+    {
+      "author": "jonstreeter",
+      "title": "Reference-Based Video Colorization",
+      "reference": "https://github.com/jonstreeter/ComfyUI-Reference-Based-Video-Colorization",
+      "files": [
+        "https://github.com/jonstreeter/ComfyUI-Reference-Based-Video-Colorization"
+      ],
+      "install_type": "git-clone",
+      "description": "Dual implementation of reference-based video colorization featuring ColorMNet (2024) with DINOv2 and Deep Exemplar (2019). Includes 4 nodes (2 video, 2 image), multiple feature encoders (VGG19, DINOv2, CLIP), advanced post-processing (color-matcher, WLS, guided, bilateral), and auto-installer for dependencies."
+    },
+    {
+      "author": "Fablestarexpanse",
+      "title": "Timer-Node-Comfyui",
+      "reference": "https://github.com/Fablestarexpanse/Timer-Node-Comfyui",
+      "files": [
+        "https://github.com/Fablestarexpanse/Timer-Node-Comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that displays live processing time in a red digital countdown clock format, perfect for monitoring image generation times and tracking performance between workflow nodes."
+    },
+    {
+      "author": "liming123332",
+      "title": "ComfyUI-Ranbooru",
+      "reference": "https://github.com/liming123332/ComfyUI-Ranbooru",
+      "files": [
+        "https://github.com/liming123332/ComfyUI-Ranbooru"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node that migrates WebUI Forge's Ranbooru plugin to ComfyUI, enabling searches across Booru sites to generate positive/negative prompts with tag cleaning, rating sorting, and caching support. (Description by CC)"
+    },
+    {
+      "author": "SilentZhang",
+      "title": "comfyui-encrypt",
+      "reference": "https://github.com/SilentZhang/comfyui-encrypt",
+      "files": [
+        "https://github.com/SilentZhang/comfyui-encrypt"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for RSA image encryption using asymmetric cryptography with key generation, encryption, and decryption functions via the cryptography library. (Description by CC)"
     },
     {
       "author": "Ser-Hilary",
