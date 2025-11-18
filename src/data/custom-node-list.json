@@ -33794,6 +33794,16 @@
       "description": "A custom node for ComfyUI that integrates the Topaz Labs API for AI-powered image upscaling and enhancement."
     },
     {
+      "author": "comrender",
+      "title": "ComfyUI-Nano-Banana-Resizer",
+      "reference": "https://github.com/comrender/ComfyUI-Nano-Banana-Resizer",
+      "files": [
+        "https://github.com/comrender/ComfyUI-Nano-Banana-Resizer"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that automatically calculates optimal output dimensions for Google's Nano Banana image editing model, supporting 22 aspect ratio buckets and ensuring pixel-perfect outputs without shifting or cropping."
+    },
+    {
       "author": "DecartAI",
       "title": "Lucy-Edit-ComfyUI",
       "reference": "https://github.com/DecartAI/Lucy-Edit-ComfyUI",
@@ -36372,6 +36382,16 @@
       "description": "Enhanced image-to-video node for Wan2.2 optimized for 4-step LoRAs that fixes slow-motion issues by increasing motion amplitude by 15-50%, with camera movement enhancement. (Description by CC)"
     },
     {
+      "author": "princepainter",
+      "title": "Comfyui-PainterSampler",
+      "reference": "https://github.com/princepainter/Comfyui-PainterSampler",
+      "files": [
+        "https://github.com/princepainter/Comfyui-PainterSampler"
+      ],
+      "install_type": "git-clone",
+      "description": "A dual-model image-to-video sampler for ComfyUI that combines high-noise and low-noise models in a single node, replacing two KSamplerAdvanced nodes with zero overhead and bit-identical frame generation. (Description by CC)"
+    },
+    {
       "author": "rafacost",
       "title": "rafacostComfy",
       "id": "rafacost-comfy",
@@ -36673,6 +36693,26 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for RSA image encryption using asymmetric cryptography with key generation, encryption, and decryption functions via the cryptography library. (Description by CC)"
+    },
+    {
+      "author": "hum-ma",
+      "title": "ComfyUI-TiledVaeLite",
+      "reference": "https://github.com/hum-ma/ComfyUI-TiledVaeLite",
+      "files": [
+        "https://github.com/hum-ma/ComfyUI-TiledVaeLite"
+      ],
+      "install_type": "git-clone",
+      "description": "A faster tiled VAE decode node for ComfyUI based on LTXV, optimized for low VRAM scenarios with configurable tiling, progress bars, and improved logging for decoding large images and videos."
+    },
+    {
+      "author": "tristanvdb",
+      "title": "ComfyUI-toolset",
+      "reference": "https://github.com/tristanvdb/ComfyUI-toolset",
+      "files": [
+        "https://github.com/tristanvdb/ComfyUI-toolset"
+      ],
+      "install_type": "git-clone",
+      "description": "Human-in-the-loop image selection tool for ComfyUI workflows using a Flask web server, enabling users to pause workflows and interactively select images via a web browser interface."
     },
     {
       "author": "Ser-Hilary",
