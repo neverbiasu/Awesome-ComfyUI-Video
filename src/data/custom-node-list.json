@@ -30262,6 +30262,16 @@
       "description": "ComfyUI-FastVLM-7B Apple A custom node for Apple’s FastVLM-7B vision-language model. This node lets you pass an image + instruction and returns a generated text response."
     },
     {
+      "author": "Ltamann",
+      "title": "ComfyUI-TBG-SAM3",
+      "reference": "https://github.com/Ltamann/ComfyUI-TBG-SAM3",
+      "files": [
+        "https://github.com/Ltamann/ComfyUI-TBG-SAM3"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node extension integrating Meta's Segment Anything Model 3 (SAM 3) for advanced image and video segmentation with text-prompt, point-based, and mask-driven capabilities. Provides production-ready nodes compatible with ComfyUI's Impact Pack SEGS format, depth map generation, and support for Python 3.13+ with CUDA and CPU support."
+    },
+    {
       "author": "DavidPiazza",
       "title": "Network Bending for ComfyUI",
       "reference": "https://github.com/DavidPiazza/network_bending",
@@ -33897,6 +33907,16 @@
       "description": "Custom TTS node that clones voice from a reference audio and speaks entered text."
     },
     {
+      "author": "sbcode",
+      "title": "Remove Background",
+      "reference": "https://github.com/Sean-Bradley/ComfyUI-Remove-Background",
+      "files": [
+        "https://github.com/Sean-Bradley/ComfyUI-Remove-Background"
+      ],
+      "install_type": "git-clone",
+      "description": "Remove background scenery from an image of a person. The output image is saved as an RGBA PNG. The alpha channel is included."
+    },
+    {
       "author": "LukeCoulson1",
       "title": "ComfyUI LoRA Combine Node",
       "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
@@ -34500,6 +34520,16 @@
       "description": "A custom ComfyUI node for managing image generation prompts using Pinecone vector database with OpenAI embeddings. Features interactive approval with image preview for quality control."
     },
     {
+      "author": "Hearmeman24",
+      "title": "ComfyUI-LoRAPlotNode",
+      "reference": "https://github.com/Hearmeman24/ComfyUI-LoRAPlotNode",
+      "files": [
+        "https://github.com/Hearmeman24/ComfyUI-LoRAPlotNode"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node for testing multiple LoRA models across different strength values. Automatically generates model/clip pairs for each LoRA-strength combination and includes an image saver node with text overlay for easy identification."
+    },
+    {
       "author": "piscesbody",
       "title": "ComfyUI-Upscale-CUDAspeed",
       "reference": "https://github.com/piscesbody/ComfyUI-Upscale-CUDAspeed",
@@ -35024,6 +35054,16 @@
       "description": "Standalone ComfyUI custom nodes for AnyTop - Universal Motion Generation for Any Skeleton Topology."
     },
     {
+      "author": "PozzettiAndrea",
+      "title": "ComfyUI-SAM3",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-SAM3",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-SAM3"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI integration for Meta's SAM3 model enabling open-vocabulary image segmentation using natural language text prompts, with automatic model download, geometric refinement, and flexible confidence thresholds."
+    },
+    {
       "author": "rookiestar28",
       "title": "Danbooru Tags Upsampler for ComfyUI",
       "id": "danbooru-tags-upsampler",
@@ -35133,6 +35173,16 @@
       ],
       "install_type": "git-clone",
       "description": "A comprehensive collection of advanced image processing nodes for ComfyUI, featuring state-of-the-art denoising, enhancement, and restoration techniques with GPU acceleration and specialized film grain processing."
+    },
+    {
+      "author": "EricRollei",
+      "title": "AAA_Metadata_System",
+      "reference": "https://github.com/EricRollei/AAA_Metadata_System",
+      "files": [
+        "https://github.com/EricRollei/AAA_Metadata_System"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive metadata management system for ComfyUI that enables storing, retrieving, and manipulating image metadata across multiple formats including embedded files, XMP sidecars, text files, and SQLite databases."
     },
     {
       "author": "nomadoor",
@@ -35487,16 +35537,6 @@
       "description": "Simple UI extension to track Modal GPU credits in real-time."
     },
     {
-      "author": "spiralmountain",
-      "title": "ComfyUI_HDNodes",
-      "reference": "https://github.com/spiralmountain/ComfyUI_HDNodes",
-      "files": [
-        "https://github.com/spiralmountain/ComfyUI_HDNodes"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom nodes for ComfyUI that enable video generation using ByteDance's Seedance model via [a/Fal.ai](https://fal.ai/)."
-    },
-    {
       "author": "apenguin24",
       "title": "ComfyUI-WanKeyframing",
       "reference": "https://github.com/apenguin24/ComfyUI-WanKeyframing",
@@ -35730,6 +35770,16 @@
       ],
       "install_type": "git-clone",
       "description": "Custom nodes to convert images to pen plotter files"
+    },
+    {
+      "author": "wouterverweirder",
+      "title": "ComfyUI SAM3",
+      "reference": "https://github.com/wouterverweirder/comfyui_sam3",
+      "files": [
+        "https://github.com/wouterverweirder/comfyui_sam3"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom Nodes to work with SAM3"
     },
     {
       "author": "Aishor",
@@ -36893,6 +36943,36 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom node suite integrating multiple AI image generation APIs (Gemini, Flux.1 Kontext Pro) with unified authentication via ComfyUI API Key and real-time cost tracking. (Description by CC)"
+    },
+    {
+      "author": "StarIICraft",
+      "title": "ComfyUI-Simple-Selector",
+      "reference": "https://github.com/StarIICraft/ComfyUI-Simple-Selector",
+      "files": [
+        "https://github.com/StarIICraft/ComfyUI-Simple-Selector"
+      ],
+      "install_type": "git-clone",
+      "description": "Logic control node with 5 universal input ports that checks connections in reverse priority order and outputs the index of the first valid active input, with support for muted nodes and any data type."
+    },
+    {
+      "author": "wwzhifeng",
+      "title": "comfyui-jsonprompt",
+      "reference": "https://github.com/wwzhifeng/comfyui-jsonprompt",
+      "files": [
+        "https://github.com/wwzhifeng/comfyui-jsonprompt"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI node that expands structured JSON text into standard prompts for use with models like Gemini, Flux, OpenAI, and Sora. (Description by CC)"
+    },
+    {
+      "author": "hobinrude",
+      "title": "ComfyUI_DWposeDeluxe",
+      "reference": "https://github.com/hobinrude/ComfyUI_DWposeDeluxe",
+      "files": [
+        "https://github.com/hobinrude/ComfyUI_DWposeDeluxe"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node integrating DW-Pose (Denoising Whole-Body Pose Estimation) for high-quality pose detection with CPU (ONNX) and GPU (TensorRT) support. Features 20x faster performance with TensorRT acceleration, automatic model downloading, customizable pose visualization, keypoint conversion, and video workflow integration."
     },
     {
       "author": "Ser-Hilary",
