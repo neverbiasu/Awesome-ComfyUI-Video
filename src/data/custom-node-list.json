@@ -21258,16 +21258,6 @@
       "description": "This is a ComfyUI custom node implementation for image editing using the Step-1 model architecture, specifically adapted for reference-based image editing guided by text prompts."
     },
     {
-      "author": "HM-RunningHub",
-      "title": "ComfyUI Qwen-Image Node",
-      "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image",
-      "files": [
-        "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image"
-      ],
-      "install_type": "git-clone",
-      "description": "A custom node for ComfyUI that integrates Alibaba's Qwen-Image model for high-quality image generation with exceptional text rendering capabilities."
-    },
-    {
       "author": "sebord",
       "title": "ComfyUI-LMCQ",
       "reference": "https://github.com/sebord/ComfyUI-LMCQ",
@@ -24879,16 +24869,6 @@
       ],
       "install_type": "git-clone",
       "description": "Free trial of Tongyi Wanxiang wan2.1 model, this is a batch implementation of wan2.1 API, providing batch processing for your short video production."
-    },
-    {
-      "author": "penposs",
-      "title": "ComfyUI-Banana-Node",
-      "reference": "https://github.com/penposs/ComfyUI-Banana-Node",
-      "files": [
-        "https://github.com/penposs/ComfyUI-Banana-Node"
-      ],
-      "install_type": "git-clone",
-      "description": "A custom node for ComfyUI that generates images using Google’s Gemini 2.5 Flash Image Preview API."
     },
     {
       "author": "cardenluo",
@@ -35045,16 +35025,6 @@
     },
     {
       "author": "PozzettiAndrea",
-      "title": "ComfyUI-AnyTop",
-      "reference": "https://github.com/PozzettiAndrea/ComfyUI-AnyTop",
-      "files": [
-        "https://github.com/PozzettiAndrea/ComfyUI-AnyTop"
-      ],
-      "install_type": "git-clone",
-      "description": "Standalone ComfyUI custom nodes for AnyTop - Universal Motion Generation for Any Skeleton Topology."
-    },
-    {
-      "author": "PozzettiAndrea",
       "title": "ComfyUI-SAM3",
       "reference": "https://github.com/PozzettiAndrea/ComfyUI-SAM3",
       "files": [
@@ -35062,6 +35032,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI integration for Meta's SAM3 model enabling open-vocabulary image segmentation using natural language text prompts, with automatic model download, geometric refinement, and flexible confidence thresholds."
+    },
+    {
+      "author": "pznodes",
+      "title": "ComfyUI-SAM3DBody",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-SAM3DBody",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-SAM3DBody"
+      ],
+      "install_type": "git-clone",
+      "description": "SAM 3D Body integration for ComfyUI - Robust full-body human mesh recovery from single images. Reconstruct 3D human meshes with pose, shape, and hand details. First draft, please open a github issue if you have any problems or feature requests :)"
     },
     {
       "author": "rookiestar28",
@@ -35073,6 +35053,17 @@
       ],
       "install_type": "git-clone",
       "description": "Makes the prompts for generating anime images more detailed by upsampling Danbooru tags."
+    },
+    {
+      "author": "rookiestar28",
+      "title": "ComfyUI Text Processor",
+      "id": "ComfyUI_Text_Processor",
+      "reference": "https://github.com/rookiestar28/ComfyUI_Text_Processor",
+      "files": [
+        "https://github.com/rookiestar28/ComfyUI_Text_Processor"
+      ],
+      "install_type": "git-clone",
+      "description": "An advanced text processing node for ComfyUI."
     },
     {
       "author": "MoonMoon82",
@@ -35176,13 +35167,50 @@
     },
     {
       "author": "EricRollei",
-      "title": "AAA_Metadata_System",
+      "title": "PDF Tools - Advanced PDF Processing & OCR",
+      "id": "pdf-tools",
+      "reference": "https://github.com/EricRollei/PDF-Tools",
+      "files": [
+        "https://github.com/EricRollei/PDF-Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced PDF processing, OCR, Image and text parsing, smart image crop nodes for ComfyUI. Features include multi-language OCR (Surya, PaddleOCR VL), AI vision analysis (Florence-2, LayoutLMv3), advanced PDF extraction with quality assessment, spread detection for scanned books, and comprehensive layout analysis. Supports 90+ languages with multiple output formats.",
+      "tags": [
+        "PDF",
+        "OCR",
+        "document",
+        "vision",
+        "Florence-2",
+        "Surya",
+        "PaddleOCR",
+        "LayoutLMv3",
+        "multilingual",
+        "layout-analysis"
+      ],
+      "category": "Document Processing"
+    },
+    {
+      "author": "EricRollei",
+      "title": "AAA Metadata System",
+      "id": "aaa-metadata-system",
       "reference": "https://github.com/EricRollei/AAA_Metadata_System",
       "files": [
         "https://github.com/EricRollei/AAA_Metadata_System"
       ],
       "install_type": "git-clone",
-      "description": "A comprehensive metadata management system for ComfyUI that enables storing, retrieving, and manipulating image metadata across multiple formats including embedded files, XMP sidecars, text files, and SQLite databases."
+      "description": "Advanced metadata management and multi-format image save system for ComfyUI. Save/load with metadata for PNG, JPEG, TIFF, PSD (with layers), SVG, and WebP. Features XMP/TXT/JSON sidecar files, embedded EXIF/XMP, MWG-RS regions for face metadata, workflow tracking, LoRA/embedding detection, runtime execution hooks, and Automatic1111 compatibility. Preserve layers, alpha channels, and complete provenance across all formats.",
+      "nodename_pattern": "^(MetadataAwareSaveImage|Multi_LoRA_Loader|LoadImageLayers)"
+    },
+    {
+      "author": "EricRollei",
+      "title": "HYPIR Image Restoration for ComfyUI",
+      "reference": "https://github.com/EricRollei/HYPIR-ComfyUI",
+      "files": [
+        "https://github.com/EricRollei/HYPIR-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for HYPIR image restoration using Stable Diffusion 2.1. Restores and upscales scanned or generated images with optional LM Studio prompt enhancement and tiled VAE processing for large resolutions.",
+      "nodename_pattern": "HYPIR"
     },
     {
       "author": "nomadoor",
@@ -36973,6 +37001,63 @@
       ],
       "install_type": "git-clone",
       "description": "A custom ComfyUI node integrating DW-Pose (Denoising Whole-Body Pose Estimation) for high-quality pose detection with CPU (ONNX) and GPU (TensorRT) support. Features 20x faster performance with TensorRT acceleration, automatic model downloading, customizable pose visualization, keypoint conversion, and video workflow integration."
+    },
+    {
+      "author": "Writili",
+      "title": "WtlNodes",
+      "id": "wtlnodes",
+      "reference": "https://github.com/Scorpiosis0/ComfyUI-WtlNodes",
+      "files": [
+        "https://github.com/Scorpiosis0/ComfyUI-WtlNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This node adds improvement over some already existing nodes as well as some custom nodes."
+    },
+    {
+      "author": "yuanyuan-spec",
+      "title": "HunyuanVideo-1.5 nodes",
+      "reference": "https://github.com/yuanyuan-spec/comfyui_hunyuanvideo_1.5_plugin",
+      "files": [
+        "https://github.com/yuanyuan-spec/comfyui_hunyuanvideo_1.5_plugin"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI plugin based on HunyuanVideo-1.5, offering both simplified and complete node sets for quick usage or deep workflow customization."
+    },
+    {
+      "author": "Madiator2011",
+      "title": "ComfyUI RunpodDirect",
+      "id": "runpoddirect",
+      "reference": "https://github.com/MadiatorLabs/ComfyUI-RunpodDirect",
+      "files": [
+        "https://github.com/MadiatorLabs/ComfyUI-RunpodDirect"
+      ],
+      "install_type": "git-clone",
+      "description": "Direct model downloads to your Runod pod with blazing-fast multi-connection support. No more downloading models to your local machine and re-uploading!"
+    },
+    {
+      "author": "kjqwer",
+      "title": "SmartSaveImage",
+      "reference": "https://github.com/kjqwer/SmartSaveImage",
+      "files": [
+        "https://github.com/kjqwer/SmartSaveImage"
+      ],
+      "install_type": "git-clone",
+      "description": "Smart Image Saving Nodes - Offers intelligent folder management and image saving capabilities, supporting flexible folder hierarchy control, multiple metadata sources, various image formats, and metadata embedding. It includes two nodes: SmartFolderManager and SmartImageSaver.",
+      "pip": [
+        "Pillow",
+        "piexif"
+      ],
+      "nodename_pattern": "Smart"
+    },
+    {
+      "author": "danielpflorian",
+      "title": "ComfyUI-WorkflowGenerator",
+      "reference": "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator",
+      "files": [
+        "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-WorkflowGenerator custom nodes for generating ComfyUI workflows from natural language"
     },
     {
       "author": "Ser-Hilary",
