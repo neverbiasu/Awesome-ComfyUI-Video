@@ -37060,6 +37060,47 @@
       "description": "ComfyUI-WorkflowGenerator custom nodes for generating ComfyUI workflows from natural language"
     },
     {
+      "author": "Icekiub",
+      "title": "ComfyUI-IcyHider",
+      "id": "text_processor",
+      "reference": "https://github.com/icekiub-ai/ComfyUI-IcyHider",
+      "files": [
+        "https://github.com/icekiub-ai/ComfyUI-IcyHider"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node extension that hides image previews until you hover over the node."
+    },
+    {
+      "author": "turisc",
+      "title": "Text Line Selector",
+      "reference": "https://github.com/TuriSc/comfyui-text-line-selector",
+      "files": [
+        "https://github.com/TuriSc/comfyui-text-line-selector"
+      ],
+      "install_type": "git-clone",
+      "description": "Extracts a single line from multiline string. Useful for batch processing"
+    },
+    {
+      "author": "FuryNocturnTV",
+      "title": "ComfyUI-Studio-Fury",
+      "reference": "https://github.com/FuryNocturn/ComfyUI-Studio-Fury",
+      "files": [
+        "https://github.com/FuryNocturn/ComfyUI-Studio-Fury"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodos custom, al estilo fury, nodos que añaden versatilidad. con el tiempo ira creciendo los nodos."
+    },
+    {
+      "author": "granddyser",
+      "title": "Wan-video-extender",
+      "reference": "https://github.com/Granddyser/wan-video-extender",
+      "files": [
+        "https://github.com/Granddyser/wan-video-extender"
+      ],
+      "install_type": "git-clone",
+      "description": "Wan Video Extender extends a short video or a single image into a longer, temporally consistent clip using a VACE based control latent. It runs in multiple extension loops. Each loop can have its own prompt and optional LoRA, so you can evolve the scene step by step without rebuilding the graph."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
