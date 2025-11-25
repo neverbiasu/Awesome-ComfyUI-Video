@@ -30992,6 +30992,17 @@
       "description": "This custom node allows users to selectively choose what to add to the generated image's metadata."
     },
     {
+      "author": "brucew4yn3rp",
+      "title": "Vintage Effect",
+      "id": "VintageEffect",
+      "reference": "https://github.com/brucew4yn3rp/ComfyUI_VintageEffect",
+      "files": [
+        "https://github.com/brucew4yn3rp/ComfyUI_VintageEffect"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node that applies vintage/retro effects through JPG compression, color grading, film grain, vignette, and more to emulate more realistic photo aesthetics."
+    },
+    {
       "author": "cedarconnor",
       "title": "ComfyUI LatLong - Equirectangular Image Processing Nodes",
       "reference": "https://github.com/cedarconnor/comfyui-LatLong",
@@ -35166,6 +35177,34 @@
       "description": "A comprehensive collection of advanced image processing nodes for ComfyUI, featuring state-of-the-art denoising, enhancement, and restoration techniques with GPU acceleration and specialized film grain processing."
     },
     {
+      "title": "Download Tools for ComfyUI",
+      "reference": "https://github.com/EricRollei/Download_Tools",
+      "files": [
+        "https://github.com/EricRollei/Download_Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Comprehensive media downloading and web scraping nodes for ComfyUI. Download from 1000+ websites including Instagram, Reddit, Twitter, YouTube, TikTok using gallery-dl, yt-dlp, and advanced web scraping. Features: Gallery-dl downloader (100+ sites), Yt-dlp downloader (1000+ platforms), Web Image Scraper with 15+ site-specific handlers, browser cookie authentication, MCP integration for Claude Desktop.",
+      "author": "Eric Hiss (EricRollei)",
+      "nodename_pattern": "(Gallery-dl|Yt-dlp|Web.*Scraper)",
+      "tags": [
+        "download",
+        "scraper",
+        "web",
+        "gallery-dl",
+        "yt-dlp",
+        "instagram",
+        "youtube",
+        "twitter",
+        "reddit",
+        "media",
+        "video",
+        "image",
+        "tiktok",
+        "deviantart",
+        "pixiv"
+      ]
+    },
+    {
       "author": "EricRollei",
       "title": "PDF Tools - Advanced PDF Processing & OCR",
       "id": "pdf-tools",
@@ -37099,6 +37138,21 @@
       ],
       "install_type": "git-clone",
       "description": "Wan Video Extender extends a short video or a single image into a longer, temporally consistent clip using a VACE based control latent. It runs in multiple extension loops. Each loop can have its own prompt and optional LoRA, so you can evolve the scene step by step without rebuilding the graph."
+    },
+    {
+      "author": "akawana",
+      "title": "Keybinding Extra",
+      "reference": "https://github.com/akawana/ComfyUI-Keybinding-extra",
+      "files": [
+        "https://github.com/akawana/ComfyUI-Keybinding-extra"
+      ],
+      "install_type": "git-clone",
+      "description": "Adds shortcuts for commenting and deleting lines of text, with a configurable comment symbol. Includes a node that cleans comments from text and splits content using tags for Regional Prompting.",
+      "tags": [
+        "frontend",
+        "shortcut",
+        "utility"
+      ]
     },
     {
       "author": "Ser-Hilary",
