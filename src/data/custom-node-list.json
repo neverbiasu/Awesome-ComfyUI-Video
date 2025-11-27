@@ -35503,16 +35503,6 @@
       "description": "A ComfyUI scheduler that finds the shift value required to align high/low sampling steps with a target sigma boundary."
     },
     {
-      "author": "hvppycoding",
-      "title": "hvppyflow",
-      "reference": "https://github.com/hvppycoding/hvppyflow",
-      "files": [
-        "https://github.com/hvppycoding/hvppyflow"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI nodes for Automated Workflow"
-    },
-    {
       "author": "l33chking",
       "title": "ComfyUI Channel Ops",
       "id": "ComfyUI-Channel-Ops",
@@ -37145,6 +37135,16 @@
       ]
     },
     {
+      "author": "akawana",
+      "title": "ComfyUI-Utils-extra",
+      "reference": "https://github.com/akawana/ComfyUI-Utils-extra",
+      "files": [
+        "https://github.com/akawana/ComfyUI-Utils-extra"
+      ],
+      "install_type": "git-clone",
+      "description": "A small collection of utility nodes for ComfyUI that simplify and speed up complex workflows, gradually expanded with new practical utilities."
+    },
+    {
       "author": "lovisdotio",
       "title": "ComfyUI-Replace-First-Frame-Last-Frame",
       "reference": "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame",
@@ -37195,6 +37195,16 @@
       "description": "Custom ComfyUI nodes that split large images into overlapping tiles for processing and merge them back seamlessly with feathering blending. (Description by CC)"
     },
     {
+      "author": "tuki0918",
+      "title": "ComfyUI_Cooldown_Node",
+      "reference": "https://github.com/tuki0918/ComfyUI_Cooldown_Node",
+      "files": [
+        "https://github.com/tuki0918/ComfyUI_Cooldown_Node"
+      ],
+      "install_type": "git-clone",
+      "description": "Provides custom nodes with a cooldown feature for ComfyUI. (Description by CC)"
+    },
+    {
       "author": "NeoDroleDeGueule",
       "title": "NDDG_Great_Nodes",
       "reference": "https://github.com/NeoDroleDeGueule/NDDG_Great_Nodes",
@@ -37213,6 +37223,66 @@
       ],
       "install_type": "git-clone",
       "description": "Collection of image processing utility nodes for ComfyUI including intelligent cropping, aspect ratio scaling, and crop box restoration capabilities. (Description by CC)"
+    },
+    {
+      "author": "chchchadzilla",
+      "title": "ComfyUI-ChomfyNodes",
+      "reference": "https://github.com/chchchadzilla/ComfyUI-ChomfyNodes",
+      "files": [
+        "https://github.com/chchchadzilla/ComfyUI-ChomfyNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A professional suite of utility nodes for ComfyUI, featuring forensic logging, massive wildcard control, universal noise injection, and persistent counters."
+    },
+    {
+      "author": "nitingrg",
+      "title": "comfyui-ntools",
+      "reference": "https://github.com/nitingrg/comfyui-ntools",
+      "files": [
+        "https://github.com/nitingrg/comfyui-ntools"
+      ],
+      "install_type": "git-clone",
+      "description": "Essential little utilities that should have been in ComfyUI from day one. (Description by CC)"
+    },
+    {
+      "author": "jav12z",
+      "title": "ComfyUI-ToyShaders",
+      "reference": "https://github.com/jav12z/ComfyUI-ToyShaders",
+      "files": [
+        "https://github.com/jav12z/ComfyUI-ToyShaders"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that allows you to render GLSL shaders (Shadertoy-style) directly inside your workflows. (Description by CC)"
+    },
+    {
+      "author": "Nynxz",
+      "title": "ComfyUI-NynxzNodes",
+      "reference": "https://github.com/Nynxz/ComfyUI-NynxzNodes",
+      "files": [
+        "https://github.com/Nynxz/ComfyUI-NynxzNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes providing video comparison utilities, including wipe and fade compare video generation in multiple directions. (Description by CC)"
+    },
+    {
+      "author": "huygiatrng",
+      "title": "Facefusion_comfyui",
+      "reference": "https://github.com/huygiatrng/Facefusion_comfyui",
+      "files": [
+        "https://github.com/huygiatrng/Facefusion_comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced face swapping for ComfyUI with local ONNX inference - no API required!"
+    },
+    {
+      "author": "Ada123-a",
+      "title": "ComfyUI-Kandinsky",
+      "reference": "https://github.com/Ada123-a/ComfyUI-Kandinsky",
+      "files": [
+        "https://github.com/Ada123-a/ComfyUI-Kandinsky"
+      ],
+      "install_type": "git-clone",
+      "description": "Kandinsky 2/20B ComfyUI support with FP8/GGUF/blockswap support."
     },
     {
       "author": "Ser-Hilary",
