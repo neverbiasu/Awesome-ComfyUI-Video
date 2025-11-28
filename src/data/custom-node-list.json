@@ -31845,13 +31845,14 @@
     },
     {
       "author": "Rzgar Espo",
-      "title": "ComfyUI-Qwen-Image-Size-Picker",
+      "title": "ComfyUI Qwen Image Size Picker",
+      "id": "QwenImg-latent",
       "reference": "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker",
       "files": [
         "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker"
       ],
       "install_type": "git-clone",
-      "description": "A universal node for generating empty latent tensors with support for Qwen Image, SDXL and Flux models. Features extended aspect ratio support, batch processing, and flexible dimension overrides."
+      "description": "An empty latent size picker with support for Qwen Image, SDXL, and Flux models."
     },
     {
       "author": "luke-mino-altherr",
@@ -37136,13 +37137,18 @@
     },
     {
       "author": "akawana",
-      "title": "ComfyUI-Utils-extra",
+      "title": "Utils Extra",
       "reference": "https://github.com/akawana/ComfyUI-Utils-extra",
       "files": [
         "https://github.com/akawana/ComfyUI-Utils-extra"
       ],
       "install_type": "git-clone",
-      "description": "A small collection of utility nodes for ComfyUI that simplify and speed up complex workflows, gradually expanded with new practical utilities."
+      "description": "Utility tools. Index Multiple is used for expanding multiple values from a list, IsOneOfGroupsActive to identify groups state, RepeatGroupState group enable/disable like rg but without connection etc.",
+      "tags": [
+        "utility",
+        "list",
+        "batch"
+      ]
     },
     {
       "author": "lovisdotio",
@@ -37283,6 +37289,16 @@
       ],
       "install_type": "git-clone",
       "description": "Kandinsky 2/20B ComfyUI support with FP8/GGUF/blockswap support."
+    },
+    {
+      "author": "obvirm",
+      "title": "ComfyUI-WhisperXX",
+      "reference": "https://github.com/obvirm/ComfyUI-WhisperXX",
+      "files": [
+        "https://github.com/obvirm/ComfyUI-WhisperXX"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that provides advanced transcription, alignment, and diarization capabilities using the WhisperX library."
     },
     {
       "author": "Ser-Hilary",
