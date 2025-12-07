@@ -37557,9 +37557,9 @@
     {
       "author": "HAL-XP",
       "title": "HALXP-Comfy",
-      "reference": "https://github.com/hal-xp/halxp-comfy",
+      "reference": "https://github.com/HAL-XP/halxp-comfy",
       "files": [
-        "https://github.com/hal-xp/halxp-comfy"
+        "https://github.com/HAL-XP/halxp-comfy"
       ],
       "install_type": "git-clone",
       "description": "A UI suite for ComfyUI including Focus mode and layout enhancements."
@@ -37850,6 +37850,60 @@
       ],
       "install_type": "git-clone",
       "description": "A logic engine for ComfyUI prompts that transforms static prompts into dynamic, context-aware workflows with persistent variables, conditional logic, native LoRA loading, and external data fetching. (Description by CC)"
+    },
+    {
+      "author": "Transhumai",
+      "title": "ComfyUI-LegionPower",
+      "reference": "https://github.com/Transhumai/ComfyUI-LegionPower",
+      "files": [
+        "https://github.com/Transhumai/ComfyUI-LegionPower"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes to run ComfyUI workflows in isolated workers for optimal GPU and memory use."
+    },
+    {
+      "author": "jeankassio",
+      "title": "ComfyUI_MusicTools",
+      "id": "ComfyUI_MusicTools",
+      "reference": "https://github.com/jeankassio/ComfyUI_MusicTools",
+      "files": [
+        "https://github.com/jeankassio/ComfyUI_MusicTools"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional audio processing and mastering suite for ComfyUI."
+    },
+    {
+      "author": "ameyukisora",
+      "title": "ComfyUI Empty Latent Advanced",
+      "reference": "https://github.com/ameyukisora/ComfyUI-Empty-Latent-Advanced",
+      "files": [
+        "https://github.com/ameyukisora/ComfyUI-Empty-Latent-Advanced"
+      ],
+      "install_type": "git-clone",
+      "description": "An advanced Empty Latent selector with visual presets and foldable UI."
+    },
+    {
+      "author": "Bomborant",
+      "title": "ShakaNodes",
+      "id": "shakanodes",
+      "reference": "https://github.com/bomborant/ComfyUI-ShakaNodes",
+      "files": [
+        "https://github.com/bomborant/ComfyUI-ShakaNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ShakaNodes: Utility tools for ComfyUI"
+    },
+    {
+      "author": "Matthew-X",
+      "title": "Workflow Importer",
+      "id": "comfyui-workflow_importer",
+      "reference": "https://github.com/Matthew-X/comfyui-workflow_importer",
+      "files": [
+        "https://github.com/Matthew-X/comfyui-workflow_importer"
+      ],
+      "install_type": "git-clone",
+      "js_path": "workflow_importer",
+      "description": "Import ComfyUI workflows from images with embedded metadata. Adds a toolbar Import button, drag-and-drop dialog and Ctrl+Shift+I shortcut. Supports legacy and new UIs, common image formats, opens each image in a new workflow tab."
     },
     {
       "author": "Ser-Hilary",
