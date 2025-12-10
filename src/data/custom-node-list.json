@@ -20233,10 +20233,9 @@
     {
       "author": "Black-Lioness",
       "title": "ComfyUI-PromptUtils",
-      "reference": "https://github.com/Black-Lioness/ComfyUI-PromptUtils",
-      "reference2": "https://github.com/RunningOverGlowies/ComfyUI-PromptUtils",
+      "reference": "https://github.com/RunningOverGlowies/ComfyUI-PromptUtils",
       "files": [
-        "https://github.com/Black-Lioness/ComfyUI-PromptUtils"
+        "https://github.com/RunningOverGlowies/ComfyUI-PromptUtils"
       ],
       "install_type": "git-clone",
       "description": "A set of ComfyUI nodes designed to enhance your workflow with realistic filename generation and keyword generation."
@@ -25735,16 +25734,6 @@
       ],
       "install_type": "git-clone",
       "description": "Comfyui-raw-image provides the ability to load raw image files for ComfyUI"
-    },
-    {
-      "author": "DiffusionWave",
-      "title": "PickResolution_DiffusionWave",
-      "reference": "https://github.com/DiffusionWave/PickResolution_DiffusionWave",
-      "files": [
-        "https://github.com/DiffusionWave/PickResolution_DiffusionWave"
-      ],
-      "install_type": "git-clone",
-      "description": "A custom node for ComfyUI that allows selecting a base resolution, applying a custom scaling value based on FLOAT (up to 10 decimal places), and adding an extra integer value. Outputs include both INT and FLOAT resolutions, making it perfect for you to play around with."
     },
     {
       "author": "Zar4X",
@@ -37991,6 +37980,9 @@
       "title": "Img Label Tools",
       "id": "Img-Label-Tools",
       "reference": "https://github.com/rjgoif/ComfyUI-Img-Label-Tools",
+      "files": [
+        "https://github.com/rjgoif/ComfyUI-Img-Label-Tools"
+      ],
       "install_type": "git-clone",
       "description": "Tools to help annotate images for sharing on Reddit, Discord, etc."
     },
