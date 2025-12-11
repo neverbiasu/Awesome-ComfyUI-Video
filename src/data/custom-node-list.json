@@ -29404,16 +29404,6 @@
       "description": "Load images with automatic prompt extraction from Civitai URLs, caption files, or EXIF metadata. Features smart dataset detection and dynamic preview updates."
     },
     {
-      "author": "LargeModGames",
-      "title": "ComfyUI LoRA Auto Downloader",
-      "reference": "https://github.com/LargeModGames/comfyui-smart-lora-downloader",
-      "files": [
-        "https://github.com/LargeModGames/comfyui-smart-lora-downloader"
-      ],
-      "install_type": "git-clone",
-      "description": "Automatically download missing LoRAs from CivitAI and detect missing LoRAs in workflows. Features smart directory detection and easy installation."
-    },
-    {
       "author": "benjamin-bertram",
       "title": "ComfyUI OIDN Denoiser",
       "reference": "https://github.com/benjamin-bertram/Comfyui_OIDN_Denoiser",
@@ -34170,16 +34160,6 @@
       "description": "This is a custom node for ComfyUI that provides a dynamic 'Switch' for routing purposes. It allows you to define a list of named labels and select one, outputting the corresponding index and label name. This is useful for controlling the flow of your workflow based on a selection."
     },
     {
-      "author": "mcrataobrabo",
-      "title": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs",
-      "reference": "https://github.com/mcrataobrabo/comfyui-smart-lora-downloader",
-      "files": [
-        "https://github.com/mcrataobrabo/comfyui-smart-lora-downloader"
-      ],
-      "install_type": "git-clone",
-      "description": "Automatically detect and download missing LoRAs for ComfyUI workflows"
-    },
-    {
       "author": "3dgopnik",
       "title": "ComfyUI Arena Suite",
       "reference": "https://github.com/3dgopnik/comfyui-arena-suite",
@@ -37937,6 +37917,7 @@
         "https://github.com/fredlef/Comfyui_FSL_Nodes"
       ],
       "install_type": "git-clone",
+      "description": "Custom nodes: FSLGeminiChat, FSLGeminiGenerateImage, Transparent Background helpers, and more.",
       "tags": [
         "image",
         "chat",
@@ -38372,16 +38353,6 @@
       "description": "A suite of powerful and versatile utility nodes for ComfyUI, designed to streamline complex workflows involving Large Language Models and text manipulation."
     },
     {
-      "author": "KANAsho34636",
-      "title": "ComfyUI-NaturalSort-ImageLoader",
-      "reference": "https://github.com/KANAsho34636/ComfyUI-NaturalSort-ImageLoader",
-      "files": [
-        "https://github.com/KANAsho34636/ComfyUI-NaturalSort-ImageLoader"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom image loader node supporting natural number sorting with multiple sort modes (natural, lexicographic, modification time, creation time, reverse natural). (Description by CC)"
-    },
-    {
       "author": "systemaiofinterest-wq",
       "title": "ComfyUI-MetaAI",
       "reference": "https://github.com/systemaiofinterest-wq/ComfyUI-MetaAI",
@@ -38400,16 +38371,6 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI model loader that uses the fastsafetensors library to perform very fast, zero-copy loading from storage to VRAM."
-    },
-    {
-      "author": "johninthewinter",
-      "title": "comfyui-fal-flux-2-John",
-      "reference": "https://github.com/johninthewinter/comfyui-fal-flux-2-John",
-      "files": [
-        "https://github.com/johninthewinter/comfyui-fal-flux-2-John"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom nodes for ComfyUI that integrate with fal.ai's FLUX 2 and FLUX 1 LoRA APIs for text-to-image generation."
     },
     {
       "author": "Merserk",
