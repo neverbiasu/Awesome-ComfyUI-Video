@@ -14901,6 +14901,16 @@
       "description": "A collection of utility nodes for lora operations in ComfyUI."
     },
     {
+      "author": "lrzjason",
+      "title": "Comfyui-LatentUtils",
+      "reference": "https://github.com/lrzjason/Comfyui-LatentUtils",
+      "files": [
+        "https://github.com/lrzjason/Comfyui-LatentUtils"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI node performing selective latent denoising and detail enhancement using Fourier Transform (FFT) to separate and enhance image frequencies while suppressing noise. (Description by CC)"
+    },
+    {
       "author": "cozy_comm",
       "title": "Cozy Communication",
       "id": "cozy_comm",
@@ -19216,16 +19226,6 @@
       "description": "A custom ComfyUI node using Together AI's Vision models for free image descriptions, image generation, and image-to-image transformation. Features include customizable prompts, advanced parameters, and robust error handling."
     },
     {
-      "author": "jeffrey2212",
-      "title": "Pony Character Prompt Picker for ComfyUI",
-      "reference": "https://github.com/jeffrey2212/ComfyUI-PonyCharacterPrompt",
-      "files": [
-        "https://github.com/jeffrey2212/ComfyUI-PonyCharacterPrompt"
-      ],
-      "install_type": "git-clone",
-      "description": "The Pony Character Prompt Picker node reads an Excel file specified by the user, allows manual selection of a tab, and randomly picks a cell value from a specified column, starting from row 3 to the end. The selected value is output as a string to the next node in the ComfyUI workflow."
-    },
-    {
       "author": "theshubzworld",
       "title": "ComfyUI-FaceCalloutNode",
       "reference": "https://github.com/theshubzworld/ComfyUI-FaceCalloutNode",
@@ -19234,6 +19234,36 @@
       ],
       "install_type": "git-clone",
       "description": "A collection of custom nodes for ComfyUI that provide advanced face callout, annotation, and compositing effects using OpenCV and PIL. These nodes are designed for image processing workflows that require face detection, annotation, and creative compositing."
+    },
+    {
+      "author": "theshubzworld",
+      "title": "ComfyUI-NvidiaCaptioner",
+      "reference": "https://github.com/theshubzworld/ComfyUI-NvidiaCaptioner",
+      "files": [
+        "https://github.com/theshubzworld/ComfyUI-NvidiaCaptioner"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node for generating rich, detailed captions for images using NVIDIA's vision models. Supports batch processing, multiple captioning styles, and includes built-in caching for efficient workflows."
+    },
+    {
+      "author": "theshubzworld",
+      "title": "ComfyUI-Universal-Latent",
+      "reference": "https://github.com/theshubzworld/ComfyUI-Universal-Latent",
+      "files": [
+        "https://github.com/theshubzworld/ComfyUI-Universal-Latent"
+      ],
+      "install_type": "git-clone",
+      "description": "Enhanced empty latent node with extended aspect ratio support for ComfyUI"
+    },
+    {
+      "author": "jeffrey2212",
+      "title": "Pony Character Prompt Picker for ComfyUI",
+      "reference": "https://github.com/jeffrey2212/ComfyUI-PonyCharacterPrompt",
+      "files": [
+        "https://github.com/jeffrey2212/ComfyUI-PonyCharacterPrompt"
+      ],
+      "install_type": "git-clone",
+      "description": "The Pony Character Prompt Picker node reads an Excel file specified by the user, allows manual selection of a tab, and randomly picks a cell value from a specified column, starting from row 3 to the end. The selected value is output as a string to the next node in the ComfyUI workflow."
     },
     {
       "author": "Jonseed",
@@ -22780,6 +22810,16 @@
       ],
       "install_type": "git-clone",
       "description": "Calculates the percentage of a mask area compared to the total image size and outputs a boolean based on a defined threshold."
+    },
+    {
+      "author": "a-und-b",
+      "title": "ComfyUI_AB_Wildcard",
+      "reference": "https://github.com/a-und-b/ComfyUI_AB_Wildcard",
+      "files": [
+        "https://github.com/a-und-b/ComfyUI_AB_Wildcard"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple node for advanced wildcard text processing. Supports variables, conditionals, tag aggregation, weighted selection, and deep nesting. Lightweight, fast, zero external dependencies."
     },
     {
       "author": "r3dial",
@@ -29621,6 +29661,17 @@
       "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
     },
     {
+      "author": "Lord Lethris",
+      "title": "Dia2 TTS & Captions Generators for ComfyUI",
+      "id": "dia2_tts_captions",
+      "reference": "https://github.com/lord-lethris/ComfyUI-lethris-dia2",
+      "files": [
+        "https://github.com/lord-lethris/ComfyUI-lethris-dia2"
+      ],
+      "install_type": "Git-Clone",
+      "description": "This package provides two ComfyUI nodes: 🗣️ Dia2 TTS Generator for text-to-speech using Dia2-2B, and 💬 Dia2 Captions Generator to convert TTS timestamps into SRT/SSA/VTT subtitles. Includes example workflow and voice samples. GPU users require CUDA 12.8+."
+    },
+    {
       "author": "ialhabbal",
       "title": "OcclusionMask",
       "reference": "https://github.com/ialhabbal/OcclusionMask",
@@ -30552,6 +30603,16 @@
       ],
       "install_type": "git-clone",
       "description": "An advanced image stitching node for ComfyUI."
+    },
+    {
+      "author": "RamonGuthrie",
+      "title": "ComfyUI-RBG-SmartSeedVariance",
+      "reference": "https://github.com/RamonGuthrie/ComfyUI-RBG-SmartSeedVariance",
+      "files": [
+        "https://github.com/RamonGuthrie/ComfyUI-RBG-SmartSeedVariance"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced seed diversity enhancement for ComfyUI with intelligent noise injection and directional biasing."
     },
     {
       "author": "vrgamegirl19",
@@ -37780,16 +37841,6 @@
       "description": "ComfyUI nodes for loading images and drawing polygon masks interactively on them"
     },
     {
-      "author": "cdanielp",
-      "title": "COMFYUI_PROMPTMODELS",
-      "reference": "https://github.com/cdanielp/COMFYUI_PROMPTMODELS",
-      "files": [
-        "https://github.com/cdanielp/COMFYUI_PROMPTMODELS"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom nodes for ComfyUI by PROMPTMODELS."
-    },
-    {
       "author": "supElement",
       "title": "ComfyUI_Element_easy",
       "reference": "https://github.com/supElement/ComfyUI_Element_easy",
@@ -38017,6 +38068,17 @@
       ],
       "install_type": "git-clone",
       "description": "Professional audio processing and mastering suite for ComfyUI."
+    },
+    {
+      "author": "jeankassio",
+      "title": "JK AceStep Nodes",
+      "id": "JK-AceStep-Nodes",
+      "reference": "https://github.com/jeankassio/JK-AceStep-Nodes",
+      "files": [
+        "https://github.com/jeankassio/JK-AceStep-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced nodes optimized for ACE-Step audio generation in ComfyUI."
     },
     {
       "author": "ameyukisora",
@@ -38421,6 +38483,120 @@
       ],
       "install_type": "git-clone",
       "description": "Custom ComfyUI node for generating consistent character images using Ideogram API v3's character reference feature. (Description by CC)"
+    },
+    {
+      "author": "Moeblack",
+      "title": "ComfyUI-SimpleChat",
+      "reference": "https://github.com/Moeblack/ComfyUI-SimpleChat",
+      "files": [
+        "https://github.com/Moeblack/ComfyUI-SimpleChat"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple, no-nonsense LLM chat nodes for ComfyUI. Support OpenAI, Claude, Gemini and NoASS Roleplay.",
+      "tags": [
+        "LLM",
+        "chat",
+        "openai",
+        "claude",
+        "gemini",
+        "roleplay",
+        "noass"
+      ]
+    },
+    {
+      "author": "Braeden90000",
+      "title": "ComfyUI Load Image URL",
+      "id": "load-image-url",
+      "reference": "https://github.com/Braeden90000/comfyui-load-image-url",
+      "files": [
+        "https://github.com/Braeden90000/comfyui-load-image-url"
+      ],
+      "pip": [
+        "requests"
+      ],
+      "install_type": "git-clone",
+      "description": "Load images from files or URLs with live preview and source switching."
+    },
+    {
+      "author": "lovelybbq",
+      "title": "ComfyUI Custom Node Color",
+      "reference": "https://github.com/lovelybbq/comfyui-custom-node-color",
+      "files": [
+        "https://github.com/lovelybbq/comfyui-custom-node-color"
+      ],
+      "install_type": "git-clone",
+      "description": "A modern GUI-based color picker for ComfyUI nodes. Features visual spectrum, HEX/RGB inputs, eyedropper tool, and favorite colors support."
+    },
+    {
+      "author": "huihuihuiz",
+      "title": "LoRA Downloader for ComfyUI",
+      "id": "lora_downloader",
+      "reference": "https://github.com/huihuihuiz/lora_downloader",
+      "files": [
+        "https://github.com/huihuihuiz/lora_downloader"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for downloading and managing LoRA models directly within the UI."
+    },
+    {
+      "author": "aTanguay",
+      "title": "ComfyUI_Detonate",
+      "reference": "https://github.com/aTanguay/ComfyUI_Detonate",
+      "files": [
+        "https://github.com/aTanguay/ComfyUI_Detonate"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional compositing nodes for ComfyUI - bringing Nuke and Fusion workflows to AI-powered image generation"
+    },
+    {
+      "author": "akaugun",
+      "title": "comfyui-lora-hook-trigger",
+      "reference": "https://github.com/akaugun/comfyui-lora-hook-trigger",
+      "files": [
+        "https://github.com/akaugun/comfyui-lora-hook-trigger"
+      ],
+      "install_type": "git-clone",
+      "description": "A clean and simple ComfyUI custom node that creates a LoRA Hook and automatically finds and loads trigger TXT files placed in a folder named after the LoRA file."
+    },
+    {
+      "author": "tumbowungus",
+      "title": "MultiMaskCouple",
+      "reference": "https://github.com/tumbowungus/MultiMaskCouple",
+      "files": [
+        "https://github.com/tumbowungus/MultiMaskCouple"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI which simplifies the process of masking multiple prompts, making it easier to manage scenes with multiple distinct characters."
+    },
+    {
+      "author": "fudosanit",
+      "title": "ComfyUI-Random-Resolution",
+      "reference": "https://github.com/fudosanit/ComfyUI-Random-Resolution",
+      "files": [
+        "https://github.com/fudosanit/ComfyUI-Random-Resolution"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI. Based on the specified resolution, it randomly selects and outputs one of three patterns: original orientation, swapped width/height, or a square format. (Description by CC)"
+    },
+    {
+      "author": "SuLU-K",
+      "title": "comfyui-easy-sam3-tools",
+      "reference": "https://github.com/SuLU-K/comfyui-easy-sam3-tools",
+      "files": [
+        "https://github.com/SuLU-K/comfyui-easy-sam3-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for building SAM3-centric editing pipelines inside ComfyUI, featuring mask merging, bounding box rendering, and DOM-based interactive editing. (Description by CC)"
+    },
+    {
+      "author": "EMkrtchyan",
+      "title": "ComfyUI-NormalsToDepth",
+      "reference": "https://github.com/EMkrtchyan/ComfyUI-NormalsToDepth",
+      "files": [
+        "https://github.com/EMkrtchyan/ComfyUI-NormalsToDepth"
+      ],
+      "install_type": "git-clone",
+      "description": "Converts normal maps to depth maps for use in ComfyUI. (Description by CC)"
     },
     {
       "author": "Ser-Hilary",
