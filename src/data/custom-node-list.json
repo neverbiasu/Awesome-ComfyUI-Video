@@ -3344,6 +3344,16 @@
       "description": "Mel-Band RoFormer for Music Source Separation"
     },
     {
+      "author": "kijai",
+      "title": "ComfyUI-SCAIL-Pose",
+      "reference": "https://github.com/kijai/ComfyUI-SCAIL-Pose",
+      "files": [
+        "https://github.com/kijai/ComfyUI-SCAIL-Pose"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for SCAIL input processing"
+    },
+    {
       "author": "hhhzzyang",
       "title": "Comfyui-Lama",
       "id": "lama",
@@ -13741,6 +13751,16 @@
       "description": "You'll get a new node called SD3 Latent Select Resolution, you can pick the x and y sizes from a list."
     },
     {
+      "author": "GavChap",
+      "title": "ComfyUI_ExtractLora",
+      "reference": "https://github.com/GavChap/ComfyUI_ExtractLora",
+      "files": [
+        "https://github.com/GavChap/ComfyUI_ExtractLora"
+      ],
+      "install_type": "git-clone",
+      "description": "Creates lora from two checkpoints by extracting the difference."
+    },
+    {
       "author": "BenNarum",
       "title": "SigmaWaveFormNodes",
       "id": "sigmawaveform",
@@ -21874,6 +21894,16 @@
       "description": "A custom node for ComfyUI that integrates Video-As-Prompt for motion-guided video generation from image inputs."
     },
     {
+      "author": "HM-RunningHub",
+      "title": "ComfyUI_RH_QwenImageI2L",
+      "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_QwenImageI2L",
+      "files": [
+        "https://github.com/HM-RunningHub/ComfyUI_RH_QwenImageI2L"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that generates Image-to-LoRA (I2L) LoRA from training images using DiffSynth-Studio Qwen-Image i2L pipelines."
+    },
+    {
       "author": "wqjuser",
       "title": "ComfyUI-Chat-Image",
       "reference": "https://github.com/wqjuser/ComfyUI-Chat-Image",
@@ -27542,6 +27572,16 @@
       "description": "A custom ComfyUI node for integrating with the Fal Kontext API for advanced image editing and generation."
     },
     {
+      "author": "SanDiegoDude",
+      "title": "SCG_LocalVLM",
+      "reference": "https://github.com/SanDiegoDude/SCG_LocalVLM",
+      "files": [
+        "https://github.com/SanDiegoDude/SCG_LocalVLM"
+      ],
+      "install_type": "git-clone",
+      "description": "This is an implementation of [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI), which supports for text-based and single-image queries."
+    },
+    {
       "author": "tavyra",
       "title": "ComfyUI_Curves",
       "reference": "https://github.com/tavyra/ComfyUI_Curves",
@@ -32206,6 +32246,16 @@
       "description": "ComfyUI-SoulX-Podcast is a custom node plugin for ComfyUI that packages the core functionality of SoulX-Podcast (long-form, multi-speaker, multi-dialect podcast voice generation) into a visual node workflow."
     },
     {
+      "author": "flybirdxx",
+      "title": "ComfyUI-Prompt_Helper",
+      "reference": "https://github.com/flybirdxx/ComfyUI-Prompt_Helper",
+      "files": [
+        "https://github.com/flybirdxx/ComfyUI-Prompt_Helper"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node that loads Qwen3-4B locally and expands short prompts into detailed, image-generation-friendly descriptions via GGUF. (Description by CC)"
+    },
+    {
       "author": "DenRakEiw",
       "title": "ComfyUI Latent Color Tools",
       "reference": "https://github.com/DenRakEiw/Latent_Nodes",
@@ -34202,6 +34252,16 @@
       "description": "Remove background scenery from an image of a person. The output image is saved as an RGBA PNG. The alpha channel is included."
     },
     {
+      "author": "Sean-Bradley",
+      "title": "ComfyUI-Get-Line",
+      "reference": "https://github.com/Sean-Bradley/ComfyUI-Get-Line",
+      "files": [
+        "https://github.com/Sean-Bradley/ComfyUI-Get-Line"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node used to get one line of string from a multi line string. Search in the manager for `get line`, or `getline` or `get-line`."
+    },
+    {
       "author": "LukeCoulson1",
       "title": "ComfyUI LoRA Combine Node",
       "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
@@ -34893,6 +34953,16 @@
       ],
       "install_type": "git-clone",
       "description": "View Image Metadata of ComfyUI as well as of ForgeUI or Automatic 1111 generated images in Easily Readable Format"
+    },
+    {
+      "author": "ShammiG",
+      "title": "ComfyUI-Show_Any_Text_in_CMD_Console-SG",
+      "reference": "https://github.com/ShammiG/ComfyUI-Show_Any_Text_in_CMD_Console-SG",
+      "files": [
+        "https://github.com/ShammiG/ComfyUI-Show_Any_Text_in_CMD_Console-SG"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple node to show ANY output text in the CMD console with color options"
     },
     {
       "author": "bgreene2",
@@ -38336,6 +38406,16 @@
       "description": "Custom node for building keyframe timelines in Wan video generation with adjustable influence strength, supporting 1-8 keyframes. (Description by CC)"
     },
     {
+      "author": "ckinpdx",
+      "title": "comfyui-humo-audio-motion",
+      "reference": "https://github.com/ckinpdx/comfyui-humo-audio-motion",
+      "files": [
+        "https://github.com/ckinpdx/comfyui-humo-audio-motion"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for granular Q/K/V/O attention boosting in HuMo models. Provides 12 independent controls for fine-tuning audio-driven motion response."
+    },
+    {
       "author": "jessesep",
       "title": "SimpleVariables",
       "reference": "https://github.com/jessesep/SimpleVariables",
@@ -38859,6 +38939,36 @@
       ],
       "install_type": "git-clone",
       "description": "Comprehensive set of ComfyUI custom nodes for interacting with a Sora-compatible REST API, supporting text-to-video, image-to-video, and video-to-video generation."
+    },
+    {
+      "author": "logicalor",
+      "title": "comfyui_text_to_pose",
+      "reference": "https://github.com/logicalor/comfyui_text_to_pose",
+      "files": [
+        "https://github.com/logicalor/comfyui_text_to_pose"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate human poses from text descriptions using T2P Transformer for ControlNet/T2I-Adapter workflows"
+    },
+    {
+      "author": "ssspace1",
+      "title": "SSpack_ComfyUI",
+      "reference": "https://github.com/ssspace1/SSpack_ComfyUI",
+      "files": [
+        "https://github.com/ssspace1/SSpack_ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Compact, UI-friendly nodes for ComfyUI with LoRA/checkpoint selectors with thumbnails, text utilities, image helpers, and a lightweight cache cleaner script."
+    },
+    {
+      "author": "SofianeAlla",
+      "title": "ComfyUI-BespokeAI-3D",
+      "reference": "https://github.com/SofianeAlla/ComfyUI-BespokeAI-3D",
+      "files": [
+        "https://github.com/SofianeAlla/ComfyUI-BespokeAI-3D"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for BespokeAI image-to-3D generation\nNOTE: The files in the repo are not organized."
     },
     {
       "author": "Ser-Hilary",
