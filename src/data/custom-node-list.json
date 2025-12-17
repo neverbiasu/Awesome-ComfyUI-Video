@@ -9837,16 +9837,6 @@
     },
     {
       "author": "shinich39",
-      "title": "comfyui-innnnnpaint",
-      "reference": "https://github.com/shinich39/comfyui-innnnnpaint",
-      "files": [
-        "https://github.com/shinich39/comfyui-innnnnpaint"
-      ],
-      "install_type": "git-clone",
-      "description": "Load new workflow after mask editing."
-    },
-    {
-      "author": "shinich39",
       "title": "comfyui-break-workflow",
       "reference": "https://github.com/shinich39/comfyui-break-workflow",
       "files": [
@@ -21904,6 +21894,16 @@
       "description": "A ComfyUI custom node that generates Image-to-LoRA (I2L) LoRA from training images using DiffSynth-Studio Qwen-Image i2L pipelines."
     },
     {
+      "author": "HM-RunningHub",
+      "title": "ComfyUI_RH_LLM_API",
+      "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_LLM_API",
+      "files": [
+        "https://github.com/HM-RunningHub/ComfyUI_RH_LLM_API"
+      ],
+      "install_type": "git-clone",
+      "description": "An easy-to-use ComfyUI plugin for LLM integration supporting DeepSeek, OpenAI API-compatible models, with video reverse-prompt (captioning) capabilities. (Description by CC)"
+    },
+    {
       "author": "wqjuser",
       "title": "ComfyUI-Chat-Image",
       "reference": "https://github.com/wqjuser/ComfyUI-Chat-Image",
@@ -25299,6 +25299,16 @@
       ],
       "install_type": "git-clone",
       "description": "Custom node for ComfyUI that fixes an existing node [a/comfyui-dynamicprompts](https://github.com/adieyal/comfyui-dynamicprompts)."
+    },
+    {
+      "author": "thezveroboy",
+      "title": "ComfyUI-ClipReshaper",
+      "reference": "https://github.com/thezveroboy/ComfyUI-ClipReshaper",
+      "files": [
+        "https://github.com/thezveroboy/ComfyUI-ClipReshaper"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes to reshape/project Conditioning tensors and ensure SDXL conditioning metadata."
     },
     {
       "author": "tatookan",
@@ -37582,6 +37592,23 @@
     },
     {
       "author": "akawana",
+      "title": "AK XZ Axis (XY for any KSampler)",
+      "reference": "https://github.com/akawana/ComfyUI-AK-XZ-Axis",
+      "files": [
+        "https://github.com/akawana/ComfyUI-AK-XZ-Axis"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for XY-style testing of parameters such as seed, steps, cfg, denoise, prompts, and LoRAs. Does not require a custom KSampler and works with any KSampler, including the default ComfyUI one.",
+      "tags": [
+        "xy_plot",
+        "xy",
+        "xz",
+        "testing",
+        "ksampler"
+      ]
+    },
+    {
+      "author": "akawana",
       "title": "Folded prompts",
       "reference": "https://github.com/akawana/ComfyUI-Folded-Prompts",
       "files": [
@@ -38486,6 +38513,16 @@
       "description": "Directional mask expansion node that extends masks along specified directions with pixel-precise control, plus separate pinch/widen morphology operations."
     },
     {
+      "author": "TheArtOfficial",
+      "title": "ComfyUI-Nitra",
+      "reference": "https://github.com/TheArtOfficial/ComfyUI-Nitra",
+      "files": [
+        "https://github.com/TheArtOfficial/ComfyUI-Nitra"
+      ],
+      "install_type": "git-clone",
+      "description": "Nitra custom node for ComfyUI"
+    },
+    {
       "author": "brahianrosswill",
       "title": "ComfyUi-RandomNoiseCustom",
       "reference": "https://github.com/brahianrosswill/ComfyUi-RandomNoiseCustom",
@@ -38942,6 +38979,16 @@
     },
     {
       "author": "logicalor",
+      "title": "comfyui_multi_replace",
+      "reference": "https://github.com/logicalor/comfyui_multi_replace",
+      "files": [
+        "https://github.com/logicalor/comfyui_multi_replace"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for creating and applying multiple find/replace pairs to text"
+    },
+    {
+      "author": "logicalor",
       "title": "comfyui_text_to_pose",
       "reference": "https://github.com/logicalor/comfyui_text_to_pose",
       "files": [
@@ -38969,6 +39016,56 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for BespokeAI image-to-3D generation\nNOTE: The files in the repo are not organized."
+    },
+    {
+      "author": "laboratoiresonore",
+      "title": "ComfyUI_PerformanceLab",
+      "reference": "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab",
+      "files": [
+        "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab"
+      ],
+      "install_type": "git-clone",
+      "description": "Make any ComfyUI workflow faster, use less VRAM, or produce better quality - with AI assistance"
+    },
+    {
+      "author": "tppp2806",
+      "title": "ComfyUI-YoloTrack",
+      "reference": "https://github.com/tppp2806/ComfyUI-YoloTrack",
+      "files": [
+        "https://github.com/tppp2806/ComfyUI-YoloTrack"
+      ],
+      "install_type": "git-clone",
+      "description": "Based on a YOLO model, it performs object detection, capture, and smooth tracking-based cropping on images."
+    },
+    {
+      "author": "revisiontony",
+      "title": "ComfyUI Lora Manager Web Frame",
+      "reference": "https://github.com/revisiontony/LoraMangerWebFrame",
+      "files": [
+        "https://github.com/revisiontony/LoraMangerWebFrame"
+      ],
+      "install_type": "git-clone",
+      "description": "Embeds the ComfyUI-Lora-Manager web interface directly into your ComfyUI workflow graph, eliminating the need for a separate browser tab."
+    },
+    {
+      "author": "Maenvaeru",
+      "title": "comfyui-vram-overlay",
+      "reference": "https://github.com/Maenvaeru/comfyui-vram-overlay",
+      "files": [
+        "https://github.com/Maenvaeru/comfyui-vram-overlay"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional VRAM monitoring overlay for ComfyUI that displays real-time GPU memory usage as an independent, non-intrusive window. (Description by CC)"
+    },
+    {
+      "author": "PROJECTMAD",
+      "title": "PROJECT-MAD-NODES",
+      "reference": "https://github.com/PROJECTMAD/PROJECT-MAD-NODES",
+      "files": [
+        "https://github.com/PROJECTMAD/PROJECT-MAD-NODES"
+      ],
+      "install_type": "git-clone",
+      "description": "Collection of custom ComfyUI nodes for LoRA scheduling and prompt management, featuring visual curve editor and visual prompt gallery with EXIF metadata extraction."
     },
     {
       "author": "Ser-Hilary",
