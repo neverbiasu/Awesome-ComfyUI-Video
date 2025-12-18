@@ -26648,16 +26648,6 @@
       "description": "A collection of utility nodes for ComfyUI, focusing on batch processing, stitching, and visualization."
     },
     {
-      "author": "AngelCookies",
-      "title": "ComfyUI-Seed-Tracker",
-      "reference": "https://github.com/AngelCookies/ComfyUI-Seed-Tracker",
-      "files": [
-        "https://github.com/AngelCookies/ComfyUI-Seed-Tracker"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI extension that tracks random seeds throughout your image generation workflows"
-    },
-    {
       "author": "TiamaTiramisu",
       "title": "RisuTools",
       "reference": "https://github.com/TiamaTiramisu/risutools",
@@ -38443,6 +38433,16 @@
       "description": "ComfyUI custom node for granular Q/K/V/O attention boosting in HuMo models. Provides 12 independent controls for fine-tuning audio-driven motion response."
     },
     {
+      "author": "ckinpdx",
+      "title": "ComfyUI-SCAIL-AudioReactive",
+      "reference": "https://github.com/ckinpdx/ComfyUI-SCAIL-AudioReactive",
+      "files": [
+        "https://github.com/ckinpdx/ComfyUI-SCAIL-AudioReactive"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate audio-reactive SCAIL pose sequences for character animation without requiring input video tracking. Now supports Multi-Character Choreography. (Description by CC)"
+    },
+    {
       "author": "jessesep",
       "title": "SimpleVariables",
       "reference": "https://github.com/jessesep/SimpleVariables",
@@ -38511,16 +38511,6 @@
       ],
       "install_type": "git-clone",
       "description": "Directional mask expansion node that extends masks along specified directions with pixel-precise control, plus separate pinch/widen morphology operations."
-    },
-    {
-      "author": "TheArtOfficial",
-      "title": "ComfyUI-Nitra",
-      "reference": "https://github.com/TheArtOfficial/ComfyUI-Nitra",
-      "files": [
-        "https://github.com/TheArtOfficial/ComfyUI-Nitra"
-      ],
-      "install_type": "git-clone",
-      "description": "Nitra custom node for ComfyUI"
     },
     {
       "author": "brahianrosswill",
@@ -39066,6 +39056,36 @@
       ],
       "install_type": "git-clone",
       "description": "Collection of custom ComfyUI nodes for LoRA scheduling and prompt management, featuring visual curve editor and visual prompt gallery with EXIF metadata extraction."
+    },
+    {
+      "author": "flowers6421",
+      "title": "ComfyUI-SimpleTunerFlux2",
+      "reference": "https://github.com/flowers6421/ComfyUI-SimpleTunerFlux2",
+      "files": [
+        "https://github.com/flowers6421/ComfyUI-SimpleTunerFlux2"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for using SimpleTuner-trained Flux 2 LoRA models. SimpleTuner's Flux 2 architecture uses fused layers, making its LoRAs incompatible with standard ComfyUI Flux nodes. (Description by CC)"
+    },
+    {
+      "author": "scott-createplay",
+      "title": "ComfyUI_video_essentials",
+      "reference": "https://github.com/scott-createplay/ComfyUI_video_essentials",
+      "files": [
+        "https://github.com/scott-createplay/ComfyUI_video_essentials"
+      ],
+      "install_type": "git-clone",
+      "description": "Essential video processing nodes for ComfyUI"
+    },
+    {
+      "author": "revisionhiep-create",
+      "title": "comfyui-standard-trigger-words",
+      "reference": "https://github.com/revisionhiep-create/comfyui-standard-trigger-words",
+      "files": [
+        "https://github.com/revisionhiep-create/comfyui-standard-trigger-words"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for managing trigger words with 50+ editable presets optimized for SDXL Illustrious"
     },
     {
       "author": "Ser-Hilary",

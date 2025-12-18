@@ -3382,6 +3382,18 @@
       "author_account_age_days": 322
     },
     {
+      "author": "ckinpdx",
+      "title": "ComfyUI-SCAIL-AudioReactive",
+      "reference": "https://github.com/ckinpdx/ComfyUI-SCAIL-AudioReactive",
+      "files": [
+        "https://github.com/ckinpdx/ComfyUI-SCAIL-AudioReactive"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate audio-reactive SCAIL pose sequences for character animation without requiring input video tracking. Now supports Multi-Character Choreography. (Description by CC)",
+      "stars": 3,
+      "author_account_age_days": 356
+    },
+    {
       "author": "ShmuelRonen",
       "title": "DJ_VideoAudioMixer",
       "reference": "https://github.com/ShmuelRonen/DJ_VideoAudioMixer",
@@ -4614,6 +4626,18 @@
       "description": "Comprehensive set of ComfyUI custom nodes for interacting with a Sora-compatible REST API, supporting text-to-video, image-to-video, and video-to-video generation.",
       "stars": 0,
       "author_account_age_days": 4183
+    },
+    {
+      "author": "scott-createplay",
+      "title": "ComfyUI_video_essentials",
+      "reference": "https://github.com/scott-createplay/ComfyUI_video_essentials",
+      "files": [
+        "https://github.com/scott-createplay/ComfyUI_video_essentials"
+      ],
+      "install_type": "git-clone",
+      "description": "Essential video processing nodes for ComfyUI",
+      "stars": 0,
+      "author_account_age_days": 2683
     }
   ]
 }
