@@ -5136,6 +5136,16 @@
       "description": "A standalone ComfyUI custom node for creating animated shapes that follow user-drawn paths."
     },
     {
+      "author": "filliptm",
+      "title": "ComfyUI_FL-CosyVoice3",
+      "reference": "https://github.com/filliptm/ComfyUI_FL-CosyVoice3",
+      "files": [
+        "https://github.com/filliptm/ComfyUI_FL-CosyVoice3"
+      ],
+      "install_type": "git-clone",
+      "description": "FL CosyVoice3 - Advanced Text-to-Speech nodes for ComfyUI. Features zero-shot voice cloning, cross-lingual synthesis, instruction-based control, and voice conversion using the CosyVoice3 model family. Supports 9 languages and 18+ Chinese dialects with automatic model downloading and caching."
+    },
+    {
       "author": "zfkun",
       "title": "ComfyUI_zfkun",
       "reference": "https://github.com/zfkun/ComfyUI_zfkun",
@@ -18920,6 +18930,16 @@
       "description": "This repository contains a user-defined node for ComfyUI, currently there are nodes for capturing captions. But will be expanded in the future."
     },
     {
+      "author": "BlackVortexAI",
+      "title": "BV Node Pack",
+      "reference": "https://github.com/BlackVortexAI/bv_nodepack",
+      "files": [
+        "https://github.com/BlackVortexAI/bv_nodepack"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node pack with utility and workflow nodes: a flexible config-driven Pipe system plus Subgraph-friendly UI nodes (Heading, Spacer, Divider) with dynamic JavaScript rendering."
+    },
+    {
       "author": "JosephThomasParker",
       "title": "ComfyUI-DrawThingsWrapper",
       "reference": "https://github.com/JosephThomasParker/ComfyUI-DrawThingsWrapper",
@@ -20398,6 +20418,16 @@
       ],
       "install_type": "git-clone",
       "description": "A simple node for ComfyUI that rotates or resizes the input latent to common orientations."
+    },
+    {
+      "author": "SparknightLLC",
+      "title": "ComfyUI-ModelSamplingSD3Advanced",
+      "reference": "https://github.com/SparknightLLC/ComfyUI-ModelSamplingSD3Advanced",
+      "files": [
+        "https://github.com/SparknightLLC/ComfyUI-ModelSamplingSD3Advanced"
+      ],
+      "install_type": "git-clone",
+      "description": "Adds windowed, curved shift control for Flow Matching samplers (SD3-style / flow schedules). It is a drop-in replacement for Comfy's included ModelSamplingSD3 node."
     },
     {
       "author": "lightricks",
@@ -35023,6 +35053,16 @@
       "description": "Simple node to show ANY output text in the CMD console with color options"
     },
     {
+      "author": "ShammiG",
+      "title": "ComfyUI_Text_Tools_SG",
+      "reference": "https://github.com/ShammiG/ComfyUI_Text_Tools_SG",
+      "files": [
+        "https://github.com/ShammiG/ComfyUI_Text_Tools_SG"
+      ],
+      "install_type": "git-clone",
+      "description": "Text Editor node with Markdown editing plus quick shortcuts, Text Viewer node, with extra features plus Text Merge, Text Save and Load Text from anywhere nodes."
+    },
+    {
       "author": "bgreene2",
       "title": "ComfyUI-Hunyuan-Image-3",
       "reference": "https://github.com/bgreene2/ComfyUI-Hunyuan-Image-3",
@@ -38453,6 +38493,16 @@
       "description": "The next-generation security, governance, permissions, and multi‑user control system for ComfyUI."
     },
     {
+      "author": "DayMan84",
+      "title": "ComfyUI-Usgromana-Gallery",
+      "reference": "https://github.com/DayMan84/ComfyUI-Usgromana-Gallery",
+      "files": [
+        "https://github.com/DayMan84/ComfyUI-Usgromana-Gallery"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive image gallery extension for ComfyUI that provides advanced image management, metadata editing, NSFW content filtering, real-time file monitoring, and a full-featured file explorer."
+    },
+    {
       "author": "DemonNCoding",
       "title": "PromptGenerator 12-Columns",
       "id": "promptgenerator12columns",
@@ -39109,6 +39159,16 @@
       "description": "Generate human poses from text descriptions using T2P Transformer for ControlNet/T2I-Adapter workflows"
     },
     {
+      "author": "logicalor",
+      "title": "comfyui_friendly_pipe",
+      "reference": "https://github.com/logicalor/comfyui_friendly_pipe",
+      "files": [
+        "https://github.com/logicalor/comfyui_friendly_pipe"
+      ],
+      "install_type": "git-clone",
+      "description": "Flexible pipe nodes for bundling and unbundling multiple connections of any type in ComfyUI"
+    },
+    {
       "author": "ssspace1",
       "title": "SSpack_ComfyUI",
       "reference": "https://github.com/ssspace1/SSpack_ComfyUI",
@@ -39390,13 +39450,14 @@
     },
     {
       "author": "AugustusLXIII",
-      "title": "ComfyUI_CustomResolution_I2V",
+      "title": "Custom Resolution I2V",
+      "id": "custom-resolution-i2v-augustus",
       "reference": "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V",
       "files": [
         "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V"
       ],
       "install_type": "git-clone",
-      "description": "Specialized resolution utility node for WanVideo Image-to-Video workflows with 20 preset levels, manual override with auto-rounding, and tooltips for custom dimensions. (Description by CC)"
+      "description": "A resolution utility for WanVideo I2V with 20 presets, manual override and automatic rounding."
     },
     {
       "author": "RyukoMatoiFan",
@@ -39427,6 +39488,77 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI extension that helps users relink missing models in workflows"
+    },
+    {
+      "author": "xuheyao",
+      "title": "comfyui-dinov3-point-prompt",
+      "reference": "https://github.com/xuheyao/comfyui-dinov3-point-prompt",
+      "files": [
+        "https://github.com/xuheyao/comfyui-dinov3-point-prompt"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for DINOv3 point prompt functionality with integration of Facebook's DINOv3 research model. (Description by CC)"
+    },
+    {
+      "author": "Asidert",
+      "title": "Base64 Images input and output nodes for ComfyUI",
+      "reference": "https://github.com/Asidert/ComfyUI_Base64Images",
+      "files": [
+        "https://github.com/Asidert/ComfyUI_Base64Images"
+      ],
+      "install_type": "git-clone",
+      "description": "A set of base64 input and output nodes for a custom API using ComfyUI"
+    },
+    {
+      "author": "ddontsov93",
+      "title": "ComfyUI-AudioSeparator",
+      "reference": "https://github.com/ddontsov93/ComfyUI-AudioSeparator",
+      "files": [
+        "https://github.com/ddontsov93/ComfyUI-AudioSeparator"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node for ComfyUI integrating audio-separator library that separates audio stems (vocals vs instrumental), removes noise, and fixes audio artifacts using GPU acceleration. (Description by CC)"
+    },
+    {
+      "author": "TobiasGlaubach",
+      "title": "ComfyUI-TG_pydocmaker",
+      "reference": "https://github.com/TobiasGlaubach/ComfyUI-TG_pydocmaker",
+      "files": [
+        "https://github.com/TobiasGlaubach/ComfyUI-TG_pydocmaker"
+      ],
+      "install_type": "git-clone",
+      "description": "A minimal node set in comfyui to render pydocmaker reports"
+    },
+    {
+      "author": "cyberlightdev",
+      "title": "ComfyUI-CyberUtils",
+      "reference": "https://github.com/cyberlightdev/ComfyUI-CyberUtils",
+      "files": [
+        "https://github.com/cyberlightdev/ComfyUI-CyberUtils"
+      ],
+      "install_type": "git-clone",
+      "description": "A minimal template for creating React/TypeScript frontend extensions for ComfyUI, with complete boilerplate setup including internationalization and unit testing."
+    },
+    {
+      "author": "rakkarage",
+      "title": "ComfyRage",
+      "id": "comfyrage",
+      "reference": "https://github.com/rakkarage/ComfyRage",
+      "files": [
+        "https://github.com/rakkarage/ComfyRage"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI text nodes. Pre (preprocess comments, random, and de-emphasis), Show (show and persist text), and Debug (show and persist weights)."
+    },
+    {
+      "author": "naxci1",
+      "title": "ComfyUI-FlashVSR_Stable",
+      "reference": "https://github.com/naxci1/ComfyUI-FlashVSR_Stable",
+      "files": [
+        "https://github.com/naxci1/ComfyUI-FlashVSR_Stable"
+      ],
+      "install_type": "git-clone",
+      "description": "High-performance Video Super Resolution for ComfyUI with VRAM optimization."
     },
     {
       "author": "Ser-Hilary",
