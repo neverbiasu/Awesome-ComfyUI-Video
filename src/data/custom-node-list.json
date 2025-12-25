@@ -5772,6 +5772,16 @@
       "description": "Progressive upscaling node for flow-matching models that incrementally doubles resolution with flow-consistent re-noising, denoising, and skip residual blending to preserve composition."
     },
     {
+      "author": "ttulttul",
+      "title": "Skoogeer-Noise",
+      "reference": "https://github.com/ttulttul/Skoogeer-Noise",
+      "files": [
+        "https://github.com/ttulttul/Skoogeer-Noise"
+      ],
+      "install_type": "git-clone",
+      "description": "Noise, conditioning, and perturbation utility nodes for ComfyUI (procedural noise, mesh drag, latent channel stats preview)."
+    },
+    {
       "author": "jitcoder",
       "title": "LoraInfo",
       "id": "lorainfo",
@@ -20430,6 +20440,16 @@
       "description": "Adds windowed, curved shift control for Flow Matching samplers (SD3-style / flow schedules). It is a drop-in replacement for Comfy's included ModelSamplingSD3 node."
     },
     {
+      "author": "SparknightLLC",
+      "title": "ComfyUI-SpectralVAEDetailer",
+      "reference": "https://github.com/SparknightLLC/ComfyUI-SpectralVAEDetailer",
+      "files": [
+        "https://github.com/SparknightLLC/ComfyUI-SpectralVAEDetailer"
+      ],
+      "install_type": "git-clone",
+      "description": "Adjusts a latent image before the VAE decoding step in order to improve your image quality."
+    },
+    {
       "author": "lightricks",
       "title": "ComfyUI-LTXVideo",
       "id": "comfyui-ltxvideo",
@@ -32487,6 +32507,16 @@
       "description": "A node to provide recommended aspect ratios for the Qwen model series."
     },
     {
+      "author": "Verolelb",
+      "title": "ComfyUI-Video-Workbench",
+      "reference": "https://github.com/Verolelb/ComfyUI-Video-Workbench",
+      "files": [
+        "https://github.com/Verolelb/ComfyUI-Video-Workbench"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node that acts as a mini video editing studio, automatically assembling multiple video clips from a folder with intelligent resolution resizing, aspect ratio handling, and frame rate management."
+    },
+    {
       "author": "jupo-ai",
       "title": "comfy-linear-move",
       "id": "comfy-linear-move",
@@ -36561,6 +36591,16 @@
       "description": "A ComfyUI custom node implementation of PersonaLive: Expressive Portrait Image Animation for Live Streaming, enabling portrait animation driven by reference images. (Description by CC)"
     },
     {
+      "author": "okdalto",
+      "title": "ComfyUI-FlashPortrait",
+      "reference": "https://github.com/okdalto/ComfyUI-FlashPortrait",
+      "files": [
+        "https://github.com/okdalto/ComfyUI-FlashPortrait"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for FlashPortrait that enable infinite-length portrait animation generation driven by video with automatic model downloading and flexible input options."
+    },
+    {
       "author": "hw5511",
       "title": "Woohee HF Upscaler Loader",
       "reference": "https://github.com/hw5511/comfyui_hf_upscaler_loader",
@@ -39319,16 +39359,6 @@
       "description": "ComfyUI Qwen-Image-Edit-2509 node integration for image editing using OpenAI Image API. (Description by CC)"
     },
     {
-      "author": "danieljanata",
-      "title": "ComfyUI-QwenVL-Override",
-      "reference": "https://github.com/danieljanata/ComfyUI-QwenVL-Override",
-      "files": [
-        "https://github.com/danieljanata/ComfyUI-QwenVL-Override"
-      ],
-      "install_type": "git-clone",
-      "description": "Adds two nodes that reuse upstream ComfyUI-QwenVL presets but add a runtime override that can be wired/unwired without getting stuck."
-    },
-    {
       "author": "Arctenox",
       "title": "Arctenoxs-Essentials_ComfyUI",
       "reference": "https://github.com/Arctenox/Arctenoxs-Essentials_ComfyUI",
@@ -39559,6 +39589,36 @@
       ],
       "install_type": "git-clone",
       "description": "High-performance Video Super Resolution for ComfyUI with VRAM optimization."
+    },
+    {
+      "author": "Shadowwalker0P",
+      "title": "CryptoNoise-Ksampler",
+      "reference": "https://github.com/Shadowwalker0P/CryptoNoise-Ksampler",
+      "files": [
+        "https://github.com/Shadowwalker0P/CryptoNoise-Ksampler"
+      ],
+      "install_type": "git-clone",
+      "description": "Drop-in replacement for ComfyUI's standard KSampler that embeds cryptographic proof of authorship directly into generated images through deterministic noise injection into the latent representation."
+    },
+    {
+      "author": "vjumpkung",
+      "title": "ComfyUI-STARWrapper",
+      "reference": "https://github.com/vjumpkung/ComfyUI-STARWrapper",
+      "files": [
+        "https://github.com/vjumpkung/ComfyUI-STARWrapper"
+      ],
+      "install_type": "git-clone",
+      "description": "An experimental STAR Video Upscale Wrapper."
+    },
+    {
+      "author": "Paddel87",
+      "title": "ComfyUI_fal_image",
+      "reference": "https://github.com/Paddel87/ComfyUI_fal_image",
+      "files": [
+        "https://github.com/Paddel87/ComfyUI_fal_image"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node pack for fal.ai image generation supporting FLUX models with queue polling, safety controls, and native image I/O conversion."
     },
     {
       "author": "Ser-Hilary",
