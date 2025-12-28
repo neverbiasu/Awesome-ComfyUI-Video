@@ -39765,6 +39765,69 @@
       "description": "Custom nodes that organize ComfyUI workflow connections by combining multiple links into single pipeline links. (Description by CC)"
     },
     {
+      "author": "CornmeisterNL",
+      "title": "CornmeisterNL PowerPack",
+      "id": "cornmeisternl-powerpack",
+      "reference": "https://github.com/Cornmeister/ComfyUI-CornmeisterNL-PowerPack",
+      "files": [
+        "https://github.com/Cornmeister/ComfyUI-CornmeisterNL-PowerPack"
+      ],
+      "install_type": "git-clone",
+      "description": "A power-user focused collection of ComfyUI nodes: LoRA management, prompt building, resolution presets, metadata-safe image saving (CivitAI-ready), and UNet model loading."
+    },
+    {
+      "author": "LuqP2",
+      "title": "Image MetaHub Save Node",
+      "reference": "https://github.com/LuqP2/ImageMetaHub-ComfyUI-Save",
+      "files": [
+        "https://github.com/LuqP2/ImageMetaHub-ComfyUI-Save"
+      ],
+      "install_type": "git-clone",
+      "description": "Official companion node for Image MetaHub. Saves A1111/Civitai-compatible parameters plus extended Image MetaHub metadata (workflow JSON, SHA256 model hashes, VRAM peak/total, GPU device, generation time, and steps/sec) for reproducibility and benchmarking."
+    },
+    {
+      "author": "room3dev",
+      "title": "ComfyUI-FrameIO",
+      "id": "comfyui-frameio",
+      "reference": "https://github.com/room3dev/ComfyUI-FrameIO",
+      "files": [
+        "https://github.com/room3dev/ComfyUI-FrameIO"
+      ],
+      "install_type": "git-clone",
+      "description": "High-performance frame IO nodes (WEBP)"
+    },
+    {
+      "author": "chrishill197724-gif",
+      "title": "ComfyUI-Wan22-GGUF-Storyboard",
+      "reference": "https://github.com/chrishill197724-gif/ComfyUI-Wan22-GGUF-Storyboard",
+      "files": [
+        "https://github.com/chrishill197724-gif/ComfyUI-Wan22-GGUF-Storyboard"
+      ],
+      "install_type": "git-clone",
+      "description": "An optimized storyboard-based latent generator for Wan 2.2 with low VRAM optimization and storyboard logic for controlled video composition."
+    },
+    {
+      "author": "mrm987",
+      "title": "ComfyUI-Multi-Prompt-Generator",
+      "reference": "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator",
+      "files": [
+        "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate multiple images from prompt list with upscaling, LUT, and real-time preview"
+    },
+    {
+      "author": "gushob21",
+      "title": "comfyui-google-genmedia-custom-nodes",
+      "id": "Google",
+      "reference": "https://github.com/GoogleCloudPlatform/comfyui-google-genmedia-custom-nodes",
+      "files": [
+        "https://github.com/GoogleCloudPlatform/comfyui-google-genmedia-custom-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A suite of experimental custom nodes that allows access to Google's 1P models like Veo, Imagen, Nano Banana, Gemini, Virtual-try-on, Lyria"
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
