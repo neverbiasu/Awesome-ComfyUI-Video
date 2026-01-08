@@ -1681,6 +1681,17 @@
       "description": "Nodes related to video workflows"
     },
     {
+      "author": "KrakenUnbound",
+      "title": "Kraken Tools",
+      "id": "kraken-tools",
+      "reference": "https://github.com/krakenunbound/comfyui-kraken-tools",
+      "files": [
+        "https://github.com/krakenunbound/comfyui-kraken-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "15 productivity nodes: Kraken Unbound Prompt (vision-enabled prompt builder with Qwen2-VL), WAN Prompt Splitter (cinematic styling), Ollama Prompt Chat (LLM enhancement), LoRA Loader with CivitAI trigger fetching, Dual CLIP Loader (Flux/SD3/SDXL), smart KSampler (AMP handling for WAN/Flow/FP8), Empty Latent with aspect presets, Upscale & Tile Calculator for Ultimate SD Upscale, Resolution Helper, Image Processor, WAN Helper, and more."
+    },
+    {
       "author": "Gourieff",
       "title": "ComfyUI-FutureWarningIgnore",
       "id": "futureignore",
@@ -33206,7 +33217,7 @@
       "description": "A collection of essential utility nodes for handling image sequences, video, audio, and synchronized data within ComfyUI workflows."
     },
     {
-      "author": "thimpat",
+      "author": "KrakenUnbound",
       "title": "ComfyUI-KrakenTools",
       "reference": "https://github.com/krakenunbound/ComfyUI-KrakenTools",
       "files": [
@@ -33625,6 +33636,16 @@
       ],
       "install_type": "git-clone",
       "description": "A general comfyui model loading plugin that supports loading unet models quantized in bnb-4bit (nf4 and fp4) format"
+    },
+    {
+      "author": "mengqin",
+      "title": "Twinflow Node for ComfyUI",
+      "reference": "https://github.com/mengqin/ComfyUI-TwinFlow",
+      "files": [
+        "https://github.com/mengqin/ComfyUI-TwinFlow"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a set of sampling nodes specifically designed for fine-tuning Twinflow models."
     },
     {
       "author": "Artificial-Sweetener",
@@ -34528,7 +34549,7 @@
       "description": "Lucy Edit is a video editing model that performs instruction-guided edits on videos using free-text prompts — it supports a variety of edits, such as clothing & accessory changes, character changes, object insertions, and scene replacements while preserving the motion and composition perfectly."
     },
     {
-      "author": "Sean-Bradley",
+      "author": "sbcode",
       "title": "ComfyUI Virtual Webcam",
       "reference": "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam",
       "files": [
@@ -34543,7 +34564,7 @@
       ]
     },
     {
-      "author": "Sean-Bradley",
+      "author": "sbcode",
       "title": "ComfyUI Image Compare",
       "reference": "https://github.com/Sean-Bradley/ComfyUI-Image-Compare",
       "files": [
@@ -34557,7 +34578,7 @@
       ]
     },
     {
-      "author": "Sean-Bradley",
+      "author": "sbcode",
       "title": "ComfyUI Video Reverse",
       "reference": "https://github.com/Sean-Bradley/ComfyUI-Video-Reverse",
       "files": [
@@ -34571,7 +34592,7 @@
       ]
     },
     {
-      "author": "Sean-Bradley",
+      "author": "sbcode",
       "title": "ComfyUI Voice Clone",
       "reference": "https://github.com/Sean-Bradley/ComfyUI-Voice-Clone",
       "files": [
@@ -34591,7 +34612,7 @@
       "description": "Remove background scenery from an image of a person. The output image is saved as an RGBA PNG. The alpha channel is included."
     },
     {
-      "author": "Sean-Bradley",
+      "author": "sbcode",
       "title": "ComfyUI-Get-Line",
       "reference": "https://github.com/Sean-Bradley/ComfyUI-Get-Line",
       "files": [
@@ -34599,6 +34620,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node used to get one line of string from a multi line string. Search in the manager for `get line`, or `getline` or `get-line`."
+    },
+    {
+      "author": "sbcode",
+      "title": "ComfyUI-Sonic",
+      "reference": "https://github.com/Sean-Bradley/ComfyUI-Sonic",
+      "files": [
+        "https://github.com/Sean-Bradley/ComfyUI-Sonic"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node that takes an audio mp3 and an image, and creates a lip synced video from them."
     },
     {
       "author": "LukeCoulson1",
@@ -37167,6 +37198,21 @@
       ]
     },
     {
+      "author": "bulldog68",
+      "title": "FMJ Save Image + Versions",
+      "description": "Sauvegarde d’images avec métadonnées complètes (prompt, seed, versions logicielles) + chargement intelligent.",
+      "reference": "https://github.com/bulldog68/ComfyUI_FMJ_SaveImageVersions",
+      "files": [
+        "https://github.com/bulldog68/ComfyUI_FMJ_SaveImageVersions"
+      ],
+      "install_type": "git-clone",
+      "tags": [
+        "save image",
+        "metadonne"
+      ],
+      "license": "GNUV3"
+    },
+    {
       "author": "Usonaki",
       "title": "ComfyUI-DyPE-Nunchaku",
       "reference": "https://github.com/Usonaki/ComfyUI-DyPE-Nunchaku",
@@ -37569,6 +37615,16 @@
       ],
       "install_type": "git-clone",
       "description": "Qwen multi-image editing enhancement node supporting 8-image input, dual conditional output, and background layer priority for coordinated image composition workflows. (Description by CC)"
+    },
+    {
+      "author": "princepainter",
+      "title": "ComfyUI-PainterLTXV2",
+      "reference": "https://github.com/princepainter/ComfyUI-PainterLTXV2",
+      "files": [
+        "https://github.com/princepainter/ComfyUI-PainterLTXV2"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes providing LTXV audio-video separation sampling and latent preparation capabilities for professional video generation workflows."
     },
     {
       "author": "rafacost",
@@ -40860,6 +40916,109 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that scans PyTorch model files for potential security vulnerabilities without executing them."
+    },
+    {
+      "author": "DanrisiUA",
+      "title": "ComfyUI-ZImage-LoRA-Merger",
+      "reference": "https://github.com/DanrisiUA/ComfyUI-ZImage-LoRA-Merger",
+      "files": [
+        "https://github.com/DanrisiUA/ComfyUI-ZImage-LoRA-Merger"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for combining multiple LoRAs without overexposure on distilled models like Z-Image Turbo"
+    },
+    {
+      "author": "yangrui511",
+      "title": "ComfyUI-Text-Preserve",
+      "reference": "https://github.com/yangrui511/ComfyUI-Text-Preserve",
+      "files": [
+        "https://github.com/yangrui511/ComfyUI-Text-Preserve"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom node providing text preservation preprocessing for ComfyUI using OCR to identify text regions and apply blur/noise fusion to non-text areas. (Description by CC)"
+    },
+    {
+      "author": "Atsushi888",
+      "title": "easy_prompt_selector_for_comfyui",
+      "reference": "https://github.com/Atsushi888/easy_prompt_selector_for_comfyui",
+      "files": [
+        "https://github.com/Atsushi888/easy_prompt_selector_for_comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple custom node for ComfyUI that loads and provides an all-in-one dropdown selector to build a prompt string."
+    },
+    {
+      "author": "pixixai",
+      "title": "ComfyUI-AlignLayout",
+      "reference": "https://github.com/pixixai/ComfyUI-AlignLayout",
+      "files": [
+        "https://github.com/pixixai/ComfyUI-AlignLayout"
+      ],
+      "install_type": "git-clone",
+      "description": "Productivity enhancement extension for ComfyUI featuring radial menus and mouse flick gestures for efficient node alignment, distribution, and resizing. (Description by CC)"
+    },
+    {
+      "author": "MechaBabyAi",
+      "title": "ComfyUI-MechaBabyNodeSearch",
+      "reference": "https://github.com/MechaBabyAi/ComfyUI-MechaBabyNodeSearch",
+      "files": [
+        "https://github.com/MechaBabyAi/ComfyUI-MechaBabyNodeSearch"
+      ],
+      "install_type": "git-clone",
+      "description": "Enhance ComfyUI workflow by providing powerful node search, attribute search, and port navigation features with Ctrl+F shortcut support."
+    },
+    {
+      "author": "shmbatom",
+      "title": "Comfyui-ImageAB-Compare",
+      "id": "Comfyui-ImageAB-Compare",
+      "reference": "https://github.com/shmbatom/Comfyui-ImageAB-Compare",
+      "files": [
+        "https://github.com/shmbatom/Comfyui-ImageAB-Compare"
+      ],
+      "install_type": "git-clone",
+      "description": "image split comparison horizontally/vertically, real-time mouse interaction to adjust split ratios, bidirectional linkage between slider and mouse, and the ability to export comparison images with precise split lines."
+    },
+    {
+      "author": "solidlime",
+      "title": "Random Image Picker",
+      "reference": "https://github.com/solidlime/Comfyui-Random_Image_Picker",
+      "files": [
+        "https://github.com/solidlime/Comfyui-Random_Image_Picker"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for flexible image loading with file picker and random folder selection. Features instant preview, auto mode switching, and browser-based file selection.",
+      "nodename_pattern": "RandomImagePicker"
+    },
+    {
+      "author": "18yz153",
+      "title": "ComfyUI-Persona-Director",
+      "reference": "https://github.com/c/ComfyUI-Persona-Director",
+      "files": [
+        "https://github.com/18yz153/ComfyUI-Persona-Director"
+      ],
+      "install_type": "git-clone",
+      "description": "A visual state machine for consistent character generation. It intelligently maintains character identity, outfits, and locations across multiple generations using LLM-driven state management."
+    },
+    {
+      "author": "BWDrum",
+      "title": "ComfyUI Random Wildcard Loader",
+      "id": "random-wildcard-loader",
+      "reference": "https://github.com/BWDrum/ComfyUI-RandomWildcardLoader",
+      "files": [
+        "https://github.com/BWDrum/ComfyUI-RandomWildcardLoader"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for randomized prompt generation with __wildcard__ expansion, subfolder filtering, prefix/suffix support, and seed-based reproducibility."
+    },
+    {
+      "author": "GonDesign",
+      "title": "ComfyUI-HaoranWanxImageEdit",
+      "reference": "https://github.com/GonDesign/ComfyUI-HaoranWanxImageEdit",
+      "files": [
+        "https://github.com/GonDesign/ComfyUI-HaoranWanxImageEdit"
+      ],
+      "install_type": "git-clone",
+      "description": "API plugin for Alibaba Cloud Wanx 2.1 Image Editing model. Supports 10 functions including stylization, inpainting, and outpainting."
     },
     {
       "author": "Ser-Hilary",
