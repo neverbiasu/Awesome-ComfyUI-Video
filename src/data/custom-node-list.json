@@ -23112,16 +23112,6 @@
       "description": "Simple node for advanced wildcard text processing. Supports variables, conditionals, tag aggregation, weighted selection, and deep nesting. Lightweight, fast, zero external dependencies."
     },
     {
-      "author": "r3dial",
-      "title": "Redial Discomphy - Discord Integration for ComfyUI",
-      "reference": "https://github.com/r3dial/redial-discomphy",
-      "files": [
-        "https://github.com/r3dial/redial-discomphy"
-      ],
-      "install_type": "git-clone",
-      "description": "A custom node for ComfyUI that enables direct posting of images, videos, and messages to Discord channels. This node seamlessly integrates your ComfyUI workflows with Discord communication, allowing you to automatically share your generated content."
-    },
-    {
       "author": "r3dsd",
       "title": "Comfyui-Template-Loader",
       "reference": "https://github.com/r3dsd/comfyui-template-loader",
@@ -41019,6 +41009,36 @@
       ],
       "install_type": "git-clone",
       "description": "API plugin for Alibaba Cloud Wanx 2.1 Image Editing model. Supports 10 functions including stylization, inpainting, and outpainting."
+    },
+    {
+      "author": "jchiotaka",
+      "title": "comfyui-tile-calculator",
+      "reference": "https://github.com/jchiotaka/comfyui-tile-calculator",
+      "files": [
+        "https://github.com/jchiotaka/comfyui-tile-calculator"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for calculating tile dimensions in upscaling workflows"
+    },
+    {
+      "author": "danielvw",
+      "title": "ComfyUI-WanMove-Adapter",
+      "reference": "https://github.com/danielvw/ComfyUI-WanMove-Adapter",
+      "files": [
+        "https://github.com/danielvw/ComfyUI-WanMove-Adapter"
+      ],
+      "install_type": "git-clone",
+      "description": "This custom node allows you to convert trajectories from JSON files directly into WanMove TRACKS."
+    },
+    {
+      "author": "Anzhc",
+      "title": "SDXL-Flux2VAE-ComfyUI-Node",
+      "reference": "https://github.com/Anzhc/SDXL-Flux2VAE-ComfyUI-Node",
+      "files": [
+        "https://github.com/Anzhc/SDXL-Flux2VAE-ComfyUI-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple node to patch ComfyUI generation with the SDXL Flux2VAE arch support."
     },
     {
       "author": "Ser-Hilary",
