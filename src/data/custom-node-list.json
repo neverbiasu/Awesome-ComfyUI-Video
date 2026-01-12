@@ -33875,6 +33875,26 @@
       "description": "ntage-DreamOmni2 brings Qwen2.5-VL’s multimodal intelligence to ComfyUI, enabling unified text–image understanding for both generation and editing. Create context-aware prompts, perform reference-based visual edits, and build adaptive image grids — all with high consistency, abstraction, and creative control."
     },
     {
+      "author": "vantagewithai",
+      "title": "Vantage-Nodes",
+      "reference": "https://github.com/vantagewithai/Vantage-Nodes",
+      "files": [
+        "https://github.com/vantagewithai/Vantage-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This release introduces Vantage Nodes, a powerful utility and infrastructure node pack for ComfyUI, designed for advanced workflows, batch processing, and experimental pipelines."
+    },
+    {
+      "author": "vantagewithai",
+      "title": "Vantage-Step-Audio-EditX",
+      "reference": "https://github.com/vantagewithai/Vantage-Step-Audio-EditX",
+      "files": [
+        "https://github.com/vantagewithai/Vantage-Step-Audio-EditX"
+      ],
+      "install_type": "git-clone",
+      "description": "This project is a custom node implementation built on top of Step-Audio-EditX. It adapts and extends EditX capabilities to support multi‑speaker, long‑format, voice cloning, and emotion/style/speed editing, enabling you to feed in a script with multiple speakers, inline pauses, paralinguistic cues, and get a concatenated audio output in one pass."
+    },
+    {
       "author": "SatadalAI",
       "title": "SATA UtilityNode Node for ComfyUI",
       "id": "SATA UtilityNode",
@@ -37189,8 +37209,8 @@
     },
     {
       "author": "bulldog68",
-      "title": "FMJ Save Image + Versions",
-      "description": "Sauvegarde d’images avec métadonnées complètes (prompt, seed, versions logicielles) + chargement intelligent.",
+      "title": "ComfyUI_FMJ_SaveImageVersions",
+      "description": "Image saving with complete metadata (prompts, seed, software versions) + smart loading.",
       "reference": "https://github.com/bulldog68/ComfyUI_FMJ_SaveImageVersions",
       "files": [
         "https://github.com/bulldog68/ComfyUI_FMJ_SaveImageVersions"
@@ -37200,7 +37220,7 @@
         "save image",
         "metadonne"
       ],
-      "license": "GNUV3"
+      "license": "GNU V3"
     },
     {
       "author": "Usonaki",
@@ -40969,6 +40989,17 @@
       "description": "image split comparison horizontally/vertically, real-time mouse interaction to adjust split ratios, bidirectional linkage between slider and mouse, and the ability to export comparison images with precise split lines."
     },
     {
+      "author": "shmba05tom",
+      "title": "Comfyui-Image-Concat",
+      "id": "Comfyui-Image-Concat",
+      "reference": "https://github.com/shmbatom/Comfyui-Image-Concat",
+      "files": [
+        "https://github.com/shmbatom/Comfyui-Image-Concat"
+      ],
+      "install_type": "git-clone",
+      "description": "a powerful image concatenation tool for ComfyUI, with True Alpha Channel Support and Multiple Image-block Fill Modes."
+    },
+    {
       "author": "solidlime",
       "title": "Random Image Picker",
       "reference": "https://github.com/solidlime/Comfyui-Random_Image_Picker",
@@ -41039,6 +41070,90 @@
       ],
       "install_type": "git-clone",
       "description": "Simple node to patch ComfyUI generation with the SDXL Flux2VAE arch support."
+    },
+    {
+      "author": "vuhung3990",
+      "title": "NSFW Guard",
+      "id": "comfyui-nsfw-guard",
+      "reference": "https://github.com/vuhung3990/comfyui-nsfw-guard",
+      "files": [
+        "https://github.com/vuhung3990/comfyui-nsfw-guard"
+      ],
+      "install_type": "git-clone",
+      "description": "NSFW content detection node for ComfyUI - blocks inappropriate images automatically using YOLOv9 model."
+    },
+    {
+      "author": "TheMadDoctor007",
+      "title": "Qwen Camera Selector",
+      "id": "qwen-camera-selector",
+      "reference": "https://github.com/TheMadDoctor007/ComfyUI-QwenCameraSelector",
+      "files": [
+        "https://github.com/TheMadDoctor007/ComfyUI-QwenCameraSelector"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI node providing camera angle and cinematic shot selection presets designed for Qwen multi-angle workflows."
+    },
+    {
+      "author": "zengxianyu",
+      "title": "Intensity Fake Depth Node for ComfyUI",
+      "reference": "https://github.com/zengxianyu/ComfyUIIntensityDepth",
+      "files": [
+        "https://github.com/zengxianyu/ComfyUIIntensityDepth"
+      ],
+      "install_type": "git-clone",
+      "description": "Output Fake Depth Maps with Detailed Object Boundaries"
+    },
+    {
+      "author": "zengxianyu",
+      "title": "Phase-Preserving Noise",
+      "id": "structured-noise",
+      "reference": "https://github.com/zengxianyu/structured-noise",
+      "files": [
+        "https://github.com/zengxianyu/structured-noise"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate phase-preserving structured noise for the input image."
+    },
+    {
+      "author": "aimoviestudio",
+      "title": "ComfyUI Prompt Builder",
+      "reference": "https://github.com/aimoviestudio/comfyui-promptbuilder",
+      "files": [
+        "https://github.com/aimoviestudio/comfyui-promptbuilder"
+      ],
+      "install_type": "git-clone",
+      "description": "Stop wasting hours tweaking prompt. This extension allows you to modularize your prompts into variables and assemble them using a powerful template-based approach."
+    },
+    {
+      "author": "jianglinbin",
+      "title": "ComfyUI 3D Angles Selector",
+      "reference": "https://github.com/jianglinbin/ComfyUI-AnglesSelect",
+      "files": [
+        "https://github.com/jianglinbin/ComfyUI-AnglesSelect"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for multi-angle LoRA prompt generation. Provides 3D visual angle selector and simple angle selector with support for 8 azimuths × 4 elevations × 3 distances = 96 view combinations."
+    },
+    {
+      "author": "3R3BOS",
+      "title": "ComfyUI-3R3BOS-Pack",
+      "id": "ComfyUI-3R3BOS-Pack",
+      "reference": "https://github.com/3R3BOS/ComfyUI-3R3BOS-Pack",
+      "files": [
+        "https://github.com/3R3BOS/ComfyUI-3R3BOS-Pack"
+      ],
+      "install_type": "git-clone",
+      "description": "Control and visualization toolkit (Gatekeeper, Slider) and more in the future."
+    },
+    {
+      "author": "JasonHoku",
+      "title": "ComfyUI Ultimate Auto Sampler Config Grid Testing Suite",
+      "reference": "https://github.com/JasonHoku/ComfyUI-Ultimate-Auto-Sampler-Config-Grid-Testing-Suite",
+      "files": [
+        "https://github.com/JasonHoku/ComfyUI-Ultimate-Auto-Sampler-Config-Grid-Testing-Suite"
+      ],
+      "install_type": "git-clone",
+      "description": "A professional-grade benchmarking and IDE-like testing suite. Features Cartesian product grid generation, interactive dashboard, and 'Revise & Generate' workflow."
     },
     {
       "author": "Ser-Hilary",
