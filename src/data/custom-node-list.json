@@ -41153,7 +41153,24 @@
         "https://github.com/JasonHoku/ComfyUI-Ultimate-Auto-Sampler-Config-Grid-Testing-Suite"
       ],
       "install_type": "git-clone",
-      "description": "A professional-grade benchmarking and IDE-like testing suite. Features Cartesian product grid generation, interactive dashboard, and 'Revise & Generate' workflow."
+      "description": "ComfyUI Sampler testing & benchmarking tool for testing Stable Diffusion samplers, schedulers, CFG scales, prompts, img2img denoise values, and LoRA combinations. Features infinite-canvas dashboard image grids with virtual scrolling that can handle thousands of images, multi-model comparison, automatic resume on interrupt, and real-time visualization. Test entire checkpoint folders, stack multiple LoRAs, generate random seed variations, and export optimized configs. Includes fullscreen mode, keyboard navigation, smart filtering by parameters, and one-click regeneration workflow. Perfect for sampler output optimization and hyperparameter tuning."
+    },
+    {
+      "author": "zwaigani",
+      "title": "ComfyUI-VRAM-watcher",
+      "id": "comfyui-vram-watcher",
+      "reference": "https://github.com/zwaigani/ComfyUI-VRAM-watcher",
+      "files": [
+        "https://github.com/zwaigani/ComfyUI-VRAM-watcher"
+      ],
+      "install_type": "git-clone",
+      "description": "Displays GPU VRAM usage and system RAM usage as bar widgets in a ComfyUI node.",
+      "tags": [
+        "utils",
+        "ui",
+        "vram",
+        "ram"
+      ]
     },
     {
       "author": "Ser-Hilary",
