@@ -34813,6 +34813,16 @@
       "description": "Strict Sage 3 (Blackwell) attention for ComfyUI official flows."
     },
     {
+      "author": "wallen0322",
+      "title": "ComfyUI-qwenmultianglelight",
+      "reference": "https://github.com/wallen0322/ComfyUI-qwenmultianglelight",
+      "files": [
+        "https://github.com/wallen0322/ComfyUI-qwenmultianglelight"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node for 3D lighting angle control, outputs lighting prompts for relighting image generation"
+    },
+    {
       "author": "ChaosHL",
       "title": "Marvelous-Box-Comfyui",
       "reference": "https://github.com/ChaosHL/Marvelous-Box-Comfyui",
@@ -40558,6 +40568,16 @@
       "description": "This is a simple, lightweight ComfyUI resolution and aspect ratio control node that hardly requires any dependency fuss."
     },
     {
+      "author": "SamLiu1000",
+      "title": "ComfyUI_Rabbit-Camera-Perspective",
+      "reference": "https://github.com/SamLiu1000/ComfyUI_Rabbit-Camera-Perspective",
+      "files": [
+        "https://github.com/SamLiu1000/ComfyUI_Rabbit-Camera-Perspective"
+      ],
+      "install_type": "git-clone",
+      "description": "An intuitive prompt previewer ComfyUI node for use with Fal's Multi-View LoRA, optimized for portraits with real-time prompt previews."
+    },
+    {
       "author": "soulctcher",
       "title": "TetriNode",
       "reference": "https://github.com/soulctcher/TetriNode",
@@ -41171,6 +41191,267 @@
         "vram",
         "ram"
       ]
+    },
+    {
+      "author": "zwaigani",
+      "title": "ComfyUI-LoRA-stacker",
+      "reference": "https://github.com/zwaigani/ComfyUI-LoRA-stacker",
+      "files": [
+        "https://github.com/zwaigani/ComfyUI-LoRA-stacker"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple ComfyUI custom node that lets you apply multiple LoRAs (up to 10) to a model in one node."
+    },
+    {
+      "author": "euan-gwd",
+      "title": "comfyui-character-prompt-builder",
+      "reference": "https://github.com/euan-gwd/comfyui-character-prompt-builder",
+      "files": [
+        "https://github.com/euan-gwd/comfyui-character-prompt-builder"
+      ],
+      "install_type": "git-clone",
+      "description": "A modular character prompt generator for ComfyUI"
+    },
+    {
+      "author": "FemReiyaDev",
+      "title": "ComfyUI-ReiyaNodes",
+      "reference": "https://github.com/FemReiyaDev/ComfyUI-ReiyaNodes",
+      "files": [
+        "https://github.com/FemReiyaDev/ComfyUI-ReiyaNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for image stitching"
+    },
+    {
+      "author": "kantan-kanto",
+      "title": "ComfyUI-MultiModal-Prompt-Nodes",
+      "reference": "https://github.com/kantan-kanto/ComfyUI-MultiModal-Prompt-Nodes",
+      "files": [
+        "https://github.com/kantan-kanto/ComfyUI-MultiModal-Prompt-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced multimodal prompt generation nodes for ComfyUI with local GGUF models (Qwen-VL) and cloud API support for vision-based prompt enhancement."
+    },
+    {
+      "author": "mingchoi",
+      "title": "ComfyUI-Prompt-Iterator",
+      "reference": "https://github.com/mingchoi/ComfyUI-Prompt-Iterator",
+      "files": [
+        "https://github.com/mingchoi/ComfyUI-Prompt-Iterator"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node package that provides two nodes for iterating through prompts and templates. Perfect for batch processing, testing multiple prompts, or creating variations."
+    },
+    {
+      "author": "shumoLR",
+      "title": "Comfyui_SynVow_MultiangleCamera",
+      "reference": "https://github.com/shumoLR/Comfyui_SynVow_MultiangleCamera",
+      "files": [
+        "https://github.com/shumoLR/Comfyui_SynVow_MultiangleCamera"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for 3D camera angle control with interactive viewport to adjust camera angles and output formatted prompt strings and processed images for multi-angle image generation. (Description by CC)"
+    },
+    {
+      "author": "smartvain",
+      "title": "ComfyUI-FaceKeypointsFilter",
+      "reference": "https://github.com/smartvain/ComfyUI-FaceKeypointsFilter",
+      "files": [
+        "https://github.com/smartvain/ComfyUI-FaceKeypointsFilter"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node that selectively filters facial keypoints from DWPose/OpenPose output, allowing selective disabling of face parts (chin, eyebrows, eyes, nose, mouth outer/inner contours) for ControlNet workflows. (Description by CC)"
+    },
+    {
+      "author": "smartvain",
+      "title": "ComfyUI-PoseKeypointsToImage",
+      "reference": "https://github.com/smartvain/ComfyUI-PoseKeypointsToImage",
+      "files": [
+        "https://github.com/smartvain/ComfyUI-PoseKeypointsToImage"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node that generates pose images from DWPose/OpenPose keypoint data, allowing creation of pose visualizations with selectively filtered body parts. (Description by CC)"
+    },
+    {
+      "author": "Angelsan720",
+      "title": "attention_bench",
+      "reference": "https://github.com/Angelsan720/attention_bench",
+      "files": [
+        "https://github.com/Angelsan720/attention_bench"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple ComfyUI node example project to help beginners learn how to develop ComfyUI nodes."
+    },
+    {
+      "author": "Enferlain",
+      "title": "ComfyUI-A1111-cond",
+      "reference": "https://github.com/Enferlain/ComfyUI-A1111-cond",
+      "files": [
+        "https://github.com/Enferlain/ComfyUI-A1111-cond"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that implements A1111-style prompt handling with proper isolation and emphasis math."
+    },
+    {
+      "author": "wanjin123111",
+      "title": "ComfyUI-3D-Human-Pose",
+      "reference": "https://github.com/wanjin123111/ComfyUI-3D-Human-Pose",
+      "files": [
+        "https://github.com/wanjin123111/ComfyUI-3D-Human-Pose"
+      ],
+      "install_type": "git-clone",
+      "description": "Interactive 3D camera control node for ComfyUI that precisely controls horizontal, vertical angles and zoom, with output of professional cinematography prompts. (Description by CC)"
+    },
+    {
+      "author": "capitan01R",
+      "title": "Capitan-ConditioningEnhancer",
+      "reference": "https://github.com/capitan01R/Capitan-ConditioningEnhancer",
+      "files": [
+        "https://github.com/capitan01R/Capitan-ConditioningEnhancer"
+      ],
+      "install_type": "git-clone",
+      "description": "Lightweight post-processing node for Qwen3-4B conditioning in Z-Image Turbo workflows that refines conditioning with per-token normalization, optional self-attention, and MLP refinement. (Description by CC)"
+    },
+    {
+      "author": "advancedtech-sk",
+      "title": "ComfyUI-GROUT",
+      "reference": "https://github.com/advancedtech-sk/ComfyUI-GROUT",
+      "files": [
+        "https://github.com/advancedtech-sk/ComfyUI-GROUT"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for GROUT (Geometric Reasoning Over Unstructured Tessellations) - a deep learning model for detecting and segmenting grout lines in mosaic images."
+    },
+    {
+      "author": "ato321",
+      "title": "ComfyUI-LTXVGuideRebase",
+      "reference": "https://github.com/ato321/ComfyUI-LTXVGuideRebase",
+      "files": [
+        "https://github.com/ato321/ComfyUI-LTXVGuideRebase"
+      ],
+      "install_type": "git-clone",
+      "description": "Small ComfyUI addon that provides segment-safe utilities for Comfy-Org LTX video nodes."
+    },
+    {
+      "author": "zhangle0013",
+      "title": "comfyui-EmptyImageYesON",
+      "reference": "https://github.com/zhangle0013/comfyui-EmptyImageYesON",
+      "files": [
+        "https://github.com/zhangle0013/comfyui-EmptyImageYesON"
+      ],
+      "install_type": "git-clone",
+      "description": "Automatically disables Load Image nodes without images, useful for workflows with optional reference images. (Description by CC)"
+    },
+    {
+      "author": "Enferlain",
+      "title": "ComfyUI-A1111-cond",
+      "reference": "https://github.com/Enferlain/ComfyUI-A1111-cond",
+      "files": [
+        "https://github.com/Enferlain/ComfyUI-A1111-cond"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that implements A1111-style prompt handling with proper isolation and emphasis math."
+    },
+    {
+      "author": "NickPittas",
+      "title": "ComfyUI_CameraAngleSelector",
+      "reference": "https://github.com/NickPittas/ComfyUI_CameraAngleSelector",
+      "files": [
+        "https://github.com/NickPittas/ComfyUI_CameraAngleSelector"
+      ],
+      "install_type": "git-clone",
+      "description": "Interactive 3D interface for selecting camera angles for Qwen-Image-Edit-2511, supporting 96 unique camera angle combinations (8 directions × 4 heights × 3 shot sizes) with multi-selection and visual feedback."
+    },
+    {
+      "author": "asirihewage",
+      "title": "remove_metadata_comfyui",
+      "reference": "https://github.com/asirihewage/remove_metadata_comfyui",
+      "files": [
+        "https://github.com/asirihewage/remove_metadata_comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Extra-stealth metadata removal node for ComfyUI"
+    },
+    {
+      "author": "tackcrypto1031",
+      "title": "tk_comfyui_img2mask",
+      "reference": "https://github.com/tackcrypto1031/tk_comfyui_img2mask",
+      "files": [
+        "https://github.com/tackcrypto1031/tk_comfyui_img2mask"
+      ],
+      "install_type": "git-clone",
+      "description": "A dedicated ComfyUI custom node designed to streamline the process of converting transparent images (RGBA) into masks and high-quality mask previews."
+    },
+    {
+      "author": "patientx",
+      "title": "CFZ-SwitchMenu",
+      "reference": "https://github.com/patientx/CFZ-SwitchMenu",
+      "files": [
+        "https://github.com/patientx/CFZ-SwitchMenu"
+      ],
+      "install_type": "git-clone",
+      "description": "Adds a menu button that switches between old and new style ComfyUI menus."
+    },
+    {
+      "author": "Lumiyumi",
+      "title": "LumyINTP",
+      "reference": "https://github.com/Lumiyumi/LumyINTP",
+      "files": [
+        "https://github.com/Lumiyumi/LumyINTP"
+      ],
+      "install_type": "git-clone",
+      "description": "INT+ node for ComfyUI with control after generate style functionality for signal-controlled increment/decrement/randomize operations."
+    },
+    {
+      "author": "MajoorWaldi",
+      "title": "ComfyUI-Majoor-ImageOps",
+      "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-ImageOps",
+      "files": [
+        "https://github.com/MajoorWaldi/ComfyUI-Majoor-ImageOps"
+      ],
+      "install_type": "git-clone",
+      "description": "Essential Nodes Pack for Images Processing for ComfyUI, with a live embedded preview inside the node (no queue) for supported chains."
+    },
+    {
+      "author": "sinanzoo2nd",
+      "title": "ComfyUI Seed Wildcard Pack",
+      "reference": "https://github.com/sinanzoo2nd/ComfyUI-Seed-Wildcard-Pack",
+      "files": [
+        "https://github.com/sinanzoo2nd/ComfyUI-Seed-Wildcard-Pack"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced wildcard control with seed-based selection, LoRA stack support, and utilities.",
+      "nickname": "Seed Wildcard"
+    },
+    {
+      "author": "senhaicc",
+      "title": "Comfyui-WL-MainImageDesign",
+      "reference": "https://github.com/senhaicc/Comfyui-WL-MainImageDesign",
+      "files": [
+        "https://github.com/senhaicc/Comfyui-WL-MainImageDesign"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional e-commerce main image prompt generator for motorcycle equipment (helmets, riding gear, protective gear) with 9 design styles and 2 canvas ratios. (Description by CC)"
+    },
+    {
+      "author": "migero",
+      "title": "ComfyUI-Equirectangular-Strip",
+      "reference": "https://github.com/migero/ComfyUI-Equirectangular-Strip",
+      "files": [
+        "https://github.com/migero/ComfyUI-Equirectangular-Strip"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI to convert between equirectangular (360°) images and a strip of 6 cube faces (90° FOV each)."
+    },
+    {
+      "author": "0nikod",
+      "title": "ComfyUI-Simple-Prompt",
+      "reference": "https://github.com/0nikod/ComfyUI-Simple-Prompt",
+      "files": [
+        "https://github.com/0nikod/ComfyUI-Simple-Prompt"
+      ],
+      "install_type": "git-clone",
+      "description": "Provide a simple interface to simplify prompt writing."
     },
     {
       "author": "Ser-Hilary",
