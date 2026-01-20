@@ -24191,6 +24191,16 @@
       "description": "ComfyUI-TinyBreaker is a collection of custom nodes specifically designed to generate images using the TinyBreaker model. It's actively developed with ongoing improvements. Although still in progress, these nodes are functional and allow you to explore the potential of the model."
     },
     {
+      "author": "martin-rizzo",
+      "title": "ComfyUI-ZImagePowerNodes",
+      "reference": "https://github.com/martin-rizzo/ComfyUI-ZImagePowerNodes",
+      "files": [
+        "https://github.com/martin-rizzo/ComfyUI-ZImagePowerNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A set of ComfyUI nodes designed and fine-tuned specifically for the Z-Image model. Pushing the best image generation model to its limits!"
+    },
+    {
       "author": "Arkanun",
       "title": "ReadCSV_ComfyUI",
       "reference": "https://github.com/Arkanun/ReadCSV_ComfyUI",
@@ -40848,6 +40858,16 @@
       "description": "A visual dashboard for managing, versioning, and batch-processing JSON configuration files for AI video generation workflows with Streamlit web interface and ComfyUI custom nodes."
     },
     {
+      "author": "ethanfel",
+      "title": "ComfyUI-Sharp-Selector",
+      "reference": "https://github.com/ethanfel/ComfyUI-Sharp-Selector",
+      "files": [
+        "https://github.com/ethanfel/ComfyUI-Sharp-Selector"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for sharp frame selection and analysis. (Description by CC)"
+    },
+    {
       "author": "shin131002",
       "title": "RandomLoRALoader",
       "reference": "https://github.com/shin131002/RandomLoRALoader",
@@ -41554,6 +41574,16 @@
       "description": "Provide a simple interface to simplify prompt writing."
     },
     {
+      "author": "0nikod",
+      "title": "ComfyUI-Metadata-Tools",
+      "reference": "https://github.com/0nikod/ComfyUI-Metadata-Tools",
+      "files": [
+        "https://github.com/0nikod/ComfyUI-Metadata-Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Tools about metadata."
+    },
+    {
       "author": "Suzu008",
       "title": "ComfyUI-CryptIO",
       "reference": "https://github.com/Suzu008/ComfyUI-CryptIO",
@@ -41884,6 +41914,46 @@
       ],
       "install_type": "git-clone",
       "description": "Comprehensive single-node solution for ComfyUI integrating base generation, latent refinement, neural upscaling, and post-processing."
+    },
+    {
+      "author": "ato-zen",
+      "title": "ComfyUI-VIBE",
+      "reference": "https://github.com/ato-zen/ComfyUI-VIBE",
+      "files": [
+        "https://github.com/ato-zen/ComfyUI-VIBE"
+      ],
+      "install_type": "git-clone",
+      "description": "Implementation of VIBE (Visual Instruction Based Editor) as a custom node for ComfyUI that enables image editing using natural language instructions leveraging Sana1.5 and Qwen3-VL models."
+    },
+    {
+      "author": "FallenIncursio",
+      "title": "arcenciel-link-comfyui",
+      "reference": "https://github.com/FallenIncursio/arcenciel-link-comfyui",
+      "files": [
+        "https://github.com/FallenIncursio/arcenciel-link-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Bring your ArcEnCiel models straight into ComfyUI with one click. Includes Link Key support, remote worker control, inventory sync, and sidecar generation."
+    },
+    {
+      "author": "0dot77",
+      "title": "comfyui-annotations",
+      "reference": "https://github.com/0dot77/comfyui-annotations",
+      "files": [
+        "https://github.com/0dot77/comfyui-annotations"
+      ],
+      "install_type": "git-clone",
+      "description": "A lightweight annotation overlay for ComfyUI."
+    },
+    {
+      "author": "isala404",
+      "title": "comfy-workflow-api",
+      "reference": "https://github.com/isala404/comfy-workflow-api",
+      "files": [
+        "https://github.com/isala404/comfy-workflow-api"
+      ],
+      "install_type": "git-clone",
+      "description": "HTTP API for ComfyUI with webhook-based workflow execution."
     },
     {
       "author": "Ser-Hilary",
