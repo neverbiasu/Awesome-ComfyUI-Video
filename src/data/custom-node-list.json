@@ -36008,7 +36008,7 @@
         "https://github.com/rookiestar28/ComfyUI-TranslateGemma"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI node for TranslateGemma — Google's open source translation models with 55 languages & multimodal image translation."
+      "description": "A ComfyUI custom node that translates text (including prompts) using Google's open-weight TranslateGemma models."
     },
     {
       "author": "MoonMoon82",
@@ -38628,6 +38628,16 @@
       "description": "Fail-safe Google Translate prompt node for ComfyUI (retry + caching)."
     },
     {
+      "author": "ah-kun",
+      "title": "ComfyUI-OTP-Auth",
+      "reference": "https://github.com/ah-kun/ComfyUI-OTP-Auth",
+      "files": [
+        "https://github.com/ah-kun/ComfyUI-OTP-Auth"
+      ],
+      "install_type": "git-clone",
+      "description": "Adds simple One-Time Password (OTP) authentication using Google Authenticator to protect publicly accessible ComfyUI instances."
+    },
+    {
       "author": "Kazama-Suichiku",
       "title": "ComfyUI-Meshy",
       "id": "comfyui-meshy",
@@ -39991,6 +40001,16 @@
       "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization.All node widgets are linkable and promotable from the SubGraph canvas."
     },
     {
+      "author": "pixelpainter",
+      "title": "UI-Decorators [SubGraph]",
+      "reference": "https://github.com/pixelpainter/UI-Decorators",
+      "files": [
+        "https://github.com/pixelpainter/UI-Decorators"
+      ],
+      "install_type": "git-clone",
+      "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization. A Note, a Divider, an editable Spacer, and a Title node. Includes color pickers for fonts, font sizing, bold/non-bold text, and background color picker for the note"
+    },
+    {
       "author": "Austat",
       "title": "ComfyUI-RemacriScale",
       "reference": "https://github.com/Austat/ComfyUI-RemacriScale",
@@ -40313,6 +40333,17 @@
       ],
       "install_type": "git-clone",
       "description": "High-performance frame IO nodes (WEBP)"
+    },
+    {
+      "author": "room3dev",
+      "title": "ComfyUI-PixelForge",
+      "id": "comfyui-pixelforge",
+      "reference": "https://github.com/room3dev/ComfyUI-PixelForge",
+      "files": [
+        "https://github.com/room3dev/ComfyUI-PixelForge"
+      ],
+      "install_type": "git-clone",
+      "description": "Dynamic resolution selector and advanced resize nodes with real-time feedback."
     },
     {
       "author": "chrishill197724-gif",
@@ -41107,7 +41138,7 @@
         "https://github.com/shmbatom/Comfyui-Image-Concat"
       ],
       "install_type": "git-clone",
-      "description": "a powerful image concatenation tool for ComfyUI, with True Alpha Channel Support and Multiple Image-block Fill Modes."
+      "description": "a powerful image concatenation tool for ComfyUI, with True Alpha Channel Support and Multiple Image-block Fill Modes(V1.1 add 1 images input port and 2 draw modes)."
     },
     {
       "author": "solidlime",
@@ -41644,14 +41675,15 @@
       "description": "High-performance ComfyUI nodes optimized for RTX 4090: batch processing, memory management, GPU monitoring"
     },
     {
-      "author": "aadityamundhalia",
-      "title": "ComfyUI-ollama-aditya",
+      "author": "Aditya Mundhalia",
+      "title": "ComfyUI Ollama by Aditya",
+      "id": "comfyui-ollama-aditya",
       "reference": "https://github.com/aadityamundhalia/ComfyUI-ollama-aditya",
       "files": [
         "https://github.com/aadityamundhalia/ComfyUI-ollama-aditya"
       ],
       "install_type": "git-clone",
-      "description": "Custom ComfyUI node for integrating Ollama LLMs into your image generation workflows."
+      "description": "ComfyUI nodes for integrating Ollama local LLM models with image or text generation workflows."
     },
     {
       "author": "maximilianwicen",
@@ -41887,23 +41919,24 @@
     },
     {
       "author": "aledelpho",
-      "title": "Arthemy_Live-Tuner-SDXL-ComfyUI",
+      "title": "Arthemy Live Tuner - SDXL",
       "reference": "https://github.com/aledelpho/Arthemy_Live-Tuner-SDXL-ComfyUI",
       "files": [
         "https://github.com/aledelpho/Arthemy_Live-Tuner-SDXL-ComfyUI"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI nodes for tweaking SDXL, Illustrious, and NAI models by adjusting U-Net and CLIP slices for granular control."
+      "description": "Advanced live tuning nodes for SDXL, Illustrious, and NAI. Slice U-Net and CLIP into functional areas to adjust intensity of specific components like Layout, Style, or Syntax."
     },
     {
       "author": "bkpaine1",
       "title": "Halo-Lipsy",
+      "id": "halo-lipsy",
       "reference": "https://github.com/bkpaine1/Halo-Lipsy",
       "files": [
         "https://github.com/bkpaine1/Halo-Lipsy"
       ],
       "install_type": "git-clone",
-      "description": "Native AMD Unified Memory Lip Sync for ComfyUI"
+      "description": "AMD unified memory lip sync for ComfyUI. Native Wav2Lip inference with no subprocesses - finally works on Strix Halo, ROCm, and all AMD APUs. Features sync tuning, edge blending, and safe tensor casting for unified memory systems."
     },
     {
       "author": "kianthos",
@@ -41954,6 +41987,49 @@
       ],
       "install_type": "git-clone",
       "description": "HTTP API for ComfyUI with webhook-based workflow execution."
+    },
+    {
+      "author": "gen1nya",
+      "title": "ComfyUI Remote Upscale",
+      "id": "remote-upscale",
+      "reference": "https://github.com/gen1nya/ComfyUI-Remote-Upscale",
+      "files": [
+        "https://github.com/gen1nya/ComfyUI-Remote-Upscale"
+      ],
+      "install_type": "git-clone",
+      "description": "Offload image upscaling to a remote server with a dedicated GPU. Real-time progress streaming via SSE."
+    },
+    {
+      "author": "Setmaster",
+      "title": "ModelPulse",
+      "id": "modelpulse",
+      "reference": "https://github.com/Setmaster/ComfyUI-ModelPulse",
+      "files": [
+        "https://github.com/Setmaster/ComfyUI-ModelPulse"
+      ],
+      "install_type": "git-clone",
+      "description": "Track model usage frequency to identify abandoned or underutilized models. Shows usage stats, file sizes, and highlights stale models in a sidebar panel."
+    },
+    {
+      "author": "mickmumpitz",
+      "title": "Mickmumpitz-Nodes",
+      "id": "mickmumpitz-nodes",
+      "reference": "https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes",
+      "files": [
+        "https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of custom nodes for ComfyUI by Mickmumpitz."
+    },
+    {
+      "author": "Xz3r0",
+      "title": "ComfyUI-Xz3r0-Nodes",
+      "reference": "https://github.com/Xz3r0-M/ComfyUI-Xz3r0-Nodes",
+      "files": [
+        "https://github.com/Xz3r0-M/ComfyUI-Xz3r0-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Some custom nodes: XMath, XResolution, XImageSave, XVideoSave, XLatentLoad, XLatentSave ...and more"
     },
     {
       "author": "Ser-Hilary",
