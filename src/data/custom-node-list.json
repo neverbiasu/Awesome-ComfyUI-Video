@@ -33688,6 +33688,16 @@
       "description": "A simple utility node that counts active Video S2V Extend nodes in your workflow and returns that number plus one. Now you don't have to remember to update the batch number. Just set your extend nodes and go. It was easy to forget so I made this quick and dirty."
     },
     {
+      "author": "Urabewe",
+      "title": "ComfyUI-AudioTools",
+      "reference": "https://github.com/Urabewe/ComfyUI-AudioTools",
+      "files": [
+        "https://github.com/Urabewe/ComfyUI-AudioTools"
+      ],
+      "install_type": "git-clone",
+      "description": "Audio normalization and enhancement nodes for ComfyUI (LUFS normalization, audio processing utilities)."
+    },
+    {
       "author": "Juste-Leo2",
       "title": "USO Nodes for ComfyUI",
       "reference": "https://github.com/Juste-Leo2/USO_ComfyUI",
@@ -39992,16 +40002,6 @@
     },
     {
       "author": "pixelpainter",
-      "title": "UI-Decorators",
-      "reference": "https://github.com/pixelpainter/UI-Decorators",
-      "files": [
-        "https://github.com/pixelpainter/UI-Decorators"
-      ],
-      "install_type": "git-clone",
-      "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization.All node widgets are linkable and promotable from the SubGraph canvas."
-    },
-    {
-      "author": "pixelpainter",
       "title": "UI-Decorators [SubGraph]",
       "reference": "https://github.com/pixelpainter/UI-Decorators",
       "files": [
@@ -40344,6 +40344,17 @@
       ],
       "install_type": "git-clone",
       "description": "Dynamic resolution selector and advanced resize nodes with real-time feedback."
+    },
+    {
+      "author": "room3dev",
+      "title": "ComfyUI-I2VChainHelper",
+      "id": "comfyui-i2vchainhelper",
+      "reference": "https://github.com/room3dev/ComfyUI-I2VChainHelper",
+      "files": [
+        "https://github.com/room3dev/ComfyUI-I2VChainHelper"
+      ],
+      "install_type": "git-clone",
+      "description": "Helps filter and trim image batches for I2V chaining by ensuring consistent face identity and eye openness."
     },
     {
       "author": "chrishill197724-gif",
@@ -41928,6 +41939,16 @@
       "description": "Advanced live tuning nodes for SDXL, Illustrious, and NAI. Slice U-Net and CLIP into functional areas to adjust intensity of specific components like Layout, Style, or Syntax."
     },
     {
+      "author": "aledelpho",
+      "title": "Arthemy Live Tuner - Z-image",
+      "reference": "https://github.com/aledelpho/Arthemy_Live-Tuner-ZIT-ComfyUI",
+      "files": [
+        "https://github.com/aledelpho/Arthemy_Live-Tuner-ZIT-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced real-time control for Z-Image models and Qwen3-4B Text Encoders. These nodes allow you to change your model's weights to boost or lower specific generative phases."
+    },
+    {
       "author": "bkpaine1",
       "title": "Halo-Lipsy",
       "id": "halo-lipsy",
@@ -42030,6 +42051,53 @@
       ],
       "install_type": "git-clone",
       "description": "Some custom nodes: XMath, XResolution, XImageSave, XVideoSave, XLatentLoad, XLatentSave ...and more"
+    },
+    {
+      "author": "CrateTools",
+      "title": "Preview Video Monitor Pro",
+      "id": "preview-video-monitor-pro",
+      "reference": "https://github.com/CrateTools/comfyui-preview-video-monitor",
+      "files": [
+        "https://github.com/CrateTools/comfyui-preview-video-monitor"
+      ],
+      "install_type": "git-clone",
+      "description": "Second monitor preview for video generations with interactive playback controls, color tools, generation tracking, and workflow-embedded snapshots."
+    },
+    {
+      "author": "loficoding",
+      "title": "ComfyUI Node HUD",
+      "reference": "https://github.com/loficoding/ComfyUI-Node-HUD",
+      "files": [
+        "https://github.com/loficoding/ComfyUI-Node-HUD"
+      ],
+      "install_type": "git-clone",
+      "description": "Adds a smart I/O status dock to stacked nodes for cleaner layouts.",
+      "tags": [
+        "ui",
+        "layout",
+        "utils"
+      ]
+    },
+    {
+      "author": "laowang",
+      "title": "ComfyUI PixelArt Converter",
+      "reference": "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter",
+      "files": [
+        "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter"
+      ],
+      "install_type": "git-clone",
+      "description": "Convert images to pixel art using ONNX models."
+    },
+    {
+      "author": "sjhddh",
+      "title": "ComfyUI-Cyber-Steganography",
+      "id": "cyber-steganography",
+      "reference": "https://github.com/sjhddh/ComfyUI-Cyber-Steganography",
+      "files": [
+        "https://github.com/sjhddh/ComfyUI-Cyber-Steganography"
+      ],
+      "install_type": "git-clone",
+      "description": "Cyberpunk/Spy-craft steganography nodes for ComfyUI. Hide secret text messages inside AI-generated images using LSB (Least Significant Bit) steganography. Features encryption with optional password key. Nodes: StegoEncode (hide text), StegoDecode (reveal text)."
     },
     {
       "author": "Ser-Hilary",
@@ -42147,16 +42215,6 @@
       ],
       "install_type": "copy",
       "description": "Advanced merging methods."
-    },
-    {
-      "author": "tudal",
-      "title": "Hakkun-ComfyUI-nodes",
-      "reference": "https://github.com/tudal/Hakkun-ComfyUI-nodes",
-      "files": [
-        "https://raw.githubusercontent.com/tudal/Hakkun-ComfyUI-nodes/main/hakkun_nodes.py"
-      ],
-      "install_type": "copy",
-      "description": "Mainly its prompt generating by custom syntax. Prompt Parser, Prompt tags, Random Line, Calculate Upscale, Image size to string, Type Converter, Image Resize To Height/Width, Load Random Image, Load Text"
     },
     {
       "author": "SadaleNet",
