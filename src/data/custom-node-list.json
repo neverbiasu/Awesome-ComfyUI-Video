@@ -5289,6 +5289,7 @@
     {
       "author": "bruefire",
       "title": "ComfyUI Sequential Image Loader",
+      "id": "comfyui-sq-imageloader",
       "reference": "https://github.com/bruefire/ComfyUI-SeqImageLoader",
       "files": [
         "https://github.com/bruefire/ComfyUI-SeqImageLoader"
@@ -21474,16 +21475,6 @@
       "description": "This is a subset of nodes for ComfyUI that I made just for my own workflow. The nodes support Flux (single conditioning, no negatives) and are just a way of minimizing the noodles. There's no real journey to be made here, just anything that helps me get through the day."
     },
     {
-      "author": "inflamously",
-      "title": "comfyui-prompt-enhancer",
-      "reference": "https://github.com/inflamously/comfyui-prompt-enhancer",
-      "files": [
-        "https://github.com/inflamously/comfyui-prompt-enhancer"
-      ],
-      "install_type": "git-clone",
-      "description": "A crazy node that pragmatically just enhances a given prompt with various descriptions in the hope that the image quality just increase and prompting just gets easier."
-    },
-    {
       "author": "111496583yzy",
       "title": "Jigsaw Puzzle Effect Plugin",
       "reference": "https://github.com/111496583yzy/comfyui-PuzzleCrack-Effect",
@@ -24009,6 +24000,16 @@
       ],
       "install_type": "git-clone",
       "description": "Comfy UI node to prompt build for https://huggingface.co/cagliostrolab/animagine-xl-4.0 model"
+    },
+    {
+      "author": "gmorks",
+      "title": "ComfyUI-WatchPoint",
+      "reference": "https://github.com/gmorks/ComfyUI-WatchPoint",
+      "files": [
+        "https://github.com/gmorks/ComfyUI-WatchPoint"
+      ],
+      "install_type": "git-clone",
+      "description": "Multi-monitor preview with external window (zoom, pan, save), floating in-browser preview, and prompt monitoring. Features stable threading, customizable positioning, and Signal Scout for real-time prompt tracking."
     },
     {
       "author": "jinanlongen",
@@ -27469,21 +27470,21 @@
     },
     {
       "author": "ArtsticH",
-      "title": "EasyKitHT NodeAlignPro",
-      "id": "comfyui_easykitht_nodealignpro",
+      "title": "EasyKit-NodeAlign-Pro",
+      "id": "easykit-node-align",
       "reference": "https://github.com/ArtsticH/ComfyUI_EasyKitHT_NodeAlignPro",
       "files": [
         "https://github.com/ArtsticH/ComfyUI_EasyKitHT_NodeAlignPro"
       ],
       "install_type": "git-clone",
-      "description": "Professional alignment & real-time node color picker. A must-have plugin for managing node layout and color schemes in ComfyUI. Features a real-time color picker, alignment, 7 preset colors, grayscale/custom modes, and one-click reverse alignment.",
+      "description": "Node2.0-based professional alignment & real-time node color picker - innovative first support: A must-have plugin for managing node layout and color schemes in ComfyUI. Features a real-time color picker, alignment, 7 preset colors, grayscale/custom modes, and one-click reverse alignment.",
       "tags": [
+        "node2.0",
         "alignment",
         "color-picker",
         "node-utility",
         "ui",
         "organizer",
-        "node2.0",
         "frontend"
       ]
     },
@@ -41960,6 +41961,17 @@
       "description": "AMD unified memory lip sync for ComfyUI. Native Wav2Lip inference with no subprocesses - finally works on Strix Halo, ROCm, and all AMD APUs. Features sync tuning, edge blending, and safe tensor casting for unified memory systems."
     },
     {
+      "author": "bkpaine1",
+      "title": "Halo-TeaCache",
+      "id": "halo-teacache",
+      "reference": "https://github.com/bkpaine1/Halo-TeaCache",
+      "files": [
+        "https://github.com/bkpaine1/Halo-TeaCache"
+      ],
+      "install_type": "git-clone",
+      "description": "AMD Unified Memory TeaCache for LTX2 (LTXAV). Lean single-file caching for 48-layer dual-stream transformer. Caches both video and audio residuals. No CPU offload - designed for AMD APUs with unified memory. ~35% speedup on cached denoising steps."
+    },
+    {
       "author": "kianthos",
       "title": "Earthbound---All-in-one-ComfyUI-Node",
       "reference": "https://github.com/kianthos/Earthbound---All-in-one-ComfyUI-Node",
@@ -42098,6 +42110,77 @@
       ],
       "install_type": "git-clone",
       "description": "Cyberpunk/Spy-craft steganography nodes for ComfyUI. Hide secret text messages inside AI-generated images using LSB (Least Significant Bit) steganography. Features encryption with optional password key. Nodes: StegoEncode (hide text), StegoDecode (reveal text)."
+    },
+    {
+      "author": "FNGarvin",
+      "title": "ComfyUI Auto Model Downloader",
+      "id": "automodeldownloader",
+      "reference": "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader",
+      "files": [
+        "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader"
+      ],
+      "install_type": "git-clone",
+      "description": "Convenient, high-speed model downloads directly to your Comfy install with blazing-fast, multi-connection support. No more downloading models to your downloads folder and having to manually move them to the proper folder!"
+    },
+    {
+      "author": "c0dezer019",
+      "title": "Pausable Sampler",
+      "id": "freezeframe",
+      "reference": "https://github.com/c0dezer019/FreezeFrame",
+      "files": [
+        "https://github.com/c0dezer019/FreezeFrame"
+      ],
+      "install_type": "git-clone",
+      "description": "Modifed Sampler nodes that allow you to pause/resume generations. For those with older hardware running in CPU mode or old GPUs. Useful for managing thermals."
+    },
+    {
+      "author": "mingyi456",
+      "title": "ComfyUI DFloat11 Extended",
+      "reference": "https://github.com/mingyi456/ComfyUI-DFloat11-Extended",
+      "files": [
+        "https://github.com/mingyi456/ComfyUI-DFloat11-Extended"
+      ],
+      "install_type": "git-clone",
+      "description": "Fork of the official DF11 ComfyUI custom node that supports a wider variety of model architectures, and provides fixes for compatibility with recent ComfyUI versions. Also, LoRAs are supported for select model architectures."
+    },
+    {
+      "author": "hetima",
+      "title": "ComfyUI-SingleLinePicker",
+      "id": "singlelinepicker",
+      "reference": "https://github.com/hetima/ComfyUI-SingleLinePicker",
+      "files": [
+        "https://github.com/hetima/ComfyUI-SingleLinePicker"
+      ],
+      "install_type": "git-clone",
+      "description": "Select one line from the text list with a single click. It dramatically improves the process of switching LoRA or prompts."
+    },
+    {
+      "author": "liewcc",
+      "title": "ComfyUI-Qwen-Canvas",
+      "reference": "https://github.com/liewcc/ComfyUI-Qwen-Canvas",
+      "files": [
+        "https://github.com/liewcc/ComfyUI-Qwen-Canvas"
+      ],
+      "install_type": "git-clone",
+      "description": "Enforces Qwen's training resolution buckets for precise Latent space generation."
+    },
+    {
+      "author": "frankluise5220",
+      "title": "LoraHelper Chat Nodes",
+      "reference": "https://github.com/frankluise5220/ComfyUI-Lorahelper",
+      "nodename_pattern": "UniversalGGUFLoader|UniversalAIChat|LH_History_Monitor",
+      "files": [
+        "https://github.com/frankluise5220/ComfyUI-Lorahelper"
+      ],
+      "install_type": "git-clone",
+      "description": "LLM-based chat nodes for image description, tagging and prompt enhancement using GGUF models",
+      "tags": [
+        "llm",
+        "vision",
+        "prompt generation",
+        "lora",
+        "Qwen3"
+      ]
     },
     {
       "author": "Ser-Hilary",
