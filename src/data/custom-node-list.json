@@ -32809,13 +32809,14 @@
     },
     {
       "author": "FearL0rd",
-      "title": "ComfyUI-AnyDeviceOffload",
+      "title": "ComfyUI Any-Device Offload",
+      "id": "ComfyUI-AnyDeviceOffload",
       "reference": "https://github.com/FearL0rd/ComfyUI-AnyDeviceOffload",
       "files": [
         "https://github.com/FearL0rd/ComfyUI-AnyDeviceOffload"
       ],
       "install_type": "git-clone",
-      "description": "Force any Model, VAE, or CLIP to any GPU or CPU—and keep it there (or don't)."
+      "description": "This custom node gives you total control over where your models run and where they live in memory. It solves common Out of Memory (OOM) errors, enables multi-GPU workflows, and fixes persistent crashes when trying to run modern workflows (like Flux/SD3) on CPUs or secondary GPUs."
     },
     {
       "author": "Alectriciti",
@@ -42426,20 +42427,21 @@
     },
     {
       "author": "frankluise5220",
-      "title": "LoraHelper Chat Nodes",
+      "title": "ComfyUI-LoraHelper",
       "reference": "https://github.com/frankluise5220/ComfyUI-Lorahelper",
-      "nodename_pattern": "UniversalGGUFLoader|UniversalAIChat|LH_History_Monitor",
+      "nodename_pattern": "UniversalGGUFLoader|UniversalOllamaLoader|UniversalAIChat|LH_LlamaInstruct|LH_History_Monitor|LH_MultiTextSelector|LoRA_AllInOne_Saver|LH_SimpleText",
       "files": [
         "https://github.com/frankluise5220/ComfyUI-Lorahelper"
       ],
       "install_type": "git-clone",
-      "description": "LLM-based chat nodes for image description, tagging and prompt enhancement using GGUF models",
+      "description": "A specialized toolkit for AI-based image captioning (reverse prompting), prompt enrichment, and automated batch generation. It streamlines LoRA dataset organization with native GGUF and Ollama support.",
       "tags": [
         "llm",
         "vision",
         "prompt generation",
         "lora",
-        "Qwen3"
+        "Qwen3",
+        "reverse prompting"
       ]
     },
     {
