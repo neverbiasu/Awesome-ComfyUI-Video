@@ -26734,16 +26734,6 @@
       "description": "GradientBlurNode is a custom node for ComfyUI that allows for gradient-based image blurring. This tool provides precise control over the direction, intensity, and distribution of the blur, making it ideal for creating smooth transitions, focusing attention on specific parts of an image, or adding artistic effects."
     },
     {
-      "author": "linksluckytime",
-      "title": "comfyui_snacknodes",
-      "reference": "https://github.com/linksluckytime/comfyui_snacknodes",
-      "files": [
-        "https://github.com/linksluckytime/comfyui_snacknodes"
-      ],
-      "install_type": "git-clone",
-      "description": "A comprehensive collection of ComfyUI nodes designed to reduce reliance on multiple third-party node packages."
-    },
-    {
       "author": "uihp",
       "title": "ComfyUI-String-Chain",
       "reference": "https://github.com/uihp/ComfyUI-String-Chain",
@@ -38541,14 +38531,16 @@
         "https://github.com/akawana/ComfyUI-AK-Pack"
       ],
       "install_type": "git-clone",
-      "description": "Utility tools: IndexMultiple, IsOneOfGroupsActive, RepeatGroupState group enable/disable like rg but without connection, Pipe, Getter, Setter highly optimized.",
+      "description": "UI extensions: Control Multiple Samplers, Project Settings. Nodes: AK Base,  AK Index Multiple, IsOneOfGroupsActive, RepeatGroupState group enable/disable like rg but without connection, Pipe, Getter, Setter.",
       "tags": [
         "utility",
         "list",
         "batch",
         "get",
         "set",
-        "pipe"
+        "pipe",
+        "project",
+        "sampler"
       ]
     },
     {
@@ -42294,13 +42286,14 @@
     },
     {
       "author": "bkpaine1",
-      "title": "halo_pack",
+      "title": "HALO Debug Pack",
+      "id": "halo-pack",
       "reference": "https://github.com/bkpaine1/halo_pack",
       "files": [
         "https://github.com/bkpaine1/halo_pack"
       ],
       "install_type": "git-clone",
-      "description": "AMD Strix Halo diagnostic tools for ComfyUI to diagnose bf16 precision issues causing NaN values and black images on AMD ROCm."
+      "description": "AMD ROCm bf16 diagnostic tools for ComfyUI. Fixes black image issues caused by numpy's lack of bfloat16 support. Includes FP32 VAE decode/encode and debug nodes for latent, conditioning, and model inspection. Useful for AMD Strix Halo, older NVIDIA cards, Apple Silicon, and unified memory systems."
     },
     {
       "author": "kianthos",
@@ -42455,7 +42448,7 @@
     },
     {
       "author": "c0dezer019",
-      "title": "Pausable Sampler",
+      "title": "FreezeFrame",
       "id": "freezeframe",
       "reference": "https://github.com/c0dezer019/FreezeFrame",
       "files": [
@@ -42806,13 +42799,13 @@
     },
     {
       "author": "remingtonspaz",
-      "title": "ComfyUI-ReferenceChain",
+      "title": "Reference Chain Conditioning",
       "reference": "https://github.com/remingtonspaz/ComfyUI-ReferenceChain",
       "files": [
         "https://github.com/remingtonspaz/ComfyUI-ReferenceChain"
       ],
       "install_type": "git-clone",
-      "description": "A ComfyUI node that takes multiple images, scales them, VAE encodes them, and chains them as reference latents into a single conditioning output. Useful for edit models like Flux-2-klein that accept multiple reference images."
+      "description": "Chain multiple images as reference conditionings for Flux Klein, Kontext etc. with one node"
     },
     {
       "author": "SidDays",
@@ -43017,12 +43010,13 @@
     {
       "author": "Malkalypse",
       "title": "ComfyUI-MouseCoords",
+      "id": "mousecoords",
       "reference": "https://github.com/Malkalypse/ComfyUI-MouseCoords",
       "files": [
         "https://github.com/Malkalypse/ComfyUI-MouseCoords"
       ],
       "install_type": "git-clone",
-      "description": "Display mouse coordinates in graph space"
+      "description": "Display real-time mouse coordinates in graph space. Shows the current mouse position in the top-right corner of the canvas, useful for positioning nodes precisely, debugging layouts, and measuring distances."
     },
     {
       "author": "luoq24",
@@ -43133,6 +43127,17 @@
       ],
       "install_type": "git-clone",
       "description": "All-in-One collection of Painter's ComfyUI nodes for video generation"
+    },
+    {
+      "author": "cosmicbuffalo",
+      "title": "ComfyUI Mobile Frontend",
+      "id": "comfyui-mobile-frontend",
+      "reference": "https://github.com/cosmicbuffalo/comfyui-mobile-frontend",
+      "files": [
+        "https://github.com/cosmicbuffalo/comfyui-mobile-frontend"
+      ],
+      "install_type": "git-clone",
+      "description": "A mobile-friendly user interface for ComfyUI mounted in parallel with the main frontend at /mobile/."
     },
     {
       "author": "Ser-Hilary",
