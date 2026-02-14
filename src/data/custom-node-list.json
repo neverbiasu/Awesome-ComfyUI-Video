@@ -13029,6 +13029,17 @@
       "description": "ComfyUI node providing Tetris game functionality. (Description by CC)"
     },
     {
+      "author": "GraftingRayman",
+      "title": "ComfyUI-ZImage-Bake-Extract",
+      "id": "ComfyUI-ZImage-Bake-Extract",
+      "reference": "https://github.com/GraftingRayman/ComfyUI-ZImage-Bake-Extract",
+      "files": [
+        "https://github.com/GraftingRayman/ComfyUI-ZImage-Bake-Extract"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for baking LoRAs into base models and extracting LoRAs from merged/finetuned models. This node provides advanced functionality for managing LoRA weights with support for format conversion between sd-scripts and ComfyUI formats."
+    },
+    {
       "author": "royceschultz",
       "title": "ComfyUI-Notifications",
       "reference": "https://github.com/royceschultz/ComfyUI-Notifications",
@@ -17580,6 +17591,17 @@
       ],
       "install_type": "git-clone",
       "description": "Easy deploy API for ComfyUI."
+    },
+    {
+      "author": "Hmily",
+      "title": "ComfyUI-FitDiTx",
+      "id": "ComfyUI-FitDiTx",
+      "reference": "https://github.com/ihmily/ComfyUI-FitDiTx",
+      "files": [
+        "https://github.com/ihmily/ComfyUI-FitDiTx"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI implementation of 'FitDiTx: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on'"
     },
     {
       "author": "k-komarov",
@@ -43234,6 +43256,61 @@
       ],
       "install_type": "git-clone",
       "description": "This node adds an outside-only outline around the opaque region of an image while cleaning up semi‑transparent edge pixels and removing stray islands."
+    },
+    {
+      "author": "NineKey1028",
+      "title": "ComfyUI_Dynamic_TagLoader",
+      "reference": "https://github.com/NineKey1028/ComfyUI_Dynamic_TagLoader",
+      "files": [
+        "https://github.com/NineKey1028/ComfyUI_Dynamic_TagLoader"
+      ],
+      "install_type": "git-clone",
+      "description": "Automation toolkit for ComfyUI featuring dynamic tag combinations, LoRA parsing, and workflow metadata reading."
+    },
+    {
+      "author": "SWORKS_TEAM",
+      "title": "SEngine",
+      "id": "sengine",
+      "reference": "https://github.com/sworksteam/SEngine",
+      "files": [
+        "https://github.com/sworksteam/SEngine"
+      ],
+      "install_type": "git-clone",
+      "description": "Sidebar browser for SWORKS_TEAM LoRAs from Civitai. Browse, download, and apply LoRAs with image previews and tag filtering."
+    },
+    {
+      "author": "huchukato",
+      "title": "QwenVL-Mod: Enhanced Vision-Language",
+      "id": "qwenvl-mod",
+      "reference": "https://github.com/huchukato/ComfyUI-QwenVL-Mod",
+      "files": [
+        "https://github.com/huchukato/ComfyUI-QwenVL-Mod"
+      ],
+      "install_type": "git-clone",
+      "description": "Enhanced QwenVL node with Smart Prompt Caching, multilingual WAN 2.2 presets, comprehensive visual style detection, and NSFW support. Latest v2.0.8 with bug fixes and stability improvements for professional multimodal workflows.",
+      "category": "image",
+      "tags": [
+        "vision",
+        "language",
+        "multimodal",
+        "qwen",
+        "smart_caching",
+        "prompt_caching",
+        "multilingual",
+        "style_detection",
+        "performance",
+        "wan2.2",
+        "video",
+        "i2v",
+        "t2v",
+        "cinematography",
+        "abliterated",
+        "nsfw",
+        "enhanced",
+        "fork",
+        "stable"
+      ],
+      "version": "2.0.8"
     },
     {
       "author": "Ser-Hilary",
