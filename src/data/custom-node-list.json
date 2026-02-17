@@ -31859,13 +31859,13 @@
     {
       "author": "vaishnav-vn",
       "title": "va1",
-      "name": "Pad Image by Aspect",
+      "name": "va1",
       "reference": "https://github.com/vaishnav-vn/va1",
       "files": [
         "https://github.com/vaishnav-vn/va1"
       ],
       "install_type": "git-clone",
-      "description": "repo has Custon node designed to expand, pad, and mask images to fixed or randomized aspect ratios with precise spatial and scale control — engineered for outpainting, compositional layout, and creative canvas expansion. "
+      "description": "ComfyUI custom nodes: (1) Pad Image by Aspect for Outpaint — expand, pad, and mask images to fixed or randomized aspect ratios with precise spatial and scale control for outpainting and canvas expansion. (2) Image Mask Comparer — compare masked regions of two images with similarity scoring and automatic retry/re-queue on mismatch."
     },
     {
       "author": "wawahuy",
@@ -38612,16 +38612,6 @@
       "description": "ComfyUI audio-reactive animation node combining RyanOnTheInside's reactive features with Fillip's path animation for creating audio-driven visual animations. (Description by CC)"
     },
     {
-      "author": "techzuhaib",
-      "title": "FaceCLIP-ComfyUI",
-      "reference": "https://github.com/techzuhaib/FaceCLIP-ComfyUI",
-      "files": [
-        "https://github.com/techzuhaib/FaceCLIP-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "FaceCLIP nodes for ComfyUI providing joint embeddings from aligned face images plus text prompts, and identity-preserving image synthesis using fine-tuned SDXL UNet. (Description by CC)"
-    },
-    {
       "author": "tuki0918",
       "title": "comfyui-image-expand-nodes",
       "reference": "https://github.com/tuki0918/comfyui-image-expand-nodes",
@@ -41881,6 +41871,17 @@
       "description": "Essential Nodes Pack for Images Processing for ComfyUI, with a live embedded preview inside the node (no queue) for supported chains."
     },
     {
+      "author": "MajoorWaldi",
+      "title": "ComfyUI-Majoor-AssetsManager",
+      "id": "majoor-assetsmanager",
+      "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-AssetsManager",
+      "files": [
+        "https://github.com/MajoorWaldi/ComfyUI-Majoor-AssetsManager"
+      ],
+      "install_type": "git-clone",
+      "description": "Majoor Assets Manager is an advanced asset browser for ComfyUI with search, metadata extraction, rating/tags, workflow metadata parsing, and integrated image/video/audio asset management."
+    },
+    {
       "author": "sinanzoo2nd",
       "title": "ComfyUI Seed Wildcard Pack",
       "reference": "https://github.com/sinanzoo2nd/ComfyUI-Seed-Wildcard-Pack",
@@ -42024,10 +42025,10 @@
     },
     {
       "author": "DemonAlone",
-      "title": "SimpeStringGenerator_ComfyUI",
-      "reference": "https://github.com/DemonAlone/SimpeStringGenerator_ComfyUI",
+      "title": "DemonAlone-nodes-ComfyUI",
+      "reference": "https://github.com/DemonAlone/DemonAlone-nodes-ComfyUI",
       "files": [
-        "https://github.com/DemonAlone/SimpeStringGenerator_ComfyUI"
+        "https://github.com/DemonAlone/DemonAlone-nodes-ComfyUI"
       ],
       "install_type": "git-clone",
       "description": "A collection of nodes that provide dynamic dropdown selectors for Samplers, Schedulers, Checkpoints, and Diffusion Models, outputting a comma-separated string for use in XY plots."
@@ -42588,16 +42589,6 @@
       ],
       "install_type": "git-clone",
       "description": "High-performance custom node for LTX2 video generation designed to reduce GPU usage, VRAM requirements, and temperature on consumer GPUs."
-    },
-    {
-      "author": "SlothHole",
-      "title": "Imitatoes",
-      "reference": "https://github.com/SlothHole/Imitatoes",
-      "files": [
-        "https://github.com/SlothHole/Imitatoes"
-      ],
-      "install_type": "git-clone",
-      "description": "Build a ComfyUI \"self-improving\" workflow where each render is evaluated by a local vision LLM, which then edits the prompt/parameters and triggers another run."
     },
     {
       "author": "BobJohnson24",
@@ -43311,6 +43302,38 @@
         "stable"
       ],
       "version": "2.0.8"
+    },
+    {
+      "author": "kadima-tech",
+      "title": "ComfyUI-Draggen",
+      "reference": "https://github.com/kadima-tech/comfyui-draggen",
+      "files": [
+        "https://github.com/kadima-tech/comfyui-draggen"
+      ],
+      "install_type": "git-clone",
+      "description": "Load and use your Draggen.io moodboards directly in ComfyUI."
+    },
+    {
+      "author": "Night1099",
+      "title": "ComfyUI-PBRFusion4",
+      "id": "comfyui-pbrfusion4",
+      "reference": "https://github.com/Night1099/COMFYUI-PBRFusion4",
+      "files": [
+        "https://github.com/Night1099/COMFYUI-PBRFusion4"
+      ],
+      "install_type": "git-clone",
+      "description": "PBR texture generation diffusion model nodes. Generate depth maps and normal maps from baked textures using PBRFusion4."
+    },
+    {
+      "author": "TK3R",
+      "title": "ComfyUI TK3R Extensions",
+      "id": "comfyui_tk3r_ext",
+      "reference": "https://github.com/TK3R/ComfyUI_TK3R_Ext",
+      "files": [
+        "https://github.com/TK3R/ComfyUI_TK3R_Ext"
+      ],
+      "install_type": "git-clone",
+      "description": "A few enhanced versions of vanilla nodes, mainly Qwen/ZImage controlnet nodes & scheduled CFG guider, and some utility nodes."
     },
     {
       "author": "Ser-Hilary",
