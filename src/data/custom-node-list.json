@@ -5571,6 +5571,16 @@
       "description": "This extension provides various SDXL Prompt Stylers. See: [a/youtube](https://youtu.be/WBHI-2uww7o?si=dijvDaUI4nmx4VkF)"
     },
     {
+      "author": "TripleHeadedMonkey",
+      "title": "ComfyUI-Zlycoris",
+      "reference": "https://github.com/TripleHeadedMonkey/ComfyUI-Zlycoris",
+      "files": [
+        "https://github.com/TripleHeadedMonkey/ComfyUI-Zlycoris"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for loading Z-Image LoRa/LoHa. Includes nodes for merging Qwen 3 4B models and extracting Qwen lora from Qwen 3 4b models."
+    },
+    {
       "author": "BennyKok",
       "title": "ComfyUI Deploy",
       "id": "comfyui-deploy",
@@ -12546,6 +12556,16 @@
       ],
       "install_type": "git-clone",
       "description": "Extended ComfyUI node with WD14 Tagger-based image analysis and automatic character identification to apply optimized prompts dynamically. (Description by CC)"
+    },
+    {
+      "author": "sugarkwork",
+      "title": "comfyui-auto-mosaic",
+      "reference": "https://github.com/sugarkwork/comfyui-auto-mosaic",
+      "files": [
+        "https://github.com/sugarkwork/comfyui-auto-mosaic"
+      ],
+      "install_type": "git-clone",
+      "description": "Auto detect and process sensitive areas using YOLO with mosaic, blur, white out, and PSD export."
     },
     {
       "author": "alessandrozonta",
@@ -39003,6 +39023,17 @@
       "description": "Remote workflow executor node - Execute workflows on remote ComfyUI servers. Supports image/text/audio/video input and output."
     },
     {
+      "author": "Pondowner857",
+      "title": "ComfyUI Workflow Protector",
+      "id": "comfyui-workflow-protector",
+      "reference": "https://github.com/Pondowner857/comfyui-workflow-protector",
+      "files": [
+        "https://github.com/Pondowner857/comfyui-workflow-protector"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Workflow Protector is a security plugin for ComfyUI that provides multi-layered protection against unauthorized export, copying, or usage of workflows. It supports password-based access control and workflow file encryption to safeguard your creative work."
+    },
+    {
       "author": "luxdelux7",
       "title": "Forbidden Vision",
       "reference": "https://github.com/luxdelux7/ComfyUI-Forbidden-Vision",
@@ -39747,16 +39778,6 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for enhancing prompts using OpenAI-compatible APIs (like DeepSeek, OpenAI, etc.)."
-    },
-    {
-      "author": "anilstream",
-      "title": "ComfyUI-Ideogram-Character",
-      "reference": "https://github.com/anilstream/ComfyUI-Ideogram-Character",
-      "files": [
-        "https://github.com/anilstream/ComfyUI-Ideogram-Character"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI node for generating consistent character images using Ideogram API v3's character reference feature. (Description by CC)"
     },
     {
       "author": "Moeblack",
@@ -41761,16 +41782,6 @@
       "description": "A modular character prompt generator for ComfyUI"
     },
     {
-      "author": "FemReiyaDev",
-      "title": "ComfyUI-ReiyaNodes",
-      "reference": "https://github.com/FemReiyaDev/ComfyUI-ReiyaNodes",
-      "files": [
-        "https://github.com/FemReiyaDev/ComfyUI-ReiyaNodes"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI nodes for image stitching"
-    },
-    {
       "author": "kantan-kanto",
       "title": "ComfyUI-MultiModal-Prompt-Nodes",
       "reference": "https://github.com/kantan-kanto/ComfyUI-MultiModal-Prompt-Nodes",
@@ -42549,7 +42560,7 @@
         "https://github.com/Xz3r0-M/ComfyUI-Xz3r0-Nodes"
       ],
       "install_type": "git-clone",
-      "description": "Some custom nodes: XMath, XResolution, XImageSave, XVideoSave, XLatentLoad, XLatentSave ...and more"
+      "description": "Custom ComfyUI nodes: XMath, XResolution, XImageSave, XLatentLoad, XLatentSave, XVideoSave, XAudioSave, XStringGroup, XWorkflowSave, XMetadataWorkflow(Extension), XDateTimeString, XFitView(Extension) ...and more"
     },
     {
       "author": "CrateTools",
@@ -43711,8 +43722,7 @@
         "offline",
         "translation",
         "privacy"
-      ],
-      "nodename_pattern": "QwenOfflinePrompt"
+      ]
     },
     {
       "author": "Terpentinas",
@@ -43853,6 +43863,58 @@
       ],
       "install_type": "git-clone",
       "description": "Custom nodes to make ComfyUI sampling closer to flow-matching behavior for Flux, Qwen-Image, and Z-Image."
+    },
+    {
+      "author": "magicoli",
+      "title": "comfyui-oli-prompt-tools",
+      "reference": "https://github.com/magicoli/comfyui-oli-prompt-tools",
+      "files": [
+        "https://github.com/magicoli/comfyui-oli-prompt-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Seed-based prompt line picker and VRAM-aware video frame limiter for ComfyUI"
+    },
+    {
+      "author": "Flibens",
+      "title": "ComfyUI Image Browser",
+      "id": "comfyui-image-browser-flibens",
+      "reference": "https://github.com/Flibens/comfyui-image-browser",
+      "files": [
+        "https://github.com/Flibens/comfyui-image-browser"
+      ],
+      "install_type": "git-clone",
+      "description": "Image browser extension for ComfyUI with search, favorites, metadata view, compare mode, and media support."
+    },
+    {
+      "author": "AlienMH27",
+      "title": "ComfyUI-LuminaXStudio",
+      "reference": "https://github.com/mrlonglegland/ComfyUI-LuminaXStudio",
+      "files": [
+        "https://github.com/mrlonglegland/ComfyUI-LuminaXStudio"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced Prompt Engineering nodes powered by Llama 3."
+    },
+    {
+      "author": "mr-september",
+      "title": "ComfyUI Pad to Multiple",
+      "id": "pad-to-multiple",
+      "reference": "https://github.com/mr-september/comfyui-pad-to-multiple",
+      "files": [
+        "https://github.com/mr-september/comfyui-pad-to-multiple"
+      ],
+      "install_type": "git-clone",
+      "description": "Pads images to multiples of N (right/bottom only) with solid color fill. Useful for VAE/model dimension requirements."
+    },
+    {
+      "author": "emniko",
+      "title": "ComfyUI-CLIPScore",
+      "reference": "https://github.com/emniko/ComfyUI-CLIPScore",
+      "files": [
+        "https://github.com/emniko/ComfyUI-CLIPScore"
+      ],
+      "install_type": "git-clone",
+      "description": "Research-grade CLIP Score metric for Flux/SD. Raw cosine similarity."
     },
     {
       "author": "Ser-Hilary",
