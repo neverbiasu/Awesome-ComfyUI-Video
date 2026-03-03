@@ -14532,23 +14532,23 @@
       "description": "This custom node for ComfyUI allows you to save images in multiple formats, including PNG, JPG, WebP, and ICO.\n[w/ComfyUI-Save-Multi-Format is renamed to SaveAs. Remove previous one and reinstall to this.]"
     },
     {
-      "author": "MrSamSeen",
+      "author": "SamSeen",
       "title": "SideBySide_Stereoscope",
       "id": "comfyui_ssstereoscope_bysamseen",
-      "reference": "https://github.com/MrSamSeen/ComfyUI_SSStereoscope",
+      "reference": "https://github.com/SamSeenX/ComfyUI_SSStereoscope",
       "files": [
-        "https://github.com/MrSamSeen/ComfyUI_SSStereoscope"
+        "https://github.com/SamSeenX/ComfyUI_SSStereoscope"
       ],
       "install_type": "git-clone",
       "description": "Create immersive 3D stereoscopic images and videos! Transform your ComfyUI generations into stunning side-by-side 3D visuals for videos and image sequences. Powered by Depth-Anything-V2, no external depth maps needed. Perfect for VR, 3D displays, and cross-eyed viewing - no special glasses required!"
     },
     {
-      "author": "MrSamSeen",
+      "author": "SamSeen",
       "title": "ComfyUI_SSBeforeAfterNode",
       "id": "ComfyUI_SSBeforeAfterNode",
-      "reference": "https://github.com/MrSamSeen/ComfyUI_SSBeforeAfterNode",
+      "reference": "https://github.com/SamSeenX/ComfyUI_SSBeforeAfterNode",
       "files": [
-        "https://github.com/MrSamSeen/ComfyUI_SSBeforeAfterNode"
+        "https://github.com/SamSeenX/ComfyUI_SSBeforeAfterNode"
       ],
       "install_type": "git-clone",
       "description": "Two powerful custom nodes for ComfyUI to create stunning before-and-after transition videos. These nodes are designed for visual comparisons, transformations, and creative effects, supporting both standard and depth map-based transitions."
@@ -43507,6 +43507,17 @@
       "description": "A comprehensive collection of 18+ utility nodes for ComfyUI including image list operations (split/merge), advanced tiling with seamless blending, brightness/contrast/saturation/RGB adjustments, diagonal watermarking, overlapping image processing, image tile processing and various workflow optimization tools. Perfect for high-resolution image processing, batch workflows, and color grading."
     },
     {
+      "author": "Praveen",
+      "title": "ComfyUI DeOldify",
+      "id": "deoldify",
+      "reference": "https://github.com/Praveenhalder/ComfyUI-DeOldify",
+      "files": [
+        "https://github.com/Praveenhalder/ComfyUI-DeOldify"
+      ],
+      "install_type": "git-clone",
+      "description": "Fast image and video colorization."
+    },
+    {
       "author": "jluo-github",
       "title": "comfyui-auto-size",
       "reference": "https://github.com/jluo-github/comfyui-auto-size",
@@ -43945,6 +43956,69 @@
       ],
       "install_type": "git-clone",
       "description": "Frame-based prompt scheduling for InfiniteTalk/MultiTalk in ComfyUI"
+    },
+    {
+      "author": "rohit267",
+      "title": "Champdev Custom Nodes",
+      "id": "champdev",
+      "reference": "https://github.com/rohit267/champdev-comfyui-nodes",
+      "files": [
+        "https://github.com/rohit267/champdev-comfyui-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Champdev Custom Nodes. Currently contains Champdev Save Image, auto delete image after input seconds, overwrite file, save to temp dir."
+    },
+    {
+      "author": "ChunkyPanda29",
+      "title": "ComfyUI-Pollinations-BYOP",
+      "reference": "https://github.com/ChunkyPanda29/ComfyUI-Pollinations-BYOP",
+      "files": [
+        "https://github.com/ChunkyPanda29/ComfyUI-Pollinations-BYOP"
+      ],
+      "install_type": "git-clone",
+      "description": "Premium Quad-Modal suite (Image, Video, Text, Audio) for Pollinations.ai. Includes native Settings menu integration, BYOP support, and an automated real-time model list updater."
+    },
+    {
+      "author": "HuangYuChuh",
+      "title": "ComfyUI-LLMs-Toolkit",
+      "reference": "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit",
+      "files": [
+        "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit"
+      ],
+      "install_type": "git-clone",
+      "description": "A professional-grade toolkit providing lightweight APIs to integrate leading Large Language Models (LLMs) including DeepSeek, Qwen and GPT directly into ComfyUI."
+    },
+    {
+      "author": "0xBeycan",
+      "title": "ComfyUI-ImageQualityGate",
+      "reference": "https://github.com/0xBeycan/ComfyUI-ImageQualityGate",
+      "files": [
+        "https://github.com/0xBeycan/ComfyUI-ImageQualityGate"
+      ],
+      "install_type": "git-clone",
+      "description": "Single-node image quality gate for LoRA dataset filtering. Analyzes blur, sharpness, noise, clipping, and entropy with three-tier verdict (PASS/SO-SO/FAIL), center-weighted blur detection, and shot-type presets."
+    },
+    {
+      "author": "nic-schi",
+      "title": "Open Images for ComfyUI",
+      "id": "openimage",
+      "reference": "https://github.com/nic-schi/ComfyUI-OpenImage",
+      "files": [
+        "https://github.com/nic-schi/ComfyUI-OpenImage"
+      ],
+      "install_type": "git-clone",
+      "description": "Lets you open a generated Image in a specified application after generation."
+    },
+    {
+      "author": "Dangocan",
+      "title": "ComfyUI GLM-OCR",
+      "id": "comfyui-glm-ocr",
+      "reference": "https://github.com/Dangocan/comfyui_glm_ocr",
+      "files": [
+        "https://github.com/Dangocan/comfyui_glm_ocr"
+      ],
+      "install_type": "git-clone",
+      "description": "Load and run GLM-OCR (zai-org/GLM-OCR) locally in ComfyUI. Supports text recognition, formula recognition, table extraction, and general image description. Picks up models from any ComfyUI checkpoint directory."
     },
     {
       "author": "Ser-Hilary",
