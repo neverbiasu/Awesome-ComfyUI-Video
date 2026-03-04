@@ -37419,16 +37419,6 @@
       "description": "A ComfyUI extension that helps users relink missing models in workflows"
     },
     {
-      "author": "Lavah000",
-      "title": "ComfyUI Advanced Generation Pack (AGP)",
-      "reference": "https://github.com/Lavah000/ComfyUI-AdvGenPack",
-      "files": [
-        "https://github.com/Lavah000/ComfyUI-AdvGenPack"
-      ],
-      "install_type": "git-clone",
-      "description": "Production-ready custom nodes for advanced diffusion workflows. Modular implementation grounded in proven techniques from leading ComfyUI repositories."
-    },
-    {
       "author": "GuardSkill",
       "title": "ComfyUI-VoiceSep",
       "reference": "https://github.com/GuardSkill/ComfyUI-VoiceSep",
@@ -41932,6 +41922,16 @@
       "description": "Rectified-flow samplers for Z-Image-Turbo. Clean interpolation formula without sigma division, linear schedulers, higher-order variants. Fixes built-in euler/euler_ancestral instability issues"
     },
     {
+      "author": "capitan01R",
+      "title": "Comfyui-ZiT-Lora-loader",
+      "reference": "https://github.com/capitan01R/Comfyui-ZiT-Lora-loader",
+      "files": [
+        "https://github.com/capitan01R/Comfyui-ZiT-Lora-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Architecture-aware LoRA loader for Z-Image Turbo (Lumina2) in ComfyUI. Fixes silent key mismatches by auto-fusing separate Q/K/V into Z-Image's fused QKV format and remapping output projections."
+    },
+    {
       "author": "advancedtech-sk",
       "title": "ComfyUI-GROUT",
       "reference": "https://github.com/advancedtech-sk/ComfyUI-GROUT",
@@ -44019,6 +44019,76 @@
       ],
       "install_type": "git-clone",
       "description": "Load and run GLM-OCR (zai-org/GLM-OCR) locally in ComfyUI. Supports text recognition, formula recognition, table extraction, and general image description. Picks up models from any ComfyUI checkpoint directory."
+    },
+    {
+      "author": "SeanBRVFX",
+      "title": "ComfyUI-CorridorKey",
+      "reference": "https://github.com/SeanBRVFX/ComfyUI-CorridorKey",
+      "files": [
+        "https://github.com/SeanBRVFX/ComfyUI-CorridorKey"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for CorridorKey-style edge-aware coarse mask refinement."
+    },
+    {
+      "author": "boobkake22",
+      "title": "ComfyUI-SimpleSwitch",
+      "reference": "https://github.com/boobkake22/ComfyUI-SimpleSwitch",
+      "files": [
+        "https://github.com/boobkake22/ComfyUI-SimpleSwitch"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for first-non-empty wildcard switching across 6 inputs."
+    },
+    {
+      "author": "boobkake22",
+      "title": "ComfyUI-WanResolutions",
+      "reference": "https://github.com/boobkake22/ComfyUI-WanResolutions",
+      "files": [
+        "https://github.com/boobkake22/ComfyUI-WanResolutions"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for selecting WAN resolution presets by aspect ratio."
+    },
+    {
+      "author": "wobba",
+      "title": "ComfyUI-ChatterBox-Turbo",
+      "reference": "https://github.com/wobba/ComfyUI-ChatterBox-Turbo",
+      "files": [
+        "https://github.com/wobba/ComfyUI-ChatterBox-Turbo"
+      ],
+      "install_type": "git-clone",
+      "description": "ChatterBox Turbo TTS node for ComfyUI — fast 350M-param text-to-speech with emotion tags"
+    },
+    {
+      "author": "Manycore Tech",
+      "title": "ComfyUI-Lux3D",
+      "id": "ComfyUI-Lux3D",
+      "reference": "https://github.com/manycore-research/ComfyUI-Lux3D",
+      "files": [
+        "https://github.com/manycore-research/ComfyUI-Lux3D"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI extension providing nodes for generating 3D models from images and rendering/visualizing 3D assets within your workflow."
+    },
+    {
+      "author": "DailyMok",
+      "title": "dAIly Prompt & Token Utils",
+      "id": "daily-prompt-token-utils",
+      "reference": "https://github.com/DailyMok/ComfyUI-dAIly",
+      "files": [
+        "https://github.com/DailyMok/ComfyUI-dAIly"
+      ],
+      "install_type": "git-clone",
+      "description": "Smart real-time token counter for CLIP-L, T5-XXL (Flux), Qwen + seed-controlled prompt mixer from custom CSV wildcards. Supports field overrides, flat/paragraph modes, thread-safe caching.",
+      "tags": [
+        "prompt",
+        "token",
+        "csv",
+        "wildcard",
+        "utils",
+        "text"
+      ]
     },
     {
       "author": "Ser-Hilary",
