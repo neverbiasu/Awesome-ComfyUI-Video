@@ -72,6 +72,26 @@
       "description": "A massive node pack consisting of over 200 nodes, including image processing, masking, text handling, and arithmetic operations.\nNOTE: A replacement node pack provided for existing users following the retirement of the original author of the widely used WAS Node Suite."
     },
     {
+      "author": "Test.Data",
+      "title": "TEST NODEPACK: DON'T INSTALL THIS #1",
+      "reference": "https://github.com/ltdrdata/nodepack-test1-do-not-install",
+      "files": [
+        "https://github.com/ltdrdata/nodepack-test1-do-not-install"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a test nodepack for safely testing the functionality of ComfyUI-Manager. Please do not install this nodepack."
+    },
+    {
+      "author": "Test.Data",
+      "title": "TEST NODEPACK: DON'T INSTALL THIS #2",
+      "reference": "https://github.com/ltdrdata/nodepack-test2-do-not-install",
+      "files": [
+        "https://github.com/ltdrdata/nodepack-test2-do-not-install"
+      ],
+      "install_type": "git-clone",
+      "description": "This is a test nodepack for safely testing the functionality of ComfyUI-Manager. Please do not install this nodepack."
+    },
+    {
       "author": "comfyanonymous",
       "title": "ComfyUI_experiments",
       "id": "comfy-exp",
@@ -43229,16 +43249,6 @@
       ],
       "install_type": "git-clone",
       "description": "A lightweight ComfyUI node that intelligently rounds image dimensions to compatible resolutions using smart reflection mirroring."
-    },
-    {
-      "author": "AnastasiyaW",
-      "title": "ComfyUI-SmartScreenshotCleaner",
-      "reference": "https://github.com/AnastasiyaW/ComfyUI-SmartScreenshotCleaner",
-      "files": [
-        "https://github.com/AnastasiyaW/ComfyUI-SmartScreenshotCleaner"
-      ],
-      "install_type": "git-clone",
-      "description": "Nodes for removing UI elements from screenshots by detecting and masking icons, buttons, and text. (Description by CC)"
     },
     {
       "author": "neurodanzelus-cmd",
