@@ -990,18 +990,6 @@
       "description": "OpenImageIO plugin for ComfyUI"
     },
     {
-      "author": "xXAdonesXx",
-      "title": "NodeGPT",
-      "id": "nodegpt",
-      "reference": "https://github.com/xXAdonesXx/NodeGPT",
-      "reference2": "https://github.com/antonym-git/NodeGPT",
-      "files": [
-        "https://github.com/xXAdonesXx/NodeGPT"
-      ],
-      "install_type": "git-clone",
-      "description": "Implementation of AutoGen inside ComfyUI. This repository is under development, and not everything is functioning correctly yet."
-    },
-    {
       "author": "ciri",
       "title": "ComfyUI Model Downloader",
       "id": "model-downloader",
@@ -39453,6 +39441,17 @@
       "description": "Advanced nodes optimized for ACE-Step audio generation in ComfyUI."
     },
     {
+      "author": "jeankassio",
+      "title": "ComfyUI-AceStep_SFT",
+      "id": "ComfyUI-AceStep_SFT",
+      "reference": "https://github.com/jeankassio/ComfyUI-AceStep_SFT",
+      "files": [
+        "https://github.com/jeankassio/ComfyUI-AceStep_SFT"
+      ],
+      "install_type": "git-clone",
+      "description": "An all-in-one node for ComfyUI that implements AceStep 1.5 SFT (Supervised Fine-Tuning), a high-quality music generation model. This node replicates the full functionality of the official Gradio pipeline, offering fine control over audio synthesis parameters."
+    },
+    {
       "author": "ameyukisora",
       "title": "ComfyUI Empty Latent Advanced",
       "reference": "https://github.com/ameyukisora/ComfyUI-Empty-Latent-Advanced",
@@ -42126,6 +42125,16 @@
       ],
       "install_type": "git-clone",
       "description": "Architecture-aware LoRA loader for Z-Image Turbo (Lumina2) in ComfyUI. Fixes silent key mismatches by auto-fusing separate Q/K/V into Z-Image's fused QKV format and remapping output projections."
+    },
+    {
+      "author": "capitan01R",
+      "title": "Comfyui-flux2klein-Lora-loader",
+      "reference": "https://github.com/capitan01R/Comfyui-flux2klein-Lora-loader",
+      "files": [
+        "https://github.com/capitan01R/Comfyui-flux2klein-Lora-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Architecture-aware LoRA loader for FLUX.2 Klein in ComfyUI with automatic per-layer strength calibration."
     },
     {
       "author": "advancedtech-sk",
@@ -45216,13 +45225,14 @@
     },
     {
       "author": "DaPaLi",
-      "title": "comfyui-block-bypass",
+      "title": "ComfyUI Block Bypass Switch",
+      "id": "comfyui-block-bypass",
       "reference": "https://github.com/DaPaLi/comfyui-block-bypass",
       "files": [
         "https://github.com/DaPaLi/comfyui-block-bypass"
       ],
       "install_type": "git-clone",
-      "description": "1-Klick Block Bypass Switch Node für ComfyUI"
+      "description": "Bypass or mute entire node groups with a single click. Includes a Block Bypass Switch node, Group Bypass right-click menu, and a floating Group Bypass Panel."
     },
     {
       "author": "imgslider",
@@ -45273,6 +45283,47 @@
       ],
       "install_type": "git-clone",
       "description": "Anima Detail Enhancer Node for ComfyUI"
+    },
+    {
+      "author": "ID-LoRA",
+      "title": "ID-LoRA-LTX2.3-ComfyUI",
+      "reference": "https://github.com/ID-LoRA/ID-LoRA-LTX2.3-ComfyUI",
+      "files": [
+        "https://github.com/ID-LoRA/ID-LoRA-LTX2.3-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for ID-LoRA-2.3 one-stage audio+video generation with speaker identity transfer"
+    },
+    {
+      "author": "TuZZiL",
+      "title": "ComfyUI-FLUX-Klein-Identity-Edit-Loader",
+      "reference": "https://github.com/TuZZiL/ComfyUI-FLUX-Klein-Identity-Edit-Loader",
+      "files": [
+        "https://github.com/TuZZiL/ComfyUI-FLUX-Klein-Identity-Edit-Loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Architecture-aware FLUX.2 Klein LoRA loader for ComfyUI with identity-preserving edit controls and drift-risk analysis."
+    },
+    {
+      "author": "cowneko",
+      "title": "CWK Prompt Composer",
+      "reference": "https://github.com/cowneko/CWK_Prompt_Composer",
+      "files": [
+        "https://github.com/cowneko/CWK_Prompt_Composer"
+      ],
+      "install_type": "git-clone",
+      "description": "A visual pill-based prompt composer node for ComfyUI. Features 4 prompt panels (Quality, Main, Aesthetic, Negative), tag browser, drag-to-reorder pills, weight control, presets, Lucky prompt generator, manual override mode, and wildcard (.yaml) file loader."
+    },
+    {
+      "author": "dogodg3838",
+      "title": "ComfyUI-NvEye",
+      "id": "ComfyUI-NvEye",
+      "reference": "https://github.com/dogodg3838/ComfyUI-NvEye",
+      "files": [
+        "https://github.com/dogodg3838/ComfyUI-NvEye"
+      ],
+      "install_type": "git-clone",
+      "description": "Lightweight NVIDIA hardware monitor for ComfyUI. No node conflicts, pure display widget."
     },
     {
       "author": "Ser-Hilary",
