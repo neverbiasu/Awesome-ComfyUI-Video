@@ -45326,6 +45326,17 @@
       "description": "Lightweight NVIDIA hardware monitor for ComfyUI. No node conflicts, pure display widget."
     },
     {
+      "author": "Jimpi",
+      "title": "WorkflowUIPlugin",
+      "id": "workflowuiplugin",
+      "reference": "https://github.com/jimpi-dev/WorkflowUIPlugin",
+      "files": [
+        "https://github.com/jimpi-dev/WorkflowUIPlugin"
+      ],
+      "install_type": "git-clone",
+      "description": "This plugin adds features in order to enable full functionality of WorkflowUI Application to which turns your workflows into apps and provides structures for organizing your generations."
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
