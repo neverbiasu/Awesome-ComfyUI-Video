@@ -4110,27 +4110,6 @@
       "description": "Nodes:ImageOverlap-badger, FloatToInt-badger, IntToString-badger, FloatToString-badger, ImageNormalization-badger, ImageScaleToSide-badger, NovelToFizz-badger."
     },
     {
-      "author": "palant",
-      "title": "Image Resize for ComfyUI",
-      "id": "image-resize",
-      "reference": "https://github.com/palant/image-resize-comfyui",
-      "files": [
-        "https://github.com/palant/image-resize-comfyui"
-      ],
-      "install_type": "git-clone",
-      "description": "This custom node provides various tools for resizing images. The goal is resizing without distorting proportions, yet without having to perform any calculations with the size of the original image. If a mask is present, it is resized and modified along with the image."
-    },
-    {
-      "author": "palant",
-      "title": "Integrated Nodes for ComfyUI",
-      "reference": "https://github.com/palant/integrated-nodes-comfyui",
-      "files": [
-        "https://github.com/palant/integrated-nodes-comfyui"
-      ],
-      "install_type": "git-clone",
-      "description": "This tool will turn entire workflows or parts of them into single integrated nodes. In a way, it is similar to the Node Templates functionality but hides the inner structure. This is useful if all you want is to reuse and quickly configure a bunch of nodes without caring how they are interconnected."
-    },
-    {
       "author": "whmc76",
       "title": "ComfyUI-Openpose-Editor-Plus",
       "id": "openpose-editor-plus",
@@ -5253,16 +5232,6 @@
       ],
       "install_type": "git-clone",
       "description": "FL DiffVSR - Diffusion-based video super-resolution nodes for ComfyUI. Features 4x upscaling with temporal coherence using Stream-DiffVSR for smooth, artifact-free video enhancement. Supports text-guided upscaling, chunked processing for memory efficiency, and automatic model downloading from HuggingFace."
-    },
-    {
-      "author": "zfkun",
-      "title": "ComfyUI_zfkun",
-      "reference": "https://github.com/zfkun/ComfyUI_zfkun",
-      "files": [
-        "https://github.com/zfkun/ComfyUI_zfkun"
-      ],
-      "install_type": "git-clone",
-      "description": "A collection of nodes for common tools, including text preview, text translation (multi-platform, multi-language), image loader, webcamera capture."
     },
     {
       "author": "zcfrank1st",
@@ -9923,6 +9892,17 @@
       "description": "This is an extension for ComfyUI that makes it possible to use some LLM models provided by Ollama, such as Gemma, Llava (multimodal), Llama2, Llama3 or Mistral. Speaking specifically of the LLaVa - Large Language and Vision Assistant model, although trained on a relatively small dataset, it demonstrates exceptional capabilities in understanding images and answering questions about them. This model presents similar behaviors to multimodal models such as GPT-4, even when presented with invisible images and instructions."
     },
     {
+      "author": "alisson-anjos",
+      "title": "ComfyUI-BFSNodes",
+      "id": "ComfyUI-BFSNodes",
+      "reference": "https://github.com/alisson-anjos/ComfyUI-BFSNodes",
+      "files": [
+        "https://github.com/alisson-anjos/ComfyUI-BFSNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Custom Nodes including FrameRangedFaceLoader for consistent face editing and framing"
+    },
+    {
       "author": "chaosaiart",
       "title": "Chaosaiart-Nodes",
       "id": "chaosaiart",
@@ -13995,6 +13975,16 @@
       ],
       "install_type": "git-clone",
       "description": "Self-contained ComfyUI nodes for Tongyi Z-Image-Turbo high-quality workflows"
+    },
+    {
+      "author": "marduk191",
+      "title": "ComfyUI_Matchering",
+      "reference": "https://github.com/marduk191/ComfyUI_Matchering",
+      "files": [
+        "https://github.com/marduk191/ComfyUI_Matchering"
+      ],
+      "install_type": "git-clone",
+      "description": "A Matchering audio mastering/matching node for ComfyUI."
     },
     {
       "author": "haohaocreates",
@@ -19754,16 +19744,6 @@
       ],
       "install_type": "git-clone",
       "description": "Just like when your pizza is ready and the oven goes 'Ding! 🍕', this plugin lets your ComfyUI notify you when your AI creations are done baking!\nA ComfyUI custom node that sends you a friendly 'ding-dong' notification when your workflows are fully cooked and ready to serve. No more staring at the screen waiting - let the AI kitchen tell you when dinner's ready! 👨‍🍳"
-    },
-    {
-      "author": "lgldlk",
-      "title": "ComfyUI-PSD-Replace",
-      "reference": "https://github.com/lgldlk/ComfyUI-PSD-Replace",
-      "files": [
-        "https://github.com/lgldlk/ComfyUI-PSD-Replace"
-      ],
-      "install_type": "git-clone",
-      "description": "One click replacement of smart objects or layers in PSD"
     },
     {
       "author": "Wakfull33",
@@ -29980,6 +29960,16 @@
       "description": "Native ComfyUI WAN Spectrum forecaster nodes"
     },
     {
+      "author": "xmarre",
+      "title": "ComfyUI-Flux2Klein-Conditioning-Toolkit",
+      "reference": "https://github.com/xmarre/ComfyUI-Flux2Klein-Conditioning-Toolkit",
+      "files": [
+        "https://github.com/xmarre/ComfyUI-Flux2Klein-Conditioning-Toolkit"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for FLUX.2 Klein conditioning: region-aware text enhancement, sectioned prompt encoding, and corrected reference-latent mixing with multi-reference support."
+    },
+    {
       "author": "Pigidiy",
       "title": "ComfyUI-LikeSpiderAI-UI",
       "id": "like_spider_ui",
@@ -32517,16 +32507,6 @@
       ],
       "install_type": "git-clone",
       "description": "Un nodo personalizado para ComfyUI que ajusta imágenes a diferentes relaciones de aspecto manteniendo las proporciones originales."
-    },
-    {
-      "author": "Rizzlord",
-      "title": "ComfyUI-RizzNodes",
-      "reference": "https://github.com/Rizzlord/ComfyUI-RizzNodes",
-      "files": [
-        "https://github.com/Rizzlord/ComfyUI-RizzNodes"
-      ],
-      "install_type": "git-clone",
-      "description": "RizzNodes for ComfyUI Welcome to RizzNodes, a collection of custom nodes for ComfyUI designed to streamline various workflows, from loading images and models in batches to dynamic prompt generation and memory management."
     },
     {
       "author": "jupo-ai",
@@ -37244,6 +37224,16 @@
       "description": "A ComfyUI custom node for text-to-speech integration with a local TTS server."
     },
     {
+      "author": "GeekatplayStudio",
+      "title": "ComfyUI-UltimateUpsacaler",
+      "reference": "https://github.com/GeekatplayStudio/ComfyUI-UltimateUpsacaler",
+      "files": [
+        "https://github.com/GeekatplayStudio/ComfyUI-UltimateUpsacaler"
+      ],
+      "install_type": "git-clone",
+      "description": "Geekatplay Studio tiled generative upscale helpers for ComfyUI"
+    },
+    {
       "author": "wouterverweirder",
       "title": "ComfyUI PenPlotter",
       "reference": "https://github.com/wouterverweirder/comfyui-penplotter",
@@ -41571,6 +41561,16 @@
       "description": "A ComfyUI custom node that brings the \"Fill with Video\" AI prompt suggestion feature from LTX Desktop into ComfyUI workflows using Google Gemini 2.5 Flash."
     },
     {
+      "author": "PixWizardry",
+      "title": "ComfyUI-PIX_Nvidia_RTX_Deblur_Denoise",
+      "reference": "https://github.com/PixWizardry/ComfyUI-PIX_Nvidia_RTX_Deblur_Denoise",
+      "files": [
+        "https://github.com/PixWizardry/ComfyUI-PIX_Nvidia_RTX_Deblur_Denoise"
+      ],
+      "install_type": "git-clone",
+      "description": "NVIDIA RTX Deblur & Denoise Nodes for ComfyUI\\nThis extension provides GPU-accelerated deblur and denoise nodes powered by NVIDIA RTX technology via the nvvfx SDK."
+    },
+    {
       "author": "danielwolber-wood",
       "title": "ComfyUI-FString",
       "reference": "https://github.com/danielwolber-wood/ComfyUI-FString",
@@ -45242,7 +45242,8 @@
         "https://github.com/imgslider/ComfyUI-ImgSlider"
       ],
       "install_type": "git-clone",
-      "description": "Image Compare - Before/After slider for comparing images. Share comparisons via imgslider.com"
+      "category": "image",
+      "description": "Creates before/after image comparison sliders from two images. Publishes to a shareable URL."
     },
     {
       "author": "mikhailverghese",
@@ -45335,6 +45336,138 @@
       ],
       "install_type": "git-clone",
       "description": "This plugin adds features in order to enable full functionality of WorkflowUI Application to which turns your workflows into apps and provides structures for organizing your generations."
+    },
+    {
+      "author": "jeremieLouvaert",
+      "title": "comfyui-prompt-assembler",
+      "reference": "https://github.com/jeremieLouvaert/comfyui-prompt-assembler",
+      "files": [
+        "https://github.com/jeremieLouvaert/comfyui-prompt-assembler"
+      ],
+      "install_type": "git-clone",
+      "description": "Modular prompt assembly nodes for ComfyUI — 8-slot, compact 4-slot, and weighted 6-slot with attention syntax"
+    },
+    {
+      "author": "jeremieLouvaert",
+      "title": "ComfyUI-Prompt-Vault",
+      "reference": "https://github.com/jeremieLouvaert/ComfyUI-Prompt-Vault",
+      "files": [
+        "https://github.com/jeremieLouvaert/ComfyUI-Prompt-Vault"
+      ],
+      "install_type": "git-clone",
+      "description": "Photographic prompt arsenal — curated templates and component builder with real camera gear, lighting, film stocks"
+    },
+    {
+      "author": "vpominchuk",
+      "title": "ComfyUI-Wildcard-Prompt",
+      "reference": "https://github.com/vpominchuk/ComfyUI-Wildcard-Prompt",
+      "files": [
+        "https://github.com/vpominchuk/ComfyUI-Wildcard-Prompt"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node that resolves __wildcard__ tokens in prompt strings from text files."
+    },
+    {
+      "author": "ArtemKo7v",
+      "title": "ComfyUI-Captionator-Qwen35",
+      "reference": "https://github.com/ArtemKo7v/ComfyUI-Captionator-Qwen35",
+      "files": [
+        "https://github.com/ArtemKo7v/ComfyUI-Captionator-Qwen35"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Qwen 3.5 Prompting nodes (captionate image, improve prompt, etc)"
+    },
+    {
+      "author": "kymeraj",
+      "title": "comfyui-prompt-builder",
+      "reference": "https://github.com/kymeraj/comfyui-prompt-builder",
+      "files": [
+        "https://github.com/kymeraj/comfyui-prompt-builder"
+      ],
+      "install_type": "git-clone",
+      "description": "Compose prompts from multiple toggleable text slots. Combine enabled entries or select one. Dynamic slot visibility with up to 10 text slots in a single node."
+    },
+    {
+      "author": "TakkunRed",
+      "title": "comfyui_checkpoint_preset_manager",
+      "reference": "https://github.com/TakkunRed/comfyui_checkpoint_preset_manager",
+      "files": [
+        "https://github.com/TakkunRed/comfyui_checkpoint_preset_manager"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI designed to manage and automate optimal settings for different Checkpoints. It allows you to save and recall specific parameters—including steps, CFG, samplers, schedulers, and resolutions—linked directly to the model name."
+    },
+    {
+      "author": "krishnancr",
+      "title": "ComfyUI Pulse MeshAudit",
+      "id": "comfyui-pulse-meshaudit",
+      "reference": "https://github.com/krishnancr/ComfyUI-Pulse-MeshAudit",
+      "files": [
+        "https://github.com/krishnancr/ComfyUI-Pulse-MeshAudit"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for auditing 3D mesh files by rendering them with a headless renderer and displaying an interactive carousel of renders with detailed mesh statistics. Features 16 renders per execution (4 camera angles x 4 shading modes), an interactive image viewer, and an asset statistics panel with geometry and quality metrics. Supports Linux x64 and Windows x64 with Vulkan-capable GPUs."
+    },
+    {
+      "author": "HalfikCode",
+      "title": "Prompt DB",
+      "reference": "https://github.com/HalfikCode/ComfyUI-Prompt-DB",
+      "files": [
+        "https://github.com/HalfikCode/ComfyUI-Prompt-DB"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful prompt management system for ComfyUI. Store, categorize, search, and combine prompts with full LoRA integration — all from a beautiful built-in web UI."
+    },
+    {
+      "author": "Stibo",
+      "title": "Nifty Nodes for ComfyUI",
+      "id": "comfyui-nifty-nodes",
+      "reference": "https://github.com/Stibo/comfyui-nifty-nodes",
+      "files": [
+        "https://github.com/Stibo/comfyui-nifty-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Utility nodes for ComfyUI: logic switches, bundle nodes, selectors, bypass nodes, image/latent utilities, and workflow automation nodes."
+    },
+    {
+      "author": "MVNT",
+      "title": "ComfyUI-MVNT",
+      "id": "comfyui-mvnt",
+      "reference": "https://github.com/mvnt-app/ComfyUI-MVNT",
+      "files": [
+        "https://github.com/mvnt-app/ComfyUI-MVNT"
+      ],
+      "install_type": "git-clone",
+      "description": "AI dance choreography from music. Generate full-body dance motion (BVH/FBX/JSON) from any audio track using MVNT's diffusion model trained with 100+ professional choreographers. Create rigged 3D characters from images, preview motion as stick-figure animations, and export photorealistic AI music videos — all inside ComfyUI. Nodes: MVNT Generate Dance, MVNT Generate Character, MVNT Export Video, MVNT Preview BVH, MVNT List Styles, MVNT Estimate Cost, MVNT Load Motion."
+    },
+    {
+      "author": "yhryzy",
+      "title": "ComfyUI-VULCA",
+      "id": "comfyui-vulca",
+      "reference": "https://github.com/vulca-org/comfyui-vulca",
+      "files": [
+        "https://github.com/vulca-org/comfyui-vulca"
+      ],
+      "install_type": "git-clone",
+      "description": "Cultural art evaluation nodes — L1-L5 scoring across 15+ traditions, Brief-driven creative workflows, and natural language feedback. Evaluate AI-generated art for cultural accuracy and get actionable improvement suggestions. Requires: pip install vulca",
+      "tags": [
+        "evaluation",
+        "cultural",
+        "art",
+        "L1-L5",
+        "creative"
+      ]
+    },
+    {
+      "author": "vegaflowltd",
+      "title": "Vega Flow V8.9 — Temporal Stabilisation",
+      "id": "comfyui-vegaflow",
+      "reference": "https://github.com/vegaflowltd/ComfyUI-VegaFlow",
+      "files": [
+        "https://github.com/vegaflowltd/ComfyUI-VegaFlow"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional temporal stabilisation engine. Eliminates flicker, luminance drift, and frame-to-frame inconsistency in AI-generated and traditional video footage."
     },
     {
       "author": "Ser-Hilary",
