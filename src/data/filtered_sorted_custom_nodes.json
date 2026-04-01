@@ -9,8 +9,8 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI wrapper nodes for [a/WanVideo](https://github.com/Wan-Video/Wan2.1) and related models.",
-      "stars": 6239,
-      "author_account_age_days": 2827
+      "stars": 6241,
+      "author_account_age_days": 2828
     },
     {
       "author": "MrForExample",
@@ -23,8 +23,8 @@
       "nodename_pattern": "^\\[Comfy3D\\]",
       "install_type": "git-clone",
       "description": "Make 3D assets generation in ComfyUI good and convenient as it generates image/video!\nThis is an extensive node suite that enables ComfyUI to process 3D inputs (Mesh & UV Texture, etc.) using cutting edge algorithms (3DGS, NeRF, etc.) and models (InstantMesh, CRM, TripoSR, etc.)\nNOTE: Pre-built python wheels can manually download from [a/https://github.com/MrForExample/Comfy3D_Pre_Builds](https://github.com/MrForExample/Comfy3D_Pre_Builds) if automatic install failed",
-      "stars": 3694,
-      "author_account_age_days": 2205
+      "stars": 3696,
+      "author_account_age_days": 2206
     },
     {
       "author": "lightricks",
@@ -36,7 +36,7 @@
       ],
       "install_type": "git-clone",
       "description": "Custom nodes for LTX-Video support in ComfyUI",
-      "stars": 3381,
+      "stars": 3386,
       "author_account_age_days": 4835
     },
     {
@@ -48,8 +48,8 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node suite for ComfyUI that provides accelerated multi-GPU video generation using [a/FastVideo](https://github.com/hao-ai-lab/FastVideo).",
-      "stars": 3332,
-      "author_account_age_days": 886
+      "stars": 3333,
+      "author_account_age_days": 887
     },
     {
       "author": "kijai",
@@ -61,7 +61,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI diffusers wrapper nodes for [a/HunyuanVideo](https://github.com/Tencent/HunyuanVideo)",
       "stars": 2589,
-      "author_account_age_days": 2827
+      "author_account_age_days": 2828
     },
     {
       "author": "NumZ",
@@ -73,7 +73,7 @@
       ],
       "install_type": "git-clone",
       "description": "Welcome to the ComfyUI-SeedVR2 Video Upscaler repository! This project offers a non-official video upscaling tool designed specifically for ComfyUI. With this tool, you can enhance your video quality, making your visual content more engaging and clearer.",
-      "stars": 2277,
+      "stars": 2283,
       "author_account_age_days": 5428
     },
     {
@@ -86,8 +86,8 @@
       ],
       "install_type": "git-clone",
       "description": "Video Generation Nodes for EasyAnimate, which suppors text-to-video, image-to-video, video-to-video and different controls.",
-      "stars": 2252,
-      "author_account_age_days": 962
+      "stars": 2251,
+      "author_account_age_days": 963
     },
     {
       "author": "bubbliiiing",
@@ -98,8 +98,8 @@
       ],
       "install_type": "git-clone",
       "description": "VideoX-Fun is a video generation pipeline that can be used to generate AI images and videos, as well as to train baseline and Lora models for Diffusion Transformer. We support direct prediction from pre-trained baseline models to generate videos with different resolutions, durations, and FPS. Additionally, we also support users in training their own baseline and Lora models to perform specific style transformations.",
-      "stars": 1989,
-      "author_account_age_days": 962
+      "stars": 1993,
+      "author_account_age_days": 963
     },
     {
       "author": "shadowcz007",
@@ -113,7 +113,7 @@
       "install_type": "git-clone",
       "description": "3D, ScreenShareNode & FloatingVideoNode, SpeechRecognition & SpeechSynthesis, GPT, LoadImagesFromLocal, Layers, Other Nodes, ...",
       "stars": 1826,
-      "author_account_age_days": 2687
+      "author_account_age_days": 2688
     },
     {
       "author": "Kosinkadink",
@@ -125,8 +125,8 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes related to video workflows",
-      "stars": 1568,
-      "author_account_age_days": 4360
+      "stars": 1569,
+      "author_account_age_days": 4361
     },
     {
       "author": "kijai",
@@ -137,8 +137,8 @@
       ],
       "install_type": "git-clone",
       "description": "Diffusers wrapper for CogVideoX -models: [a/https://github.com/THUDM/CogVideo](https://github.com/THUDM/CogVideo)",
-      "stars": 1546,
-      "author_account_age_days": 2827
+      "stars": 1547,
+      "author_account_age_days": 2828
     },
     {
       "author": "kijai",
@@ -158,8 +158,8 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes to use [a/segment-anything-2](https://github.com/facebookresearch/segment-anything-2) for image or video segmentation.",
-      "stars": 1183,
-      "author_account_age_days": 2827
+      "stars": 1182,
+      "author_account_age_days": 2828
     },
     {
       "author": "ClownsharkBatwing",
@@ -171,7 +171,7 @@
       ],
       "install_type": "git-clone",
       "description": "Advanced samplers with new noise scaling math to enable SDE sampling with all publicly available native models; new unsampling/noise inversion methods and other advanced img2img techniques for inpainting and/or guiding the sampling process with guide images, with results superior to FlowEdit, RF Inversion, and other SOTA implementations. Also new style transfer methods unique to this node pack; regional conditioning for HiDream, Flux, AuraFlow, and WAN; methods for eliminating Flux blur; and temporal conditioning (shift gradually from one prompt to the next with video). 115 sampler types, 24 noise types, 11 noise scaling modes, in a single node. Also includes a wide variety of QoF and other utility nodes for boosting detail, manipulating sigmas, latents, images, and more.",
-      "stars": 1045,
+      "stars": 1049,
       "author_account_age_days": 674
     },
     {
@@ -185,7 +185,7 @@
       "install_type": "git-clone",
       "description": "A custom node suite for Video Frame Interpolation in ComfyUI",
       "stars": 1000,
-      "author_account_age_days": 3776
+      "author_account_age_days": 3777
     },
     {
       "author": "banodoco",
@@ -198,7 +198,7 @@
       "install_type": "git-clone",
       "description": "Steerable Motion is a ComfyUI node for batch creative interpolation. Our goal is to feature the best methods for steering motion with images as video models evolve.",
       "stars": 971,
-      "author_account_age_days": 1046
+      "author_account_age_days": 1047
     },
     {
       "author": "ShmuelRonen",
@@ -210,7 +210,7 @@
       "install_type": "git-clone",
       "description": "This node provides lip-sync capabilities in ComfyUI using ByteDance's LatentSync model. It allows you to synchronize video lips with audio input.",
       "stars": 942,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "pollockjj",
@@ -221,7 +221,7 @@
       ],
       "install_type": "git-clone",
       "description": "This extension adds CUDA device selection to supported loader nodes in ComfyUI. By monkey-patching ComfyUI’s memory management, each model component (like UNet, Clip, or VAE) can be loaded on a specific GPU. Examples included are multi-GPU workflows for SDXL, FLUX, LTXVideo, and Hunyuan Video for both standard and GGUF loader nodes.",
-      "stars": 834,
+      "stars": 836,
       "author_account_age_days": 4151
     },
     {
@@ -233,8 +233,8 @@
       ],
       "install_type": "git-clone",
       "description": "Lucy Edit is a video editing model that performs instruction-guided edits on videos using free-text prompts — it supports a variety of edits, such as clothing & accessory changes, character changes, object insertions, and scene replacements while preserving the motion and composition perfectly.",
-      "stars": 733,
-      "author_account_age_days": 954
+      "stars": 734,
+      "author_account_age_days": 955
     },
     {
       "author": "1038lab",
@@ -245,8 +245,8 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI-QwenVL custom node: Integrates the Qwen-VL series, including Qwen2.5-VL and the latest Qwen3-VL, to enable advanced multimodal AI for text generation, image understanding, and video analysis.",
-      "stars": 714,
-      "author_account_age_days": 1096
+      "stars": 715,
+      "author_account_age_days": 1097
     },
     {
       "author": "kijai",
@@ -259,7 +259,7 @@
       "install_type": "git-clone",
       "description": "Wrapper nodes to use DynamiCrafter image2video and frame interpolation models in ComfyUI\nAnd this extension supports ToonCrafter as well",
       "stars": 681,
-      "author_account_age_days": 2827
+      "author_account_age_days": 2828
     },
     {
       "author": "yvann-ba",
@@ -271,7 +271,7 @@
       "install_type": "git-clone",
       "description": "Audio Reactive nodes for AI animations 🔊 Analyze audio, extract drums, bass, vocals. Compatible with IPAdapter, ControlNets, AnimateDiff... Generate reactive masks and weights. Create audio-driven visuals. Produce weight graphs and audio masks. Ideal for music videos and reactive animations. Features audio scheduling and waveform analysis",
       "stars": 678,
-      "author_account_age_days": 1544
+      "author_account_age_days": 1545
     },
     {
       "author": "talesofai",
@@ -283,7 +283,7 @@
       "install_type": "git-clone",
       "description": "This is an image/video/workflow browser and manager for ComfyUI. You could add image/video/workflow to collections and load it to ComfyUI. You will be able to use your collections everywhere.",
       "stars": 656,
-      "author_account_age_days": 1200
+      "author_account_age_days": 1201
     },
     {
       "author": "princepainter",
@@ -300,8 +300,8 @@
         "Wan2.2",
         "LoRA"
       ],
-      "stars": 592,
-      "author_account_age_days": 1147
+      "stars": 593,
+      "author_account_age_days": 1148
     },
     {
       "author": "filliptm",
@@ -313,7 +313,7 @@
       "install_type": "git-clone",
       "description": "Fill-Nodes is a versatile collection of custom nodes for ComfyUI that extends functionality across multiple domains. Features include advanced image processing (pixelation, slicing, masking), visual effects generation (glitch, halftone, pixel art), comprehensive file handling (PDF creation/extraction, Google Drive integration), AI model interfaces (GPT, DALL-E, Hugging Face), utility nodes for workflow enhancement, and specialized tools for video processing, captioning, and batch operations. The pack provides both practical workflow solutions and creative tools within a unified node collection.",
       "stars": 583,
-      "author_account_age_days": 2380
+      "author_account_age_days": 2381
     },
     {
       "author": "Mr.ForExample",
@@ -327,7 +327,7 @@
       "install_type": "git-clone",
       "description": "Improved AnimateAnyone implementation that allows you to use the opse image sequence and reference image to generate stylized video.\nThe current goal of this project is to achieve desired pose2video result with 1+FPS on GPUs that are equal to or better than RTX 3080!🚀\n[w/The torch environment may be compromised due to version issues as some torch-related packages are being reinstalled.]",
       "stars": 559,
-      "author_account_age_days": 2205
+      "author_account_age_days": 2206
     },
     {
       "author": "IuvenisSapiens",
@@ -338,8 +338,8 @@
       ],
       "install_type": "git-clone",
       "description": "This is an implementation of [Qwen3-VL-Instruct](https://github.com/QwenLM/Qwen3-VL) by [ComfyUI](https://github.com/comfyanonymous/ComfyUI), which includes, but is not limited to, support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses.",
-      "stars": 538,
-      "author_account_age_days": 1055
+      "stars": 539,
+      "author_account_age_days": 1056
     },
     {
       "author": "IamCreateAI",
@@ -351,7 +351,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI wrapper nodes for Ruyi, an image-to-video model by CreateAI.",
       "stars": 523,
-      "author_account_age_days": 476
+      "author_account_age_days": 477
     },
     {
       "author": "SamKhoze",
@@ -364,7 +364,7 @@
       "install_type": "git-clone",
       "description": "DeepFuze is a state-of-the-art deep learning tool that seamlessly integrates with ComfyUI to revolutionize facial transformations, lipsyncing, video generation, voice cloning, face swapping, and lipsync translation. Leveraging advanced algorithms, DeepFuze enables users to combine audio and video with unparalleled realism, ensuring perfectly synchronized facial movements. This innovative solution is ideal for content creators, animators, developers, and anyone seeking to elevate their video editing projects with sophisticated AI-driven features.",
       "stars": 459,
-      "author_account_age_days": 2087
+      "author_account_age_days": 2088
     },
     {
       "author": "TMElyralab",
@@ -377,7 +377,7 @@
       "install_type": "git-clone",
       "description": "[a/MusePose](https://github.com/TMElyralab/MusePose) is an image-to-video generation framework for virtual human under control signal such as pose.\nNOTE: You need to download weigths manually from: [a/https://huggingface.co/TMElyralab/MusePose](https://huggingface.co/TMElyralab/MusePose).[w/The repository name has changed. If you are not receiving updates, please delete the existing node and reinstall it.]",
       "stars": 426,
-      "author_account_age_days": 741
+      "author_account_age_days": 742
     },
     {
       "author": "amorano",
@@ -390,7 +390,7 @@
       "install_type": "git-clone",
       "description": "Webcam, MIDI, Spout, and GLSL support with animation via tick. Features wave-based parameter modulation, math operations, universal value conversion, shape masking, image channel ops, batch processing, dynamic bus routing, GIPHY and SPOUT integration. Load images/videos from URLs, save output anywhere, and apply transformations like flattening, cropping, and color adjustments. Includes tools for color blindness simulation, stereograms, and stereoscopic imaging—plus much more!",
       "stars": 392,
-      "author_account_age_days": 5856
+      "author_account_age_days": 5857
     },
     {
       "author": "ZHO-ZHO-ZHO",
@@ -403,7 +403,7 @@
       "install_type": "git-clone",
       "description": "Unofficial implementation of APISR for ComfyUI, both image and video",
       "stars": 383,
-      "author_account_age_days": 984
+      "author_account_age_days": 985
     },
     {
       "author": "raindrop313",
@@ -415,7 +415,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI nodes that support video generation by start and end frames",
       "stars": 383,
-      "author_account_age_days": 1710
+      "author_account_age_days": 1711
     },
     {
       "author": "thecooltechguy",
@@ -427,7 +427,7 @@
       "install_type": "git-clone",
       "description": "Easily use Stable Video Diffusion inside ComfyUI!",
       "stars": 374,
-      "author_account_age_days": 3066
+      "author_account_age_days": 3067
     },
     {
       "author": "daniabib",
@@ -452,7 +452,7 @@
       "install_type": "git-clone",
       "description": "This repository is the official implementation of the [a/HelloMeme](https://arxiv.org/pdf/2410.22901) ComfyUI interface, featuring both image and video generation functionalities. Example workflow files can be found in the ComfyUI_HelloMeme/workflows directory. Test images and videos are saved in the ComfyUI_HelloMeme/examples directory. Below are screenshots of the interfaces for image and video generation.\nNOTE: 'HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models'",
       "stars": 373,
-      "author_account_age_days": 557
+      "author_account_age_days": 558
     },
     {
       "author": "9nate-drake",
@@ -464,7 +464,7 @@
       "install_type": "git-clone",
       "description": "Nodes for SeC (Segment Concept) - SOTA video object segmentation. Uses SeC-4B model by OpenIXCLab. Also includes coordinate plotter for visualization",
       "stars": 364,
-      "author_account_age_days": 2294
+      "author_account_age_days": 2295
     },
     {
       "author": "akatz-ai",
@@ -477,7 +477,7 @@
       "install_type": "git-clone",
       "description": "Implementation of DepthFlow nodes for ComfyUI, adds a 2.5D parallax effect to images and videos. Compatible with Ryan's Flex system.",
       "stars": 348,
-      "author_account_age_days": 679
+      "author_account_age_days": 680
     },
     {
       "author": "smthemex",
@@ -488,8 +488,8 @@
       ],
       "install_type": "git-clone",
       "description": "FlashVSR: Towards Real-Time Diffusion-Based Streaming Video Super-Resolution,this node ,you can use it in comfyUI",
-      "stars": 342,
-      "author_account_age_days": 998
+      "stars": 343,
+      "author_account_age_days": 999
     },
     {
       "author": "vrgamegirl19",
@@ -502,7 +502,7 @@
       "install_type": "git-clone",
       "description": "Film grain and color match nodes designed for high-quality frame-by-frame video enhancement in ComfyUI.",
       "stars": 340,
-      "author_account_age_days": 1053
+      "author_account_age_days": 1054
     },
     {
       "author": "ShmuelRonen",
@@ -514,7 +514,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that integrates Google's Gemini Flash 2.0 Experimental model, enabling multimodal analysis of text, images, video frames, and audio directly within ComfyUI workflows.",
       "stars": 336,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "logtd",
@@ -526,7 +526,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI nodes to edit videos using Genmo Mochi",
       "stars": 298,
-      "author_account_age_days": 766
+      "author_account_age_days": 767
     },
     {
       "author": "IuvenisSapiens",
@@ -538,7 +538,7 @@
       "install_type": "git-clone",
       "description": "This is an implementation of [MiniCPM-V-4_5](https://github.com/OpenBMB/MiniCPM-V) by [ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses.",
       "stars": 261,
-      "author_account_age_days": 1055
+      "author_account_age_days": 1056
     },
     {
       "author": "smthemex",
@@ -549,8 +549,8 @@
       ],
       "install_type": "git-clone",
       "description": "DiffuEraser is a diffusion model for video Inpainting, you can use it in ComfyUI",
-      "stars": 259,
-      "author_account_age_days": 998
+      "stars": 260,
+      "author_account_age_days": 999
     },
     {
       "author": "sh570655308",
@@ -563,7 +563,7 @@
       "install_type": "git-clone",
       "description": "Custom nodes use topazvideoai in comfyui.",
       "stars": 255,
-      "author_account_age_days": 3146
+      "author_account_age_days": 3147
     },
     {
       "author": "akatz-ai",
@@ -576,7 +576,7 @@
       "install_type": "git-clone",
       "description": "Implementation of DepthCrafter nodes for ComfyUI, create consistent depth maps for your videos.",
       "stars": 251,
-      "author_account_age_days": 679
+      "author_account_age_days": 680
     },
     {
       "author": "Nuked",
@@ -589,7 +589,7 @@
       "install_type": "git-clone",
       "description": "A suite of custom nodes for ConfyUI that includes GPT text-prompt generation, LoadVideo,SaveVideo,LoadFramesFromFolder and FrameInterpolator",
       "stars": 237,
-      "author_account_age_days": 5123
+      "author_account_age_days": 5124
     },
     {
       "author": "AInseven",
@@ -601,7 +601,7 @@
       "install_type": "git-clone",
       "description": "fastblend for comfyui, and other nodes that I write for video2video. rebatch image, my openpose",
       "stars": 232,
-      "author_account_age_days": 2327
+      "author_account_age_days": 2328
     },
     {
       "author": "eddyhhlure1Eddy",
@@ -613,7 +613,7 @@
       "install_type": "git-clone",
       "description": "The ode v2 version is a creative sampler characterized by low contrast, near-realistic quality, and artistic creation. It can only be used with high noise for 6 steps, low noise for 2 steps, and a middle split step of 4 steps. It requires a unique LoRA, which is currently in training and undergoing refinement, and is only in the testing phase. This version offers multiple options for you to choose from, and my recommendation is to go with robust-smooth or even lower. Stay tuned for the official release.",
       "stars": 227,
-      "author_account_age_days": 392
+      "author_account_age_days": 393
     },
     {
       "author": "Fannovel16",
@@ -626,7 +626,7 @@
       "install_type": "git-clone",
       "description": "A minimalistic implementation of [a/Robust Video Matting (RVM)](https://github.com/PeterL1n/RobustVideoMatting/) in ComfyUI",
       "stars": 225,
-      "author_account_age_days": 3776
+      "author_account_age_days": 3777
     },
     {
       "author": "yuvraj108c",
@@ -651,8 +651,8 @@
       ],
       "install_type": "git-clone",
       "description": "Memory-efficient image upscaling using SeedVR2 models with advanced tiling and detail-preserving stitching. Supports both stable and nightly SeedVR2 builds (3B/7B, FP16/FP8, GGUF models). Requires ComfyUI-SeedVR2_VideoUpscaler to be installed.",
-      "stars": 190,
-      "author_account_age_days": 5068
+      "stars": 191,
+      "author_account_age_days": 5069
     },
     {
       "author": "Isi-dev",
@@ -665,7 +665,7 @@
       "install_type": "git-clone",
       "description": "These are nodes to animate an image with a reference video using UniAnimate.",
       "stars": 187,
-      "author_account_age_days": 1736
+      "author_account_age_days": 1737
     },
     {
       "author": "gokayfem",
@@ -676,8 +676,8 @@
       ],
       "install_type": "git-clone",
       "description": "Custom nodes for using fal API. Video generation with Kling, Runway, Luma. Image generation with Flux. LLMs and VLMs OpenAI, Claude, Llama and Gemini.",
-      "stars": 180,
-      "author_account_age_days": 1702
+      "stars": 179,
+      "author_account_age_days": 1703
     },
     {
       "author": "fblissjr",
@@ -689,7 +689,7 @@
       "install_type": "git-clone",
       "description": "Custom nodes for bridging Qwen-Image and WAN video models in ComfyUI.",
       "stars": 177,
-      "author_account_age_days": 4008
+      "author_account_age_days": 4009
     },
     {
       "author": "impactframes",
@@ -702,7 +702,7 @@
       "install_type": "git-clone",
       "description": "Talking avatars MemoAvatar Memory-Guided Diffusion for Expressive Talking Video Generation",
       "stars": 174,
-      "author_account_age_days": 3506
+      "author_account_age_days": 3507
     },
     {
       "author": "al-swaiti",
@@ -714,7 +714,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI extension for Ollama, Gemini, OpenAI, Claude, and Qwen with video and audio support",
       "stars": 172,
-      "author_account_age_days": 1573
+      "author_account_age_days": 1574
     },
     {
       "author": "impactframes",
@@ -725,8 +725,8 @@
       ],
       "install_type": "git-clone",
       "description": "This is a ComfyUI custom node wrapper for the HunyuanVideo-Foley model, which generates realistic audio from video and text descriptions.",
-      "stars": 168,
-      "author_account_age_days": 3506
+      "stars": 167,
+      "author_account_age_days": 3507
     },
     {
       "author": "Kling AI",
@@ -738,7 +738,7 @@
       "install_type": "git-clone",
       "description": "Provide high-quality video and image generation capabilities, meeting creators' needs for creative content production and management through more convenient operations, richer functionalities, professional parameters, and stunning effects.",
       "stars": 167,
-      "author_account_age_days": 702
+      "author_account_age_days": 703
     },
     {
       "author": "princepainter",
@@ -757,7 +757,7 @@
         "workflow"
       ],
       "stars": 163,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "ShmuelRonen",
@@ -770,7 +770,7 @@
       "install_type": "git-clone",
       "description": "The Wav2Lip node is a custom node for ComfyUI that allows you to perform lip-syncing on videos using the Wav2Lip model. It takes an input video and an audio file and generates a lip-synced output video.",
       "stars": 159,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "Ltamann",
@@ -781,7 +781,7 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node extension integrating Meta's Segment Anything Model 3 (SAM 3) for advanced image and video segmentation with text-prompt, point-based, and mask-driven capabilities. Provides production-ready nodes compatible with ComfyUI's Impact Pack SEGS format, depth map generation, and support for Python 3.13+ with CUDA and CPU support.",
-      "stars": 157,
+      "stars": 159,
       "author_account_age_days": 4863
     },
     {
@@ -794,7 +794,7 @@
       "install_type": "git-clone",
       "description": "This repository provides a temporary ComfyUI node implementation of the Stand-In preprocessor, aiming to correct the misunderstanding of Stand-In’s preprocessing logic in [a/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper).\n[w/We strongly recommend using the workflows provided in this repo to ensure proper compatibility and the best identity-preserving performance.]",
       "stars": 157,
-      "author_account_age_days": 1937
+      "author_account_age_days": 1938
     },
     {
       "author": "shootthesound",
@@ -819,7 +819,7 @@
       "install_type": "git-clone",
       "description": "Jerry Davos Custom Nodes for Saving Latents in Directory (BatchLatentSave) , Importing Latent from directory (BatchLatentLoadFromDir) , List to string, string to list, get any file list from directory which give filepath, filename, move any files from any directory to any other directory, VHS Video combine file mover, rebatch list of strings, batch image load from any dir, load image batch from any directory and other custom nodes.",
       "stars": 149,
-      "author_account_age_days": 739
+      "author_account_age_days": 740
     },
     {
       "author": "KytraScript",
@@ -831,7 +831,7 @@
       "install_type": "git-clone",
       "description": "Kytra's MatAnyone (Video Matting) implementation for ComfyUI - Based on pq-yang/MatAnyone",
       "stars": 149,
-      "author_account_age_days": 2423
+      "author_account_age_days": 2424
     },
     {
       "author": "MoonHugo",
@@ -844,7 +844,7 @@
       "install_type": "git-clone",
       "description": "Encapsulate the commonly used functions of FFmpeg into ComfyUI nodes, making it convenient for users to perform various video processing tasks within ComfyUI.",
       "stars": 143,
-      "author_account_age_days": 573
+      "author_account_age_days": 574
     },
     {
       "author": "JiSenHua",
@@ -856,8 +856,8 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI designed to facilitate the real-time transmission of rendered images, videos, or 3D models to TouchDesigner.",
-      "stars": 139,
-      "author_account_age_days": 1388
+      "stars": 140,
+      "author_account_age_days": 1389
     },
     {
       "author": "princepainter",
@@ -869,7 +869,7 @@
       "install_type": "git-clone",
       "description": "Powerful node for generating long-form videos with consistent motion, global scene coherence, and slow-motion correction in Wan 2.2-based workflows.",
       "stars": 126,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "lldacing",
@@ -881,7 +881,7 @@
       "install_type": "git-clone",
       "description": "Some patches for Flux|HunYuanVideo|LTXVideo etc, support TeaCache, PuLID, First Block Cache.",
       "stars": 124,
-      "author_account_age_days": 2737
+      "author_account_age_days": 2738
     },
     {
       "author": "snicolast",
@@ -893,7 +893,7 @@
       "install_type": "git-clone",
       "description": "Lightweight ComfyUI wrapper that bring Character.AI's Ovi video+audio generator to ComfyUI with streamlined setup, selectable precision, and attention-backend control.",
       "stars": 122,
-      "author_account_age_days": 3018
+      "author_account_age_days": 3019
     },
     {
       "author": "facok",
@@ -905,7 +905,7 @@
       "install_type": "git-clone",
       "description": "A custom LoRA-loading node designed to prevent issues such as blurriness and other artifacts when loading multiple LoRAs in HunYuan Video.\nUsage Instructions: The connection method remains unchanged from the original. The only difference is the additional blocks_type option. Please select double_blocks.",
       "stars": 120,
-      "author_account_age_days": 1102
+      "author_account_age_days": 1103
     },
     {
       "author": "ShmuelRonen",
@@ -917,7 +917,7 @@
       "install_type": "git-clone",
       "description": "A memory-efficient implementation for upscaling videos in ComfyUI using non-diffusion upscaling models. This custom node is designed to handle large video frame sequences without memory bottlenecks.",
       "stars": 119,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "tiankuan93",
@@ -930,7 +930,7 @@
       "install_type": "git-clone",
       "description": "[Original] In the field of portrait video generation, the use of single images to generate portrait videos has become increasingly prevalent. A common approach involves leveraging generative models to enhance adapters for controlled generation. However, control signals can vary in strength, including text, audio, image reference, pose, depth map, etc. Among these, weaker conditions often struggle to be effective due to interference from stronger conditions, posing a challenge in balancing these conditions. In our work on portrait video generation, we identified audio signals as particularly weak, often overshadowed by stronger signals such as pose and original image. However, direct training with weak signals often leads to difficulties in convergence. To address this, we propose V-Express, a simple method that balances different control signals through a series of progressive drop operations. Our method gradually enables effective control by weak conditions, thereby achieving generation capabilities that simultaneously take into account pose, input image, and audio.\nNOTE: You need to downdload [a/model_ckpts](https://huggingface.co/tk93/V-Express/tree/main) manually.",
       "stars": 117,
-      "author_account_age_days": 3594
+      "author_account_age_days": 3595
     },
     {
       "author": "chaosaiart",
@@ -943,7 +943,7 @@
       "install_type": "git-clone",
       "description": "LowVRAM Animation : txt2video - img2video - video2video , Frame by Frame, compatible with LowVRAM GPUs\nIncluded : Prompt Switch, Checkpoint Switch, Cache, Number Count by Frame, Ksampler txt2img & img2img ...",
       "stars": 115,
-      "author_account_age_days": 978
+      "author_account_age_days": 979
     },
     {
       "author": "logtd",
@@ -956,7 +956,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI nodes to use [a/FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing](https://github.com/yrcong/flatten).",
       "stars": 111,
-      "author_account_age_days": 766
+      "author_account_age_days": 767
     },
     {
       "author": "ZHO-ZHO-ZHO",
@@ -969,7 +969,7 @@
       "install_type": "git-clone",
       "description": "My Workflows + Auxiliary nodes for Stable Video Diffusion (SVD)",
       "stars": 110,
-      "author_account_age_days": 984
+      "author_account_age_days": 985
     },
     {
       "author": "MinusZoneAI",
@@ -993,7 +993,7 @@
       "install_type": "git-clone",
       "description": "An easy-to-use ComfyUI plugin for LLM integration supporting DeepSeek, OpenAI API-compatible models, with video reverse-prompt (captioning) capabilities. (Description by CC)",
       "stars": 109,
-      "author_account_age_days": 473
+      "author_account_age_days": 474
     },
     {
       "author": "princepainter",
@@ -1005,7 +1005,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes providing LTXV audio-video separation sampling and latent preparation capabilities for professional video generation workflows.",
       "stars": 102,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "smthemex",
@@ -1017,7 +1017,7 @@
       "install_type": "git-clone",
       "description": "SVFR is a unified framework for face video restoration that supports tasks such as BFR, Colorization, Inpainting，you can use it in ComfyUI",
       "stars": 99,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "princepainter",
@@ -1029,7 +1029,7 @@
       "install_type": "git-clone",
       "description": "Enhanced image-to-video node for Wan2.2 optimized for 4-step LoRAs that fixes slow-motion issues by increasing motion amplitude by 15-50%, with camera movement enhancement. (Description by CC)",
       "stars": 99,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "spacepxl",
@@ -1042,7 +1042,7 @@
       "install_type": "git-clone",
       "description": "Unofficial ComfyUI implementation of [a/RAVE](https://rave-video.github.io/)",
       "stars": 95,
-      "author_account_age_days": 938
+      "author_account_age_days": 939
     },
     {
       "author": "ailab",
@@ -1054,7 +1054,7 @@
       "install_type": "git-clone",
       "description": "Powerful ComfyUI custom node built on the FlashVSR model, facilitating real-time diffusion-based video super-resolution for streaming applications.",
       "stars": 95,
-      "author_account_age_days": 1096
+      "author_account_age_days": 1097
     },
     {
       "author": "facok",
@@ -1066,7 +1066,7 @@
       "install_type": "git-clone",
       "description": "This is a TeaCache acceleration node for HunYuan Video, supporting the native node workflow for seamless upgrades. Simply choose the acceleration multiplier you want—currently, three levels are available.",
       "stars": 95,
-      "author_account_age_days": 1102
+      "author_account_age_days": 1103
     },
     {
       "author": "adambarbato",
@@ -1078,7 +1078,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI nodes for Sa2VA (Segment Anything 2 Video Assistant) - Advanced multimodal image and video understanding with segmentation.",
       "stars": 95,
-      "author_account_age_days": 4575
+      "author_account_age_days": 4576
     },
     {
       "author": "princepainter",
@@ -1090,7 +1090,7 @@
       "install_type": "git-clone",
       "description": "Enhanced Wan2.2 image-to-video node with dual sampler workflow, dynamic enhancement, and intelligent color drift correction for video generation. (Description by CC)",
       "stars": 93,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "Dream Project",
@@ -1103,7 +1103,7 @@
       "install_type": "git-clone",
       "description": "Provide utilities for batch based video generation workflows (s.a. AnimateDiff and Stable Video Diffusion).",
       "stars": 90,
-      "author_account_age_days": 1304
+      "author_account_age_days": 1305
     },
     {
       "author": "smthemex",
@@ -1115,7 +1115,7 @@
       "install_type": "git-clone",
       "description": "Light-A-Video: Training-free Video Relighting via Progressive Light Fusion,you can use it in comfyUI",
       "stars": 90,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "panic-titan",
@@ -1127,7 +1127,7 @@
       "install_type": "git-clone",
       "description": "Real-time Gallery for ComfyUI with image metadata inspection. Support for images and video.",
       "stars": 90,
-      "author_account_age_days": 2129
+      "author_account_age_days": 2130
     },
     {
       "author": "xuhuan2048",
@@ -1139,8 +1139,8 @@
       ],
       "install_type": "git-clone",
       "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes",
-      "stars": 88,
-      "author_account_age_days": 3686
+      "stars": 89,
+      "author_account_age_days": 3687
     },
     {
       "author": "AIFSH",
@@ -1153,7 +1153,7 @@
       "install_type": "git-clone",
       "description": "the comfyui custom node of [a/V-Express](https://github.com/tencent-ailab/V-Express) to make audio driven videos!",
       "stars": 87,
-      "author_account_age_days": 875
+      "author_account_age_days": 876
     },
     {
       "author": "ID-LoRA",
@@ -1178,7 +1178,7 @@
       "install_type": "git-clone",
       "description": "Implementation of X-Portrait nodes for ComfyUI, animate portraits with an input video and a reference image.",
       "stars": 86,
-      "author_account_age_days": 679
+      "author_account_age_days": 680
     },
     {
       "author": "JaredTherriault",
@@ -1203,7 +1203,7 @@
       "install_type": "git-clone",
       "description": "Start and end frames video generation node that supports native ComfyUI.",
       "stars": 82,
-      "author_account_age_days": 2152
+      "author_account_age_days": 2153
     },
     {
       "author": "smthemex",
@@ -1215,7 +1215,7 @@
       "install_type": "git-clone",
       "description": "HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters,try it in comfyUI ,if your VRAM >24G.",
       "stars": 81,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "drozbay",
@@ -1227,7 +1227,7 @@
       "install_type": "git-clone",
       "description": "Advanced/Experimental VACE nodes for WAN video models in ComfyUI.",
       "stars": 80,
-      "author_account_age_days": 3695
+      "author_account_age_days": 3696
     },
     {
       "author": "IAMCCS",
@@ -1253,7 +1253,7 @@
       "install_type": "git-clone",
       "description": "Nodes:YouTube Video Loader. Custom ComfyUI Nodes for video generation",
       "stars": 79,
-      "author_account_age_days": 1227
+      "author_account_age_days": 1228
     },
     {
       "author": "Chan-0312",
@@ -1265,7 +1265,7 @@
       "install_type": "git-clone",
       "description": "This is a project that generates videos frame by frame based on IPAdapter+ControlNet. Unlike [a/Steerable-motion](https://github.com/banodoco/Steerable-Motion), we do not rely on AnimateDiff. This decision is primarily due to the fact that the videos generated by AnimateDiff are often blurry. Through frame-by-frame control using IPAdapter+ControlNet, we can produce higher definition and more controllable videos.",
       "stars": 76,
-      "author_account_age_days": 2510
+      "author_account_age_days": 2511
     },
     {
       "author": "ningxiaoxiao",
@@ -1279,8 +1279,8 @@
       ],
       "install_type": "git-clone",
       "description": "Real-time input output node for ComfyUI by NDI. Leveraging the powerful linking capabilities of NDI, you can access NDI video stream frames and send images generated by the model to NDI video streams.",
-      "stars": 71,
-      "author_account_age_days": 3632
+      "stars": 72,
+      "author_account_age_days": 3633
     },
     {
       "author": "wildminder",
@@ -1292,7 +1292,7 @@
       "install_type": "git-clone",
       "description": "Kalman-Inspired Feature Propagation for Video Face Super-Resolution",
       "stars": 69,
-      "author_account_age_days": 4877
+      "author_account_age_days": 4878
     },
     {
       "author": "smthemex",
@@ -1305,7 +1305,7 @@
       "install_type": "git-clone",
       "description": "FoleyCrafter is a video-to-audio generation framework which can produce realistic sound effects semantically relevant and synchronized with videos.",
       "stars": 66,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "aistudynow",
@@ -1317,7 +1317,7 @@
       "install_type": "git-clone",
       "description": "Generate Audio from any video and or text",
       "stars": 66,
-      "author_account_age_days": 213
+      "author_account_age_days": 214
     },
     {
       "author": "Artificial-Sweetener",
@@ -1329,7 +1329,7 @@
       "install_type": "git-clone",
       "description": "A nodepack designed to help you work with video from within ComfyUI that specializes in handling image batches efficiency and creating video loops.",
       "stars": 63,
-      "author_account_age_days": 472
+      "author_account_age_days": 473
     },
     {
       "author": "siraxe",
@@ -1341,7 +1341,7 @@
       "install_type": "git-clone",
       "description": "A collection of custom nodes for ComfyUI providing video manipulation, LoRA loading, path animation, and visual drawing tools for WanVideo workflows.",
       "stars": 62,
-      "author_account_age_days": 3272
+      "author_account_age_days": 3273
     },
     {
       "author": "jeffy5",
@@ -1354,7 +1354,7 @@
       "install_type": "git-clone",
       "description": "A facefusion custom node for ComfyUI. Swap or restore faces for image or video",
       "stars": 61,
-      "author_account_age_days": 3575
+      "author_account_age_days": 3576
     },
     {
       "author": "😈 CasterPollux",
@@ -1402,7 +1402,7 @@
       "install_type": "git-clone",
       "description": "implementation of [a/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) generating of videos, includes self driven, face reenacment and audio driven with a reference image",
       "stars": 57,
-      "author_account_age_days": 1085
+      "author_account_age_days": 1086
     },
     {
       "author": "princepainter",
@@ -1414,7 +1414,7 @@
       "install_type": "git-clone",
       "description": "High-precision audio trimming custom node based on frame rates for ComfyUI - trim audio precisely by frame numbers instead of timestamps, perfectly matching video frame synchronization needs. (Description by CC)",
       "stars": 57,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "impactframes",
@@ -1427,7 +1427,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI extension for video-based prompting and processing with support for various models and video processing capabilities",
       "stars": 56,
-      "author_account_age_days": 3506
+      "author_account_age_days": 3507
     },
     {
       "author": "LucipherDev",
@@ -1439,7 +1439,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI Custom Nodes for 'AniDoc: Animation Creation Made Easier'. This approach automates line art video colorization using a novel model that aligns color information from references, ensures temporal consistency, and reduces manual effort in animation production.",
       "stars": 56,
-      "author_account_age_days": 2141
+      "author_account_age_days": 2142
     },
     {
       "author": "WaveSpeedAI",
@@ -1451,19 +1451,7 @@
       "install_type": "git-clone",
       "description": "This is a custom node for ComfyUI that allows you to use the WaveSpeed AI API directly in ComfyUI. WaveSpeed AI is a high-performance AI image and video generation service platform offering industry-leading generation speeds. For more information, see [a/WaveSpeed AI Documentation](https://wavespeed.ai/docs).",
       "stars": 56,
-      "author_account_age_days": 433
-    },
-    {
-      "author": "kijai",
-      "title": "ComfyUI-HFRemoteVae",
-      "reference": "https://github.com/kijai/ComfyUI-HFRemoteVae",
-      "files": [
-        "https://github.com/kijai/ComfyUI-HFRemoteVae"
-      ],
-      "install_type": "git-clone",
-      "description": "This node allows using Hugginface remote server for latent decoding. Currently supported models: SD, SDXL, Flux, HunyuanVideo",
-      "stars": 53,
-      "author_account_age_days": 2827
+      "author_account_age_days": 434
     },
     {
       "author": "MajoorWaldi",
@@ -1475,8 +1463,20 @@
       ],
       "install_type": "git-clone",
       "description": "Majoor Assets Manager is an advanced asset browser for ComfyUI with search, metadata extraction, rating/tags, workflow metadata parsing, and integrated image/video/audio asset management.",
-      "stars": 53,
+      "stars": 54,
       "author_account_age_days": 1094
+    },
+    {
+      "author": "kijai",
+      "title": "ComfyUI-HFRemoteVae",
+      "reference": "https://github.com/kijai/ComfyUI-HFRemoteVae",
+      "files": [
+        "https://github.com/kijai/ComfyUI-HFRemoteVae"
+      ],
+      "install_type": "git-clone",
+      "description": "This node allows using Hugginface remote server for latent decoding. Currently supported models: SD, SDXL, Flux, HunyuanVideo",
+      "stars": 53,
+      "author_account_age_days": 2828
     },
     {
       "author": "Yuan-ManX",
@@ -1488,7 +1488,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI-AniSora is now available in ComfyUI, Index-AniSora is the most powerful open-source animated video generation model. It enables one-click creation of video shots across diverse anime styles including series episodes, Chinese original animations, manga adaptations, VTuber content, anime PVs, mad-style parodies, and more!",
       "stars": 51,
-      "author_account_age_days": 2084
+      "author_account_age_days": 2085
     },
     {
       "author": "SamSeen",
@@ -1501,7 +1501,7 @@
       "install_type": "git-clone",
       "description": "Create immersive 3D stereoscopic images and videos! Transform your ComfyUI generations into stunning side-by-side 3D visuals for videos and image sequences. Powered by Depth-Anything-V2, no external depth maps needed. Perfect for VR, 3D displays, and cross-eyed viewing - no special glasses required!",
       "stars": 49,
-      "author_account_age_days": 4235
+      "author_account_age_days": 4236
     },
     {
       "author": "lum3on",
@@ -1513,7 +1513,7 @@
       "install_type": "git-clone",
       "description": "A powerful audio generation extension for ComfyUI that integrates AudioX models for high-quality audio synthesis from text and video inputs.",
       "stars": 49,
-      "author_account_age_days": 418
+      "author_account_age_days": 419
     },
     {
       "author": "ModelTC",
@@ -1525,7 +1525,19 @@
       "install_type": "git-clone",
       "description": "ComfyUI-LightVAE is a collection of LightX2V VAE custom nodes designed for ComfyUI, supporting high-performance video VAE models including LightVAE and LightTAE.",
       "stars": 49,
-      "author_account_age_days": 2054
+      "author_account_age_days": 2055
+    },
+    {
+      "author": "naxci1",
+      "title": "ComfyUI-FlashVSR_Stable",
+      "reference": "https://github.com/naxci1/ComfyUI-FlashVSR_Stable",
+      "files": [
+        "https://github.com/naxci1/ComfyUI-FlashVSR_Stable"
+      ],
+      "install_type": "git-clone",
+      "description": "High-performance Video Super Resolution for ComfyUI with VRAM optimization.",
+      "stars": 49,
+      "author_account_age_days": 360
     },
     {
       "author": "ShmuelRonen",
@@ -1537,19 +1549,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that adds cinematic and movie scene styles to video generation prompts. This node helps create more dynamic and professional-looking video outputs by incorporating iconic movie scene aesthetics.",
       "stars": 48,
-      "author_account_age_days": 1849
-    },
-    {
-      "author": "naxci1",
-      "title": "ComfyUI-FlashVSR_Stable",
-      "reference": "https://github.com/naxci1/ComfyUI-FlashVSR_Stable",
-      "files": [
-        "https://github.com/naxci1/ComfyUI-FlashVSR_Stable"
-      ],
-      "install_type": "git-clone",
-      "description": "High-performance Video Super Resolution for ComfyUI with VRAM optimization.",
-      "stars": 48,
-      "author_account_age_days": 360
+      "author_account_age_days": 1850
     },
     {
       "author": "bruefire",
@@ -1562,7 +1562,7 @@
       "install_type": "git-clone",
       "description": "This is an extension node for ComfyUI that allows you to load frames from a video in bulk and perform masking and sketching on each frame through a GUI.",
       "stars": 47,
-      "author_account_age_days": 3010
+      "author_account_age_days": 3011
     },
     {
       "author": "HM-RunningHub",
@@ -1574,7 +1574,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that integrates Ovi for synchronized video+audio generation from text or image inputs.",
       "stars": 47,
-      "author_account_age_days": 473
+      "author_account_age_days": 474
     },
     {
       "author": "Vantage with AI",
@@ -1586,7 +1586,7 @@
       "install_type": "git-clone",
       "description": "VantageLongWanVideo is a lightweight project management system for ComfyUI, designed for long-running, prompt-driven video generation. It simplifies workflow management by saving prompts to disk, handling continuity across runs, and allowing resuming or regenerating from any point.",
       "stars": 45,
-      "author_account_age_days": 659
+      "author_account_age_days": 660
     },
     {
       "author": "Derryyyyyy",
@@ -1598,7 +1598,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI node for Lissajous camera shake effect that simulates natural handheld camera movements to enhance digital human video realism. (Description by CC)",
       "stars": 45,
-      "author_account_age_days": 1529
+      "author_account_age_days": 1530
     },
     {
       "author": "smthemex",
@@ -1610,7 +1610,7 @@
       "install_type": "git-clone",
       "description": "StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation,you can try it in ComfyUI",
       "stars": 44,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "takemetosiberia",
@@ -1622,7 +1622,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI nodes for video object segmentation using [a/SAMURAI](https://github.com/yangchris11/samurai) model.",
       "stars": 44,
-      "author_account_age_days": 1029
+      "author_account_age_days": 1030
     },
     {
       "author": "wallen0322",
@@ -1634,7 +1634,7 @@
       "install_type": "git-clone",
       "description": "Enhanced WanAnimateToVideo with multi-dimensional control",
       "stars": 44,
-      "author_account_age_days": 372
+      "author_account_age_days": 373
     },
     {
       "author": "ShmuelRonen",
@@ -1646,7 +1646,7 @@
       "install_type": "git-clone",
       "description": "A custom ComfyUI node designed to create seamless motion effects from single images by integrating with Hunyuan Video through latent space manipulation.",
       "stars": 43,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "stepfun-ai",
@@ -1658,7 +1658,7 @@
       "install_type": "git-clone",
       "description": "This repository contains ComfyUI custom nodes for StepVideo.",
       "stars": 43,
-      "author_account_age_days": 597
+      "author_account_age_days": 598
     },
     {
       "author": "yolain",
@@ -1694,7 +1694,7 @@
       "install_type": "git-clone",
       "description": "experimental node pack to test using reference videos for their motion.",
       "stars": 40,
-      "author_account_age_days": 766
+      "author_account_age_days": 767
     },
     {
       "author": "ShmuelRonen",
@@ -1706,7 +1706,7 @@
       "install_type": "git-clone",
       "description": "An advanced custom node for ComfyUI that provides optimized access to Wan2.1, a state-of-the-art video foundation model suite. The WanVideoKsampler node features intelligent memory management to enable higher resolution outputs and longer video sequences, even on consumer-grade hardware.",
       "stars": 39,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "MiaoshouAI",
@@ -1718,7 +1718,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for automatic video scene segmentation using TransNetV2.",
       "stars": 38,
-      "author_account_age_days": 1112
+      "author_account_age_days": 1113
     },
     {
       "author": "TTPlanetPig",
@@ -1730,7 +1730,7 @@
       "install_type": "git-clone",
       "description": "A simple and efficient ComfyUI integration for DreamID-V, a model for identity-preserving video generation that animates reference images using motion from pose videos.",
       "stars": 38,
-      "author_account_age_days": 847
+      "author_account_age_days": 848
     },
     {
       "author": "stormcenter",
@@ -1742,7 +1742,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that allows you to create iPhone-compatible Live Photos from videos. This node can convert video sequences into Live Photo format, with the ability to select key frames and customize the output.",
       "stars": 38,
-      "author_account_age_days": 4772
+      "author_account_age_days": 4773
     },
     {
       "author": "lihaoyun6",
@@ -1754,7 +1754,7 @@
       "install_type": "git-clone",
       "description": "Run Segformer at lightning speed for image/video segmentation.",
       "stars": 38,
-      "author_account_age_days": 3755
+      "author_account_age_days": 3756
     },
     {
       "author": "AIFSH",
@@ -1766,7 +1766,7 @@
       "install_type": "git-clone",
       "description": "a custom node for [a/FancyVideo](https://github.com/360CVGroup/FancyVideo)",
       "stars": 36,
-      "author_account_age_days": 875
+      "author_account_age_days": 876
     },
     {
       "author": "smthemex",
@@ -1778,7 +1778,7 @@
       "install_type": "git-clone",
       "description": "[a/AniCrafter](https://github.com/MyNiuuu/AniCrafter): Customizing Realistic Human-Centric Animation via Avatar-Background Conditioning in Video Diffusion Models, you can try this methods when use ComfyUI.",
       "stars": 36,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "Doctor Diffusion",
@@ -1804,7 +1804,7 @@
       "install_type": "git-clone",
       "description": "Nodes:IP_LAP Node, Video Loader, PreView Video, Combine Audio Video. the comfyui custom node of [a/IP_LAP](https://github.com/Weizhi-Zhong/IP_LAP) to make audio driven videos!",
       "stars": 34,
-      "author_account_age_days": 875
+      "author_account_age_days": 876
     },
     {
       "author": "Isi-dev",
@@ -1818,7 +1818,7 @@
       "install_type": "git-clone",
       "description": "These are nodes and workflows that can facilitate the creation of animations and video compilations.",
       "stars": 34,
-      "author_account_age_days": 1736
+      "author_account_age_days": 1737
     },
     {
       "author": "Yushan777",
@@ -1833,6 +1833,18 @@
       "author_account_age_days": 1162
     },
     {
+      "author": "neurodanzelus-cmd",
+      "title": "ComfyUI-TeleStyle",
+      "reference": "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle",
+      "files": [
+        "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle"
+      ],
+      "install_type": "git-clone",
+      "description": "An unofficial, streamlined, and highly optimized ComfyUI implementation of TeleStyle for video style transfer. (Description by CC)",
+      "stars": 34,
+      "author_account_age_days": 71
+    },
+    {
       "author": "seanlynch",
       "title": "ComfyUI Optical Flow",
       "id": "optical-flow",
@@ -1843,7 +1855,7 @@
       "install_type": "git-clone",
       "description": "This package contains three nodes to help you compute optical flow between pairs of images, usually adjacent frames in a video, visualize the flow, and apply the flow to another image of the same dimensions. Most of the code is from Deforum, so this is released under the same license (MIT).",
       "stars": 33,
-      "author_account_age_days": 5949
+      "author_account_age_days": 5950
     },
     {
       "author": "ShmuelRonen",
@@ -1855,7 +1867,7 @@
       "install_type": "git-clone",
       "description": "A custom node extension for ComfyUI that integrates Google's Veo 2 text-to-video generation capabilities.",
       "stars": 33,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "Light-x02",
@@ -1879,7 +1891,7 @@
       "install_type": "git-clone",
       "description": "Video transition effects for ComfyUI using WebGL rendering with 100+ transition variants across categories like dissolve, wipe, zoom, blur, glitch, and more.",
       "stars": 33,
-      "author_account_age_days": 2200
+      "author_account_age_days": 2201
     },
     {
       "author": "stduhpf",
@@ -1891,19 +1903,7 @@
       "install_type": "git-clone",
       "description": "This is a custom node for ComfyUI that can be used to generate videos from either a starting frame, an end frame or both; with the Wan2.2 5B model (which uses the new Wan2.2 VAE, unlike Wan 2.2 A14B model wich uses the old Wan2.1 VAE).",
       "stars": 33,
-      "author_account_age_days": 3256
-    },
-    {
-      "author": "neurodanzelus-cmd",
-      "title": "ComfyUI-TeleStyle",
-      "reference": "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle",
-      "files": [
-        "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle"
-      ],
-      "install_type": "git-clone",
-      "description": "An unofficial, streamlined, and highly optimized ComfyUI implementation of TeleStyle for video style transfer. (Description by CC)",
-      "stars": 33,
-      "author_account_age_days": 70
+      "author_account_age_days": 3257
     },
     {
       "author": "royceschultz",
@@ -1916,7 +1916,7 @@
       "install_type": "git-clone",
       "description": "Transcribe audio and video files in ComfyUI.",
       "stars": 32,
-      "author_account_age_days": 3173
+      "author_account_age_days": 3174
     },
     {
       "author": "sousakujikken",
@@ -1928,7 +1928,7 @@
       "install_type": "git-clone",
       "description": "Pixydust Quantizer is a custom node extension for ComfyUI that allows for the simplified recreation of tile patterns used in 1990s 16-color PC graphics, offering advanced color quantization and palette optimization features.Additionally, it includes a CRT-like effect node that mimics the phosphor glow and slight color bleeding of old CRT displays, adding a nostalgic aesthetic.With version 2.0.0, it now supports batch image processing, enabling efficient handling of video frames and image sequences.",
       "stars": 31,
-      "author_account_age_days": 1052
+      "author_account_age_days": 1053
     },
     {
       "author": "Nojahhh",
@@ -1940,7 +1940,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI GLM-4 Wrapper. This powerful tool enhances your prompt engineering process by allowing users to easily construct detailed, high-quality prompts for image/video generation based on user image and/or user prompts.",
       "stars": 30,
-      "author_account_age_days": 3464
+      "author_account_age_days": 3465
     },
     {
       "author": "benjiyaya",
@@ -1952,7 +1952,7 @@
       "install_type": "git-clone",
       "description": "A specialized node for ComfyUI that enable advanced motion and animation capabilities for image as guider for video processing In Hunyuan Video.",
       "stars": 30,
-      "author_account_age_days": 757
+      "author_account_age_days": 758
     },
     {
       "author": "s9roll7",
@@ -1964,7 +1964,7 @@
       "install_type": "git-clone",
       "description": "This is a node that outputs tracking results of a grid or specified points using CoTracker. It can be directly connected to the WanVideo ATI Tracks Node.",
       "stars": 29,
-      "author_account_age_days": 1229
+      "author_account_age_days": 1230
     },
     {
       "author": "stuttlepress",
@@ -1988,7 +1988,7 @@
       "install_type": "git-clone",
       "description": "Automatically benchmark and optimize attention in diffusion models. 1.5-2x speedup on RTX 4090, up to 4x on video models.",
       "stars": 29,
-      "author_account_age_days": 4442
+      "author_account_age_days": 4443
     },
     {
       "author": "Yuan-ManX",
@@ -2000,7 +2000,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI-HunyuanVideo-Avatar is now available in ComfyUI, HunyuanVideo-Avatar is a multimodal diffusion transformer (MM-DiT)-based model capable of simultaneously generating dynamic, emotion-controllable, and multi-character dialogue videos.",
       "stars": 28,
-      "author_account_age_days": 2084
+      "author_account_age_days": 2085
     },
     {
       "author": "MontagenAI",
@@ -2012,7 +2012,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI-Montagen is an extension designed to enhance the video editing ability of ComfyUI with custom nodes and Montagen. It offers basic video editing features and integrates media clips with the ComfyUI workflow. Furthermore, this extension unlocks the full potential of AI-based video generation and task automation.",
       "stars": 28,
-      "author_account_age_days": 474
+      "author_account_age_days": 475
     },
     {
       "author": "ExponentialML",
@@ -2025,7 +2025,7 @@
       "install_type": "git-clone",
       "description": "Allows native usage of ModelScope based Text To Video Models in ComfyUI",
       "stars": 27,
-      "author_account_age_days": 2267
+      "author_account_age_days": 2268
     },
     {
       "author": "SXQBW",
@@ -2037,7 +2037,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI extension for Qwen-VL series large language models, supporting multi-modal functions such as text generation, image understanding, and video analysis.Support for Qwen2-VL, Qwen2.5-VL.",
       "stars": 27,
-      "author_account_age_days": 3436
+      "author_account_age_days": 3437
     },
     {
       "author": "yuanyuan-spec",
@@ -2049,7 +2049,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI plugin based on HunyuanVideo-1.5, offering both simplified and complete node sets for quick usage or deep workflow customization.",
       "stars": 27,
-      "author_account_age_days": 129
+      "author_account_age_days": 130
     },
     {
       "author": "yichengup",
@@ -2097,7 +2097,7 @@
       "install_type": "git-clone",
       "description": "A set of custom nodes for frame interpolation and video processing in ComfyUI.",
       "stars": 25,
-      "author_account_age_days": 646
+      "author_account_age_days": 647
     },
     {
       "author": "pizurny",
@@ -2109,7 +2109,7 @@
       "install_type": "git-clone",
       "description": "Audio/Video handle management for ComfyUI workflows\nAdd and remove stabilization frames with synchronized audio for video diffusion models.",
       "stars": 25,
-      "author_account_age_days": 1325
+      "author_account_age_days": 1326
     },
     {
       "author": "smthemex",
@@ -2122,7 +2122,7 @@
       "install_type": "git-clone",
       "description": "This node allows you to use ID_Animator, the zero shot video generation model",
       "stars": 24,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "mw",
@@ -2134,7 +2134,7 @@
       "install_type": "git-clone",
       "description": "A node that assists in one click generation of prompts (for image and video generation, etc.) in Comfyui.",
       "stars": 24,
-      "author_account_age_days": 2580
+      "author_account_age_days": 2581
     },
     {
       "author": "princepainter",
@@ -2146,7 +2146,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI node: extract fps/frames/duration/width/height from video",
       "stars": 24,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "princepainter",
@@ -2158,7 +2158,7 @@
       "install_type": "git-clone",
       "description": "A long-form video generation suite that chains keyframe images into coherent videos with automatic segment transitions and cross-dissolves. (Description by CC)",
       "stars": 24,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "DanielBartolic",
@@ -2170,7 +2170,7 @@
       "install_type": "git-clone",
       "description": "Custom ComfyUI node for Qwen3.5-9B — a unified natively multimodal model with image, video, and text understanding capabilities including thinking mode.",
       "stars": 24,
-      "author_account_age_days": 2364
+      "author_account_age_days": 2365
     },
     {
       "author": "Fictiverse",
@@ -2196,7 +2196,7 @@
       "install_type": "git-clone",
       "description": "Create Video datasets straight from YT or a video file path",
       "stars": 23,
-      "author_account_age_days": 3506
+      "author_account_age_days": 3507
     },
     {
       "author": "AIFSH",
@@ -2209,7 +2209,7 @@
       "install_type": "git-clone",
       "description": "the comfyui custom node of [a/MuseTalk](https://github.com/TMElyralab/MuseTalk) to make audio driven videos!",
       "stars": 23,
-      "author_account_age_days": 875
+      "author_account_age_days": 876
     },
     {
       "author": "ZZXYWQ",
@@ -2222,7 +2222,7 @@
       "install_type": "git-clone",
       "description": "Nodes: StreamRecorder, VideoFormatConverter, ZZX_PaintsUndo",
       "stars": 23,
-      "author_account_age_days": 1917
+      "author_account_age_days": 1918
     },
     {
       "author": "ai-shizuka",
@@ -2234,7 +2234,7 @@
       "install_type": "git-clone",
       "description": "Nodes:ImageLoader, ImageSaver, ImagesSaver, ImageResize, ImageSize, GFPGANNode, MaskAddNode, Video Load, ...",
       "stars": 23,
-      "author_account_age_days": 3585
+      "author_account_age_days": 3586
     },
     {
       "author": "EricRollei",
@@ -2246,7 +2246,7 @@
       "install_type": "git-clone",
       "description": "A comprehensive suite of AI-powered prompt enhancement nodes for ComfyUI using local LLMs (LM Studio or Ollama). Transform simple prompts into detailed, platform-optimized descriptions for video and image generation.",
       "stars": 23,
-      "author_account_age_days": 1538
+      "author_account_age_days": 1539
     },
     {
       "author": "princepainter",
@@ -2258,7 +2258,7 @@
       "install_type": "git-clone",
       "description": "A dual-model image-to-video sampler for ComfyUI that combines high-noise and low-noise models in a single node, replacing two KSamplerAdvanced nodes with zero overhead and bit-identical frame generation. (Description by CC)",
       "stars": 23,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "yondonfu",
@@ -2271,7 +2271,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI nodes for editing background of images/videos with CUDA acceleration support.",
       "stars": 22,
-      "author_account_age_days": 4519
+      "author_account_age_days": 4520
     },
     {
       "author": "BobRandomNumber",
@@ -2283,7 +2283,7 @@
       "install_type": "git-clone",
       "description": "wrapper for the TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation project",
       "stars": 22,
-      "author_account_age_days": 487
+      "author_account_age_days": 488
     },
     {
       "author": "ShmuelRonen",
@@ -2295,7 +2295,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI wrapper implementation of ThinkSound - an advanced AI model for generating high-quality audio from text descriptions and video content using Chain-of-Thought (CoT) reasoning.",
       "stars": 21,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "HM-RunningHub",
@@ -2307,7 +2307,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that integrates Video-As-Prompt for motion-guided video generation from image inputs.",
       "stars": 21,
-      "author_account_age_days": 473
+      "author_account_age_days": 474
     },
     {
       "author": "filliptm",
@@ -2319,7 +2319,7 @@
       "install_type": "git-clone",
       "description": "FL DiffVSR - Diffusion-based video super-resolution nodes for ComfyUI. Features 4x upscaling with temporal coherence using Stream-DiffVSR for smooth, artifact-free video enhancement. Supports text-guided upscaling, chunked processing for memory efficiency, and automatic model downloading from HuggingFace.",
       "stars": 20,
-      "author_account_age_days": 2380
+      "author_account_age_days": 2381
     },
     {
       "author": "ShmuelRonen",
@@ -2331,7 +2331,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node implementation for optimized video generation and motion effects, designed to work with Hunyuan text-to-video models.",
       "stars": 20,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "jax-explorer",
@@ -2343,7 +2343,7 @@
       "install_type": "git-clone",
       "description": "Used to solve the OOM (Out Of Memory) issue caused by loading all frames of a video at once in ComfyUI. All nodes use streamingly, and no longer load all frames of the video into memory at once.",
       "stars": 20,
-      "author_account_age_days": 1221
+      "author_account_age_days": 1222
     },
     {
       "author": "livepeer",
@@ -2355,7 +2355,7 @@
       "install_type": "git-clone",
       "description": "A suite of custom ComfyUI nodes for building real-time video and audio workflows using ComfyStream.",
       "stars": 20,
-      "author_account_age_days": 3350
+      "author_account_age_days": 3351
     },
     {
       "author": "petmycat",
@@ -2367,7 +2367,7 @@
       "install_type": "git-clone",
       "description": "Custom ComfyUI nodes for QwenImage ControlNet achieving 100% output compatibility with VideoX-Fun's diffusers pipeline while leveraging ComfyUI's efficient model loading system.",
       "stars": 20,
-      "author_account_age_days": 768
+      "author_account_age_days": 769
     },
     {
       "author": "logtd",
@@ -2380,7 +2380,7 @@
       "install_type": "git-clone",
       "description": "A set of nodes to track objects through videos using YOLO and other processors.",
       "stars": 19,
-      "author_account_age_days": 766
+      "author_account_age_days": 767
     },
     {
       "author": "Starnodes2024",
@@ -2392,7 +2392,7 @@
       "install_type": "git-clone",
       "description": "Welcome to Star Beta Nodes - a collection of experimental custom nodes for ComfyUI designed for beta testing and feedback. These nodes provide enhanced functionality for image processing, video handling, and workflow automation.",
       "stars": 19,
-      "author_account_age_days": 646
+      "author_account_age_days": 647
     },
     {
       "author": "tocubed",
@@ -2404,7 +2404,7 @@
       "install_type": "git-clone",
       "description": "Wrapper for EvTexture Video Upscaler: [a/https://github.com/DachunKai/EvTexture](https://github.com/DachunKai/EvTexture)",
       "stars": 18,
-      "author_account_age_days": 4503
+      "author_account_age_days": 4504
     },
     {
       "author": "ShmuelRonen",
@@ -2417,7 +2417,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that enables smooth, keyframe-based animations for image generation. Create dynamic sequences with control over motion, zoom, rotation, and easing effects. Ideal for AI-assisted animation and video content creation.",
       "stars": 18,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "chaojie",
@@ -2442,7 +2442,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that enables coherent video generation while maintaining efficient memory usage, specifically optimized for heavy models like Flux.",
       "stars": 17,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "smthemex",
@@ -2455,7 +2455,7 @@
       "install_type": "git-clone",
       "description": "You can make emoji from a video and a image in comfyui",
       "stars": 17,
-      "author_account_age_days": 998
+      "author_account_age_days": 999
     },
     {
       "author": "BetaDoggo",
@@ -2471,6 +2471,18 @@
       "author_account_age_days": 1442
     },
     {
+      "author": "ryanontheinside",
+      "title": "Deep Live Cam for ComfyUI",
+      "reference": "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam",
+      "files": [
+        "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam"
+      ],
+      "install_type": "git-clone",
+      "description": "This node integrates the face-swapping capabilities from Deep Live Cam into ComfyUI, allowing you to perform real-time face swapping on images and video streams.",
+      "stars": 17,
+      "author_account_age_days": 4334
+    },
+    {
       "author": "eddyhhlure1Eddy",
       "title": "ComfyUI-QwenVideo",
       "reference": "https://github.com/eddyhhlure1Eddy/ComfyUI-QwenVideo",
@@ -2480,7 +2492,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for video analysis and prompt generation using Qwen3-VL-235B vision-language model via OpenRouter API.",
       "stars": 17,
-      "author_account_age_days": 392
+      "author_account_age_days": 393
     },
     {
       "author": "bryanmcguire",
@@ -2492,7 +2504,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI implementation of FLUX.2-dev-Fun-Controlnet-Union from Alibaba's VideoX-Fun",
       "stars": 17,
-      "author_account_age_days": 4654
+      "author_account_age_days": 4655
     },
     {
       "author": "CrateTools",
@@ -2505,7 +2517,7 @@
       "install_type": "git-clone",
       "description": "Second monitor preview for video generations with interactive playback controls, color tools, generation tracking, and workflow-embedded snapshots.",
       "stars": 17,
-      "author_account_age_days": 617
+      "author_account_age_days": 618
     },
     {
       "author": "AIFSH",
@@ -2518,19 +2530,7 @@
       "install_type": "git-clone",
       "description": "a comfyui custom node for [a/3d-photo-inpainting](https://github.com/vt-vl-lab/3d-photo-inpainting),then you can render one image to zoom-in/dolly zoom/swing motion/circle motion video",
       "stars": 16,
-      "author_account_age_days": 875
-    },
-    {
-      "author": "ryanontheinside",
-      "title": "Deep Live Cam for ComfyUI",
-      "reference": "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam",
-      "files": [
-        "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam"
-      ],
-      "install_type": "git-clone",
-      "description": "This node integrates the face-swapping capabilities from Deep Live Cam into ComfyUI, allowing you to perform real-time face swapping on images and video streams.",
-      "stars": 16,
-      "author_account_age_days": 4333
+      "author_account_age_days": 876
     },
     {
       "author": "shootthesound",
@@ -2580,7 +2580,7 @@
       "install_type": "git-clone",
       "description": "Used to process video redrawing, frame skipping, frame ending early, etc.",
       "stars": 15,
-      "author_account_age_days": 1475
+      "author_account_age_days": 1476
     },
     {
       "author": "lum3on",
@@ -2592,7 +2592,7 @@
       "install_type": "git-clone",
       "description": "Professional-grade frame manipulation tools for ComfyUI, providing advanced video editing capabilities with native IMAGE tensor support.",
       "stars": 15,
-      "author_account_age_days": 418
+      "author_account_age_days": 419
     },
     {
       "author": "stduhpf",
@@ -2604,7 +2604,7 @@
       "install_type": "git-clone",
       "description": "This is a set of custom nodes for ComfyUI that replaces nodes like WanImageToVideo but using a Tiled VAE approach to reduce VRAM requirements.",
       "stars": 15,
-      "author_account_age_days": 3256
+      "author_account_age_days": 3257
     },
     {
       "author": "jonstreeter",
@@ -2628,7 +2628,7 @@
       "install_type": "git-clone",
       "description": "Most durable and flexible VAE decoder for ComfyUI designed for long video sequences with crash-proof dynamic batching, temporal scale detection, and aggressive out-of-memory recovery. (Description by CC)",
       "stars": 15,
-      "author_account_age_days": 767
+      "author_account_age_days": 768
     },
     {
       "author": "AIWarper",
@@ -2652,7 +2652,7 @@
       "install_type": "git-clone",
       "description": "This node circumnavigates the loss of detail, saturation/desaturation for infinite length video generation, the node bypasses the vae decode and directly patches the latent tensor. experimental covering i2v and vace extend.",
       "stars": 14,
-      "author_account_age_days": 1047
+      "author_account_age_days": 1048
     },
     {
       "author": "IDGallagher",
@@ -2665,7 +2665,7 @@
       "install_type": "git-clone",
       "description": "Nodes for searching videos by motion",
       "stars": 13,
-      "author_account_age_days": 6125
+      "author_account_age_days": 6126
     },
     {
       "author": "chaojie",
@@ -2691,7 +2691,7 @@
       "install_type": "git-clone",
       "description": "LiquidTime is a simple yet powerful frame interpolation node for ComfyUI. Just input your sequence and desired frame count - the node handles all complex calculations and generates smooth in-between frames for you. A must-have tool for AI animation and video creation that lets you shape time like liquid.",
       "stars": 13,
-      "author_account_age_days": 2925
+      "author_account_age_days": 2926
     },
     {
       "author": "Isi-dev",
@@ -2705,7 +2705,7 @@
       "install_type": "git-clone",
       "description": "These are ComfyUI nodes to assist in converting images to paintings and to assist the Inspyrenet Rembg node to totally remove, or replace with a color, the original background from images so that the background does not reappear in videos or in nodes that do not retain the alpha channel in rgba images.",
       "stars": 13,
-      "author_account_age_days": 1736
+      "author_account_age_days": 1737
     },
     {
       "author": "yichengup",
@@ -2729,7 +2729,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI extension that enables seamless sharing of AI-generated images and videos directly to Discord.",
       "stars": 13,
-      "author_account_age_days": 746
+      "author_account_age_days": 747
     },
     {
       "author": "WarpedAnimation",
@@ -2741,7 +2741,7 @@
       "install_type": "git-clone",
       "description": "A toolset for Hunyuan Video (mainly), with some additional nodes applicable to Framepack Video and WAN Video",
       "stars": 13,
-      "author_account_age_days": 385
+      "author_account_age_days": 386
     },
     {
       "author": "penposs",
@@ -2753,7 +2753,7 @@
       "install_type": "git-clone",
       "description": "This is a Google Gemini Pro API integration node for ComfyUI, supporting text, image, video, and audio inputs.",
       "stars": 11,
-      "author_account_age_days": 2402
+      "author_account_age_days": 2403
     },
     {
       "author": "havvk",
@@ -2765,7 +2765,7 @@
       "install_type": "git-clone",
       "description": "Tired of OOM errors and tedious file management? The AIIA Node Suite delivers the ultimate workflow overhaul, headlined by the AIIA Media Browser: a high-performance file hub fully integrated into ComfyUI. Instantly preview images, videos, and audio, and experience ultimate smoothness thanks to smart caching and virtual scrolling, even with tens of thousands of files. It also features a powerful fullscreen viewer, rich tooltip previews, and flexible sorting. Alongside the browser, our Video Combine node fundamentally solves memory bottlenecks in long video generation. By streaming frames from disk, you can create videos of virtually unlimited length, making OOM errors a thing of the past. The suite also includes OOM-safe FLOAT video generation, advanced audio processing, and other utilities, providing a complete end-to-end solution from content creation to asset management.",
       "stars": 11,
-      "author_account_age_days": 4282
+      "author_account_age_days": 4283
     },
     {
       "author": "cedarconnor",
@@ -2777,7 +2777,7 @@
       "install_type": "git-clone",
       "description": "A custom node pack for ComfyUI that aligns and retargets skeletal pose data from driving videos to match reference images, enabling consistent motion transfer. (Description by CC)",
       "stars": 11,
-      "author_account_age_days": 4939
+      "author_account_age_days": 4940
     },
     {
       "author": "ShmuelRonen",
@@ -2789,7 +2789,7 @@
       "install_type": "git-clone",
       "description": "Custom nodes for ComfyUI to generate empty latent space compatible with Hunyuan models for both image and video generation.",
       "stars": 10,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "EnragedAntelope",
@@ -2801,7 +2801,7 @@
       "install_type": "git-clone",
       "description": "Given min/max resolution constraints, this automatically suggests optimal dimensions while preserving aspect ratio. Ideal for Image to Image (I2I) and Image to Video (I2V) workflows!",
       "stars": 10,
-      "author_account_age_days": 613
+      "author_account_age_days": 614
     },
     {
       "author": "1zhangyy1",
@@ -2813,7 +2813,7 @@
       "description": "This is a ComfyUI node package that integrates with VIDU API, supporting features such as text-to-video, image-to-video, character-to-video generation, and video super-resolution.",
       "install_type": "git-clone",
       "stars": 10,
-      "author_account_age_days": 1103
+      "author_account_age_days": 1104
     },
     {
       "author": "Yuan-ManX",
@@ -2825,7 +2825,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI-MoviiGen is now available in ComfyUI, MoviiGen 1.1 is a cutting-edge video generation model that excels in cinematic aesthetics and visual quality.",
       "stars": 10,
-      "author_account_age_days": 2084
+      "author_account_age_days": 2085
     },
     {
       "author": "Vantage with AI",
@@ -2837,7 +2837,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model.",
       "stars": 10,
-      "author_account_age_days": 659
+      "author_account_age_days": 660
     },
     {
       "author": "eddyhhlure1Eddy",
@@ -2849,7 +2849,7 @@
       "install_type": "git-clone",
       "description": "Intelligent video frame selection node powered by Qwen3-VL-235B vision model. Automatically analyzes and selects the best quality frames from videos for further creative work.",
       "stars": 10,
-      "author_account_age_days": 392
+      "author_account_age_days": 393
     },
     {
       "author": "pavelchezcin",
@@ -2861,7 +2861,7 @@
       "install_type": "git-clone",
       "description": "A collection of custom nodes for ComfyUI",
       "stars": 10,
-      "author_account_age_days": 41
+      "author_account_age_days": 42
     },
     {
       "author": "impactframes",
@@ -2873,7 +2873,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that automatically selects appropriate video resolution dimensions based on generation mode, aspect ratio, and quality settings. Designed to work seamlessly with video generation models and KJNodes image resize nodes.",
       "stars": 9,
-      "author_account_age_days": 3506
+      "author_account_age_days": 3507
     },
     {
       "author": "IsItDanOrAi",
@@ -2885,7 +2885,7 @@
       "install_type": "git-clone",
       "description": "This initiative represents a solo venture dedicated to integrating a stereopsis effect within ComfyUI (Stable Diffusion). Presently, the project is focused on the refinement of node categorization within a unified framework, as it is in the early stages of development. However, it has achieved functionality in a fundamental capacity. By processing a video through the Side-by-Side (SBS) node and applying Frame Delay to one of the inputs, it facilitates the creation of a stereopsis effect. This effect is compatible with any Virtual Reality headset that supports SBS video playback, offering a practical application in immersive media experiences.",
       "stars": 9,
-      "author_account_age_days": 755
+      "author_account_age_days": 756
     },
     {
       "author": "DrMWeigand",
@@ -2897,7 +2897,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI node for producing stereoscopic and autostereogram (magic eye) images and videos.",
       "stars": 9,
-      "author_account_age_days": 1676
+      "author_account_age_days": 1677
     },
     {
       "author": "fblissjr",
@@ -2909,7 +2909,7 @@
       "install_type": "git-clone",
       "description": "editing activations in wanvideo",
       "stars": 9,
-      "author_account_age_days": 4008
+      "author_account_age_days": 4009
     },
     {
       "author": "fluffydiveX",
@@ -2921,7 +2921,7 @@
       "install_type": "git-clone",
       "description": "It is a simple HunyuanVideo block swap node for ComfyUI native nodes.",
       "stars": 9,
-      "author_account_age_days": 477
+      "author_account_age_days": 478
     },
     {
       "author": "Cryptyox",
@@ -2933,7 +2933,7 @@
       "install_type": "git-clone",
       "description": "This Comfyui node creates an anaglyph image from a color and depth map input. It achieves high speeds suitable for video to anaglyph conversion by using CUDA GPU acceleration.",
       "stars": 9,
-      "author_account_age_days": 1572
+      "author_account_age_days": 1573
     },
     {
       "author": "reallusion",
@@ -2945,7 +2945,7 @@
       "install_type": "git-clone",
       "description": "This nodepack contains custom nodes for ComfyUI designed specifically for handling Reallusion-related assets such as Character Creator and iClone image and video files. These nodes are intended to be used as backend components that communicate and operate through the AI Render Plugin interface of iClone or Character Creator, enabling a seamless integration between ComfyUI's powerful image/video generation capabilities and Reallusion’s animation tools. By bridging ComfyUI with iClone/Character Creator’s AI Render Plugin, these nodes facilitate workflows where AI-assisted content generation can be controlled, customized, and rendered directly from within Reallusion software environments.",
       "stars": 9,
-      "author_account_age_days": 2705
+      "author_account_age_days": 2706
     },
     {
       "author": "RUiNtheExtinct",
@@ -2983,7 +2983,7 @@
       "install_type": "git-clone",
       "description": "Nodes:ApiRequestNode, LoadVideoNode, JsonParserNode, OllamaRequestNode, OldPhotoColorizationNode, waveform_2_audio, SaveImageUnifiedOutput, VideoHelperUnifiedOutput, ...",
       "stars": 8,
-      "author_account_age_days": 3602
+      "author_account_age_days": 3603
     },
     {
       "author": "DarioFT",
@@ -2995,7 +2995,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that combines multiple videos from a directory with optional transitions and background music. Perfect for batch processing and creating seamless video compilations.",
       "stars": 8,
-      "author_account_age_days": 4121
+      "author_account_age_days": 4122
     },
     {
       "author": "Burgstall-labs",
@@ -3008,7 +3008,7 @@
       "install_type": "git-clone",
       "description": "Custom nodes for ComfyUI designed for cropping and stitching video frames (image batches). Part of the 'Burgstall Enabling The Awesomeness' suite.",
       "stars": 8,
-      "author_account_age_days": 435
+      "author_account_age_days": 436
     },
     {
       "author": "Burgstall-labs",
@@ -3020,7 +3020,7 @@
       "install_type": "git-clone",
       "description": "Custom utility nodes for ComfyUI, providing helpers for tasks like video frame manipulation and advanced audio saving. Part of the 'Burgstall Enabling The Awesomeness' suite.",
       "stars": 8,
-      "author_account_age_days": 435
+      "author_account_age_days": 436
     },
     {
       "author": "matoo",
@@ -3032,7 +3032,7 @@
       "install_type": "git-clone",
       "description": "A custom ComfyUI extension to compare two video/image sequences via wipe preview.",
       "stars": 8,
-      "author_account_age_days": 5161
+      "author_account_age_days": 5162
     },
     {
       "author": "olivv-cs",
@@ -3044,7 +3044,7 @@
       "install_type": "git-clone",
       "description": "A set of custom nodes designed for experiments with video diffusion models.",
       "stars": 8,
-      "author_account_age_days": 1056
+      "author_account_age_days": 1057
     },
     {
       "author": "aistudynow",
@@ -3056,7 +3056,7 @@
       "install_type": "git-clone",
       "description": "TeleStyle custom nodes for ComfyUI video style transfer and official Qwen image style transfer.",
       "stars": 8,
-      "author_account_age_days": 213
+      "author_account_age_days": 214
     },
     {
       "author": "red-polo",
@@ -3068,7 +3068,7 @@
       "install_type": "git-clone",
       "description": "This is a ComfyUI port of PoseRetarget, originally implemented in Wan2.2-Animation. Please use it together with WanVideoWrapper.",
       "stars": 8,
-      "author_account_age_days": 3948
+      "author_account_age_days": 3949
     },
     {
       "author": "kakachiex2",
@@ -3080,7 +3080,7 @@
       "install_type": "git-clone",
       "description": "High-performance custom node for LTX2 video generation designed to reduce GPU usage, VRAM requirements, and temperature on consumer GPUs.",
       "stars": 8,
-      "author_account_age_days": 5060
+      "author_account_age_days": 5061
     },
     {
       "author": "zcfrank1st",
@@ -3092,7 +3092,7 @@
       "install_type": "git-clone",
       "description": "A collection of utility nodes for ComfyUI, including audio/video processing, file uploads, and AI image generation.",
       "stars": 7,
-      "author_account_age_days": 5059
+      "author_account_age_days": 5060
     },
     {
       "author": "RenderRift",
@@ -3129,7 +3129,7 @@
       "install_type": "git-clone",
       "description": "This custom node integrates the HunyuanVideo-Foley model for generating audio from video frames and text prompts in ComfyUI. It's built for use in generating Foley sounds from video and text inputs.",
       "stars": 7,
-      "author_account_age_days": 5357
+      "author_account_age_days": 5358
     },
     {
       "author": "otavanopisto",
@@ -3141,7 +3141,7 @@
       "install_type": "git-clone",
       "description": "Custom nodes for ComfyUI in order to expose AI workflows to external applications (particularly image, video and audio editors) so workflows can be integrated as plugins",
       "stars": 7,
-      "author_account_age_days": 4759
+      "author_account_age_days": 4760
     },
     {
       "author": "Yeq6X",
@@ -3153,7 +3153,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that inserts images into videos.",
       "stars": 7,
-      "author_account_age_days": 2292
+      "author_account_age_days": 2293
     },
     {
       "author": "hobinrude",
@@ -3165,7 +3165,7 @@
       "install_type": "git-clone",
       "description": "A custom ComfyUI node integrating DW-Pose (Denoising Whole-Body Pose Estimation) for high-quality pose detection with CPU (ONNX) and GPU (TensorRT) support. Features 20x faster performance with TensorRT acceleration, automatic model downloading, customizable pose visualization, keypoint conversion, and video workflow integration.",
       "stars": 7,
-      "author_account_age_days": 1600
+      "author_account_age_days": 1601
     },
     {
       "author": "anveshane",
@@ -3177,7 +3177,7 @@
       "install_type": "git-clone",
       "description": "Custom ComfyUI nodes for StoryMem - Multi-shot long video storytelling with memory-conditioned video diffusion models.",
       "stars": 7,
-      "author_account_age_days": 968
+      "author_account_age_days": 969
     },
     {
       "author": "K3NK3",
@@ -3189,7 +3189,7 @@
       "install_type": "git-clone",
       "description": "Standalone ComfyUI node to grab the last N frames from a directory as a single batch with optional frame stride, designed for video continuation workflows and temporal consistency improvement.",
       "stars": 7,
-      "author_account_age_days": 3091
+      "author_account_age_days": 3092
     },
     {
       "author": "daxcay",
@@ -3201,7 +3201,7 @@
       "install_type": "git-clone",
       "description": "Plays youtube videos in comfy. Use this node to share tutorials or renders. Youtube Playlists mode is also in Future Development in which you can add multiple youtube links and form a playlist which would be ideal for chained tutorials or lisitening and sharing songs playlists with others.",
       "stars": 6,
-      "author_account_age_days": 739
+      "author_account_age_days": 740
     },
     {
       "author": "AIFSH",
@@ -3213,7 +3213,7 @@
       "install_type": "git-clone",
       "description": "NODES:TextNode, PreViewVideo, VideoSysNode.",
       "stars": 6,
-      "author_account_age_days": 875
+      "author_account_age_days": 876
     },
     {
       "author": "wTechArtist",
@@ -3225,7 +3225,7 @@
       "install_type": "git-clone",
       "description": "A professional video camera parameter estimation toolkit based on the VGGT model.",
       "stars": 6,
-      "author_account_age_days": 2005
+      "author_account_age_days": 2006
     },
     {
       "author": "MetaGLM",
@@ -3241,7 +3241,7 @@
       "install_type": "git-clone",
       "description": "This platform extension provides ZhipuAI nodes, enabling you to configure a workflow for online video generation.",
       "stars": 6,
-      "author_account_age_days": 923
+      "author_account_age_days": 924
     },
     {
       "author": "fblissjr",
@@ -3253,7 +3253,7 @@
       "install_type": "git-clone",
       "description": "This custom node set for ComfyUI provides a DatasetBatchNode for automated, sequential processing of datasets, particularly useful for iterative training or batched image/video generation workflows.",
       "stars": 6,
-      "author_account_age_days": 4008
+      "author_account_age_days": 4009
     },
     {
       "author": "KERRY-YUAN",
@@ -3266,7 +3266,7 @@
       "install_type": "git-clone",
       "description": "Float project applicable to ComfyUI.Generates speaking portrait video frames from an image and audio.",
       "stars": 6,
-      "author_account_age_days": 1898
+      "author_account_age_days": 1899
     },
     {
       "author": "joosthel",
@@ -3278,7 +3278,7 @@
       "install_type": "git-clone",
       "description": "TouchDesigner-style blob tracking and computer vision effects for ComfyUI. Simple nodes for bright spot detection, plexus connections, and technical aesthetics in video workflows.",
       "stars": 6,
-      "author_account_age_days": 910
+      "author_account_age_days": 911
     },
     {
       "author": "jqy-yo",
@@ -3291,7 +3291,7 @@
       "install_type": "git-clone",
       "description": "A collection of custom nodes for integrating Google Gemini API with ComfyUI, providing powerful AI capabilities for text generation, image generation, and video analysis. Nodes: Gemini Text API, Gemini Image Editor, Gemini Image Gen Advanced, Gemini Video Captioner.",
       "stars": 6,
-      "author_account_age_days": 685
+      "author_account_age_days": 686
     },
     {
       "author": "Jarcis-cy",
@@ -3303,7 +3303,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI wrapper nodes for HunyuanVideo-Foley: Generate audio from video + text prompts",
       "stars": 6,
-      "author_account_age_days": 2870
+      "author_account_age_days": 2871
     },
     {
       "author": "Xz3r0",
@@ -3327,7 +3327,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom node for LTX Video 2.3 that uses Gemma3-12b-it LLM for text generation with support for LTX-2.3 prompt extensions and custom system prompts. (Description by CC)",
       "stars": 6,
-      "author_account_age_days": 1414
+      "author_account_age_days": 1415
     },
     {
       "author": "BISAM20",
@@ -3352,7 +3352,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI node that utilizes Moviepy to convert and send your images or videos to a webhook endpoint directly from ComfyUI.",
       "stars": 5,
-      "author_account_age_days": 2423
+      "author_account_age_days": 2424
     },
     {
       "author": "christian-byrne",
@@ -3364,7 +3364,7 @@
       "install_type": "git-clone",
       "description": "Download youtube videos/playlists",
       "stars": 5,
-      "author_account_age_days": 1992
+      "author_account_age_days": 1993
     },
     {
       "author": "GiusTex",
@@ -3388,7 +3388,7 @@
       "install_type": "git-clone",
       "description": "We developed a custom_node for Liveportrait_v2 that enables flexible use on Comfyui to drive animal image-based emoji generation from videos.",
       "stars": 5,
-      "author_account_age_days": 923
+      "author_account_age_days": 924
     },
     {
       "author": "bombax-xiaoice",
@@ -3400,7 +3400,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI supports over [a/rhymes-ai/Allegro](https://huggingface.co/rhymes-ai/Allegro), which uses text prompt to generate short video in relatively high quality, especially comparing to other open source solutions available for now.",
       "stars": 5,
-      "author_account_age_days": 552
+      "author_account_age_days": 553
     },
     {
       "author": "fblissjr",
@@ -3412,7 +3412,7 @@
       "install_type": "git-clone",
       "description": "experimental wanvideo comfyui node with a singular goal - visually seamless transitions between context windows",
       "stars": 5,
-      "author_account_age_days": 4008
+      "author_account_age_days": 4009
     },
     {
       "author": "ProGamerGov",
@@ -3424,7 +3424,7 @@
       "install_type": "git-clone",
       "description": "Video nodes for comfyui-pytorch360convert",
       "stars": 5,
-      "author_account_age_days": 4086
+      "author_account_age_days": 4087
     },
     {
       "author": "lum3on",
@@ -3436,7 +3436,7 @@
       "install_type": "git-clone",
       "description": "This custom node for ComfyUI allows you to scrape and download images and videos from the Midjourney showcase pages. It uses undetected_chromedriver to bypass anti-scraping measures, but requires session cookies from a logged-in browser session to function correctly.",
       "stars": 5,
-      "author_account_age_days": 418
+      "author_account_age_days": 419
     },
     {
       "author": "zzw5516",
@@ -3449,7 +3449,7 @@
       "install_type": "git-clone",
       "description": "Automatic prompt translation to Chinese, custom prompt management, AI-based prompt expansion and translation, AI-generated image/video record management (file browser), and cloud storage upload management.",
       "stars": 5,
-      "author_account_age_days": 4786
+      "author_account_age_days": 4787
     },
     {
       "author": "San4itos",
@@ -3461,7 +3461,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI to save image sequences as video files using FFmpeg. Supports various codecs, audio muxing, and in-node previews.",
       "stars": 5,
-      "author_account_age_days": 2225
+      "author_account_age_days": 2226
     },
     {
       "author": "snomiao",
@@ -3473,7 +3473,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for cropping videos using FFmpeg with pixel-precise control.",
       "stars": 5,
-      "author_account_age_days": 4365
+      "author_account_age_days": 4366
     },
     {
       "author": "railep",
@@ -3497,7 +3497,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom node pack for WAN v2v long video generation. Provides nodes for chunking, overlap stitching, control group orchestration, debug numbering, and de-overlap merging to create seamless long-form videos.",
       "stars": 5,
-      "author_account_age_days": 3916
+      "author_account_age_days": 3917
     },
     {
       "author": "elyetis",
@@ -3521,7 +3521,7 @@
       "install_type": "git-clone",
       "description": "A faster tiled VAE decode node for ComfyUI based on LTXV, optimized for low VRAM scenarios with configurable tiling, progress bars, and improved logging for decoding large images and videos.",
       "stars": 5,
-      "author_account_age_days": 426
+      "author_account_age_days": 427
     },
     {
       "author": "Pondowner857",
@@ -3534,7 +3534,7 @@
       "install_type": "git-clone",
       "description": "Remote workflow executor node - Execute workflows on remote ComfyUI servers. Supports image/text/audio/video input and output.",
       "stars": 5,
-      "author_account_age_days": 734
+      "author_account_age_days": 735
     },
     {
       "author": "ckinpdx",
@@ -3558,7 +3558,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that integrates with [a/Hedra](https://www.hedra.com/)'s Character-3 API to generate talking avatar videos from images and audio.",
       "stars": 4,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "denfrost",
@@ -3583,7 +3583,7 @@
       "install_type": "git-clone",
       "description": "Nodes:Load Video to Images, Image to Canny, ControlNet Model Loader, VEDit Model Loader, VEdit Sampler. [a/https://github.com/SingleZombie/DiffusersExample/tree/main/ReplaceAttn](https://github.com/SingleZombie/DiffusersExample/tree/main/ReplaceAttn)",
       "stars": 4,
-      "author_account_age_days": 3438
+      "author_account_age_days": 3439
     },
     {
       "author": "DanielHabib",
@@ -3607,7 +3607,7 @@
       "install_type": "git-clone",
       "description": "Another comfy implementation for the short video generation project hpcaitech/Open-Sora, supporting latest V2 and V3 models as well as image to video functions, etc.",
       "stars": 4,
-      "author_account_age_days": 552
+      "author_account_age_days": 553
     },
     {
       "author": "yichengup",
@@ -3631,7 +3631,7 @@
       "install_type": "git-clone",
       "description": "NODES: Google Veo2 Video Generation",
       "stars": 4,
-      "author_account_age_days": 1298
+      "author_account_age_days": 1299
     },
     {
       "author": "asdrabael",
@@ -3644,7 +3644,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI Node for loading multiple Lora's [a/HunyuanVideo](https://github.com/Tencent/HunyuanVideo)",
       "stars": 4,
-      "author_account_age_days": 658
+      "author_account_age_days": 659
     },
     {
       "author": "Andro-Meta",
@@ -3668,7 +3668,7 @@
       "install_type": "git-clone",
       "description": "This is a standalone node pack that provides powerful color correction methods for ComfyUI, extracted from the ComfyUI-DLoRAL project. It allows you to transfer the color profile from a source image or video to a target image or video.\nThis is ideal for restoring the original color to AI-processed videos (like upscaling or frame interpolation) or for creative color grading.",
       "stars": 4,
-      "author_account_age_days": 4102
+      "author_account_age_days": 4103
     },
     {
       "author": "sammykumar",
@@ -3693,7 +3693,7 @@
       "install_type": "git-clone",
       "description": "Compress video in comfyui.",
       "stars": 4,
-      "author_account_age_days": 1266
+      "author_account_age_days": 1267
     },
     {
       "author": "princepainter",
@@ -3705,7 +3705,7 @@
       "install_type": "git-clone",
       "description": "Automatically scales your input video to specified dimensions and encodes it into latent space for sampling.",
       "stars": 4,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "styletransfer",
@@ -3717,7 +3717,7 @@
       "install_type": "git-clone",
       "description": "A comprehensive ComfyUI node package that uses Microsoft's TRELLIS2 to transform video footage into 3D mesh reconstructions with advanced rendering effects.",
       "stars": 4,
-      "author_account_age_days": 4508
+      "author_account_age_days": 4509
     },
     {
       "author": "domprosys",
@@ -3755,7 +3755,7 @@
       "install_type": "git-clone",
       "description": "SVDResizer is a helper for resizing the source image, according to the sizes enabled in Stable Video Diffusion. The rationale behind the possibility of changing the size of the image in steps between the ranges of 576 and 1024, is the use of the greatest common denominator of these two numbers which is 64. SVD is lenient with resizing that adheres to this rule, so the chance of coherent video that is not the standard size of 576X1024 is greater. It is advisable to keep the value 1024 constant and play with the second size to maintain the stability of the result.",
       "stars": 3,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "ShmuelRonen",
@@ -3767,7 +3767,7 @@
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node for combining video clips with synchronized audio, background music, and advanced audio controls.",
       "stars": 3,
-      "author_account_age_days": 1849
+      "author_account_age_days": 1850
     },
     {
       "author": "MariusKM",
@@ -3780,7 +3780,7 @@
       "install_type": "git-clone",
       "description": "Utility nodes including ImageBlend, Math, Strings, Color tools, Wildcard Processor, Latent Noise Mask, and WAN Three Frame To Video for keyframe-based video generation",
       "stars": 3,
-      "author_account_age_days": 2875
+      "author_account_age_days": 2876
     },
     {
       "author": "RhizoNymph",
@@ -3793,7 +3793,7 @@
       "install_type": "git-clone",
       "description": "Nodes to use [a/latte](https://github.com/Vchitect/Latte) for text to video generation",
       "stars": 3,
-      "author_account_age_days": 1811
+      "author_account_age_days": 1812
     },
     {
       "author": "markuryy",
@@ -3805,7 +3805,7 @@
       "install_type": "git-clone",
       "description": "A collection of custom nodes for ComfyUI",
       "stars": 3,
-      "author_account_age_days": 3522
+      "author_account_age_days": 3523
     },
     {
       "author": "hellercommaa",
@@ -3818,7 +3818,7 @@
       "install_type": "git-clone",
       "description": "A super simple node that outputs common video resolutions as 2 integers for Hunyuan and others!",
       "stars": 3,
-      "author_account_age_days": 4972
+      "author_account_age_days": 4973
     },
     {
       "author": "PixelFunAI",
@@ -3830,7 +3830,7 @@
       "install_type": "git-clone",
       "description": "This collection provides four additional nodes for loading and managing Hunyuan Video LoRAs in ComfyUI",
       "stars": 3,
-      "author_account_age_days": 434
+      "author_account_age_days": 435
     },
     {
       "author": "fblissjr",
@@ -3842,7 +3842,7 @@
       "install_type": "git-clone",
       "description": "this repo is to capture end-to-end data, metadata, and embeddings for ComfyUI workflows, specifically HunyuanVideo to start.",
       "stars": 3,
-      "author_account_age_days": 4008
+      "author_account_age_days": 4009
     },
     {
       "author": "KAVVATARE",
@@ -3854,7 +3854,7 @@
       "install_type": "git-clone",
       "description": "A simple ComfyUI node for generating right eye disparity for VR videos",
       "stars": 3,
-      "author_account_age_days": 4775
+      "author_account_age_days": 4776
     },
     {
       "author": "karthikg-09",
@@ -3866,7 +3866,7 @@
       "install_type": "git-clone",
       "description": "A high-performance ComfyUI custom node for intelligent image resizing with industry-standard presets and smart orientation detection. Optimized for video workflows and batch processing.",
       "stars": 3,
-      "author_account_age_days": 840
+      "author_account_age_days": 841
     },
     {
       "author": "Charonartist",
@@ -3878,7 +3878,7 @@
       "install_type": "git-clone",
       "description": "This is a ComfyUI custom node that extracts the last frame (image) from an input image batch. It is particularly useful when you want to obtain the final scene or frame in a video generation workflow.",
       "stars": 3,
-      "author_account_age_days": 638
+      "author_account_age_days": 639
     },
     {
       "author": "Leon",
@@ -3914,7 +3914,7 @@
         "midjourney"
       ],
       "stars": 3,
-      "author_account_age_days": 2301
+      "author_account_age_days": 2302
     },
     {
       "author": "cuban044",
@@ -3926,7 +3926,7 @@
       "install_type": "git-clone",
       "description": "A custom node extension for ComfyUI that integrates Google's Veo 3 text-to-video generation capabilities.",
       "stars": 3,
-      "author_account_age_days": 1111
+      "author_account_age_days": 1112
     },
     {
       "author": "CallMe1101",
@@ -3950,7 +3950,7 @@
       "install_type": "git-clone",
       "description": "A custom ComfyUI node designed for stable, high-resolution video export — even on limited hardware.",
       "stars": 3,
-      "author_account_age_days": 3822
+      "author_account_age_days": 3823
     },
     {
       "author": "zl9739379",
@@ -3962,7 +3962,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that integrates ByteDance Volcano Engine's video generation AI model, supporting both text-to-video and image-to-video generation.",
       "stars": 3,
-      "author_account_age_days": 1225
+      "author_account_age_days": 1226
     },
     {
       "author": "ru4ls",
@@ -3974,7 +3974,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI that provides seamless integration with the Wan models from Alibaba Cloud Model Studio. This solution delivers cutting-edge image and video generation capabilities directly within ComfyUI, supporting both international and Mainland China regions.",
       "stars": 3,
-      "author_account_age_days": 1130
+      "author_account_age_days": 1131
     },
     {
       "author": "ThunderBolt4931",
@@ -3986,7 +3986,7 @@
       "install_type": "git-clone",
       "description": "This repository provides custom nodes for ComfyUI tailored for VFX and AI image/video generation workflows",
       "stars": 3,
-      "author_account_age_days": 719
+      "author_account_age_days": 720
     },
     {
       "author": "vjumpkung",
@@ -3998,7 +3998,7 @@
       "install_type": "git-clone",
       "description": "An experimental STAR Video Upscale Wrapper.",
       "stars": 3,
-      "author_account_age_days": 3994
+      "author_account_age_days": 3995
     },
     {
       "author": "attome-ai",
@@ -4010,7 +4010,7 @@
       "install_type": "git-clone",
       "description": "Custom nodes for ComfyUI enabling seamless loading and saving of media files (images, videos, audio, text) directly from/to AWS S3 or S3-compatible storage services.",
       "stars": 3,
-      "author_account_age_days": 1647
+      "author_account_age_days": 1648
     },
     {
       "author": "Rhovanx",
@@ -4059,7 +4059,7 @@
       "install_type": "git-clone",
       "description": "Advanced context management node for WanVideo using Intent-Aware Mixture of Contexts (MoC) system with hybrid memory, multi-modal retrieval, and temporal diversity. (Description by CC)",
       "stars": 3,
-      "author_account_age_days": 1286
+      "author_account_age_days": 1287
     },
     {
       "author": "impactframes",
@@ -4071,7 +4071,7 @@
       "install_type": "git-clone",
       "description": "Download Youtube videos using ComfyUI",
       "stars": 2,
-      "author_account_age_days": 3506
+      "author_account_age_days": 3507
     },
     {
       "author": "l20richo",
@@ -4084,7 +4084,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI-Azure-Blob-Storage seamlessly integrates with [a/Azure Blob Storage](https://azure.microsoft.com/en-us/products/storage/blobs/) in ComfyUI. This open-source project provides custom nodes for effortless loading and saving of images, videos, and checkpoint models directly from Azure blob containers within the ComfyUI graph interface.",
       "stars": 2,
-      "author_account_age_days": 1811
+      "author_account_age_days": 1812
     },
     {
       "author": "SamSeen",
@@ -4097,7 +4097,7 @@
       "install_type": "git-clone",
       "description": "Two powerful custom nodes for ComfyUI to create stunning before-and-after transition videos. These nodes are designed for visual comparisons, transformations, and creative effects, supporting both standard and depth map-based transitions.",
       "stars": 2,
-      "author_account_age_days": 4235
+      "author_account_age_days": 4236
     },
     {
       "author": "cozy_comm",
@@ -4111,7 +4111,7 @@
       "install_type": "git-clone",
       "description": "Post images and video to Discord. Nodes to facilitate communication using REST.",
       "stars": 2,
-      "author_account_age_days": 710
+      "author_account_age_days": 711
     },
     {
       "author": "blob8",
@@ -4123,7 +4123,7 @@
       "install_type": "git-clone",
       "description": "Introduces a node that tries to approximate the entire video using it's first frame (that we stylize) by warping it using optical flow extracted from the video. First we do image-to-image using the reference video's first frame and a depth controlnet. The generated object doesn't have to closely resemble the reference like on the demo. Then the generated image and the video frames are fed into the node and it returns a warped video. No ai models are used by the node. The example workflow uses SDXL but you can get it to work with any arch if you manage i2i.",
       "stars": 2,
-      "author_account_age_days": 712
+      "author_account_age_days": 713
     },
     {
       "author": "slvslvslv",
@@ -4135,7 +4135,7 @@
       "install_type": "git-clone",
       "description": "NODES: Smart HunyuanVideo Lora Select, Smart HunyuanVideo Lora StackSmart Format String, Smart Format String (10 params)",
       "stars": 2,
-      "author_account_age_days": 621
+      "author_account_age_days": 622
     },
     {
       "author": "lum3on",
@@ -4147,7 +4147,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node implementation of EdgeTAM (On-Device Track Anything Model) for efficient, interactive video object tracking.",
       "stars": 2,
-      "author_account_age_days": 418
+      "author_account_age_days": 419
     },
     {
       "author": "penposs",
@@ -4159,7 +4159,7 @@
       "install_type": "git-clone",
       "description": "Free trial of Tongyi Wanxiang wan2.1 model, this is a batch implementation of wan2.1 API, providing batch processing for your short video production.",
       "stars": 2,
-      "author_account_age_days": 2402
+      "author_account_age_days": 2403
     },
     {
       "author": "Immac",
@@ -4171,7 +4171,7 @@
       "install_type": "git-clone",
       "description": "A mock of a possible implementation of for ComfyUI Core Video Nodes.",
       "stars": 2,
-      "author_account_age_days": 4823
+      "author_account_age_days": 4824
     },
     {
       "author": "synthetai",
@@ -4183,7 +4183,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node based on GFPGAN for face enhancement, capable of restoring and enhancing faces in images and videos",
       "stars": 2,
-      "author_account_age_days": 595
+      "author_account_age_days": 596
     },
     {
       "author": "jida-ai",
@@ -4195,7 +4195,7 @@
       "install_type": "git-clone",
       "description": "Nodes related to video chat workflows",
       "stars": 2,
-      "author_account_age_days": 4161
+      "author_account_age_days": 4162
     },
     {
       "author": "philipy1219",
@@ -4207,7 +4207,7 @@
       "install_type": "git-clone",
       "description": "This extension adds cloud storage support to ComfyUI, allowing you to save and load images, masks, and videos directly from cloud storage services. Currently supports Aliyun OSS and AWS S3.",
       "stars": 2,
-      "author_account_age_days": 3902
+      "author_account_age_days": 3903
     },
     {
       "author": "heheok",
@@ -4291,7 +4291,7 @@
       "install_type": "git-clone",
       "description": "Bridge VHS_VideoCombine video outputs to standard image payloads for serverless runners (RunPod, Modal). Enables automatic S3 uploads of MP4/WebP files in worker-comfyui deployments.",
       "stars": 2,
-      "author_account_age_days": 3085
+      "author_account_age_days": 3086
     },
     {
       "author": "princepainter",
@@ -4303,7 +4303,7 @@
       "install_type": "git-clone",
       "description": "Aligns any input frame number to the nearest 4N+1 format, ensuring compatibility with video generation models that require specific frame count constraints.",
       "stars": 2,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "vjumpkung",
@@ -4315,7 +4315,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that enables direct loading of musubi-tuner based LoRAs (Z-Image Turbo, Hunyuan Video 1.5) with automatic in-memory conversion and caching.",
       "stars": 2,
-      "author_account_age_days": 3994
+      "author_account_age_days": 3995
     },
     {
       "author": "ai-joe-git",
@@ -4327,7 +4327,7 @@
       "install_type": "git-clone",
       "description": "A powerful ComfyUI custom node that extracts workflow metadata from PNG images and video files generated by ComfyUI.",
       "stars": 2,
-      "author_account_age_days": 1704
+      "author_account_age_days": 1705
     },
     {
       "author": "ChunkyPanda29",
@@ -4352,7 +4352,7 @@
       "install_type": "git-clone",
       "description": "AI dance choreography from music. Generate full-body dance motion (BVH/FBX/JSON) from any audio track using MVNT's diffusion model trained with 100+ professional choreographers. Create rigged 3D characters from images, preview motion as stick-figure animations, and export photorealistic AI music videos — all inside ComfyUI. Nodes: MVNT Generate Dance, MVNT Generate Character, MVNT Export Video, MVNT Preview BVH, MVNT List Styles, MVNT Estimate Cost, MVNT Load Motion.",
       "stars": 2,
-      "author_account_age_days": 824
+      "author_account_age_days": 825
     },
     {
       "author": "olduvai-jp",
@@ -4364,7 +4364,7 @@
       "install_type": "git-clone",
       "description": "S3-backed input/output nodes for ComfyUI to browse, load images/videos from S3 buckets and push outputs back to S3 automatically.",
       "stars": 1,
-      "author_account_age_days": 1520
+      "author_account_age_days": 1521
     },
     {
       "author": "marduk191",
@@ -4376,7 +4376,7 @@
       "install_type": "git-clone",
       "description": "Custom ComfyUI nodes for integrating RunningHub's AI image and video generation services into workflows. (Description by CC)",
       "stars": 1,
-      "author_account_age_days": 5059
+      "author_account_age_days": 5060
     },
     {
       "author": "bombax-xiaoice",
@@ -4388,7 +4388,7 @@
       "install_type": "git-clone",
       "description": "Another comfy implementation for the short video generation project PKU-YuanGroup/Open-Sora-Plan, supporting latest 1.3.0 and 1.2.0 and image to video feature, etc.",
       "stars": 1,
-      "author_account_age_days": 552
+      "author_account_age_days": 553
     },
     {
       "author": "yichengup",
@@ -4412,7 +4412,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI nodes for [Animon Platform](https://platform.animon.ai/), a comprehensive API service offering a variety of image and video generation models.",
       "stars": 1,
-      "author_account_age_days": 476
+      "author_account_age_days": 477
     },
     {
       "author": "philiprodriguez",
@@ -4424,7 +4424,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI node which copies a given latent's samples tensor along the time axis ((length - 1) // 4) + 1 times to form a longer latent (see EmptyHunyuanLatentVideo's implementation for why this specific number of copies is used) and then prepares a noise_mask tensor of the same shape such that the value of the mask for a given time step is given by the function at https://www.desmos.com/calculator/vhw74mr1vh.",
       "stars": 1,
-      "author_account_age_days": 3642
+      "author_account_age_days": 3643
     },
     {
       "author": "Dehypnotic",
@@ -4436,7 +4436,7 @@
       "install_type": "git-clone",
       "description": "Save toolkit for audio, image, and video: MP3 audio export with VBR/CBR options, multi-format image saving with workflow/thumbnail metadata, and video + frame encoding (MP4/MKV/WEBM/MOV) — all sharing whitelist-safe paths and rich placeholder templating.",
       "stars": 1,
-      "author_account_age_days": 1736
+      "author_account_age_days": 1737
     },
     {
       "author": "bemoregt",
@@ -4448,7 +4448,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for 2× video frame interpolation using a Fourier-transform-based phase difference algorithm.",
       "stars": 1,
-      "author_account_age_days": 3604
+      "author_account_age_days": 3605
     },
     {
       "author": "jerrywap",
@@ -4461,7 +4461,7 @@
       "install_type": "git-clone",
       "description": "Send generated images or videos to any HTTP webhook with optional parameters such as prompt-id and metadata payload.",
       "stars": 1,
-      "author_account_age_days": 2977
+      "author_account_age_days": 2978
     },
     {
       "author": "Kyron Mahan",
@@ -4474,7 +4474,7 @@
       "install_type": "git-clone",
       "description": "A package for intelligent image scaling, aspect ratio adjustments, metadata extraction, and video frame processing for Wan 2.1 vid2vid/img2vid workflows with Pony/SDXL models.",
       "stars": 1,
-      "author_account_age_days": 1049
+      "author_account_age_days": 1050
     },
     {
       "author": "LamEmil",
@@ -4486,7 +4486,7 @@
       "install_type": "git-clone",
       "description": "A collection of custom nodes for ComfyUI that enable the creation of various ASCII art effects, from static images to complex, colorized typing animations and video conversions.",
       "stars": 1,
-      "author_account_age_days": 545
+      "author_account_age_days": 546
     },
     {
       "author": "highdoping",
@@ -4498,7 +4498,7 @@
       "install_type": "git-clone",
       "description": "Add ASS/SSA subtitle to video using ffmpeg.",
       "stars": 1,
-      "author_account_age_days": 2814
+      "author_account_age_days": 2815
     },
     {
       "author": "wasilone11",
@@ -4510,7 +4510,7 @@
       "install_type": "git-clone",
       "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface.",
       "stars": 1,
-      "author_account_age_days": 2850
+      "author_account_age_days": 2851
     },
     {
       "author": "wasilone11",
@@ -4522,7 +4522,7 @@
       "install_type": "git-clone",
       "description": "This custom node allows you to generate personalized video messages (PVM) using audio, video, and multilingual text prompts inside ComfyUI.",
       "stars": 1,
-      "author_account_age_days": 2850
+      "author_account_age_days": 2851
     },
     {
       "author": "claptrap0",
@@ -4534,7 +4534,7 @@
       "install_type": "git-clone",
       "description": "Utilize the power of an LLM into ComfyUI to transform your text-to-image and text-to-video ideas into highly detailed prompts for generation while giving you full control.",
       "stars": 1,
-      "author_account_age_days": 260
+      "author_account_age_days": 261
     },
     {
       "author": "Cyrostar",
@@ -4560,7 +4560,7 @@
       "install_type": "git-clone",
       "description": "A simple custom node for ComfyUI to load LoRAs and videos directly from a URL. Ideal for users hosting files on a server with publicly accessible URLs.",
       "stars": 1,
-      "author_account_age_days": 1013
+      "author_account_age_days": 1014
     },
     {
       "author": "rslosch",
@@ -4584,7 +4584,7 @@
       "install_type": "git-clone",
       "description": "Load media (image/video/audio) from remote URL",
       "stars": 1,
-      "author_account_age_days": 2829
+      "author_account_age_days": 2830
     },
     {
       "author": "SnJake",
@@ -4596,7 +4596,7 @@
       "install_type": "git-clone",
       "description": "SnJake Sapsan-VFI is a custom ComfyUI node for x2 video frame interpolation. It inserts one in-between frame for every input pair, doubling the FPS.",
       "stars": 1,
-      "author_account_age_days": 2123
+      "author_account_age_days": 2124
     },
     {
       "author": "sbcode",
@@ -4612,7 +4612,7 @@
         "image-batch-reverse"
       ],
       "stars": 1,
-      "author_account_age_days": 4470
+      "author_account_age_days": 4471
     },
     {
       "author": "sbcode",
@@ -4624,7 +4624,7 @@
       "install_type": "git-clone",
       "description": "Custom node that takes an audio mp3 and an image, and creates a lip synced video from them.",
       "stars": 1,
-      "author_account_age_days": 4470
+      "author_account_age_days": 4471
     },
     {
       "author": "Sampkao",
@@ -4648,7 +4648,7 @@
       "install_type": "git-clone",
       "description": "Professional panorama generation tools for ComfyUI converting perspective images/video to equirectangular 360° panoramas with automatic camera calibration via AI, horizon detection, or vertical line detection.",
       "stars": 1,
-      "author_account_age_days": 2294
+      "author_account_age_days": 2295
     },
     {
       "author": "jonstreeter",
@@ -4697,7 +4697,7 @@
       "install_type": "git-clone",
       "description": "Video description nodes using Qwen3-VL and NVIDIA DAM models, plus StoryBoard JSON prompt generation nodes for structured scene and character prompts.",
       "stars": 1,
-      "author_account_age_days": 2967
+      "author_account_age_days": 2968
     },
     {
       "author": "princepainter",
@@ -4709,7 +4709,7 @@
       "install_type": "git-clone",
       "description": "Lightweight video information extraction node for ComfyUI that extracts video metadata including frame rate, frame count, width, and height. (Description by CC)",
       "stars": 1,
-      "author_account_age_days": 1147
+      "author_account_age_days": 1148
     },
     {
       "author": "hua1995116",
@@ -4721,7 +4721,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom node for adding watermarks to videos using FFmpeg, with configurable position, opacity, scale, and hardware acceleration support.",
       "stars": 1,
-      "author_account_age_days": 3995
+      "author_account_age_days": 3996
     },
     {
       "author": "neonr0",
@@ -4733,7 +4733,7 @@
       "install_type": "git-clone",
       "description": "Smart upscaling with pixel-budget awareness while preserving native aspect ratios. Ideal for Image to Image (I2I) and Image to Video (I2V) workflows!",
       "stars": 1,
-      "author_account_age_days": 4403
+      "author_account_age_days": 4404
     },
     {
       "author": "lovisdotio",
@@ -4757,7 +4757,7 @@
       "install_type": "git-clone",
       "description": "Custom ComfyUI nodes providing video comparison utilities, including wipe and fade compare video generation in multiple directions. (Description by CC)",
       "stars": 1,
-      "author_account_age_days": 2240
+      "author_account_age_days": 2241
     },
     {
       "author": "BuddyBytes",
@@ -4781,7 +4781,7 @@
       "install_type": "git-clone",
       "description": "A powerful frame-by-frame video mask editor for ComfyUI with painting, auto BBox, hole filling, blur/feathering, and video slicing features.",
       "stars": 1,
-      "author_account_age_days": 106
+      "author_account_age_days": 107
     },
     {
       "author": "Wakapedia",
@@ -4793,7 +4793,7 @@
       "install_type": "git-clone",
       "description": "Advanced LoRA management and prompt building tools for WanVideo. Features: Wakawave LoRA Loader (unlimited LoRAs, save/load presets, drag-to-reorder, per-LoRA strength control), Wakawave Prompt Builder (dual positive/negative prompts, weight control, segment mode, visual preset browser with import/export).",
       "stars": 1,
-      "author_account_age_days": 4437
+      "author_account_age_days": 4438
     },
     {
       "author": "chrishill197724-gif",
@@ -4805,7 +4805,7 @@
       "install_type": "git-clone",
       "description": "An optimized storyboard-based latent generator for Wan 2.2 with low VRAM optimization and storyboard logic for controlled video composition.",
       "stars": 1,
-      "author_account_age_days": 93
+      "author_account_age_days": 94
     },
     {
       "author": "esp-dev",
@@ -4817,7 +4817,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom node: load an MP4 and output first/last frame as IMAGE.",
       "stars": 1,
-      "author_account_age_days": 2351
+      "author_account_age_days": 2352
     },
     {
       "author": "ethanfel",
@@ -4829,7 +4829,7 @@
       "install_type": "git-clone",
       "description": "A visual dashboard for managing, versioning, and batch-processing JSON configuration files for AI video generation workflows with Streamlit web interface and ComfyUI custom nodes.",
       "stars": 1,
-      "author_account_age_days": 3242
+      "author_account_age_days": 3243
     },
     {
       "author": "shumoLR",
@@ -4841,7 +4841,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI video style transfer plugin based on TeleStyle for applying reference image styles to source videos. (Description by CC)",
       "stars": 1,
-      "author_account_age_days": 689
+      "author_account_age_days": 690
     },
     {
       "author": "zhaocaiji",
@@ -4853,7 +4853,7 @@
       "install_type": "git-clone",
       "description": "A custom node for ComfyUI to handle video frame sequences.",
       "stars": 1,
-      "author_account_age_days": 2624
+      "author_account_age_days": 2625
     },
     {
       "author": "hyukudan",
@@ -4889,7 +4889,7 @@
       "install_type": "git-clone",
       "description": "Custom ComfyUI nodes to help with creating custom Yu-Gi-Oh! cards and modding the video games",
       "stars": 1,
-      "author_account_age_days": 3649
+      "author_account_age_days": 3650
     },
     {
       "author": "gregtee2",
@@ -4913,7 +4913,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for LTX2 to R2V video generation. (Description by CC)",
       "stars": 1,
-      "author_account_age_days": 4239
+      "author_account_age_days": 4240
     },
     {
       "author": "sal063",
@@ -4925,7 +4925,7 @@
       "install_type": "git-clone",
       "description": "Implementation of xie-lab-ml/Zigzag-Diffusion-Sampling into ComfyUI, tested primarily with Anima video workflows.",
       "stars": 1,
-      "author_account_age_days": 1390
+      "author_account_age_days": 1391
     },
     {
       "author": "jax-explorer",
@@ -4937,7 +4937,7 @@
       "install_type": "git-clone",
       "description": "Nodes:FastImageListToImageBatch",
       "stars": 0,
-      "author_account_age_days": 1221
+      "author_account_age_days": 1222
     },
     {
       "author": "jax-explorer",
@@ -4949,7 +4949,7 @@
       "install_type": "git-clone",
       "description": "Optimize OOM issues based on ComfyUI-LatentSyncWrapper. [a/ShmuelRonen/ComfyUI-LatentSyncWrapper](https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper)\nVideBasic Optimize OOM Plan: [a/jax-explorer/ComfyUI-VideoBasic](https://github.com/jax-explorer/ComfyUI-VideoBasic)",
       "stars": 0,
-      "author_account_age_days": 1221
+      "author_account_age_days": 1222
     },
     {
       "author": "xliry",
@@ -4962,7 +4962,7 @@
       "install_type": "git-clone",
       "description": "Nodes:Send Video to Discord",
       "stars": 0,
-      "author_account_age_days": 1917
+      "author_account_age_days": 1918
     },
     {
       "author": "bombax-xiaoice",
@@ -4974,7 +4974,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI supports over lihxxx/DisPose, which generates a new video with a reference video as poses and a reference image as everything else.",
       "stars": 0,
-      "author_account_age_days": 552
+      "author_account_age_days": 553
     },
     {
       "author": "fuselayer",
@@ -4998,7 +4998,7 @@
       "install_type": "git-clone",
       "description": "Add vertical and horizontal video grid support",
       "stars": 0,
-      "author_account_age_days": 3943
+      "author_account_age_days": 3944
     },
     {
       "author": "SamTyurenkov",
@@ -5010,7 +5010,7 @@
       "install_type": "git-clone",
       "description": "Some nodes to create a preprocessed videos",
       "stars": 0,
-      "author_account_age_days": 3606
+      "author_account_age_days": 3607
     },
     {
       "author": "HappyXY",
@@ -5022,7 +5022,7 @@
       "install_type": "git-clone",
       "description": "use case of llm, image, video models on amazon bedrock",
       "stars": 0,
-      "author_account_age_days": 2882
+      "author_account_age_days": 2883
     },
     {
       "author": "blird",
@@ -5034,7 +5034,7 @@
       "install_type": "git-clone",
       "description": "This custom node for ComfyUI provides adaptive image resizing based on target pixel counts, maintaining aspect ratio and supporting different quality levels. It is useful for workflows that require images to fit within specific pixel budgets (e.g., for video, AI models, or memory constraints).",
       "stars": 0,
-      "author_account_age_days": 2981
+      "author_account_age_days": 2982
     },
     {
       "author": "SaturMars",
@@ -5046,7 +5046,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI node for video super-resolution and frame interpolation using [a/NVEncC](https://github.com/rigaya/NVEnc).",
       "stars": 0,
-      "author_account_age_days": 782
+      "author_account_age_days": 783
     },
     {
       "author": "kusurin",
@@ -5058,7 +5058,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for creating chronophotography effects from video frames",
       "stars": 0,
-      "author_account_age_days": 1262
+      "author_account_age_days": 1263
     },
     {
       "author": "Verolelb",
@@ -5070,7 +5070,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom node that acts as a mini video editing studio, automatically assembling multiple video clips from a folder with intelligent resolution resizing, aspect ratio handling, and frame rate management.",
       "stars": 0,
-      "author_account_age_days": 1266
+      "author_account_age_days": 1267
     },
     {
       "author": "HoangYell",
@@ -5082,7 +5082,7 @@
       "install_type": "git-clone",
       "description": "A collection of custom ComfyUI nodes for advanced video processing and editing workflows.",
       "stars": 0,
-      "author_account_age_days": 4387
+      "author_account_age_days": 4388
     },
     {
       "author": "Daxamur",
@@ -5136,7 +5136,7 @@
       "install_type": "git-clone",
       "description": "NODES: Upload image(s) to WebDAV, Upload video as WebM to WebDAV, Load image from WebDAV, Evaluate S-Expr with integer output, Evaluate S-Expr with float output",
       "stars": 0,
-      "author_account_age_days": 5059
+      "author_account_age_days": 5060
     },
     {
       "author": "5agado",
@@ -5184,7 +5184,7 @@
       "install_type": "git-clone",
       "description": "Extract keyframes from video",
       "stars": 0,
-      "author_account_age_days": 5882
+      "author_account_age_days": 5883
     },
     {
       "author": "joyboy123456",
@@ -5208,7 +5208,7 @@
       "install_type": "git-clone",
       "description": "This custom node for ComfyUI allows you to hide a video file within a PNG image using a file concatenation technique. The resulting image can be viewed as a normal picture, but a standard unzip tool can extract the hidden video from it.",
       "stars": 0,
-      "author_account_age_days": 3612
+      "author_account_age_days": 3613
     },
     {
       "author": "scofano",
@@ -5220,7 +5220,7 @@
       "install_type": "git-clone",
       "description": "Nodes for Video effects. Zoom In/Out - new features soon.",
       "stars": 0,
-      "author_account_age_days": 3394
+      "author_account_age_days": 3395
     },
     {
       "author": "michael",
@@ -5232,7 +5232,7 @@
       "install_type": "git-clone",
       "description": "Custom nodes for saving images/videos without metadata and GPU-accelerated frame rate processing (25fps→16fps). Includes 5 nodes: Save Image/Video (No Metadata), Frame Rate Resampler (CPU/GPU). Supports CUDA acceleration and multiple nterpolation methods. Requires ffmpeg.",
       "stars": 0,
-      "author_account_age_days": 704
+      "author_account_age_days": 705
     },
     {
       "author": "guyouyue",
@@ -5244,7 +5244,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI Video Auto-Cropping Tool — includes keyframe detection and automatic segmentation/saving based on keyframes.",
       "stars": 0,
-      "author_account_age_days": 1086
+      "author_account_age_days": 1087
     },
     {
       "author": "apenguin24",
@@ -5268,7 +5268,7 @@
       "install_type": "git-clone",
       "description": "Nodes to enable easy selection of image/video sizes (width/height) and int/string selectors",
       "stars": 0,
-      "author_account_age_days": 158
+      "author_account_age_days": 159
     },
     {
       "author": "Aishor",
@@ -5304,7 +5304,7 @@
       "install_type": "git-clone",
       "description": "Auto-fixes WanVideoModel for PyTorch 2.10.0+ compatibility by automatically patching the model class to work with both PyTorch 2.9.0 and 2.10.0+.",
       "stars": 0,
-      "author_account_age_days": 2277
+      "author_account_age_days": 2278
     },
     {
       "author": "CraftBlack",
@@ -5316,7 +5316,7 @@
       "install_type": "git-clone",
       "description": "Utility node for ComfyUI that calculates downscaled resolutions while maintaining original aspect ratio, ideal for image-to-video workflows to prevent OOM errors. (Description by CC)",
       "stars": 0,
-      "author_account_age_days": 1851
+      "author_account_age_days": 1852
     },
     {
       "author": "sirouk",
@@ -5352,7 +5352,7 @@
       "install_type": "git-clone",
       "description": "Unofficial ComfyUI environment using web scraping methods to enable Meta AI integration for text-to-image and image-to-video generation. (Description by CC)",
       "stars": 0,
-      "author_account_age_days": 201
+      "author_account_age_days": 202
     },
     {
       "author": "maxczc",
@@ -5364,7 +5364,7 @@
       "install_type": "git-clone",
       "description": "Comprehensive set of ComfyUI custom nodes for interacting with a Sora-compatible REST API, supporting text-to-video, image-to-video, and video-to-video generation.",
       "stars": 0,
-      "author_account_age_days": 4287
+      "author_account_age_days": 4288
     },
     {
       "author": "Austat",
@@ -5376,7 +5376,7 @@
       "install_type": "git-clone",
       "description": "ComfyUI custom node for upscaling videos using the Remacri upscaler and then downscaling them. (Description by CC)",
       "stars": 0,
-      "author_account_age_days": 102
+      "author_account_age_days": 103
     },
     {
       "author": "Lysthan",
@@ -5388,7 +5388,7 @@
       "install_type": "git-clone",
       "description": "Privacy-Protected Saver node for ComfyUI that encrypts and archives output images into password-protected ZIP files or videos for secure storage and privacy protection.",
       "stars": 0,
-      "author_account_age_days": 109
+      "author_account_age_days": 110
     },
     {
       "author": "AugustusLXIII",
@@ -5413,7 +5413,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node package for generating lip-sync videos from audio using WAN 2.1 models with automatic frame extension for long audio.",
       "stars": 0,
-      "author_account_age_days": 3994
+      "author_account_age_days": 3995
     },
     {
       "author": "NexusEast",
@@ -5425,7 +5425,7 @@
       "install_type": "git-clone",
       "description": "A lightweight ComfyUI extension designed to automate the creation of video contact sheets (preview grids).",
       "stars": 0,
-      "author_account_age_days": 5067
+      "author_account_age_days": 5068
     },
     {
       "author": "PixWizardry",
@@ -5437,7 +5437,7 @@
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that brings the \"Fill with Video\" AI prompt suggestion feature from LTX Desktop into ComfyUI workflows using Google Gemini 2.5 Flash.",
       "stars": 0,
-      "author_account_age_days": 230
+      "author_account_age_days": 231
     },
     {
       "author": "ato321",
@@ -5449,7 +5449,7 @@
       "install_type": "git-clone",
       "description": "Small ComfyUI addon that provides segment-safe utilities for Comfy-Org LTX video nodes.",
       "stars": 0,
-      "author_account_age_days": 2406
+      "author_account_age_days": 2407
     },
     {
       "author": "maximilianwicen",
@@ -5461,7 +5461,7 @@
       "install_type": "git-clone",
       "description": "A small collection of custom nodes for ComfyUI, featuring Max Quick Image Size node for image-to-image or image-to-video workflows. (Description by CC)",
       "stars": 0,
-      "author_account_age_days": 4476
+      "author_account_age_days": 4477
     },
     {
       "author": "loz2754",
@@ -5474,7 +5474,7 @@
       "install_type": "git-clone",
       "description": "A collection of workflow helper nodes focused on organization + control (bypass/mute/collapse/group control), prompt/text utilities, file/path helpers, and image/video save helpers (optional VHS integration).",
       "stars": 0,
-      "author_account_age_days": 540
+      "author_account_age_days": 541
     },
     {
       "author": "LDNKS094",
@@ -5499,7 +5499,7 @@
       "install_type": "git-clone",
       "description": "Automation nodes for ComfyUI: RM Styles (load prompts from JSON with random/increment modes), Power LoRA Loader (advanced LoRA loading with random weights), image fallback, mask gate, latent operations, and video combine nodes.",
       "stars": 0,
-      "author_account_age_days": 591
+      "author_account_age_days": 592
     },
     {
       "author": "Praveen",
@@ -5512,7 +5512,7 @@
       "install_type": "git-clone",
       "description": "Fast image and video colorization.",
       "stars": 0,
-      "author_account_age_days": 739
+      "author_account_age_days": 740
     },
     {
       "author": "magicoli",
@@ -5537,7 +5537,7 @@
       "install_type": "git-clone",
       "description": "Professional temporal stabilisation engine. Eliminates flicker, luminance drift, and frame-to-frame inconsistency in AI-generated and traditional video footage.",
       "stars": 0,
-      "author_account_age_days": 16
+      "author_account_age_days": 17
     }
   ]
 }

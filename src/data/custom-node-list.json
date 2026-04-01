@@ -38977,16 +38977,6 @@
       "description": "Advanced face swapping for ComfyUI with local ONNX inference - no API required!"
     },
     {
-      "author": "Ada123-a",
-      "title": "ComfyUI-Kandinsky",
-      "reference": "https://github.com/Ada123-a/ComfyUI-Kandinsky",
-      "files": [
-        "https://github.com/Ada123-a/ComfyUI-Kandinsky"
-      ],
-      "install_type": "git-clone",
-      "description": "Kandinsky 2/20B ComfyUI support with FP8/GGUF/blockswap support."
-    },
-    {
       "author": "obvirm",
       "title": "ComfyUI-WhisperXX",
       "reference": "https://github.com/obvirm/ComfyUI-WhisperXX",
