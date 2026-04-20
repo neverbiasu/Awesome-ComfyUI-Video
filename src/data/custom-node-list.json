@@ -46271,6 +46271,36 @@
       "description": "Area-based LoRA and conditioning workflow tools for ComfyUI with multi-region control."
     },
     {
+      "author": "river-side",
+      "title": "riversidenodes",
+      "reference": "https://github.com/RiverSide71/comfyui-image-resize-to-model-resolution",
+      "files": [
+        "https://github.com/RiverSide71/comfyui-image-resize-to-model-resolution"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node to resize your image to model-specific resolution"
+    },
+    {
+      "author": "Av007",
+      "title": "comfyui-credit-tracker",
+      "reference": "https://github.com/Av007/custom_fns",
+      "files": [
+        "https://github.com/Av007/custom_fns"
+      ],
+      "install_type": "git-clone",
+      "description": "Pre-flight cost estimator with live balance check for ComfyUI Partner Nodes"
+    },
+    {
+      "author": "deno2026",
+      "title": "Deno Custom Nodes",
+      "reference": "https://github.com/Deno2026/comfyui-deno-custom-nodes",
+      "files": [
+        "https://github.com/Deno2026/comfyui-deno-custom-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Korean-friendly practical custom nodes for ComfyUI"
+    },
+    {
       "author": "Ser-Hilary",
       "title": "SDXL_sizing",
       "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
