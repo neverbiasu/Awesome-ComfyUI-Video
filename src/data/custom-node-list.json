@@ -34007,6 +34007,16 @@
       "description": "Adaptive color fix custom node for ComfyUI with stronger edge protection and luminance-aware chroma fusion."
     },
     {
+      "author": "mrgattax",
+      "title": "ComfyUI-Egregora-ARMD",
+      "reference": "https://github.com/lucasgattas/ComfyUI-Egregora-ARMD",
+      "files": [
+        "https://github.com/lucasgattas/ComfyUI-Egregora-ARMD"
+      ],
+      "install_type": "git-clone",
+      "description": "🌐 ARMD (Adaptive Regional Mixture of Diffusers) is a region-based diffusion system for ComfyUI, designed for semantic upscaling with per-region conditioning, optional VLM captioning, and adaptive regional reconstruction."
+    },
+    {
       "author": "sweetndata",
       "title": "ComfyUI-Reflatent",
       "reference": "https://github.com/sweetndata/ComfyUI-Reflatent",
@@ -35442,6 +35452,16 @@
       "description": "ComfyUI nodes for Volcano Ark (Jimeng) API"
     },
     {
+      "author": "fkxianzhou",
+      "title": "ComfyUI 360 Panoramas",
+      "reference": "https://github.com/fkxianzhou/ComfyUI-360Panoramas",
+      "files": [
+        "https://github.com/fkxianzhou/ComfyUI-360Panoramas"
+      ],
+      "install_type": "git-clone",
+      "description": "Panorama equirectangular to perspective rectify node with interactive preview for ComfyUI."
+    },
+    {
       "author": "wallen",
       "title": "ComfyUI-QI-QwenEditSafe",
       "id": "comfyui-qi-qweneditsafe",
@@ -36631,16 +36651,6 @@
       ],
       "install_type": "git-clone",
       "description": "Custom ComfyUI nodes using CLIP Vision models for image similarity analysis."
-    },
-    {
-      "author": "pdale-boop",
-      "title": "Network Guardian",
-      "reference": "https://github.com/pdale-boop/Comfyui-Network-Guardian",
-      "files": [
-        "https://github.com/pdale-boop/Comfyui-Network-Guardian"
-      ],
-      "install_type": "git-clone",
-      "description": "Protects ComfyUI workflows from network interruptions with automatic retry and fallback"
     },
     {
       "author": "pierreb-mf",
@@ -45151,6 +45161,16 @@
       "description": "CLAHE preprocessing node for improving 3D mesh generation with TRELLIS"
     },
     {
+      "author": "cuzelac",
+      "title": "ComfyUI-Trellis2 Multi-View Refiner",
+      "reference": "https://github.com/cuzelac/ComfyUI-Trellis2-MultiViewRefiner",
+      "files": [
+        "https://github.com/cuzelac/ComfyUI-Trellis2-MultiViewRefiner"
+      ],
+      "install_type": "git-clone",
+      "description": "Multi-view mesh refiner node for ComfyUI-Trellis2 with spatial blending across front/back/left/right views."
+    },
+    {
       "author": "tonykatarapro-web",
       "title": "ComfyUI_NanaBanana2",
       "reference": "https://github.com/tonykatarapro-web/ComfyUI_NanaBanana2",
@@ -46299,6 +46319,86 @@
       ],
       "install_type": "git-clone",
       "description": "Korean-friendly practical custom nodes for ComfyUI"
+    },
+    {
+      "author": "teradark",
+      "title": "ComfyUI Universal Extractor",
+      "reference": "https://github.com/Tera-Dark/ComfyUI-Universal-Extractor",
+      "files": [
+        "https://github.com/Tera-Dark/ComfyUI-Universal-Extractor"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node and gallery workspace for prompt libraries, searchable image notes, and reusable extraction workflows."
+    },
+    {
+      "author": "josegomezfreelance",
+      "title": "Spectrumify (ZX)",
+      "reference": "https://github.com/JoseGomezFreelance/ComfyUI_Spectrumify_A-public",
+      "files": [
+        "https://github.com/JoseGomezFreelance/ComfyUI_Spectrumify_A-public"
+      ],
+      "install_type": "git-clone",
+      "description": "ZX Spectrum pixel-art converter for ComfyUI. Based on spectrumify-public by JGF."
+    },
+    {
+      "author": "xuxiao305",
+      "title": "ComfyUI-ImageBatchUtils",
+      "reference": "https://github.com/xuxiao305/ComfyUI-ImageBatchUtils",
+      "files": [
+        "https://github.com/xuxiao305/ComfyUI-ImageBatchUtils"
+      ],
+      "install_type": "git-clone",
+      "description": "Lightweight ComfyUI custom nodes for working with image and mask batches. No dependencies beyond ComfyUI itself."
+    },
+    {
+      "author": "BarleyFarmer",
+      "title": "comfyui-promptsegmentselector",
+      "reference": "https://github.com/BarleyFarmer/ComfyUI-PromptSegmentSelector",
+      "files": [
+        "https://github.com/BarleyFarmer/ComfyUI-PromptSegmentSelector"
+      ],
+      "install_type": "git-clone",
+      "description": "Split a multiline prompt into up to 12 numbered STRING outputs using a user-defined delimiter. Useful for multi-segment video workflows."
+    },
+    {
+      "author": "Kyreo",
+      "title": "comfyui-characterpromptbuffer",
+      "reference": "https://github.com/Kyreo/ComfyUI-CharacterPromptBuffer",
+      "files": [
+        "https://github.com/Kyreo/ComfyUI-CharacterPromptBuffer"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for generating character prompt variations as batch"
+    },
+    {
+      "author": "Phykrex",
+      "title": "comfyui-momo-nodes",
+      "reference": "https://github.com/Phykrex/ComfyUI-Momo-Nodes",
+      "files": [
+        "https://github.com/Phykrex/ComfyUI-Momo-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI by Momo."
+    },
+    {
+      "author": "comfyui-attic",
+      "title": "External LoRA Loader",
+      "reference": "https://github.com/comfyuiattic-989/ComfyUI-External-Lora-Loader",
+      "files": [
+        "https://github.com/comfyuiattic-989/ComfyUI-External-Lora-Loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Load LoRA files from any path on any mounted drive, with a tree-style file browser and LRU RAM cache."
+    },
+    {
+      "author": "uonr",
+      "title": "comfyui-uonr-nodes",
+      "reference": "https://github.com/uonr/comfyui-uonr-nodes",
+      "files": [
+        "https://github.com/uonr/comfyui-uonr-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Personal ComfyUI custom nodes."
     },
     {
       "author": "Ser-Hilary",
