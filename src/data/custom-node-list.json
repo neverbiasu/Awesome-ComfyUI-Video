@@ -1,6 +1,26 @@
 {
   "custom_nodes": [
     {
+      "author": "Carasibana",
+      "title": "ComfyUI-SimpleFloatSlider",
+      "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
+      "files": [
+        "https://github.com/Carasibana/ComfyUI-SimpleFloatSlider"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes providing styled draggable float slider widgets"
+    },
+    {
+      "author": "18yz153",
+      "title": "ComfyUI-Persona-Director",
+      "reference": "https://github.com/c/ComfyUI-Persona-Director",
+      "files": [
+        "https://github.com/18yz153/ComfyUI-Persona-Director"
+      ],
+      "install_type": "git-clone",
+      "description": "A visual state machine for consistent character generation. It intelligently maintains character identity, outfits, and locations across multiple generations using LLM-driven state management."
+    },
+    {
       "author": "Dr.Lt.Data",
       "title": "ComfyUI-Manager",
       "id": "manager",
@@ -6633,26 +6653,6 @@
       ],
       "install_type": "git-clone",
       "description": "Calculate the execution time of all nodes."
-    },
-    {
-      "author": "Daniel Lewis",
-      "title": "ComfyUI-Llama",
-      "reference": "https://github.com/daniel-lewis-ab/ComfyUI-Llama",
-      "files": [
-        "https://github.com/daniel-lewis-ab/ComfyUI-Llama"
-      ],
-      "install_type": "git-clone",
-      "description": "This is a set of nodes to interact with llama-cpp-python"
-    },
-    {
-      "author": "Daniel Lewis",
-      "title": "ComfyUI-TTS",
-      "reference": "https://github.com/daniel-lewis-ab/ComfyUI-TTS",
-      "files": [
-        "https://github.com/daniel-lewis-ab/ComfyUI-TTS"
-      ],
-      "install_type": "git-clone",
-      "description": "Text To Speech (TTS) for ComfyUI"
     },
     {
       "author": "djbielejeski",
@@ -29621,16 +29621,6 @@
       "description": "A wild collection of custom nodes for ComfyUI including noise schedulers, samplers, audio preview, latent visualizers, and more — built for maximal creative chaos."
     },
     {
-      "author": "shiertier",
-      "title": "ComfyUI-TeaCache-Lumina",
-      "reference": "https://github.com/shiertier/ComfyUI-TeaCache-lumina2",
-      "files": [
-        "https://github.com/shiertier/ComfyUI-TeaCache-lumina2"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI Node Implementation: TeaCache Acceleration Specifically Designed for the Lumina Model"
-    },
-    {
       "author": "sjh00",
       "title": "ComfyUI LoadImageWithInfo",
       "reference": "https://github.com/sjh00/ComfyUI-LoadImageWithInfo",
@@ -41966,16 +41956,6 @@
       "nodename_pattern": "RandomImagePicker"
     },
     {
-      "author": "18yz153",
-      "title": "ComfyUI-Persona-Director",
-      "reference": "https://github.com/c/ComfyUI-Persona-Director",
-      "files": [
-        "https://github.com/18yz153/ComfyUI-Persona-Director"
-      ],
-      "install_type": "git-clone",
-      "description": "A visual state machine for consistent character generation. It intelligently maintains character identity, outfits, and locations across multiple generations using LLM-driven state management."
-    },
-    {
       "author": "BWDrum",
       "title": "ComfyUI Random Wildcard Loader",
       "id": "random-wildcard-loader",
@@ -45375,16 +45355,6 @@
       ],
       "install_type": "git-clone",
       "description": "Professional OpenColorIO / ACES color-management nodes for ComfyUI. Mirrors Nuke's OCIO node set with ACES 2.0, 1.3, and 1.2 support, EXR sequence loading, animated preview, and video export (MP4, WebP, GIF)."
-    },
-    {
-      "author": "Carasibana",
-      "title": "ComfyUI-SimpleFloatSlider",
-      "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
-      "files": [
-        "https://github.com/Carasibana/ComfyUI-SimpleFloatSlider"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes providing styled draggable float slider widgets"
     },
     {
       "author": "Carasibana",
