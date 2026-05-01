@@ -1720,6 +1720,17 @@
       "description": "15 productivity nodes: Kraken Unbound Prompt (vision-enabled prompt builder with Qwen2-VL), WAN Prompt Splitter (cinematic styling), Ollama Prompt Chat (LLM enhancement), LoRA Loader with CivitAI trigger fetching, Dual CLIP Loader (Flux/SD3/SDXL), smart KSampler (AMP handling for WAN/Flow/FP8), Empty Latent with aspect presets, Upscale & Tile Calculator for Ultimate SD Upscale, Resolution Helper, Image Processor, WAN Helper, and more."
     },
     {
+      "author": "Kyreo",
+      "title": "ComfyUI-CharacterPromptBuffer",
+      "id": "comfyui-characterpromptbuffer",
+      "reference": "https://github.com/Kyreo/ComfyUI-CharacterPromptBuffer",
+      "files": [
+        "https://github.com/Kyreo/ComfyUI-CharacterPromptBuffer"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for generating multiple character prompt variations in a single queue run. Includes Character Prompt Manager and Variation Buffer."
+    },
+    {
       "author": "Gourieff",
       "title": "ComfyUI-FutureWarningIgnore",
       "id": "futureignore",
@@ -42592,6 +42603,16 @@
       "description": "A collection of nodes that provide dynamic dropdown selectors for Samplers, Schedulers, Checkpoints, and Diffusion Models, outputting a comma-separated string for use in XY plots."
     },
     {
+      "author": "DemonAlone",
+      "title": "DemonAlone-StyleSelector-ComfyUI",
+      "reference": "https://github.com/DemonAlone/DemonAlone-StyleSelector-ComfyUI",
+      "files": [
+        "https://github.com/DemonAlone/DemonAlone-StyleSelector-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Prompt Style Selector with Preview, Multiple Selecting, Search and Local Base."
+    },
+    {
       "author": "tabisheva",
       "title": "comfyui-segs-profile",
       "reference": "https://github.com/tabisheva/comfyui-segs-profile",
@@ -46361,16 +46382,6 @@
       "description": "Split a multiline prompt into up to 12 numbered STRING outputs using a user-defined delimiter. Useful for multi-segment video workflows."
     },
     {
-      "author": "Kyreo",
-      "title": "comfyui-characterpromptbuffer",
-      "reference": "https://github.com/Kyreo/ComfyUI-CharacterPromptBuffer",
-      "files": [
-        "https://github.com/Kyreo/ComfyUI-CharacterPromptBuffer"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for generating character prompt variations as batch"
-    },
-    {
       "author": "Phykrex",
       "title": "comfyui-momo-nodes",
       "reference": "https://github.com/Phykrex/ComfyUI-Momo-Nodes",
@@ -46408,7 +46419,7 @@
         "https://github.com/xujianjian2004/ComfyUI-Title-Memo"
       ],
       "install_type": "git-clone",
-      "description": "A lightweight ComfyUI canvas annotation node with rich styling, built-in presets, and custom presets."
+      "description": "Add title, comment and memo functions to nodes, which support custom styles and automatic word wrapping, compatible with Nodes 2.0."
     },
     {
       "author": "ussaaron",
@@ -46519,6 +46530,26 @@
       ],
       "install_type": "git-clone",
       "description": "A node to drop frames from the output images to force the video to a lower FPS at the same playback speed."
+    },
+    {
+      "author": "Emiewn",
+      "title": "ComfyUI-Emiewn-Nodes",
+      "reference": "https://github.com/emiewnn/ComfyUI-Emiewn-Nodes",
+      "files": [
+        "https://github.com/emiewnn/ComfyUI-Emiewn-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI: Drag & drop image paste, interactive UI crop, WAN I2V bucket resolution, and GIMM-VFI frame interpolation."
+    },
+    {
+      "author": "jetthuangai",
+      "title": "ComfyUI-JH-PixelPro",
+      "reference": "https://github.com/jetthuangai/ComfyUI-JH-PixelPro",
+      "files": [
+        "https://github.com/jetthuangai/ComfyUI-JH-PixelPro"
+      ],
+      "install_type": "git-clone",
+      "description": "GPU-powered pro-grade image suite cho retouch chân dung. v0.1.0 alpha: Frequency Separation (N-01) + Sub-Pixel Mask Refiner (N-02). Kornia core, tensor thuần không rời VRAM."
     },
     {
       "author": "Ser-Hilary",
