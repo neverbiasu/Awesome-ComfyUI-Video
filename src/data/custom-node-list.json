@@ -26445,6 +26445,26 @@
       "description": "A custom ComfyUI node that applies Fourier Domain Adaptation (FDA) between a target image and a reference image."
     },
     {
+      "author": "bemoregt",
+      "title": "ComfyUI_FFTNet",
+      "reference": "https://github.com/bemoregt/ComfyUI_FFTNet",
+      "files": [
+        "https://github.com/bemoregt/ComfyUI_FFTNet"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for FFTNet language model inference using efficient FFT-based global token mixing as an alternative to self-attention. (Description by CC)"
+    },
+    {
+      "author": "bemoregt",
+      "title": "ComfyUI_AdversarialAttack",
+      "reference": "https://github.com/bemoregt/ComfyUI_AdversarialAttack",
+      "files": [
+        "https://github.com/bemoregt/ComfyUI_AdversarialAttack"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node set that generates adversarial examples using a pretrained ResNet18 classifier."
+    },
+    {
       "author": "pnikolic-amd",
       "title": "MIGraphX Node for ComfyUI",
       "reference": "https://github.com/pnikolic-amd/ComfyUI_MIGraphX",
@@ -47007,6 +47027,180 @@
       ],
       "install_type": "git-clone",
       "description": "Bridge for the standalone ComfyUI Model Downloader. Analyzes workflows, finds missing models via AI, and manages your archive to save SSD space."
+    },
+    {
+      "author": "Your Name",
+      "title": "comfyui-plugins",
+      "reference": "https://github.com/HDembinski/comfyui_plugins",
+      "files": [
+        "https://github.com/HDembinski/comfyui_plugins"
+      ],
+      "install_type": "git-clone",
+      "description": "Starter scaffold for developing ComfyUI custom nodes."
+    },
+    {
+      "author": "throttlekitty",
+      "title": "tkNodes",
+      "reference": "https://github.com/throttlekitty/tkNodes",
+      "files": [
+        "https://github.com/throttlekitty/tkNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "This node allows you to loop through specified layers in the LTX 2.3 model to potentially improve output quality with an eye toward artifacts in high motion."
+    },
+    {
+      "author": "SOLRICKS",
+      "title": "ComfyUI-SOLRICKS",
+      "id": "comfyui-solricks",
+      "reference": "https://github.com/SOLRICKS/comfyui-solricks",
+      "files": [
+        "https://github.com/SOLRICKS/comfyui-solricks"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Video Anti-Aliasing Pack"
+    },
+    {
+      "author": "polly-creative",
+      "title": "ComfyUI_Polly_Nodes",
+      "reference": "https://github.com/polly-creative/ComfyUI_Polly_Nodes",
+      "files": [
+        "https://github.com/polly-creative/ComfyUI_Polly_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of high-quality texture utility nodes for technical artists and environment designers with precision masking and color extraction for emissive materials."
+    },
+    {
+      "author": "Mervent",
+      "title": "comfyui-model-randomizer",
+      "reference": "https://github.com/Mervent/comfyui-model-randomizer",
+      "files": [
+        "https://github.com/Mervent/comfyui-model-randomizer"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that randomly selects a checkpoint from a configurable list of models with weighted selection, per-model CFG ranges, and enable/disable toggles."
+    },
+    {
+      "author": "machinepainting",
+      "title": "MachinePainting Nodes",
+      "id": "comfyui-machinepainting-nodes",
+      "reference": "https://github.com/machinepainting/ComfyUI-MachinePaintingNodes",
+      "files": [
+        "https://github.com/machinepainting/ComfyUI-MachinePaintingNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional photo editing tools for ComfyUI. Photoshop-style curves, levels, and color adjustments, AI-powered masking / background removal, LUT color grading, advanced channel masking, color management, frequency separation, blur and noise/grain filters, inpaint mask tools, and workflow utility nodes."
+    },
+    {
+      "author": "karcsiha",
+      "title": "comfyUi-deflicker",
+      "reference": "https://github.com/karcsiha/comfyUi-deflicker",
+      "files": [
+        "https://github.com/karcsiha/comfyUi-deflicker"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for removing brightness flicker and chunk boundary artifacts in AI-generated video sequences (WAN, VACE, FramePack, etc.)."
+    },
+    {
+      "author": "Experience-Monks",
+      "title": "Monks-Prompt-Enhancer-ComfyUI-Node",
+      "reference": "https://github.com/Experience-Monks/Monks-Prompt-Enhancer-ComfyUI-Node",
+      "files": [
+        "https://github.com/Experience-Monks/Monks-Prompt-Enhancer-ComfyUI-Node"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that uses the Gemini API to rewrite a raw prompt into one optimised for a specific image generation model and workflow."
+    },
+    {
+      "author": "bnwa",
+      "title": "Comfy Combos",
+      "reference": "https://github.com/bnwa/comfy_combos",
+      "files": [
+        "https://github.com/bnwa/comfy_combos"
+      ],
+      "install_type": "git-clone",
+      "description": "Dropdown selectors for ComfyUI"
+    },
+    {
+      "author": "oath-studio",
+      "title": "comfy-vllm",
+      "reference": "https://github.com/OATH-Studio/comfy-vLLM",
+      "files": [
+        "https://github.com/OATH-Studio/comfy-vLLM"
+      ],
+      "install_type": "git-clone",
+      "description": "https://www.theoath.studio/projects/comfy-vllm-node Generates Stable Diffusion prompts using a locally running vLLM server. Supports {wild|card} expansion, a prefix field for quality tags, auto model detection via /v1/models, live preview on the node face, and configurable retry logic. No API keys or internet connection required. Wire the single output directly into CLIPTextEncode."
+    },
+    {
+      "author": "oath-studio",
+      "title": "comfy-lora-iterator",
+      "reference": "https://github.com/OATH-Studio/comfy-LoRA-iterator",
+      "files": [
+        "https://github.com/OATH-Studio/comfy-LoRA-iterator"
+      ],
+      "install_type": "git-clone",
+      "description": "https://www.theoath.studio/projects/comfy-lora-iterator A ComfyUI node that automatically steps through every LoRA in a directory on each generation run. Increment, decrement, randomize, or hold fixed. No rewiring. No manual switching. Queue and walk away."
+    },
+    {
+      "author": "RandyHaylor",
+      "title": "Claude CLI (Vision+Text)",
+      "id": "comfyui-claude-cli-vision-text-node",
+      "reference": "https://github.com/RandyHaylor/comfyui-claude-cli-vision-text-node",
+      "files": [
+        "https://github.com/RandyHaylor/comfyui-claude-cli-vision-text-node"
+      ],
+      "install_type": "git-clone",
+      "description": "Call the local `claude` CLI from ComfyUI for vision+text or text-only completions. Uses your existing `claude login` OAuth (no API key required). Supports UUID session reuse for prompt-cache savings, with session token-usage tracking. Additional utility nodes: `Split Image Batch to List of Image Batches` (takes a large incoming batch and splits it into a list of smaller sub-batches with start/end index outputs, so you can send N images at a time — e.g. pairs — to the Claude CLI node along with their original batch indices for tracking), `Indexed 2x2 Grid from Batch`, `Select Images (Bounds Safe)`, and `Image Batch Current Index`. Optional headless API-key mode."
+    },
+    {
+      "author": "namemechan",
+      "title": "ComfyUI-DCW",
+      "id": "comfyui-dcw",
+      "reference": "https://github.com/namemechan/ComfyUI-DCW",
+      "files": [
+        "https://github.com/namemechan/ComfyUI-DCW"
+      ],
+      "install_type": "git-clone",
+      "description": "Near implementation of Differential Correction in Wavelet domain (DCW) for SNR-t bias correction. Based on arXiv:2604.16044 (Yu et al., 2026). No external dependencies. Compatible with SDXL, SD1.5, Flux, Cosmos, EDM, DiT. (README in Korean)"
+    },
+    {
+      "author": "wuwukaka",
+      "title": "ComfyUI-BodyRatioMapper",
+      "reference": "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper",
+      "files": [
+        "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper"
+      ],
+      "install_type": "git-clone",
+      "description": "A project for pose alignment and human body proportion mapping based on SDPose."
+    },
+    {
+      "author": "KingManiya",
+      "title": "LLM Text Processor",
+      "reference": "https://github.com/KingManiya/ComfyUI-LLM-text-processor",
+      "files": [
+        "https://github.com/KingManiya/ComfyUI-LLM-text-processor"
+      ],
+      "install_type": "git-clone",
+      "description": "Process text and images with GGUF LLMs in ComfyUI using llama.cpp, including Qwen3-VL, Qwen3.5, Qwen3.6, Gemma 4, and gpt-oss."
+    },
+    {
+      "author": "AabhasTech",
+      "title": "ComfyUI Fast Preview",
+      "reference": "https://github.com/AabhasTech/ComfyUI_Fast_Preview",
+      "files": [
+        "https://github.com/AabhasTech/ComfyUI_Fast_Preview"
+      ],
+      "install_type": "git-clone",
+      "description": "A lightweight node to compress and preview images using the temp directory, displaying file sizes on the node UI."
+    },
+    {
+      "author": "sequencer-media",
+      "title": "Sequencer AI Nodes",
+      "reference": "https://github.com/sequencer-media/sequencer-comfy-nodes",
+      "files": [
+        "https://github.com/sequencer-media/sequencer-comfy-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "One universal node for all 50+ Sequencer AI models. Generate images, videos, and audio (Veo 3.1, Flux 1.1 Pro, Kling, Ideogram, etc). dynamically populates model lists and I/O sockets."
     },
     {
       "author": "Ser-Hilary",
