@@ -6,6 +6,7 @@
 
 - [官方视频节点](#官方视频节点)
 - [优秀社区自定义节点](#优秀社区自定义节点)
+- [工作流辅助工具](#工作流辅助工具)
 - [示例视频工作流](#示例视频工作流)
 
 ## 官方视频节点
@@ -33,6 +34,13 @@
 | ComfyUI-segment-anything-2  | kijai        | 使用 [segment-anything-2](https://github.com/facebookresearch/segment-anything-2) 进行图像或视频分割的节点。                                                                                                                                                                          | 867   | 2025-03-19 09:40:37 | [GitHub](https://github.com/kijai/ComfyUI-segment-anything-2)     | ...                                                          |
 
 - 👉 [在 nodes.md (未来可能提供中文版 docs/zh/nodes_zh.md) 中查看所有节点包和详细信息](docs/nodes.md)
+
+## 工作流辅助工具
+
+- [ComfyUI Workflow Inspector](https://github.com/william08190/comfyui-workflow-inspector):
+  浏览器本地 workflow JSON 检查与差异比较工具，可识别输出节点、预览分支、
+  duration/FPS 字段、提示词、seed 和迁移 brief，适合在把视频工作流迁移到
+  托管 ComfyUI 或 RunningHub 前检查。
 
 ## 示例视频工作流
 展示几个典型的节点组合工作流，侧重于实际应用场景。
