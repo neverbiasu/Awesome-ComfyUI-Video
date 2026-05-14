@@ -26465,6 +26465,16 @@
       "description": "A ComfyUI custom node set that generates adversarial examples using a pretrained ResNet18 classifier."
     },
     {
+      "author": "bemoregt",
+      "title": "ComfyUI_PhaseStretchTransform",
+      "reference": "https://github.com/bemoregt/ComfyUI_PhaseStretchTransform",
+      "files": [
+        "https://github.com/bemoregt/ComfyUI_PhaseStretchTransform"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that applies the Phase Stretch Transform (PST) to images. PST is a physics-inspired edge detection algorithm that enhances features by simulating wave propagation through a dispersive medium."
+    },
+    {
       "author": "pnikolic-amd",
       "title": "MIGraphX Node for ComfyUI",
       "reference": "https://github.com/pnikolic-amd/ComfyUI_MIGraphX",
@@ -28083,6 +28093,16 @@
       ],
       "install_type": "git-clone",
       "description": "A custom ComfyUI extension to compare two video/image sequences via wipe preview."
+    },
+    {
+      "author": "matoo",
+      "title": "Compare Frames",
+      "reference": "https://github.com/sidmehraajm/ssd_frame_compare",
+      "files": [
+        "https://github.com/sidmehraajm/ssd_frame_compare"
+      ],
+      "install_type": "git-clone",
+      "description": "Interactive A/B frame comparison node with slider, side-by-side, overlay, and video playback — directly inside ComfyUI."
     },
     {
       "author": "JoeNavark",
@@ -35704,16 +35724,6 @@
       "description": "A comprehensive queue management system for ComfyUI workflows"
     },
     {
-      "author": "abdullahceylan",
-      "title": "AC Image Optimizer",
-      "reference": "https://github.com/abdullahceylan/ac-comfyui-image-optimizer",
-      "files": [
-        "https://github.com/abdullahceylan/ac-comfyui-image-optimizer"
-      ],
-      "install_type": "git-clone",
-      "description": "A powerful ComfyUI custom node for optimizing and compressing images with support for multiple formats (JPEG, WebP, PNG) and configurable quality settings."
-    },
-    {
       "author": "J-ChenX",
       "title": "NIX ComfyUI Plugin",
       "reference": "https://github.com/J-ChenX/ComfyUI-NIX",
@@ -36461,16 +36471,6 @@
     },
     {
       "author": "PozzettiAndrea",
-      "title": "ComfyUI-MeshCraft",
-      "reference": "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft",
-      "files": [
-        "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft"
-      ],
-      "install_type": "git-clone",
-      "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
-    },
-    {
-      "author": "PozzettiAndrea",
       "title": "ComfyUI-Grounding",
       "reference": "https://github.com/PozzettiAndrea/ComfyUI-Grounding",
       "files": [
@@ -36488,16 +36488,6 @@
       ],
       "install_type": "git-clone",
       "description": "libigl geometry processing wrapper for ComfyUI - mesh manipulation and analysis nodes"
-    },
-    {
-      "author": "PozzettiAndrea",
-      "title": "ComfyUI-HunyuanX",
-      "reference": "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX",
-      "files": [
-        "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX"
-      ],
-      "install_type": "git-clone",
-      "description": "Hunyuan 3D 2.1 image-to-3D generation nodes for ComfyUI with PBR texturing and model caching. Granular control for research."
     },
     {
       "author": "pznodes",
@@ -36598,6 +36588,16 @@
       ],
       "install_type": "git-clone",
       "description": "Camera utilities for ComfyUI. Convert between camera formats (DA3 extrinsics/intrinsics to Load3DCamera for Preview3D)."
+    },
+    {
+      "author": "pozzettiandrea",
+      "title": "ComfyUI-TurntableGSViewer",
+      "reference": "https://github.com/PozzettiAndrea/ComfyUI-TurntableGSViewer",
+      "files": [
+        "https://github.com/PozzettiAndrea/ComfyUI-TurntableGSViewer"
+      ],
+      "install_type": "git-clone",
+      "description": "Tiny Gaussian Splat turntable viewer node for ComfyUI."
     },
     {
       "author": "rookiestar28",
@@ -38640,16 +38640,6 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node to support and load OFTv2 adapters"
-    },
-    {
-      "author": "orpheus-gaze",
-      "title": "comfyui-s2-guidance-test",
-      "reference": "https://github.com/orpheus-gaze/comfyui-s2-guidance-test",
-      "files": [
-        "https://github.com/orpheus-gaze/comfyui-s2-guidance-test"
-      ],
-      "install_type": "git-clone",
-      "description": "An attempted implementation of S2 guidance for DIT diffusion models in ComfyUI, currently hardcoded for Flux model architecture to improve image sharpness and brightness."
     },
     {
       "author": "alludus",
@@ -45261,6 +45251,16 @@
       "description": "A custom node for ComfyUI that allows building prompts using a table structure."
     },
     {
+      "author": "xelavi9966-cell",
+      "title": "ComfyUI-LineSignalRouter",
+      "reference": "https://github.com/xelavi9966-cell/ComfyUI-LineSignalRouter",
+      "files": [
+        "https://github.com/xelavi9966-cell/ComfyUI-LineSignalRouter"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node for routing signals through named lines, supporting up to 32 lines with single-line or multi-line mode and per-line enable/disable toggle."
+    },
+    {
       "author": "moondive-cinema",
       "title": "comfyui-depth-warp",
       "reference": "https://github.com/moondive-cinema/comfyui-depth-warp",
@@ -46842,6 +46842,16 @@
       "description": "Calculates width and height from max resolution, aspect ratio, and multiplier for ComfyUI"
     },
     {
+      "author": "stevelasmin4real",
+      "title": "RAM/VRAM Purge by Steve Lasmin",
+      "reference": "https://github.com/Eklipsis/comfyui-ram-vram-purge-by-steve-lasmin",
+      "files": [
+        "https://github.com/Eklipsis/comfyui-ram-vram-purge-by-steve-lasmin"
+      ],
+      "install_type": "git-clone",
+      "description": "Aggressive RAM and VRAM cleanup nodes for ComfyUI on Windows. Clears model caches, CLIP, checkpoints, VAE, and forces Windows to release physical RAM."
+    },
+    {
       "author": "huagusam",
       "title": "comfyui-attention-selector",
       "reference": "https://github.com/huagusam/comfyui-attention-selector",
@@ -47201,6 +47211,56 @@
       ],
       "install_type": "git-clone",
       "description": "One universal node for all 50+ Sequencer AI models. Generate images, videos, and audio (Veo 3.1, Flux 1.1 Pro, Kling, Ideogram, etc). dynamically populates model lists and I/O sockets."
+    },
+    {
+      "author": "rheemai24-hue",
+      "title": "ComfyUI-SDCPP",
+      "reference": "https://github.com/rheemai24-hue/ComfyUI-SDCPP",
+      "files": [
+        "https://github.com/rheemai24-hue/ComfyUI-SDCPP"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that integrates the powerful stable-diffusion.cpp inference engine."
+    },
+    {
+      "author": "Pixalai",
+      "title": "comfyui-audio-trimmer",
+      "reference": "https://github.com/Pixalai/comfyui-audio-trimmer",
+      "files": [
+        "https://github.com/Pixalai/comfyui-audio-trimmer"
+      ],
+      "install_type": "git-clone",
+      "description": "Audio trimmer with visual Premiere Pro-style timeline for ComfyUI"
+    },
+    {
+      "author": "orpheus-gaze",
+      "title": "ComfyUI-S2Guidance",
+      "reference": "https://github.com/orpheus-gaze/ComfyUI-S2Guidance",
+      "files": [
+        "https://github.com/orpheus-gaze/ComfyUI-S2Guidance"
+      ],
+      "install_type": "git-clone",
+      "description": "A lightweight ComfyUI extension implementing S²-Guidance and Perpo-Guidance, two advanced sampling techniques designed to improve prompt adherence and generation robustness compared to standard CFG."
+    },
+    {
+      "author": "mancusog",
+      "title": "Detail Stitch",
+      "reference": "https://github.com/mancusog/comfyui-detail-stitch",
+      "files": [
+        "https://github.com/mancusog/comfyui-detail-stitch"
+      ],
+      "install_type": "git-clone",
+      "description": "Crop and paste nodes with metadata for detail stitching in ComfyUI"
+    },
+    {
+      "author": "axior",
+      "title": "DOGMA Nodes",
+      "reference": "https://github.com/axior/ComfyUI-DOGMA-Nodes",
+      "files": [
+        "https://github.com/axior/ComfyUI-DOGMA-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for DOGMA AI video workflows."
     },
     {
       "author": "Ser-Hilary",
