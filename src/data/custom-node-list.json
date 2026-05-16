@@ -2889,6 +2889,16 @@
       "description": "A small collection of nodes intended for use with Lodestone Rock's Chroma model, for ComfyUI."
     },
     {
+      "author": "clybius",
+      "title": "ComfyUI-Chroma-RoPE",
+      "reference": "https://github.com/Clybius/ComfyUI-Chroma-RoPE",
+      "files": [
+        "https://github.com/Clybius/ComfyUI-Chroma-RoPE"
+      ],
+      "install_type": "git-clone",
+      "description": "Advanced RoPE modifications for Chroma/FLUX models including DyPE, YaRN, and other RoPE extension methods."
+    },
+    {
       "author": "mcmonkeyprojects",
       "title": "Dynamic Thresholding",
       "id": "dynamic-thresholding",
@@ -26475,6 +26485,16 @@
       "description": "A ComfyUI custom node that applies the Phase Stretch Transform (PST) to images. PST is a physics-inspired edge detection algorithm that enhances features by simulating wave propagation through a dispersive medium."
     },
     {
+      "author": "bemoregt",
+      "title": "ComfyUI_Cross-Bi-Magnitude",
+      "reference": "https://github.com/bemoregt/ComfyUI_Cross-Bi-Magnitude",
+      "files": [
+        "https://github.com/bemoregt/ComfyUI_Cross-Bi-Magnitude"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node package that aligns and stitches two images using Cross-Bimagnitude, the magnitude component of the Cross-Bispectrum from Higher-Order Statistics (HOS)."
+    },
+    {
       "author": "pnikolic-amd",
       "title": "MIGraphX Node for ComfyUI",
       "reference": "https://github.com/pnikolic-amd/ComfyUI_MIGraphX",
@@ -28123,6 +28143,16 @@
       ],
       "install_type": "git-clone",
       "description": "Various custom nodes will be added."
+    },
+    {
+      "author": "hybskgks28275",
+      "title": "ComfyUI-Anima-NAG",
+      "reference": "https://github.com/hybskgks28275/ComfyUI-Anima-NAG",
+      "files": [
+        "https://github.com/hybskgks28275/ComfyUI-Anima-NAG"
+      ],
+      "install_type": "git-clone",
+      "description": "Experimental Normalized Attention Guidance node for Anima Preview 3 in ComfyUI."
     },
     {
       "author": "mohsensd1373",
@@ -39151,6 +39181,16 @@
       "description": "Custom ComfyUI nodes providing video comparison utilities, including wipe and fade compare video generation in multiple directions. (Description by CC)"
     },
     {
+      "author": "nynxz",
+      "title": "AsymFLUX2",
+      "reference": "https://github.com/Nynxz/ComfyUI-AsymFLUX2",
+      "files": [
+        "https://github.com/Nynxz/ComfyUI-AsymFLUX2"
+      ],
+      "install_type": "git-clone",
+      "description": "Native ComfyUI v3 nodes for the pixel-space AsymFLUX.2-klein 9B model from LakonLab (Asymmetric Flow Models, arXiv 2605.12964)."
+    },
+    {
       "author": "huygiatrng",
       "title": "Facefusion_comfyui",
       "reference": "https://github.com/huygiatrng/Facefusion_comfyui",
@@ -47261,6 +47301,66 @@
       ],
       "install_type": "git-clone",
       "description": "Custom ComfyUI nodes for DOGMA AI video workflows."
+    },
+    {
+      "author": "wdewr4t",
+      "title": "ComfyUI-WatermarkNode",
+      "reference": "https://github.com/wdewr4t/ComfyUI-WatermarkNode",
+      "files": [
+        "https://github.com/wdewr4t/ComfyUI-WatermarkNode"
+      ],
+      "install_type": "git-clone",
+      "description": "Quickly add watermarks to pictures with batch processing, greatly improving work efficiency for bulk watermarking tasks. (Description by CC)"
+    },
+    {
+      "author": "SmokingDormouse",
+      "title": "ComfyUI-Qwen3VL-NightShift",
+      "reference": "https://github.com/SmokingDormouse/ComfyUI-Qwen3VL-NightShift",
+      "files": [
+        "https://github.com/SmokingDormouse/ComfyUI-Qwen3VL-NightShift"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for multimodal inference with Qwen3VL vision-language models accepting text, up to 4 images, and video in one node."
+    },
+    {
+      "author": "LahHalah",
+      "title": "ComfyUI-Pixel-Optimal-Wan",
+      "reference": "https://github.com/LahHalah/ComfyUI-Pixel-Optimal-Wan",
+      "files": [
+        "https://github.com/LahHalah/ComfyUI-Pixel-Optimal-Wan"
+      ],
+      "install_type": "git-clone",
+      "description": "Pixel optimization tools for ComfyUI image processing. (Description by CC)"
+    },
+    {
+      "author": "bbc-s",
+      "title": "Float Increment Per Latent",
+      "reference": "https://github.com/bbc-s/float-increment-per-latent",
+      "files": [
+        "https://github.com/bbc-s/float-increment-per-latent"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for sweeping LoRA model strength per latent sample in a single batch."
+    },
+    {
+      "author": "Aiconomist",
+      "title": "comfyui-rekogniflow",
+      "reference": "https://github.com/Aiconomist/comfyui-rekogniflow",
+      "files": [
+        "https://github.com/Aiconomist/comfyui-rekogniflow"
+      ],
+      "install_type": "git-clone",
+      "description": "AWS Rekognition nodes for ComfyUI — compare faces, score image quality, and automatically pick the best image from a batch."
+    },
+    {
+      "author": "afloy011-spec",
+      "title": "afloy_audio_tools",
+      "reference": "https://github.com/afloy011-spec/afloy_audio_tools",
+      "files": [
+        "https://github.com/afloy011-spec/afloy_audio_tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional audio editing nodes for ComfyUI — trim, measure, and inspect audio without leaving your workflow."
     },
     {
       "author": "Ser-Hilary",
