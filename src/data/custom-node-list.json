@@ -30403,6 +30403,16 @@
       "description": "Custom nodes for chunked batched image-to-image workflows and sequential temporal video cleanup."
     },
     {
+      "author": "xmarre",
+      "title": "ComfyUI-Safe-Chunked-Image-Blend",
+      "reference": "https://github.com/xmarre/ComfyUI-Safe-Chunked-Image-Blend",
+      "files": [
+        "https://github.com/xmarre/ComfyUI-Safe-Chunked-Image-Blend"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for safely blending large IMAGE tensors in chunks with explicit resize and compute-device controls."
+    },
+    {
       "author": "Pigidiy",
       "title": "ComfyUI-LikeSpiderAI-UI",
       "id": "like_spider_ui",
@@ -49417,6 +49427,56 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for NeuTTS on-device TTS with voice cloning"
+    },
+    {
+      "author": "Hua",
+      "title": "comfyui-english-annotator",
+      "reference": "https://github.com/aadebuger/ComfyUI-EnglishAnnotator",
+      "files": [
+        "https://github.com/aadebuger/ComfyUI-EnglishAnnotator"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node that draws bounding boxes + English word labels for vocabulary learning cards"
+    },
+    {
+      "author": "dewberryants",
+      "title": "Textify",
+      "reference": "https://github.com/dewberryants/comfyui-textify",
+      "files": [
+        "https://github.com/dewberryants/comfyui-textify"
+      ],
+      "install_type": "git-clone",
+      "description": "Turn pixel data into ascii art"
+    },
+    {
+      "author": "lajjadred",
+      "title": "comfyui-lrw-nodes",
+      "reference": "https://github.com/lajjadred/comfyui-lrw-nodes",
+      "files": [
+        "https://github.com/lajjadred/comfyui-lrw-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for Riemannian geometry and Bayesian latent space manipulation"
+    },
+    {
+      "author": "gavr728",
+      "title": "Klein Tiled Upscaler",
+      "reference": "https://github.com/Gavr728/ComfyUI_KleinTiledUpscaler",
+      "files": [
+        "https://github.com/Gavr728/ComfyUI_KleinTiledUpscaler"
+      ],
+      "install_type": "git-clone",
+      "description": "High-fidelity, zero-OOM tiled upscaler with adaptive processing for Flux."
+    },
+    {
+      "author": "ankomochi",
+      "title": "CCIP Judge",
+      "reference": "https://github.com/o-ankomochi-o/comfyui-ccip-judge",
+      "files": [
+        "https://github.com/o-ankomochi-o/comfyui-ccip-judge"
+      ],
+      "install_type": "git-clone",
+      "description": "Anime character image evaluation nodes (CCIP + OKS + Angle) for ComfyUI"
     },
     {
       "author": "Ser-Hilary",
