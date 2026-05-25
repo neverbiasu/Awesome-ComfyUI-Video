@@ -1106,19 +1106,6 @@
       "author_account_age_days": 1201
     },
     {
-      "author": "MajoorWaldi",
-      "title": "ComfyUI-Majoor-AssetsManager",
-      "id": "majoor-assetsmanager",
-      "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-AssetsManager",
-      "files": [
-        "https://github.com/MajoorWaldi/ComfyUI-Majoor-AssetsManager"
-      ],
-      "install_type": "git-clone",
-      "description": "Majoor Assets Manager is an advanced asset browser for ComfyUI with search, metadata extraction, rating/tags, workflow metadata parsing, and integrated image/video/audio asset management.",
-      "stars": 103,
-      "author_account_age_days": 1147
-    },
-    {
       "author": "smthemex",
       "title": "ComfyUI_SVFR",
       "reference": "https://github.com/smthemex/ComfyUI_SVFR",
@@ -2370,19 +2357,6 @@
       "description": "ComfyUI nodes for editing background of images/videos with CUDA acceleration support.",
       "stars": 22,
       "author_account_age_days": 4573
-    },
-    {
-      "author": "MSXYZ",
-      "title": "ComfyUI-MSXYZ",
-      "id": "comfyui-msxyz",
-      "reference": "https://github.com/MSXYZ-GenAI/comfyui-msxyz",
-      "files": [
-        "https://github.com/MSXYZ-GenAI/comfyui-msxyz"
-      ],
-      "install_type": "git-clone",
-      "description": "Video Adaptive Anti-Aliasing post-processing node for ComfyUI to eliminate jagged edges in AI-generated videos and images.",
-      "stars": 22,
-      "author_account_age_days": 200
     },
     {
       "author": "SOLRICKS",
@@ -4134,7 +4108,7 @@
         "https://github.com/sidmehraajm/ssd_frame_compare"
       ],
       "install_type": "git-clone",
-      "description": "Interactive A/B frame comparison node with slider, side-by-side, overlay, and video playback — directly inside ComfyUI.",
+      "description": "Interactive Image A/B comparison node with slider wipe, side-by-side, overlay transparency, and synced video playback for image sequences. Easily compare or just view one frame or a sequence of frames.",
       "stars": 3,
       "author_account_age_days": 2555
     },
@@ -6084,6 +6058,18 @@
       "description": "MP4/MOV to a single IMAGE frame — loop, random, skip-every-nth, frame counters (ib video slicer).",
       "stars": 0,
       "author_account_age_days": 2247
+    },
+    {
+      "author": "Ganaraj",
+      "title": "comfyui-turbodiffusion",
+      "reference": "https://github.com/anveshane/Comfyui_turbodiffusion",
+      "files": [
+        "https://github.com/anveshane/Comfyui_turbodiffusion"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for TurboDiffusion I2V (Image-to-Video) generation with dual-expert sampling and SLA attention optimization.",
+      "stars": 0,
+      "author_account_age_days": 0
     }
   ]
 }
