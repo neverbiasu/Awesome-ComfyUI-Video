@@ -7871,6 +7871,16 @@
       "description": "Custom nodes for ComfyUI that generate multiple images in a single GPU batch with different seeds."
     },
     {
+      "author": "adbrasi",
+      "title": "prompta_generita_lite",
+      "reference": "https://github.com/adbrasi/prompta_generita_lite",
+      "files": [
+        "https://github.com/adbrasi/prompta_generita_lite"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI node for generating prompts by combining manual character descriptions, outfit sections, and .txt file lines. (Description by CC)"
+    },
+    {
       "author": "mbrostami",
       "title": "ComfyUI-HF",
       "reference": "https://github.com/mbrostami/ComfyUI-HF",
@@ -9257,17 +9267,6 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes:ColorListMaskToImage, FlattenAndCombineMaskImages"
-    },
-    {
-      "author": "meshmesh-io",
-      "title": "mm-comfyui-loopback",
-      "id": "mm-loopback",
-      "reference": "https://github.com/meshmesh-io/mm-comfyui-loopback",
-      "files": [
-        "https://github.com/meshmesh-io/mm-comfyui-loopback"
-      ],
-      "install_type": "git-clone",
-      "description": "Nodes:Loop, LoopStart, LoopEnd, LoopStart_SEGIMAGE, LoopEnd_SEGIMAGE"
     },
     {
       "author": "meshmesh-io",
@@ -28346,6 +28345,16 @@
       "description": "Advanced image concatenation node for ComfyUI with flexible grid layouts, padding, and styling options."
     },
     {
+      "author": "bigstationw",
+      "title": "ComfyUi-Untwisting-RoPE",
+      "reference": "https://github.com/BigStationW/ComfyUi-Untwisting-RoPE",
+      "files": [
+        "https://github.com/BigStationW/ComfyUi-Untwisting-RoPE"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node for Untwisting RoPE."
+    },
+    {
       "author": "matoo",
       "title": "Compare Videos",
       "reference": "https://github.com/surinder83singh/ComfyUI-compare-videos",
@@ -30421,6 +30430,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for safely blending large IMAGE tensors in chunks with explicit resize and compute-device controls."
+    },
+    {
+      "author": "xmarre",
+      "title": "ComfyUI Flux2 Untwisting RoPE",
+      "reference": "https://github.com/xmarre/ComfyUI-Flux.2-Untwisting-RoPE",
+      "files": [
+        "https://github.com/xmarre/ComfyUI-Flux.2-Untwisting-RoPE"
+      ],
+      "install_type": "git-clone",
+      "description": "Frequency-aware RoPE reference-attention modulation for Flux/Flux.2 models in ComfyUI."
     },
     {
       "author": "Pigidiy",
@@ -40459,6 +40478,16 @@
       "description": "Essential utility nodes for ComfyUI including prompt queue, batch processing, camera angle control, and resolution selector. (Description by CC)"
     },
     {
+      "author": "merserk",
+      "title": "ComfyUI-PiD",
+      "reference": "https://github.com/Merserk/ComfyUI-PiD",
+      "files": [
+        "https://github.com/Merserk/ComfyUI-PiD"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for NVIDIA PiD pixel diffusion decoding with VRAM offload support."
+    },
+    {
       "author": "dandancow874",
       "title": "ComfyUI-LMStudio-Controller",
       "reference": "https://github.com/dandancow874/ComfyUI-LMStudio-Controller",
@@ -49080,6 +49109,16 @@
       "description": "Lightweight random selection node for rapid prompt variations with independent multiple-node support and wildcard processing capabilities. (Description by CC)"
     },
     {
+      "author": "ruminar",
+      "title": "Ephemeral Preview Tap",
+      "reference": "https://github.com/ruminar/ComfyUI-EphemeralPreviewTap",
+      "files": [
+        "https://github.com/ruminar/ComfyUI-EphemeralPreviewTap"
+      ],
+      "install_type": "git-clone",
+      "description": "A lightweight IMAGE preview tap node that sends an in-memory JPEG contact sheet without writing temporary preview files."
+    },
+    {
       "author": "WuMIn259",
       "title": "ComfyUI-ZTurbo-Style-Transfer",
       "reference": "https://github.com/WuMIn259/ComfyUI-ZTurbo-Style-Transfer",
@@ -49350,6 +49389,16 @@
       "description": "ComfyUI custom node for separating instrumental and vocal stems using the bundled MDX model without external UVR dependencies."
     },
     {
+      "author": "DEMOUSL",
+      "title": "comfyui_merge_video",
+      "reference": "https://github.com/DEMOUSL/comfyui_merge_video",
+      "files": [
+        "https://github.com/DEMOUSL/comfyui_merge_video"
+      ],
+      "install_type": "git-clone",
+      "description": "Video Merge Node that combines image batches with SRT text, audio padding, and mixes voice and background music into final video output."
+    },
+    {
       "author": "cvlases",
       "title": "creative-code",
       "reference": "https://github.com/cvlases/creative-code-comfyui",
@@ -49558,6 +49607,56 @@
       ],
       "install_type": "git-clone",
       "description": "MetaMan bridges the metadata gap between AI image generation services, enabling seamless workflow sharing and model dependency tracking across platforms."
+    },
+    {
+      "author": "l2dnjsrud",
+      "title": "comfyui-opentoonz-line-tools",
+      "reference": "https://github.com/l2dnjsrud/ComfyUI-OpenToonzLineTools",
+      "files": [
+        "https://github.com/l2dnjsrud/ComfyUI-OpenToonzLineTools"
+      ],
+      "install_type": "git-clone",
+      "description": "OpenToonz-inspired cleanup, gap closing, and palette-region ComfyUI nodes for rough blue manga manuscripts."
+    },
+    {
+      "author": "kevinkessler",
+      "title": "Mask Batch Union",
+      "reference": "https://github.com/kevinkessler/comfyui-mask-batch-union",
+      "files": [
+        "https://github.com/kevinkessler/comfyui-mask-batch-union"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node to merge a batch of masks into a single mask via max or sum_clamp"
+    },
+    {
+      "author": "id-fa",
+      "title": "Lenient Switch",
+      "reference": "https://github.com/id-fa/ComfyUI-Lenient-Switch",
+      "files": [
+        "https://github.com/id-fa/ComfyUI-Lenient-Switch"
+      ],
+      "install_type": "git-clone",
+      "description": "A switcher that allows specify conditions and inputs/outputs individually"
+    },
+    {
+      "author": "CalaKuad1",
+      "title": "ComfyUI-PixelArt-Unfaker",
+      "reference": "https://github.com/CalaKuad1/ComfyUI-PixelArt-Unfaker",
+      "files": [
+        "https://github.com/CalaKuad1/ComfyUI-PixelArt-Unfaker"
+      ],
+      "install_type": "git-clone",
+      "description": "A powerful custom node for ComfyUI that transforms fake or blurry AI-generated pixel art into true, crisp, mathematically perfect pixel art."
+    },
+    {
+      "author": "blackmeat1225",
+      "title": "ComfyUI-Qwen2.5-VL-7B-OPENVINO",
+      "reference": "https://github.com/blackmeat1225/ComfyUI-Qwen2.5-VL-7B-OPENVINO",
+      "files": [
+        "https://github.com/blackmeat1225/ComfyUI-Qwen2.5-VL-7B-OPENVINO"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom ComfyUI node that unleashes Intel CPU + iGPU power via OpenVINO."
     },
     {
       "author": "Ser-Hilary",
