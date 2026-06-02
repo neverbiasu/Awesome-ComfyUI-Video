@@ -48766,6 +48766,16 @@
       "description": "Predicts Physical FPS (PhyFPS) from video using the Visual Chronometer model from the Pulse of Motion paper. Includes SDPA-optimized attention, device selection, progress tracking, and auto-downloads the model from HuggingFace."
     },
     {
+      "author": "akashzeno",
+      "title": "ComfyUI-ColoredNoiseDiffusionSampling",
+      "reference": "https://github.com/akashzeno/ComfyUI-ColoredNoiseDiffusionSampling",
+      "files": [
+        "https://github.com/akashzeno/ComfyUI-ColoredNoiseDiffusionSampling"
+      ],
+      "install_type": "git-clone",
+      "description": "Colored (frequency-shaped) noise diffusion sampling for ComfyUI: parametric + faithful gamma-matrix modes."
+    },
+    {
       "author": "destinyfaux",
       "title": "Z-FUSE: Surgical LoRA Orchestrator",
       "id": "z-fuse",
@@ -52606,6 +52616,16 @@
       ],
       "install_type": "git-clone",
       "description": "Multi-area regional prompting nodes featuring a layered canvas mask GUI, greedy text encoder, and Gemini API persistent chat utilities."
+    },
+    {
+      "author": "Yang Li",
+      "title": "comfyui-audio-silence-trim",
+      "reference": "https://github.com/gaoqi125/comfyui-audio-silence-trim",
+      "files": [
+        "https://github.com/gaoqi125/comfyui-audio-silence-trim"
+      ],
+      "install_type": "git-clone",
+      "description": "A small ComfyUI custom node for shortening long silent sections in AUDIO inputs."
     },
     {
       "author": "ntdviet",
