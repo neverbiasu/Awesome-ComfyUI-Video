@@ -38011,16 +38011,6 @@
       "description": "A collection of custom node for online chat with APIKey to OpenAI ChatGpt4xx... Grok ...."
     },
     {
-      "author": "AlcAI-AnimeHaven",
-      "title": "AlcAI Nodes for ComfyUI",
-      "reference": "https://github.com/AlcAI-AnimeHaven/AlcAI-nodes",
-      "files": [
-        "https://github.com/AlcAI-AnimeHaven/AlcAI-nodes"
-      ],
-      "install_type": "git-clone",
-      "description": "AlcAI Nodes is a collection of custom nodes for ComfyUI, a modular interface for image generation with Stable Diffusion. This project focuses on tools optimized for creating anime-style images and stylized effects, inspired by the AnimeHaven universe. It aims to simplify workflows for artists and AI creativity enthusiasts."
-    },
-    {
       "author": "diffussy69",
       "title": "ComfyUI-curved_weight_schedule",
       "reference": "https://github.com/diffussy69/comfyui-curved_weight_schedule",
@@ -39164,6 +39154,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom node pack for loading SDNQ quantized models"
+    },
+    {
+      "author": "EnragedAntelope",
+      "title": "ComfyUI-LoraSlider-LM",
+      "reference": "https://github.com/EnragedAntelope/ComfyUI-LoraSlider-LM",
+      "files": [
+        "https://github.com/EnragedAntelope/ComfyUI-LoraSlider-LM"
+      ],
+      "install_type": "git-clone",
+      "description": "A self-contained LoRA Slider node for ComfyUI designed to work alongside ComfyUI-Lora-Manager with bipolar strength sliders and batch LoRA loading."
     },
     {
       "author": "tester4488",
@@ -44937,26 +44937,6 @@
       ],
       "install_type": "git-clone",
       "description": "A lightweight ComfyUI extension that highlights the currently executing node by inverting its colors."
-    },
-    {
-      "author": "JamesDanielDoss",
-      "title": "JamesDossAI-EnhancedLinks",
-      "reference": "https://github.com/JamesDanielDoss/JamesDossAI-EnhancedLinks",
-      "files": [
-        "https://github.com/JamesDanielDoss/JamesDossAI-EnhancedLinks"
-      ],
-      "install_type": "git-clone",
-      "description": "Simple animated arrows traveling along workflow links (input → output)"
-    },
-    {
-      "author": "JamesDanielDoss",
-      "title": "Doss-Node-Suite",
-      "reference": "https://github.com/JamesDanielDoss/Doss-Node-Suite",
-      "files": [
-        "https://github.com/JamesDanielDoss/Doss-Node-Suite"
-      ],
-      "install_type": "git-clone",
-      "description": "A beginner-friendly custom node suite for ComfyUI focused on prompt helpers, workflow organization, and creator tools."
     },
     {
       "author": "kreonxv",
@@ -52626,6 +52606,16 @@
       ],
       "install_type": "git-clone",
       "description": "A small ComfyUI custom node for shortening long silent sections in AUDIO inputs."
+    },
+    {
+      "author": "1756141021",
+      "title": "comfyui-character-picker",
+      "reference": "https://github.com/1756141021/comfyui-character-picker",
+      "files": [
+        "https://github.com/1756141021/comfyui-character-picker"
+      ],
+      "install_type": "git-clone",
+      "description": "Random anime/game character picker with franchise pool management for ComfyUI."
     },
     {
       "author": "ntdviet",
