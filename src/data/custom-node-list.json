@@ -33744,6 +33744,16 @@
       "description": "Advanced/Experimental VACE nodes for WAN video models in ComfyUI."
     },
     {
+      "author": "drozbay",
+      "title": "LTExperiments",
+      "reference": "https://github.com/drozbay/LTExperiments",
+      "files": [
+        "https://github.com/drozbay/LTExperiments"
+      ],
+      "install_type": "git-clone",
+      "description": "Context window sampling for LTXV / LTX-2 (LTXAV) video+audio models, including IC-LoRA guide splitting across windows. Self-contained; uses ComfyUI's context_handler and wrapper hooks (no core edits)."
+    },
+    {
       "author": "Lovzu",
       "title": "KittenTTS Node for Voice Generation",
       "reference": "https://github.com/Lovzu/ComfyUI-KittenTTS",
@@ -52616,6 +52626,76 @@
       ],
       "install_type": "git-clone",
       "description": "Random anime/game character picker with franchise pool management for ComfyUI."
+    },
+    {
+      "author": "oratorian",
+      "title": "ComfyUI Switchboard",
+      "reference": "https://github.com/Oratorian/ComfyUI-Switchboard",
+      "files": [
+        "https://github.com/Oratorian/ComfyUI-Switchboard"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Switchboard - toggle ComfyUI groups or individual nodes on/off (bypass or mute), manually or from a wired boolean. A more flexible take on rgthree's Fast Group Bypasser."
+    },
+    {
+      "author": "gluttony10",
+      "title": "ComfyUI-RH-Bernini",
+      "reference": "https://github.com/RH-RunningHub/ComfyUI-RH-Bernini",
+      "files": [
+        "https://github.com/RH-RunningHub/ComfyUI-RH-Bernini"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI-native Bernini in-context conditioning for Wan 2.2 with external LLM prompt-enhancement helpers."
+    },
+    {
+      "author": "MoRanYue",
+      "title": "ComfyUI-PBaSR",
+      "reference": "https://github.com/MoRanYue/ComfyUI-PBaSR",
+      "files": [
+        "https://github.com/MoRanYue/ComfyUI-PBaSR"
+      ],
+      "install_type": "git-clone",
+      "description": "A minimal ComfyUI custom node for PBaSR x4 image upscaling inference."
+    },
+    {
+      "author": "MoRanYue",
+      "title": "ComfyUI-DMENet",
+      "reference": "https://github.com/MoRanYue/ComfyUI-DMENet",
+      "files": [
+        "https://github.com/MoRanYue/ComfyUI-DMENet"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for DMENet-style single-image defocus-map estimation."
+    },
+    {
+      "author": "MoRanYue",
+      "title": "ComfyUI-D-DFFNet",
+      "reference": "https://github.com/MoRanYue/ComfyUI-D-DFFNet",
+      "files": [
+        "https://github.com/MoRanYue/ComfyUI-D-DFFNet"
+      ],
+      "install_type": "git-clone",
+      "description": "Defocus Blur Detection Custom Node for ComfyUI wrapping D-DFFNet model detecting out-of-focus areas."
+    },
+    {
+      "author": "zfrsgtcu",
+      "title": "ComfyUI-TypeConverters",
+      "reference": "https://github.com/zfrsgtcu/ComfyUI-TypeConverters",
+      "files": [
+        "https://github.com/zfrsgtcu/ComfyUI-TypeConverters"
+      ],
+      "install_type": "git-clone",
+      "description": "Simple and lightweight type conversion nodes for ComfyUI."
+    },
+    {
+      "author": "DiamondGo",
+      "title": "Rotate Image",
+      "reference": "https://github.com/DiamondGo/comfyui-rotate-image",
+      "files": [
+        "https://github.com/DiamondGo/comfyui-rotate-image"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for angle-based image rotation with high-quality interpolation and lossless restoration"
     },
     {
       "author": "ntdviet",
