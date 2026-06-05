@@ -30953,6 +30953,16 @@
       "description": "Bridge nodes for ComfyUI that send messages through WhatsApp (Twilio) and Discord when a workflow completes."
     },
     {
+      "author": "INuBq8",
+      "title": "ComfyUI Text Preset Loader",
+      "reference": "https://github.com/INuBq8/ComfyUI-text-preset-loader",
+      "files": [
+        "https://github.com/INuBq8/ComfyUI-text-preset-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node to save, organize and reuse text presets with optional preview images."
+    },
+    {
       "author": "Erehr",
       "title": "ComfyUI-EreNodes",
       "reference": "https://github.com/Erehr/ComfyUI-EreNodes",
@@ -40681,17 +40691,6 @@
       ]
     },
     {
-      "author": "btitkin",
-      "title": "Random Prompt Builder",
-      "id": "random-prompt-builder",
-      "reference": "https://github.com/btitkin/ComfyUI-RandomPromptBuilder",
-      "files": [
-        "https://github.com/btitkin/ComfyUI-RandomPromptBuilder"
-      ],
-      "install_type": "git-clone",
-      "description": "Advanced AI-powered prompt generation using local GGUF models. Generate detailed, structured prompts with character controls, style presets, and model-specific formatting for Pony, SDXL, Flux, and more. Supports GPU acceleration and runs completely offline."
-    },
-    {
       "author": "rjgoif",
       "title": "Img Label Tools",
       "id": "Img-Label-Tools",
@@ -43788,6 +43787,17 @@
       ],
       "install_type": "git-clone",
       "description": "An advanced Assets manager for ComfyUI outputs with gallery, metadata inspection, ratings, and tags."
+    },
+    {
+      "author": "MajoorWaldi",
+      "title": "Majoor Project Settings",
+      "id": "majoor-projectsettings",
+      "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-ProjectSettings",
+      "files": [
+        "https://github.com/MajoorWaldi/ComfyUI-Majoor-ProjectSettings"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node extension that adds project management functionality to ComfyUI."
     },
     {
       "author": "sinanzoo2nd",
@@ -47599,6 +47609,16 @@
       ],
       "install_type": "git-clone",
       "description": "Flex Attention (torch.compile) node for ComfyUI. Uses PyTorch's built-in flex_attention with torch.compile — no extra dependencies, works on any GPU. Falls back to PyTorch SDPA when masks are present."
+    },
+    {
+      "author": "sorryhyun",
+      "title": "SpectrumKSampler",
+      "reference": "https://github.com/sorryhyun/ComfyUI-Spectrum-KSampler",
+      "files": [
+        "https://github.com/sorryhyun/ComfyUI-Spectrum-KSampler"
+      ],
+      "install_type": "git-clone",
+      "description": "Spectrum: training-free diffusion sampling acceleration via Chebyshev polynomial feature forecasting. Drop-in KSampler replacement that skips transformer blocks on predicted steps for ~2-3x speedup."
     },
     {
       "author": "spacewarpstudio",
@@ -52628,14 +52648,14 @@
       "description": "Random anime/game character picker with franchise pool management for ComfyUI."
     },
     {
-      "author": "oratorian",
-      "title": "ComfyUI Switchboard",
+      "author": "Oratorian",
+      "title": "ComfyUI-Switchboard",
       "reference": "https://github.com/Oratorian/ComfyUI-Switchboard",
       "files": [
         "https://github.com/Oratorian/ComfyUI-Switchboard"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI Switchboard - toggle ComfyUI groups or individual nodes on/off (bypass or mute), manually or from a wired boolean. A more flexible take on rgthree's Fast Group Bypasser."
+      "description": "Client-side nodes for enabling/disabling parts of your graph - by hand or from a wired boolean. A more flexible take on rgthree's Fast Group Bypasser. Two nodes, identical behaviour, different target."
     },
     {
       "author": "gluttony10",
@@ -52696,6 +52716,57 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for angle-based image rotation with high-quality interpolation and lossless restoration"
+    },
+    {
+      "author": "lynclee",
+      "title": "Multi Reference Latent",
+      "reference": "https://github.com/lynclee/comfyui_multi_referencelatent",
+      "files": [
+        "https://github.com/lynclee/comfyui_multi_referencelatent"
+      ],
+      "install_type": "git-clone",
+      "description": "Inject up to 6 reference images into conditioning for FLUX.2 (and other edit models) in a single node, each with its own strength (0 = skip). Built-in VAE encode."
+    },
+    {
+      "author": "btitkin",
+      "title": "ComfyUI-KSampler-Matrix-Lab",
+      "reference": "https://github.com/btitkin/ComfyUI-KSampler-Matrix-Lab",
+      "files": [
+        "https://github.com/btitkin/ComfyUI-KSampler-Matrix-Lab"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI KSampler Matrix Lab is a custom node for comparing multiple sampler and scheduler combinations in one labeled image grid."
+    },
+    {
+      "author": "yusrmuttaqien",
+      "title": "ComfyUI-LoadImageEnhanced",
+      "reference": "https://github.com/yusrmuttaqien/ComfyUI-LoadImageEnhanced",
+      "files": [
+        "https://github.com/yusrmuttaqien/ComfyUI-LoadImageEnhanced"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for image loading with sub-directory support and original filename tracking."
+    },
+    {
+      "author": "ShankHub-Org",
+      "title": "ComfyUI Artist Helper",
+      "reference": "https://github.com/ShankHub-Org/ComfyUI-Artist-Helper",
+      "files": [
+        "https://github.com/ShankHub-Org/ComfyUI-Artist-Helper"
+      ],
+      "install_type": "git-clone",
+      "description": "Artist autocomplete, artist wildcards, @random/@fav shortcuts, favorites, blacklist, and filename-safe artist outputs."
+    },
+    {
+      "author": "denyazzolin",
+      "title": "comfyui-daz-tools",
+      "id": "comfyui-daz-tools",
+      "reference": "https://github.com/denyazzolin/comfyui-daz-tools",
+      "files": [
+        "https://github.com/denyazzolin/comfyui-daz-tools"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of ComfyUI utility nodes. The Workflow Config nodes (WAN2.2 and LTX2.3) let you store multiple named presets — models, LoRA stacks, prompts, dimensions, and sampling parameters — and switch between them from a single dropdown, making it easy to test variations, manage scene setups, and iterate across versions without rebuilding your workflow or creating and maintaining multiple copies of it. Additional nodes: Lora Inspector (scans and displays safetensors metadata for any LoRA in your library), Check Null (detects null, None, NaN, or empty values), Null Audio Checker (detects silent/missing audio tracks from video inputs), and Abs Int (absolute value for integers)."
     },
     {
       "author": "ntdviet",
