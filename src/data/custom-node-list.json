@@ -16732,16 +16732,6 @@
       "description": "Prompt Expansion for Stable Diffusion, using Deepseek API."
     },
     {
-      "author": "Jjulianadv",
-      "title": "Wild Divide",
-      "reference": "https://github.com/Julian-adv/WildDivide",
-      "files": [
-        "https://github.com/Julian-adv/WildDivide"
-      ],
-      "install_type": "git-clone",
-      "description": "This extension provides the ability to build prompts using wildcards for each region of a split image."
-    },
-    {
       "author": "goburiin",
       "title": "nsfwrecog-comfyui",
       "reference": "https://github.com/goburiin/nsfwrecog-comfyui",
@@ -25733,16 +25723,6 @@
       ],
       "install_type": "git-clone",
       "description": "This ComfyUI custom node enhances the standard CLIP text encoding functionality by integrating ethnicity and hairstyle selection into the positive prompt. Designed to work seamlessly with ComfyUI, this node allows you to influence the conditioning process by dynamically appending descriptive modifiers. Users can choose a specific ethnicity or hairstyle, or opt for a 'random' selection that picks an option from a predefined CSV list."
-    },
-    {
-      "author": "moose-lab",
-      "title": "ComfyUI-GPT",
-      "reference": "https://github.com/moose-lab/ComfyUI-GPT",
-      "files": [
-        "https://github.com/moose-lab/ComfyUI-GPT"
-      ],
-      "install_type": "git-clone",
-      "description": "Help comfy deisgner develope custom nodes by foreground GUI without any coding knowledge, complementing the workflow what you design with LLM automatically"
     },
     {
       "author": "zichongc",
@@ -48817,17 +48797,6 @@
       ],
       "install_type": "git-clone",
       "description": "A LoRA loader that fetches and displays Civitai metadata including trigger words and preview images, with local caching and NSFW blur support."
-    },
-    {
-      "author": "pixaroma",
-      "title": "ComfyUI-Pixaroma",
-      "id": "comfyui-pixaroma",
-      "reference": "https://github.com/pixaroma/ComfyUI-Pixaroma",
-      "files": [
-        "https://github.com/pixaroma/ComfyUI-Pixaroma"
-      ],
-      "install_type": "git-clone",
-      "description": "Creative suite for ComfyUI with 3D Builder, AudioReact, Image Composer, Paint Studio, Save Mp4, Image Crop, Image Compare, Note Pixaroma, Label, Resolution, Preview Image, and Align Pixaroma (canvas snap & alignment guides). Layers, transforms, AI background removal, audio-reactive video, and more."
     },
     {
       "author": "Motif Technologies",
