@@ -35689,16 +35689,6 @@
       "description": "AI Horde integration as custom node(s) for ComfyUI"
     },
     {
-      "author": "Draek2077",
-      "title": "comfyui-draekz-nodez",
-      "reference": "https://github.com/Draek2077/comfyui-draekz-nodez",
-      "files": [
-        "https://github.com/Draek2077/comfyui-draekz-nodez"
-      ],
-      "install_type": "git-clone",
-      "description": "Making ComfyUI more comfortable."
-    },
-    {
       "author": "apacheone",
       "title": "ComfyUI_efficient_sam_node",
       "reference": "https://github.com/Apache0ne/ComfyUI_efficient_sam_node",
@@ -47681,16 +47671,6 @@
       "description": "Fork of ComfyUI-Inpaint-CropAndStitch adapted for Nano Banana 2. Adds NB2 Mask Generator, exact-resolution cropping and feathered alpha compositing in the stitch step."
     },
     {
-      "author": "amortegui84",
-      "title": "Tile Upscale NB2",
-      "reference": "https://github.com/amortegui84/comfyui-tile-upscale-nb2",
-      "files": [
-        "https://github.com/amortegui84/comfyui-tile-upscale-nb2"
-      ],
-      "install_type": "git-clone",
-      "description": "Tile-based upscaling nodes for ComfyUI — Nano Banana 2 compatible"
-    },
-    {
       "author": "hqrz",
       "title": "ComfyUI Japanese Romaji Converter",
       "reference": "https://github.com/hirokazu/ComfyUI-JapaneseRomaji",
@@ -52986,6 +52966,26 @@
       ],
       "install_type": "git-clone",
       "description": "Native ComfyUI integration of SEGA-style Qwen-Image sampling."
+    },
+    {
+      "author": "sln77",
+      "title": "ComfyUI-Tagger",
+      "reference": "https://github.com/sln77/ComfyUI-Tagger",
+      "files": [
+        "https://github.com/sln77/ComfyUI-Tagger"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node integration for the Camie tagger v2 model from Hugging Face for image tagging. (Description by CC)"
+    },
+    {
+      "author": "archerkattri",
+      "title": "ComfyUI-TRELLIS-HiCache",
+      "reference": "https://github.com/Archerkattri/ComfyUI-TRELLIS-HiCache",
+      "files": [
+        "https://github.com/Archerkattri/ComfyUI-TRELLIS-HiCache"
+      ],
+      "install_type": "git-clone",
+      "description": "Training-free TRELLIS image-to-3D acceleration: forecast the flow-matching velocity on skipped DiT steps (HiCache Hermite / HiCache++ DMD, via hicache-pp) across both the sparse-structure and SLaT stages. ~2x faster, near-lossless. Drop between the TRELLIS loader and sampler."
     },
     {
       "author": "ntdviet",
