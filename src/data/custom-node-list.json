@@ -36343,6 +36343,16 @@
       "description": "Extract individual actors from video with green screen background, face-based identity clustering, and structured metadata output"
     },
     {
+      "author": "ahkimkoo",
+      "title": "ComfyUI MIDI Edit",
+      "reference": "https://github.com/ahkimkoo/ComfyUI-MIDI-Edit",
+      "files": [
+        "https://github.com/ahkimkoo/ComfyUI-MIDI-Edit"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for MIDI lyrics editing. Replace lyrics in MIDI JSON with auto-generated phonemes (Chinese pinyin / English phonemes), or extract lyrics text. Works with ComfyUI_RH_SoulX-Singer for custom song generation."
+    },
+    {
       "author": "joyboy123456",
       "title": "ComfyUI Google AI Studio Integration",
       "reference": "https://github.com/joyboy123456/-ComfyUI-GoogleAIStudio",
