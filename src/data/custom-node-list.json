@@ -28478,16 +28478,6 @@
       "description": "NODES: 'Load One Image with Name, Title, Description', 'Load Multiple Images with Name, Directory, Title, Description'"
     },
     {
-      "author": "cathodeDreams",
-      "title": "comfyui-azul-scripts",
-      "reference": "https://github.com/cathodeDreams/comfyui-azul-scripts",
-      "files": [
-        "https://github.com/cathodeDreams/comfyui-azul-scripts"
-      ],
-      "install_type": "git-clone",
-      "description": "NODES: Save Image (JPG), Combine Conditionings (Weighted)"
-    },
-    {
       "author": "unicough",
       "title": "OpenAI Image API with gpt-image-1",
       "id": "comfy_openai_image_api",
@@ -39106,6 +39096,16 @@
       "license": "GNU V3"
     },
     {
+      "author": "bulldog68",
+      "title": "ComfyUI_FMJ_LLMP",
+      "reference": "https://github.com/bulldog68/ComfyUI_FMJ_LLMP",
+      "files": [
+        "https://github.com/bulldog68/ComfyUI_FMJ_LLMP"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate random prompts easily for FMJ using TXT files (1 prompt per file)."
+    },
+    {
       "author": "Usonaki",
       "title": "ComfyUI-DyPE-Nunchaku",
       "reference": "https://github.com/Usonaki/ComfyUI-DyPE-Nunchaku",
@@ -39184,6 +39184,16 @@
       ],
       "install_type": "git-clone",
       "description": "A self-contained LoRA Slider node for ComfyUI designed to work alongside ComfyUI-Lora-Manager with bipolar strength sliders and batch LoRA loading."
+    },
+    {
+      "author": "enragedantelope",
+      "title": "Identity Forge",
+      "reference": "https://github.com/EnragedAntelope/comfyui-identity-forge",
+      "files": [
+        "https://github.com/EnragedAntelope/comfyui-identity-forge"
+      ],
+      "install_type": "git-clone",
+      "description": "A 70+ field character randomizer node pack for ComfyUI with a constraint engine, themed archetype presets with varying costumes, and dual prose/JSON output."
     },
     {
       "author": "tester4488",
@@ -41245,16 +41255,6 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for NVIDIA PiD pixel diffusion decoding with VRAM offload support."
-    },
-    {
-      "author": "dandancow874",
-      "title": "ComfyUI-LMStudio-Controller",
-      "reference": "https://github.com/dandancow874/ComfyUI-LMStudio-Controller",
-      "files": [
-        "https://github.com/dandancow874/ComfyUI-LMStudio-Controller"
-      ],
-      "install_type": "git-clone",
-      "description": "Integrates LM Studio's CLI to perform Vision Language Model inference locally in ComfyUI with advanced memory management and anti-OOM protection."
     },
     {
       "author": "xiangyuT",
@@ -49408,6 +49408,16 @@
       "description": "LLM-powered prompt engineering node for Z-Image Turbo workflows. By Cyberdelia AI Lab."
     },
     {
+      "author": "cyberdelia",
+      "title": "Anima Resolutions",
+      "reference": "https://github.com/cyberdeliaAI/ComfyUI-anima-Resolutions",
+      "files": [
+        "https://github.com/cyberdeliaAI/ComfyUI-anima-Resolutions"
+      ],
+      "install_type": "git-clone",
+      "description": "Anima-friendly first-pass resolution picker for ComfyUI. Outputs resolution, width, and height integers for image generation workflows."
+    },
+    {
       "author": "KATO Kanryu",
       "title": "ComfyUI Text-Driven Workflows",
       "reference": "https://github.com/kanryu/ComfyUI-Text-Driven-Workflows",
@@ -53151,6 +53161,36 @@
       ],
       "install_type": "git-clone",
       "description": "Preset nodes to save and use prompt and sampler settings presets for different models."
+    },
+    {
+      "author": "smai-lee",
+      "title": "Lee-RIFE",
+      "reference": "https://github.com/Smai-Lee/Lee-RIFE",
+      "files": [
+        "https://github.com/Smai-Lee/Lee-RIFE"
+      ],
+      "install_type": "git-clone",
+      "description": "Fast, GPU-batched RIFE frame interpolation for ComfyUI with working bidirectional ensemble in fp16/32. Self-contained, weights bundled, no extra dependencies."
+    },
+    {
+      "author": "monkeykim111",
+      "title": "comfyui-image-safety-gate",
+      "reference": "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate",
+      "files": [
+        "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node combining SmilingWolf WD EVA02 Large Tagger v3 (anime rating) and CompVis stable-diffusion-safety-checker (CLIP) with boolean OR for illustration-friendly NSFW detection."
+    },
+    {
+      "author": "lebensignal",
+      "title": "ComfyUI Ultimate SD Upscale FLS LLLite",
+      "reference": "https://github.com/Lebensignal/ComfyUI-UltimateSDUpscale-FLS-LLLite",
+      "files": [
+        "https://github.com/Lebensignal/ComfyUI-UltimateSDUpscale-FLS-LLLite"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Ultimate SD Upscale nodes with FLS tile sampling and optional Anima LLLite tile repair."
     },
     {
       "author": "ntdviet",
