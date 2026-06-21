@@ -39923,16 +39923,6 @@
       "description": "ComfyUI custom node for adding watermarks to videos using FFmpeg, with configurable position, opacity, scale, and hardware acceleration support."
     },
     {
-      "author": "wzyfromhust",
-      "title": "ComfyUI_SAM2UltraV2",
-      "reference": "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2",
-      "files": [
-        "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2"
-      ],
-      "install_type": "git-clone",
-      "description": "A fully modular and high-performance implementation of SAM2 (Segment Anything Model 2) for ComfyUI with dual-prompt support, negative point sampling, and upper body segmentation."
-    },
-    {
       "author": "slahiri",
       "title": "ComfyUI-AI-Photography-Toolkit",
       "reference": "https://github.com/slahiri/ComfyUI-AI-Photography-Toolkit",
@@ -42979,6 +42969,16 @@
       ],
       "install_type": "git-clone",
       "description": "Automatically snapshots workflow state with a sidebar to browse and restore previous versions."
+    },
+    {
+      "author": "ethanfel",
+      "title": "ComfyUI-Lora-Sweeper",
+      "reference": "https://github.com/ethanfel/ComfyUI-Lora-Sweeper",
+      "files": [
+        "https://github.com/ethanfel/ComfyUI-Lora-Sweeper"
+      ],
+      "install_type": "git-clone",
+      "description": "Sweep a folder of LoRA training epochs: pick a step range + stride and sample one image per epoch from a single queue."
     },
     {
       "author": "shin131002",
