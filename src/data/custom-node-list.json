@@ -24504,6 +24504,26 @@
       "description": "Essential string manipulation nodes for ComfyUI."
     },
     {
+      "author": "bradsec",
+      "title": "ComfyUI_OllamaUnload",
+      "reference": "https://github.com/bradsec/ComfyUI_OllamaUnload",
+      "files": [
+        "https://github.com/bradsec/ComfyUI_OllamaUnload"
+      ],
+      "install_type": "git-clone",
+      "description": "Unload one or all Ollama models mid-workflow to free VRAM before image sampling. Wire your prompt through the passthrough socket so the node runs before the sampler. Node name: Ollama Unload (free VRAM). Located under Add Node > Ollama."
+    },
+    {
+      "author": "bradsec",
+      "title": "ComfyUI_RandomPerson",
+      "reference": "https://github.com/bradsec/ComfyUI_RandomPerson",
+      "files": [
+        "https://github.com/bradsec/ComfyUI_RandomPerson"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate randomised, structured physical person descriptions for image-generation prompts. Sex-aware traits, per-category random/allow_list/fixed/off modes, age ranges, body details, and individual output pins. Full node plus Identity, Face, Hair, Body, and Style segment nodes under the Random Person menu category."
+    },
+    {
       "author": "Dr.Positliver",
       "title": "comfyui-zegr",
       "reference": "https://github.com/Positliver/comfyui-zegr",
@@ -34846,6 +34866,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom nodes for SoulX-Singer - Zero-Shot Singing Voice Synthesis"
+    },
+    {
+      "author": "saganaki22",
+      "title": "Higgs v3 TTS",
+      "reference": "https://github.com/Saganaki22/Higgs_v3-TTS-ComfyUI",
+      "files": [
+        "https://github.com/Saganaki22/Higgs_v3-TTS-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for Higgs Audio v3 TTS with native inference, voice cloning, multi-speaker dialogue, longform chunking, and AIMDO DynamicVRAM support"
     },
     {
       "author": "sfinktah",
@@ -48993,16 +49023,6 @@
       "description": "A ComfyUI custom node that uses the Gemini API to rewrite a raw prompt into one optimised for a specific image generation model and workflow."
     },
     {
-      "author": "bnwa",
-      "title": "Comfy Combos",
-      "reference": "https://github.com/bnwa/comfy_combos",
-      "files": [
-        "https://github.com/bnwa/comfy_combos"
-      ],
-      "install_type": "git-clone",
-      "description": "Dropdown selectors for ComfyUI"
-    },
-    {
       "author": "oath-studio",
       "title": "comfy-vllm",
       "reference": "https://github.com/OATH-Studio/comfy-vLLM",
@@ -53191,6 +53211,66 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI Ultimate SD Upscale nodes with FLS tile sampling and optional Anima LLLite tile repair."
+    },
+    {
+      "author": "ukr8b3g-cmyk",
+      "title": "Anima Regional Canvas",
+      "reference": "https://github.com/ukr8b3g-cmyk/Anima_Regional_Canvas",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/Anima_Regional_Canvas"
+      ],
+      "install_type": "git-clone",
+      "description": "ANIMA-focused regional canvas node for Anima-LLLite Regional ControlNet workflows in ComfyUI."
+    },
+    {
+      "author": "ukr8b3g-cmyk",
+      "title": "Save WEBP Meta",
+      "reference": "https://github.com/ukr8b3g-cmyk/ComfyUI-save-webp-meta-node",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/ComfyUI-save-webp-meta-node"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node for saving WebP, PNG, JPEG, and AVIF images with embedded prompt metadata."
+    },
+    {
+      "author": "surrealbydesign",
+      "title": "ComfyUI Ideogram Palette and Prompt Tools",
+      "reference": "https://github.com/SurrealByDesign/ComfyUI-Ideogram-Palette-and-Prompt-Tools",
+      "files": [
+        "https://github.com/SurrealByDesign/ComfyUI-Ideogram-Palette-and-Prompt-Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Extract color palettes from reference images and assemble/validate/embed Ideogram 4's structured prompt JSON."
+    },
+    {
+      "author": "mooshieblob",
+      "title": "Mooshie Tiled Diffusion",
+      "reference": "https://github.com/Mooshieblob1/ComfyUI-MooshieTiledDiffusion",
+      "files": [
+        "https://github.com/Mooshieblob1/ComfyUI-MooshieTiledDiffusion"
+      ],
+      "install_type": "git-clone",
+      "description": "MultiDiffusion and SpotDiffusion tiled diffusion for ComfyUI, with Anima (COSMOS) 5D latent support."
+    },
+    {
+      "author": "Lumi4s",
+      "title": "Natural Prompt Editor",
+      "reference": "https://github.com/Lumi4s/natural_prompt_editor",
+      "files": [
+        "https://github.com/Lumi4s/natural_prompt_editor"
+      ],
+      "install_type": "git-clone",
+      "description": "Natural language prompt editing and workflow enhancement tools for ComfyUI."
+    },
+    {
+      "author": "bnwa",
+      "title": "ComfyUI Latent Presets",
+      "reference": "https://github.com/bnwa/ComfyUI-LatentPresets",
+      "files": [
+        "https://github.com/bnwa/ComfyUI-LatentPresets"
+      ],
+      "install_type": "git-clone",
+      "description": "Model-scoped latent presets for ComfyUI"
     },
     {
       "author": "ntdviet",
