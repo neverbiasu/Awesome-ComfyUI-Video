@@ -30892,6 +30892,16 @@
       "description": "FLUX.2 high-resolution drift correction and ComfyUI node pack"
     },
     {
+      "author": "xmarre",
+      "title": "comfyui-global-memory-trim",
+      "reference": "https://github.com/xmarre/ComfyUI-Global-Memory-Trim",
+      "files": [
+        "https://github.com/xmarre/ComfyUI-Global-Memory-Trim"
+      ],
+      "install_type": "git-clone",
+      "description": "Global native heap trimming custom node for ComfyUI on Linux/WSL"
+    },
+    {
       "author": "Pigidiy",
       "title": "ComfyUI-LikeSpiderAI-UI",
       "id": "like_spider_ui",
@@ -53068,6 +53078,16 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI custom node for collecting per-layer activation statistics (Hessians and optional amax) for external quantization tools like GPTQ, OBQ, and ConvRot."
+    },
+    {
+      "author": "ThunderFun",
+      "title": "ComfyUI-INT-Crush",
+      "reference": "https://github.com/ThunderFun/ComfyUI-INT-Crush",
+      "files": [
+        "https://github.com/ThunderFun/ComfyUI-INT-Crush"
+      ],
+      "install_type": "git-clone",
+      "description": "INT4/INT8 quantized inference for ComfyUI diffusion models"
     },
     {
       "author": "ventacom",
