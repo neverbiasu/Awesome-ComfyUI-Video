@@ -11919,6 +11919,16 @@
       "description": "SteadyDancer: Harmonized and Coherent Human Image Animation with First-Frame Preservation,Minimize the number of libraries and VRAMs as much as possible"
     },
     {
+      "author": "smthemex",
+      "title": "Nine_Image_Compare",
+      "reference": "https://github.com/smthemex/Nine_Image_Compare",
+      "files": [
+        "https://github.com/smthemex/Nine_Image_Compare"
+      ],
+      "install_type": "git-clone",
+      "description": "Compare one to nine images when use ComfyUI"
+    },
+    {
       "author": "choey",
       "title": "Comfy-Topaz",
       "id": "topaz",
@@ -22405,6 +22415,16 @@
       ],
       "install_type": "git-clone",
       "description": "This extension adds CUDA device selection to supported loader nodes in ComfyUI. By monkey-patching ComfyUI’s memory management, each model component (like UNet, Clip, or VAE) can be loaded on a specific GPU. Examples included are multi-GPU workflows for SDXL, FLUX, LTXVideo, and Hunyuan Video for both standard and GGUF loader nodes."
+    },
+    {
+      "author": "pollockjj",
+      "title": "comfyui-sealedcuda",
+      "reference": "https://github.com/pollockjj/ComfyUI-SealedCuda",
+      "files": [
+        "https://github.com/pollockjj/ComfyUI-SealedCuda"
+      ],
+      "install_type": "git-clone",
+      "description": "Sealed-worker CUDA image nodes (NATTEN, fused-ssim) sourced from prebuilt cuda-wheels"
     },
     {
       "author": "PressWagon",
@@ -39376,6 +39396,16 @@
       "description": "Simple camera prompt builder node for Qwen-Edit-2509 Multiple-Angles in ComfyUI."
     },
     {
+      "author": "HallettVisual",
+      "title": "Smart Image Crop and Stitch",
+      "reference": "https://github.com/HallettVisual/ComfyUI-Smart-Image-Crop-and-Stitch",
+      "files": [
+        "https://github.com/HallettVisual/ComfyUI-Smart-Image-Crop-and-Stitch"
+      ],
+      "install_type": "git-clone",
+      "description": "Mask-driven smart crop and stitch nodes for ComfyUI inpaint and edit workflows."
+    },
+    {
       "author": "Geo1230",
       "title": "ComfyUI-DeepseekOCR",
       "reference": "https://github.com/Geo1230/ComfyUI-DeepseekOCR",
@@ -43019,6 +43049,16 @@
       ],
       "install_type": "git-clone",
       "description": "Sweep a folder of LoRA training epochs: pick a step range + stride and sample one image per epoch from a single queue."
+    },
+    {
+      "author": "ethanfel",
+      "title": "Text Encode (Krea2)",
+      "reference": "https://github.com/ethanfel/ComfyUI-Krea2TextEncoder",
+      "files": [
+        "https://github.com/ethanfel/ComfyUI-Krea2TextEncoder"
+      ],
+      "install_type": "git-clone",
+      "description": "Vision-aware text conditioning for the Krea2 / K2 model. Feeds reference images through the Qwen3-VL-4B vision path with the Krea2 descriptor template; optional per-image mask crops to the masked region. No VAE (Krea2 has no reference-latent pathway). Auto-growing image+mask slots."
     },
     {
       "author": "shin131002",
@@ -53213,16 +53253,6 @@
       "description": "Fast, GPU-batched RIFE frame interpolation for ComfyUI with working bidirectional ensemble in fp16/32. Self-contained, weights bundled, no extra dependencies."
     },
     {
-      "author": "monkeykim111",
-      "title": "comfyui-image-safety-gate",
-      "reference": "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate",
-      "files": [
-        "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom node combining SmilingWolf WD EVA02 Large Tagger v3 (anime rating) and CompVis stable-diffusion-safety-checker (CLIP) with boolean OR for illustration-friendly NSFW detection."
-    },
-    {
       "author": "lebensignal",
       "title": "ComfyUI Ultimate SD Upscale FLS LLLite",
       "reference": "https://github.com/Lebensignal/ComfyUI-UltimateSDUpscale-FLS-LLLite",
@@ -53244,13 +53274,14 @@
     },
     {
       "author": "ukr8b3g-cmyk",
-      "title": "Save WEBP Meta",
+      "title": "ComfyUI Save WebP Meta Node",
+      "id": "save-webp-meta",
       "reference": "https://github.com/ukr8b3g-cmyk/ComfyUI-save-webp-meta-node",
       "files": [
         "https://github.com/ukr8b3g-cmyk/ComfyUI-save-webp-meta-node"
       ],
       "install_type": "git-clone",
-      "description": "ComfyUI node for saving WebP, PNG, JPEG, and AVIF images with embedded prompt metadata."
+      "description": "Save WebP images with A1111-compatible generation parameters and ComfyUI prompt/workflow metadata."
     },
     {
       "author": "surrealbydesign",
@@ -53261,6 +53292,16 @@
       ],
       "install_type": "git-clone",
       "description": "Extract color palettes from reference images and assemble/validate/embed Ideogram 4's structured prompt JSON."
+    },
+    {
+      "author": "surrealbydesign",
+      "title": "ComfyUI Krea Palette Tools",
+      "reference": "https://github.com/SurrealByDesign/ComfyUI-Krea-Palette-Tools",
+      "files": [
+        "https://github.com/SurrealByDesign/ComfyUI-Krea-Palette-Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "Extract color palettes from reference images and package them as Krea 2 image_style_references."
     },
     {
       "author": "mooshieblob",
@@ -53311,6 +53352,26 @@
       ],
       "install_type": "git-clone",
       "description": "A streamlined latent size node for ComfyUI with resolution presets, scale control, and batch output."
+    },
+    {
+      "author": "huwhitememes",
+      "title": "Krea 2 Conditioning Control",
+      "reference": "https://github.com/huwhitememes/comfyui-krea2-conditioning",
+      "files": [
+        "https://github.com/huwhitememes/comfyui-krea2-conditioning"
+      ],
+      "install_type": "git-clone",
+      "description": "Quality-preserving per-layer conditioning control for Krea 2 - ComfyUI custom node (enhanced fork of nova452/ComfyUI-ConditioningKrea2Rebalance)."
+    },
+    {
+      "author": "aiknowledge2go",
+      "title": "ComfyUI-AI2Go-Utils",
+      "reference": "https://github.com/Little-God1983/ComfyUI-AI2Go-Utils",
+      "files": [
+        "https://github.com/Little-God1983/ComfyUI-AI2Go-Utils"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI utility nodes by AIKnowledge2Go."
     },
     {
       "author": "ntdviet",
@@ -53530,6 +53591,67 @@
       ],
       "install_type": "unzip",
       "description": "This is a node to convert an image into a CMYK Halftone dot image."
+    },
+    {
+      "author": "kwokkakiu233",
+      "title": "LoRA Txt Loader",
+      "reference": "https://github.com/kwokkakiu233/comfyui-lora-txt-loader",
+      "files": [
+        "https://github.com/kwokkakiu233/comfyui-lora-txt-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Automatically loads trigger words from a .txt file with the same name as the LoRA. Supports offline use and custom-trained models."
+    },
+    {
+      "author": "verias",
+      "title": "ComfyUI Body Decal",
+      "reference": "https://github.com/verias/comfyui-body-decal",
+      "files": [
+        "https://github.com/verias/comfyui-body-decal"
+      ],
+      "install_type": "git-clone",
+      "description": "Pose-aware decal placement, projection, masking, displacement, and compositing tools for ComfyUI."
+    },
+    {
+      "author": "DemonGatanjieu",
+      "title": "Anomalous Model Browser",
+      "reference": "https://github.com/DemonGatanjieu/Anomalous_Model_Browser",
+      "files": [
+        "https://github.com/DemonGatanjieu/Anomalous_Model_Browser"
+      ],
+      "install_type": "git-clone",
+      "description": "Auto-injects model hashes and auto-fixes missing nodes or renamed models paths when sharing workflows.",
+      "nodename_pattern": ".*"
+    },
+    {
+      "author": "Pikselkroken",
+      "title": "ComfyUI-PixlStash",
+      "reference": "https://github.com/Pikselkroken/ComfyUI-PixlStash",
+      "files": [
+        "https://github.com/Pikselkroken/ComfyUI-PixlStash"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for loading and saving images to a PixlStash vault."
+    },
+    {
+      "author": "SencneS",
+      "title": "Excel Styles Loader",
+      "reference": "https://github.com/SencneS/ComfyUI-ExcelStylesLoader",
+      "files": [
+        "https://github.com/SencneS/ComfyUI-ExcelStylesLoader"
+      ],
+      "install_type": "git-clone",
+      "description": "A dynamic ComfyUI custom node that reads prompts from individual sheets/tabs within a local Excel (.xlsx) workbook."
+    },
+    {
+      "author": "monkeykim111",
+      "title": "ComfyUI-Image-Safety-Gate",
+      "reference": "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate",
+      "files": [
+        "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate"
+      ],
+      "install_type": "git-clone",
+      "description": "Illustration-friendly NSFW + gore gate combining SmilingWolf WD tagger v3, CompVis CLIP safety checker, and OwenElliott image-safety-classifier-s NSFL signal with boolean OR. Drop-in compatible with the existing CLIP-based safety-checker node (matches the (IMAGE, nsfw) output signature)."
     }
   ]
 }
