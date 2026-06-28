@@ -17541,6 +17541,16 @@
       "description": "Use a spreadsheet as input for ComfyUI execution"
     },
     {
+      "author": "niknah",
+      "title": "MiniT2I",
+      "reference": "https://github.com/niknah/MiniT2I-ComfyUI",
+      "files": [
+        "https://github.com/niknah/MiniT2I-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "MiniT2i for ComfyUI"
+    },
+    {
       "author": "daryltucker",
       "title": "ComfyUI-LoadFiles",
       "id": "LoadFiles",
@@ -24542,6 +24552,16 @@
       ],
       "install_type": "git-clone",
       "description": "Generate randomised, structured physical person descriptions for image-generation prompts. Sex-aware traits, per-category random/allow_list/fixed/off modes, age ranges, body details, and individual output pins. Full node plus Identity, Face, Hair, Body, and Style segment nodes under the Random Person menu category."
+    },
+    {
+      "author": "bradsec",
+      "title": "ComfyUI_LLMSetRole",
+      "reference": "https://github.com/bradsec/ComfyUI_LLMSetRole",
+      "files": [
+        "https://github.com/bradsec/ComfyUI_LLMSetRole"
+      ],
+      "install_type": "git-clone",
+      "description": "Pick an LLM role (system prompt) from a dropdown and output it as a STRING for an LLM node's system_prompt. Modes: fixed, increment, or random over a start..end slice, with index/seed control_after_generate to step roles across a batch. Roles are plain Markdown files in roles/; add a .md file and restart to add a role. Node name: Set Role. Located under Add Node > LLM."
     },
     {
       "author": "Dr.Positliver",
@@ -40401,6 +40421,16 @@
       "description": "ComfyUI nodes for Qwen-Scope SAE interpretability and steering."
     },
     {
+      "author": "nynxz",
+      "title": "ComfyUI JoyAI",
+      "reference": "https://github.com/Nynxz/ComfyUI-JoyAI",
+      "files": [
+        "https://github.com/Nynxz/ComfyUI-JoyAI"
+      ],
+      "install_type": "git-clone",
+      "description": "JoyAI-Image-Edit (16B MMDiT + Qwen3-VL-8B) instruction image editing for ComfyUI."
+    },
+    {
       "author": "huygiatrng",
       "title": "Facefusion_comfyui",
       "reference": "https://github.com/huygiatrng/Facefusion_comfyui",
@@ -43497,6 +43527,16 @@
       ],
       "install_type": "git-clone",
       "description": "Stop wasting hours tweaking prompt. This extension allows you to modularize your prompts into variables and assemble them using a powerful template-based approach."
+    },
+    {
+      "author": "aimoviestudio",
+      "title": "ComfyUI Iterator Nodes",
+      "reference": "https://github.com/AIMovieStudio/comfyui-iterator",
+      "files": [
+        "https://github.com/AIMovieStudio/comfyui-iterator"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for iterating over files (images, text) in directories."
     },
     {
       "author": "jianglinbin",
@@ -53652,6 +53692,16 @@
       ],
       "install_type": "git-clone",
       "description": "Illustration-friendly NSFW + gore gate combining SmilingWolf WD tagger v3, CompVis CLIP safety checker, and OwenElliott image-safety-classifier-s NSFL signal with boolean OR. Drop-in compatible with the existing CLIP-based safety-checker node (matches the (IMAGE, nsfw) output signature)."
+    },
+    {
+      "author": "nova452",
+      "title": "ComfyUI-Conditioning-Rebalance",
+      "reference": "https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance",
+      "files": [
+        "https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance"
+      ],
+      "install_type": "git-clone",
+      "description": "Conditioning optimizer nodes with per layer weighting that offers IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model."
     }
   ]
 }
