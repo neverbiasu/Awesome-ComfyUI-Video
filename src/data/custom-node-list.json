@@ -19094,14 +19094,14 @@
     },
     {
       "author": "Darth-Veitcher",
-      "title": "Comfy DV",
+      "title": "Comfy DV Nodes",
       "id": "comfydv",
       "reference": "https://github.com/darth-veitcher/comfydv",
       "files": [
         "https://github.com/darth-veitcher/comfydv"
       ],
       "install_type": "git-clone",
-      "description": "Nodes: String Formatting (f-string and jinja2), Random Choice, Model Memory management, and other quality of life improvements."
+      "description": "Quality of life ComfyUI nodes: dynamic string formatting with Python f-strings or Jinja2 templates, seed-controlled random input selection, and workflow circuit-breaker for conditional queue interruption."
     },
     {
       "author": "Darth-Veitcher",
@@ -53786,13 +53786,13 @@
     },
     {
       "author": "gh055",
-      "title": "Dynamic Text-to-Combo Generator",
+      "title": "ComfyUI Dynamic Text-to-Combo Generator",
       "reference": "https://github.com/gh055/ComfyUI-Dynamic-Combo",
       "files": [
         "https://github.com/gh055/ComfyUI-Dynamic-Combo"
       ],
       "install_type": "git-clone",
-      "description": "Generates runtime dynamic combo/dropdown choices from multiline text boxes, compatible with variable Set/Get node routing."
+      "description": "Generates dynamic combo/dropdown choices from multiline text inputs compatible with Set/Get node setups."
     },
     {
       "author": "arrssenne",
@@ -53973,6 +53973,36 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node suite for profiling, visualizing and steering attention heads in LTX-Video 2.3 (distill & dev)."
+    },
+    {
+      "author": "monja",
+      "title": "Monja Image Validator",
+      "reference": "https://github.com/andremonjardim/comfyui-image-validator",
+      "files": [
+        "https://github.com/andremonjardim/comfyui-image-validator"
+      ],
+      "install_type": "git-clone",
+      "description": "Valida se a imagem é múltipla de 8 para workflows de Upscale e Flux."
+    },
+    {
+      "author": "Kevin Gilper",
+      "title": "comfyui-krea-reference",
+      "reference": "https://github.com/kgilper/krea-reference",
+      "files": [
+        "https://github.com/kgilper/krea-reference"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom nodes for Krea 2 V9 image-reference conditioning."
+    },
+    {
+      "author": "DutchyDutch",
+      "title": "ComfyUI Local Wildcards",
+      "reference": "https://github.com/DutchyDutch/ComfyUI_Local_Wildcards",
+      "files": [
+        "https://github.com/DutchyDutch/ComfyUI_Local_Wildcards"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI local wildcard text expansion node with support for .txt, .json, .yaml, and .yml wildcard files, plus Dynamic Prompts-style syntax."
     }
   ]
 }
