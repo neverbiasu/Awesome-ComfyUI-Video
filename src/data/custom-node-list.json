@@ -37299,16 +37299,6 @@
       "description": "A collection of ComfyUI nodes for cryptography, steganography, encryption, decryption, and tools needed to both make and solve ARGs (Alternative Reality Games) and secret messages."
     },
     {
-      "author": "Kayarte",
-      "title": "GeoNodes",
-      "reference": "https://github.com/Kayarte/GeoNodes",
-      "files": [
-        "https://github.com/Kayarte/GeoNodes"
-      ],
-      "install_type": "git-clone",
-      "description": "GIS Processing Nodes for ComfyUI"
-    },
-    {
       "author": "Jairodaniel-17",
       "title": "ComfyUI-translate-offline",
       "reference": "https://github.com/Jairodaniel-17/ComfyUI-translate-offline",
@@ -54003,6 +53993,26 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI local wildcard text expansion node with support for .txt, .json, .yaml, and .yml wildcard files, plus Dynamic Prompts-style syntax."
+    },
+    {
+      "author": "maikios",
+      "title": "ComfyUI Gemma4 Reference Prompt",
+      "reference": "https://github.com/MaikiOS/ComfyUI-Gemma4-ReferencePrompt",
+      "files": [
+        "https://github.com/MaikiOS/ComfyUI-Gemma4-ReferencePrompt"
+      ],
+      "install_type": "git-clone",
+      "description": "Gemma 4 reference-image prompt nodes for ComfyUI"
+    },
+    {
+      "author": "ashen3",
+      "title": "Two-Stage Sampler and Krea 2 Resolution Picker",
+      "reference": "https://github.com/Auryg/Krea-2-Two-Stage-Sampler",
+      "files": [
+        "https://github.com/Auryg/Krea-2-Two-Stage-Sampler"
+      ],
+      "install_type": "git-clone",
+      "description": "Sigma-locked two-stage sampler and dual resolution selector for Krea 2 (and possibly other) workflows in ComfyUI."
     }
   ]
 }
