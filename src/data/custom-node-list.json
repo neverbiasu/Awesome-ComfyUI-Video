@@ -31032,6 +31032,16 @@
       "description": "ComfyUI node to save, organize and reuse text presets with optional preview images."
     },
     {
+      "author": "inubq8",
+      "title": "ComfyUI-MultiMaskOps",
+      "reference": "https://github.com/INuBq8/ComfyUI-MultiMaskOps",
+      "files": [
+        "https://github.com/INuBq8/ComfyUI-MultiMaskOps"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of ComfyUI nodes for working with multiple masks at once — sorting them by position, picking one out, removing duplicates, and expanding/feathering them without letting neighbours overlap."
+    },
+    {
       "author": "Erehr",
       "title": "ComfyUI-EreNodes",
       "reference": "https://github.com/Erehr/ComfyUI-EreNodes",
@@ -39352,16 +39362,6 @@
       "description": "ComfyUI custom node for experimental Anima/Cosmos flow-slider LoRA training."
     },
     {
-      "author": "Tr1dae",
-      "title": "ComfyUI-EasyFilePaths",
-      "reference": "https://github.com/Tr1dae/ComfyUI-EasyFilePaths",
-      "files": [
-        "https://github.com/Tr1dae/ComfyUI-EasyFilePaths"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI nodes that automatically populate dropdowns based on your folder structure and user configuration, making it easy to generate consistent file names."
-    },
-    {
       "author": "TJ16th",
       "title": "TJ_ComfyUI_Lineart2Vector",
       "reference": "https://github.com/TJ16th/TJ_ComfyUI_Lineart2Vector",
@@ -41037,6 +41037,16 @@
       ],
       "install_type": "git-clone",
       "description": "Fetch a fresh image straight into your workflow from 8 daily/random sources. Useful for prompt testing, style references, daily-image automations, or just kicking off a workflow with something interesting."
+    },
+    {
+      "author": "shootthesound",
+      "title": "Krea Reason",
+      "reference": "https://github.com/shootthesound/ComfyUI-KreaReason",
+      "files": [
+        "https://github.com/shootthesound/ComfyUI-KreaReason"
+      ],
+      "install_type": "git-clone",
+      "description": "Reason-then-encode for Krea 2. The encoder's own Qwen3-VL rewrites your prompt into a richer one — or reads a reference image (describe → filter → combine) — before conditioning: a built-in prompt enhancer and language-level image reference, running on the exact model that conditions."
     },
     {
       "author": "HackAfterDark",
@@ -49791,16 +49801,6 @@
       "description": "This custom node resizes an image while forcing the final width and height to be multiples of a chosen value."
     },
     {
-      "author": "zhangyi196",
-      "title": "Comfyui_ToAPIs_nano_banana",
-      "reference": "https://github.com/zhangyi196/Comfyui_ToAPIs_nano_banana",
-      "files": [
-        "https://github.com/zhangyi196/Comfyui_ToAPIs_nano_banana"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI node for calling ToAPIs image generation interface with support for text-to-image and image-to-image operations. (Description by CC)"
-    },
-    {
       "author": "Biyikgokhan",
       "title": "ComfyUI-InfiniTalk-AutoScale",
       "reference": "https://github.com/Biyikgokhan/ComfyUI-InfiniTalk-AutoScale",
@@ -54176,6 +54176,46 @@
       ],
       "install_type": "git-clone",
       "description": "Native ComfyUI nodes for EverAnimate-style chunked WanAnimate workflows, including master/chunk settings, chunk calculation, image carry-over, and boundary color correction."
+    },
+    {
+      "author": "SheikhAnas999",
+      "title": "Image Grid Merger",
+      "reference": "https://github.com/SheikhAnas999/Images_Merge_ComfyUI",
+      "files": [
+        "https://github.com/SheikhAnas999/Images_Merge_ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node that merges a batch of images into a single grid canvas."
+    },
+    {
+      "author": "r0zaic",
+      "title": "Reference Image Comparer",
+      "reference": "https://github.com/r0zaic/comfyui-reference-image-comparer",
+      "files": [
+        "https://github.com/r0zaic/comfyui-reference-image-comparer"
+      ],
+      "install_type": "git-clone",
+      "description": "Compare your workflow's output against a fixed reference image with a hover swipe slider."
+    },
+    {
+      "author": "nkxx188",
+      "title": "ComfyUI Krea2 Style Transfer",
+      "reference": "https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer",
+      "files": [
+        "https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer"
+      ],
+      "install_type": "git-clone",
+      "description": "Training-free Krea2 style reference nodes for ComfyUI, with LoRA-like single-image transfer, experimental two-reference blending, low content leakage, and preserved image quality."
+    },
+    {
+      "author": "fni8",
+      "title": "ComfyUI-fni8 (int8 dp4a / Volta)",
+      "reference": "https://github.com/jajmangold/ComfyUI-fni8",
+      "files": [
+        "https://github.com/jajmangold/ComfyUI-fni8"
+      ],
+      "install_type": "git-clone",
+      "description": "int8 dp4a (sm_70/Volta) acceleration for diffusion DiTs in ComfyUI, over the fni8 kernels"
     }
   ]
 }
