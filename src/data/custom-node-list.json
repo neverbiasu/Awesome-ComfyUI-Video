@@ -54216,6 +54216,26 @@
       ],
       "install_type": "git-clone",
       "description": "int8 dp4a (sm_70/Volta) acceleration for diffusion DiTs in ComfyUI, over the fni8 kernels"
+    },
+    {
+      "author": "navalyalgam97",
+      "title": "XFlow Resolution",
+      "reference": "https://github.com/navalyalgam97/comfyui-xflow-resolution",
+      "files": [
+        "https://github.com/navalyalgam97/comfyui-xflow-resolution"
+      ],
+      "install_type": "git-clone",
+      "description": "A premium resolution utility node for ComfyUI with aspect ratio grid, preset selection, custom ratios, favorites, recents, and keyboard navigation."
+    },
+    {
+      "author": "kongo_jun",
+      "title": "ComfyUI-JITBlockSwap",
+      "reference": "https://github.com/lovemachine100/ComfyUI-JITBlockSwap",
+      "files": [
+        "https://github.com/lovemachine100/ComfyUI-JITBlockSwap"
+      ],
+      "install_type": "git-clone",
+      "description": "Block Swap (RAM Offload) node for native ComfyUI MODEL - run DiT models larger than VRAM by streaming transformer blocks from system RAM."
     }
   ]
 }
