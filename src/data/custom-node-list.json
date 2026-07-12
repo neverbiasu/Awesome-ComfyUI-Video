@@ -29294,6 +29294,16 @@
       "description": "I wanted a way to batch add effects to images inside Comfyui so I made these nodes. Some of the effects should be ordered specifically so they stack and are effecting the image emulating camera effectsI made some workflows to show you the correct order."
     },
     {
+      "author": "TrophiHunter",
+      "title": "ComfyUI-MLUT",
+      "reference": "https://github.com/TrophiHunter/ComfyUI-MLUT",
+      "files": [
+        "https://github.com/TrophiHunter/ComfyUI-MLUT"
+      ],
+      "install_type": "git-clone",
+      "description": "Apply color **LUTs** and **swatches/palettes** to images in ComfyUI from one self-contained collection."
+    },
+    {
       "author": "magic-eraser-org",
       "title": "ComfyUI-Unwatermark",
       "reference": "https://github.com/magic-eraser-org/ComfyUI-Unwatermark",
@@ -31039,7 +31049,7 @@
         "https://github.com/INuBq8/ComfyUI-MultiMaskOps"
       ],
       "install_type": "git-clone",
-      "description": "A collection of ComfyUI nodes for working with multiple masks at once — sorting them by position, picking one out, removing duplicates, and expanding/feathering them without letting neighbours overlap."
+      "description": "A ComfyUI node pack for working with multiple masks at once — spatial sorting, index picking, duplicate removal, and overlap-free expansion/feathering. Native-matched dilation and blur."
     },
     {
       "author": "Erehr",
@@ -49579,6 +49589,16 @@
       "description": "Real-time ComfyUI Hardware Monitor with native AMD ROCm and All GPU/APU NVIDIA support and Universal Prompt Translator node for multilingual AI workflows, AMD ROCm utilities, optimization, and workflow enhance"
     },
     {
+      "author": "Anonymzx",
+      "title": "ComfyUI-Supertonic3TTS",
+      "reference": "https://github.com/Anonymzx/ComfyUI-Supertonic3TTS",
+      "files": [
+        "https://github.com/Anonymzx/ComfyUI-Supertonic3TTS"
+      ],
+      "install_type": "git-clone",
+      "description": "custom nodes integrating Supertone's Supertonic-3 — a lightning-fast, on-device, multilingual Text-to-Speech system running natively via ONNX Runtime."
+    },
+    {
       "author": "Magos Digital Studio",
       "title": "ComfyUI-Magos-Nodes",
       "reference": "https://github.com/MagosDigitalStudio/ComfyUI-Magos-Nodes",
@@ -52922,16 +52942,6 @@
       "description": "ComfyUI custom nodes for one-sample-per-run iteration across image, video, and text sources."
     },
     {
-      "author": "zhangrui",
-      "title": "ComfyUI-QuickUseTools",
-      "reference": "https://github.com/cingee2016/ComfyUI-QuickUseTools",
-      "files": [
-        "https://github.com/cingee2016/ComfyUI-QuickUseTools"
-      ],
-      "install_type": "git-clone",
-      "description": "A collection of quick-use custom nodes for ComfyUI - image processing and workflow tools"
-    },
-    {
       "author": "millerlight",
       "title": "Key-Value KV-Tools for ComfyUI",
       "reference": "https://github.com/millerlight/ComfyUI-KVTools",
@@ -53455,6 +53465,16 @@
       ],
       "install_type": "git-clone",
       "description": "Save WebP images with A1111-compatible generation parameters and ComfyUI prompt/workflow metadata."
+    },
+    {
+      "author": "ukr8b3g-cmyk",
+      "title": "Empty Latent Image Plus",
+      "reference": "https://github.com/ukr8b3g-cmyk/Empty-Latent-Image-Plus",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/Empty-Latent-Image-Plus"
+      ],
+      "install_type": "git-clone",
+      "description": "A compact Empty Latent Image replacement that also outputs WIDTH and HEIGHT values for ComfyUI workflows."
     },
     {
       "author": "surrealbydesign",
@@ -54236,6 +54256,87 @@
       ],
       "install_type": "git-clone",
       "description": "Block Swap (RAM Offload) node for native ComfyUI MODEL - run DiT models larger than VRAM by streaming transformer blocks from system RAM."
+    },
+    {
+      "author": "vitacon",
+      "title": "Retro Pixel-Matrix Dither 👾",
+      "reference": "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither",
+      "files": [
+        "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither"
+      ],
+      "install_type": "git-clone",
+      "description": "An advanced multi-ratio Bayer matrix dithering node for ComfyUI with edge protection."
+    },
+    {
+      "author": "m0rtus59",
+      "title": "ComfyUI-ComfySidebar",
+      "reference": "https://github.com/m0rtus59/ComfyUI-ComfySidebar",
+      "files": [
+        "https://github.com/m0rtus59/ComfyUI-ComfySidebar"
+      ],
+      "install_type": "git-clone",
+      "description": "Restoring the ComfyUI frontend pre-vue update queue functionality, drag&drop support, quicksave, and more in a clean design that respects your screen area."
+    },
+    {
+      "author": "WaitWut",
+      "title": "Ultimate Lora Loader",
+      "reference": "https://github.com/WaitWut/comfyui-ultimate-lora-loader",
+      "files": [
+        "https://github.com/WaitWut/comfyui-ultimate-lora-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "A Power-Lora-Loader-style dynamic LoRA stack node with a real on-disk folder browser, drag-to-reorder, optional CLIP, and per-lora split model/clip strengths."
+    },
+    {
+      "author": "albert999-pixel",
+      "title": "comfyui-beeble-switchx",
+      "reference": "https://github.com/albert999-pixel/comfyui-beeble-switchx",
+      "files": [
+        "https://github.com/albert999-pixel/comfyui-beeble-switchx"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom ComfyUI nodes for Beeble SwitchX image and video workflows."
+    },
+    {
+      "author": "KoishiAI",
+      "title": "LD ComfyUI Prompt Nodes",
+      "reference": "https://github.com/KoishiAI/LD-ComfyUI-Prompt-Nodes",
+      "files": [
+        "https://github.com/KoishiAI/LD-ComfyUI-Prompt-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Contains SlopPrompt and BooruPromptGenerator nodes to automate prompt generation for anime models. SlopPrompt allows natural language prompt generation or advanced formats like json and various conversions between them, while BooruPromptGenerator will let you generate random prompts anchored around tags you specify with various sampling options."
+    },
+    {
+      "author": "nnegret",
+      "title": "Anima-Tools",
+      "id": "comfyui-anima-tools",
+      "reference": "https://github.com/nregret/Comfyui-Anima-Tools",
+      "files": [
+        "https://github.com/nregret/Comfyui-Anima-Tools"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for anime prompt selection, random prompt generation, background and character tag composition, and Anima LoRA search, download, and loading."
+    },
+    {
+      "author": "YOUR_COMFY_PUBLISHER_ID",
+      "title": "Undulating Glitch",
+      "reference": "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch",
+      "files": [
+        "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch"
+      ],
+      "install_type": "git-clone",
+      "description": "Four-way alignment, travelling wave, and block-glitch video compositor nodes for ComfyUI."
+    },
+    {
+      "author": "galigali",
+      "title": "ComfyUI-PNGInfo",
+      "reference": "https://github.com/galigali-san/ComfyUI-PNGInfo",
+      "files": [
+        "https://github.com/galigali-san/ComfyUI-PNGInfo"
+      ],
+      "install_type": "git-clone",
+      "description": "A1111-style PNG Info for ComfyUI: load an image, read its generation metadata as human-readable text (A1111 parameters and ComfyUI embedded workflows), and reuse positive/negative/seed/steps/cfg as typed outputs."
     }
   ]
 }
