@@ -11929,6 +11929,16 @@
       "description": "Compare one to nine images when use ComfyUI"
     },
     {
+      "author": "smthemex",
+      "title": "ComfyUI_UniBlockSwap",
+      "reference": "https://github.com/smthemex/ComfyUI_UniBlockSwap",
+      "files": [
+        "https://github.com/smthemex/ComfyUI_UniBlockSwap"
+      ],
+      "install_type": "git-clone",
+      "description": "A universal swap node that supports ComfyUI native workflow, allowing 4_6G users to experience Klein9B or other large models"
+    },
+    {
       "author": "choey",
       "title": "Comfy-Topaz",
       "id": "topaz",
@@ -17141,6 +17151,16 @@
       ],
       "install_type": "git-clone",
       "description": "A simple minimap in the bottom-right of the window showing the full workflow, left click to navigate"
+    },
+    {
+      "author": "OliverCrosby",
+      "title": "Universal Seamless Tiles",
+      "reference": "https://github.com/OliverCrosby/ComfyUI-Universal-Seamless-Tiles",
+      "files": [
+        "https://github.com/OliverCrosby/ComfyUI-Universal-Seamless-Tiles"
+      ],
+      "install_type": "git-clone",
+      "description": "Model-agnostic seamless / tileable image generation for ComfyUI — works on transformer/DiT models (Flux, Wan/Anima) as well as convolutional models (SD1.5, SDXL)."
     },
     {
       "author": "Sieyalixnet",
@@ -30569,26 +30589,6 @@
       ],
       "install_type": "git-clone",
       "description": "Achieve seamless inpainting results without needing a specialized inpainting model."
-    },
-    {
-      "author": "hvppycoding",
-      "title": "RandomSamplerSchedulerSteps for ComfyUI",
-      "reference": "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps",
-      "files": [
-        "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node that randomly selects a (Sampler, Scheduler, Steps) combination from user-defined presets."
-    },
-    {
-      "author": "hvppycoding",
-      "title": "json prompt renderer",
-      "reference": "https://github.com/hvppycoding/comfyui-json-prompt-renderer",
-      "files": [
-        "https://github.com/hvppycoding/comfyui-json-prompt-renderer"
-      ],
-      "install_type": "git-clone",
-      "description": "NODES: Extract JSON, 'Prompt: Render Template from JSON'"
     },
     {
       "author": "o-l-l-i",
@@ -49680,6 +49680,16 @@
       "description": "Anima-friendly first-pass resolution picker for ComfyUI. Outputs resolution, width, and height integers for image generation workflows."
     },
     {
+      "author": "cyberdelia",
+      "title": "NegPiP Prompt (Multi-Model)",
+      "reference": "https://github.com/cyberdeliaAI/comfyui-negpip-zimage",
+      "files": [
+        "https://github.com/cyberdeliaAI/comfyui-negpip-zimage"
+      ],
+      "install_type": "git-clone",
+      "description": "One-node NegPiP prompting for Z-Image, SD1, SDXL, and Anima in ComfyUI."
+    },
+    {
       "author": "KATO Kanryu",
       "title": "ComfyUI Text-Driven Workflows",
       "reference": "https://github.com/kanryu/ComfyUI-Text-Driven-Workflows",
@@ -54337,6 +54347,149 @@
       ],
       "install_type": "git-clone",
       "description": "A1111-style PNG Info for ComfyUI: load an image, read its generation metadata as human-readable text (A1111 parameters and ComfyUI embedded workflows), and reuse positive/negative/seed/steps/cfg as typed outputs."
+    },
+    {
+      "author": "RmaNMetaverse",
+      "title": "First Frame & Last Frame Extractor",
+      "reference": "https://github.com/RmaNMetaverse/ComfyUI-FirstframeLastframeExtractor",
+      "files": [
+        "https://github.com/RmaNMetaverse/ComfyUI-FirstframeLastframeExtractor"
+      ],
+      "install_type": "git-clone",
+      "description": "Extract the first and last frame from any video file or image batch in ComfyUI."
+    },
+    {
+      "author": "90-RED",
+      "title": "ComfyUI-LinkRouter",
+      "reference": "https://github.com/90-RED/ComfyUI-LinkRouter",
+      "files": [
+        "https://github.com/90-RED/ComfyUI-LinkRouter"
+      ],
+      "install_type": "git-clone",
+      "description": "Object-avoiding orthogonal link routing for ComfyUI. Links automatically detour around nodes with smooth right-angle paths. Flow animation, hover highlight, floating control bar, and full settings panel. Pure frontend — zero impact on generation."
+    },
+    {
+      "author": "Yasei-no-otoko",
+      "title": "ComfyUI RDNA35 Attention",
+      "id": "rdna35-attention",
+      "reference": "https://github.com/Yasei-no-otoko/ComfyUI-RDNA35-Attention",
+      "files": [
+        "https://github.com/Yasei-no-otoko/ComfyUI-RDNA35-Attention"
+      ],
+      "install_type": "git-clone",
+      "description": "RDNA 3.5 attention research nodes for ComfyUI, including fixed-block, exact Triton, FlexAttention, and PISA paths with model-local fallback handling."
+    },
+    {
+      "author": "CocyNoric",
+      "title": "ComfyUI-Anima-TeaCache",
+      "reference": "https://github.com/CocyNoric/ComfyUI-Anima-TeaCache",
+      "files": [
+        "https://github.com/CocyNoric/ComfyUI-Anima-TeaCache"
+      ],
+      "install_type": "git-clone",
+      "description": "TeaCache acceleration for the native ComfyUI implementation of circlestone-labs/Anima."
+    },
+    {
+      "author": "TiwazM",
+      "title": "ComfyUI-Precision-Model-Save",
+      "reference": "https://github.com/TiwazM/ComfyUI-Precision-Model-Save",
+      "files": [
+        "https://github.com/TiwazM/ComfyUI-Precision-Model-Save"
+      ],
+      "install_type": "git-clone",
+      "description": "For users who merge models in ComfyUI and want the saved checkpoint to match the live merged model exactly. A small custom node for saving a live merged MODEL without using ComfyUI's normal ModelSave materialisation path."
+    },
+    {
+      "author": "luminatrix",
+      "title": "Lumina_NIVR2",
+      "reference": "https://github.com/Luminatrixx/NIVR2",
+      "files": [
+        "https://github.com/Luminatrixx/NIVR2"
+      ],
+      "install_type": "git-clone",
+      "description": "Native ComfyUI implementation of ByteDance SeedVR2 using ComfyUI's own model stack and core graph nodes."
+    },
+    {
+      "author": "CovertBannana",
+      "title": "ComfyUI-ImagePlus",
+      "reference": "https://github.com/CovertBannana/ComfyUI-ImagePlus",
+      "files": [
+        "https://github.com/CovertBannana/ComfyUI-ImagePlus"
+      ],
+      "install_type": "git-clone",
+      "description": "Unified nodes pack primarily for Image to Image generation with a toggleable Text to Image option for easy switch back. CivitAI and local image inspection."
+    },
+    {
+      "author": "Azornes",
+      "title": "ComfyUI Model Resolver",
+      "reference": "https://github.com/Azornes/Comfyui-Model-Resolver",
+      "files": [
+        "https://github.com/Azornes/Comfyui-Model-Resolver"
+      ],
+      "install_type": "git-clone",
+      "description": "Automatically resolves missing models in ComfyUI workflows using intelligent local fuzzy matching, online search, direct downloads, background download tracking, and in-place workflow updates."
+    },
+    {
+      "author": "gregowahoo",
+      "title": "ComfyUI Workflow Group Navigator",
+      "reference": "https://github.com/gregowahoo/comfyui-navigator",
+      "files": [
+        "https://github.com/gregowahoo/comfyui-navigator"
+      ],
+      "install_type": "git-clone",
+      "description": "Floating panel that lists every group in your ComfyUI workflow — jump to any group, toggle on/off via rgthree Fast Groups Muter, reorder via drag-and-drop, configurable keyboard shortcuts. Designed for large multi-stage workflows."
+    },
+    {
+      "author": "shootthesound",
+      "title": "ComfyUI-WorkflowDropZone",
+      "reference": "https://github.com/shootthesound/ComfyUI-WorkflowDropZone",
+      "files": [
+        "https://github.com/shootthesound/ComfyUI-WorkflowDropZone"
+      ],
+      "install_type": "git-clone",
+      "description": "A persistent drop zone for loading workflows from images or .json files — a reliable alternative to ComfyUI's built-in drag-and-drop, with crash-recovery snapshots, recents, favorites, paste and append."
+    },
+    {
+      "author": "VixDreamer",
+      "title": "Kontext ControlNet Fix",
+      "id": "kontext-controlnet-fix",
+      "reference": "https://github.com/VixDreamer/kontext-controlnet-fix",
+      "files": [
+        "https://github.com/VixDreamer/kontext-controlnet-fix"
+      ],
+      "install_type": "git-clone",
+      "description": "Runtime patch that fixes the shape-mismatch crash when combining Flux Kontext ReferenceLatent with any ControlNet node. No core files modified. Idempotent — skips if upstream fix (PR #9180) is already present."
+    },
+    {
+      "author": "wraith-executioner-year-2",
+      "title": "comfyui-misc",
+      "id": "wraith-executioner-year-2.comfyui-misc",
+      "reference": "https://github.com/wraith-executioner-year-2/comfyui-misc",
+      "files": [
+        "https://github.com/wraith-executioner-year-2/comfyui-misc"
+      ],
+      "install_type": "git-clone",
+      "description": "A small utility custom nodes."
+    },
+    {
+      "author": "rikunarita",
+      "title": "ComfyUI-ModelMergeCosmosPredict-2B-Slerp",
+      "reference": "https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp",
+      "files": [
+        "https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp"
+      ],
+      "install_type": "git-clone",
+      "description": "Slerp model merging node specifically for Cosmos Predict 2B. Supports layer-wise ratio adjustment."
+    },
+    {
+      "author": "Tsubasa109",
+      "title": "comfyui-manga-panel",
+      "reference": "https://github.com/Tsubasa109/comfyui_manga_panel",
+      "files": [
+        "https://github.com/Tsubasa109/comfyui_manga_panel"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for selecting, generating, and compositing rectangular manga panels"
     }
   ]
 }
