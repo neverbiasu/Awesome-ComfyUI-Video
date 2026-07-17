@@ -33927,27 +33927,6 @@
       "description": "Pixel art Enhancement Node for ComfyUI"
     },
     {
-      "author": "Rzgar Espo",
-      "title": "ComfyUI Qwen Image Size Picker",
-      "id": "QwenImg-latent",
-      "reference": "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker",
-      "files": [
-        "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker"
-      ],
-      "install_type": "git-clone",
-      "description": "An empty latent size picker with support for Qwen Image, SDXL, and Flux models."
-    },
-    {
-      "author": "rzgarespo",
-      "title": "ComfyUI-diffusiondb",
-      "reference": "https://github.com/rzgarespo/ComfyUI-diffusiondb",
-      "files": [
-        "https://github.com/rzgarespo/ComfyUI-diffusiondb"
-      ],
-      "install_type": "git-clone",
-      "description": "This code gives you the quick access to 14 million text-to-image prompts from the DiffusionDB dataset."
-    },
-    {
       "author": "luke-mino-altherr",
       "title": "ComfyUI-Latent-Reverb",
       "reference": "https://github.com/luke-mino-altherr/ComfyUI-LatentReverb",
@@ -36189,16 +36168,6 @@
       ],
       "install_type": "git-clone",
       "description": "Improved qwen image editing accuracy"
-    },
-    {
-      "author": "Ian2073",
-      "title": "ComfyUI-MyLLMNode",
-      "reference": "https://github.com/Ian2073/ComfyUI-MyLLMnode",
-      "files": [
-        "https://github.com/Ian2073/ComfyUI-MyLLMnode"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
     },
     {
       "author": "semonxue",
