@@ -52123,6 +52123,16 @@
       "description": "ComfyUI custom node for merging multiple text or tag lists with deduplication and custom delimiter support. (Description by CC)"
     },
     {
+      "author": "palealloy2999-prog",
+      "title": "ComfyUI-AnySwitchImage",
+      "reference": "https://github.com/palealloy2999-prog/ComfyUI-AnySwitchImage",
+      "files": [
+        "https://github.com/palealloy2999-prog/ComfyUI-AnySwitchImage"
+      ],
+      "install_type": "git-clone",
+      "description": "Image-only switch for ComfyUI that checks connected inputs from top to bottom and outputs the first available image. (Description by CC)"
+    },
+    {
       "author": "Pmobilee",
       "title": "ComfyUI-vid2frames",
       "reference": "https://github.com/Pmobilee/ComfyUI-vid2frames",
@@ -58135,6 +58145,16 @@
       "description": "Complete aesthetic overhaul for ComfyUI workspace with animated wrappers for core nodes, custom text inputs, and a real-time Matrix Execution Monitor."
     },
     {
+      "author": "realrebelai",
+      "title": "Rebels Krea2 Outpaint",
+      "reference": "https://github.com/RealRebelAI/ComfyUI-Rebels-Krea2-Outpaint",
+      "files": [
+        "https://github.com/RealRebelAI/ComfyUI-Rebels-Krea2-Outpaint"
+      ],
+      "install_type": "git-clone",
+      "description": "Registered outpainting nodes for the yijunwang2/krea2-outpaint LoRA on Krea 2 Turbo. Places the source reference into the target latent grid at a bbox (RoPE frame i+1) with isolated-ref KV cache, then restores exact pixels with a feathered seam. Reference-attention machinery adapted from ostris/ComfyUI-Krea2-Ostris-Edit (MIT); placement geometry from the outpaint release (Apache-2.0)."
+    },
+    {
       "author": "RevengerNick",
       "title": "ComfyUI-Easy-Loaders",
       "reference": "https://github.com/RevengerNick/ComfyUI-Easy-Loaders",
@@ -60733,6 +60753,26 @@
       ],
       "install_type": "git-clone",
       "description": "Nodes for identifying target regions in images, extracting UV vertices, and writing metadata with preview generation. (Description by CC)"
+    },
+    {
+      "author": "speedyrulz",
+      "title": "comfyui-resolution-selector",
+      "reference": "https://github.com/speedyrulz/comfyui-resolution-selector",
+      "files": [
+        "https://github.com/speedyrulz/comfyui-resolution-selector"
+      ],
+      "install_type": "git-clone",
+      "description": "Pick a megapixel budget and aspect ratio; get the closest usable resolution."
+    },
+    {
+      "author": "lobo",
+      "title": "ComfyUI-Krea2BlockSwap",
+      "reference": "https://github.com/olob0/ComfyUI-Krea2BlockSwap",
+      "files": [
+        "https://github.com/olob0/ComfyUI-Krea2BlockSwap"
+      ],
+      "install_type": "git-clone",
+      "description": "Dynamic block swap for Krea 2. Offloads transformer blocks to RAM to run on low-VRAM GPUs without quality loss."
     }
   ]
 }
