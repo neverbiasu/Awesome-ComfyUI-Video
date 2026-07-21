@@ -42624,16 +42624,6 @@
       "description": "Custom ComfyUI nodes designed to interface with a separate LM Studio instance for language model operations."
     },
     {
-      "author": "bombdefuser-124",
-      "title": "Newbie-Teacache-ComfyUI",
-      "reference": "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI",
-      "files": [
-        "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "TeaCache optimization nodes for ComfyUI's NewBie implementation, featuring patched loader and coefficient calculator for faster inference with configurable quality. (Description by CC)"
-    },
-    {
       "author": "maxczc",
       "title": "comfyui-sora-node",
       "reference": "https://github.com/maxczc/comfyui-sora-node",
@@ -55058,6 +55048,16 @@
     },
     {
       "author": "ukr8b3g-cmyk",
+      "title": "Krea2 BBOX Prompter Suite",
+      "reference": "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter"
+      ],
+      "install_type": "git-clone",
+      "description": "Krea2-focused BBOX canvas, prompt builder, export node, and prompt effect presets for ComfyUI."
+    },
+    {
+      "author": "ukr8b3g-cmyk",
       "title": "Empty Latent Image Plus",
       "reference": "https://github.com/ukr8b3g-cmyk/Empty-Latent-Image-Plus",
       "files": [
@@ -55075,16 +55075,6 @@
       ],
       "install_type": "git-clone",
       "description": "Adds tag suggestions to ComfyUI multiline text areas for searching English Danbooru tags and prompt vocabulary with optional Japanese aliases."
-    },
-    {
-      "author": "ukr8b3g-cmyk",
-      "title": "Krea2-BBOX-Prompter",
-      "reference": "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter",
-      "files": [
-        "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter"
-      ],
-      "install_type": "git-clone",
-      "description": "Krea2 BBOX Prompter Suite is a ComfyUI custom-node suite for manually placing BBOX regions and converting them into a Krea2-oriented JSON prompt."
     },
     {
       "author": "surrealbydesign",
@@ -55394,6 +55384,17 @@
       ],
       "install_type": "unzip",
       "description": "This is a node to convert an image into a CMYK Halftone dot image."
+    },
+    {
+      "author": "yunqiankuangyu",
+      "title": "Anima LoRA Comparison",
+      "id": "comfyui-anima-lora-comparison",
+      "reference": "https://github.com/yunqiankuangyu/comfyui-anima-lora-comparison",
+      "files": [
+        "https://github.com/yunqiankuangyu/comfyui-anima-lora-comparison"
+      ],
+      "install_type": "git-clone",
+      "description": "Batch LoRA comparison sampler for Anima/Cosmos models"
     },
     {
       "author": "kwokkakiu233",
@@ -55960,7 +55961,7 @@
       "description": "ComfyUI nodes for anime prompt selection, random prompt generation, background and character tag composition, and Anima LoRA search, download, and loading."
     },
     {
-      "author": "YOUR_COMFY_PUBLISHER_ID",
+      "author": "jsterlingvids",
       "title": "Undulating Glitch",
       "reference": "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch",
       "files": [
@@ -56815,16 +56816,6 @@
       "description": "Loader node for the pruned FLUX.2-klein-9B text encoder (5.1B). Handles the mixed per-layer FFN/GQA shapes and remapped hidden-state taps that the stock CLIPLoader cannot express."
     },
     {
-      "author": "anima",
-      "title": "Anima LoRA Comparison",
-      "reference": "https://github.com/yunqiankuangyu/comfyui-anima-lora-comparison",
-      "files": [
-        "https://github.com/yunqiankuangyu/comfyui-anima-lora-comparison"
-      ],
-      "install_type": "git-clone",
-      "description": "Batch LoRA comparison sampler for Anima/Cosmos models in ComfyUI"
-    },
-    {
       "author": "Hezldeen",
       "title": "comfyui-hezl-ksamplerpreset",
       "reference": "https://github.com/Hezldeen/ComfyUI_Hezl-KSamplerPreset",
@@ -57053,6 +57044,16 @@
       ],
       "install_type": "git-clone",
       "description": "All-in-one face styling node for ComfyUI: curated style presets with auto-fill prompts, FaceDetailer parameters, and a dynamic searchable LoRA stack. Outputs CONDITIONING + modified MODEL ready for FaceDetailer / KSampler."
+    },
+    {
+      "author": "artfat-creator",
+      "title": "Artfat Face Consistency",
+      "reference": "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency",
+      "files": [
+        "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency"
+      ],
+      "install_type": "git-clone",
+      "description": "Face-identity consistency scoring for ComfyUI (cv2 YuNet+SFace, CPU). Inline pass/fail sort + batch contact-sheet."
     },
     {
       "author": "fulletlab",
@@ -57623,6 +57624,16 @@
       ],
       "install_type": "git-clone",
       "description": "A node suite for prompt engineering with persistent character and segment libraries."
+    },
+    {
+      "author": "drksun81",
+      "title": "ComfyUI-FilterLoRATriggers",
+      "reference": "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers",
+      "files": [
+        "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers"
+      ],
+      "install_type": "git-clone",
+      "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
     },
     {
       "author": "ETH-IVIA-Lab",
@@ -60773,6 +60784,26 @@
       ],
       "install_type": "git-clone",
       "description": "Dynamic block swap for Krea 2. Offloads transformer blocks to RAM to run on low-VRAM GPUs without quality loss."
+    },
+    {
+      "author": "unitas81",
+      "title": "ComfyUI-FilterLoRATriggers",
+      "reference": "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers",
+      "files": [
+        "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers"
+      ],
+      "install_type": "git-clone",
+      "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
+    },
+    {
+      "author": "akurate",
+      "title": "ComfyUI Schematic",
+      "reference": "https://github.com/jeremieLouvaert/ComfyUI-Schematic",
+      "files": [
+        "https://github.com/jeremieLouvaert/ComfyUI-Schematic"
+      ],
+      "install_type": "git-clone",
+      "description": "Schematic/technical annotation overlay generator — detection circles, tangent chains, crosshair frames, and pixelation zones over any image"
     }
   ]
 }
