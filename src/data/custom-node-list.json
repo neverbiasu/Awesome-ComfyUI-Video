@@ -8051,6 +8051,16 @@
       "description": "ComfyUI custom node for OpenRouter chat completions with vision input, reasoning effort selection, and JSON extraction. (Description by CC)"
     },
     {
+      "author": "adbrasi",
+      "title": "facetaggg",
+      "reference": "https://github.com/adbrasi/facetaggg",
+      "files": [
+        "https://github.com/adbrasi/facetaggg"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node using YOLO to detect and crop objects in images or video frames with temporal smoothing, masking, and preview output. (Description by CC)"
+    },
+    {
       "author": "mbrostami",
       "title": "ComfyUI-HF",
       "reference": "https://github.com/mbrostami/ComfyUI-HF",
@@ -33033,17 +33043,6 @@
       ],
       "install_type": "git-clone",
       "description": "A custom node extension for ComfyUI that enables distributed image generation across multiple GPUs through a master-worker architecture."
-    },
-    {
-      "author": "FortunaCournot",
-      "title": "Stereoscopic",
-      "id": "stereoscopic",
-      "reference": "https://github.com/FortunaCournot/comfyui_stereoscopic",
-      "files": [
-        "https://github.com/FortunaCournot/comfyui_stereoscopic"
-      ],
-      "install_type": "git-clone",
-      "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
     },
     {
       "author": "negaga53",
@@ -60804,6 +60803,37 @@
       ],
       "install_type": "git-clone",
       "description": "Schematic/technical annotation overlay generator — detection circles, tangent chains, crosshair frames, and pixelation zones over any image"
+    },
+    {
+      "author": "tttamaki",
+      "title": "ComfyUI-StringListConcat",
+      "reference": "https://github.com/tttamaki/ComfyUI-StringListConcat",
+      "files": [
+        "https://github.com/tttamaki/ComfyUI-StringListConcat"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that concatenates 2-32 string inputs into one with optional delimiters. (Description by CC)"
+    },
+    {
+      "author": "tttamaki",
+      "title": "ComfyUI-RandomSwitch",
+      "reference": "https://github.com/tttamaki/ComfyUI-RandomSwitch",
+      "files": [
+        "https://github.com/tttamaki/ComfyUI-RandomSwitch"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that randomly selects one input from multiple inputs of the same type."
+    },
+    {
+      "author": "djdzzzz",
+      "title": "ComfyUI-Bernini-PromptEnhancer",
+      "id": "bernini-prompt-enhancer",
+      "reference": "https://github.com/djdzzzz/ComfyUI-Bernini-PromptEnhancer",
+      "files": [
+        "https://github.com/djdzzzz/ComfyUI-Bernini-PromptEnhancer"
+      ],
+      "install_type": "git-clone",
+      "description": "Bernini MLLM semantic planner for local prompt enhancement in ComfyUI — 12 task types, GGUF offline inference, zero VRAM residue"
     }
   ]
 }
