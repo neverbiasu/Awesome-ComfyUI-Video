@@ -24599,13 +24599,13 @@
     },
     {
       "author": "Dehypnotic",
-      "title": "Dehypnotic Save nodes",
-      "reference": "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes",
+      "title": "Dehypnotic",
+      "reference": "https://github.com/Dehypnotic/ComfyUI-Dehypnotic",
       "files": [
-        "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes"
+        "https://github.com/Dehypnotic/ComfyUI-Dehypnotic"
       ],
       "install_type": "git-clone",
-      "description": "Save toolkit for audio, image, and video: MP3 audio export with VBR/CBR options, multi-format image saving with workflow/thumbnail metadata, and video + frame encoding (MP4/MKV/WEBM/MOV) — all sharing whitelist-safe paths and rich placeholder templating."
+      "description": "Creative suite for ComfyUI: Aspect Ratio, Numbered Text, Save-nodes (MP3 Audio, Images, and Video), Range To String, and Set/Get."
     },
     {
       "author": "feixuetuba",
@@ -34920,16 +34920,6 @@
       "description": "Smart dynamic layer swapping between GPU and CPU for optimal inference performance with comprehensive mixed precision handling and copy-compute overlap optimization. Enables running much larger models on limited VRAM setups."
     },
     {
-      "author": "Dehypnotic",
-      "title": "NumberedText",
-      "reference": "https://github.com/Dehypnotic/comfyui-numbered-text",
-      "files": [
-        "https://github.com/Dehypnotic/comfyui-numbered-text"
-      ],
-      "install_type": "git-clone",
-      "description": "Lightweight node to number text divisions (one per newline) and select single/multiple divisions by index with an optional separator"
-    },
-    {
       "author": "rickrender",
       "title": "Vectorizer API",
       "reference": "https://github.com/rickrender/ComfyUI-Vectorizer-API",
@@ -35064,16 +35054,6 @@
         "scipy>=1.10.0",
         "color-matcher>=0.3.0"
       ]
-    },
-    {
-      "author": "Dehypnotic",
-      "title": "RangeToString",
-      "reference": "https://github.com/Dehypnotic/comfyui-range-to-string",
-      "files": [
-        "https://github.com/Dehypnotic/comfyui-range-to-string"
-      ],
-      "install_type": "git-clone",
-      "description": "Lightweight node that generates a string of numbers between a start and end value. Supports positive and negative steps, configurable separators, and inclusive/exclusive end values."
     },
     {
       "author": "KY-2000",
@@ -35717,16 +35697,6 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node for generating synchronized audio for videos using the HunyuanVideo-Foley model."
-    },
-    {
-      "author": "Dehypnotic",
-      "title": "AspectRatioAdvanced",
-      "reference": "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced",
-      "files": [
-        "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced"
-      ],
-      "install_type": "git-clone",
-      "description": "An advanced aspect ratio calculator and image scaler with flexible scaling modes and intelligent image handling."
     },
     {
       "author": "GsusGG",
@@ -45061,6 +45031,16 @@
       "description": "Prompt Style Selector with Preview, Multiple Selecting, Search and Local Base."
     },
     {
+      "author": "DemonAlone",
+      "title": "DemonAlone-JS_Addon-ComfyUI",
+      "reference": "https://github.com/DemonAlone/DemonAlone-JS_Addon-ComfyUI",
+      "files": [
+        "https://github.com/DemonAlone/DemonAlone-JS_Addon-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Interactive JavaScript nodes: Load Video with real-time preview, Video Maker (image batch to MP4), plus upcoming queue management and dynamic UI tools. Enhances workflow flexibility."
+    },
+    {
       "author": "tabisheva",
       "title": "comfyui-segs-profile",
       "reference": "https://github.com/tabisheva/comfyui-segs-profile",
@@ -48882,9 +48862,9 @@
       "author": "yhryzy",
       "title": "ComfyUI-VULCA",
       "id": "comfyui-vulca",
-      "reference": "https://github.com/vulca-org/comfyui-vulca",
+      "reference": "https://github.com/vulca-org/vulca-comfyui-visual-nodes",
       "files": [
-        "https://github.com/vulca-org/comfyui-vulca"
+        "https://github.com/vulca-org/vulca-comfyui-visual-nodes"
       ],
       "install_type": "git-clone",
       "description": "Cultural art evaluation nodes — L1-L5 scoring across 13 traditions, Layered Generation + Inpainting, Brief-driven creative workflows. Evaluate AI-generated art for cultural accuracy and get actionable improvement suggestions. Requires: pip install vulca",
@@ -49550,6 +49530,17 @@
       ],
       "install_type": "git-clone",
       "description": "Run ByteDance Seedance 2.0 video generation in ComfyUI via Sjinn.ai API. Supports up to 6 image, 3 video and 2 audio references. Outputs native VIDEO plus first frame, last frame and frame batch."
+    },
+    {
+      "author": "nnnnkatsu",
+      "title": "Seedance 2.0 BytePlus",
+      "id": "seedance2-comfyui-byteplus",
+      "reference": "https://github.com/nnnnkatsu/seedance2-comfyui-byteplus",
+      "files": [
+        "https://github.com/nnnnkatsu/seedance2-comfyui-byteplus"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for BytePlus ModelArk Seedance 2.0 direct API generation. Supports text/image/omni/reference video workflows, AWS S3 private reference video upload and browsing, batch result selection, generation history, and saved-video workflow metadata."
     },
     {
       "author": "knottttt",
@@ -59745,16 +59736,6 @@
       "description": "Custom nodes for ComfyUI that help iterate over and save image/caption datasets, useful for preparing training data for fine-tuning diffusion models."
     },
     {
-      "author": "sni10",
-      "title": "DWA",
-      "reference": "https://github.com/sni10/DWA",
-      "files": [
-        "https://github.com/sni10/DWA"
-      ],
-      "install_type": "git-clone",
-      "description": "Automatically publish your generated images to DeviantArt straight from ComfyUI."
-    },
-    {
       "author": "sossuzumiyaharuhi",
       "title": "comfyui-checkpoints-with-trigger",
       "reference": "https://github.com/sossuzumiyaharuhi/comfyui-checkpoints-with-trigger",
@@ -60834,6 +60815,36 @@
       ],
       "install_type": "git-clone",
       "description": "Bernini MLLM semantic planner for local prompt enhancement in ComfyUI — 12 task types, GGUF offline inference, zero VRAM residue"
+    },
+    {
+      "author": "zeus-onl",
+      "title": "comfyUI-JigSaw-Hi-Res",
+      "reference": "https://github.com/zeus-onl/comfyUI-JigSaw-Hi-Res",
+      "files": [
+        "https://github.com/zeus-onl/comfyUI-JigSaw-Hi-Res"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node extending Flux/Krea2 model image generation beyond native resolution using YaRN and NTK-aware frequency scaling to prevent repeating-pattern artifacts. (Description by CC)"
+    },
+    {
+      "author": "ku1x",
+      "title": "ComfyUI-MaskCanvasEditor",
+      "reference": "https://github.com/ku1x/ComfyUI-MaskCanvasEditor",
+      "files": [
+        "https://github.com/ku1x/ComfyUI-MaskCanvasEditor"
+      ],
+      "install_type": "git-clone",
+      "description": "Mask Canvas Editor is a ComfyUI custom node that provides an interactive visual editor for positioning a background image behind a mask region."
+    },
+    {
+      "author": "sni10",
+      "title": "ComfyUI DeviantArt Sender",
+      "reference": "https://github.com/sni10/DWA",
+      "files": [
+        "https://github.com/sni10/DWA"
+      ],
+      "install_type": "git-clone",
+      "description": "Automated workflow tool for scheduling and publishing AI artwork directly to DeviantArt with full mature content controls."
     }
   ]
 }
