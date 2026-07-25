@@ -38374,6 +38374,17 @@
       "description": "Your own personal AIGC Factory. Any picture. Any reel. The Comfy way. ©️"
     },
     {
+      "author": "rookiestar28",
+      "title": "ComfyUI-SCAIL-Pose2",
+      "id": "comfyui-scail-pose2",
+      "reference": "https://github.com/rookiestar28/ComfyUI-SCAIL-Pose2",
+      "files": [
+        "https://github.com/rookiestar28/ComfyUI-SCAIL-Pose2"
+      ],
+      "install_type": "git-clone",
+      "description": "SCAIL and SCAIL-2 pose/mask preprocessing for ComfyUI, including DWPose-compatible pose data, NLF pose renders, condition metadata, and WanVideoWrapper adapter payloads."
+    },
+    {
       "author": "MoonMoon82",
       "title": "ClipVision_Tools",
       "reference": "https://github.com/MoonMoon82/ClipVision_Tools",
@@ -55780,6 +55791,17 @@
       "description": "Frame-accurate layered video editor inside ComfyUI for stitching AI-generated clips into one continuous piece. Auto Stitch recommends the best cut point between two clips using frame and motion matching; also scene/beat detection, version stacks, wipe compare, pre-render, and MP4/MOV/WebM export."
     },
     {
+      "author": "designloves2",
+      "title": "ComfyUI-TJ_NODE",
+      "id": "ComfyUI-TJ_NODE",
+      "reference": "https://github.com/designloves2/ComfyUI-TJ_NODE",
+      "files": [
+        "https://github.com/designloves2/ComfyUI-TJ_NODE"
+      ],
+      "install_type": "git-clone",
+      "description": "Fixes image batch mixing and missing filenames when using large multi-channel KSampler workflows."
+    },
+    {
       "author": "depth-layer-rasterizer",
       "title": "Depth Layer Rasterizer",
       "reference": "https://github.com/maDcaDDie2000/comfyui_depth_layer_rasterizer",
@@ -56986,14 +57008,14 @@
       "description": "ComfyUI node to upload images to the Trinetra image host, with rate-limit-aware backoff, an expiry picker, and a live folder dropdown."
     },
     {
-      "author": "covertbannana",
-      "title": "CivitAI ImagePlus",
+      "author": "CovertBannana",
+      "title": "ComfyUI_CivitAI_ImagePlus",
       "reference": "https://github.com/CovertBannana/ComfyUI_CivitAI_ImagePlus",
       "files": [
         "https://github.com/CovertBannana/ComfyUI_CivitAI_ImagePlus"
       ],
       "install_type": "git-clone",
-      "description": "Browse CivitAI images in ComfyUI, preview protected images, edit prompts, and pass selected images into img2img workflows."
+      "description": "CivitAI gallery browser for ComfyUI with protected image preview and prompt editor."
     },
     {
       "author": "megachill",
@@ -60845,6 +60867,17 @@
       ],
       "install_type": "git-clone",
       "description": "Automated workflow tool for scheduling and publishing AI artwork directly to DeviantArt with full mature content controls."
+    },
+    {
+      "author": "JWLHS",
+      "title": "TINT4 — INT4 Weight-Only Quantization via torchao",
+      "id": "tint4_xpu",
+      "reference": "https://github.com/JWLHS/ComfyUI-TINT4",
+      "files": [
+        "https://github.com/JWLHS/ComfyUI-TINT4"
+      ],
+      "install_type": "git-clone",
+      "description": "INT4 weight-only quantization (W4A16) via torchao. Activations remain FP16 — zero quality loss. Full LoRA: standard + LoKr, multi-LoRA stack (≤8), SHA256 JSON cache (<1s hit), GPU pre-hook bake-in. Auto-detects device on startup and installs correct torchao build (Intel XPU / NVIDIA CUDA / AMD ROCm). Verified: Krea2 Turbo, Flux2 Klein 9B, Z-Image, Boogu, Qwen-Image. Includes model analysis CLI."
     }
   ]
 }
