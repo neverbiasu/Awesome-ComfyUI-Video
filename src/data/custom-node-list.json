@@ -47309,6 +47309,26 @@
       "description": "Single-node image quality gate for LoRA dataset filtering. Analyzes blur, sharpness, noise, clipping, and entropy with three-tier verdict (PASS/SO-SO/FAIL), center-weighted blur detection, and shot-type presets."
     },
     {
+      "author": "0xBeycan",
+      "title": "ComfyUI-SocialMediaExport",
+      "reference": "https://github.com/0xBeycan/ComfyUI-SocialMediaExport",
+      "files": [
+        "https://github.com/0xBeycan/ComfyUI-SocialMediaExport"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI output node that takes a full-quality master image (any resolution, any aspect ratio) and emits platform-ready derivatives with the minimum possible cropping and a controlled, high-fidelity encode."
+    },
+    {
+      "author": "0xBeycan",
+      "title": "ComfyUI-PostFx",
+      "reference": "https://github.com/0xBeycan/ComfyUI-PostFx",
+      "files": [
+        "https://github.com/0xBeycan/ComfyUI-PostFx"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node for postfx library - Theme-based image post-processing & film-emulation pipeline — pure Python, CPU, no GPU."
+    },
+    {
       "author": "nic-schi",
       "title": "Open Images for ComfyUI",
       "id": "openimage",
@@ -60878,6 +60898,17 @@
       ],
       "install_type": "git-clone",
       "description": "INT4 weight-only quantization (W4A16) via torchao. Activations remain FP16 — zero quality loss. Full LoRA: standard + LoKr, multi-LoRA stack (≤8), SHA256 JSON cache (<1s hit), GPU pre-hook bake-in. Auto-detects device on startup and installs correct torchao build (Intel XPU / NVIDIA CUDA / AMD ROCm). Verified: Krea2 Turbo, Flux2 Klein 9B, Z-Image, Boogu, Qwen-Image. Includes model analysis CLI."
+    },
+    {
+      "author": "muerrilla",
+      "title": "ComfyUI Tab Cycle",
+      "id": "ComfyUI-Tab-Cycle",
+      "reference": "https://github.com/muerrilla/ComfyUI-Tab-Cycle",
+      "files": [
+        "https://github.com/muerrilla/ComfyUI-Tab-Cycle"
+      ],
+      "install_type": "git-clone",
+      "description": "Cycle through the number input fields on a node using Tab / Shift+Tab. Classic UI QoL extension."
     }
   ]
 }
