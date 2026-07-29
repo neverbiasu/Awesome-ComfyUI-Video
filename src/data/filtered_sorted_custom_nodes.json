@@ -6928,6 +6928,19 @@
       "author_account_age_days": 1523
     },
     {
+      "author": "wuwukaka",
+      "title": "ComfyUI-WanAnimatePlus",
+      "id": "ComfyUI-WanAnimatePlus",
+      "reference": "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus",
+      "files": [
+        "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus"
+      ],
+      "install_type": "git-clone",
+      "description": "Seamless video connection and multi-reference image support for Wan Animate and Scail-2.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
       "author": "sequencer-media",
       "title": "Sequencer AI Nodes",
       "reference": "https://github.com/sequencer-media/sequencer-comfy-nodes",

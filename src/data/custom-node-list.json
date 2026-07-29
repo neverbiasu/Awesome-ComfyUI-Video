@@ -50548,6 +50548,17 @@
       "description": "A project for pose alignment and human body proportion mapping based on SDPose."
     },
     {
+      "author": "wuwukaka",
+      "title": "ComfyUI-WanAnimatePlus",
+      "id": "ComfyUI-WanAnimatePlus",
+      "reference": "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus",
+      "files": [
+        "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus"
+      ],
+      "install_type": "git-clone",
+      "description": "Seamless video connection and multi-reference image support for Wan Animate and Scail-2."
+    },
+    {
       "author": "KingManiya",
       "title": "LLM Text Processor",
       "reference": "https://github.com/KingManiya/ComfyUI-LLM-text-processor",
@@ -60909,6 +60920,50 @@
       ],
       "install_type": "git-clone",
       "description": "Cycle through the number input fields on a node using Tab / Shift+Tab. Classic UI QoL extension."
+    },
+    {
+      "author": "kkukshtel",
+      "title": "mood.site Upload",
+      "id": "mood-site-upload",
+      "reference": "https://github.com/kkukshtel/comfyui_mood",
+      "files": [
+        "https://github.com/kkukshtel/comfyui_mood"
+      ],
+      "install_type": "git-clone",
+      "nodename_pattern": "MoodSiteUpload",
+      "description": "Uploads image(s) to a mood.site board as PNG, replicating the mood.site upload Apple Shortcut."
+    },
+    {
+      "author": "Zoltar358",
+      "title": "ComfyUI-Universal-Model-Loader",
+      "id": "ComfyUI-Universal-Model-Loader",
+      "reference": "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader",
+      "files": [
+        "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, CLIP and VAE with a dynamic polished UI."
+    },
+    {
+      "author": "StyleRef",
+      "title": "StyleRef nodes for ComfyUI",
+      "id": "styleref-comfyui",
+      "reference": "https://github.com/StyleRef/styleref-comfyui",
+      "files": [
+        "https://github.com/StyleRef/styleref-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Load a StyleRef creative style once, reuse it across your workflows. Five nodes: Load, Apply, Facets, Reference Images, Login. Zero Python dependencies; the style is compiled server-side at styleref.io so improvements reach you without an update. Also on the Comfy Registry as styleref-comfyui."
+    },
+    {
+      "author": "scarlotsoft",
+      "title": "ComfyUI_ScarlotSoft",
+      "reference": "https://github.com/scarlotsoft/ComfyUI_ScarlotSoft",
+      "files": [
+        "https://github.com/scarlotsoft/ComfyUI_ScarlotSoft"
+      ],
+      "install_type": "git-clone",
+      "description": "Personalized suite of nodes including a specialized LoRA Detailer, a custom WD14 Tagger, and precise MM-DD-YYYY image saving."
     }
   ]
 }
