@@ -55100,13 +55100,13 @@
     },
     {
       "author": "ukr8b3g-cmyk",
-      "title": "Danbooru-Tag-JP-Assist",
+      "title": "Danbooru Tag JP Assist",
       "reference": "https://github.com/ukr8b3g-cmyk/Danbooru-Tag-JP-Assist",
       "files": [
         "https://github.com/ukr8b3g-cmyk/Danbooru-Tag-JP-Assist"
       ],
       "install_type": "git-clone",
-      "description": "Adds tag suggestions to ComfyUI multiline text areas for searching English Danbooru tags and prompt vocabulary with optional Japanese aliases."
+      "description": "Japanese-assisted tag autocomplete for ComfyUI text areas. Supports Danbooru tags, bundled natural language tags, local CSV tag files, Japanese aliases, popup settings, and optional Danbooru CSV update from Hugging Face."
     },
     {
       "author": "surrealbydesign",
@@ -58179,6 +58179,16 @@
       "description": "Maintenance utility nodes for ComfyUI that scan and repair prompt library LoRA references and manage library entries with pattern-based filtering."
     },
     {
+      "author": "RabbitThatIsPink",
+      "title": "Frog Node Pack",
+      "reference": "https://github.com/RabbitThatIsPink/FrogNodePack",
+      "files": [
+        "https://github.com/RabbitThatIsPink/FrogNodePack"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node pack for ComfyUI focused on keeping workflows clean and consolidated."
+    },
+    {
       "author": "RealRebelAI",
       "title": "ComfyUI_Rebels_NLD",
       "reference": "https://github.com/RealRebelAI/ComfyUI_Rebels_NLD",
@@ -60964,6 +60974,52 @@
       ],
       "install_type": "git-clone",
       "description": "Personalized suite of nodes including a specialized LoRA Detailer, a custom WD14 Tagger, and precise MM-DD-YYYY image saving."
+    },
+    {
+      "author": "DIIIUA",
+      "title": "Singularity - Tail 5 Continuation Gate",
+      "id": "comfyui-singularity",
+      "reference": "https://github.com/DIIIUA/ComfyUI-Event-Equality-Core",
+      "files": [
+        "https://github.com/DIIIUA/ComfyUI-Event-Equality-Core"
+      ],
+      "install_type": "git-clone",
+      "description": "Public-alpha ComfyUI node for Wan I2V/V2V cascade continuation. R178 adds the Tail 5 Continuation Gate: pause at cascade boundaries, inspect the source plus five tail-frame candidates, choose the best continuation frame, resume the same run, save one stitched video, and write a detailed report. Defaults stay conservative with Observe Only math, Report Only prompt analysis, no prompt text injection, and experimental research modes kept out of the public default path."
+    },
+    {
+      "author": "Alexander Guryev",
+      "title": "ComfyUI-GU_Nodepack",
+      "id": "comfyui-gu-nodepack",
+      "reference": "https://github.com/alexguryev/ComfyUI-GU_Nodepack",
+      "files": [
+        "https://github.com/alexguryev/ComfyUI-GU_Nodepack"
+      ],
+      "install_type": "git-clone",
+      "description": "Several utility nodes for ComfyUI: LoRA management, image annotation, project organization, sampling utilities, system integration."
+    },
+    {
+      "author": "azhagurajpandians",
+      "title": "ComfyUI ACES EXR Toolkit",
+      "reference": "https://github.com/azhagurajpandians/ComfyUI-ACES-EXR-Toolkit",
+      "files": [
+        "https://github.com/azhagurajpandians/ComfyUI-ACES-EXR-Toolkit"
+      ],
+      "install_type": "git-clone",
+      "description": "Professional ACES and EXR workflow nodes with OCIO 2.1 support and sequence loading.",
+      "pip": [
+        "opencolorio>=2.2.0",
+        "openexr>=3.2.0"
+      ]
+    },
+    {
+      "author": "Neurad",
+      "title": "ComfyUI-Visual-LoRA-Loader",
+      "reference": "https://github.com/DarthNeurad/ComfyUI-Visual-LoRA-Loader",
+      "files": [
+        "https://github.com/DarthNeurad/ComfyUI-Visual-LoRA-Loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Visual interface for LoRA management with tabs, drag-and-drop, and automatic CivitAI metadata fetching."
     }
   ]
 }
