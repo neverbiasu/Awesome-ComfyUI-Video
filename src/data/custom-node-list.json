@@ -36227,16 +36227,6 @@
       "description": "A drop-in ComfyUI LoRA loader with optional spectral cleanup (energy trimming + hot-layer taming) to reduce artifacts from stacked LoRAs and turbo/distilled models."
     },
     {
-      "author": "wizdroid",
-      "title": "Wizdroid Character Nodes for ComfyUI",
-      "reference": "https://github.com/wizdroid/wizdroid-character",
-      "files": [
-        "https://github.com/wizdroid/wizdroid-character"
-      ],
-      "install_type": "git-clone",
-      "description": "A comprehensive collection of custom nodes for ComfyUI that provide AI-powered prompt generation tools using Ollama. These nodes help create detailed, professional prompts for text-to-image generation across various domains including character creation, fashion, fantasy scenes, and image analysis."
-    },
-    {
       "author": "SnJake",
       "title": "JPG & Noise Remover for ComfyUI",
       "reference": "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner",
@@ -39277,16 +39267,6 @@
       ],
       "install_type": "git-clone",
       "description": "Webcam & Screen Share Input Nodes with Cropping and Live Preview of the Cropped Stream"
-    },
-    {
-      "author": "Aishor",
-      "title": "Meta-Sampler Guiado (Seed-WAN)",
-      "reference": "https://github.com/Aishor/comfyui-meta-sampler-guiado",
-      "files": [
-        "https://github.com/Aishor/comfyui-meta-sampler-guiado"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI node that implements the Guided Meta-Sampler for video outpainting."
     },
     {
       "author": "ModelTC",
@@ -42554,16 +42534,6 @@
       "description": "ComfyUI nodes wrapping LongCat image generation and editing pipelines with text-to-image and multi-image edit flows using diffusers framework. (Description by CC)"
     },
     {
-      "author": "NOLABEL-VFX",
-      "title": "ComfyUI-NL_Nodes",
-      "reference": "https://github.com/NOLABEL-VFX/ComfyUI-NL_Nodes",
-      "files": [
-        "https://github.com/NOLABEL-VFX/ComfyUI-NL_Nodes"
-      ],
-      "install_type": "git-clone",
-      "description": "Custom ComfyUI nodes by NOLABEL for studio workflows, featuring Shot Path Builder that generates standardized, sanitized file and folder names with versioning for renders."
-    },
-    {
       "author": "pantaleone-ai",
       "title": "Comfy-Firefly",
       "reference": "https://github.com/pantaleone-ai/Comfy-Firefly",
@@ -43989,16 +43959,6 @@
       ],
       "install_type": "git-clone",
       "description": "A plugin that enables one-click language switching between Chinese and English in ComfyUI without page refresh. (Description by CC)"
-    },
-    {
-      "author": "JVsup",
-      "title": "ComfyUI-SettingsToText",
-      "reference": "https://github.com/JVsup/ComfyUI-SettingsToText",
-      "files": [
-        "https://github.com/JVsup/ComfyUI-SettingsToText"
-      ],
-      "install_type": "git-clone",
-      "description": "AI-written node to extract basic settings in workflow, with limitations on subgraphed nodes and math/logic node compatibility."
     },
     {
       "author": "GalactusX31",
@@ -47788,16 +47748,6 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that patches the attention mechanism to use Flash Attention 2 on AMD, similar to how Patch Sage Attention KJ works in KJNodes."
-    },
-    {
-      "author": "0xDELUXA",
-      "title": "ComfyUI-DN_AimdoMonitor",
-      "reference": "https://github.com/0xDELUXA/ComfyUI-DN_AimdoMonitor",
-      "files": [
-        "https://github.com/0xDELUXA/ComfyUI-DN_AimdoMonitor"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node for diagnosing and evaluating aimdo's behavior at runtime by validating internal allocation tracking against AMD driver reports."
     },
     {
       "author": "deluxa",
@@ -57899,16 +57849,6 @@
       "description": "Custom math, string, and utility nodes for ComfyUI workflows including LoRA preview and group input management. (Description by CC)"
     },
     {
-      "author": "MarceloSaldias",
-      "title": "ComfyUI-PhotoHandler",
-      "reference": "https://github.com/MarceloSaldias/ComfyUI-PhotoHandler",
-      "files": [
-        "https://github.com/MarceloSaldias/ComfyUI-PhotoHandler"
-      ],
-      "install_type": "git-clone",
-      "description": "A custom ComfyUI node that fetches image descriptions from PhotoHandler via its local HTTP agent API."
-    },
-    {
       "author": "Marigold1122",
       "title": "Chat-Image-Bridge-Node",
       "reference": "https://github.com/Marigold1122/Chat-Image-Bridge-Node",
@@ -59327,16 +59267,6 @@
       ],
       "install_type": "git-clone",
       "description": "A ground-up ComfyUI inference implementation for NormalCrafter. It uses the released NormalCrafter UNet/VAE weights and the Stable Video Diffusion image encoder/scheduler."
-    },
-    {
-      "author": "kaski23",
-      "title": "Lidl_Comfy_Nodes",
-      "reference": "https://github.com/kaski23/Lidl_Comfy_Nodes",
-      "files": [
-        "https://github.com/kaski23/Lidl_Comfy_Nodes"
-      ],
-      "install_type": "git-clone",
-      "description": "Helper nodes for Lidl-ComfyUI-Workflows including image/video loading, string manipulation, and ID generation."
     },
     {
       "author": "kegeai888",
@@ -60769,16 +60699,6 @@
       "description": "A single ComfyUI node: image in → prompt text out, via any llama.cpp VLM."
     },
     {
-      "author": "ZL1417896412",
-      "title": "comfyui_toriigate_widgetfix",
-      "reference": "https://github.com/ZL1417896412/comfyui_toriigate_widgetfix",
-      "files": [
-        "https://github.com/ZL1417896412/comfyui_toriigate_widgetfix"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for ToriiGate-0.5, an image captioning model for anime-style and digital art."
-    },
-    {
       "author": "blackpaw-studio",
       "title": "comfyui-model-manager-nodes",
       "reference": "https://github.com/blackpaw-studio/comfyui-model-manager-nodes",
@@ -61050,6 +60970,17 @@
       ],
       "install_type": "git-clone",
       "description": "Multiple named boolean toggle switches in a single node, each with an independent BOOLEAN output. Adjustable toggle count (1-20) and labels; batch-apply to other nodes by name filter (widgets/bypass/mute)."
+    },
+    {
+      "author": "pixaroma",
+      "title": "ComfyUI-Pixaroma",
+      "id": "comfyui-pixaroma",
+      "reference": "https://github.com/pixaroma/ComfyUI-Pixaroma",
+      "files": [
+        "https://github.com/pixaroma/ComfyUI-Pixaroma"
+      ],
+      "install_type": "git-clone",
+      "description": "Creative suite for ComfyUI: fullscreen Image Composer, Paint, 3D Builder, Image Crop and AudioReact editors, plus Load/Save Image, Save Mp4, Load Video, Inpaint Crop and Stitch, Outpaint, XY Plot, Prompt library, LoRA Loader, Control Panel, Notes, Labels, and canvas tools for aligning and grouping nodes."
     }
   ]
 }
