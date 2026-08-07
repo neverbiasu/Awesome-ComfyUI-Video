@@ -11,6 +11,17 @@
       "description": "ComfyUI custom nodes providing styled draggable float slider widgets"
     },
     {
+      "author": "uron83",
+      "title": "ComfyUI-Qwen-FrameKit",
+      "id": "qwen-framekit",
+      "reference": "https://github.com/uron83/ComfyUI-Qwen-FrameKit",
+      "files": [
+        "https://github.com/uron83/ComfyUI-Qwen-FrameKit"
+      ],
+      "install_type": "git-clone",
+      "description": "Visual camera-angle LoRA control and smart aspect-ratio resizing for Qwen image editing in ComfyUI."
+    },
+    {
       "author": "18yz153",
       "title": "ComfyUI-Persona-Director",
       "reference": "https://github.com/c/ComfyUI-Persona-Director",
@@ -60991,6 +61002,16 @@
       ],
       "install_type": "git-clone",
       "description": "Multi-point white balance and exposure correction for e-commerce product images."
+    },
+    {
+      "author": "DumiFlex",
+      "title": "Wildcard Pipeline",
+      "reference": "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline",
+      "files": [
+        "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline"
+      ],
+      "install_type": "git-clone",
+      "description": "Modular procedural prompt generation — wildcards, fixed values, combines, derivations and constraints resolved in a context pipeline, with a manager UI for a reusable module library."
     }
   ]
 }
