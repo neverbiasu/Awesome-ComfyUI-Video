@@ -11,17 +11,6 @@
       "description": "ComfyUI custom nodes providing styled draggable float slider widgets"
     },
     {
-      "author": "uron83",
-      "title": "ComfyUI-Qwen-FrameKit",
-      "id": "qwen-framekit",
-      "reference": "https://github.com/uron83/ComfyUI-Qwen-FrameKit",
-      "files": [
-        "https://github.com/uron83/ComfyUI-Qwen-FrameKit"
-      ],
-      "install_type": "git-clone",
-      "description": "Visual camera-angle LoRA control and smart aspect-ratio resizing for Qwen image editing in ComfyUI."
-    },
-    {
       "author": "18yz153",
       "title": "ComfyUI-Persona-Director",
       "reference": "https://github.com/c/ComfyUI-Persona-Director",
@@ -55417,8 +55406,7 @@
         "https://github.com/DemonGatanjieu/Anomalous_Model_Browser"
       ],
       "install_type": "git-clone",
-      "description": "Auto-injects model hashes and auto-fixes missing nodes or renamed models paths when sharing workflows.",
-      "nodename_pattern": ".*"
+      "description": "UI-only extension for model library management and workflow authoring. Features visual model/LoRA insertion, prompt notebooks, gallery, and safe file management. Includes 'Model Doctor' to auto-restore broken model paths using metadata previously injected by this plugin."
     },
     {
       "author": "Pikselkroken",
@@ -60883,7 +60871,7 @@
         "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader"
       ],
       "install_type": "git-clone",
-      "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, CLIP and VAE with a dynamic polished UI."
+      "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, dual CLIP outputs and dual VAE outputs with dynamic UI, Registry Node Pack Info previews, and auto CLIP type detection for latest model families."
     },
     {
       "author": "StyleRef",
@@ -61012,6 +61000,27 @@
       ],
       "install_type": "git-clone",
       "description": "Modular procedural prompt generation — wildcards, fixed values, combines, derivations and constraints resolved in a context pipeline, with a manager UI for a reusable module library."
+    },
+    {
+      "author": "uron83",
+      "title": "ComfyUI-Qwen-FrameKit",
+      "id": "qwen-framekit",
+      "reference": "https://github.com/uron83/ComfyUI-Qwen-FrameKit",
+      "files": [
+        "https://github.com/uron83/ComfyUI-Qwen-FrameKit"
+      ],
+      "install_type": "git-clone",
+      "description": "Visual camera-angle LoRA control and smart aspect-ratio resizing for Qwen image editing in ComfyUI."
+    },
+    {
+      "author": "stompy001",
+      "title": "ComfyUI-Quick-Merge",
+      "reference": "https://github.com/stompy001/ComfyUI-Quick-Merge",
+      "files": [
+        "https://github.com/stompy001/ComfyUI-Quick-Merge"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node for image layering, blending, compositing, and batch processing."
     }
   ]
 }
