@@ -61021,6 +61021,17 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI node for image layering, blending, compositing, and batch processing."
+    },
+    {
+      "author": "JerryZRic",
+      "title": "ComfyUI MiniMax H3 Context IR Agent",
+      "id": "minimax-h3-context-ir-agent",
+      "reference": "https://github.com/JerryZRic/comfyui-minimax-h3-context-ir-agent",
+      "files": [
+        "https://github.com/JerryZRic/comfyui-minimax-h3-context-ir-agent"
+      ],
+      "install_type": "git-clone",
+      "description": "OpenAI API based prompt rewriting agents for MiniMax H3 T2VA/I2VA/L2VA/FL2VA and Ref2VA workflows, using the official H3 skill files."
     }
   ]
 }
