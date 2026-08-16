@@ -60871,7 +60871,7 @@
         "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader"
       ],
       "install_type": "git-clone",
-      "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, dual CLIP outputs and dual VAE outputs with dynamic UI, Registry Node Pack Info previews, and auto CLIP type detection for latest model families."
+      "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, dual CLIP outputs and dual VAE outputs with dynamic UI, Registry Node Pack Info previews, and auto CLIP type detection for latest model families including MiniMax Music3/MM3."
     },
     {
       "author": "StyleRef",
@@ -61023,6 +61023,16 @@
       "description": "A ComfyUI node for image layering, blending, compositing, and batch processing."
     },
     {
+      "author": "CocyNoric",
+      "title": "ComfyUI-ToriiGate-Reforged",
+      "reference": "https://github.com/CocyNoric/ComfyUI-ToriiGate-Reforged",
+      "files": [
+        "https://github.com/CocyNoric/ComfyUI-ToriiGate-Reforged"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node pack for image captioning and text generation with ToriiGate-0.5, a fine-tuned Qwen3.5-4B model."
+    },
+    {
       "author": "JerryZRic",
       "title": "ComfyUI MiniMax H3 Context IR Agent",
       "id": "minimax-h3-context-ir-agent",
@@ -61032,6 +61042,80 @@
       ],
       "install_type": "git-clone",
       "description": "OpenAI API based prompt rewriting agents for MiniMax H3 T2VA/I2VA/L2VA/FL2VA and Ref2VA workflows, using the official H3 skill files."
+    },
+    {
+      "author": "mickmumpitz",
+      "title": "ComfyUI-SplatKit",
+      "id": "splatkit",
+      "reference": "https://github.com/mickmumpitz/ComfyUI-SplatKit",
+      "files": [
+        "https://github.com/mickmumpitz/ComfyUI-SplatKit"
+      ],
+      "install_type": "git-clone",
+      "description": "Build 3D Gaussian Splat training datasets from a single 360 panorama, inside ComfyUI."
+    },
+    {
+      "author": "Andy294753951",
+      "title": "ComfyUI-Flow-Wrangler",
+      "reference": "https://github.com/Andy294753951/ComfyUI-Flow-Wrangler",
+      "files": [
+        "https://github.com/Andy294753951/ComfyUI-Flow-Wrangler"
+      ],
+      "install_type": "git-clone",
+      "description": "Frontend-only workflow productivity extension providing Alt-right-click smart linking, selection-wide smart connection, input swapping, reroute insertion, data-flow arrangement, and bypass controls."
+    },
+    {
+      "author": "JerryZRic",
+      "title": "ComfyUI MiniMax H3 Latent",
+      "id": "minimax-h3-latent",
+      "reference": "https://github.com/JerryZRic/comfyui-minimax-h3-latent",
+      "files": [
+        "https://github.com/JerryZRic/comfyui-minimax-h3-latent"
+      ],
+      "install_type": "git-clone",
+      "description": "Save and load MiniMax H3 AV NestedTensor latents, avoiding the built-in Save Latent limitation for H3 video/audio latent pairs."
+    },
+    {
+      "author": "buqi-code",
+      "title": "buqi-minimax-h3-multigpu",
+      "reference": "https://github.com/buqi-code/buqi-minimax-h3-multigpu",
+      "files": [
+        "https://github.com/buqi-code/buqi-minimax-h3-multigpu"
+      ],
+      "nodename_pattern": "MiniMaxH3SP.*",
+      "install_type": "git-clone",
+      "description": "Multi-GPU (Ulysses sequence-parallel) inference for MiniMax-H3: drop-in UNETLoader replacement sharding the packed video+audio sequence across 2/4/7/8 GPUs, bit-identical output. Requires ComfyUI >= 0.30.0 and Linux or WSL2 (NCCL; no native Windows)."
+    },
+    {
+      "author": "ukr8b3g-cmyk",
+      "title": "H3 Continuum",
+      "reference": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum"
+      ],
+      "install_type": "git-clone",
+      "description": "Long-form MiniMax H3 video generation for ComfyUI with AV latent continuation, reference conditioning, chunked sampling, and resume support."
+    },
+    {
+      "author": "ANe5s",
+      "title": "ComfyUI MiniMax H3 Hybrid",
+      "id": "comfyui-minimax-h3-hybrid",
+      "reference": "https://github.com/ANe5s/ComfyUI-MiniMax-H3-Hybrid",
+      "files": [
+        "https://github.com/ANe5s/ComfyUI-MiniMax-H3-Hybrid"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node for loading a MiniMax H3 FL2VA/Ref2VA hybrid model with ComfyUI DynamicVRAM/AIMDO-aware loading and matched checkpoint memory behavior."
+    },
+    {
+      "author": "DenRakEiw",
+      "title": "ComfyGotchi",
+      "reference": "https://github.com/DenRakEiw/ComfyGotchi",
+      "files": [
+        "https://github.com/DenRakEiw/ComfyGotchi"
+      ],
+      "install_type": "git-clone",
+      "description": "A Tamagotchi that lives inside ComfyUI — feeds on your AI slop, evolves, feels love from API nodes."
     }
   ]
 }

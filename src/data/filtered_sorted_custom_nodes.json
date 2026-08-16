@@ -7807,6 +7807,44 @@
       "description": "Local vision-language auto prompt builder for SCAIL/SCAIL-2 character and object replacement workflows. Generates a prompt from a reference image and sampled source-video frames, using local VLM models only.",
       "stars": 0,
       "author_account_age_days": 1157
+    },
+    {
+      "author": "JerryZRic",
+      "title": "ComfyUI MiniMax H3 Latent",
+      "id": "minimax-h3-latent",
+      "reference": "https://github.com/JerryZRic/comfyui-minimax-h3-latent",
+      "files": [
+        "https://github.com/JerryZRic/comfyui-minimax-h3-latent"
+      ],
+      "install_type": "git-clone",
+      "description": "Save and load MiniMax H3 AV NestedTensor latents, avoiding the built-in Save Latent limitation for H3 video/audio latent pairs.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "buqi-code",
+      "title": "buqi-minimax-h3-multigpu",
+      "reference": "https://github.com/buqi-code/buqi-minimax-h3-multigpu",
+      "files": [
+        "https://github.com/buqi-code/buqi-minimax-h3-multigpu"
+      ],
+      "nodename_pattern": "MiniMaxH3SP.*",
+      "install_type": "git-clone",
+      "description": "Multi-GPU (Ulysses sequence-parallel) inference for MiniMax-H3: drop-in UNETLoader replacement sharding the packed video+audio sequence across 2/4/7/8 GPUs, bit-identical output. Requires ComfyUI >= 0.30.0 and Linux or WSL2 (NCCL; no native Windows).",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "ukr8b3g-cmyk",
+      "title": "H3 Continuum",
+      "reference": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum"
+      ],
+      "install_type": "git-clone",
+      "description": "Long-form MiniMax H3 video generation for ComfyUI with AV latent continuation, reference conditioning, chunked sampling, and resume support.",
+      "stars": 0,
+      "author_account_age_days": 0
     }
   ]
 }
