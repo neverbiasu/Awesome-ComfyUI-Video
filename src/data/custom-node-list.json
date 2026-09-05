@@ -43922,6 +43922,18 @@
       "description": "VS Code-inspired MiniMax H3 prompt editor with strict prompt sections, completions, reference media previews, and plain STRING output."
     },
     {
+      "author": "ethanfel",
+      "title": "Meta SAM-Audio",
+      "id": "comfyui-meta-sam-audio",
+      "version": "0.3.0",
+      "reference": "https://github.com/ethanfel/ComfyUI-SAM-Audio",
+      "files": [
+        "https://github.com/ethanfel/ComfyUI-SAM-Audio"
+      ],
+      "install_type": "git-clone",
+      "description": "Meta SAM-Audio sound separation with text, time-span, and visual-mask prompts, ComfyUI model management, chunked processing, and optional Comfy Kitchen attention."
+    },
+    {
       "author": "shin131002",
       "title": "RandomLoRALoader",
       "reference": "https://github.com/shin131002/RandomLoRALoader",
@@ -61180,6 +61192,67 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI custom node that combines MiniMax H3 target-frame image conditioning and Ref2VA reference conditioning in a single node."
+    },
+    {
+      "author": "SgtSauv",
+      "title": "SSG Smart Suite",
+      "id": "ComfyUI-SSG-Smart-Suite",
+      "reference": "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite",
+      "files": [
+        "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite"
+      ],
+      "install_type": "git-clone",
+      "description": "A native, high-performance signal-routing, workflow-organization, and virtual-memory architecture for ComfyUI"
+    },
+    {
+      "author": "ReSerendipity",
+      "title": "ComfyUI-BatchPromptLoader",
+      "reference": "https://github.com/ReSerendipity/ComfyUI-BatchPromptLoader",
+      "files": [
+        "https://github.com/ReSerendipity/ComfyUI-BatchPromptLoader"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node that loads and encodes prompts from TXT files with fixed/increment/decrement/random modes for batch image generation."
+    },
+    {
+      "author": "Jit-Roy",
+      "title": "ComfyUI-WeeLLM",
+      "reference": "https://github.com/Jit-Roy/ComfyUI-WeeLLM",
+      "files": [
+        "https://github.com/Jit-Roy/ComfyUI-WeeLLM"
+      ],
+      "install_type": "git-clone",
+      "description": "Native ComfyUI integration for WeeLLM: Run multi-billion parameter diffusion models (FLUX, SD3, MiniMax) under 4GB VRAM using layer-streaming inference."
+    },
+    {
+      "author": "RyanKramer",
+      "title": "ComfyUI-PixelPanda",
+      "reference": "https://github.com/RyanKramer/ComfyUI-PixelPanda",
+      "files": [
+        "https://github.com/RyanKramer/ComfyUI-PixelPanda"
+      ],
+      "install_type": "git-clone",
+      "description": "PixelPanda AI image tools (cloud API): remove background, AI upscale 2x/4x/8x, enhance, remove text/watermarks, prompt edit. No extra models or VRAM."
+    },
+    {
+      "author": "VRAM-Hoarder",
+      "title": "ComfyUI Free Model and Node Cache",
+      "reference": "https://github.com/VRAM-Hoarder/ComfyUI-Free_model_and_node_cache",
+      "files": [
+        "https://github.com/VRAM-Hoarder/ComfyUI-Free_model_and_node_cache"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI custom node that replicates the function of the -Free model and node cache- toolbar button, usable INLINE in a workflow, so you can force a VRAM/RAM cleanup automatically after every generation instead of clicking a button manually."
+    },
+    {
+      "author": "ivellioscolin",
+      "title": "ComfyUI-Auth",
+      "reference": "https://github.com/ivellioscolin/comfyui-auth",
+      "files": [
+        "https://github.com/ivellioscolin/comfyui-auth"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI custom node for local account and LDAP based authentication"
     },
     {
       "author": "ntdviet",
