@@ -6,6 +6,7 @@
 
 - [Official Video Nodes](#official-video-nodes)
 - [Outstanding Community Custom Nodes](#outstanding-community-custom-nodes)
+- [Workflow Utilities](#workflow-utilities)
 - [Example Video Workflows](#example-video-workflows)
 
 ## Official Video Nodes
@@ -33,6 +34,13 @@
 | ComfyUI-segment-anything-2  | kijai        | Nodes to use [segment-anything-2](https://github.com/facebookresearch/segment-anything-2) for image or video segmentation.                                                                                                                                                              | 867   | 2025-03-19 09:40:37 | [GitHub](https://github.com/kijai/ComfyUI-segment-anything-2)     | ...                                                    |
 
 - 👉 [See all node packages and details in nodes.md (future English version might be at docs/en/nodes_en.md)](docs/nodes.md)
+
+## Workflow Utilities
+
+- [ComfyUI Workflow Inspector](https://github.com/william08190/comfyui-workflow-inspector):
+  Browser-only workflow JSON inspector and diff tool for output nodes,
+  preview branches, duration/FPS fields, prompts, seeds, and migration briefs.
+  Useful before moving video workflows to hosted ComfyUI or RunningHub.
 
 ## Example Video Workflows
 Showcase several typical node combination workflows, focusing on real application scenarios.
