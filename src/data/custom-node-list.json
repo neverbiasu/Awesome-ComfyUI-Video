@@ -34566,6 +34566,16 @@
       "description": "A Tamagotchi that lives inside ComfyUI — feeds on your AI slop, evolves, feels love from API nodes."
     },
     {
+      "author": "DenRakEiw",
+      "title": "DenRakEiw Nodes",
+      "reference": "https://github.com/DenRakEiw/DenRakEiw_Nodes",
+      "files": [
+        "https://github.com/DenRakEiw/DenRakEiw_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node pack with latent color match and image adjust tools, a universal neural-network latent upscaler (SD1.5/SDXL/Flux/Wan2.2), Flux LayerDiffuse transparent image generation, a multi-image aspect ratio composer, and Flux 3 API nodes. Integrates the standalone Latent_Nodes and WAN_NN_Latent_Upscale packs (DRE-tagged to coexist without conflicts)."
+    },
+    {
       "author": "RainyN0077",
       "title": "ComfyUI-PromptSE",
       "id": "comfyui-promptse",
@@ -60598,7 +60608,7 @@
         "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader"
       ],
       "install_type": "git-clone",
-      "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, dual CLIP outputs and dual VAE outputs with dynamic UI, Registry Node Pack Info previews, selected-model metadata cleanup, and auto CLIP type detection for latest model families including MiniMax Music3/MM3."
+      "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, dual CLIP outputs and dual VAE outputs with dynamic UI, Registry Node Pack Info previews, selected-model metadata cleanup, and auto CLIP/VAE detection for latest model families including Qwen Image 2.1/QWN2 and MiniMax Music3/MM3."
     },
     {
       "author": "StyleRef",
@@ -61664,6 +61674,77 @@
       ],
       "install_type": "git-clone",
       "description": "Prompt translator and manager: bilingual Chinese-English tag view with drag-to-reorder and temporary hiding, upstream prompt interception, favorites, multiple translation services, and a sidebar dictionary manager."
+    },
+    {
+      "author": "ukr8b3g-cmyk",
+      "title": "MiniMax H3 Draft Continue",
+      "reference": "https://github.com/ukr8b3g-cmyk/MiniMax-H3-T2VA-Draft-Continue",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/MiniMax-H3-T2VA-Draft-Continue"
+      ],
+      "install_type": "git-clone",
+      "description": "Review a predicted first frame, then continue the same MiniMax H3 sampling state with Preview/GO safety, Reference, structured BBOX, and Multi-Key support."
+    },
+    {
+      "author": "D33MO",
+      "title": "ComfyUI Prompt Warehouse",
+      "reference": "https://github.com/D33MO/ComfyUI-Prompt-Warehouse",
+      "files": [
+        "https://github.com/D33MO/ComfyUI-Prompt-Warehouse"
+      ],
+      "install_type": "git-clone",
+      "description": "Prompt warehouse and workflow utility nodes for ComfyUI, including reusable prompts, multiline prompt editing, a persistent multi-LoRA loader, and deletable image output."
+    },
+    {
+      "author": "Songssx",
+      "title": "ComfyUI MiniMax H3 Timeline Director",
+      "reference": "https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector",
+      "files": [
+        "https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector"
+      ],
+      "install_type": "git-clone",
+      "description": "A visual timeline and material planner for native MiniMax H3 video generation, with ordered image/video/audio references, editable Guides, prompt-planning integration, and long-video segment workflows."
+    },
+    {
+      "author": "yonghaozheng64-commits",
+      "title": "ComfyUI Prompt Workbench",
+      "reference": "https://github.com/yonghaozheng64-commits/comfyui-prompt-workbench",
+      "files": [
+        "https://github.com/yonghaozheng64-commits/comfyui-prompt-workbench"
+      ],
+      "install_type": "git-clone",
+      "description": "Sidebar for prompt composition, field templates, LoRA character/outfit selections, saved batch presets and pause/resume submission. Chinese/English UI and local backups. Install ComfyUI LoRA Trigger Helper for metadata scanning/editing and character output organization."
+    },
+    {
+      "author": "yonghaozheng64-commits",
+      "title": "ComfyUI LoRA Trigger Helper",
+      "reference": "https://github.com/yonghaozheng64-commits/comfyui-lora-trigger-helper",
+      "files": [
+        "https://github.com/yonghaozheng64-commits/comfyui-lora-trigger-helper"
+      ],
+      "install_type": "git-clone",
+      "description": "Local metadata backend for ComfyUI Prompt Workbench: offline safetensors trigger scanning, editable character/outfit groups and output organization. Optional explicit online scans query Civitai using SHA-256 hashes. No models or personal database bundled; no standalone panel."
+    },
+    {
+      "author": "bada-ya",
+      "title": "ComfyUI-Bada-Utils",
+      "reference": "https://github.com/bada-ya/ComfyUI-Bada-Utils",
+      "files": [
+        "https://github.com/bada-ya/ComfyUI-Bada-Utils"
+      ],
+      "install_type": "git-clone",
+      "description": "All-in-One Quality of Life, Smart Presets Hub, Auto Model Assigner & Visual Regional Prompting Suite for ComfyUI"
+    },
+    {
+      "author": "CoolBreeze164",
+      "title": "ComfyUI CoolB Nodes",
+      "id": "ComfyUI-CoolB-Nodes",
+      "reference": "https://github.com/CoolBreeze164/ComfyUI-CoolB-Nodes",
+      "files": [
+        "https://github.com/CoolBreeze164/ComfyUI-CoolB-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "A simple pack of utility nodes for ComfyUI featuring saving/loading speakers with transcripts (useful alongside TTS packs), execution flow control (muting/bypassing nodes and groups on trigger to actively change the workflow state from run to run), some useful text file utilities (including save/load text file) and data type conversion."
     },
     {
       "author": "ntdviet",
