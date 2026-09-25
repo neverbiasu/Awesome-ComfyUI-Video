@@ -22656,16 +22656,6 @@
       "description": "This extension adds CUDA device selection to supported loader nodes in ComfyUI. By monkey-patching ComfyUI’s memory management, each model component (like UNet, Clip, or VAE) can be loaded on a specific GPU. Examples included are multi-GPU workflows for SDXL, FLUX, LTXVideo, and Hunyuan Video for both standard and GGUF loader nodes."
     },
     {
-      "author": "pollockjj",
-      "title": "comfyui-sealedcuda",
-      "reference": "https://github.com/pollockjj/ComfyUI-SealedCuda",
-      "files": [
-        "https://github.com/pollockjj/ComfyUI-SealedCuda"
-      ],
-      "install_type": "git-clone",
-      "description": "Sealed-worker CUDA image nodes (NATTEN, fused-ssim) sourced from prebuilt cuda-wheels"
-    },
-    {
       "author": "PressWagon",
       "title": "ComfyUI-StringsAndThings",
       "reference": "https://github.com/PressWagon/ComfyUI-StringsAndThings",
@@ -35388,146 +35378,6 @@
       "description": "Gather statistics and information about your workflow."
     },
     {
-      "author": "Saganaki22",
-      "title": "dotWaveform",
-      "reference": "https://github.com/Saganaki22/ComfyUI-dotWaveform",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-dotWaveform"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI node for generating animated dotted waveform visualizations with multiple animation styles including teardrop bars"
-    },
-    {
-      "author": "Saganaki22",
-      "title": "Seedream4 Replicate",
-      "reference": "https://github.com/Saganaki22/ComfyUI-Seedream4_Replicate",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-Seedream4_Replicate"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI node for Seedream 4 image generation via Replicate API with support for text-to-image and image-to-image generation"
-    },
-    {
-      "author": "Saganaki22",
-      "title": "Maya1 TTS",
-      "reference": "https://github.com/Saganaki22/ComfyUI-Maya1_TTS",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-Maya1_TTS"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI node for Maya1 TTS - Expressive voice generation with 20+ emotions, voice design, and SNAC neural codec"
-    },
-    {
-      "author": "saganaki22",
-      "title": "Step Audio EditX TTS",
-      "reference": "https://github.com/Saganaki22/ComfyUI-Step_Audio_EditX_TTS",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-Step_Audio_EditX_TTS"
-      ],
-      "install_type": "git-clone",
-      "description": "Professional voice cloning and audio editing node for ComfyUI using Step Audio EditX"
-    },
-    {
-      "author": "saganaki22",
-      "title": "LongCat AudioDiT TTS",
-      "reference": "https://github.com/Saganaki22/ComfyUI-LongCat-AudioDIT-TTS",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-LongCat-AudioDIT-TTS"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for LongCat-AudioDiT TTS - zero-shot and voice cloning diffusion TTS"
-    },
-    {
-      "author": "Saganaki22",
-      "title": "AudioSR",
-      "reference": "https://github.com/Saganaki22/ComfyUI-AudioSR",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-AudioSR"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI node for AudioSR - Versatile Audio Super Resolution upscales audio to 48kHz using latent diffusion"
-    },
-    {
-      "author": "Saganaki22",
-      "title": "Foundation-1",
-      "reference": "https://github.com/Saganaki22/ComfyUI-Foundation-1",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-Foundation-1"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for Foundation-1 | structured text-to-sample generation for music production"
-    },
-    {
-      "author": "Saganaki22",
-      "title": "SoulX-Singer",
-      "reference": "https://github.com/Saganaki22/ComfyUI-SoulX-Singer",
-      "files": [
-        "https://github.com/Saganaki22/ComfyUI-SoulX-Singer"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for SoulX-Singer - Zero-Shot Singing Voice Synthesis"
-    },
-    {
-      "author": "saganaki22",
-      "title": "Higgs v3 TTS",
-      "reference": "https://github.com/Saganaki22/Higgs_v3-TTS-ComfyUI",
-      "files": [
-        "https://github.com/Saganaki22/Higgs_v3-TTS-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for Higgs Audio v3 TTS with native inference, voice cloning, multi-speaker dialogue, longform chunking, and AIMDO DynamicVRAM support"
-    },
-    {
-      "author": "saganaki22",
-      "title": "WavTTS",
-      "reference": "https://github.com/Saganaki22/WavTTS-ComfyUI",
-      "files": [
-        "https://github.com/Saganaki22/WavTTS-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for WavTTS zero-shot text-to-speech with real ComfyUI memory tracking"
-    },
-    {
-      "author": "saganaki22",
-      "title": "MOSS-TTS",
-      "reference": "https://github.com/Saganaki22/Moss_TTS-ComfyUI",
-      "files": [
-        "https://github.com/Saganaki22/Moss_TTS-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for OpenMOSS MOSS-TTS Local Transformer v1.5 with model catalog downloads, Whisper prefix transcription, continuation, voice cloning, and AIMDO memory tracking"
-    },
-    {
-      "author": "saganaki22",
-      "title": "Dots TTS",
-      "reference": "https://github.com/Saganaki22/Dots-TTS-ComfyUI",
-      "files": [
-        "https://github.com/Saganaki22/Dots-TTS-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for rednote-hilab dots.tts with model loading, generation, voice cloning, Whisper transcription, progress tracking, and AIMDO memory visualization"
-    },
-    {
-      "author": "saganaki22",
-      "title": "Ideogram 4 Prompter",
-      "reference": "https://github.com/Saganaki22/ideogram4_prompter-ComfyUI",
-      "files": [
-        "https://github.com/Saganaki22/ideogram4_prompter-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "ComfyUI custom nodes for Ideogram 4 Magic Prompt and Ideogram 4 resolution selection"
-    },
-    {
-      "author": "saganaki22",
-      "title": "ZONOS2 TTS",
-      "reference": "https://github.com/Saganaki22/Zonos2_TTS-ComfyUI",
-      "files": [
-        "https://github.com/Saganaki22/Zonos2_TTS-ComfyUI"
-      ],
-      "install_type": "git-clone",
-      "description": "Native ComfyUI nodes for Zyphra ZONOS2 text-to-speech and voice cloning with AIMDO memory tracking"
-    },
-    {
       "author": "sfinktah",
       "title": "comfy-ovum",
       "reference": "https://github.com/sfinktah/comfy-ovum",
@@ -36275,16 +36125,6 @@
       ],
       "install_type": "git-clone",
       "description": "save your image with customized naming rule"
-    },
-    {
-      "author": "leylahviolet",
-      "title": "iolet Tools 💅",
-      "reference": "https://github.com/leylahviolet/ComfyUI-Violet-Tools",
-      "files": [
-        "https://github.com/leylahviolet/ComfyUI-Violet-Tools"
-      ],
-      "install_type": "git-clone",
-      "description": "Aesthetic-focused custom nodes for ComfyUI with sophisticated style and prompt management"
     },
     {
       "author": "ApexArtist",
@@ -47996,6 +47836,16 @@
       "description": "A ComfyUI custom node that refines and quantizes messy AI-generated pixel art into clean, perfect, and grid-aligned pixels."
     },
     {
+      "author": "aharaooo",
+      "title": "MiniMax H3 Frame Rate Adjustment (Ac)",
+      "reference": "https://github.com/AharaOoO/ComfyUI-MiniMaxH3-FrameRate-Adjustment-Ac",
+      "files": [
+        "https://github.com/AharaOoO/ComfyUI-MiniMaxH3-FrameRate-Adjustment-Ac"
+      ],
+      "install_type": "git-clone",
+      "description": "Experimental MiniMax H3 frame-rate adjustment with temporal-coordinate retiming and pre-sampling AV duration alignment for ComfyUI."
+    },
+    {
       "author": "turinastudio",
       "title": "ComfyUI-SeedVR2-TilingWrapper",
       "reference": "https://github.com/turinastudio/ComfyUI-SeedVR2-TilingWrapper",
@@ -55579,6 +55429,16 @@
       "description": "Normalized Attention Guidance for Krea2 and Krea2Edit in ComfyUI."
     },
     {
+      "author": "iljung1106",
+      "title": "Krea2 Training Free Improvements",
+      "reference": "https://github.com/iljung1106/Krea2-Training-Free-Improvements",
+      "files": [
+        "https://github.com/iljung1106/Krea2-Training-Free-Improvements"
+      ],
+      "install_type": "git-clone",
+      "description": "Composable Krea2 guidance and acceleration nodes, including GAG, NAG, Prompt Reinjection, TaylorSeer, and adaptive progressive sampling."
+    },
+    {
       "author": "TechnoWarrior2",
       "title": "ComfyUI Image Picker",
       "reference": "https://github.com/TechnoWarrior2/comfyui-image-picker",
@@ -56573,6 +56433,16 @@
       ],
       "install_type": "git-clone",
       "description": "Loader node for the pruned FLUX.2-klein-9B text encoder (5.1B). Handles the mixed per-layer FFN/GQA shapes and remapped hidden-state taps that the stock CLIPLoader cannot express."
+    },
+    {
+      "author": "searchingman",
+      "title": "MiniMax H3 Text Encoders",
+      "reference": "https://github.com/kgonia/ComfyUI-MiniMaxH3TextEncoders",
+      "files": [
+        "https://github.com/kgonia/ComfyUI-MiniMaxH3TextEncoders"
+      ],
+      "install_type": "git-clone",
+      "description": "One ComfyUI loader for modified Qwen3-VL text encoders compatible with MiniMax-H3."
     },
     {
       "author": "Hezldeen",
@@ -60854,16 +60724,6 @@
       "description": "String utility nodes for ComfyUI: attach titles to prompts, loop them through your workflow, assemble save paths, and derive a distinct seed per image."
     },
     {
-      "author": "lvquan",
-      "title": "CS Hybrid 4K Image-to-Video",
-      "reference": "https://github.com/lvqunx/comfyui-cs-hybrid",
-      "files": [
-        "https://github.com/lvqunx/comfyui-cs-hybrid"
-      ],
-      "install_type": "git-clone",
-      "description": "Compressed-sensing hybrid 4K image-to-video: RAFT flow transfer, dual-channel Laplacian recompose, CS tile scheduler, keyframe refresh helpers."
-    },
-    {
       "author": "lokitsar",
       "title": "Krea2 Multi-LoRA Composer",
       "reference": "https://github.com/lokitsar/ComfyUI-Krea2-MultiLoRA-Composer",
@@ -60902,6 +60762,16 @@
       ],
       "install_type": "git-clone",
       "description": "Krea2-UniDepth native functional depth and image-reference conditioning."
+    },
+    {
+      "author": "cicalooo",
+      "title": "MiniMax H3 Power LoRA Stack",
+      "reference": "https://github.com/cicalooo/ComfyUI-H3-PowerLoraStack",
+      "files": [
+        "https://github.com/cicalooo/ComfyUI-H3-PowerLoraStack"
+      ],
+      "install_type": "git-clone",
+      "description": "Stacked multi-LoRA loader for MiniMax H3 across bf16, fp8, int8 and w4a8 weights."
     },
     {
       "author": "alexw5702-afk",
@@ -61745,6 +61615,86 @@
       ],
       "install_type": "git-clone",
       "description": "A simple pack of utility nodes for ComfyUI featuring saving/loading speakers with transcripts (useful alongside TTS packs), execution flow control (muting/bypassing nodes and groups on trigger to actively change the workflow state from run to run), some useful text file utilities (including save/load text file) and data type conversion."
+    },
+    {
+      "author": "YingsenP",
+      "title": "ComfyUI-MiniMaxH3-MediaPrompt",
+      "reference": "https://github.com/YingsenP/ComfyUI-MiniMaxH3-MediaPrompt",
+      "files": [
+        "https://github.com/YingsenP/ComfyUI-MiniMaxH3-MediaPrompt"
+      ],
+      "install_type": "git-clone",
+      "description": "MiniMax H3 reference media and rich prompt transport nodes for ComfyUI."
+    },
+    {
+      "author": "nuvulabs",
+      "title": "ComfyUI-MiniMaxH3-Inpaint",
+      "reference": "https://github.com/nuvulabs/ComfyUI-MiniMaxH3-Inpaint",
+      "files": [
+        "https://github.com/nuvulabs/ComfyUI-MiniMaxH3-Inpaint"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI node that seeds MiniMax H3's audio-video NestedTensor latent from a plate video plus a mask, so the sampler inpaints only the masked region (object/character insertion & swap) while preserving the rest of the plate."
+    },
+    {
+      "author": "Hongs",
+      "title": "Hongs-node",
+      "reference": "https://github.com/hong87LH/Hongs-node",
+      "files": [
+        "https://github.com/hong87LH/Hongs-node"
+      ],
+      "install_type": "git-clone",
+      "description": "Compatibility fixes and reusable workflow utility nodes for ComfyUI"
+    },
+    {
+      "author": "GITS Tracked Identity contributors",
+      "title": "comfyui-gits-tracked-identity",
+      "reference": "https://github.com/Niutonian/ComfyUI-GITS-Tracked-Identity",
+      "files": [
+        "https://github.com/Niutonian/ComfyUI-GITS-Tracked-Identity"
+      ],
+      "install_type": "git-clone",
+      "description": "Temporally tracked identity graphic overlays for ComfyUI (single image, video batch, webcam)"
+    },
+    {
+      "author": "tomedonaku29",
+      "title": "Minimax H3 Text Embeddings Node",
+      "reference": "https://github.com/2929Dance/ComfyUI-Minimax-H3-Text-Embeddings",
+      "files": [
+        "https://github.com/2929Dance/ComfyUI-Minimax-H3-Text-Embeddings"
+      ],
+      "install_type": "git-clone",
+      "description": "Support loading text embeddings for Minimax H3 in DiffSynth format"
+    },
+    {
+      "author": "misutesu-desu",
+      "title": "H3 Auto Prompt Chain",
+      "reference": "https://github.com/misutesu-desu/H3-AutoPromptChain",
+      "files": [
+        "https://github.com/misutesu-desu/H3-AutoPromptChain"
+      ],
+      "install_type": "git-clone",
+      "description": "Unattended multi-shot MiniMax H3 prompt chains for ComfyUI"
+    },
+    {
+      "author": "konohana",
+      "title": "Anima-2.9B Remap",
+      "reference": "https://github.com/shin131002/ComfyUI-Anima29B-Remap",
+      "files": [
+        "https://github.com/shin131002/ComfyUI-Anima29B-Remap"
+      ],
+      "install_type": "git-clone",
+      "description": "Auto block-index remapping for applying old-Anima LoRAs and merging models with Anima-2.9B (28-to-40-block layer expansion)"
+    },
+    {
+      "author": "hillobar",
+      "title": "ComfyUI-Hillobar",
+      "reference": "https://github.com/Hillobar/ComfyUI-Hillobar",
+      "files": [
+        "https://github.com/Hillobar/ComfyUI-Hillobar"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for ComfyUI. Includes progressive-resolution (staged) sampling for MiniMax H3."
     },
     {
       "author": "ntdviet",
