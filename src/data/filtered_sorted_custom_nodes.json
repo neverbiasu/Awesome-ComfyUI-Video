@@ -8117,6 +8117,19 @@
       "description": "Temporally tracked identity graphic overlays for ComfyUI (single image, video batch, webcam)",
       "stars": 0,
       "author_account_age_days": 1863
+    },
+    {
+      "author": "ausboss",
+      "title": "ComfyUI-AusBoss",
+      "id": "ausboss-nodes",
+      "reference": "https://github.com/ausboss/ComfyUI-AusBoss",
+      "files": [
+        "https://github.com/ausboss/ComfyUI-AusBoss"
+      ],
+      "install_type": "git-clone",
+      "description": "Image and video nodes with compact controls: crop/rotate/pad editors for images and video, Load Image + Pad, Image Resize, Color Match, Compare A/B, Save Image and Save Video, Load Video, Frame Interpolate, Mask Refine, LaMa Inpaint, Crop/Stitch Inpaint, a LoRA Loader stack, Resolution Master, Seed, Workflow Note, Run Timer and utility nodes. Published on the Comfy Registry as ausboss-nodes.",
+      "stars": 0,
+      "author_account_age_days": 0
     }
   ]
 }

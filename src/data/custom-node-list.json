@@ -61697,6 +61697,37 @@
       "description": "Custom nodes for ComfyUI. Includes progressive-resolution (staged) sampling for MiniMax H3."
     },
     {
+      "author": "ausboss",
+      "title": "ComfyUI-AusBoss",
+      "id": "ausboss-nodes",
+      "reference": "https://github.com/ausboss/ComfyUI-AusBoss",
+      "files": [
+        "https://github.com/ausboss/ComfyUI-AusBoss"
+      ],
+      "install_type": "git-clone",
+      "description": "Image and video nodes with compact controls: crop/rotate/pad editors for images and video, Load Image + Pad, Image Resize, Color Match, Compare A/B, Save Image and Save Video, Load Video, Frame Interpolate, Mask Refine, LaMa Inpaint, Crop/Stitch Inpaint, a LoRA Loader stack, Resolution Master, Seed, Workflow Note, Run Timer and utility nodes. Published on the Comfy Registry as ausboss-nodes."
+    },
+    {
+      "author": "KOFiblto",
+      "title": "ComfyUI-SaturnNodes",
+      "reference": "https://github.com/KOFiblto/ComfyUI-SaturnNodes",
+      "files": [
+        "https://github.com/KOFiblto/ComfyUI-SaturnNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Essential workflow controls: mid-generation pause, persistent queue auto-recovery, visual LoRA/image loaders, prompt queue iterator, interactive decision nodes, and local file runner."
+    },
+    {
+      "author": "chenr5934-tech",
+      "title": "ComfyUI-M8nodes",
+      "reference": "https://github.com/chenr5934-tech/ComfyUI-M8nodes",
+      "files": [
+        "https://github.com/chenr5934-tech/ComfyUI-M8nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI node pack organized by shelf: LLM inference over any OpenAI-compatible API, local GGUF inference with mmproj vision, skill loader, camera framing and multi-character prompting - plus a standalone web workbench that also runs with ComfyUI closed."
+    },
+    {
       "author": "ntdviet",
       "title": "ntdviet/comfyui-ext",
       "reference": "https://github.com/ntdviet/comfyui-ext",
