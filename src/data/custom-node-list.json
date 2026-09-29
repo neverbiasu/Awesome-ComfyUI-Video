@@ -33055,46 +33055,6 @@
       "description": "Professional ComfyUI plugin for Sunra.ai's FLUX.1 Kontext and Seedance models with enhanced UI"
     },
     {
-      "author": "Ben Staniford",
-      "title": "ComfyUI Load Most Recent Image Node",
-      "reference": "https://github.com/benstaniford/comfy-load-last-image",
-      "files": [
-        "https://github.com/benstaniford/comfy-load-last-image"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI node designed to load the most recent image in a folder"
-    },
-    {
-      "author": "Ben Staniford",
-      "title": "Comfy Contact Sheet Image Loader",
-      "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
-      "files": [
-        "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node for loading images from a contact sheet of recent files"
-    },
-    {
-      "author": "Ben Staniford",
-      "title": "LoRa Loader with Trigger Database",
-      "reference": "https://github.com/benstaniford/comfy-lora-loader-with-triggerdb",
-      "files": [
-        "https://github.com/benstaniford/comfy-lora-loader-with-triggerdb"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node that provides a LoRa loader with persistent trigger word storage. Automatically saves and loads trigger words for each LoRa model, making your workflow more efficient."
-    },
-    {
-      "author": "Ben Staniford",
-      "title": "Prompt Database for ComfyUI",
-      "reference": "https://github.com/benstaniford/comfy-prompt-db",
-      "files": [
-        "https://github.com/benstaniford/comfy-prompt-db"
-      ],
-      "install_type": "git-clone",
-      "description": "A ComfyUI custom node that provides a database-driven prompt management system. Store, organize, and edit prompts in categories with persistent JSON storage."
-    },
-    {
       "author": "OneThingAI",
       "title": "ComfyUI OneThing AI Node",
       "reference": "https://github.com/OneThingAI/ComfyUI_Onething_Image",
@@ -37524,6 +37484,16 @@
       ],
       "install_type": "git-clone",
       "description": "A fast drop-in replacement for ComfyUI's Upscale Image (using Model). Batches frames, blends tiles on the GPU, and defaults to no tiling."
+    },
+    {
+      "author": "hearmeman24",
+      "title": "LoRA Block Surgeon",
+      "reference": "https://github.com/Hearmeman24/ComfyUI-LoRABlockSurgeon",
+      "files": [
+        "https://github.com/Hearmeman24/ComfyUI-LoRABlockSurgeon"
+      ],
+      "install_type": "git-clone",
+      "description": "Measure where a LoRA stores its learned change, per transformer block, then apply only the blocks you choose. Read-only: your .safetensors is never rewritten."
     },
     {
       "author": "piscesbody",
@@ -45701,6 +45671,16 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI node for selecting video resolutions with preset dimensions for video generation models like LTX, CogVideo, and Hunyuan. (Description by CC)"
+    },
+    {
+      "author": "hyukudan",
+      "title": "comfyui-outpaintdirectional",
+      "reference": "https://github.com/hyukudan/ComfyUI-OutpaintDirectional",
+      "files": [
+        "https://github.com/hyukudan/ComfyUI-OutpaintDirectional"
+      ],
+      "install_type": "git-clone",
+      "description": "Directional Canvas Placement & Outpainting Tools for ComfyUI"
     },
     {
       "author": "TechnicalTod",
@@ -58836,16 +58816,6 @@
     },
     {
       "author": "kapakahi",
-      "title": "comfyui-KargaLLM",
-      "reference": "https://github.com/kapakahi/comfyui-KargaLLM",
-      "files": [
-        "https://github.com/kapakahi/comfyui-KargaLLM"
-      ],
-      "install_type": "git-clone",
-      "description": "A lightweight, standalone ComfyUI node for LLM-powered text and prompt generation that connects to any OpenAI-compatible local LLM server."
-    },
-    {
-      "author": "kapakahi",
       "title": "comfyui-Karga_RemoteWorkflow",
       "reference": "https://github.com/kapakahi/comfyui-Karga_RemoteWorkflow",
       "files": [
@@ -60345,6 +60315,16 @@
       "description": "Pick a megapixel budget and aspect ratio; get the closest usable resolution."
     },
     {
+      "author": "speedyrulz",
+      "title": "Resize to Multiple",
+      "reference": "https://github.com/speedyrulz/ComfyUI-resize-to-multiple",
+      "files": [
+        "https://github.com/speedyrulz/ComfyUI-resize-to-multiple"
+      ],
+      "install_type": "git-clone",
+      "description": "Resize an image to the closest standard aspect ratio at a target megapixel count, snapped to a selectable pixel multiple, with image, VAE latent, empty latent (SDXL / Flux.2 Klein) and width/height outputs."
+    },
+    {
       "author": "lobo",
       "title": "ComfyUI-Krea2BlockSwap",
       "reference": "https://github.com/olob0/ComfyUI-Krea2BlockSwap",
@@ -61324,6 +61304,16 @@
       "description": "Recursive MiniMax H3 scene loops with motion and audio continuity, visual planning, review gates, atomic checkpoints, resume, and final video assembly."
     },
     {
+      "author": "ethanfel",
+      "title": "MiniMax H3 Edit",
+      "reference": "https://github.com/ethanfel/ComfyUI-MiniMax-H3-Edit",
+      "files": [
+        "https://github.com/ethanfel/ComfyUI-MiniMax-H3-Edit"
+      ],
+      "install_type": "git-clone",
+      "description": "Minimal single-image MiniMax H3 photo editing with native or semantic references"
+    },
+    {
       "author": "pixelpainter",
       "title": "Enhanced Prompt Editor",
       "id": "comfyui-ai-prompt-editor",
@@ -61726,6 +61716,56 @@
       ],
       "install_type": "git-clone",
       "description": "ComfyUI node pack organized by shelf: LLM inference over any OpenAI-compatible API, local GGUF inference with mmproj vision, skill loader, camera framing and multi-character prompting - plus a standalone web workbench that also runs with ComfyUI closed."
+    },
+    {
+      "author": "Keisuke URAGO",
+      "title": "comfyui-conditional-string-concat",
+      "reference": "https://github.com/bravotan/comfyui-conditional-string-concat",
+      "files": [
+        "https://github.com/bravotan/comfyui-conditional-string-concat"
+      ],
+      "install_type": "git-clone",
+      "description": "Concatenate multiple text fields, including only the ones with an enabled checkbox"
+    },
+    {
+      "author": "airo",
+      "title": "Unload Models",
+      "reference": "https://github.com/neezoy/ComfyUI-UnloadModels",
+      "files": [
+        "https://github.com/neezoy/ComfyUI-UnloadModels"
+      ],
+      "install_type": "git-clone",
+      "description": "Passthrough nodes that free models ComfyUI's memory manager will not free, so large models fit on small cards."
+    },
+    {
+      "author": "AesSedai",
+      "title": "comfyui-minimax-h3-parallel",
+      "reference": "https://github.com/AesSedai/ComfyUI-MiniMaxH3-Parallel",
+      "files": [
+        "https://github.com/AesSedai/ComfyUI-MiniMaxH3-Parallel"
+      ],
+      "install_type": "git-clone",
+      "description": "Exact activation-only multi-GPU attention head sharding for MiniMax H3 in ComfyUI."
+    },
+    {
+      "author": "lin-sein",
+      "title": "Lace Studio Refine",
+      "reference": "https://github.com/lin-sein/lace-studio-refine-comfyui",
+      "files": [
+        "https://github.com/lin-sein/lace-studio-refine-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "Deterministic lace scan cleanup, repeat reconstruction, background replacement, and mask output for ComfyUI."
+    },
+    {
+      "author": "beijinren",
+      "title": "H3 Context Noise",
+      "reference": "https://github.com/beijinren/ComfyUI-H3-Context-Noise",
+      "files": [
+        "https://github.com/beijinren/ComfyUI-H3-Context-Noise"
+      ],
+      "install_type": "git-clone",
+      "description": "Manual tapered context noising for MiniMax H3 Motion Context (character-swap continuation)"
     },
     {
       "author": "ntdviet",
