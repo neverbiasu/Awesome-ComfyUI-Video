@@ -32376,6 +32376,17 @@
       "description": "A properly implemented lycoris loader for comfyui."
     },
     {
+      "author": "AbstractEyes",
+      "title": "CFG Megapack",
+      "id": "comfy-cfg-megapack",
+      "reference": "https://github.com/AbstractEyes/comfy-cfg-megapack",
+      "files": [
+        "https://github.com/AbstractEyes/comfy-cfg-megapack"
+      ],
+      "install_type": "git-clone",
+      "description": "Classifier-free guidance taken apart into seven stage nodes (when, weak branch, combine, where, correct, govern, measure) plus 50 nodes named after the published guidance methods they implement (APG, CFG-Zero*, PAG, SEG, Perp-Neg, FDG, the guidance interval and more), all on one engine. SDXL, SD1.5 and flow-matching models (Anima)."
+    },
+    {
       "author": "alchemine",
       "title": "ComfyUI-Alchemine-Pack",
       "reference": "https://github.com/alchemine/comfyui-alchemine-pack",
@@ -61868,6 +61879,57 @@
       ],
       "install_type": "git-clone",
       "description": "A comprehensive, smart and compatible multi-language translation solution for the ComfyUI interface. Frontend and backend cooperate to translate nodes, menus, the settings panel, ComfyUI Manager and workflow templates in real time, while staying fully compatible with ComfyUI's official native translation instead of overriding it. The target language automatically follows ComfyUI's official locale setting (Settings → Extensions → Comfy.Locale), so nothing is forced on users who keep the official language; 15 language packs are bundled, including the RTL languages Arabic, Persian and Hebrew. Translation can be switched on/off live without restarting ComfyUI, and a built-in manager lets you disable translation for individual plugins."
+    },
+    {
+      "author": "aifeifei798",
+      "name": "ComfyUI-FeiFei",
+      "title": "ComfyUI-FeiFei",
+      "reference": "https://github.com/aifeifei798/ComfyUI-FeiFei",
+      "files": [
+        "https://github.com/aifeifei798/ComfyUI-FeiFei"
+      ],
+      "install_type": "git-clone",
+      "description": "FeiFei's custom nodes: LLM-driven Prompt Director, prompt enhancing, vision captioner, aspect-ratio sizing, style/character templates, watermark, WebP save/load.",
+      "pip": [
+        "openai"
+      ],
+      "tags": [
+        "llm",
+        "prompt",
+        "caption",
+        "director",
+        "webp",
+        "feifei"
+      ]
+    },
+    {
+      "author": "oekobudde",
+      "title": "GIF Toolkit",
+      "reference": "https://github.com/oekobudde/ComfyUI-GIFToolkit",
+      "files": [
+        "https://github.com/oekobudde/ComfyUI-GIFToolkit"
+      ],
+      "install_type": "git-clone",
+      "description": "Create compact looping GIFs in ComfyUI with preset sizing, visual multi-text placement, optional blinking and preview-first export."
+    },
+    {
+      "author": "kaerozhi",
+      "title": "ComfyUI VideoMark",
+      "reference": "https://github.com/kaerozhi/comfyui-videomark",
+      "files": [
+        "https://github.com/kaerozhi/comfyui-videomark"
+      ],
+      "install_type": "git-clone",
+      "description": "Watermark node pack for video and image workflows. Corner / center / floating / tiled placement, animated intro and outro copyright cards, and text or PNG-logo overlays with adjustable outline and drop shadow. The watermark text can be typed in the node or driven from an upstream node (text_in), which is handy for burning parameter values into comparison renders. Ships a visual panel for picking styles and uploading a logo, with English and Chinese UI. Works on any IMAGE batch, so it drops into MiniMax H3, Wan, LTX, Hunyuan, VHS or AnimateDiff frame pipelines, and a single photo works too. No extra dependencies beyond ComfyUI's bundled torch / numpy / Pillow.",
+      "tags": [
+        "watermark",
+        "video",
+        "image",
+        "logo",
+        "overlay",
+        "text",
+        "copyright"
+      ]
     },
     {
       "author": "ntdviet",
