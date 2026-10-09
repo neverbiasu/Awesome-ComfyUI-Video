@@ -27662,16 +27662,6 @@
       "description": "Simple node to convert lora_stack output into string to generate a1111-style lora strength output text, like <lora:name:0.69>. Used to include your Lora names from Lora Stack in text input-output nodes and so on."
     },
     {
-      "author": "Jokimbe",
-      "title": "ComfyUI-DrawThings-gRPC",
-      "reference": "https://github.com/Jokimbe/ComfyUI-DrawThings-gRPC",
-      "files": [
-        "https://github.com/Jokimbe/ComfyUI-DrawThings-gRPC"
-      ],
-      "install_type": "git-clone",
-      "description": "Connect to any Draw Things gRPC server"
-    },
-    {
       "author": "Temult",
       "title": "TWanSigmaGraph",
       "reference": "https://github.com/Temult/TWanSigmaGraph",
@@ -38125,6 +38115,28 @@
       "description": "SCAIL and SCAIL-2 pose/mask preprocessing for ComfyUI, including DWPose-compatible pose data, NLF pose renders, condition metadata, and WanVideoWrapper adapter payloads."
     },
     {
+      "author": "rookiestar28",
+      "title": "ComfyUI-MiniMaxH3-Studio",
+      "id": "minimax-h3-studio",
+      "reference": "https://github.com/rookiestar28/ComfyUI-MiniMaxH3-Studio",
+      "files": [
+        "https://github.com/rookiestar28/ComfyUI-MiniMaxH3-Studio"
+      ],
+      "install_type": "git-clone",
+      "description": "A MiniMax H3 video studio inside ComfyUI, with inspectable prompts, official H3 workflow generation, segment planning, and a built-in clip editor."
+    },
+    {
+      "author": "rookiestar28",
+      "title": "ComfyUI-Sigmax",
+      "id": "comfyui-sigmax",
+      "reference": "https://github.com/rookiestar28/ComfyUI-Sigmax",
+      "files": [
+        "https://github.com/rookiestar28/ComfyUI-Sigmax"
+      ],
+      "install_type": "git-clone",
+      "description": "Model-aware sigma schedules, sampler compatibility validation, and versioned inference profiles for ComfyUI."
+    },
+    {
       "author": "MoonMoon82",
       "title": "ClipVision_Tools",
       "reference": "https://github.com/MoonMoon82/ClipVision_Tools",
@@ -42141,6 +42153,17 @@
       "reference": "https://github.com/drawthingsai/draw-things-comfyui",
       "files": [
         "https://github.com/drawthingsai/draw-things-comfyui"
+      ],
+      "preemptions": [
+        "DrawThingsControlNet",
+        "DrawThingsHints",
+        "DrawThingsLoRA",
+        "DrawThingsNegative",
+        "DrawThingsPositive",
+        "DrawThingsPrompt",
+        "DrawThingsRefiner",
+        "DrawThingsSampler",
+        "DrawThingsUpscaler"
       ],
       "install_type": "git-clone",
       "description": "The official Draw Things extension for ComfyUI. Sends image-generation requests to Draw Things over gRPC. Supports Bridge Mode for DT+ cloud and local model execution."
@@ -55341,6 +55364,16 @@
       "description": "Native ComfyUI nodes for EverAnimate-style chunked WanAnimate workflows, including master/chunk settings, chunk calculation, image carry-over, and boundary color correction."
     },
     {
+      "author": "younestft",
+      "title": "Elvax Nodes",
+      "reference": "https://github.com/younestft/Elvax-nodes",
+      "files": [
+        "https://github.com/younestft/Elvax-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Convenience nodes for ComfyUI!\n\n- LLM TURBO : Faster Local LLM all within Comfy \n- Faster Image Load/Crop in one node \n- Faster Upscale + Interpolate+ Film Grain in one node \n- Dynamic Pipes to tidy WFs (supports get/set nodes and reroutes)\n\nAnd more...\n"
+    },
+    {
       "author": "SheikhAnas999",
       "title": "Image Grid Merger",
       "reference": "https://github.com/SheikhAnas999/Images_Merge_ComfyUI",
@@ -61302,6 +61335,17 @@
       "description": "Nodes: CNCC ControlNet, CNCC Apply ControlNet. Saves comfyui_controlnet_aux preprocessors as reusable presets, and lets a single node run the preprocessor and apply the result as a ControlNet (a drop-in alternative to the native Apply ControlNet node). Includes a settings modal for creating/managing presets from a thumbnail gallery."
     },
     {
+      "author": "ketle-man",
+      "title": "ComfyUI-LiveChatStream",
+      "id": "comfyui-livechatstream",
+      "reference": "https://github.com/ketle-man/ComfyUI-LiveChatStream",
+      "files": [
+        "https://github.com/ketle-man/ComfyUI-LiveChatStream"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes: Live Chat Stream. Chat with an LLM / VLM (Ollama) inside a node and turn the streaming reply into images - generation starts as soon as the prompt is written, while the rest of the reply is still streaming. Two prompt lanes (clean <prompt> block and the model's own thinking / reply / inner monologue), character presets, image input/output for I2I, optional decision-model image judge, VRAM auto-unload, and multi-language UI (en/ja/zh)."
+    },
+    {
       "author": "xeinherjer-dev",
       "title": "XENodes",
       "reference": "https://github.com/xeinherjer-dev/ComfyUI-XENodes",
@@ -61983,6 +62027,37 @@
       ],
       "install_type": "git-clone",
       "description": "API nodes for 180+ hosted image, video, audio and chat models (Seedance, Kling, Wan, MiniMax, Vidu, LTX, Suno, GPT Image, Nano Banana, Seedream, FLUX LoRA, TTS) through SpicyAPI. No local GPU needed; each node shows its USD price before you queue. Requires a SpicyAPI key from https://spicyapi.ai."
+    },
+    {
+      "author": "xiaodoudou",
+      "title": "ComfyUI RigShare",
+      "reference": "https://github.com/xiaodoudou/ComfyUI-RigShare",
+      "files": [
+        "https://github.com/xiaodoudou/ComfyUI-RigShare"
+      ],
+      "install_type": "git-clone",
+      "description": "Turn one ComfyUI server into a shared team workspace: accounts and permissions, private and shared folders, live co-editing with cursors, chat, workflow history and a GPU/queue monitor. Continued from ComfyUI-Nexus."
+    },
+    {
+      "author": "huchengAI",
+      "title": "Jingyuma Storyboard",
+      "id": "jingyuma-storyboard",
+      "reference": "https://github.com/huchengAI/comfyui-jingyuma-storyboard",
+      "files": [
+        "https://github.com/huchengAI/comfyui-jingyuma-storyboard"
+      ],
+      "install_type": "git-clone",
+      "description": "Jingyuma Storyboard is a ComfyUI custom node that automatically splits story text into shots and generates image prompts, video prompts and dialogue for each, so you can quickly build a storyboard workflow."
+    },
+    {
+      "author": "genius",
+      "title": "Genius Nodes",
+      "reference": "https://github.com/GeniusGQ/ComfyUI-Genius-Nodes",
+      "files": [
+        "https://github.com/GeniusGQ/ComfyUI-Genius-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Smart and practical custom nodes for ComfyUI."
     },
     {
       "author": "ntdviet",
