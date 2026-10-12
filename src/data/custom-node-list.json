@@ -42581,12 +42581,13 @@
     {
       "author": "pixelpainter",
       "title": "UI-Decorators [SubGraph]",
+      "id": "UI-Decorators",
       "reference": "https://github.com/pixelpainter/UI-Decorators",
       "files": [
         "https://github.com/pixelpainter/UI-Decorators"
       ],
       "install_type": "git-clone",
-      "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization. A Note, a Divider, an editable Spacer, and a Title node. Includes color pickers for fonts, font sizing, bold/non-bold text, and background color picker for the note"
+      "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization: a Note, a Divider, an adjustable Spacer, and a Title. Note and Title text is multiline and editable in place inside the subgraph and on the subgraph front, with font size, bold, text color and note background color pickers. Compatible with the current ComfyUI frontend and backwards compatible with older versions."
     },
     {
       "author": "Austat",
@@ -54921,6 +54922,16 @@
       "description": "A browser panel for the chores around ComfyUI (adds no nodes). Models: scan for Civitai covers, trigger words and base models. Model Check: when a workflow opens, it finds missing models and puts in the same file even if it was renamed or moved. Gallery: search outputs by prompt or LoRA, drag an image back to restore its workflow. Keep whole workflows, or combos (main model + LoRAs + prompt) that lay out a wired group on the canvas. Edit prompts as tags; non-English input becomes English. Activity log with undo. Character voices with the companion Anomalous TTS node."
     },
     {
+      "author": "DemonGatanjieu",
+      "title": "Anomalous TTS (GPT-SoVITS)",
+      "reference": "https://github.com/DemonGatanjieu/Anomalous_TTS",
+      "files": [
+        "https://github.com/DemonGatanjieu/Anomalous_TTS"
+      ],
+      "install_type": "git-clone",
+      "description": "Speaks scripts with your trained GPT-SoVITS character models (v1 to v2ProPlus; Japanese, Chinese, English): emotion tags, several speakers in one script, pauses. No separate GPT-SoVITS install needed; base models download on first use. Companion of Anomalous Model Browser (import characters, edit emotions and pronunciations), also usable on its own."
+    },
+    {
       "author": "Pikselkroken",
       "title": "ComfyUI-PixlStash",
       "reference": "https://github.com/Pikselkroken/ComfyUI-PixlStash",
@@ -55524,6 +55535,16 @@
       ],
       "install_type": "git-clone",
       "description": "RDNA 3.5 attention research nodes for ComfyUI, including fixed-block, exact Triton, FlexAttention, and PISA paths with model-local fallback handling."
+    },
+    {
+      "author": "Yasei-no-otoko",
+      "title": "ComfyUI Aiter Attention",
+      "reference": "https://github.com/Yasei-no-otoko/ComfyUI-Aiter-Attention",
+      "files": [
+        "https://github.com/Yasei-no-otoko/ComfyUI-Aiter-Attention"
+      ],
+      "install_type": "git-clone",
+      "description": "Experimental per-model native Aiter attention for AMD ROCm. Requires a compatible native Aiter FMHA build; tested on Windows gfx1151."
     },
     {
       "author": "CocyNoric",
@@ -62058,6 +62079,28 @@
       ],
       "install_type": "git-clone",
       "description": "Smart and practical custom nodes for ComfyUI."
+    },
+    {
+      "author": "hermankwan",
+      "title": "ComfyUI Batch Image Timer",
+      "reference": "https://github.com/hermankwan/ComfyUI-Batch-Image-Timer",
+      "files": [
+        "https://github.com/hermankwan/ComfyUI-Batch-Image-Timer"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node for ComfyUI that provides a real-time 7-segment LED display timer to track execution duration and progress during batch image generation."
+    },
+    {
+      "author": "jesse890423",
+      "title": "ComfyUI-Qwen-TTS-5x",
+      "id": "comfyui-qwen-tts-5x",
+      "reference": "https://github.com/jesse890423/ComfyUI-Qwen-TTS-5x",
+      "nodename_pattern": "^FB_Qwen3TTS",
+      "files": [
+        "https://github.com/jesse890423/ComfyUI-Qwen-TTS-5x"
+      ],
+      "install_type": "git-clone",
+      "description": "Speech synthesis, voice cloning and voice design nodes for Qwen3-TTS, patched for transformers 5.x (verified on 5.14.1 / ComfyUI 0.37.0 / torch 2.13.0).\n\nFork of flybirdxx/ComfyUI-Qwen-TTS v1.0.7, which declares transformers>=4.57.0,<5.0.0. This fork adapts the four affected files so the plugin runs on transformers 5.x: pad_token_id no longer copied onto PretrainedConfig, ROPE_INIT_FUNCTIONS['default'] removed, create_causal_mask signature change, cache_position missing on decode (shape crash), and inv_freq left as uninitialised meta memory (silent failure producing wrong-sounding audio).\n\nThe folder created under custom_nodes/ is named ComfyUI-Qwen-TTS-5x.\n\nNode CLASS names are identical to upstream (FB_Qwen3TTS*), so the two packages must not be enabled at the same time -- disable or remove one of them. If you need the original 4.x behaviour, install flybirdxx/ComfyUI-Qwen-TTS pinned to transformers 4.57.3.\n\nLicense: Apache-2.0 (code). Model weights are not included and remain under the Qwen3-TTS License Agreement from Alibaba Cloud."
     },
     {
       "author": "ntdviet",
