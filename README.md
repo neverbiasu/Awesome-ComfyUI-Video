@@ -37,11 +37,23 @@
 ## Example Video Workflows
 Showcase several typical node combination workflows, focusing on real application scenarios.
 
-- **Workflow Name**  
-  - Use case
-  - Involved nodes
-  - Brief process description
-  - [Optional: diagram or link]
+- **Wan 2.2 I2V 720p (8-step HIGH/LOW) — 24GB local**
+  - Use case: image-to-video at 1280x720 on a single 24GB card, no hosted API.
+  - Involved nodes: core ComfyUI nodes only (`LoadImage`, `CLIPTextEncode`, `KSamplerAdvanced` x2, `VAEDecode`, `SaveAnimatedWEBP`) + the two Wan 2.2 I2V-A14B diffusion models. No custom node pack required.
+  - Brief process description: dual HIGH->LOW sampling across two `KSamplerAdvanced` stages, 4+4 steps, cfg 3.5, `shift` 8.0 on `ModelSamplingSD3`, 81 frames (4n+1, as Wan's temporal packing requires) @16fps. The HIGH->LOW handoff splits at exactly half the step budget because the LOW expert is trained on low-noise steps.
+  - Measured: **1135 s** per 5.06s clip on an RTX 5090 Laptop 24GB with sage attention.
+- **Wan 2.2 I2V 720p (4-step Lightning LoRA) — and why it is SLOWER**
+  - Use case: testing the "fewer steps = faster" assumption instead of assuming it.
+  - Involved nodes: same graph plus the lightx2v 4-step LoRA at cfg 1.0.
+  - Brief process description: identical 720p / 81-frame output, 4 sampling steps instead of 8.
+  - Measured: **1731 s — about 52% SLOWER than the 8-step graph.** At 720p both 14B stages already saturate VRAM on a 24GB card, so the extra LoRA loads push the run memory-bound. When you are bandwidth-limited, fewer sampling steps does not mean less wall-clock. Reach for this variant when the card has VRAM headroom, not to save time.
+- **InfiniteTalk audio-driven talking head, 480p on 24GB**
+  - Use case: lip-synced talking-head video from a still image + audio, on 24GB.
+  - Involved nodes: `ComfyUI-WanVideoWrapper` (`WanVideoImageToVideoMultiTalk`, `blocks_to_swap=20` to fit 24GB).
+  - Brief process description: 832x480. Two gotchas worth knowing first: (1) `frame_window_size` is the size of one sampling **window**, not the clip length — the node iterates windows to cover `num_frames`, so setting it equal to a long `num_frames` collapses everything into a single window and the render does not finish (still going at 42 min on 24GB); use 212 for a 304-frame clip. (2) The windowed sampler **overshoots to a window boundary** — 304 frames requested against 12.16s of audio produced 393 frames; trim with `ffmpeg -t 12.16 -c copy`.
+  - Measured: **1080 s** (18 min) for the windowed run.
+
+> The three workflows above are tuned, parameter-documented and measured by the author, who sells them as a pack: <https://adel93.itch.io/wan22-comfyui-workflow-pack> (disclosed affiliation — not an open-source entry). Happy to drop this section if the list is meant to stay free-entries-only.
 
 ---
 
