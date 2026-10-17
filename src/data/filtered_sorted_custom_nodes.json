@@ -8252,6 +8252,19 @@
       "author_account_age_days": 406
     },
     {
+      "author": "hanshs474",
+      "title": "ComfyUI-emaki",
+      "id": "comfyui-emaki",
+      "reference": "https://github.com/hanshs474/ComfyUI-emaki",
+      "files": [
+        "https://github.com/hanshs474/ComfyUI-emaki"
+      ],
+      "install_type": "git-clone",
+      "description": "Seedance 2.5 text to video and image to video through the emaki API (Seedance 2.0, MiniMax H3, Veo 3.1 and Nano Banana 2 for first frames too). No local GPU; needs an emaki API key.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
       "author": "spicyapi-ai",
       "title": "SpicyAPI",
       "reference": "https://github.com/spicyapi-ai/comfyui-spicyapi",
@@ -8274,6 +8287,18 @@
       ],
       "install_type": "git-clone",
       "description": "Audio/video load and format-conversion nodes for ComfyUI. Reads and writes only inside the ComfyUI input/output directories; every path is resolved with realpath and confirmed with commonpath, so absolute paths, '..' traversal and outside symlinks are rejected. Extract the audio track from a video, trim long media by time range, export several formats in one run with parameters auto-adapted to the source, instant same-format passthrough with no re-encoding, a standalone video parameter report, and built-in compliance checks for mainstream Chinese music platforms. English UI by default; a Simplified Chinese translation is available from Interface -> Language.\n\nFiles are read from the ComfyUI input directory (drag and drop, or the upload button on the load nodes) and written to the output directory under a relative prefix. Report text follows the interface language by default and can be pinned per node.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "BSAI",
+      "title": "BSAI-ComfyUI-FastH3",
+      "reference": "https://github.com/xm6018924/BSAI-ComfyUI-FastH3",
+      "files": [
+        "https://github.com/xm6018924/BSAI-ComfyUI-FastH3"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for fast H3 video (with synced audio) generation: 4-step FastVideo FastH3 + Native VSA (Video Sparse Attention). Text-to-Video / Image-to-Video / Multi-reference / 4K Upscale.",
       "stars": 0,
       "author_account_age_days": 0
     }
