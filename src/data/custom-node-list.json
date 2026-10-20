@@ -62293,6 +62293,16 @@
       "description": "Unifies removal of the PyTorch per-process VRAM memory fraction (set_per_process_memory_fraction) limits imposed by ComfyUI custom nodes."
     },
     {
+      "author": "xm6018924",
+      "title": "BSAI-H3-MotionFix",
+      "reference": "https://github.com/xm6018924/BSAI-H3-MotionFix",
+      "files": [
+        "https://github.com/xm6018924/BSAI-H3-MotionFix"
+      ],
+      "install_type": "git-clone",
+      "description": "Glitch & Noise Fix Guide for MiniMax H3 fast-motion clips: outputs recommended steps / attention / reference weight / negative prompt / checklist / post-process, with a realtime plan card on the node."
+    },
+    {
       "author": "j0eyhu",
       "title": "ComfyUI-MacOffload-TE",
       "reference": "https://github.com/j0eyhu/ComfyUI-MacOffload-TE",
@@ -62301,6 +62311,27 @@
       ],
       "install_type": "git-clone",
       "description": "Experimental text encoder offloading for Apple Silicon / Mac setups."
+    },
+    {
+      "author": "AceDataCloud",
+      "title": "Suno by Ace Data Cloud",
+      "id": "ace-suno",
+      "reference": "https://github.com/AceDataCloud/SunoComfyUI",
+      "files": [
+        "https://github.com/AceDataCloud/SunoComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Generate Suno music through your Ace Data Cloud account, query the same task ID, and load completed audio into ComfyUI. Requires an Ace Data Cloud API key; generation consumes Credits. Cloud API only, with no local model or GPU needed."
+    },
+    {
+      "author": "NotUsingGithub",
+      "title": "Wan27",
+      "reference": "https://github.com/NotUsingGithub/ComfyUI-Wan27",
+      "files": [
+        "https://github.com/NotUsingGithub/ComfyUI-Wan27"
+      ],
+      "install_type": "git-clone",
+      "description": "Wan27 image/video API nodes: account and model discovery, credit estimates, explicitly approved generation, and task tracking. Requires an active paid Wan27 subscription and uses website credits. Docs: https://wan2-7.io/mcp/guide/"
     },
     {
       "author": "ntdviet",

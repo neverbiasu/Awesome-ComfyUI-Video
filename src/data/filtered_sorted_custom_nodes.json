@@ -8301,6 +8301,18 @@
       "description": "ComfyUI nodes for fast H3 video (with synced audio) generation: 4-step FastVideo FastH3 + Native VSA (Video Sparse Attention). Text-to-Video / Image-to-Video / Multi-reference / 4K Upscale.",
       "stars": 0,
       "author_account_age_days": 0
+    },
+    {
+      "author": "NotUsingGithub",
+      "title": "Wan27",
+      "reference": "https://github.com/NotUsingGithub/ComfyUI-Wan27",
+      "files": [
+        "https://github.com/NotUsingGithub/ComfyUI-Wan27"
+      ],
+      "install_type": "git-clone",
+      "description": "Wan27 image/video API nodes: account and model discovery, credit estimates, explicitly approved generation, and task tracking. Requires an active paid Wan27 subscription and uses website credits. Docs: https://wan2-7.io/mcp/guide/",
+      "stars": 0,
+      "author_account_age_days": 0
     }
   ]
 }
