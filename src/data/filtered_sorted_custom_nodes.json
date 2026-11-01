@@ -8459,6 +8459,66 @@
       "description": "A Simple App U See. A simple alternative User Interface for Image and Video Generation using ComfyUI as backend.",
       "stars": 0,
       "author_account_age_days": 0
+    },
+    {
+      "author": "Aman Dolorain",
+      "title": "H3 Video Controller",
+      "reference": "https://github.com/AmanDolorain/H3-Video-Controller",
+      "files": [
+        "https://github.com/AmanDolorain/H3-Video-Controller"
+      ],
+      "install_type": "git-clone",
+      "description": "Video timing, fixed native H3 FPS, resolution presets, automatic size alignment and shared metadata for MiniMax H3 workflows.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "Aman Dolorain",
+      "title": "H3 Simple Prompt",
+      "reference": "https://github.com/AmanDolorain/H3-Simple-Prompt",
+      "files": [
+        "https://github.com/AmanDolorain/H3-Simple-Prompt"
+      ],
+      "install_type": "git-clone",
+      "description": "A single multiline prompt textbox with literal STRING output for native MiniMax H3 Reference to Video workflows.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "Aman Dolorain",
+      "title": "ComfyUI-Video-Control",
+      "reference": "https://github.com/AmanDolorain/ComfyUI-Video-Control",
+      "files": [
+        "https://github.com/AmanDolorain/ComfyUI-Video-Control"
+      ],
+      "install_type": "git-clone",
+      "description": "Centralized video timing, FPS, resolution, latent preparation and video metadata for ComfyUI workflows.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "martianacademy",
+      "title": "ComfyUI-PhobosStream",
+      "reference": "https://github.com/martianacademy/ComfyUI-PhobosStream",
+      "files": [
+        "https://github.com/martianacademy/ComfyUI-PhobosStream"
+      ],
+      "install_type": "git-clone",
+      "description": "Universal zero-VRAM diffusion streaming extension for ComfyUI. Enables running Wan2.1 (14B), FLUX.1 (12B), and HunyuanVideo (13B) on consumer Apple Silicon Macs (MLX) and NVIDIA RTX GPUs via 3-stage offloading and block-by-block NVMe streaming.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "oitsukiii",
+      "title": "ComfyUI-ImmichManager",
+      "reference": "https://github.com/oitsukiii/ComfyUI-ImmichManager",
+      "files": [
+        "https://github.com/oitsukiii/ComfyUI-ImmichManager"
+      ],
+      "install_type": "git-clone",
+      "description": "Upload ComfyUI-generated images/videos directly to Immich (PNG/MP4 with embedded workflow metadata), with a built-in asset timeline & management panel (thumbnails, favorites, trash, batch ops). SSRF-checked; config and token routes are local-only unless a panel token is presented.",
+      "stars": 0,
+      "author_account_age_days": 0
     }
   ]
 }
