@@ -59966,6 +59966,16 @@
       "description": "Crop an image/mask to its bounding box and resize, with an added `multiple` option to force output dimensions to a chosen step size."
     },
     {
+      "author": "mo-akkakk",
+      "title": "Minimax H3 Temporal Window & Spatial Tiles",
+      "reference": "https://github.com/mo-akkakk/ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles",
+      "files": [
+        "https://github.com/mo-akkakk/ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles"
+      ],
+      "install_type": "git-clone",
+      "description": "Long and high-resolution video-to-video for the open-weights MiniMax H3: overlapping temporal windows sampled one after another, and spatial tiles that each follow their exact crop of the plate, with an optional full-resolution plate input. Works in stage 1 and stage 2 with native ComfyUI H3 nodes."
+    },
+    {
       "author": "MaxKruse",
       "title": "ComfyUI_Image_Dimension_Scaler",
       "reference": "https://github.com/MaxKruse/ComfyUI_Image_Dimension_Scaler",
@@ -60527,6 +60537,16 @@
       "description": "A full prompt-writing studio in a single node: AI prompt enhance, variations, aesthetic inverter, and natural-language instruct editing driven by your local Ollama models. Includes style targeting with sliders, image to prompt and video to prompt captioning, a built-in browser for Civitai and Genur.art prompts and workflows, favorites and snippets, and wireless prompt injection into any text widget with no wires."
     },
     {
+      "author": "pixelpainter",
+      "title": "Subgraph Navigator",
+      "reference": "https://github.com/pixelpainter/comfyui-SubgraphNavigator",
+      "files": [
+        "https://github.com/pixelpainter/comfyui-SubgraphNavigator"
+      ],
+      "install_type": "git-clone",
+      "description": "A floating panel to jump anywhere in a workflow of nested Subgraphs, opened from the sidebar. A tree of every Subgraph (every copy listed, click to go there), a live map of the current graph to pan, zoom and jump to any node, pinned nodes saved in the workflow, search across all Subgraphs, and back/forward through your jumps. Adds no nodes; works with the classic canvas and Nodes 2.0."
+    },
+    {
       "author": "ukr8b3g-cmyk",
       "title": "MiniMax Music3 Semantic Studio",
       "reference": "https://github.com/ukr8b3g-cmyk/MiniMax-Music3-Semantic-Studio",
@@ -60870,6 +60890,16 @@
       ],
       "install_type": "git-clone",
       "description": "Visual character-sheet prompt and layout designer for MOSS-Image in ComfyUI, with up to 13 selectable views, per-part prompts, and automatic or manual output sizing. Image input is described as text before new image generation, not direct image editing. Requires a recent ComfyUI and separately downloaded MOSS-Image models."
+    },
+    {
+      "author": "ukr8b3g-cmyk",
+      "title": "H3 Camera Prompt Adapter",
+      "reference": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Camera-Prompt-Adapter",
+      "files": [
+        "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Camera-Prompt-Adapter"
+      ],
+      "install_type": "git-clone",
+      "description": "Adapts Qwen Multiangle Camera prompts and camera coordinates for multi-angle MiniMax H3 image editing."
     },
     {
       "author": "D33MO",
@@ -62228,6 +62258,16 @@
       "description": "FaceDetailer variant for ComfyUI Impact Pack with a separate denoise value per cycle pass and optional color matching."
     },
     {
+      "author": "un4ssociated",
+      "title": "Krea2 Spatial Composition 3x3",
+      "reference": "https://github.com/un4ssociated/Krea2SpatialComposition",
+      "files": [
+        "https://github.com/un4ssociated/Krea2SpatialComposition"
+      ],
+      "install_type": "git-clone",
+      "description": "Compose region-aware prompts from a 3x3 grid with an in-app visual editor, for rule-of-thirds spatial composition in ComfyUI."
+    },
+    {
       "author": "UmutGuzel",
       "title": "Performance Remix",
       "reference": "https://github.com/UmutGuzel/comfyui-performance-remix",
@@ -62276,6 +62316,38 @@
       ],
       "install_type": "git-clone",
       "description": "A ComfyUI node that fills in tokens like the date and finds and replaces text, with find and replace pairs that grow as you use them, and a passthrough so the date can be taken right before saving."
+    },
+    {
+      "author": "paxalabs",
+      "title": "Paxa TTS for Thai, English and Mandarin",
+      "id": "comfyui-paxa",
+      "reference": "https://github.com/paxalabs/comfyui-paxa",
+      "files": [
+        "https://github.com/paxalabs/comfyui-paxa"
+      ],
+      "install_type": "git-clone",
+      "description": "Text to speech in Thai, English and Mandarin Chinese from Paxa Labs: 50 voices that each speak all three, with direction tags. Speech to text with SRT or WebVTT subtitles as a research preview. Cloud API: needs your own Paxa API key and spends Paxa credits; no local model or GPU."
+    },
+    {
+      "author": "PSA-Team-source",
+      "title": "comfyui-uberllm",
+      "reference": "https://github.com/PSA-Team-source/comfyui-uberllm",
+      "files": [
+        "https://github.com/PSA-Team-source/comfyui-uberllm"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for text-to-video, image-to-video, image generation and image editing through the UberLLM API (Veo 3.1, Kling, Seedance, Wan, Hailuo, Flux, Seedream, Nano Banana and more). You need your own UberLLM API key and prepaid credit; UberLLM bills the calls. No extra dependencies."
+    },
+    {
+      "author": "E2GO",
+      "title": "Powder Nodes",
+      "id": "powder-nodes",
+      "reference": "https://github.com/E2GO/e2go-comfyui-nodes",
+      "files": [
+        "https://github.com/E2GO/e2go-comfyui-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI nodes for prompts, styles, LoRAs, sampling, visual canvas editing and image grids. Includes 44 example workflows and English/Russian documentation."
     },
     {
       "author": "ntdviet",
