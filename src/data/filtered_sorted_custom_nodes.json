@@ -8359,6 +8359,32 @@
       "author_account_age_days": 439
     },
     {
+      "author": "hanshs474",
+      "title": "ComfyUI-FreeImageToVideo",
+      "id": "comfyui-freeimagetovideo",
+      "reference": "https://github.com/hanshs474/ComfyUI-FreeImageToVideo",
+      "files": [
+        "https://github.com/hanshs474/ComfyUI-FreeImageToVideo"
+      ],
+      "install_type": "git-clone",
+      "description": "Text to video and image to video with sound (MiniMax H3) through the Free Image to Video API: connect any IMAGE as the first frame or leave it empty for text to video; the MP4 is saved to the output folder. No local GPU; needs a Free Image to Video API key.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "hanshs474",
+      "title": "ComfyUI-aigifmaker",
+      "id": "comfyui-aigifmaker",
+      "reference": "https://github.com/hanshs474/ComfyUI-aigifmaker",
+      "files": [
+        "https://github.com/hanshs474/ComfyUI-aigifmaker"
+      ],
+      "install_type": "git-clone",
+      "description": "Text to animated GIF through the AI GIF Maker API (native GIF generation, not a converted video). Outputs every frame as an IMAGE batch plus the saved .gif. No local GPU; needs an AI GIF Maker API key.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
       "author": "GITS Tracked Identity contributors",
       "title": "comfyui-gits-tracked-identity",
       "reference": "https://github.com/Niutonian/ComfyUI-GITS-Tracked-Identity",
@@ -8492,6 +8518,30 @@
       "description": "MiniMax H3 (fl2va) video+audio refinement: encodes a draft into an AV latent and builds the conditioning for a low-denoise sampler.",
       "stars": 0,
       "author_account_age_days": 274
+    },
+    {
+      "author": "dxyliwei520",
+      "title": "ComfyUI DM Tail Frames",
+      "reference": "https://github.com/dxyliwei520/comfyui-dm-tail-frames",
+      "files": [
+        "https://github.com/dxyliwei520/comfyui-dm-tail-frames"
+      ],
+      "install_type": "git-clone",
+      "description": "Take the last N frames of an IMAGE batch regardless of total frames (handy for multi-modal video segment stitching) plus a compat shim that re-registers the lost MySplitImageBatch node.",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "wiroai",
+      "title": "Wiro AI",
+      "reference": "https://github.com/wiroai/Wiro-ComfyUI",
+      "files": [
+        "https://github.com/wiroai/Wiro-ComfyUI"
+      ],
+      "install_type": "git-clone",
+      "description": "Run Wiro AI models from ComfyUI: one node for any of the 1,000+ image, video, audio and LLM models in the Wiro AI catalog, plus nodes for Nano Banana Pro, GPT Image 2, Seedream 4.5, Veo 3.1, Kling 3, Seedance and ElevenLabs speech, music and transcription. Results come back as IMAGE, VIDEO, AUDIO and text. Cloud API: needs your own Wiro AI API key and runs are billed to your Wiro AI account; no local model or GPU. No extra dependencies.",
+      "stars": 0,
+      "author_account_age_days": 0
     }
   ]
 }
