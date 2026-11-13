@@ -7899,6 +7899,18 @@
       "author_account_age_days": 437
     },
     {
+      "author": "Moon-NE",
+      "title": "MoonNe_Nodes",
+      "reference": "https://github.com/Moon-NE/MoonNe_Nodes",
+      "files": [
+        "https://github.com/Moon-NE/MoonNe_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Text utilities and NTD11 video mosaic nodes. Includes weighted random prompts, text concatenation, a video file picker, folder batch processing, and audio preservation. Video detection requires an NVIDIA CUDA GPU.",
+      "stars": 0,
+      "author_account_age_days": 137
+    },
+    {
       "author": "albert999-pixel",
       "title": "comfyui-beeble-switchx",
       "reference": "https://github.com/albert999-pixel/comfyui-beeble-switchx",
@@ -8422,6 +8434,30 @@
       "description": "Audio/video load and format-conversion nodes for ComfyUI. Reads and writes only inside the ComfyUI input/output directories; every path is resolved with realpath and confirmed with commonpath, so absolute paths, '..' traversal and outside symlinks are rejected. Extract the audio track from a video, trim long media by time range, export several formats in one run with parameters auto-adapted to the source, instant same-format passthrough with no re-encoding, a standalone video parameter report, and built-in compliance checks for mainstream Chinese music platforms. English UI by default; a Simplified Chinese translation is available from Interface -> Language.\n\nFiles are read from the ComfyUI input directory (drag and drop, or the upload button on the load nodes) and written to the output directory under a relative prefix. Report text follows the interface language by default and can be pinned per node.",
       "stars": 0,
       "author_account_age_days": 40
+    },
+    {
+      "author": "BSAI",
+      "title": "BSAI_ComfyUI_Nodes",
+      "reference": "https://github.com/xm6018924/BSAI_ComfyUI_Nodes",
+      "files": [
+        "https://github.com/xm6018924/BSAI_ComfyUI_Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "BSAI ComfyUI Nodes - Video/Image/Audio processing, LLM inference, AI generation",
+      "stars": 0,
+      "author_account_age_days": 0
+    },
+    {
+      "author": "BSAI",
+      "title": "BSAI-H3-upscale-4K",
+      "reference": "https://github.com/xm6018924/BSAI-H3-upscale-4K",
+      "files": [
+        "https://github.com/xm6018924/BSAI-H3-upscale-4K"
+      ],
+      "install_type": "git-clone",
+      "description": "BSAI H3 upscale 4K - dedicated AI video super-resolution / 4K upscaling plugin for ComfyUI (MiniMax H3, Real-ESRGAN, Tile, FP16)",
+      "stars": 0,
+      "author_account_age_days": 0
     },
     {
       "author": "NotUsingGithub",
